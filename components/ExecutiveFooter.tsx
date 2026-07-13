@@ -56,9 +56,8 @@ export default function ExecutiveFooter() {
               <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer" className="nav-link-footer" style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
                 LinkedIn <ExternalLink size={11} />
               </a>
-              <a href="#" className="nav-link-footer" style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
+              <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer" className="nav-link-footer" style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
                 CER Consultancy <ExternalLink size={11} />
-                {/* VERIFY BEFORE PUBLICATION: Replace # with actual CER URL */}
               </a>
               <Link href="/training-speaking" className="nav-link-footer">
                 Speaker Profile

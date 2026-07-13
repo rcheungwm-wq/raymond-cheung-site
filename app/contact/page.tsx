@@ -636,7 +636,6 @@ export default function ContactPage() {
                           letterSpacing: "0.05em",
                         }}
                       >
-                        {/* VERIFY BEFORE PUBLICATION: confirm email */}
                         Via this form or LinkedIn
                       </p>
                     </div>

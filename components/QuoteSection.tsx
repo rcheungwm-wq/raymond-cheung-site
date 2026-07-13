@@ -77,7 +77,6 @@ export default function QuoteSection() {
           }}
         />
 
-        {/* VERIFY BEFORE PUBLICATION: Confirm quote approval with Raymond */}
       </div>
     </section>
   );
