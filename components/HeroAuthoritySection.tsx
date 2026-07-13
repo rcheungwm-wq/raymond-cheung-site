@@ -173,9 +173,10 @@ export default function HeroAuthoritySection() {
             fontSize: "clamp(1rem, 1.5vw, 1.12rem)", color: "var(--graphite)",
             lineHeight: 1.78, maxWidth: "520px", marginBottom: "2.5rem", opacity: 0.85,
           }}>
-            Raymond Cheung helps boards, insurers, financial institutions and business leaders
-            navigate enterprise risk, capital, climate transition and technological change—turning
-            complexity into practical strategic decisions.
+            Chartered Actuary, C-suite executive and board adviser with more than 20 years
+            across Asia. Raymond helps boards, insurers and financial institutions navigate
+            enterprise risk, capital, climate transition and digital change — turning complexity
+            into decisions that hold.
           </p>
 
           {/* Pathway ticker */}
@@ -212,7 +213,7 @@ export default function HeroAuthoritySection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.68rem",
             letterSpacing: "0.08em", color: "rgba(42,31,26,0.42)", lineHeight: 1.6,
           }}>
-            More than 20 years across actuarial science, insurance, enterprise risk and sustainability in Asia.
+            Former CRO at AIG Asia Pacific · Asia Capital Reinsurance · Regional Insurance Lead at Grab · CEO, CER Consultancy
           </p>
         </div>
 

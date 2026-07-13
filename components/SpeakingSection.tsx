@@ -35,7 +35,7 @@ export default function SpeakingSection() {
               Complex subjects.<br />Clear conversations.<br />Practical conclusions.
             </h2>
             <p style={{ fontSize: "1rem", color: "rgba(245,243,236,0.62)", lineHeight: 1.8, marginBottom: "2.5rem", maxWidth: "440px" }}>
-              Raymond speaks to boards, executives and professional audiences on the forces reshaping risk, insurance, regulation, climate strategy and technology across Asia.
+              Raymond speaks to boards, regulators, executives and professional audiences across Asia on the forces reshaping insurance, risk governance, climate strategy and technology. He does not present theory — he brings the perspective of someone who has held the roles his audiences are navigating.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.6rem", marginBottom: "3rem" }}>
               {speakingFormats.map((fmt) => (

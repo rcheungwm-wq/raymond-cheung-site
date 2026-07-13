@@ -38,7 +38,7 @@ export default function CurrentThemes() {
             const imgKey = Object.keys(themeImages).find(k => theme.title?.includes(k)) || "";
             const imgSrc = themeImages[imgKey] || fallback;
             return (
-              <div key={theme.title} style={{
+              <div key={theme.id} style={{
                 background: "var(--glass)",
                 backdropFilter: "blur(20px) saturate(140%)",
                 WebkitBackdropFilter: "blur(20px) saturate(140%)",
@@ -53,15 +53,25 @@ export default function CurrentThemes() {
                     position: "absolute", inset: 0,
                     background: "linear-gradient(to bottom, transparent, rgba(42,31,26,0.6))",
                   }} />
+                  <div style={{
+                    position: "absolute", bottom: "0.85rem", left: "1rem",
+                    background: "rgba(229,102,74,0.9)", borderRadius: "999px",
+                    padding: "0.25rem 0.75rem",
+                  }}>
+                    <span style={{
+                      fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem",
+                      letterSpacing: "0.12em", color: "#fff", textTransform: "uppercase",
+                    }}>{theme.title}</span>
+                  </div>
                 </div>
                 <div style={{ padding: "1.75rem" }}>
                   <h3 style={{
-                    fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                    fontSize: "0.95rem", fontWeight: 700, color: "var(--midnight-navy)",
-                    marginBottom: "0.65rem",
-                  }}>{theme.title}</h3>
+                    fontFamily: "var(--font-cormorant, Georgia), serif",
+                    fontSize: "1.1rem", fontWeight: 600, fontStyle: "italic",
+                    color: "var(--midnight-navy)", marginBottom: "0.75rem", lineHeight: 1.3,
+                  }}>{theme.headline}</h3>
                   <p style={{
-                    fontSize: "0.87rem", color: "var(--graphite)", lineHeight: 1.72,
+                    fontSize: "0.87rem", color: "var(--graphite)", lineHeight: 1.75,
                     opacity: 0.82, margin: 0,
                   }}>{theme.summary}</p>
                 </div>

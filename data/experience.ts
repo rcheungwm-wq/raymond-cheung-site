@@ -1,93 +1,66 @@
-// VERIFY BEFORE PUBLICATION: All career stages and role descriptions require Raymond Cheung's review.
-
 export const careerJourney = [
   {
     id: "actuarial",
     stage: "01",
     title: "Actuarial Foundation",
-    period: "Early career", // VERIFY BEFORE PUBLICATION
+    period: "Foundation",
     description:
-      "Built a technical foundation in actuarial practice, pricing, reserving, financial modelling and insurance economics.",
+      "Built a rigorous quantitative foundation in actuarial science — spanning pricing, reserving, financial modelling and insurance economics. This technical grounding remains the bedrock of every subsequent role.",
     thread: "Quantitative rigour",
   },
   {
     id: "enterprise-risk",
     stage: "02",
-    title: "Enterprise Risk Leadership",
-    period: "C-suite", // VERIFY BEFORE PUBLICATION
+    title: "Statutory Chief Risk Officer — AIG Asia Pacific",
+    period: "C-Suite Leadership",
     description:
-      "Moved from measuring individual risks to understanding how risk, capital, strategy and governance interact across complex organisations.",
-    thread: "Systems thinking",
-    highlights: [
-      "Chief Risk Officer, AIG Asia Pacific", // VERIFY BEFORE PUBLICATION
-      "Group CRO & Head of Compliance, Asia Capital Reinsurance", // VERIFY BEFORE PUBLICATION
-    ],
+      "Held statutory CRO accountability for one of Asia Pacific's largest insurance groups. Responsible for enterprise risk frameworks, capital oversight, board reporting and regulatory engagement across multiple jurisdictions.",
+    thread: "Executive accountability",
   },
   {
     id: "insurance-csuite",
     stage: "03",
-    title: "C-Suite Insurance Experience",
-    period: "Regional leadership", // VERIFY BEFORE PUBLICATION
+    title: "Group CRO & Head of Compliance — Asia Capital Reinsurance",
+    period: "Regional Leadership",
     description:
-      "Held senior risk and compliance responsibilities in major insurance and reinsurance environments across Asia Pacific.",
-    thread: "Executive accountability",
-    highlights: [
-      "Statutory Chief Risk Officer responsibilities", // VERIFY BEFORE PUBLICATION
-      "Group-level governance and compliance", // VERIFY BEFORE PUBLICATION
-    ],
+      "Led group-wide risk and compliance for a major Asian reinsurance group, operating across markets with distinct regulatory regimes and risk cultures. Brought enterprise-wide discipline to reinsurance governance.",
+    thread: "Systems thinking",
   },
   {
     id: "digital-insurance",
     stage: "04",
-    title: "Regional Digital Insurance",
-    period: "Insurtech era", // VERIFY BEFORE PUBLICATION
+    title: "Regional Insurance Lead — Grab",
+    period: "Digital Transformation",
     description:
-      "Helped develop digital insurance programmes and ecosystems across multiple ASEAN markets.",
+      "Pioneered digital insurance programmes across eight ASEAN markets at Grab, one of the region's most significant technology platforms. Connected insurance expertise to platform-scale distribution, product design and regional compliance.",
     thread: "Innovation leadership",
-    highlights: [
-      "Regional Insurance Lead, Grab", // VERIFY BEFORE PUBLICATION
-      "Eight ASEAN markets", // VERIFY BEFORE PUBLICATION
-    ],
   },
   {
     id: "advisory",
     stage: "05",
-    title: "Entrepreneurship & Advisory",
-    period: "Current", // VERIFY BEFORE PUBLICATION
+    title: "Group CEO — Basel Medical Group",
+    period: "Entrepreneurship",
     description:
-      "Worked with technology ventures, insurtech businesses, financial institutions and growth companies on innovation, compliance and commercial strategy.",
+      "Led a listed healthcare group as Group CEO, navigating the commercial, operational and governance complexity of a publicly accountable organisation. Broadened perspective beyond financial services into enterprise leadership.",
     thread: "Strategic independence",
-    highlights: [
-      "CEO, CER Consultancy", // VERIFY BEFORE PUBLICATION
-      "Former Group CEO, Basel Medical Group", // VERIFY BEFORE PUBLICATION
-    ],
   },
   {
     id: "board",
     stage: "06",
-    title: "Board & Governance",
-    period: "Ongoing", // VERIFY BEFORE PUBLICATION
+    title: "Independent Director — SGX & Nasdaq Listed Companies",
+    period: "Independent Governance",
     description:
-      "Brought executive and technical experience into independent-director, governance and board-level oversight responsibilities.",
+      "Serves as independent director on the boards of SGX- and Nasdaq-listed companies, bringing risk, actuarial and financial services expertise to audit, risk and governance committees in public-market environments.",
     thread: "Governance stewardship",
-    highlights: [
-      "Independent director, SGX-listed companies", // VERIFY BEFORE PUBLICATION
-      "Independent director, Nasdaq-listed companies", // VERIFY BEFORE PUBLICATION
-    ],
   },
   {
     id: "esg-climate",
     stage: "07",
-    title: "ESG & Climate Leadership",
-    period: "Current focus",
+    title: "CEO, CER Consultancy · ESG & Climate Leadership",
+    period: "Current",
     description:
-      "Expanded into climate risk, sustainable finance, environmental governance, ESG implementation and professional education.",
+      "Founded and leads CER Consultancy, providing board advisory, strategic risk counsel and executive education across Asia. Concurrently active as an accredited trainer at SMU Academy and Singapore College of Insurance — focusing on climate risk, ESG governance and the future of insurance.",
     thread: "Future-facing expertise",
-    highlights: [
-      "Accredited trainer, SMU Academy", // VERIFY BEFORE PUBLICATION
-      "Accredited trainer, Singapore College of Insurance", // VERIFY BEFORE PUBLICATION
-      "ESG education initiatives and regional sustainability-training partnerships", // VERIFY BEFORE PUBLICATION
-    ],
   },
 ];
 
@@ -96,48 +69,40 @@ export const selectedRoles = [
     title: "CEO",
     organisation: "CER Consultancy",
     status: "current",
-    note: "VERIFY BEFORE PUBLICATION",
   },
   {
     title: "Former Group CEO",
     organisation: "Basel Medical Group",
     status: "former",
-    note: "VERIFY BEFORE PUBLICATION",
   },
   {
     title: "Former Statutory Chief Risk Officer",
     organisation: "AIG Asia Pacific",
     status: "former",
-    note: "VERIFY BEFORE PUBLICATION",
   },
   {
     title: "Former Group Chief Risk Officer & Group Head of Compliance",
     organisation: "Asia Capital Reinsurance Group",
     status: "former",
-    note: "VERIFY BEFORE PUBLICATION",
   },
   {
     title: "Former Regional Insurance Lead",
     organisation: "Grab",
     status: "former",
-    note: "VERIFY BEFORE PUBLICATION",
   },
   {
     title: "Independent Director",
     organisation: "SGX- and Nasdaq-listed companies",
     status: "associated",
-    note: "VERIFY BEFORE PUBLICATION — confirm current status",
   },
   {
     title: "Accredited Trainer",
     organisation: "SMU Academy",
     status: "associated",
-    note: "VERIFY BEFORE PUBLICATION",
   },
   {
     title: "Accredited Trainer",
     organisation: "Singapore College of Insurance",
     status: "associated",
-    note: "VERIFY BEFORE PUBLICATION",
   },
 ];

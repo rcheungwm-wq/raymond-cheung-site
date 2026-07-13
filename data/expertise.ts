@@ -19,7 +19,7 @@ export const expertiseAreas = [
     whyItMatters:
       "Enterprise risk management determines an organisation's ability to absorb shocks, capitalise on opportunities and sustain the confidence of boards, investors and regulators.",
     raymondPerspective:
-      "Raymond's approach treats risk appetite not as a document but as a living decision boundary. He helps organisations build frameworks that work under pressure—frameworks their boards can trust and their teams can use.",
+      "Raymond's approach treats risk appetite not as a document but as a living decision boundary. He helps organisations build frameworks that work under pressure — frameworks their boards can trust and their teams can use.",
     questions: [
       "Does our risk appetite actually guide decisions?",
       "How should we report risk to the board?",
@@ -54,7 +54,7 @@ export const expertiseAreas = [
     whyItMatters:
       "Insurance leaders who understand capital deeply make better decisions on pricing, reserving, reinsurance and portfolio strategy.",
     raymondPerspective:
-      "Raymond brings actuarial depth and executive experience together to help insurance leaders connect capital decisions to commercial strategy—not just regulatory compliance.",
+      "Raymond brings actuarial depth and executive experience together to help insurance leaders connect capital decisions to commercial strategy — not just regulatory compliance.",
     questions: [
       "How does our capital position affect our strategic options?",
       "Are we reinsuring the right risks?",
@@ -122,7 +122,7 @@ export const expertiseAreas = [
     businessIssue:
       "Directors face increasing accountability for risk decisions they may not have the technical background to challenge effectively.",
     whyItMatters:
-      "Effective board oversight depends on directors who can ask the right questions—not just receive polished presentations.",
+      "Effective board oversight depends on directors who can ask the right questions — not just receive polished presentations.",
     raymondPerspective:
       "Raymond works with boards and committees to sharpen their risk literacy without replacing management's responsibility. His approach is practical, frank and grounded in real governance experience.",
     questions: [
@@ -155,7 +155,7 @@ export const expertiseAreas = [
       "Emerging technology risk",
     ],
     businessIssue:
-      "Insurance organisations often adopt technology without a clear view of the risks it introduces—or the commercial models it enables.",
+      "Insurance organisations often adopt technology without a clear view of the risks it introduces — or the commercial models it enables.",
     whyItMatters:
       "AI, automation and digital distribution are reshaping every part of the insurance value chain. Leaders who understand both the opportunity and the risk will define the next era of the industry.",
     raymondPerspective:
@@ -178,7 +178,7 @@ export const expertiseAreas = [
     id: "executive-education",
     number: "06",
     icon: "graduation-cap",
-    title: "Executive Education",
+    title: "Executive Education & Training",
     description:
       "Converting complex professional subjects into practical learning for boards, executives and industry specialists.",
     topics: [
@@ -214,30 +214,30 @@ export const expertiseAreas = [
 export const currentThemes = [
   {
     id: "climate-transition",
-    number: "01",
-    label: "Climate Transition",
-    headline: "From environmental-risk policy to implementation.",
-    copy: "Boards and insurers must move beyond broad climate commitments toward governance, underwriting, investment, data and disclosure decisions that can withstand regulatory scrutiny.",
+    title: "Climate Transition",
+    headline: "From commitment to implementation.",
+    summary:
+      "Boards and insurers must move beyond broad climate pledges toward governance, underwriting, investment and disclosure decisions that can withstand regulatory scrutiny. The window for preparation is closing.",
   },
   {
     id: "capital-resilience",
-    number: "02",
-    label: "Capital & Resilience",
-    headline: "Capital is not only a regulatory calculation.",
-    copy: "Risk-based capital frameworks affect strategic choices, portfolio structure, reinsurance decisions and the organisation's ability to absorb future shocks.",
+    title: "Capital & Resilience",
+    headline: "Capital is a strategic choice, not a regulatory calculation.",
+    summary:
+      "Risk-based capital frameworks shape strategic options, portfolio structure and reinsurance decisions. Leaders who understand capital deeply hold a structural advantage in every market condition.",
   },
   {
     id: "ai-insurance",
-    number: "03",
-    label: "AI & Insurance",
-    headline: "The opportunity is significant. So are the governance questions.",
-    copy: "Artificial intelligence is reshaping underwriting, operations, fraud management, claims and customer engagement while creating new operational, ethical and regulatory risks.",
+    title: "AI & Insurance",
+    headline: "The opportunity is significant. So are the governance gaps.",
+    summary:
+      "Artificial intelligence is reshaping underwriting, claims, fraud management and customer engagement. The governance frameworks needed to manage it are lagging — and that gap is where risk accumulates.",
   },
   {
     id: "future-insurance",
-    number: "04",
-    label: "The Future of Insurance",
-    headline: "Insurance must become more adaptive, relevant and service-oriented.",
-    copy: "New generations and new distribution models require insurance organisations to rethink products, technology, engagement and customer experience.",
+    title: "The Future of Insurance",
+    headline: "Insurance must become more adaptive, relevant and human.",
+    summary:
+      "New generations and new distribution models require a fundamental rethink of products, technology and engagement. The organisations that adapt early will define the category for the next decade.",
   },
 ];

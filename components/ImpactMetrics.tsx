@@ -3,12 +3,12 @@
 import { useEffect, useRef, useState } from "react";
 
 const metrics = [
-  { value: "20+", label: "Years in Risk & Insurance", context: "Across Asia Pacific markets" },
-  { value: "S$50B+", label: "Assets Risk-Managed", context: "Across insurers and financial institutions" },
-  { value: "3,000+", label: "Professionals Trained", context: "Through executive programmes and workshops" },
-  { value: "8+", label: "Regulatory Frameworks", context: "MAS, HKIA, OJK, CBIRC and beyond" },
-  { value: "15+", label: "Board & Advisory Roles", context: "Across insurance, fintech and ESG organisations" },
-  { value: "40+", label: "Keynotes & Conferences", context: "As invited speaker across Asia" },
+  { value: "20+", label: "Years of Regional Practice", context: "Actuarial, risk, insurance and advisory across Asia" },
+  { value: "8", label: "ASEAN Markets", context: "Connected through digital insurance leadership at Grab" },
+  { value: "AIG · ACR", label: "Statutory C-Suite Risk Leadership", context: "AIG Asia Pacific and Asia Capital Reinsurance Group" },
+  { value: "SGX & Nasdaq", label: "Listed-Company Board Director", context: "Independent governance in public-market environments" },
+  { value: "SMU + SCI", label: "Accredited Executive Trainer", context: "SMU Academy and Singapore College of Insurance" },
+  { value: "6", label: "Core Expertise Domains", context: "Risk · Insurance · ESG · Governance · InsurTech · Education" },
 ];
 
 export default function ImpactMetrics() {

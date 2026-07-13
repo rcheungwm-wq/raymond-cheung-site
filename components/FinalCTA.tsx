@@ -52,8 +52,9 @@ export default function FinalCTA() {
             margin: "0 auto 3rem",
           }}
         >
-          Connect with Raymond to discuss board briefings, strategic advisory,
-          professional education, conference participation or collaboration.
+          If you are looking to strengthen your board&rsquo;s risk oversight,
+          develop your team&rsquo;s capability, engage a credible speaker,
+          or work through a complex advisory challenge — Raymond is the right conversation to start.
         </p>
 
         <div

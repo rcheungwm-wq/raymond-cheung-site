@@ -80,12 +80,6 @@ export default function ExecutiveFooter() {
 
         {/* Bottom */}
         <div style={{ paddingTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
-          <div aria-label="Preview mode notice" style={{ backgroundColor: "rgba(193,162,105,0.08)", border: "1px solid rgba(193,162,105,0.2)", borderRadius: "1px", padding: "0.75rem 1.25rem" }}>
-            <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem", letterSpacing: "0.08em", color: "rgba(193,162,105,0.7)", lineHeight: 1.6 }}>
-              <strong style={{ color: "var(--gold)", textTransform: "uppercase", letterSpacing: "0.12em" }}>CONCEPT PREVIEW</strong>{" "}
-              — This website is a professional proposal prepared from publicly available information. Final content, imagery and affiliations require Raymond Cheung&rsquo;s review and approval before publication.
-            </p>
-          </div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.75rem" }}>
             <p style={{ fontSize: "0.78rem", color: "rgba(245,243,236,0.35)" }}>
               &copy; {currentYear} Raymond Cheung. All rights reserved.
