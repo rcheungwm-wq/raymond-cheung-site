@@ -23,7 +23,7 @@ export default function CredibilityStrip() {
           letterSpacing: "0.2em", color: "rgba(244,229,208,0.45)", textTransform: "uppercase",
           textAlign: "center", marginBottom: "1.5rem",
         }}>
-          Experience across some of Asia&rsquo;s most demanding risk environments
+          Organisations I have worked with, led and advised across Asia
         </p>
 
         <div style={{ display: "flex", gap: 0, flexWrap: "wrap", justifyContent: "center", alignItems: "center" }}>
@@ -46,7 +46,7 @@ export default function CredibilityStrip() {
           letterSpacing: "0.08em", color: "rgba(244,229,208,0.2)", textAlign: "center",
           marginTop: "1.5rem", lineHeight: 1.6,
         }}>
-          Selected organisations connected to Raymond&rsquo;s professional journey. References do not imply endorsement.
+          Selected organisations from my professional journey across actuarial practice, C-suite leadership, board governance and advisory.
         </p>
       </div>
     </section>

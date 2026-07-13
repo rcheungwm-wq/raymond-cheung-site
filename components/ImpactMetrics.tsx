@@ -35,7 +35,7 @@ export default function ImpactMetrics() {
           <span style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "rgba(201,169,97,0.6)", textTransform: "uppercase",
-          }}>Impact at Scale</span>
+          }}>Where I&rsquo;ve worked · What I&rsquo;ve done</span>
           <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(244,229,208,0.1)" }} />
         </div>
 

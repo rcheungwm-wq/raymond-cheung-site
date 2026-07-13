@@ -30,8 +30,8 @@ export default function InsightCards() {
           <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(7,26,43,0.08)" }} />
         </div>
 
-        <h2 id="insights-heading" style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(1.5rem, 2.8vw, 2.2rem)", fontWeight: 700, letterSpacing: "-0.025em", color: "var(--midnight-navy)", maxWidth: "480px", marginBottom: "3.5rem", lineHeight: 1.2 }}>
-          Ideas for leaders navigating uncertainty.
+        <h2 id="insights-heading" style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(1.5rem, 2.8vw, 2.2rem)", fontWeight: 700, letterSpacing: "-0.025em", color: "var(--midnight-navy)", maxWidth: "520px", marginBottom: "3.5rem", lineHeight: 1.2 }}>
+          What I&rsquo;m thinking about — and why it matters to you.
         </h2>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.25rem" }}>

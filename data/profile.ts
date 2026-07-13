@@ -4,7 +4,7 @@ export const profile = {
   nameLast: "Cheung",
   tagline: "Risk clarity for a world in transition.",
   supportingStatement:
-    "Raymond Cheung helps boards, insurers, financial institutions and business leaders navigate enterprise risk, capital, climate transition and technological change — turning complexity into practical strategic decisions.",
+    "I help boards, insurers and financial institutions cut through complexity — so the decisions that shape your organisation's future are made with clarity, not guesswork.",
   alternativeTagline:
     "Actuarial discipline. Executive experience. Forward-looking risk leadership.",
   eyebrow: "Chartered Actuary · C-Suite Executive · Board Adviser",
@@ -30,55 +30,55 @@ export const profile = {
     quote: "Start doing. Don't stop. Keep learning.",
     attribution: "Raymond Cheung",
     context:
-      "A career in risk is ultimately a career in continuous adaptation. Frameworks evolve. Markets shift. Technology accelerates. The responsibility of a leader is to keep pace with change — and to help the next generation prepare for what comes next.",
+      "A career in risk is a career in continuous adaptation. The frameworks I relied on ten years ago have evolved. The markets have shifted. The technology has accelerated. My responsibility — to my clients, to the professionals I train, and to myself — is to keep pace with that change and help others prepare for what comes next.",
   },
   philosophy: {
     headline:
-      "Risk management should not slow an organisation down. It should sharpen where it moves next.",
-    body: "The most consequential risks rarely respect departmental boundaries. They move across strategy, capital, operations, regulation, technology and reputation simultaneously. Raymond brings an uncommon combination of actuarial rigour, C-suite accountability and cross-sector market experience to these challenges — helping decision-makers understand not only what could go wrong, but what must change for an organisation to remain resilient, competitive and ready.",
+      "Risk management shouldn't slow your organisation down. It should sharpen where you move next.",
+    body: "In my experience, the risks that truly threaten an organisation rarely live in one department. They move across strategy, capital, operations, regulation, technology and reputation — all at once. I bring together actuarial rigour, executive leadership and deep market experience to help you make sense of that. Not just to identify what could go wrong, but to decide what must change for your organisation to stay resilient, competitive and ready.",
     principles: [
       {
         title: "See the Whole System",
-        body: "Risk, capital, regulation, technology and commercial strategy are not separate conversations. The leaders who connect them make better decisions.",
+        body: "I connect risk, capital, regulation, technology and commercial strategy into one coherent picture — because your decisions don't happen in silos.",
       },
       {
         title: "Make Complexity Decidable",
-        body: "Technical depth only creates value when it translates into clear choices. Raymond converts sophisticated analysis into language boards and executives can act on.",
+        body: "I translate technical depth into clear choices. If your board can't act on it, the analysis hasn't done its job.",
       },
       {
         title: "Build Capability, Not Dependency",
-        body: "The goal is not to be indispensable. It is to leave organisations better equipped to manage the next challenge on their own.",
+        body: "My goal is to leave your team better equipped to handle the next challenge — not to make myself indispensable.",
       },
     ],
   },
   currentRole: "CEO, CER Consultancy",
   biography: {
     opening:
-      "Raymond Cheung's career has been shaped at the intersection of technical expertise and executive leadership — in markets where the stakes are high and the decisions consequential.",
-    full: "Beginning with an actuarial foundation, he progressed through enterprise risk, insurance leadership, digital transformation, entrepreneurship, independent governance and sustainability — building a perspective few practitioners share. He has held statutory CRO accountability, led regional digital insurance at scale, served on the boards of listed companies, and trained senior professionals across Asia. Today, through CER Consultancy, he advises boards, financial institutions and insurers on the questions that matter most.",
+      "My career has been shaped at the intersection where technical expertise meets executive accountability — in markets where the decisions are hard and the stakes are real.",
+    full: "I started as an actuary, moved into enterprise risk leadership, ran insurance and reinsurance at C-suite level, led digital insurance across eight ASEAN markets at Grab, served as Group CEO of a listed healthcare group, and sat on the boards of SGX- and Nasdaq-listed companies. Today, through CER Consultancy, I advise boards, insurers and financial institutions on the questions that matter most. I also train senior professionals at SMU Academy and the Singapore College of Insurance. That breadth of experience — adviser, operator, director, trainer — is what I bring to every engagement.",
   },
 };
 
 export const metrics = [
   {
     value: "20+",
-    label: "Years of Regional Experience",
-    note: "Across actuarial, risk, insurance and advisory practice in Asia",
+    label: "Years of Regional Practice",
+    note: "Actuarial, risk, insurance and advisory across Asia",
   },
   {
     value: "8",
     label: "ASEAN Markets",
-    note: "Connected through regional digital insurance leadership at Grab",
+    note: "Connected through digital insurance leadership at Grab",
   },
   {
-    value: "C-SUITE",
-    label: "Across Insurance, Risk & Technology",
-    note: "AIG Asia Pacific · Asia Capital Reinsurance · Grab · Basel Medical",
+    value: "AIG · ACR",
+    label: "Statutory C-Suite Risk Leadership",
+    note: "AIG Asia Pacific and Asia Capital Reinsurance Group",
   },
   {
-    value: "BOARD",
-    label: "Director on SGX & Nasdaq Listed Companies",
-    note: "Independent governance across public-market environments",
+    value: "SGX & Nasdaq",
+    label: "Listed-Company Board Director",
+    note: "Independent governance in public-market environments",
   },
 ];
 

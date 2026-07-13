@@ -32,10 +32,10 @@ export default function SpeakingSection() {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "start" }} className="speaking-grid">
           <div>
             <h2 id="speaking-heading" style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700, letterSpacing: "-0.025em", color: "var(--warm-ivory)", lineHeight: 1.15, marginBottom: "1.5rem" }}>
-              Complex subjects.<br />Clear conversations.<br />Practical conclusions.
+              I don&rsquo;t present theory.<br />I bring what I&rsquo;ve lived.<br />And I make it actionable.
             </h2>
             <p style={{ fontSize: "1rem", color: "rgba(245,243,236,0.62)", lineHeight: 1.8, marginBottom: "2.5rem", maxWidth: "440px" }}>
-              Raymond speaks to boards, regulators, executives and professional audiences across Asia on the forces reshaping insurance, risk governance, climate strategy and technology. He does not present theory — he brings the perspective of someone who has held the roles his audiences are navigating.
+              I speak to boards, regulators, executives and professional audiences across Asia on the forces reshaping insurance, risk governance, climate strategy and technology. When I stand up to speak, I bring the perspective of someone who has actually held the roles you are navigating — not read about them.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.6rem", marginBottom: "3rem" }}>
               {speakingFormats.map((fmt) => (
@@ -47,7 +47,7 @@ export default function SpeakingSection() {
             </div>
             <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <Link href="/contact?type=speaking" className="btn-teal" style={{ padding: "0.85rem 1.75rem" }}>
-                Invite Raymond to Speak <ArrowRight size={14} />
+                Invite Me to Speak <ArrowRight size={14} />
               </Link>
               <Link href="/training-speaking" className="btn-ghost-light" style={{ padding: "0.85rem 1.75rem" }}>
                 View Speaking Themes

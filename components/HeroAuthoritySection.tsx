@@ -172,10 +172,10 @@ export default function HeroAuthoritySection() {
             fontSize: "clamp(1rem, 1.5vw, 1.12rem)", color: "var(--graphite)",
             lineHeight: 1.78, maxWidth: "520px", marginBottom: "2.5rem", opacity: 0.85,
           }}>
-            Chartered Actuary, C-suite executive and board adviser with more than 20 years
-            across Asia. Raymond helps boards, insurers and financial institutions navigate
-            enterprise risk, capital, climate transition and digital change — turning complexity
-            into decisions that hold.
+            I'm a Chartered Actuary, C-suite executive and board adviser with more than
+            20 years across Asia. I help boards, insurers and financial institutions cut
+            through complexity — so the decisions that shape your organisation's future
+            are made with clarity, not guesswork.
           </p>
 
           <div aria-live="polite" aria-label="Risk pathway" style={{
@@ -210,7 +210,7 @@ export default function HeroAuthoritySection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.68rem",
             letterSpacing: "0.08em", color: "rgba(42,31,26,0.42)", lineHeight: 1.6,
           }}>
-            Former CRO, AIG Asia Pacific · Asia Capital Reinsurance · Regional Insurance Lead, Grab · CEO, CER Consultancy
+            Former CRO, AIG Asia Pacific · Asia Capital Reinsurance · Regional Insurance Lead, Grab · CEO, CER Consultancy · Accredited Trainer, SMU Academy & SCI
           </p>
         </div>
 

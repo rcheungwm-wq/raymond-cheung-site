@@ -21,7 +21,7 @@ export default function CareerJourney() {
           fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
           letterSpacing: "-0.025em", color: "var(--midnight-navy)", lineHeight: 1.22,
           marginBottom: "3.5rem",
-        }}>Two decades building Asia&rsquo;s risk infrastructure</h2>
+        }}>Two decades at the sharp end of Asia&rsquo;s risk landscape</h2>
 
         <div style={{ position: "relative" }}>
           <div aria-hidden="true" style={{

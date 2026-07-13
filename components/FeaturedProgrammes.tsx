@@ -98,7 +98,7 @@ export default function FeaturedProgrammes() {
               margin: 0,
             }}
           >
-            Practical education for a changing risk environment.
+            How I can help build your organisation&rsquo;s risk capability.
           </h2>
 
           {/* Filters */}

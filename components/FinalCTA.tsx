@@ -24,7 +24,7 @@ export default function FinalCTA() {
             marginBottom: "2rem",
           }}
         >
-          Advisory · Training · Speaking
+          Advisory · Training · Speaking · Board Briefings
         </p>
 
         <h2
@@ -38,7 +38,7 @@ export default function FinalCTA() {
             marginBottom: "1.5rem",
           }}
         >
-          The right response to uncertainty begins with a clearer question.
+          Let&rsquo;s work through what your organisation is facing.
         </h2>
 
         <p
@@ -52,9 +52,9 @@ export default function FinalCTA() {
             margin: "0 auto 3rem",
           }}
         >
-          If you are looking to strengthen your board&rsquo;s risk oversight,
-          develop your team&rsquo;s capability, engage a credible speaker,
-          or work through a complex advisory challenge — Raymond is the right conversation to start.
+          Whether you need to strengthen your board&rsquo;s risk oversight, develop
+          your team&rsquo;s capability, bring a credible voice to your event, or work
+          through a complex advisory challenge — I&rsquo;d welcome the conversation.
         </p>
 
         <div
@@ -67,7 +67,7 @@ export default function FinalCTA() {
           }}
         >
           <Link href="/contact" className="cta-dark-btn">
-            Start a Conversation <ArrowRight size={15} />
+            Get in Touch <ArrowRight size={15} />
           </Link>
           <a
             href="https://www.linkedin.com/in/raymond-cheung-actuary/"
