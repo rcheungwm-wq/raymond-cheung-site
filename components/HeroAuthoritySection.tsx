@@ -411,7 +411,7 @@ export default function HeroAuthoritySection() {
               }}
             >
               <Image
-                src="/raymond-cheung-portrait.jpg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
                 alt="Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
                 fill
                 priority
