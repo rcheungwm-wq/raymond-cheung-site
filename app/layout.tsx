@@ -32,8 +32,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  // PREVIEW MODE: noindex/nofollow active until Raymond approves for publication
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
   title: {
     default: "Raymond Cheung | Actuary, Risk, Insurance & ESG Leadership",
     template: "%s | Raymond Cheung",

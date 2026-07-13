@@ -220,3 +220,62 @@
 ::-webkit-scrollbar-track { background: var(--warm-ivory); }
 ::-webkit-scrollbar-thumb { background: rgba(42,31,26,0.2); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(229,102,74,0.4); }
+
+/* ── Mobile-first responsive overrides ── */
+
+/* Prevent horizontal overflow globally */
+html, body { overflow-x: hidden; max-width: 100vw; }
+*, *::before, *::after { box-sizing: border-box; }
+img, video { max-width: 100%; height: auto; }
+
+/* Touch targets — minimum 44px for interactive elements on mobile */
+@media (max-width: 768px) {
+  button, a { min-height: 44px; }
+
+  /* Section padding */
+  section { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
+
+  /* Reduce large section vertical padding */
+  section[style*="5rem 2rem"] { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+  section[style*="4rem 2rem"] { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+
+  /* Grid collapses */
+  [style*="gridTemplateColumns: \"45fr 55fr\""],
+  [style*="gridTemplateColumns: \"1fr 320px\""],
+  [style*="gridTemplateColumns: \"1fr 340px\""],
+  [style*="gridTemplateColumns: \"1fr 360px\""],
+  [style*="grid-template-columns: repeat(2"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Typography fluid scale boost */
+  body { font-size: 15px; }
+}
+
+/* Small phone */
+@media (max-width: 480px) {
+  section { padding-left: 1rem !important; padding-right: 1rem !important; }
+  .btn-teal, .btn-navy, .btn-coral, .btn-ghost-light, .btn-ghost-dark {
+    width: 100%; justify-content: center;
+  }
+}
+
+/* Nav mobile — handled by component, these are safety guards */
+@media (max-width: 899px) {
+  /* Two-col about grid */
+  .about-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+}
+
+/* Performance: GPU-accelerate animated elements */
+.glass-card, .card-hover, .btn-teal, .btn-coral {
+  will-change: transform;
+}
+
+/* Reduce backdrop-filter cost on low-end devices */
+@media (prefers-reduced-motion: reduce), (max-width: 480px) {
+  .glass-card, [style*="backdrop-filter"] {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background: rgba(255,255,255,0.92) !important;
+  }
+}

@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
 import { insights } from "@/data/insights";
 import { notFound } from "next/navigation";
 
-type Props = {
-  params: Promise<{ slug: string }>;
-};
+type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
   return insights.map((insight) => ({ slug: insight.slug }));
@@ -19,6 +17,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${insight.title} | Raymond Cheung`,
     description: insight.summary,
+    openGraph: {
+      title: insight.title,
+      description: insight.summary,
+      type: "article",
+    },
   };
 }
 
@@ -27,139 +30,220 @@ export default async function InsightArticlePage({ params }: Props) {
   const insight = insights.find((i) => i.slug === slug);
   if (!insight) notFound();
 
+  const idx = insights.findIndex((i) => i.slug === slug);
+  const prev = idx > 0 ? insights[idx - 1] : null;
+  const next = idx < insights.length - 1 ? insights[idx + 1] : null;
+
   return (
     <div style={{ backgroundColor: "var(--warm-ivory)", paddingTop: "96px" }}>
-      {/* Header */}
-      <section
-        style={{
-          backgroundColor: "var(--midnight-navy)",
-          padding: "4rem 2rem 3.5rem",
-        }}
-      >
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <Link
-            href="/insights"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "0.5rem",
-              fontFamily: "var(--font-ibm-mono), monospace",
-              fontSize: "0.62rem",
-              letterSpacing: "0.12em",
-              color: "rgba(245,243,236,0.45)",
-              textDecoration: "none",
-              marginBottom: "2rem",
-              textTransform: "uppercase",
-            }}
-          >
+      {/* Hero */}
+      <section style={{
+        background: "linear-gradient(135deg, var(--midnight-navy) 0%, var(--executive-navy) 100%)",
+        padding: "4rem 2rem 3.5rem",
+        position: "relative", overflow: "hidden",
+      }}>
+        <div aria-hidden="true" style={{
+          position: "absolute", inset: 0,
+          background: "radial-gradient(ellipse 60% 70% at 80% 50%, rgba(229,102,74,0.07) 0%, transparent 60%)",
+          pointerEvents: "none",
+        }} />
+        <div style={{ maxWidth: "800px", margin: "0 auto", position: "relative", zIndex: 1 }}>
+          <Link href="/insights" style={{
+            display: "inline-flex", alignItems: "center", gap: "0.5rem",
+            fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
+            letterSpacing: "0.12em", color: "rgba(245,243,236,0.45)",
+            textDecoration: "none", marginBottom: "2rem", textTransform: "uppercase",
+          }}>
             <ArrowLeft size={12} /> Back to Insights
           </Link>
-          <span
-            style={{
-              fontFamily: "var(--font-ibm-mono), monospace",
-              fontSize: "0.62rem",
-              letterSpacing: "0.1em",
-              color: "var(--strategic-teal)",
-              textTransform: "uppercase",
-              display: "block",
-              marginBottom: "1.25rem",
-            }}
-          >
-            {insight.category} · {insight.readingTime}
-          </span>
-          <h1
-            style={{
-              fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-              fontSize: "clamp(1.6rem, 3vw, 2.4rem)",
-              fontWeight: 800,
-              letterSpacing: "-0.025em",
-              color: "var(--warm-ivory)",
-              lineHeight: 1.2,
-            }}
-          >
+          <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1.5rem", flexWrap: "wrap" }}>
+            <span style={{
+              fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
+              letterSpacing: "0.1em", color: "var(--white)",
+              backgroundColor: "var(--strategic-teal)",
+              padding: "0.3rem 0.75rem", borderRadius: "999px", textTransform: "uppercase",
+            }}>{insight.category}</span>
+            <span style={{
+              display: "flex", alignItems: "center", gap: "0.35rem",
+              fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
+              letterSpacing: "0.08em", color: "rgba(245,243,236,0.4)",
+            }}>
+              <Clock size={11} />{insight.readingTime}
+            </span>
+            <span style={{
+              fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
+              letterSpacing: "0.06em", color: "rgba(245,243,236,0.3)",
+            }}>{insight.date}</span>
+          </div>
+          <h1 style={{
+            fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+            fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 800,
+            letterSpacing: "-0.025em", color: "var(--warm-ivory)", lineHeight: 1.2,
+          }}>
             {insight.title}
           </h1>
         </div>
       </section>
 
-      {/* Content */}
+      {/* Article body */}
       <section style={{ padding: "4rem 2rem" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          {insight.status === "draft-concept" && (
-            <div
-              style={{
-                backgroundColor: "rgba(193,162,105,0.08)",
-                border: "1px solid rgba(193,162,105,0.25)",
-                borderRadius: "1px",
-                padding: "1.5rem",
-                marginBottom: "3rem",
-              }}
-            >
-              <p
-                style={{
-                  fontFamily: "var(--font-ibm-mono), monospace",
-                  fontSize: "0.68rem",
-                  letterSpacing: "0.08em",
-                  color: "var(--gold)",
-                  lineHeight: 1.6,
-                }}
-              >
-                <strong>CONCEPT PREVIEW</strong> — This article is a draft concept.
-                Full content will be written or approved by Raymond Cheung before
-                publication. The summary below outlines the intended argument.
+          {/* Byline */}
+          <div style={{
+            display: "flex", alignItems: "center", gap: "1rem",
+            paddingBottom: "2.5rem", marginBottom: "2.5rem",
+            borderBottom: "1px solid rgba(42,31,26,0.1)",
+          }}>
+            <div style={{
+              width: "44px", height: "44px", borderRadius: "50%",
+              background: "linear-gradient(135deg, var(--strategic-teal), var(--deep-teal))",
+              display: "flex", alignItems: "center", justifyContent: "center",
+              flexShrink: 0,
+            }}>
+              <span style={{ color: "white", fontWeight: 800, fontSize: "0.85rem" }}>RC</span>
+            </div>
+            <div>
+              <p style={{
+                fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                fontWeight: 700, fontSize: "0.88rem", color: "var(--midnight-navy)",
+              }}>Raymond Cheung</p>
+              <p style={{
+                fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
+                letterSpacing: "0.08em", color: "var(--graphite)", opacity: 0.6,
+              }}>
+                Chartered Actuary · CRO · Board Adviser · Singapore
               </p>
             </div>
-          )}
-
-          <p
-            style={{
-              fontSize: "1.1rem",
-              color: "var(--midnight-navy)",
-              lineHeight: 1.85,
-              fontWeight: 500,
-              marginBottom: "2rem",
-            }}
-          >
-            {insight.summary}
-          </p>
-
-          <div
-            style={{
-              padding: "2rem",
-              backgroundColor: "var(--soft-mist)",
-              border: "1px solid rgba(7,26,43,0.06)",
-              marginBottom: "2rem",
-            }}
-          >
-            <p
-              style={{
-                fontFamily: "var(--font-ibm-mono), monospace",
-                fontSize: "0.7rem",
-                letterSpacing: "0.08em",
-                color: "rgba(7,26,43,0.45)",
-                lineHeight: 1.7,
-              }}
-            >
-              Full article content pending. Raymond Cheung will review and approve
-              the final article text before this page goes live.
-            </p>
           </div>
 
-          <div style={{ marginTop: "3rem", paddingTop: "2rem", borderTop: "1px solid rgba(7,26,43,0.08)" }}>
-            <Link
-              href="/insights"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontSize: "0.85rem",
-                fontWeight: 600,
-                color: "var(--strategic-teal)",
-                textDecoration: "none",
+          {/* Lead paragraph */}
+          <p style={{
+            fontSize: "1.12rem", color: "var(--midnight-navy)", lineHeight: 1.85,
+            fontWeight: 500, marginBottom: "2rem",
+          }}>{insight.summary}</p>
+
+          {/* Body sections */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+            {insight.body.map((section, i) => {
+              if (section.type === "heading") {
+                return (
+                  <h2 key={i} style={{
+                    fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                    fontSize: "1.25rem", fontWeight: 700, letterSpacing: "-0.02em",
+                    color: "var(--midnight-navy)", marginTop: "1rem",
+                    paddingTop: "1rem", borderTop: "1px solid rgba(42,31,26,0.06)",
+                  }}>{section.text}</h2>
+                );
+              }
+              if (section.type === "pullquote") {
+                return (
+                  <blockquote key={i} style={{
+                    borderLeft: "3px solid var(--strategic-teal)",
+                    paddingLeft: "1.5rem", margin: "0.5rem 0",
+                  }}>
+                    <p style={{
+                      fontFamily: "var(--font-cormorant, Georgia), serif",
+                      fontSize: "1.2rem", fontStyle: "italic", fontWeight: 600,
+                      color: "var(--midnight-navy)", lineHeight: 1.55,
+                    }}>&ldquo;{section.text}&rdquo;</p>
+                  </blockquote>
+                );
+              }
+              if (section.type === "list" && section.items) {
+                return (
+                  <ul key={i} style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.85rem" }}>
+                    {section.items.map((item, j) => (
+                      <li key={j} style={{ display: "flex", alignItems: "flex-start", gap: "0.85rem" }}>
+                        <span aria-hidden="true" style={{
+                          color: "var(--strategic-teal)", fontSize: "0.6rem",
+                          marginTop: "0.45rem", flexShrink: 0,
+                        }}>◆</span>
+                        <span style={{ fontSize: "0.95rem", color: "var(--graphite)", lineHeight: 1.75, opacity: 0.88 }}>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                );
+              }
+              return (
+                <p key={i} style={{
+                  fontSize: "0.975rem", color: "var(--graphite)", lineHeight: 1.85, opacity: 0.88,
+                }}>{section.text}</p>
+              );
+            })}
+          </div>
+
+          {/* Author card */}
+          <div style={{
+            marginTop: "4rem", padding: "2rem 2.5rem",
+            background: "linear-gradient(135deg, var(--midnight-navy), var(--executive-navy))",
+            borderRadius: "16px",
+          }}>
+            <p style={{
+              fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
+              letterSpacing: "0.14em", color: "var(--gold)", textTransform: "uppercase",
+              marginBottom: "1rem",
+            }}>About the author</p>
+            <p style={{ fontSize: "0.88rem", color: "rgba(244,229,208,0.8)", lineHeight: 1.75, marginBottom: "1.25rem" }}>
+              Raymond Cheung is a Chartered Actuary, C-suite executive and board adviser with more than 20 years of experience across Asia in risk management, insurance, ESG and corporate governance. He is the CEO of CER Consultancy and an accredited trainer at SMU Academy and the Singapore College of Insurance.
+            </p>
+            <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+              <Link href="/contact" style={{
+                display: "inline-flex", alignItems: "center", gap: "0.4rem",
+                padding: "0.6rem 1.25rem", borderRadius: "999px",
+                background: "var(--strategic-teal)", color: "white",
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-              }}
-            >
-              <ArrowLeft size={14} /> Return to Insights
+                fontWeight: 600, fontSize: "0.78rem", textDecoration: "none",
+              }}>
+                Work with Raymond <ArrowRight size={12} />
+              </Link>
+              <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer" style={{
+                display: "inline-flex", alignItems: "center", gap: "0.4rem",
+                padding: "0.6rem 1.25rem", borderRadius: "999px",
+                border: "1px solid rgba(244,229,208,0.2)", color: "rgba(244,229,208,0.7)",
+                fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                fontSize: "0.78rem", textDecoration: "none",
+              }}>
+                Follow on LinkedIn
+              </a>
+            </div>
+          </div>
+
+          {/* Prev / Next navigation */}
+          <nav aria-label="Article navigation" style={{
+            marginTop: "3rem", paddingTop: "2rem",
+            borderTop: "1px solid rgba(42,31,26,0.08)",
+            display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem",
+          }}>
+            {prev ? (
+              <Link href={`/insights/${prev.slug}`} style={{
+                textDecoration: "none", padding: "1.25rem",
+                border: "1px solid rgba(42,31,26,0.1)", borderRadius: "12px",
+                display: "block", transition: "border-color 0.2s",
+              }}>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.1em", color: "var(--graphite)", opacity: 0.5, marginBottom: "0.4rem" }}>← Previous</p>
+                <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, fontSize: "0.82rem", color: "var(--midnight-navy)", lineHeight: 1.4 }}>{prev.title}</p>
+              </Link>
+            ) : <div />}
+            {next ? (
+              <Link href={`/insights/${next.slug}`} style={{
+                textDecoration: "none", padding: "1.25rem",
+                border: "1px solid rgba(42,31,26,0.1)", borderRadius: "12px",
+                display: "block", textAlign: "right", transition: "border-color 0.2s",
+              }}>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.1em", color: "var(--graphite)", opacity: 0.5, marginBottom: "0.4rem" }}>Next →</p>
+                <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, fontSize: "0.82rem", color: "var(--midnight-navy)", lineHeight: 1.4 }}>{next.title}</p>
+              </Link>
+            ) : <div />}
+          </nav>
+
+          <div style={{ marginTop: "2rem" }}>
+            <Link href="/insights" style={{
+              display: "inline-flex", alignItems: "center", gap: "0.5rem",
+              fontSize: "0.85rem", fontWeight: 600, color: "var(--strategic-teal)",
+              textDecoration: "none",
+              fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+            }}>
+              <ArrowLeft size={14} /> All insights
             </Link>
           </div>
         </div>
