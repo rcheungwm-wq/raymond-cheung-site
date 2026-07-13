@@ -8,15 +8,16 @@ import { ArrowRight } from "lucide-react";
 const pathwayLabels = ["UNCERTAINTY", "CLARITY", "DECISION", "RESILIENCE"];
 
 const floatingLabels = [
-  { text: "BOARD & GOVERNANCE", top: "10%", right: "-5%" },
-  { text: "INSURANCE & CAPITAL", top: "35%", right: "-8%" },
-  { text: "CLIMATE & ESG", bottom: "30%", right: "-4%" },
-  { text: "INNOVATION & TECH", bottom: "10%", right: "-6%" },
+  { text: "BOARD & GOVERNANCE", icon: "⬡", delay: 0 },
+  { text: "INSURANCE & CAPITAL", icon: "◈", delay: 0.8 },
+  { text: "CLIMATE & ESG", icon: "◉", delay: 1.6 },
+  { text: "INNOVATION & TECH", icon: "◆", delay: 2.4 },
 ];
 
 export default function HeroAuthoritySection() {
   const [mounted, setMounted] = useState(false);
   const [activeLabel, setActiveLabel] = useState(0);
+  const [activePill, setActivePill] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -24,7 +25,10 @@ export default function HeroAuthoritySection() {
     const interval = setInterval(() => {
       setActiveLabel((prev) => (prev + 1) % pathwayLabels.length);
     }, 2200);
-    return () => clearInterval(interval);
+    const pillInterval = setInterval(() => {
+      setActivePill((prev) => (prev + 1) % floatingLabels.length);
+    }, 1800);
+    return () => { clearInterval(interval); clearInterval(pillInterval); };
   }, []);
 
   useEffect(() => {
@@ -43,9 +47,6 @@ export default function HeroAuthoritySection() {
       const h = canvas.height;
       ctx.clearRect(0, 0, w, h);
 
-      // Warm vertical light streaks (Oasis arch style)
-      ctx.strokeStyle = "rgba(255,255,255,0.55)";
-      ctx.lineWidth = 60;
       [[0.12], [0.35], [0.5], [0.65], [0.78]].forEach(([x]) => {
         const grad = ctx.createLinearGradient(w * x, 0, w * x, h);
         grad.addColorStop(0, "rgba(255,255,255,0.18)");
@@ -59,7 +60,6 @@ export default function HeroAuthoritySection() {
         ctx.stroke();
       });
 
-      // Animated data nodes (coral/gold on cream)
       const nodes = [
         { x: w * 0.12, y: h * 0.22 },
         { x: w * 0.32, y: h * 0.58 },
@@ -68,7 +68,6 @@ export default function HeroAuthoritySection() {
         { x: w * 0.45, y: h * 0.82 },
       ];
 
-      ctx.strokeStyle = "rgba(229,102,74,0.1)";
       ctx.lineWidth = 0.8;
       nodes.forEach((n1, i) => {
         if (i < nodes.length - 1) {
@@ -76,6 +75,7 @@ export default function HeroAuthoritySection() {
           const cx = (n1.x + n2.x) / 2 + Math.sin(t * 0.4 + i) * 18;
           const cy = (n1.y + n2.y) / 2 + Math.cos(t * 0.3 + i) * 14;
           ctx.beginPath();
+          ctx.strokeStyle = "rgba(229,102,74,0.1)";
           ctx.moveTo(n1.x, n1.y);
           ctx.quadraticCurveTo(cx, cy, n2.x, n2.y);
           ctx.stroke();
@@ -126,14 +126,12 @@ export default function HeroAuthoritySection() {
         paddingTop: "96px",
       }}
     >
-      {/* Background canvas */}
       <canvas
         ref={canvasRef}
         aria-hidden="true"
         style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none" }}
       />
 
-      {/* Top light streak */}
       <div aria-hidden="true" style={{
         position: "absolute", top: "38%", left: "-10%", right: "-10%", height: "4px",
         background: "linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent)",
@@ -142,8 +140,9 @@ export default function HeroAuthoritySection() {
 
       <div
         style={{
-          maxWidth: "1280px", margin: "0 auto", padding: "4rem 2rem",
-          display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem",
+          maxWidth: "1280px", margin: "0 auto", padding: "4rem 2rem 4rem 2rem",
+          /* shift portrait left: give text less, portrait more */
+          display: "grid", gridTemplateColumns: "45fr 55fr", gap: "2rem",
           alignItems: "center", position: "relative", zIndex: 1, width: "100%",
         }}
         className="hero-grid"
@@ -179,7 +178,6 @@ export default function HeroAuthoritySection() {
             into decisions that hold.
           </p>
 
-          {/* Pathway ticker */}
           <div aria-live="polite" aria-label="Risk pathway" style={{
             display: "flex", alignItems: "center", gap: "0.75rem",
             marginBottom: "2.75rem", flexWrap: "wrap",
@@ -199,7 +197,6 @@ export default function HeroAuthoritySection() {
             ))}
           </div>
 
-          {/* CTAs */}
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", marginBottom: "2.5rem" }}>
             <Link href="/expertise" className="btn-teal">
               Explore Expertise <ArrowRight size={15} />
@@ -213,87 +210,124 @@ export default function HeroAuthoritySection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.68rem",
             letterSpacing: "0.08em", color: "rgba(42,31,26,0.42)", lineHeight: 1.6,
           }}>
-            Former CRO at AIG Asia Pacific · Asia Capital Reinsurance · Regional Insurance Lead at Grab · CEO, CER Consultancy
+            Former CRO, AIG Asia Pacific · Asia Capital Reinsurance · Regional Insurance Lead, Grab · CEO, CER Consultancy
           </p>
         </div>
 
-        {/* Right — portrait */}
-        <div style={{ display: "flex", justifyContent: "center", position: "relative" }}>
-          <div style={{ position: "relative", width: "min(380px, 90vw)", aspectRatio: "3/4" }}>
-            {/* Coral aura behind portrait */}
+        {/* Right — portrait + floating labels */}
+        <div style={{ display: "flex", justifyContent: "flex-start", position: "relative", paddingRight: "160px" }}>
+          {/* Portrait container — taller & larger */}
+          <div style={{ position: "relative", width: "min(420px, 85vw)", aspectRatio: "3/4" }}>
+
+            {/* Coral aura */}
             <div aria-hidden="true" style={{
               position: "absolute", top: "50%", left: "50%",
               transform: "translate(-50%, -50%)",
-              width: "110%", height: "110%",
-              borderRadius: "50%",
-              background: "radial-gradient(circle, rgba(255,140,114,0.35) 0%, rgba(255,180,150,0.15) 40%, transparent 65%)",
-              filter: "blur(40px)", zIndex: 0,
+              width: "115%", height: "115%", borderRadius: "50%",
+              background: "radial-gradient(circle, rgba(255,140,114,0.38) 0%, rgba(255,180,150,0.15) 40%, transparent 65%)",
+              filter: "blur(44px)", zIndex: 0,
             }} />
 
-            {/* Gold corner accent top-left */}
+            {/* Gold corner top-left */}
             <div aria-hidden="true" style={{
-              position: "absolute", top: "-12px", left: "-12px",
-              width: "56px", height: "56px",
+              position: "absolute", top: "-14px", left: "-14px",
+              width: "64px", height: "64px",
               borderTop: "2.5px solid var(--gold)", borderLeft: "2.5px solid var(--gold)",
               borderRadius: "4px 0 0 0", zIndex: 2,
             }} />
-            {/* Coral corner accent bottom-right */}
+            {/* Coral corner bottom-right */}
             <div aria-hidden="true" style={{
-              position: "absolute", bottom: "-12px", right: "-12px",
-              width: "56px", height: "56px",
+              position: "absolute", bottom: "-14px", right: "-14px",
+              width: "64px", height: "64px",
               borderBottom: "2.5px solid var(--strategic-teal)", borderRight: "2.5px solid var(--strategic-teal)",
               borderRadius: "0 0 4px 0", zIndex: 2,
             }} />
 
-            {/* Portrait image */}
+            {/* Portrait image — no blur filter, crisp */}
             <div style={{
-              position: "absolute", inset: 0, borderRadius: "16px",
+              position: "absolute", inset: 0, borderRadius: "18px",
               overflow: "hidden",
-              boxShadow: "0 30px 80px rgba(120,70,50,0.28)",
-              border: "1px solid rgba(255,255,255,0.65)",
+              boxShadow: "0 40px 100px rgba(120,70,50,0.32)",
+              border: "1.5px solid rgba(255,255,255,0.8)",
             }}>
               <Image
                 src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
                 alt="Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
                 fill priority
-                sizes="(max-width: 900px) 90vw, 380px"
-                style={{ objectFit: "cover", objectPosition: "center top", filter: "contrast(1.04) saturate(0.9)" }}
+                sizes="(max-width: 900px) 85vw, 420px"
+                style={{ objectFit: "cover", objectPosition: "center top" }}
               />
               <div aria-hidden="true" style={{
                 position: "absolute", inset: 0,
-                background: "linear-gradient(to bottom, transparent 60%, rgba(42,31,26,0.25) 100%)",
+                background: "linear-gradient(to bottom, transparent 65%, rgba(42,31,26,0.2) 100%)",
               }} />
             </div>
 
-            {/* Floating label chips */}
-            {floatingLabels.map((fl) => (
-              <div key={fl.text} aria-hidden="true" className="portrait-label" style={{
-                position: "absolute", top: fl.top, bottom: fl.bottom, right: fl.right,
-                background: "var(--glass-strong)",
-                backdropFilter: "blur(18px) saturate(140%)",
-                WebkitBackdropFilter: "blur(18px) saturate(140%)",
-                border: "1px solid var(--glass-border)",
-                borderRadius: "999px",
-                padding: "0.4rem 0.85rem",
-                whiteSpace: "nowrap", zIndex: 3,
-                transform: "translateX(calc(100% + 12px))",
-                boxShadow: "var(--sh-glass)",
-              }}>
-                <span style={{
-                  fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.55rem",
-                  letterSpacing: "0.14em", color: "var(--midnight-navy)", textTransform: "uppercase",
-                  fontWeight: 600,
-                }}>{fl.text}</span>
-              </div>
-            ))}
+            {/* Floating label pills — stacked to the right of portrait */}
+            {floatingLabels.map((fl, i) => {
+              const isActive = mounted && activePill === i;
+              return (
+                <div
+                  key={fl.text}
+                  aria-hidden="true"
+                  className="portrait-label"
+                  style={{
+                    position: "absolute",
+                    right: "-168px",
+                    top: `${14 + i * 22}%`,
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.6rem",
+                    background: isActive
+                      ? "linear-gradient(135deg, var(--strategic-teal), var(--deep-teal))"
+                      : "rgba(255,255,255,0.88)",
+                    backdropFilter: "blur(12px) saturate(130%)",
+                    WebkitBackdropFilter: "blur(12px) saturate(130%)",
+                    border: isActive ? "1.5px solid rgba(229,102,74,0.6)" : "1.5px solid rgba(255,255,255,0.9)",
+                    borderRadius: "14px",
+                    padding: "0.65rem 1.1rem",
+                    minWidth: "155px",
+                    whiteSpace: "nowrap",
+                    zIndex: 3,
+                    boxShadow: isActive
+                      ? "0 8px 32px rgba(229,102,74,0.35)"
+                      : "0 4px 20px rgba(120,70,50,0.1)",
+                    transform: isActive ? "translateX(6px) scale(1.04)" : "translateX(0) scale(1)",
+                    transition: "all 0.45s cubic-bezier(0.34,1.56,0.64,1)",
+                  }}
+                >
+                  {/* Pulse dot */}
+                  <span style={{
+                    width: "8px", height: "8px", borderRadius: "50%", flexShrink: 0,
+                    backgroundColor: isActive ? "rgba(255,255,255,0.9)" : "var(--strategic-teal)",
+                    boxShadow: isActive ? "0 0 0 3px rgba(255,255,255,0.3)" : "0 0 0 3px rgba(229,102,74,0.15)",
+                    animation: isActive ? "pilsPulse 1s ease-in-out infinite" : "none",
+                  }} />
+                  <span style={{
+                    fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                    fontSize: "0.72rem",
+                    fontWeight: 700,
+                    letterSpacing: "0.06em",
+                    color: isActive ? "#fff" : "var(--midnight-navy)",
+                    textTransform: "uppercase",
+                  }}>{fl.text}</span>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
 
       <style>{`
+        @keyframes pilsPulse {
+          0%, 100% { box-shadow: 0 0 0 3px rgba(255,255,255,0.3); transform: scale(1); }
+          50% { box-shadow: 0 0 0 6px rgba(255,255,255,0.12); transform: scale(1.15); }
+        }
+        @media (max-width: 1100px) {
+          .portrait-label { display: none !important; }
+        }
         @media (max-width: 899px) {
           .hero-grid { grid-template-columns: 1fr !important; gap: 3rem !important; padding-bottom: 3rem !important; }
-          .portrait-label { display: none !important; }
         }
       `}</style>
     </section>
