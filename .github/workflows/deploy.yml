@@ -22,22 +22,20 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
-          cache-dependency-path: raymond-cheung-site/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        working-directory: raymond-cheung-site
         run: npm ci
 
       - name: Build static export
-        working-directory: raymond-cheung-site
         run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: raymond-cheung-site/out
+          path: out
 
   deploy:
     needs: build
