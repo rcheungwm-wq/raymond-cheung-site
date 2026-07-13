@@ -20,7 +20,7 @@ export default function InsightCards() {
     <section
       id="insights"
       aria-labelledby="insights-heading"
-      style={{ backgroundColor: "var(--soft-mist)", padding: "7rem 2rem" }}
+      style={{ backgroundColor: "var(--soft-mist)", padding: "5rem 2rem" }}
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "3rem" }}>
@@ -34,9 +34,17 @@ export default function InsightCards() {
           Ideas for leaders navigating uncertainty.
         </h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.5px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.25rem" }}>
           {featured.map((insight) => (
-            <article key={insight.id} className="card-hover" style={{ backgroundColor: "var(--white)", border: "1px solid rgba(7,26,43,0.08)", padding: "2rem", display: "flex", flexDirection: "column" }}>
+            <article key={insight.id} className="card-hover" style={{
+              background: "var(--glass)",
+              backdropFilter: "blur(20px) saturate(140%)",
+              WebkitBackdropFilter: "blur(20px) saturate(140%)",
+              border: "1px solid var(--glass-border)",
+              borderRadius: "20px",
+              padding: "2rem", display: "flex", flexDirection: "column",
+              boxShadow: "var(--sh-glass)",
+            }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.25rem", flexWrap: "wrap", gap: "0.5rem" }}>
                 <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.12em", color: "var(--white)", backgroundColor: categoryColors[insight.category] || "var(--graphite)", padding: "0.25rem 0.6rem", textTransform: "uppercase" }}>
                   {insight.category}

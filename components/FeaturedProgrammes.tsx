@@ -45,7 +45,7 @@ export default function FeaturedProgrammes() {
       aria-labelledby="programmes-heading"
       style={{
         backgroundColor: "var(--warm-ivory)",
-        padding: "7rem 2rem",
+        padding: "5rem 2rem",
       }}
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>

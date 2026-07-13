@@ -10,7 +10,7 @@ export default function FinalCTA() {
       style={{
         background:
           "linear-gradient(160deg, var(--warm-ivory) 0%, var(--soft-mist) 40%, var(--executive-navy) 100%)",
-        padding: "8rem 2rem",
+        padding: "5rem 2rem",
       }}
     >
       <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
@@ -102,11 +102,11 @@ export default function FinalCTA() {
           font-family: var(--font-plus-jakarta), system-ui, sans-serif;
           font-weight: 600;
           font-size: 0.9rem;
-          border-radius: 1px;
+          border-radius: 999px;
           text-decoration: none;
-          transition: background-color 0.2s ease;
+          transition: background-color 0.2s ease, transform 0.2s ease;
         }
-        .cta-dark-btn:hover { background-color: var(--executive-navy); }
+        .cta-dark-btn:hover { background-color: var(--deep-teal); transform: translateY(-2px); }
         .cta-outline-btn {
           display: inline-flex;
           align-items: center;
@@ -117,12 +117,12 @@ export default function FinalCTA() {
           font-family: var(--font-plus-jakarta), system-ui, sans-serif;
           font-weight: 500;
           font-size: 0.9rem;
-          border-radius: 1px;
-          border: 1px solid rgba(7,26,43,0.2);
+          border-radius: 999px;
+          border: 1.5px solid rgba(42,31,26,0.25);
           text-decoration: none;
-          transition: border-color 0.2s ease;
+          transition: border-color 0.2s ease, transform 0.2s ease;
         }
-        .cta-outline-btn:hover { border-color: rgba(7,26,43,0.5); }
+        .cta-outline-btn:hover { border-color: rgba(42,31,26,0.5); transform: translateY(-2px); }
       `}</style>
     </section>
   );

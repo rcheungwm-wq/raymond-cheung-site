@@ -5,211 +5,75 @@ export default function CareerJourney() {
     <section
       id="journey"
       aria-labelledby="journey-heading"
-      style={{
-        backgroundColor: "var(--midnight-navy)",
-        padding: "7rem 2rem",
-        overflow: "hidden",
-      }}
+      style={{ backgroundColor: "var(--warm-ivory)", padding: "5rem 2rem" }}
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
-        {/* Section label */}
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "1rem",
-            marginBottom: "3rem",
-          }}
-        >
-          <span
-            style={{
-              fontFamily: "var(--font-ibm-mono), monospace",
-              fontSize: "0.65rem",
-              letterSpacing: "0.2em",
-              color: "var(--strategic-teal)",
-              textTransform: "uppercase",
-            }}
-          >
-            03 / Journey
-          </span>
-          <div
-            aria-hidden="true"
-            style={{ flex: 1, height: "1px", backgroundColor: "rgba(21,154,146,0.15)" }}
-          />
+        <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "3rem" }}>
+          <span style={{
+            fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
+            letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
+          }}>03 / Career Journey</span>
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
         </div>
 
-        <h2
-          id="journey-heading"
-          style={{
-            fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-            fontSize: "clamp(1.5rem, 2.8vw, 2.2rem)",
-            fontWeight: 700,
-            letterSpacing: "-0.025em",
-            color: "var(--warm-ivory)",
-            maxWidth: "580px",
-            marginBottom: "4rem",
-            lineHeight: 1.2,
-          }}
-        >
-          A career built across the full risk and insurance value chain.
-        </h2>
+        <h2 id="journey-heading" style={{
+          fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+          fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
+          letterSpacing: "-0.025em", color: "var(--midnight-navy)", lineHeight: 1.22,
+          marginBottom: "3.5rem",
+        }}>Two decades building Asia&rsquo;s risk infrastructure</h2>
 
-        {/* Timeline */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: "0",
-          }}
-        >
-          {careerJourney.map((stage, i) => (
-            <div
-              key={stage.id}
-              style={{
-                display: "grid",
-                gridTemplateColumns: "60px 1px 1fr",
-                gap: "0 2rem",
-                paddingBottom: i < careerJourney.length - 1 ? "3rem" : "0",
-              }}
-            >
-              {/* Stage number */}
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-end",
-                  paddingTop: "0.1rem",
-                }}
-              >
-                <span
-                  style={{
-                    fontFamily: "var(--font-ibm-mono), monospace",
-                    fontSize: "0.62rem",
-                    letterSpacing: "0.1em",
-                    color: "var(--gold)",
-                  }}
-                >
-                  {stage.stage}
-                </span>
-              </div>
+        <div style={{ position: "relative" }}>
+          <div aria-hidden="true" style={{
+            position: "absolute", left: "11px", top: "8px", bottom: "8px", width: "2px",
+            background: "linear-gradient(to bottom, var(--strategic-teal), var(--gold))",
+            borderRadius: "2px",
+          }} />
 
-              {/* Vertical line + dot */}
-              <div
-                style={{
-                  position: "relative",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                }}
-              >
-                <div
-                  aria-hidden="true"
-                  style={{
-                    width: "8px",
-                    height: "8px",
-                    borderRadius: "50%",
-                    backgroundColor: "var(--strategic-teal)",
-                    border: "2px solid var(--midnight-navy)",
-                    boxShadow: "0 0 0 1px var(--strategic-teal)",
-                    flexShrink: 0,
-                    marginTop: "0.15rem",
-                  }}
-                />
-                {i < careerJourney.length - 1 && (
-                  <div
-                    aria-hidden="true"
-                    style={{
-                      flex: 1,
-                      width: "1px",
-                      backgroundColor: "rgba(21,154,146,0.2)",
-                      marginTop: "0.5rem",
-                    }}
-                  />
-                )}
-              </div>
+          <ol style={{ listStyle: "none", padding: 0, margin: 0, paddingLeft: "2.5rem" }}>
+            {careerJourney.map((m, i) => (
+              <li key={`${m.period}-${m.title}`} style={{ position: "relative", marginBottom: i < careerJourney.length - 1 ? "1.5rem" : 0 }}>
+                <div aria-hidden="true" style={{
+                  position: "absolute", left: "-2.5rem", top: "4px",
+                  width: "24px", height: "24px", borderRadius: "50%",
+                  backgroundColor: i === 0 ? "var(--strategic-teal)" : "var(--warm-ivory)",
+                  border: `2px solid ${i === 0 ? "var(--strategic-teal)" : "rgba(42,31,26,0.2)"}`,
+                  boxShadow: i === 0 ? "0 0 0 4px rgba(229,102,74,0.12)" : "none",
+                }} />
 
-              {/* Content */}
-              <div style={{ paddingBottom: "0.5rem" }}>
-                <h3
-                  style={{
-                    fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                    fontSize: "1rem",
-                    fontWeight: 700,
-                    letterSpacing: "-0.01em",
-                    color: "var(--warm-ivory)",
-                    marginBottom: "0.5rem",
-                  }}
-                >
-                  {stage.title}
-                </h3>
-                <p
-                  style={{
-                    fontSize: "0.875rem",
-                    color: "rgba(245,243,236,0.62)",
-                    lineHeight: 1.7,
-                    marginBottom: stage.highlights ? "0.75rem" : "0",
-                    maxWidth: "540px",
-                  }}
-                >
-                  {stage.description}
-                </p>
-                {stage.highlights && (
-                  <ul
-                    style={{
-                      listStyle: "none",
-                      padding: 0,
-                      margin: 0,
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "0.25rem",
-                    }}
-                  >
-                    {stage.highlights.map((h) => (
-                      <li
-                        key={h}
-                        style={{
-                          fontFamily: "var(--font-ibm-mono), monospace",
-                          fontSize: "0.65rem",
-                          letterSpacing: "0.06em",
-                          color: "rgba(21,154,146,0.8)",
-                          display: "flex",
-                          alignItems: "center",
-                          gap: "0.5rem",
-                        }}
-                      >
-                        <span aria-hidden="true">—</span>
-                        {h}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Closing statement */}
-        <div
-          style={{
-            marginTop: "4rem",
-            paddingTop: "2.5rem",
-            borderTop: "1px solid rgba(21,154,146,0.15)",
-          }}
-        >
-          <p
-            style={{
-              fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-              fontSize: "clamp(1rem, 1.8vw, 1.2rem)",
-              fontWeight: 600,
-              color: "rgba(245,243,236,0.5)",
-              letterSpacing: "-0.01em",
-              fontStyle: "italic",
-            }}
-          >
-            The common thread:{" "}
-            <span style={{ color: "var(--warm-ivory)" }}>
-              turning emerging complexity into practical action.
-            </span>
-          </p>
+                <div style={{
+                  background: "var(--glass)",
+                  backdropFilter: "blur(20px) saturate(140%)",
+                  WebkitBackdropFilter: "blur(20px) saturate(140%)",
+                  border: "1px solid var(--glass-border)",
+                  borderRadius: "16px", padding: "1.5rem 2rem",
+                  boxShadow: "var(--sh-glass)",
+                }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "0.5rem", marginBottom: "0.75rem" }}>
+                    <div>
+                      <span style={{
+                        fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
+                        letterSpacing: "0.14em", color: "var(--strategic-teal)", textTransform: "uppercase",
+                      }}>{m.period}</span>
+                      <h3 style={{
+                        fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                        fontWeight: 700, fontSize: "0.95rem", color: "var(--midnight-navy)",
+                        margin: "0.25rem 0 0",
+                      }}>{m.title}</h3>
+                    </div>
+                    <span style={{
+                      fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
+                      letterSpacing: "0.1em", color: "rgba(42,31,26,0.45)", textTransform: "uppercase",
+                      whiteSpace: "nowrap",
+                    }}>{m.thread}</span>
+                  </div>
+                  <p style={{ fontSize: "0.88rem", color: "var(--graphite)", lineHeight: 1.7, opacity: 0.82, margin: 0 }}>
+                    {m.description}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ol>
         </div>
       </div>
     </section>

@@ -8,8 +8,8 @@ export default function QuoteSection() {
       aria-label="Personal philosophy"
       style={{
         backgroundColor: "var(--warm-ivory)",
-        padding: "7rem 2rem",
-        borderTop: "1px solid rgba(7,26,43,0.06)",
+        padding: "4rem 2rem",
+        borderTop: "1px solid rgba(42,31,26,0.08)",
       }}
     >
       <div style={{ maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
@@ -27,12 +27,13 @@ export default function QuoteSection() {
         <blockquote
           cite="Raymond Cheung"
           style={{
-            fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+            fontFamily: "var(--font-cormorant, Georgia), serif",
             fontSize: "clamp(1.8rem, 4vw, 3rem)",
-            fontWeight: 700,
-            letterSpacing: "-0.03em",
+            fontWeight: 600,
+            fontStyle: "italic",
+            letterSpacing: "-0.01em",
             color: "var(--midnight-navy)",
-            lineHeight: 1.2,
+            lineHeight: 1.25,
             marginBottom: "1.5rem",
           }}
         >

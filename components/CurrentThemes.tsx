@@ -1,136 +1,73 @@
 import { currentThemes } from "@/data/expertise";
 
+const themeImages: Record<string, string> = {
+  "Climate Risk": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=700&q=80&auto=format",
+  "ESG": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=700&q=80&auto=format",
+  "Insurance Capital": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=700&q=80&auto=format",
+  "Technology": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=700&q=80&auto=format",
+  "Regulatory": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=700&q=80&auto=format",
+  "Leadership": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=700&q=80&auto=format",
+};
+const fallback = "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=700&q=80&auto=format";
+
 export default function CurrentThemes() {
   return (
     <section
-      id="current-agenda"
+      id="themes"
       aria-labelledby="themes-heading"
-      style={{
-        backgroundColor: "var(--executive-navy)",
-        padding: "7rem 2rem",
-      }}
+      style={{ backgroundColor: "var(--soft-mist)", padding: "5rem 2rem" }}
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
-        {/* Section label */}
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "1rem",
-            marginBottom: "3rem",
-          }}
-        >
-          <span
-            style={{
-              fontFamily: "var(--font-ibm-mono), monospace",
-              fontSize: "0.65rem",
-              letterSpacing: "0.2em",
-              color: "var(--strategic-teal)",
-              textTransform: "uppercase",
-            }}
-          >
-            04 / Current Agenda
-          </span>
-          <div
-            aria-hidden="true"
-            style={{ flex: 1, height: "1px", backgroundColor: "rgba(21,154,146,0.15)" }}
-          />
+        <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "3rem" }}>
+          <span style={{
+            fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
+            letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
+          }}>04 / Current Themes</span>
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
         </div>
 
-        <h2
-          id="themes-heading"
-          style={{
-            fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-            fontSize: "clamp(1.5rem, 2.8vw, 2.2rem)",
-            fontWeight: 700,
-            letterSpacing: "-0.025em",
-            color: "var(--warm-ivory)",
-            maxWidth: "480px",
-            marginBottom: "3.5rem",
-            lineHeight: 1.2,
-          }}
-        >
-          The questions leaders must prepare for now.
-        </h2>
+        <h2 id="themes-heading" style={{
+          fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+          fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
+          letterSpacing: "-0.025em", color: "var(--midnight-navy)", lineHeight: 1.22,
+          marginBottom: "3rem",
+        }}>Where Raymond is focused right now</h2>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            gap: "1.5px",
-          }}
-        >
-          {currentThemes.map((theme, i) => (
-            <article
-              key={theme.id}
-              style={{
-                backgroundColor:
-                  i === 0
-                    ? "rgba(21,154,146,0.12)"
-                    : "rgba(245,243,236,0.03)",
-                border:
-                  i === 0
-                    ? "1px solid rgba(21,154,146,0.25)"
-                    : "1px solid rgba(245,243,236,0.06)",
-                padding: "2.25rem",
-                borderRadius: "1px",
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "0.75rem",
-                  marginBottom: "1.25rem",
-                }}
-              >
-                <span
-                  style={{
-                    fontFamily: "var(--font-ibm-mono), monospace",
-                    fontSize: "0.58rem",
-                    letterSpacing: "0.14em",
-                    color: "var(--gold)",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  {theme.number}
-                </span>
-                <span
-                  style={{
-                    fontFamily: "var(--font-ibm-mono), monospace",
-                    fontSize: "0.6rem",
-                    letterSpacing: "0.1em",
-                    color: "var(--strategic-teal)",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  {theme.label}
-                </span>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "1.25rem" }}>
+          {currentThemes.map((theme, i) => {
+            const imgKey = Object.keys(themeImages).find(k => theme.title?.includes(k)) || "";
+            const imgSrc = themeImages[imgKey] || fallback;
+            return (
+              <div key={theme.title} style={{
+                background: "var(--glass)",
+                backdropFilter: "blur(20px) saturate(140%)",
+                WebkitBackdropFilter: "blur(20px) saturate(140%)",
+                border: "1px solid var(--glass-border)",
+                borderRadius: "20px", overflow: "hidden",
+                boxShadow: "var(--sh-glass)",
+              }}>
+                <div style={{ position: "relative", height: "140px", overflow: "hidden" }}>
+                  <img src={imgSrc} alt={theme.title} loading="lazy"
+                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+                  <div aria-hidden="true" style={{
+                    position: "absolute", inset: 0,
+                    background: "linear-gradient(to bottom, transparent, rgba(42,31,26,0.6))",
+                  }} />
+                </div>
+                <div style={{ padding: "1.75rem" }}>
+                  <h3 style={{
+                    fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                    fontSize: "0.95rem", fontWeight: 700, color: "var(--midnight-navy)",
+                    marginBottom: "0.65rem",
+                  }}>{theme.title}</h3>
+                  <p style={{
+                    fontSize: "0.87rem", color: "var(--graphite)", lineHeight: 1.72,
+                    opacity: 0.82, margin: 0,
+                  }}>{theme.summary}</p>
+                </div>
               </div>
-              <h3
-                style={{
-                  fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                  fontSize: "1rem",
-                  fontWeight: 700,
-                  letterSpacing: "-0.01em",
-                  color: "var(--warm-ivory)",
-                  marginBottom: "0.85rem",
-                  lineHeight: 1.3,
-                }}
-              >
-                {theme.headline}
-              </h3>
-              <p
-                style={{
-                  fontSize: "0.875rem",
-                  color: "rgba(245,243,236,0.58)",
-                  lineHeight: 1.75,
-                }}
-              >
-                {theme.copy}
-              </p>
-            </article>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

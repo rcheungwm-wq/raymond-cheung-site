@@ -7,7 +7,7 @@ export default function ExecutiveFooter() {
   return (
     <footer
       role="contentinfo"
-      style={{ backgroundColor: "var(--midnight-navy)", borderTop: "1px solid rgba(21,154,146,0.15)", paddingTop: "4rem", paddingBottom: "2rem" }}
+      style={{ backgroundColor: "var(--midnight-navy)", borderTop: "1px solid rgba(201,169,97,0.15)", paddingTop: "4rem", paddingBottom: "2rem" }}
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 2rem" }}>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "3rem", paddingBottom: "3rem", borderBottom: "1px solid rgba(21,154,146,0.1)" }}>

@@ -16,7 +16,7 @@ export default function SpeakingSection() {
     <section
       id="speaking"
       aria-labelledby="speaking-heading"
-      style={{ backgroundColor: "var(--midnight-navy)", padding: "7rem 2rem", position: "relative", overflow: "hidden" }}
+      style={{ backgroundColor: "var(--midnight-navy)", padding: "5rem 2rem", position: "relative", overflow: "hidden" }}
     >
       <div aria-hidden="true" style={{ position: "absolute", top: "50%", right: "5%", transform: "translateY(-50%)", width: "40vw", maxWidth: "500px", aspectRatio: "1", border: "1px solid rgba(21,154,146,0.06)", borderRadius: "50%", pointerEvents: "none" }} />
       <div aria-hidden="true" style={{ position: "absolute", top: "50%", right: "8%", transform: "translateY(-50%)", width: "28vw", maxWidth: "360px", aspectRatio: "1", border: "1px solid rgba(21,154,146,0.08)", borderRadius: "50%", pointerEvents: "none" }} />
