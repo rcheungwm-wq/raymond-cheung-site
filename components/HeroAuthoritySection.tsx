@@ -124,6 +124,7 @@ export default function HeroAuthoritySection() {
         alignItems: "center",
         overflow: "hidden",
         paddingTop: "96px",
+        maxWidth: "100vw",
       }}
     >
       <canvas
@@ -215,7 +216,7 @@ export default function HeroAuthoritySection() {
         </div>
 
         {/* Right — portrait + floating labels */}
-        <div style={{ display: "flex", justifyContent: "flex-start", position: "relative", paddingRight: "160px" }}>
+        <div style={{ display: "flex", justifyContent: "flex-start", position: "relative" }} className="hero-portrait-col">
           {/* Portrait container — taller & larger */}
           <div style={{ position: "relative", width: "min(420px, 85vw)", aspectRatio: "3/4" }}>
 
@@ -323,11 +324,22 @@ export default function HeroAuthoritySection() {
           0%, 100% { box-shadow: 0 0 0 3px rgba(255,255,255,0.3); transform: scale(1); }
           50% { box-shadow: 0 0 0 6px rgba(255,255,255,0.12); transform: scale(1.15); }
         }
+        @media (min-width: 1101px) {
+          .hero-portrait-col { padding-right: 160px; }
+        }
         @media (max-width: 1100px) {
           .portrait-label { display: none !important; }
         }
         @media (max-width: 899px) {
-          .hero-grid { grid-template-columns: 1fr !important; gap: 3rem !important; padding-bottom: 3rem !important; }
+          .hero-grid {
+            grid-template-columns: 1fr !important;
+            gap: 2.5rem !important;
+            padding-bottom: 3rem !important;
+          }
+          .hero-portrait-col {
+            justify-content: center !important;
+            padding-right: 0 !important;
+          }
         }
       `}</style>
     </section>

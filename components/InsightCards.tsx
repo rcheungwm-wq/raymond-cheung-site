@@ -49,11 +49,9 @@ export default function InsightCards() {
                 <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.12em", color: "var(--white)", backgroundColor: categoryColors[insight.category] || "var(--graphite)", padding: "0.25rem 0.6rem", textTransform: "uppercase" }}>
                   {insight.category}
                 </span>
-                {insight.status === "draft-concept" && (
-                  <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.55rem", letterSpacing: "0.08em", color: "rgba(193,162,105,0.7)", textTransform: "uppercase" }}>
-                    Draft concept
-                  </span>
-                )}
+                <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.55rem", letterSpacing: "0.08em", color: "rgba(42,31,26,0.35)", textTransform: "uppercase" }}>
+                  {insight.date}
+                </span>
               </div>
               <h3 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "1rem", fontWeight: 700, letterSpacing: "-0.01em", color: "var(--midnight-navy)", marginBottom: "0.85rem", lineHeight: 1.35, flex: 1 }}>
                 {insight.title}
