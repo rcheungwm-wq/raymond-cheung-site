@@ -26,20 +26,57 @@ export default function CredibilityStrip() {
           Organisations I have worked with, led and advised across Asia
         </p>
 
-        <div style={{ display: "flex", gap: 0, flexWrap: "wrap", justifyContent: "center", alignItems: "center" }}>
+        {/* Desktop: wrap */}
+        <div className="credibility-desktop" style={{ display: "flex", gap: 0, flexWrap: "wrap", justifyContent: "center", alignItems: "center" }}>
           {credibilityOrgs.map((org, i) => (
             <div key={org.name} style={{ display: "flex", alignItems: "center", gap: 0 }}>
               <span style={{
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontWeight: 600, fontSize: "0.82rem", letterSpacing: "0.04em",
-                color: "rgba(244,229,208,0.75)", padding: "0.4rem 1.1rem", whiteSpace: "nowrap",
+                color: "rgba(244,229,208,0.92)", padding: "0.4rem 1.1rem", whiteSpace: "nowrap",
               }}>{org.name}</span>
               {i < credibilityOrgs.length - 1 && (
-                <span aria-hidden="true" style={{ color: "rgba(201,169,97,0.35)", fontSize: "0.7rem" }}>·</span>
+                <span aria-hidden="true" style={{ color: "rgba(201,169,97,0.45)", fontSize: "0.7rem" }}>·</span>
               )}
             </div>
           ))}
         </div>
+
+        {/* Mobile: marquee scroll */}
+        <div className="credibility-mobile" style={{ overflow: "hidden", maskImage: "linear-gradient(90deg, transparent, black 12%, black 88%, transparent)" }}>
+          <div className="marquee-track" aria-hidden="true">
+            {[...credibilityOrgs, ...credibilityOrgs].map((org, i) => (
+              <span key={i} style={{
+                fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                fontWeight: 600, fontSize: "0.82rem", letterSpacing: "0.04em",
+                color: "rgba(244,229,208,0.92)", padding: "0 1.25rem", whiteSpace: "nowrap",
+              }}>
+                {org.name}
+                <span style={{ color: "rgba(201,169,97,0.45)", marginLeft: "1.25rem" }}>·</span>
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <style>{`
+          .credibility-desktop { display: flex; }
+          .credibility-mobile { display: none; }
+          @media (max-width: 700px) {
+            .credibility-desktop { display: none; }
+            .credibility-mobile { display: block; }
+          }
+          .marquee-track {
+            display: inline-flex;
+            animation: marquee 24s linear infinite;
+          }
+          @keyframes marquee {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+          }
+          @media (prefers-reduced-motion: reduce) {
+            .marquee-track { animation: none; }
+          }
+        `}</style>
 
         <p style={{
           fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem",

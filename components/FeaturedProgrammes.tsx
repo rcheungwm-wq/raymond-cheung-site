@@ -67,7 +67,7 @@ export default function FeaturedProgrammes() {
               textTransform: "uppercase",
             }}
           >
-            05 / Programmes
+            06 / Programmes
           </span>
           <div
             aria-hidden="true"

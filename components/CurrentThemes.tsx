@@ -22,7 +22,7 @@ export default function CurrentThemes() {
           <span style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
-          }}>04 / Current Themes</span>
+          }}>05 / Current Themes</span>
           <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
         </div>
 

@@ -87,8 +87,69 @@ export const credibilityOrgs = [
   { name: "Asia Capital Reinsurance" },
   { name: "Grab" },
   { name: "Basel Medical Group" },
+  { name: "SDAI Limited (SGX: 5TI)" },
+  { name: "iO3 Ltd (Nasdaq: IOTR)" },
+  { name: "Atlantic Partners Asia" },
   { name: "SMU Academy" },
   { name: "Singapore College of Insurance" },
-  { name: "SGX-Listed Boards" },
-  { name: "Nasdaq-Listed Boards" },
+  { name: "ESSEC Business School" },
+  { name: "Singapore Actuarial Society" },
+];
+
+export const testimonials = [
+  {
+    quote:
+      "Raymond was instrumental in helping GrabRentals set up our automotive fleet insurance programme. As the regional insurance lead then, he provided sound advice and inputs to ensure we build a comprehensive insurance policy that could scale with the business.",
+    name: "Yi Ming K.",
+    title: "Business Transformation & Operations Leader",
+    context: "Autonomous Vehicles & Fleet Management",
+    engagement: "Grab · Insurance Programme Build-Out",
+  },
+  {
+    quote:
+      "Raymond is an experienced actuary with a deep commercial grasp of insurance and ERM, and with a knack of explaining complex matters in a digestible manner. I witnessed his expertise firsthand when we were co-presenting at a regulatory workshop — truly a delightful experience.",
+    name: "Quanyie Tan",
+    title: "Group Head of Regional Strategy, APAC",
+    context: "Co-presenter at regulatory workshop",
+    engagement: "Regulatory Workshop · Singapore",
+  },
+];
+
+export const speakingEngagements = [
+  {
+    event: "ERM & BCP Certification Programme",
+    host: "APARI & Singapore College of Insurance",
+    venue: "JW Marriott Jakarta",
+    year: "2026",
+  },
+  {
+    event: "Climate, Environmental & ESG Risk Certification",
+    host: "APARI & Singapore College of Insurance",
+    venue: "JW Marriott Jakarta",
+    year: "2026",
+  },
+  {
+    event: "Enterprise Risk Management Executive Programme",
+    host: "SMU Academy",
+    venue: "Singapore Management University",
+    year: "Ongoing",
+  },
+  {
+    event: "Refresher Mathematics Course (IDSM31081)",
+    host: "ESSEC Business School",
+    venue: "Singapore",
+    year: "Ongoing",
+  },
+  {
+    event: "Insurance & Risk Governance Training",
+    host: "Singapore College of Insurance",
+    venue: "Singapore",
+    year: "Ongoing",
+  },
+  {
+    event: "ERM Committee & Industry Workshops",
+    host: "Singapore Actuarial Society",
+    venue: "Singapore",
+    year: "Multiple years",
+  },
 ];

@@ -8,9 +8,9 @@ export default function FinalCTA() {
     <section
       aria-label="Contact and engagement"
       style={{
-        background:
-          "linear-gradient(160deg, var(--warm-ivory) 0%, var(--soft-mist) 40%, var(--executive-navy) 100%)",
+        background: "var(--midnight-navy)",
         padding: "5rem 2rem",
+        borderTop: "1px solid rgba(201,169,97,0.15)",
       }}
     >
       <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
@@ -19,7 +19,7 @@ export default function FinalCTA() {
             fontFamily: "var(--font-ibm-mono), monospace",
             fontSize: "0.62rem",
             letterSpacing: "0.2em",
-            color: "var(--strategic-teal)",
+            color: "var(--gold)",
             textTransform: "uppercase",
             marginBottom: "2rem",
           }}
@@ -33,7 +33,7 @@ export default function FinalCTA() {
             fontSize: "clamp(1.8rem, 4vw, 3rem)",
             fontWeight: 700,
             letterSpacing: "-0.03em",
-            color: "var(--midnight-navy)",
+            color: "var(--warm-ivory)",
             lineHeight: 1.15,
             marginBottom: "1.5rem",
           }}
@@ -44,9 +44,8 @@ export default function FinalCTA() {
         <p
           style={{
             fontSize: "1rem",
-            color: "var(--graphite)",
+            color: "rgba(244,229,208,0.6)",
             lineHeight: 1.8,
-            opacity: 0.75,
             marginBottom: "3rem",
             maxWidth: "560px",
             margin: "0 auto 3rem",
@@ -84,7 +83,7 @@ export default function FinalCTA() {
             fontFamily: "var(--font-ibm-mono), monospace",
             fontSize: "0.62rem",
             letterSpacing: "0.08em",
-            color: "rgba(7,26,43,0.35)",
+            color: "rgba(244,229,208,0.22)",
             lineHeight: 1.6,
           }}
         >
@@ -114,16 +113,16 @@ export default function FinalCTA() {
           gap: 0.5rem;
           padding: 1rem 2rem;
           background-color: transparent;
-          color: var(--midnight-navy);
+          color: rgba(244,229,208,0.75);
           font-family: var(--font-plus-jakarta), system-ui, sans-serif;
           font-weight: 500;
           font-size: 0.9rem;
           border-radius: 999px;
-          border: 1.5px solid rgba(42,31,26,0.25);
+          border: 1.5px solid rgba(244,229,208,0.2);
           text-decoration: none;
-          transition: border-color 0.2s ease, transform 0.2s ease;
+          transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
         }
-        .cta-outline-btn:hover { border-color: rgba(42,31,26,0.5); transform: translateY(-2px); }
+        .cta-outline-btn:hover { border-color: rgba(244,229,208,0.5); color: rgba(244,229,208,1); transform: translateY(-2px); }
       `}</style>
     </section>
   );

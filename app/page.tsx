@@ -9,6 +9,7 @@ import CurrentThemes from "@/components/CurrentThemes";
 import FeaturedProgrammes from "@/components/FeaturedProgrammes";
 import SpeakingSection from "@/components/SpeakingSection";
 import QuoteSection from "@/components/QuoteSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import InsightCards from "@/components/InsightCards";
 import FinalCTA from "@/components/FinalCTA";
 
@@ -31,6 +32,7 @@ export default function HomePage() {
       <FeaturedProgrammes />
       <SpeakingSection />
       <QuoteSection />
+      <TestimonialsSection />
       <InsightCards />
       <FinalCTA />
     </>

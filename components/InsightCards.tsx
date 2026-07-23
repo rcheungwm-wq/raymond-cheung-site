@@ -25,7 +25,7 @@ export default function InsightCards() {
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "3rem" }}>
           <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase" }}>
-            08 / Insights
+            09 / Insights
           </span>
           <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(7,26,43,0.08)" }} />
         </div>

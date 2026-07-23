@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Mic, Users, Briefcase, GraduationCap, MessageSquare, Radio, ArrowRight } from "lucide-react";
 import { speakingThemes, speakingFormats } from "@/data/programmes";
+import { speakingEngagements } from "@/data/profile";
 
 const iconMap: Record<string, React.ReactNode> = {
   mic: <Mic size={16} />,
@@ -59,7 +60,7 @@ export default function SpeakingSection() {
             <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem", letterSpacing: "0.14em", color: "var(--gold)", textTransform: "uppercase", marginBottom: "1.5rem" }}>
               Speaking Themes
             </p>
-            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, marginBottom: "2.5rem" }}>
               {speakingThemes.map((theme, i) => (
                 <li key={theme} style={{ display: "flex", alignItems: "flex-start", gap: "1rem", padding: "1rem 0", borderBottom: "1px solid rgba(21,154,146,0.1)" }}>
                   <span aria-hidden="true" style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", color: "rgba(245,243,236,0.22)", flexShrink: 0, marginTop: "0.15rem" }}>
@@ -68,6 +69,28 @@ export default function SpeakingSection() {
                   <p style={{ fontSize: "0.9rem", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 500, color: "rgba(245,243,236,0.78)", lineHeight: 1.45 }}>
                     {theme}
                   </p>
+                </li>
+              ))}
+            </ul>
+
+            {/* Past & ongoing engagements */}
+            <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem", letterSpacing: "0.14em", color: "var(--gold)", textTransform: "uppercase", marginBottom: "1.25rem" }}>
+              Selected Engagements
+            </p>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+              {speakingEngagements.map((e) => (
+                <li key={e.event} style={{ padding: "0.85rem 0", borderBottom: "1px solid rgba(21,154,146,0.08)", display: "grid", gridTemplateColumns: "1fr auto", gap: "1rem", alignItems: "start" }}>
+                  <div>
+                    <p style={{ fontSize: "0.82rem", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, color: "rgba(245,243,236,0.82)", lineHeight: 1.3, marginBottom: "0.2rem" }}>
+                      {e.event}
+                    </p>
+                    <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.06em", color: "rgba(245,243,236,0.38)", textTransform: "uppercase" }}>
+                      {e.host} · {e.venue}
+                    </p>
+                  </div>
+                  <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.08em", color: "var(--strategic-teal)", textTransform: "uppercase", whiteSpace: "nowrap" }}>
+                    {e.year}
+                  </span>
                 </li>
               ))}
             </ul>
