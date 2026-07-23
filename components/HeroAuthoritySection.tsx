@@ -143,7 +143,7 @@ export default function HeroAuthoritySection() {
         style={{
           maxWidth: "1280px", margin: "0 auto", padding: "4rem 2rem 4rem 2rem",
           /* shift portrait left: give text less, portrait more */
-          display: "grid", gridTemplateColumns: "45fr 55fr", gap: "2rem",
+          display: "grid", gridTemplateColumns: "40fr 60fr", gap: "2rem",
           alignItems: "center", position: "relative", zIndex: 1, width: "100%",
         }}
         className="hero-grid"
@@ -217,8 +217,8 @@ export default function HeroAuthoritySection() {
 
         {/* Right — portrait + floating labels */}
         <div style={{ display: "flex", justifyContent: "flex-start", position: "relative" }} className="hero-portrait-col">
-          {/* Portrait container — taller & larger */}
-          <div style={{ position: "relative", width: "min(420px, 85vw)", aspectRatio: "3/4" }}>
+          {/* Portrait container */}
+          <div style={{ position: "relative", width: "min(520px, 90vw)", aspectRatio: "1/1" }}>
 
             {/* Coral aura */}
             <div aria-hidden="true" style={{
@@ -255,8 +255,8 @@ export default function HeroAuthoritySection() {
                 src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
                 alt="Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
                 fill priority
-                sizes="(max-width: 900px) 85vw, 420px"
-                style={{ objectFit: "cover", objectPosition: "center top" }}
+                sizes="(max-width: 900px) 90vw, 520px"
+                style={{ objectFit: "cover", objectPosition: "center center" }}
               />
               <div aria-hidden="true" style={{
                 position: "absolute", inset: 0,
