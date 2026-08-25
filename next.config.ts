@@ -5,9 +5,9 @@ const isProd = process.env.NODE_ENV === "production";
 const nextConfig: NextConfig = {
   typescript: { ignoreBuildErrors: true },
   output: "export",
-  basePath: isProd ? "/Raymondcheung" : "",
+  basePath: isProd ? "/raymond-cheung-site" : "",
   env: {
-    NEXT_PUBLIC_BASE_PATH: isProd ? "/Raymondcheung" : "",
+    NEXT_PUBLIC_BASE_PATH: isProd ? "/raymond-cheung-site" : "",
   },
   images: {
     formats: ["image/avif", "image/webp"],
