@@ -13,13 +13,13 @@ export default function CareerJourney() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>03 / Career Journey</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
         </div>
 
         <h2 id="journey-heading" style={{
           fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
           fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
-          letterSpacing: "-0.025em", color: "var(--midnight-navy)", lineHeight: 1.22,
+          letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.22,
           marginBottom: "3.5rem",
         }}>Two decades at the sharp end of Asia&rsquo;s risk landscape</h2>
 
@@ -37,16 +37,16 @@ export default function CareerJourney() {
                   position: "absolute", left: "-2.5rem", top: "4px",
                   width: "24px", height: "24px", borderRadius: "50%",
                   backgroundColor: i === 0 ? "var(--strategic-teal)" : "var(--warm-ivory)",
-                  border: `2px solid ${i === 0 ? "var(--strategic-teal)" : "rgba(42,31,26,0.2)"}`,
-                  boxShadow: i === 0 ? "0 0 0 4px rgba(229,102,74,0.12)" : "none",
+                  border: `2px solid ${i === 0 ? "var(--strategic-teal)" : "rgba(242,237,227,0.2)"}`,
+                  boxShadow: i === 0 ? "0 0 0 4px rgba(201,169,97,0.12)" : "none",
                 }} />
 
                 <div style={{
                   background: "var(--glass)",
-                  backdropFilter: "blur(20px) saturate(140%)",
-                  WebkitBackdropFilter: "blur(20px) saturate(140%)",
+                  backdropFilter: "none",
+                  WebkitBackdropFilter: "none",
                   border: "1px solid var(--glass-border)",
-                  borderRadius: "16px", padding: "1.5rem 2rem",
+                  borderRadius: "2px", padding: "1.5rem 2rem",
                   boxShadow: "var(--sh-glass)",
                 }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "0.5rem", marginBottom: "0.75rem" }}>
@@ -57,13 +57,13 @@ export default function CareerJourney() {
                       }}>{m.period}</span>
                       <h3 style={{
                         fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                        fontWeight: 700, fontSize: "0.95rem", color: "var(--midnight-navy)",
+                        fontWeight: 700, fontSize: "0.95rem", color: "var(--ink)",
                         margin: "0.25rem 0 0",
                       }}>{m.title}</h3>
                     </div>
                     <span style={{
                       fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-                      letterSpacing: "0.1em", color: "rgba(42,31,26,0.45)", textTransform: "uppercase",
+                      letterSpacing: "0.1em", color: "rgba(242,237,227,0.45)", textTransform: "uppercase",
                       whiteSpace: "nowrap",
                     }}>{m.thread}</span>
                   </div>

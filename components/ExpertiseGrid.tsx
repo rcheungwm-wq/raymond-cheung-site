@@ -63,17 +63,17 @@ export default function ExpertiseGrid() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>02 / Expertise</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: "3rem", flexWrap: "wrap", gap: "1rem" }}>
           <h2 id="expertise-heading" style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
-            letterSpacing: "-0.025em", color: "var(--midnight-navy)", lineHeight: 1.22, margin: 0,
+            letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.22, margin: 0,
           }}>Six domains of deep expertise</h2>
           <span style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
-            letterSpacing: "0.12em", color: "rgba(42,31,26,0.38)", textTransform: "uppercase",
+            letterSpacing: "0.12em", color: "rgba(242,237,227,0.38)", textTransform: "uppercase",
           }}>Across Asia · 20+ years</span>
         </div>
 
@@ -84,10 +84,10 @@ export default function ExpertiseGrid() {
               onMouseLeave={() => setHovered(null)}
               style={{
                 background: "var(--glass)",
-                backdropFilter: "blur(20px) saturate(140%)",
-                WebkitBackdropFilter: "blur(20px) saturate(140%)",
+                backdropFilter: "none",
+                WebkitBackdropFilter: "none",
                 border: "1px solid var(--glass-border)",
-                borderRadius: "20px", overflow: "hidden",
+                borderRadius: "2px", overflow: "hidden",
                 boxShadow: hovered === i ? "var(--sh-deep)" : "var(--sh-glass)",
                 transform: hovered === i ? "translateY(-4px)" : "none",
                 transition: "transform 0.25s ease, box-shadow 0.25s ease",
@@ -99,16 +99,16 @@ export default function ExpertiseGrid() {
                     transform: hovered === i ? "scale(1.04)" : "scale(1)", transition: "transform 0.4s ease" }} />
                 <div aria-hidden="true" style={{
                   position: "absolute", inset: 0,
-                  background: "linear-gradient(to bottom, rgba(42,31,26,0.08) 0%, rgba(42,31,26,0.5) 100%)",
+                  background: "linear-gradient(to bottom, rgba(242,237,227,0.08) 0%, rgba(242,237,227,0.5) 100%)",
                 }} />
                 <div style={{
                   position: "absolute", bottom: "1rem", left: "1rem",
-                  background: "rgba(229,102,74,0.9)", borderRadius: "999px",
+                  background: "rgba(201,169,97,0.9)", borderRadius: "999px",
                   padding: "0.3rem 0.9rem",
                 }}>
                   <span style={{
                     fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
-                    letterSpacing: "0.12em", color: "#fff", textTransform: "uppercase",
+                    letterSpacing: "0.12em", color: "var(--ink)", textTransform: "uppercase",
                   }}>{domain.tag}</span>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function ExpertiseGrid() {
                 }} />
                 <h3 style={{
                   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                  fontSize: "1rem", fontWeight: 700, color: "var(--midnight-navy)",
+                  fontSize: "1rem", fontWeight: 700, color: "var(--ink)",
                   letterSpacing: "-0.01em", marginBottom: "0.75rem",
                 }}>{domain.title}</h3>
                 <p style={{
@@ -130,8 +130,8 @@ export default function ExpertiseGrid() {
                   {domain.caps.map((cap) => (
                     <span key={cap} style={{
                       fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
-                      letterSpacing: "0.1em", color: "var(--midnight-navy)",
-                      backgroundColor: "rgba(42,31,26,0.06)", borderRadius: "999px",
+                      letterSpacing: "0.1em", color: "var(--ink)",
+                      backgroundColor: "rgba(242,237,227,0.06)", borderRadius: "999px",
                       padding: "0.3rem 0.75rem", textTransform: "uppercase",
                     }}>{cap}</span>
                   ))}

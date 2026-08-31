@@ -56,13 +56,13 @@ export default function AudienceRouter() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>How I Work With Organisations</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
         </div>
 
         <h2 id="audience-heading" style={{
           fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
           fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
-          letterSpacing: "-0.025em", color: "var(--midnight-navy)", lineHeight: 1.22,
+          letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.22,
           marginBottom: "1rem", maxWidth: "760px",
         }}>
           Three ways organisations bring me in
@@ -84,17 +84,17 @@ export default function AudienceRouter() {
             <div key={a.tag} style={{
               display: "flex", flexDirection: "column",
               background: "var(--glass)",
-              backdropFilter: "blur(20px) saturate(140%)",
-              WebkitBackdropFilter: "blur(20px) saturate(140%)",
+              backdropFilter: "none",
+              WebkitBackdropFilter: "none",
               border: "1px solid var(--glass-border)",
-              borderRadius: "18px", padding: "2rem",
+              borderRadius: "2px", padding: "2rem",
               boxShadow: "var(--sh-glass)",
             }}>
               <span style={{
                 fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
                 letterSpacing: "0.12em", textTransform: "uppercase",
                 color: "var(--strategic-teal)",
-                background: "rgba(229,102,74,0.08)",
+                background: "rgba(201,169,97,0.08)",
                 padding: "0.3rem 0.7rem", borderRadius: "999px",
                 alignSelf: "flex-start", marginBottom: "1.25rem",
               }}>{a.tag}</span>
@@ -102,7 +102,7 @@ export default function AudienceRouter() {
               <h3 style={{
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontSize: "1.12rem", fontWeight: 700, letterSpacing: "-0.015em",
-                color: "var(--midnight-navy)", lineHeight: 1.3, marginBottom: "0.85rem",
+                color: "var(--ink)", lineHeight: 1.3, marginBottom: "0.85rem",
               }}>{a.title}</h3>
 
               <p style={{
@@ -113,7 +113,7 @@ export default function AudienceRouter() {
               <ul style={{
                 listStyle: "none", padding: 0, margin: "0 0 1.75rem",
                 display: "flex", flexDirection: "column", gap: "0.55rem",
-                borderTop: "1px solid rgba(42,31,26,0.08)", paddingTop: "1.25rem",
+                borderTop: "1px solid rgba(242,237,227,0.08)", paddingTop: "1.25rem",
               }}>
                 {a.points.map((pt) => (
                   <li key={pt} style={{ display: "flex", alignItems: "flex-start", gap: "0.7rem" }}>
@@ -122,7 +122,7 @@ export default function AudienceRouter() {
                       marginTop: "0.32rem", flexShrink: 0,
                     }}>◆</span>
                     <span style={{
-                      fontSize: "0.83rem", color: "var(--midnight-navy)",
+                      fontSize: "0.83rem", color: "var(--ink)",
                       fontWeight: 500, lineHeight: 1.55,
                     }}>{pt}</span>
                   </li>

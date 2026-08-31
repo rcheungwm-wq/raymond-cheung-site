@@ -10,18 +10,18 @@ export default function ExecutiveFooter() {
       style={{ backgroundColor: "var(--midnight-navy)", borderTop: "1px solid rgba(201,169,97,0.15)", paddingTop: "4rem", paddingBottom: "2rem" }}
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 2rem" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "3rem", paddingBottom: "3rem", borderBottom: "1px solid rgba(21,154,146,0.1)" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "3rem", paddingBottom: "3rem", borderBottom: "1px solid rgba(201,169,97,0.1)" }}>
           {/* Brand */}
           <div>
             <Link href="/" style={{ textDecoration: "none" }} aria-label="Raymond Cheung – Home">
-              <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 800, fontSize: "1.05rem", letterSpacing: "0.16em", color: "var(--warm-ivory)", textTransform: "uppercase", marginBottom: "0.25rem" }}>
+              <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 800, fontSize: "1.05rem", letterSpacing: "0.16em", color: "var(--ink)", textTransform: "uppercase", marginBottom: "0.25rem" }}>
                 Raymond Cheung
               </p>
             </Link>
             <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem", letterSpacing: "0.1em", color: "var(--strategic-teal)", textTransform: "uppercase" }}>
               Risk · Insurance · Capital · ESG · Innovation
             </p>
-            <p style={{ marginTop: "1.25rem", fontSize: "0.82rem", color: "rgba(245,243,236,0.45)", lineHeight: 1.7, maxWidth: "260px" }}>
+            <p style={{ marginTop: "1.25rem", fontSize: "0.82rem", color: "rgba(242,237,227,0.45)", lineHeight: 1.7, maxWidth: "260px" }}>
               Chartered Actuary, C-suite executive and board adviser operating from Singapore.
             </p>
           </div>
@@ -80,10 +80,10 @@ export default function ExecutiveFooter() {
         {/* Bottom */}
         <div style={{ paddingTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.75rem" }}>
-            <p style={{ fontSize: "0.78rem", color: "rgba(245,243,236,0.35)" }}>
+            <p style={{ fontSize: "0.78rem", color: "rgba(242,237,227,0.35)" }}>
               &copy; {currentYear} Raymond Cheung. All rights reserved.
             </p>
-            <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem", letterSpacing: "0.08em", color: "rgba(245,243,236,0.2)" }}>
+            <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem", letterSpacing: "0.08em", color: "rgba(242,237,227,0.2)" }}>
               Singapore
             </p>
           </div>

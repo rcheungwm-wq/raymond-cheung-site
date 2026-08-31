@@ -34,11 +34,11 @@ export default function ExecutiveNavbar() {
         style={{
           position: "fixed", top: 0, left: 0, right: 0, zIndex: 50,
           transition: "background-color 0.3s ease, border-color 0.3s ease, backdrop-filter 0.3s ease",
-          backgroundColor: scrolled ? "rgba(253,244,232,0.92)" : "rgba(244,229,208,0.55)",
-          borderBottom: scrolled ? "1px solid rgba(255,255,255,0.8)" : "1px solid rgba(255,255,255,0.4)",
-          backdropFilter: "blur(18px) saturate(140%)",
-          WebkitBackdropFilter: "blur(18px) saturate(140%)",
-          boxShadow: scrolled ? "0 4px 24px rgba(120,70,50,0.08)" : "none",
+          backgroundColor: scrolled ? "rgba(253,244,232,0.92)" : "rgba(242,237,227,0.55)",
+          borderBottom: scrolled ? "1px solid var(--rule-soft)" : "1px solid var(--rule-soft)",
+          backdropFilter: "none",
+          WebkitBackdropFilter: "none",
+          boxShadow: scrolled ? "0 4px 24px rgba(0,0,0,0.08)" : "none",
         }}
       >
         <nav
@@ -52,7 +52,7 @@ export default function ExecutiveNavbar() {
             <span style={{
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
               fontWeight: 800, fontSize: "1rem", letterSpacing: "0.18em",
-              color: "var(--midnight-navy)", textTransform: "uppercase",
+              color: "var(--ink)", textTransform: "uppercase",
             }}>Raymond Cheung</span>
             <span style={{
               fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
@@ -76,17 +76,17 @@ export default function ExecutiveNavbar() {
             <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer"
               style={{
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                fontWeight: 400, fontSize: "0.8rem", color: "rgba(42,31,26,0.5)",
+                fontWeight: 400, fontSize: "0.8rem", color: "rgba(242,237,227,0.5)",
                 textDecoration: "none", display: "flex", alignItems: "center", gap: "0.25rem", transition: "color 0.2s ease",
               }}
               onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--graphite)")}
-              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(42,31,26,0.5)")}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(242,237,227,0.5)")}
             >LinkedIn <ExternalLink size={11} /></a>
 
             <Link href="/contact" style={{
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
               fontWeight: 600, fontSize: "0.82rem", letterSpacing: "0.02em",
-              color: "var(--warm-ivory)", backgroundColor: "var(--midnight-navy)",
+              color: "var(--ink)", backgroundColor: "var(--midnight-navy)",
               padding: "0.55rem 1.25rem", borderRadius: "999px",
               textDecoration: "none", transition: "background-color 0.2s ease, transform 0.2s ease",
               whiteSpace: "nowrap",
@@ -100,7 +100,7 @@ export default function ExecutiveNavbar() {
             aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={mobileOpen}
             onClick={() => setMobileOpen(!mobileOpen)}
-            style={{ display: "none", background: "none", border: "none", cursor: "pointer", color: "var(--midnight-navy)", padding: "0.5rem" }}
+            style={{ display: "none", background: "none", border: "none", cursor: "pointer", color: "var(--ink)", padding: "0.5rem" }}
             className="show-mobile"
           >
             {mobileOpen ? <X size={22} /> : <Menu size={22} />}
@@ -111,7 +111,7 @@ export default function ExecutiveNavbar() {
       {mobileOpen && (
         <div role="dialog" aria-modal="true" aria-label="Navigation menu" style={{
           position: "fixed", inset: 0, zIndex: 49,
-          backgroundColor: "#F4E5D0", paddingTop: "80px", paddingLeft: "2rem", paddingRight: "2rem",
+          backgroundColor: "var(--warm-ivory)", paddingTop: "80px", paddingLeft: "2rem", paddingRight: "2rem",
           display: "flex", flexDirection: "column",
         }}>
           <nav aria-label="Mobile navigation">
@@ -119,9 +119,9 @@ export default function ExecutiveNavbar() {
               <Link key={link.href} href={link.href} onClick={() => setMobileOpen(false)} style={{
                 display: "block", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontWeight: 600, fontSize: "1.4rem", letterSpacing: "-0.01em",
-                color: "var(--midnight-navy)", textDecoration: "none",
+                color: "var(--ink)", textDecoration: "none",
                 paddingTop: "1.25rem", paddingBottom: "1.25rem",
-                borderBottom: "1px solid rgba(42,31,26,0.1)", animationDelay: `${i * 60}ms`,
+                borderBottom: "1px solid rgba(242,237,227,0.1)", animationDelay: `${i * 60}ms`,
               }}>{link.label}</Link>
             ))}
           </nav>
@@ -129,13 +129,13 @@ export default function ExecutiveNavbar() {
             <Link href="/contact" onClick={() => setMobileOpen(false)} style={{
               display: "block", textAlign: "center",
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-              fontWeight: 600, fontSize: "0.9rem", color: "var(--warm-ivory)",
+              fontWeight: 600, fontSize: "0.9rem", color: "var(--ink)",
               backgroundColor: "var(--midnight-navy)", padding: "1rem", borderRadius: "999px", textDecoration: "none",
             }}>Discuss an Engagement</Link>
             <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer" style={{
               display: "block", textAlign: "center",
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-              fontWeight: 400, fontSize: "0.85rem", color: "rgba(42,31,26,0.55)", textDecoration: "none",
+              fontWeight: 400, fontSize: "0.85rem", color: "rgba(242,237,227,0.55)", textDecoration: "none",
             }}>LinkedIn ↗</a>
           </div>
         </div>

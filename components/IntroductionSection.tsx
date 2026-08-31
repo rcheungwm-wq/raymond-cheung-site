@@ -15,7 +15,7 @@ export default function IntroductionSection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>01 / Perspective</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
         </div>
 
         {/* Two-column: text + Singapore image */}
@@ -24,7 +24,7 @@ export default function IntroductionSection() {
             <h2 id="perspective-heading" style={{
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
               fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
-              letterSpacing: "-0.025em", color: "var(--midnight-navy)", lineHeight: 1.22, marginBottom: "1.75rem",
+              letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.22, marginBottom: "1.75rem",
             }}>{philosophy.headline}</h2>
             <p style={{ fontSize: "1.05rem", color: "var(--graphite)", lineHeight: 1.8, opacity: 0.82 }}>
               {philosophy.body}
@@ -32,7 +32,7 @@ export default function IntroductionSection() {
           </div>
 
           {/* Singapore image */}
-          <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden", aspectRatio: "4/3", boxShadow: "var(--sh-deep)" }}>
+          <div style={{ position: "relative", borderRadius: "2px", overflow: "hidden", aspectRatio: "4/3", boxShadow: "var(--sh-deep)" }}>
             <img
               src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=900&q=80&auto=format"
               alt="Singapore financial district skyline"
@@ -41,17 +41,17 @@ export default function IntroductionSection() {
             />
             <div aria-hidden="true" style={{
               position: "absolute", inset: 0,
-              background: "linear-gradient(135deg, rgba(42,31,26,0.35) 0%, transparent 60%)",
+              background: "linear-gradient(135deg, rgba(242,237,227,0.35) 0%, transparent 60%)",
             }} />
             <div style={{
               position: "absolute", bottom: "1.5rem", left: "1.5rem",
-              background: "var(--glass-strong)", backdropFilter: "blur(18px)",
-              WebkitBackdropFilter: "blur(18px)", border: "1px solid var(--glass-border)",
-              borderRadius: "12px", padding: "0.65rem 1.1rem",
+              background: "var(--glass-strong)", backdropFilter: "none",
+              WebkitBackdropFilter: "none", border: "1px solid var(--glass-border)",
+              borderRadius: "2px", padding: "0.65rem 1.1rem",
             }}>
               <p style={{
                 fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
-                letterSpacing: "0.14em", color: "var(--midnight-navy)", textTransform: "uppercase", margin: 0,
+                letterSpacing: "0.14em", color: "var(--ink)", textTransform: "uppercase", margin: 0,
               }}>Singapore · Asia Pacific</p>
             </div>
           </div>
@@ -64,8 +64,8 @@ export default function IntroductionSection() {
               background: i === 1 ? "var(--midnight-navy)" : "var(--glass)",
               backdropFilter: i === 1 ? "none" : "blur(20px) saturate(140%)",
               WebkitBackdropFilter: i === 1 ? "none" : "blur(20px) saturate(140%)",
-              border: i === 1 ? "1px solid rgba(255,255,255,0.08)" : "1px solid var(--glass-border)",
-              borderRadius: "20px", padding: "2.25rem",
+              border: i === 1 ? "1px solid var(--rule-soft)" : "1px solid var(--glass-border)",
+              borderRadius: "2px", padding: "2.25rem",
               boxShadow: "var(--sh-glass)",
             }}>
               <div aria-hidden="true" style={{
@@ -77,11 +77,11 @@ export default function IntroductionSection() {
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontSize: "0.9rem", fontWeight: 700, letterSpacing: "0.05em",
                 textTransform: "uppercase",
-                color: i === 1 ? "var(--warm-ivory)" : "var(--midnight-navy)", marginBottom: "0.85rem",
+                color: i === 1 ? "var(--ink)" : "var(--ink)", marginBottom: "0.85rem",
               }}>{p.title}</h3>
               <p style={{
                 fontSize: "0.9rem",
-                color: i === 1 ? "rgba(244,229,208,0.68)" : "var(--graphite)",
+                color: i === 1 ? "rgba(242,237,227,0.68)" : "var(--graphite)",
                 lineHeight: 1.75, opacity: i === 1 ? 1 : 0.85, margin: 0,
               }}>{p.body}</p>
             </div>

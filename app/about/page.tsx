@@ -135,7 +135,7 @@ export default function AboutPage() {
       >
         <div aria-hidden="true" style={{
           position: "absolute", inset: 0,
-          background: "radial-gradient(ellipse 60% 70% at 80% 50%, rgba(229,102,74,0.08) 0%, transparent 60%)",
+          background: "radial-gradient(ellipse 60% 70% at 80% 50%, rgba(201,169,97,0.08) 0%, transparent 60%)",
           pointerEvents: "none",
         }} />
         <div style={{ maxWidth: "1280px", margin: "0 auto", position: "relative", zIndex: 1 }}>
@@ -147,7 +147,7 @@ export default function AboutPage() {
           <h1 id="about-heading" style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800,
-            letterSpacing: "-0.03em", color: "var(--warm-ivory)", lineHeight: 1.12,
+            letterSpacing: "-0.03em", color: "var(--ink)", lineHeight: 1.12,
             maxWidth: "680px",
           }}>
             Two decades of risk, leadership and the discipline to connect them.
@@ -168,7 +168,7 @@ export default function AboutPage() {
           {/* Left */}
           <div>
             <p style={{
-              fontSize: "1.15rem", color: "var(--midnight-navy)", lineHeight: 1.85,
+              fontSize: "1.15rem", color: "var(--ink)", lineHeight: 1.85,
               fontWeight: 500, marginBottom: "1.75rem",
             }}>
               {profile.biography.opening}
@@ -189,7 +189,7 @@ export default function AboutPage() {
               <p style={{
                 fontFamily: "var(--font-cormorant, Georgia), serif",
                 fontSize: "1.25rem", fontWeight: 600, fontStyle: "italic",
-                color: "var(--warm-ivory)", lineHeight: 1.6,
+                color: "var(--ink)", lineHeight: 1.6,
               }}>
                 &ldquo;{profile.philosophy.headline}&rdquo;
               </p>
@@ -199,7 +199,7 @@ export default function AboutPage() {
             <h2 style={{
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
               fontSize: "1.5rem", fontWeight: 700, letterSpacing: "-0.02em",
-              color: "var(--midnight-navy)", marginBottom: "2rem",
+              color: "var(--ink)", marginBottom: "2rem",
             }}>
               My career in stages
             </h2>
@@ -208,7 +208,7 @@ export default function AboutPage() {
               {careerJourney.map((stage) => (
                 <div key={stage.id} style={{
                   paddingLeft: "1.5rem",
-                  borderLeft: "2px solid rgba(229,102,74,0.25)",
+                  borderLeft: "2px solid rgba(201,169,97,0.25)",
                 }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "0.4rem" }}>
                     <span style={{
@@ -217,7 +217,7 @@ export default function AboutPage() {
                     }}>{stage.stage}</span>
                     <h3 style={{
                       fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                      fontSize: "0.9rem", fontWeight: 700, color: "var(--midnight-navy)",
+                      fontSize: "0.9rem", fontWeight: 700, color: "var(--ink)",
                     }}>{stage.title}</h3>
                   </div>
                   <p style={{ fontSize: "0.875rem", color: "var(--graphite)", lineHeight: 1.7, opacity: 0.82 }}>
@@ -236,7 +236,7 @@ export default function AboutPage() {
             <h2 style={{
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
               fontSize: "1.5rem", fontWeight: 700, letterSpacing: "-0.02em",
-              color: "var(--midnight-navy)", marginBottom: "0.75rem",
+              color: "var(--ink)", marginBottom: "0.75rem",
             }}>
               My professional roles
             </h2>
@@ -247,13 +247,13 @@ export default function AboutPage() {
               Click any role to see what I actually did there.
             </p>
 
-            <div style={{ display: "flex", flexDirection: "column", gap: "0", marginBottom: "4rem", borderRadius: "16px", overflow: "hidden", boxShadow: "var(--sh-glass)" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0", marginBottom: "4rem", borderRadius: "2px", overflow: "hidden", boxShadow: "var(--sh-glass)" }}>
               {roles.map((role, i) => {
                 const isOpen = openRole === i;
                 return (
                   <div key={`${role.title}-${role.org}`} style={{
-                    borderBottom: i < roles.length - 1 ? "1px solid rgba(42,31,26,0.07)" : "none",
-                    backgroundColor: isOpen ? "var(--midnight-navy)" : "rgba(255,255,255,0.85)",
+                    borderBottom: i < roles.length - 1 ? "1px solid rgba(242,237,227,0.07)" : "none",
+                    backgroundColor: isOpen ? "var(--panel-hi)" : "var(--panel)",
                     transition: "background-color 0.3s ease",
                   }}>
                     <button
@@ -272,26 +272,26 @@ export default function AboutPage() {
                           letterSpacing: "0.12em", textTransform: "uppercase",
                           color: isOpen ? "var(--gold)" : "var(--strategic-teal)",
                           flexShrink: 0,
-                          background: isOpen ? "rgba(201,169,97,0.15)" : "rgba(229,102,74,0.08)",
+                          background: isOpen ? "rgba(201,169,97,0.15)" : "rgba(201,169,97,0.08)",
                           padding: "0.25rem 0.6rem", borderRadius: "999px",
                         }}>{role.period}</span>
                         <div>
                           <p style={{
                             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                             fontSize: "0.92rem", fontWeight: 700,
-                            color: isOpen ? "var(--warm-ivory)" : "var(--midnight-navy)",
+                            color: isOpen ? "var(--ink)" : "var(--ink)",
                             marginBottom: "0.1rem",
                           }}>{role.title}</p>
                           <p style={{
                             fontSize: "0.8rem",
-                            color: isOpen ? "rgba(244,229,208,0.6)" : "rgba(42,31,26,0.5)",
+                            color: isOpen ? "rgba(242,237,227,0.6)" : "rgba(242,237,227,0.5)",
                           }}>{role.org}</p>
                         </div>
                       </div>
                       <ChevronDown
                         size={16}
                         style={{
-                          color: isOpen ? "var(--strategic-teal)" : "rgba(42,31,26,0.3)",
+                          color: isOpen ? "var(--strategic-teal)" : "rgba(242,237,227,0.3)",
                           transform: isOpen ? "rotate(180deg)" : "none",
                           transition: "transform 0.3s ease",
                           flexShrink: 0,
@@ -302,7 +302,7 @@ export default function AboutPage() {
                     {isOpen && (
                       <div style={{ padding: "0 1.75rem 2rem" }}>
                         <p style={{
-                          fontSize: "0.9rem", color: "rgba(244,229,208,0.82)",
+                          fontSize: "0.9rem", color: "rgba(242,237,227,0.82)",
                           lineHeight: 1.78, marginBottom: "1.5rem",
                         }}>
                           {role.what}
@@ -315,7 +315,7 @@ export default function AboutPage() {
                                 marginTop: "0.3rem", flexShrink: 0,
                               }}>◆</span>
                               <span style={{
-                                fontSize: "0.84rem", color: "rgba(244,229,208,0.7)", lineHeight: 1.65,
+                                fontSize: "0.84rem", color: "rgba(242,237,227,0.7)", lineHeight: 1.65,
                               }}>{item}</span>
                             </li>
                           ))}
@@ -331,14 +331,14 @@ export default function AboutPage() {
             <div style={{
               display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center",
               padding: "2rem 2.5rem",
-              background: "var(--glass)", backdropFilter: "blur(20px)",
-              WebkitBackdropFilter: "blur(20px)", border: "1px solid var(--glass-border)",
-              borderRadius: "16px", boxShadow: "var(--sh-glass)",
+              background: "var(--glass)", backdropFilter: "none",
+              WebkitBackdropFilter: "none", border: "1px solid var(--glass-border)",
+              borderRadius: "2px", boxShadow: "var(--sh-glass)",
             }}>
               <div style={{ flex: 1 }}>
                 <p style={{
                   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                  fontWeight: 700, fontSize: "0.95rem", color: "var(--midnight-navy)",
+                  fontWeight: 700, fontSize: "0.95rem", color: "var(--ink)",
                   marginBottom: "0.25rem",
                 }}>Ready to discuss an engagement?</p>
                 <p style={{ fontSize: "0.82rem", color: "var(--graphite)", opacity: 0.7 }}>
@@ -356,9 +356,9 @@ export default function AboutPage() {
             <div style={{ position: "sticky", top: "112px", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
               <div style={{
                 position: "relative", width: "100%", aspectRatio: "3/4",
-                overflow: "hidden", borderRadius: "16px",
+                overflow: "hidden", borderRadius: "2px",
                 boxShadow: "var(--sh-deep)",
-                border: "1.5px solid rgba(255,255,255,0.7)",
+                border: "1.5px solid var(--rule-soft)",
               }}>
                 <Image
                   src={profile.portrait}
@@ -370,9 +370,9 @@ export default function AboutPage() {
               </div>
 
               <div style={{
-                background: "var(--glass)", backdropFilter: "blur(20px) saturate(140%)",
-                WebkitBackdropFilter: "blur(20px) saturate(140%)",
-                border: "1px solid var(--glass-border)", borderRadius: "16px",
+                background: "var(--glass)", backdropFilter: "none",
+                WebkitBackdropFilter: "none",
+                border: "1px solid var(--glass-border)", borderRadius: "2px",
                 padding: "1.75rem", boxShadow: "var(--sh-glass)",
               }}>
                 <p style={{
@@ -383,8 +383,8 @@ export default function AboutPage() {
                 <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                   {profile.credentials.map((cred) => (
                     <li key={cred} style={{
-                      fontSize: "0.85rem", color: "var(--midnight-navy)", fontWeight: 500,
-                      padding: "0.5rem 0", borderBottom: "1px solid rgba(42,31,26,0.07)",
+                      fontSize: "0.85rem", color: "var(--ink)", fontWeight: 500,
+                      padding: "0.5rem 0", borderBottom: "1px solid rgba(242,237,227,0.07)",
                       display: "flex", alignItems: "center", gap: "0.5rem",
                     }}>
                       <span aria-hidden="true" style={{ color: "var(--strategic-teal)", fontSize: "0.6rem" }}>◆</span>
@@ -401,7 +401,7 @@ export default function AboutPage() {
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem",
                   padding: "0.85rem 1.5rem",
-                  background: "var(--midnight-navy)", color: "var(--warm-ivory)",
+                  background: "var(--midnight-navy)", color: "var(--ink)",
                   borderRadius: "999px", textDecoration: "none",
                   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                   fontSize: "0.82rem", fontWeight: 600,

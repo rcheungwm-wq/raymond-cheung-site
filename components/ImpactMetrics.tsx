@@ -26,7 +26,7 @@ export default function ImpactMetrics() {
       }} />
       <div aria-hidden="true" style={{
         position: "absolute", inset: 0,
-        background: "radial-gradient(ellipse 70% 60% at 80% 50%, rgba(229,102,74,0.07) 0%, transparent 60%)",
+        background: "radial-gradient(ellipse 70% 60% at 80% 50%, rgba(201,169,97,0.07) 0%, transparent 60%)",
         pointerEvents: "none",
       }} />
 
@@ -36,7 +36,7 @@ export default function ImpactMetrics() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>04 / Impact</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(21,154,146,0.15)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(201,169,97,0.15)" }} />
         </div>
 
         <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "3.5rem" }}>
@@ -44,7 +44,7 @@ export default function ImpactMetrics() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "rgba(201,169,97,0.6)", textTransform: "uppercase",
           }}>Where I&rsquo;ve worked · What I&rsquo;ve done</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(244,229,208,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
         </div>
 
         <h2 id="metrics-heading" className="sr-only">Impact metrics</h2>
@@ -52,10 +52,10 @@ export default function ImpactMetrics() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1.25rem" }}>
           {metrics.map((m) => (
             <div key={m.label} style={{
-              background: m.highlight ? "rgba(229,102,74,0.12)" : "rgba(255,255,255,0.04)",
-              border: m.highlight ? "1px solid rgba(229,102,74,0.2)" : "1px solid rgba(255,255,255,0.07)",
-              borderRadius: "20px", padding: "2.25rem 1.75rem",
-              boxShadow: "0 4px 20px rgba(0,0,0,0.15)",
+              background: m.highlight ? "rgba(201,169,97,0.12)" : "rgba(255,255,255,0.04)",
+              border: m.highlight ? "1px solid rgba(201,169,97,0.2)" : "1px solid var(--rule-soft)",
+              borderRadius: "2px", padding: "2.25rem 1.75rem",
+              boxShadow: "none",
             }}>
               <div style={{
                 fontFamily: "var(--font-cormorant, Georgia), serif",
@@ -66,11 +66,11 @@ export default function ImpactMetrics() {
               <div style={{
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontSize: "0.82rem", fontWeight: 600,
-                color: "rgba(244,229,208,0.9)", marginBottom: "0.5rem",
+                color: "rgba(242,237,227,0.9)", marginBottom: "0.5rem",
               }}>{m.label}</div>
               <div style={{
                 fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
-                letterSpacing: "0.06em", color: m.highlight ? "rgba(244,229,208,0.55)" : "rgba(244,229,208,0.38)", lineHeight: 1.6,
+                letterSpacing: "0.06em", color: m.highlight ? "rgba(242,237,227,0.55)" : "rgba(242,237,227,0.38)", lineHeight: 1.6,
               }}>{m.context}</div>
             </div>
           ))}

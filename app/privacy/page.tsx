@@ -13,7 +13,7 @@ export default function PrivacyPage() {
           <h1 style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "2.5rem", fontWeight: 800, letterSpacing: "-0.03em",
-            color: "var(--warm-ivory)", lineHeight: 1.15,
+            color: "var(--ink)", lineHeight: 1.15,
           }}>
             Privacy Policy
           </h1>
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           <h2 id="terms" style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "1.3rem", fontWeight: 700, letterSpacing: "-0.02em",
-            color: "var(--midnight-navy)", marginBottom: "1rem",
+            color: "var(--ink)", marginBottom: "1rem",
           }}>
             1. Introduction
           </h2>
@@ -40,7 +40,7 @@ export default function PrivacyPage() {
           <h2 style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "1.3rem", fontWeight: 700, letterSpacing: "-0.02em",
-            color: "var(--midnight-navy)", marginBottom: "1rem",
+            color: "var(--ink)", marginBottom: "1rem",
           }}>
             2. Information we collect
           </h2>
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
           <h2 style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "1.3rem", fontWeight: 700, letterSpacing: "-0.02em",
-            color: "var(--midnight-navy)", marginBottom: "1rem",
+            color: "var(--ink)", marginBottom: "1rem",
           }}>
             3. Cookies
           </h2>
@@ -64,7 +64,7 @@ export default function PrivacyPage() {
           <h2 style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "1.3rem", fontWeight: 700, letterSpacing: "-0.02em",
-            color: "var(--midnight-navy)", marginBottom: "1rem",
+            color: "var(--ink)", marginBottom: "1rem",
           }}>
             4. Third-party links
           </h2>
@@ -76,7 +76,7 @@ export default function PrivacyPage() {
           <h2 style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "1.3rem", fontWeight: 700, letterSpacing: "-0.02em",
-            color: "var(--midnight-navy)", marginBottom: "1rem",
+            color: "var(--ink)", marginBottom: "1rem",
           }}>
             5. Contact
           </h2>
@@ -86,9 +86,9 @@ export default function PrivacyPage() {
 
           <p style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-            letterSpacing: "0.06em", color: "rgba(7,26,43,0.35)",
+            letterSpacing: "0.06em", color: "rgba(242,237,227,0.35)",
             marginTop: "3rem", paddingTop: "2rem",
-            borderTop: "1px solid rgba(7,26,43,0.08)", lineHeight: 1.6,
+            borderTop: "1px solid rgba(242,237,227,0.08)", lineHeight: 1.6,
           }}>
             Last updated: 2025 · Raymond Cheung · Singapore
           </p>

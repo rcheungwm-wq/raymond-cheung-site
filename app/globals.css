@@ -2,23 +2,48 @@
 
 @layer base {
   :root {
-    /* ── Oasis-inspired warm palette ── */
-    --midnight-navy: #2A1F1A;       /* was cold navy — now warm ink */
-    --executive-navy: #3D2820;      /* warm dark brown */
-    --deep-teal: #C04830;           /* coral deep (hover) */
-    --strategic-teal: #E5664A;      /* coral accent (primary CTA) */
-    --warm-ivory: #F4E5D0;          /* warm cream background */
-    --soft-mist: #FBE0CF;           /* blush card background */
-    --graphite: #5C4A3F;            /* ink soft body text */
-    --gold: #C9A961;                /* unchanged */
+    /* ══ EDITORIAL AUTHORITY PALETTE ══
+       Near-black canvas, ivory ink, single gold accent.
+       Legacy token names retained so existing components inherit the new
+       system without rewrites — their *values* are now dark-canvas. */
+
+    /* Surfaces (were light; now the dark canvas ladder) */
+    --warm-ivory: #0A0A0C;          /* page canvas — deepest */
+    --soft-mist: #101014;           /* alternating band */
+    --midnight-navy: #08080A;       /* feature/hero band — darker than canvas */
+    --executive-navy: #101016;      /* gradient partner */
+    --panel: #131318;               /* raised card */
+    --panel-hi: #1A1A21;            /* hover / active card */
+
+    /* Ink */
+    --ink: #F2EDE3;                 /* primary text on canvas */
+    --ink-soft: #CFC8BC;            /* secondary */
+    --graphite: #98918A;            /* body / muted (text-only token) */
+    --ink-faint: #6B655E;           /* labels, meta */
+
+    /* Accent — gold only. Coral retired. */
+    --gold: #C9A961;
+    --gold-dim: #8C7538;
+    --gold-bright: #E0C179;
+    --strategic-teal: #C9A961;      /* legacy alias → gold */
+    --deep-teal: #A8873F;           /* legacy alias → gold hover */
+
     --white: #ffffff;
-    --glass: rgba(255, 255, 255, 0.55);
-    --glass-strong: rgba(255, 255, 255, 0.78);
-    --glass-border: rgba(255, 255, 255, 0.80);
-    --sh-glass: 0 8px 32px rgba(120, 70, 50, 0.12);
-    --sh-deep: 0 20px 60px rgba(120, 70, 50, 0.22);
-    --r-card: 20px;
-    --r-sm: 12px;
+
+    /* Hairlines & surfaces */
+    --rule: rgba(201, 169, 97, 0.18);
+    --rule-soft: rgba(242, 237, 227, 0.09);
+    --glass: #131318;               /* flat now — no blur */
+    --glass-strong: #16161C;
+    --glass-border: rgba(201, 169, 97, 0.16);
+
+    /* Editorial = flat. Shadows near-eliminated. */
+    --sh-glass: none;
+    --sh-deep: 0 1px 0 rgba(201, 169, 97, 0.22);
+
+    /* Sharp, not pill. */
+    --r-card: 2px;
+    --r-sm: 2px;
   }
 
   html {
@@ -31,22 +56,40 @@
     background-color: var(--warm-ivory);
     color: var(--graphite);
     font-family: "Inter", system-ui, sans-serif;
-    line-height: 1.65;
+    line-height: 1.7;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Plus Jakarta Sans", "Manrope", system-ui, sans-serif;
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    line-height: 1.1;
-    color: var(--midnight-navy);
+  /* Display type = editorial serif.
+     !important because most headings carry inline font-family overrides
+     from the previous design system; this is the single lever that makes
+     display type consistent site-wide. */
+  h1, h2 {
+    font-family: var(--font-cormorant), "Cormorant Garamond", Georgia, serif !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.01em !important;
+    line-height: 1.08;
+    color: var(--ink);
+  }
+
+  /* Serif renders optically smaller — compensate. */
+  h1 { font-size: clamp(2.9rem, 5.4vw, 4.9rem); }
+  h2 { font-size: clamp(1.9rem, 3.4vw, 2.9rem); }
+
+  h3, h4, h5, h6 {
+    font-family: var(--font-plus-jakarta), "Plus Jakarta Sans", system-ui, sans-serif;
+    font-weight: 650;
+    letter-spacing: -0.012em;
+    line-height: 1.25;
+    color: var(--ink);
   }
 
   *:focus-visible {
-    outline: 2px solid var(--strategic-teal);
+    outline: 1px solid var(--gold);
     outline-offset: 3px;
-    border-radius: 4px;
+    border-radius: 0;
   }
+
+  ::selection { background: rgba(201, 169, 97, 0.28); color: var(--ink); }
 
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
@@ -57,189 +100,149 @@
   }
 }
 
-/* ── Glass card — the core reusable Oasis pattern ── */
+/* ══ Card — flat, hairline-ruled ══ */
 .glass-card {
-  background: var(--glass);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  backdrop-filter: blur(20px) saturate(140%);
-  border: 1px solid var(--glass-border);
+  background: var(--panel);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: 1px solid var(--rule-soft);
   border-radius: var(--r-card);
-  box-shadow: var(--sh-glass);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: none;
+  transition: border-color 0.35s ease, background-color 0.35s ease;
 }
 .glass-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--sh-deep);
+  transform: none;
+  border-color: var(--rule);
+  background: var(--panel-hi);
 }
 
-/* ── Buttons (Oasis pill style) ── */
-.btn-teal {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.85rem 1.75rem;
-  background-color: var(--midnight-navy);
-  color: var(--warm-ivory);
-  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
-  font-weight: 600;
-  font-size: 0.875rem;
-  text-decoration: none;
-  border-radius: 999px;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  border: none;
-  cursor: pointer;
-}
-.btn-teal:hover { background-color: var(--deep-teal); transform: translateY(-2px); }
-
-.btn-navy {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.85rem 1.75rem;
-  background-color: var(--midnight-navy);
-  color: var(--warm-ivory);
-  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
-  font-weight: 600;
-  font-size: 0.875rem;
-  text-decoration: none;
-  border-radius: 999px;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  border: none;
-  cursor: pointer;
-}
-.btn-navy:hover { background-color: var(--executive-navy); transform: translateY(-2px); }
-
+/* ══ Buttons — squared, editorial ══ */
+.btn-teal,
+.btn-navy,
 .btn-coral {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.85rem 1.75rem;
-  background-color: var(--strategic-teal);
-  color: var(--white);
+  gap: 0.6rem;
+  padding: 0.95rem 1.9rem;
+  background-color: var(--gold);
+  color: #0A0A0C;
   font-family: var(--font-plus-jakarta), system-ui, sans-serif;
-  font-weight: 600;
-  font-size: 0.875rem;
+  font-weight: 650;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-decoration: none;
-  border-radius: 999px;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  border: none;
+  border-radius: 2px;
+  border: 1px solid var(--gold);
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
   cursor: pointer;
 }
-.btn-coral:hover { background-color: var(--deep-teal); transform: translateY(-2px); }
-
-.btn-ghost-light {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.85rem 1.75rem;
-  background-color: var(--glass-strong);
-  color: var(--midnight-navy);
-  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
-  font-weight: 600;
-  font-size: 0.875rem;
-  text-decoration: none;
-  border-radius: 999px;
-  border: 1px solid var(--glass-border);
-  -webkit-backdrop-filter: blur(14px);
-  backdrop-filter: blur(14px);
-  box-shadow: var(--sh-glass);
-  transition: background-color 0.2s ease, transform 0.2s ease;
+.btn-teal:hover,
+.btn-navy:hover,
+.btn-coral:hover {
+  background-color: transparent;
+  color: var(--gold);
+  border-color: var(--gold);
+  transform: none;
 }
-.btn-ghost-light:hover { background-color: white; transform: translateY(-2px); }
 
+.btn-ghost-light,
 .btn-ghost-dark {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.85rem 2rem;
+  gap: 0.6rem;
+  padding: 0.95rem 1.9rem;
   background-color: transparent;
-  color: var(--midnight-navy);
+  color: var(--ink);
   font-family: var(--font-plus-jakarta), system-ui, sans-serif;
-  font-weight: 600;
-  font-size: 0.875rem;
-  border-radius: 999px;
-  border: 1.5px solid var(--midnight-navy);
+  font-weight: 650;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-decoration: none;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  border-radius: 2px;
+  border: 1px solid var(--rule);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none;
+  transition: border-color 0.25s ease, color 0.25s ease;
 }
-.btn-ghost-dark:hover { background-color: var(--midnight-navy); color: var(--warm-ivory); }
+.btn-ghost-light:hover,
+.btn-ghost-dark:hover {
+  background-color: transparent;
+  border-color: var(--gold);
+  color: var(--gold);
+  transform: none;
+}
 
-/* ── Links ── */
+/* ══ Links ══ */
 .link-teal {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--strategic-teal);
+  gap: 0.4rem;
+  font-size: 0.74rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
   text-decoration: none;
   font-family: var(--font-plus-jakarta), system-ui, sans-serif;
-  transition: gap 0.2s ease;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.25s ease, gap 0.25s ease;
 }
-.link-teal:hover { gap: 0.6rem !important; }
+.link-teal:hover { gap: 0.7rem; border-bottom-color: var(--gold); }
 
-/* ── Card hover ── */
-.card-hover {
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.25s ease;
-}
+/* ══ Card hover ══ */
+.card-hover { transition: border-color 0.3s ease, background-color 0.3s ease; }
 .card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--sh-deep);
-  border-color: rgba(255, 255, 255, 0.9) !important;
+  transform: none;
+  box-shadow: none;
+  border-color: var(--rule) !important;
+  background-color: var(--panel-hi);
 }
 
-/* ── Footer nav links ── */
+/* ══ Footer nav ══ */
 .nav-link-footer {
-  font-size: 0.85rem;
-  color: rgba(244, 229, 208, 0.6);
+  font-size: 0.82rem;
+  color: var(--graphite);
   text-decoration: none;
   transition: color 0.2s ease;
 }
-.nav-link-footer:hover { color: var(--warm-ivory); }
+.nav-link-footer:hover { color: var(--gold); }
 
-/* ── Advisory card hover ── */
-.advisory-card-hover {
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
+/* ══ Advisory card ══ */
+.advisory-card-hover { transition: border-color 0.25s ease; }
 .advisory-card-hover:hover {
-  border-color: rgba(229, 102, 74, 0.35) !important;
-  box-shadow: var(--sh-glass);
+  border-color: var(--rule) !important;
+  box-shadow: none;
 }
 
-/* ── Section label utility ── */
+/* ══ Section label ══ */
 .section-label {
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
+  font-family: var(--font-ibm-mono), "IBM Plex Mono", monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--strategic-teal);
+  color: var(--gold);
 }
 
-/* ── Scrollbar ── */
-::-webkit-scrollbar { width: 6px; }
+/* ══ Scrollbar ══ */
+::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track { background: var(--warm-ivory); }
-::-webkit-scrollbar-thumb { background: rgba(42,31,26,0.2); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(229,102,74,0.4); }
+::-webkit-scrollbar-thumb { background: #24242B; border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }
 
-/* ── Mobile-first responsive overrides ── */
-
-/* Prevent horizontal overflow globally */
+/* ══ Layout guards ══ */
 html, body { overflow-x: hidden; max-width: 100vw; }
 *, *::before, *::after { box-sizing: border-box; }
 img, video { max-width: 100%; height: auto; }
 
-/* Touch targets — minimum 44px for interactive elements on mobile */
 @media (max-width: 768px) {
   button, a { min-height: 44px; }
-
-  /* Section padding */
   section { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
+  section[style*="5rem 2rem"] { padding-top: 3.5rem !important; padding-bottom: 3.5rem !important; }
+  section[style*="4rem 2rem"] { padding-top: 3rem !important; padding-bottom: 3rem !important; }
 
-  /* Reduce large section vertical padding */
-  section[style*="5rem 2rem"] { padding-top: 3rem !important; padding-bottom: 3rem !important; }
-  section[style*="4rem 2rem"] { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
-
-  /* Grid collapses */
   [style*="gridTemplateColumns: \"45fr 55fr\""],
   [style*="gridTemplateColumns: \"1fr 320px\""],
   [style*="gridTemplateColumns: \"1fr 340px\""],
@@ -248,11 +251,9 @@ img, video { max-width: 100%; height: auto; }
     grid-template-columns: 1fr !important;
   }
 
-  /* Typography fluid scale boost */
   body { font-size: 15px; }
 }
 
-/* Small phone */
 @media (max-width: 480px) {
   section { padding-left: 1rem !important; padding-right: 1rem !important; }
   .btn-teal, .btn-navy, .btn-coral, .btn-ghost-light, .btn-ghost-dark {
@@ -260,22 +261,13 @@ img, video { max-width: 100%; height: auto; }
   }
 }
 
-/* Nav mobile — handled by component, these are safety guards */
 @media (max-width: 899px) {
-  /* Two-col about grid */
   .about-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
 }
 
-/* Performance: GPU-accelerate animated elements */
-.glass-card, .card-hover, .btn-teal, .btn-coral {
-  will-change: transform;
-}
-
-/* Reduce backdrop-filter cost on low-end devices */
-@media (prefers-reduced-motion: reduce), (max-width: 480px) {
-  .glass-card, [style*="backdrop-filter"] {
-    -webkit-backdrop-filter: none !important;
-    backdrop-filter: none !important;
-    background: rgba(255,255,255,0.92) !important;
-  }
+/* Editorial system is flat — strip any residual blur without
+   forcing a light background (which would break the dark canvas). */
+[style*="backdrop-filter"] {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
 }

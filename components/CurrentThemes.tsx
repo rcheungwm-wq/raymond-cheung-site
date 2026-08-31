@@ -23,13 +23,13 @@ export default function CurrentThemes() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>05 / Current Themes</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
         </div>
 
         <h2 id="themes-heading" style={{
           fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
           fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
-          letterSpacing: "-0.025em", color: "var(--midnight-navy)", lineHeight: 1.22,
+          letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.22,
           marginBottom: "3rem",
         }}>Where Raymond is focused right now</h2>
 
@@ -40,10 +40,10 @@ export default function CurrentThemes() {
             return (
               <div key={theme.id} style={{
                 background: "var(--glass)",
-                backdropFilter: "blur(20px) saturate(140%)",
-                WebkitBackdropFilter: "blur(20px) saturate(140%)",
+                backdropFilter: "none",
+                WebkitBackdropFilter: "none",
                 border: "1px solid var(--glass-border)",
-                borderRadius: "20px", overflow: "hidden",
+                borderRadius: "2px", overflow: "hidden",
                 boxShadow: "var(--sh-glass)",
               }}>
                 <div style={{ position: "relative", height: "140px", overflow: "hidden" }}>
@@ -51,16 +51,16 @@ export default function CurrentThemes() {
                     style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
                   <div aria-hidden="true" style={{
                     position: "absolute", inset: 0,
-                    background: "linear-gradient(to bottom, transparent, rgba(42,31,26,0.6))",
+                    background: "linear-gradient(to bottom, transparent, rgba(242,237,227,0.6))",
                   }} />
                   <div style={{
                     position: "absolute", bottom: "0.85rem", left: "1rem",
-                    background: "rgba(229,102,74,0.9)", borderRadius: "999px",
+                    background: "rgba(201,169,97,0.9)", borderRadius: "999px",
                     padding: "0.25rem 0.75rem",
                   }}>
                     <span style={{
                       fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem",
-                      letterSpacing: "0.12em", color: "#fff", textTransform: "uppercase",
+                      letterSpacing: "0.12em", color: "var(--ink)", textTransform: "uppercase",
                     }}>{theme.title}</span>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ export default function CurrentThemes() {
                   <h3 style={{
                     fontFamily: "var(--font-cormorant, Georgia), serif",
                     fontSize: "1.1rem", fontWeight: 600, fontStyle: "italic",
-                    color: "var(--midnight-navy)", marginBottom: "0.75rem", lineHeight: 1.3,
+                    color: "var(--ink)", marginBottom: "0.75rem", lineHeight: 1.3,
                   }}>{theme.headline}</h3>
                   <p style={{
                     fontSize: "0.87rem", color: "var(--graphite)", lineHeight: 1.75,

@@ -103,14 +103,14 @@ export default async function InsightArticlePage({ params }: Props) {
       }}>
         <div aria-hidden="true" style={{
           position: "absolute", inset: 0,
-          background: "radial-gradient(ellipse 60% 70% at 80% 50%, rgba(229,102,74,0.07) 0%, transparent 60%)",
+          background: "radial-gradient(ellipse 60% 70% at 80% 50%, rgba(201,169,97,0.07) 0%, transparent 60%)",
           pointerEvents: "none",
         }} />
         <div style={{ maxWidth: "800px", margin: "0 auto", position: "relative", zIndex: 1 }}>
           <Link href="/insights" style={{
             display: "inline-flex", alignItems: "center", gap: "0.5rem",
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-            letterSpacing: "0.12em", color: "rgba(245,243,236,0.45)",
+            letterSpacing: "0.12em", color: "rgba(242,237,227,0.45)",
             textDecoration: "none", marginBottom: "2rem", textTransform: "uppercase",
           }}>
             <ArrowLeft size={12} /> Back to Insights
@@ -118,26 +118,26 @@ export default async function InsightArticlePage({ params }: Props) {
           <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1.5rem", flexWrap: "wrap" }}>
             <span style={{
               fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
-              letterSpacing: "0.1em", color: "var(--white)",
+              letterSpacing: "0.1em", color: "var(--ink)",
               backgroundColor: "var(--strategic-teal)",
               padding: "0.3rem 0.75rem", borderRadius: "999px", textTransform: "uppercase",
             }}>{insight.category}</span>
             <span style={{
               display: "flex", alignItems: "center", gap: "0.35rem",
               fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-              letterSpacing: "0.08em", color: "rgba(245,243,236,0.4)",
+              letterSpacing: "0.08em", color: "rgba(242,237,227,0.4)",
             }}>
               <Clock size={11} />{insight.readingTime}
             </span>
             <span style={{
               fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-              letterSpacing: "0.06em", color: "rgba(245,243,236,0.3)",
+              letterSpacing: "0.06em", color: "rgba(242,237,227,0.3)",
             }}>{insight.date}</span>
           </div>
           <h1 style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 800,
-            letterSpacing: "-0.025em", color: "var(--warm-ivory)", lineHeight: 1.2,
+            letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.2,
           }}>
             {insight.title}
           </h1>
@@ -151,7 +151,7 @@ export default async function InsightArticlePage({ params }: Props) {
           <div style={{
             display: "flex", alignItems: "center", gap: "1rem",
             paddingBottom: "2.5rem", marginBottom: "2.5rem",
-            borderBottom: "1px solid rgba(42,31,26,0.1)",
+            borderBottom: "1px solid rgba(242,237,227,0.1)",
           }}>
             <div style={{
               width: "44px", height: "44px", borderRadius: "50%",
@@ -159,12 +159,12 @@ export default async function InsightArticlePage({ params }: Props) {
               display: "flex", alignItems: "center", justifyContent: "center",
               flexShrink: 0,
             }}>
-              <span style={{ color: "white", fontWeight: 800, fontSize: "0.85rem" }}>RC</span>
+              <span style={{ color: "var(--ink)", fontWeight: 800, fontSize: "0.85rem" }}>RC</span>
             </div>
             <div>
               <p style={{
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                fontWeight: 700, fontSize: "0.88rem", color: "var(--midnight-navy)",
+                fontWeight: 700, fontSize: "0.88rem", color: "var(--ink)",
               }}>Raymond Cheung</p>
               <p style={{
                 fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
@@ -177,7 +177,7 @@ export default async function InsightArticlePage({ params }: Props) {
 
           {/* Lead paragraph */}
           <p style={{
-            fontSize: "1.12rem", color: "var(--midnight-navy)", lineHeight: 1.85,
+            fontSize: "1.12rem", color: "var(--ink)", lineHeight: 1.85,
             fontWeight: 500, marginBottom: "2rem",
           }}>{insight.summary}</p>
 
@@ -189,8 +189,8 @@ export default async function InsightArticlePage({ params }: Props) {
                   <h2 key={i} style={{
                     fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                     fontSize: "1.25rem", fontWeight: 700, letterSpacing: "-0.02em",
-                    color: "var(--midnight-navy)", marginTop: "1rem",
-                    paddingTop: "1rem", borderTop: "1px solid rgba(42,31,26,0.06)",
+                    color: "var(--ink)", marginTop: "1rem",
+                    paddingTop: "1rem", borderTop: "1px solid rgba(242,237,227,0.06)",
                   }}>{section.text}</h2>
                 );
               }
@@ -203,7 +203,7 @@ export default async function InsightArticlePage({ params }: Props) {
                     <p style={{
                       fontFamily: "var(--font-cormorant, Georgia), serif",
                       fontSize: "1.2rem", fontStyle: "italic", fontWeight: 600,
-                      color: "var(--midnight-navy)", lineHeight: 1.55,
+                      color: "var(--ink)", lineHeight: 1.55,
                     }}>&ldquo;{section.text}&rdquo;</p>
                   </blockquote>
                 );
@@ -235,21 +235,21 @@ export default async function InsightArticlePage({ params }: Props) {
           <div style={{
             marginTop: "4rem", padding: "2rem 2.5rem",
             background: "linear-gradient(135deg, var(--midnight-navy), var(--executive-navy))",
-            borderRadius: "16px",
+            borderRadius: "2px",
           }}>
             <p style={{
               fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
               letterSpacing: "0.14em", color: "var(--gold)", textTransform: "uppercase",
               marginBottom: "1rem",
             }}>About the author</p>
-            <p style={{ fontSize: "0.88rem", color: "rgba(244,229,208,0.8)", lineHeight: 1.75, marginBottom: "1.25rem" }}>
+            <p style={{ fontSize: "0.88rem", color: "rgba(242,237,227,0.8)", lineHeight: 1.75, marginBottom: "1.25rem" }}>
               Raymond Cheung is a Chartered Actuary, C-suite executive and board adviser with more than 20 years of experience across Asia in risk management, insurance, ESG and corporate governance. He is the CEO of CER Consultancy and an accredited trainer at SMU Academy and the Singapore College of Insurance.
             </p>
             <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <Link href="/contact" style={{
                 display: "inline-flex", alignItems: "center", gap: "0.4rem",
                 padding: "0.6rem 1.25rem", borderRadius: "999px",
-                background: "var(--strategic-teal)", color: "white",
+                background: "var(--strategic-teal)", color: "var(--ink)",
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontWeight: 600, fontSize: "0.78rem", textDecoration: "none",
               }}>
@@ -258,7 +258,7 @@ export default async function InsightArticlePage({ params }: Props) {
               <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer" style={{
                 display: "inline-flex", alignItems: "center", gap: "0.4rem",
                 padding: "0.6rem 1.25rem", borderRadius: "999px",
-                border: "1px solid rgba(244,229,208,0.2)", color: "rgba(244,229,208,0.7)",
+                border: "1px solid rgba(242,237,227,0.2)", color: "rgba(242,237,227,0.7)",
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontSize: "0.78rem", textDecoration: "none",
               }}>
@@ -270,27 +270,27 @@ export default async function InsightArticlePage({ params }: Props) {
           {/* Prev / Next navigation */}
           <nav aria-label="Article navigation" style={{
             marginTop: "3rem", paddingTop: "2rem",
-            borderTop: "1px solid rgba(42,31,26,0.08)",
+            borderTop: "1px solid rgba(242,237,227,0.08)",
             display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem",
           }}>
             {prev ? (
               <Link href={`/insights/${prev.slug}`} style={{
                 textDecoration: "none", padding: "1.25rem",
-                border: "1px solid rgba(42,31,26,0.1)", borderRadius: "12px",
+                border: "1px solid rgba(242,237,227,0.1)", borderRadius: "2px",
                 display: "block", transition: "border-color 0.2s",
               }}>
                 <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.1em", color: "var(--graphite)", opacity: 0.5, marginBottom: "0.4rem" }}>← Previous</p>
-                <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, fontSize: "0.82rem", color: "var(--midnight-navy)", lineHeight: 1.4 }}>{prev.title}</p>
+                <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, fontSize: "0.82rem", color: "var(--ink)", lineHeight: 1.4 }}>{prev.title}</p>
               </Link>
             ) : <div />}
             {next ? (
               <Link href={`/insights/${next.slug}`} style={{
                 textDecoration: "none", padding: "1.25rem",
-                border: "1px solid rgba(42,31,26,0.1)", borderRadius: "12px",
+                border: "1px solid rgba(242,237,227,0.1)", borderRadius: "2px",
                 display: "block", textAlign: "right", transition: "border-color 0.2s",
               }}>
                 <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.1em", color: "var(--graphite)", opacity: 0.5, marginBottom: "0.4rem" }}>Next →</p>
-                <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, fontSize: "0.82rem", color: "var(--midnight-navy)", lineHeight: 1.4 }}>{next.title}</p>
+                <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, fontSize: "0.82rem", color: "var(--ink)", lineHeight: 1.4 }}>{next.title}</p>
               </Link>
             ) : <div />}
           </nav>

@@ -60,7 +60,7 @@ export default function QuoteSection() {
             fontWeight: 600,
             fontStyle: "italic",
             letterSpacing: "-0.015em",
-            color: "var(--warm-ivory)",
+            color: "var(--ink)",
             lineHeight: 1.2,
             marginBottom: "2.25rem",
           }}
@@ -81,7 +81,7 @@ export default function QuoteSection() {
 
         <p style={{
           fontSize: "0.95rem",
-          color: "rgba(244,229,208,0.55)",
+          color: "rgba(242,237,227,0.55)",
           lineHeight: 1.85,
           maxWidth: "580px",
           margin: "0 auto",

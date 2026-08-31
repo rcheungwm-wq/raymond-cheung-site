@@ -23,7 +23,7 @@ export default function TestimonialsSection() {
       {/* Background glow */}
       <div aria-hidden="true" style={{
         position: "absolute", inset: 0,
-        background: "radial-gradient(ellipse 60% 50% at 20% 60%, rgba(229,102,74,0.07) 0%, transparent 55%)",
+        background: "radial-gradient(ellipse 60% 50% at 20% 60%, rgba(201,169,97,0.07) 0%, transparent 55%)",
         pointerEvents: "none",
       }} />
 
@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>08 / Testimonials</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(21,154,146,0.15)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(201,169,97,0.15)" }} />
         </div>
 
         <div style={{
@@ -44,7 +44,7 @@ export default function TestimonialsSection() {
           <h2 id="testimonials-heading" style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
-            letterSpacing: "-0.025em", color: "var(--warm-ivory)", lineHeight: 1.15, margin: 0,
+            letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.15, margin: 0,
           }}>
             What clients and<br />colleagues say.
           </h2>
@@ -52,9 +52,9 @@ export default function TestimonialsSection() {
           {/* LinkedIn social proof badge */}
           <div style={{
             display: "flex", alignItems: "center", gap: "1rem",
-            background: "rgba(255,255,255,0.04)",
-            border: "1px solid rgba(255,255,255,0.08)",
-            borderRadius: "16px", padding: "1rem 1.5rem",
+            background: "var(--panel)",
+            border: "1px solid var(--rule-soft)",
+            borderRadius: "2px", padding: "1rem 1.5rem",
           }}>
             <div style={{ textAlign: "right" }}>
               <div style={{
@@ -65,24 +65,24 @@ export default function TestimonialsSection() {
               <div style={{
                 fontFamily: "var(--font-ibm-mono), monospace",
                 fontSize: "0.58rem", letterSpacing: "0.12em",
-                color: "rgba(244,229,208,0.45)", textTransform: "uppercase",
+                color: "rgba(242,237,227,0.45)", textTransform: "uppercase",
                 marginTop: "0.25rem",
               }}>LinkedIn followers</div>
             </div>
             <div aria-hidden="true" style={{
               width: "1px", height: "40px",
-              backgroundColor: "rgba(255,255,255,0.1)",
+              backgroundColor: "var(--panel)",
             }} />
             <div>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" stroke="rgba(244,229,208,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <rect x="2" y="9" width="4" height="12" stroke="rgba(244,229,208,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="4" cy="4" r="2" stroke="rgba(244,229,208,0.5)" strokeWidth="1.5"/>
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" stroke="rgba(242,237,227,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <rect x="2" y="9" width="4" height="12" stroke="rgba(242,237,227,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="4" cy="4" r="2" stroke="rgba(242,237,227,0.5)" strokeWidth="1.5"/>
               </svg>
               <div style={{
                 fontFamily: "var(--font-ibm-mono), monospace",
                 fontSize: "0.56rem", letterSpacing: "0.1em",
-                color: "rgba(244,229,208,0.3)", textTransform: "uppercase",
+                color: "rgba(242,237,227,0.3)", textTransform: "uppercase",
                 marginTop: "0.2rem",
               }}>LinkedIn</div>
             </div>
@@ -97,9 +97,9 @@ export default function TestimonialsSection() {
         }} className="testimonials-grid">
           {testimonials.map((t) => (
             <div key={t.name} style={{
-              background: "rgba(255,255,255,0.04)",
-              border: "1px solid rgba(255,255,255,0.08)",
-              borderRadius: "20px", padding: "2.5rem",
+              background: "var(--panel)",
+              border: "1px solid var(--rule-soft)",
+              borderRadius: "2px", padding: "2.5rem",
               position: "relative",
               display: "flex", flexDirection: "column", gap: "1.75rem",
             }}>
@@ -114,7 +114,7 @@ export default function TestimonialsSection() {
                 fontSize: "clamp(1.1rem, 2vw, 1.35rem)",
                 fontStyle: "italic",
                 fontWeight: 500,
-                color: "var(--warm-ivory)",
+                color: "var(--ink)",
                 lineHeight: 1.6,
                 margin: 0,
                 flex: 1,
@@ -124,14 +124,14 @@ export default function TestimonialsSection() {
 
               {/* Attribution */}
               <div style={{
-                borderTop: "1px solid rgba(255,255,255,0.07)",
+                borderTop: "1px solid var(--rule-soft)",
                 paddingTop: "1.5rem",
                 display: "flex", flexDirection: "column", gap: "0.25rem",
               }}>
                 <span style={{
                   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                   fontWeight: 700, fontSize: "0.88rem",
-                  color: "rgba(244,229,208,0.9)",
+                  color: "rgba(242,237,227,0.9)",
                 }}>{t.name}</span>
                 <span style={{
                   fontFamily: "var(--font-ibm-mono), monospace",
@@ -142,7 +142,7 @@ export default function TestimonialsSection() {
                 <span style={{
                   fontFamily: "var(--font-ibm-mono), monospace",
                   fontSize: "0.56rem", letterSpacing: "0.06em",
-                  color: "rgba(244,229,208,0.3)",
+                  color: "rgba(242,237,227,0.3)",
                   textTransform: "uppercase",
                 }}>{t.engagement}</span>
               </div>

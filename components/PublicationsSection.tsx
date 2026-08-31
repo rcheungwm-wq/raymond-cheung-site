@@ -13,13 +13,13 @@ export default function PublicationsSection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>Research & Publications</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
         </div>
 
         <h2 id="publications-heading" style={{
           fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
           fontSize: "1.5rem", fontWeight: 700, letterSpacing: "-0.02em",
-          color: "var(--midnight-navy)", marginBottom: "0.75rem",
+          color: "var(--ink)", marginBottom: "0.75rem",
         }}>
           Conference papers & publications
         </h2>
@@ -37,9 +37,9 @@ export default function PublicationsSection() {
               gridTemplateColumns: "3rem 1fr",
               gap: "1rem",
               padding: "1.1rem 1.5rem",
-              background: "rgba(255,255,255,0.7)",
-              border: "1px solid rgba(42,31,26,0.07)",
-              borderRadius: "12px",
+              background: "var(--panel)",
+              border: "1px solid rgba(242,237,227,0.07)",
+              borderRadius: "2px",
             }}>
               <span style={{
                 fontFamily: "var(--font-ibm-mono), monospace",
@@ -51,7 +51,7 @@ export default function PublicationsSection() {
                 <p style={{
                   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                   fontSize: "0.875rem", fontWeight: 600,
-                  color: "var(--midnight-navy)", marginBottom: "0.25rem", lineHeight: 1.45,
+                  color: "var(--ink)", marginBottom: "0.25rem", lineHeight: 1.45,
                 }}>{pub.title}</p>
                 <p style={{
                   fontSize: "0.78rem", color: "var(--graphite)", opacity: 0.65, lineHeight: 1.4,
@@ -62,7 +62,7 @@ export default function PublicationsSection() {
                     fontSize: "0.58rem", letterSpacing: "0.1em",
                     textTransform: "uppercase",
                     color: pub.type === "conference" ? "var(--strategic-teal)" : "var(--gold)",
-                    background: pub.type === "conference" ? "rgba(229,102,74,0.08)" : "rgba(201,169,97,0.1)",
+                    background: pub.type === "conference" ? "rgba(201,169,97,0.08)" : "rgba(201,169,97,0.1)",
                     padding: "0.15rem 0.45rem", borderRadius: "4px",
                   }}>{pub.type === "conference" ? "conference" : "publication"}</span>
                   {pub.publisher}
@@ -80,13 +80,13 @@ export default function PublicationsSection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>Proprietary Curricula</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(42,31,26,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
         </div>
 
         <h2 style={{
           fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
           fontSize: "1.5rem", fontWeight: 700, letterSpacing: "-0.02em",
-          color: "var(--midnight-navy)", marginBottom: "0.75rem",
+          color: "var(--ink)", marginBottom: "0.75rem",
         }}>
           Training programmes I authored
         </h2>
@@ -102,16 +102,16 @@ export default function PublicationsSection() {
             <li key={i} style={{
               display: "flex", alignItems: "flex-start", gap: "0.75rem",
               padding: "1rem 1.25rem",
-              background: "rgba(255,255,255,0.7)",
-              border: "1px solid rgba(42,31,26,0.07)",
-              borderRadius: "12px",
+              background: "var(--panel)",
+              border: "1px solid rgba(242,237,227,0.07)",
+              borderRadius: "2px",
             }}>
               <span aria-hidden="true" style={{
                 color: "var(--gold)", fontSize: "0.55rem",
                 marginTop: "0.3rem", flexShrink: 0,
               }}>◆</span>
               <span style={{
-                fontSize: "0.84rem", color: "var(--midnight-navy)", fontWeight: 500, lineHeight: 1.5,
+                fontSize: "0.84rem", color: "var(--ink)", fontWeight: 500, lineHeight: 1.5,
               }}>{course}</span>
             </li>
           ))}
