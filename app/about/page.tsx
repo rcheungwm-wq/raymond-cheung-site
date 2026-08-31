@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { profile } from "@/data/profile";
 import { careerJourney } from "@/data/experience";
+import PublicationsSection from "@/components/PublicationsSection";
 
 const roles = [
   {
@@ -224,6 +225,11 @@ export default function AboutPage() {
                   </p>
                 </div>
               ))}
+            </div>
+
+            {/* Publications & Curricula */}
+            <div style={{ marginBottom: "4rem" }}>
+              <PublicationsSection />
             </div>
 
             {/* Accordion roles */}
