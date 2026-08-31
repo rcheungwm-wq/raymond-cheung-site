@@ -5,7 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-const pathwayLabels = ["UNCERTAINTY", "CLARITY", "DECISION", "RESILIENCE"];
+const proofPoints = [
+  { value: "Nasdaq", label: "Led a company to listing as Group CEO" },
+  { value: "3", label: "Concurrent listed-company board seats" },
+  { value: "24 yrs", label: "Actuarial, risk and executive practice" },
+  { value: "2×", label: "MAS statutory Chief Risk Officer" },
+];
 
 const floatingLabels = [
   { text: "BOARD & GOVERNANCE", icon: "⬡", delay: 0 },
@@ -16,19 +21,15 @@ const floatingLabels = [
 
 export default function HeroAuthoritySection() {
   const [mounted, setMounted] = useState(false);
-  const [activeLabel, setActiveLabel] = useState(0);
   const [activePill, setActivePill] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
     setMounted(true);
-    const interval = setInterval(() => {
-      setActiveLabel((prev) => (prev + 1) % pathwayLabels.length);
-    }, 2200);
     const pillInterval = setInterval(() => {
       setActivePill((prev) => (prev + 1) % floatingLabels.length);
     }, 1800);
-    return () => { clearInterval(interval); clearInterval(pillInterval); };
+    return () => { clearInterval(pillInterval); };
   }, []);
 
   useEffect(() => {
@@ -156,51 +157,72 @@ export default function HeroAuthoritySection() {
               fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
               letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
             }}>
-              Chartered Actuary · C-Suite Executive · Board Adviser
+              Singapore · Nasdaq &amp; SGX Board Director
             </span>
           </div>
 
           <h1 style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-            fontSize: "clamp(2.6rem, 5vw, 4.5rem)", fontWeight: 800,
-            letterSpacing: "-0.03em", lineHeight: 1.06, color: "var(--midnight-navy)",
-            marginBottom: "1.75rem",
+            letterSpacing: "-0.03em", color: "var(--midnight-navy)",
+            marginBottom: "1.5rem",
           }}>
-            Risk clarity for a<br />world in transition.
+            <span style={{
+              display: "block",
+              fontSize: "clamp(2.4rem, 4.6vw, 4.1rem)", fontWeight: 800,
+              lineHeight: 1.02, marginBottom: "0.5rem",
+            }}>
+              Raymond Cheung
+            </span>
+            <span style={{
+              display: "block",
+              fontSize: "clamp(1.05rem, 1.7vw, 1.45rem)", fontWeight: 600,
+              lineHeight: 1.38, color: "var(--graphite)", opacity: 0.9,
+              letterSpacing: "-0.01em", maxWidth: "520px",
+            }}>
+              Chartered Actuary, former Nasdaq CEO and board director — advising
+              Asia&rsquo;s boards on risk, governance and ESG.
+            </span>
           </h1>
 
           <p style={{
-            fontSize: "clamp(1rem, 1.5vw, 1.12rem)", color: "var(--graphite)",
-            lineHeight: 1.78, maxWidth: "520px", marginBottom: "2.5rem", opacity: 0.85,
+            fontSize: "clamp(0.95rem, 1.4vw, 1.05rem)", color: "var(--graphite)",
+            lineHeight: 1.78, maxWidth: "520px", marginBottom: "2.25rem", opacity: 0.8,
           }}>
-            I'm a Chartered Actuary, C-suite executive and board adviser with more than
-            20 years across Asia. I help boards, insurers and financial institutions cut
-            through complexity — so the decisions that shape your organisation's future
-            are made with clarity, not guesswork.
+            I led Basel Medical Group to its Nasdaq listing as Group CEO, served as
+            statutory Chief Risk Officer at AIG Asia Pacific and Asia Capital
+            Reinsurance, and built digital insurance across seven ASEAN markets at
+            Grab. Today I sit on Nasdaq- and SGX-listed boards and advise institutions
+            on enterprise risk, ESG strategy and IPO readiness.
           </p>
 
-          <div aria-live="polite" aria-label="Risk pathway" style={{
-            display: "flex", alignItems: "center", gap: "0.75rem",
-            marginBottom: "2.75rem", flexWrap: "wrap",
+          {/* Proof points — hard credentials */}
+          <div aria-label="Career credentials" style={{
+            display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(118px, 1fr))",
+            gap: "0.5rem", marginBottom: "2.5rem", maxWidth: "540px",
           }}>
-            {pathwayLabels.map((label, i) => (
-              <div key={label} style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-                <span style={{
-                  fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
-                  letterSpacing: "0.15em", textTransform: "uppercase",
-                  color: mounted && i === activeLabel ? "var(--strategic-teal)" : "rgba(42,31,26,0.28)",
-                  transition: "color 0.4s ease",
-                }}>{label}</span>
-                {i < pathwayLabels.length - 1 && (
-                  <span aria-hidden="true" style={{ color: "rgba(42,31,26,0.2)", fontSize: "0.6rem" }}>→</span>
-                )}
+            {proofPoints.map((p) => (
+              <div key={p.value} style={{
+                background: "rgba(255,255,255,0.55)",
+                border: "1px solid rgba(255,255,255,0.85)",
+                backdropFilter: "blur(10px)", WebkitBackdropFilter: "blur(10px)",
+                borderRadius: "12px", padding: "0.8rem 0.9rem",
+              }}>
+                <p style={{
+                  fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                  fontSize: "1.05rem", fontWeight: 800, color: "var(--midnight-navy)",
+                  letterSpacing: "-0.02em", lineHeight: 1.1, marginBottom: "0.3rem",
+                }}>{p.value}</p>
+                <p style={{
+                  fontSize: "0.66rem", color: "var(--graphite)", opacity: 0.72,
+                  lineHeight: 1.4,
+                }}>{p.label}</p>
               </div>
             ))}
           </div>
 
-          <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", marginBottom: "2.5rem" }}>
-            <Link href="/expertise" className="btn-teal">
-              Explore Expertise <ArrowRight size={15} />
+          <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", marginBottom: "2.25rem" }}>
+            <Link href="/advisory" className="btn-teal">
+              Advisory &amp; Board Work <ArrowRight size={15} />
             </Link>
             <Link href="/training-speaking" className="btn-ghost-light">
               Invite to Speak
@@ -208,10 +230,10 @@ export default function HeroAuthoritySection() {
           </div>
 
           <p style={{
-            fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.68rem",
-            letterSpacing: "0.08em", color: "rgba(42,31,26,0.42)", lineHeight: 1.6,
+            fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.66rem",
+            letterSpacing: "0.07em", color: "rgba(42,31,26,0.42)", lineHeight: 1.65,
           }}>
-            Former CRO, AIG Asia Pacific · Asia Capital Reinsurance · Regional Insurance Lead, Grab · CEO, CER Consultancy · Accredited Trainer, SMU Academy & SCI
+            iO3 Ltd (Nasdaq: IOTR) · SDAI Limited (SGX: 5TI) · Former Group CEO, Basel Medical Group (Nasdaq: BMGL) · Former CRO, AIG Asia Pacific · CEO, CER Consultancy
           </p>
         </div>
 

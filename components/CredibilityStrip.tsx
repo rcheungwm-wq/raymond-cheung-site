@@ -1,14 +1,12 @@
-"use client";
-
-import { credibilityOrgs } from "@/data/profile";
+import { credibilityGroups } from "@/data/profile";
 
 export default function CredibilityStrip() {
   return (
     <section
-      aria-label="Professional background"
+      aria-labelledby="credibility-heading"
       style={{
         background: "linear-gradient(135deg, var(--midnight-navy) 0%, var(--executive-navy) 100%)",
-        padding: "2.5rem 2rem",
+        padding: "3.5rem 2rem",
         position: "relative", overflow: "hidden",
       }}
     >
@@ -17,74 +15,53 @@ export default function CredibilityStrip() {
         background: "radial-gradient(ellipse 80% 60% at 30% 50%, rgba(255,140,114,0.08) 0%, transparent 60%)",
         pointerEvents: "none",
       }} />
+
       <div style={{ maxWidth: "1280px", margin: "0 auto", position: "relative" }}>
-        <p style={{
+        <h2 id="credibility-heading" style={{
           fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
           letterSpacing: "0.2em", color: "rgba(244,229,208,0.45)", textTransform: "uppercase",
-          textAlign: "center", marginBottom: "1.5rem",
+          textAlign: "center", marginBottom: "2.5rem", fontWeight: 400,
         }}>
-          Organisations I have worked with, led and advised across Asia
-        </p>
+          Twenty-four years across Asia&rsquo;s boardrooms, insurers and institutions
+        </h2>
 
-        {/* Desktop: wrap */}
-        <div className="credibility-desktop" style={{ display: "flex", gap: 0, flexWrap: "wrap", justifyContent: "center", alignItems: "center" }}>
-          {credibilityOrgs.map((org, i) => (
-            <div key={org.name} style={{ display: "flex", alignItems: "center", gap: 0 }}>
-              <span style={{
-                fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                fontWeight: 600, fontSize: "0.82rem", letterSpacing: "0.04em",
-                color: "rgba(244,229,208,0.92)", padding: "0.4rem 1.1rem", whiteSpace: "nowrap",
-              }}>{org.name}</span>
-              {i < credibilityOrgs.length - 1 && (
-                <span aria-hidden="true" style={{ color: "rgba(201,169,97,0.45)", fontSize: "0.7rem" }}>·</span>
-              )}
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))",
+          gap: "2rem 2.5rem",
+        }}>
+          {credibilityGroups.map((group) => (
+            <div key={group.label}>
+              <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "0.4rem" }}>
+                <span aria-hidden="true" style={{
+                  width: "16px", height: "2px", backgroundColor: "var(--gold)",
+                  borderRadius: "2px", flexShrink: 0,
+                }} />
+                <p style={{
+                  fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                  fontSize: "0.78rem", fontWeight: 700, letterSpacing: "0.02em",
+                  color: "var(--gold)",
+                }}>{group.label}</p>
+              </div>
+
+              <p style={{
+                fontSize: "0.68rem", color: "rgba(244,229,208,0.4)",
+                lineHeight: 1.5, marginBottom: "1rem", paddingLeft: "1.6rem",
+              }}>{group.note}</p>
+
+              <ul style={{ listStyle: "none", padding: 0, margin: 0, paddingLeft: "1.6rem" }}>
+                {group.orgs.map((org) => (
+                  <li key={org} style={{
+                    fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                    fontWeight: 600, fontSize: "0.83rem", letterSpacing: "0.01em",
+                    color: "rgba(244,229,208,0.92)", lineHeight: 1.5,
+                    paddingBottom: "0.45rem",
+                  }}>{org}</li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
-
-        {/* Mobile: marquee scroll */}
-        <div className="credibility-mobile" style={{ overflow: "hidden", maskImage: "linear-gradient(90deg, transparent, black 12%, black 88%, transparent)" }}>
-          <div className="marquee-track" aria-hidden="true">
-            {[...credibilityOrgs, ...credibilityOrgs].map((org, i) => (
-              <span key={i} style={{
-                fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                fontWeight: 600, fontSize: "0.82rem", letterSpacing: "0.04em",
-                color: "rgba(244,229,208,0.92)", padding: "0 1.25rem", whiteSpace: "nowrap",
-              }}>
-                {org.name}
-                <span style={{ color: "rgba(201,169,97,0.45)", marginLeft: "1.25rem" }}>·</span>
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <style>{`
-          .credibility-desktop { display: flex; }
-          .credibility-mobile { display: none; }
-          @media (max-width: 700px) {
-            .credibility-desktop { display: none; }
-            .credibility-mobile { display: block; }
-          }
-          .marquee-track {
-            display: inline-flex;
-            animation: marquee 24s linear infinite;
-          }
-          @keyframes marquee {
-            from { transform: translateX(0); }
-            to { transform: translateX(-50%); }
-          }
-          @media (prefers-reduced-motion: reduce) {
-            .marquee-track { animation: none; }
-          }
-        `}</style>
-
-        <p style={{
-          fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem",
-          letterSpacing: "0.08em", color: "rgba(244,229,208,0.2)", textAlign: "center",
-          marginTop: "1.5rem", lineHeight: 1.6,
-        }}>
-          Selected organisations from my professional journey across actuarial practice, C-suite leadership, board governance and advisory.
-        </p>
       </div>
     </section>
   );

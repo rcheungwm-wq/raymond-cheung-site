@@ -82,6 +82,35 @@ export const metrics = [
   },
 ];
 
+export const credibilityGroups = [
+  {
+    label: "Board Seats",
+    note: "Current listed-company directorships",
+    orgs: ["iO3 Ltd (Nasdaq: IOTR)", "SDAI Limited (SGX: 5TI)", "Atlantic Partners Asia"],
+  },
+  {
+    label: "Executive Leadership",
+    note: "Group CEO and statutory CRO appointments",
+    orgs: ["Basel Medical Group (Nasdaq)", "AIG Asia Pacific", "Asia Capital Reinsurance"],
+  },
+  {
+    label: "Industry Practice",
+    note: "Where the technical foundation was built",
+    orgs: ["Standard & Poor's", "Grab", "Great Eastern", "MSIG Asia", "Watson Wyatt"],
+  },
+  {
+    label: "Academic & Professional",
+    note: "Teaching, curricula and profession-building",
+    orgs: [
+      "SMU Academy",
+      "Singapore College of Insurance",
+      "ESSEC Business School",
+      "Nanyang Technological University",
+      "Singapore Actuarial Society",
+    ],
+  },
+];
+
 export const credibilityOrgs = [
   { name: "AIG Asia Pacific" },
   { name: "Asia Capital Reinsurance" },

@@ -4,9 +4,16 @@ import { ArrowRight } from "lucide-react";
 import { expertiseAreas } from "@/data/expertise";
 
 export const metadata: Metadata = {
-  title: "Expertise | Raymond Cheung",
+  title: "Expertise — Enterprise Risk, Capital, Climate & ESG",
   description:
-    "Raymond Cheung's expertise spans enterprise risk management, insurance and reinsurance, climate risk, ESG, board governance, insurtech, AI and executive education.",
+    "Enterprise risk management and ORSA design, risk-based capital (RBC2) and MAS regulatory submissions, climate and environmental risk, ESG governance and insurtech strategy — from a Chartered Actuary and former statutory Chief Risk Officer at AIG Asia Pacific.",
+  alternates: { canonical: "https://raymondcheungwm.com/expertise" },
+  openGraph: {
+    title: "Expertise — Enterprise Risk, Capital, Climate & ESG",
+    description:
+      "ERM and ORSA, RBC2 capital work, climate risk and ESG governance from a former statutory CRO.",
+    url: "https://raymondcheungwm.com/expertise",
+  },
 };
 
 export default function ExpertisePage() {

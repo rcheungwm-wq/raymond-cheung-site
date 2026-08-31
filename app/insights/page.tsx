@@ -4,9 +4,16 @@ import { Clock, ArrowRight } from "lucide-react";
 import { insights } from "@/data/insights";
 
 export const metadata: Metadata = {
-  title: "Insights",
+  title: "Insights — Risk, Governance, ESG & Insurance Commentary",
   description:
-    "Ideas and perspectives from Raymond Cheung on enterprise risk, insurance, climate transition, ESG, AI and governance across Asia.",
+    "Written commentary from Raymond Cheung on enterprise risk, climate transition governance, risk appetite, insurance capital strategy, AI governance and ESG compliance — drawn from two decades in Asia's boardrooms and risk functions.",
+  alternates: { canonical: "https://raymondcheungwm.com/insights" },
+  openGraph: {
+    title: "Insights — Raymond Cheung on Risk, Governance & ESG",
+    description:
+      "Commentary on enterprise risk, climate governance, capital strategy and ESG from a Chartered Actuary and former Nasdaq CEO.",
+    url: "https://raymondcheungwm.com/insights",
+  },
 };
 
 const categoryColors: Record<string, string> = {

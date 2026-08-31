@@ -10,17 +10,31 @@ export async function generateStaticParams() {
   return insights.map((insight) => ({ slug: insight.slug }));
 }
 
+const SITE_URL = "https://raymondcheungwm.com";
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const insight = insights.find((i) => i.slug === slug);
-  if (!insight) return { title: "Insight Not Found | Raymond Cheung" };
+  if (!insight) return { title: "Insight Not Found" };
+  const url = `${SITE_URL}/insights/${insight.slug}`;
   return {
-    title: `${insight.title} | Raymond Cheung`,
+    title: insight.title,
     description: insight.summary,
+    alternates: { canonical: url },
     openGraph: {
       title: insight.title,
       description: insight.summary,
       type: "article",
+      url,
+      publishedTime: insight.date,
+      authors: ["Raymond Cheung"],
+      section: insight.category,
+      images: [{ url: "/raymond-cheung-portrait.jpg", width: 1200, height: 630, alt: insight.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: insight.title,
+      description: insight.summary,
     },
   };
 }
@@ -34,8 +48,53 @@ export default async function InsightArticlePage({ params }: Props) {
   const prev = idx > 0 ? insights[idx - 1] : null;
   const next = idx < insights.length - 1 ? insights[idx + 1] : null;
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: insight.title,
+    description: insight.summary,
+    articleSection: insight.category,
+    datePublished: insight.date,
+    inLanguage: "en-SG",
+    image: `${SITE_URL}/raymond-cheung-portrait.jpg`,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/insights/${insight.slug}`,
+    },
+    author: {
+      "@type": "Person",
+      name: "Raymond Cheung",
+      url: SITE_URL,
+      jobTitle: "Chartered Actuary and Board Director",
+      sameAs: ["https://www.linkedin.com/in/raymond-cheung-erm/"],
+    },
+    publisher: {
+      "@type": "Person",
+      name: "Raymond Cheung",
+      url: SITE_URL,
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Insights", item: `${SITE_URL}/insights` },
+      { "@type": "ListItem", position: 3, name: insight.title, item: `${SITE_URL}/insights/${insight.slug}` },
+    ],
+  };
+
   return (
     <div style={{ backgroundColor: "var(--warm-ivory)", paddingTop: "96px" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero */}
       <section style={{
         background: "linear-gradient(135deg, var(--midnight-navy) 0%, var(--executive-navy) 100%)",

@@ -4,9 +4,16 @@ import { ArrowRight, Download, Mic, Users, Briefcase, GraduationCap, MessageSqua
 import { programmes, speakingThemes, speakingFormats } from "@/data/programmes";
 
 export const metadata: Metadata = {
-  title: "Training & Speaking | Raymond Cheung",
+  title: "Executive Training & Keynote Speaking — Risk, ESG & Governance",
   description:
-    "Raymond Cheung delivers corporate training, executive education, keynotes and conference speaking on risk, insurance, ESG, climate transition, AI and regulatory change.",
+    "Accredited trainer at SMU Academy and the Singapore College of Insurance, lecturer at ESSEC Business School, and author of ten proprietary curricula covering ERM, RBC2, cyber risk, IoT, blockchain and PDPA. Available for board briefings, certification programmes and conference keynotes across Asia.",
+  alternates: { canonical: "https://raymondcheungwm.com/training-speaking" },
+  openGraph: {
+    title: "Executive Training & Keynote Speaking — Raymond Cheung",
+    description:
+      "Accredited trainer at SMU Academy and SCI. Ten authored curricula. Board briefings and conference keynotes across Asia.",
+    url: "https://raymondcheungwm.com/training-speaking",
+  },
 };
 
 const iconMap: Record<string, React.ReactNode> = {

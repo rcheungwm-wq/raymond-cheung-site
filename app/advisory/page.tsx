@@ -3,9 +3,16 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Advisory | Raymond Cheung",
+  title: "Board Advisory & Independent Directorship — Asia",
   description:
-    "Raymond Cheung's advisory work supports boards, insurers, financial institutions and growth companies on enterprise risk, ESG, regulatory readiness and strategic resilience.",
+    "Independent director on Nasdaq (iO3 Ltd) and SGX (SDAI Limited) boards, chairing Nominating and Risk Committees. Board advisory on risk governance, IPO readiness, regulatory engagement and ESG strategy for insurers, financial institutions and listed companies across Asia.",
+  alternates: { canonical: "https://raymondcheungwm.com/advisory" },
+  openGraph: {
+    title: "Board Advisory & Independent Directorship — Raymond Cheung",
+    description:
+      "Nasdaq and SGX independent director. Board advisory on risk governance, IPO readiness and ESG across Asia.",
+    url: "https://raymondcheungwm.com/advisory",
+  },
 };
 
 const advisoryFormats = [
