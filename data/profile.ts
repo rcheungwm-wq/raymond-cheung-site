@@ -55,7 +55,7 @@ export const profile = {
   biography: {
     opening:
       "My career has been shaped at the intersection where technical expertise meets executive accountability — in markets where the decisions are hard and the stakes are real.",
-    full: "I started as an actuary, moved into enterprise risk leadership, ran insurance and reinsurance at C-suite level, led digital insurance across eight ASEAN markets at Grab, served as Group CEO of a listed healthcare group, and sat on the boards of SGX- and Nasdaq-listed companies. Today, through CER Consultancy, I advise boards, insurers and financial institutions on the questions that matter most. I also train senior professionals at SMU Academy and the Singapore College of Insurance. That breadth of experience — adviser, operator, director, trainer — is what I bring to every engagement.",
+    full: "I began as an actuarial analyst at Watson Wyatt, moved through pricing leadership at MSIG Asia and Great Eastern, rated Asia's insurers as an analyst at Standard & Poor's, and held statutory CRO roles at AIG Asia Pacific and Asia Capital Reinsurance. I then led digital insurance across eight ASEAN markets at Grab, co-founded and advised multiple insurtech and fintech ventures, served as Group CEO of Basel Medical Group through its Nasdaq listing, and sit today on the boards of SGX- and Nasdaq-listed companies. Through CER Consultancy, I advise boards, insurers and financial institutions on ESG strategy, risk governance and IPO readiness. I also build and deliver training programmes for SMU Academy, the Singapore College of Insurance, and APARI in Indonesia. That breadth — operator, CRO, director, trainer, founder — is what I bring to every engagement.",
   },
 };
 
@@ -85,21 +85,42 @@ export const metrics = [
 export const credibilityOrgs = [
   { name: "AIG Asia Pacific" },
   { name: "Asia Capital Reinsurance" },
+  { name: "Standard & Poor's" },
   { name: "Grab" },
-  { name: "Basel Medical Group" },
+  { name: "Great Eastern" },
+  { name: "MSIG Asia" },
+  { name: "Watson Wyatt" },
+  { name: "Basel Medical Group (Nasdaq)" },
   { name: "SDAI Limited (SGX: 5TI)" },
   { name: "iO3 Ltd (Nasdaq: IOTR)" },
   { name: "Atlantic Partners Asia" },
   { name: "SMU Academy" },
   { name: "Singapore College of Insurance" },
   { name: "ESSEC Business School" },
+  { name: "Nanyang Technological University" },
   { name: "Singapore Actuarial Society" },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Raymond was instrumental in helping GrabRentals set up our automotive fleet insurance programme. As the regional insurance lead then, he provided sound advice and inputs to ensure we build a comprehensive insurance policy that could scale with the business.",
+      "Raymond has the broadest risk management experience and expertise of anyone I've met. While most actuaries focus on narrow insurance underwriting or investment risks, Raymond has delivered value across the entire value-chain of organisations from a range of industries.",
+    name: "Colin Priest",
+    title: "Educator & Former Enterprise AI Leader",
+    context: "Cross-industry risk management",
+    engagement: "Industry Peer · Singapore",
+  },
+  {
+    quote:
+      "I have known Raymond as a trailblazer in ERM for the insurance and actuarial industry. He has a deep understanding of ERM from the insurance and actuarial perspective.",
+    name: "Roland T.",
+    title: "Award-Recognized Risk Professional · SMU Executive Programme",
+    context: "SMU Executive Certificate in Risk Management Leadership",
+    engagement: "SMU Academy · Co-faculty",
+  },
+  {
+    quote:
+      "Raymond was instrumental in helping GrabRentals set up our automotive fleet insurance programme. As the regional insurance lead, he provided sound advice to ensure we built a comprehensive insurance policy that could scale with the business.",
     name: "Yi Ming K.",
     title: "Business Transformation & Operations Leader",
     context: "Autonomous Vehicles & Fleet Management",
@@ -113,20 +134,60 @@ export const testimonials = [
     context: "Co-presenter at regulatory workshop",
     engagement: "Regulatory Workshop · Singapore",
   },
+  {
+    quote:
+      "Raymond is a reputable risk management professional who is well accredited by the industry and regulatory bodies, while also a pragmatic consultant to big corporates and fintech start-ups alike.",
+    name: "Becky Tam",
+    title: "Crypto Insurance Specialist · CPA, CFA",
+    context: "Independent ERM & ORSA review",
+    engagement: "OneDegree · ERM Framework Review",
+  },
+  {
+    quote:
+      "I worked with Raymond on a nine-figure business launch within Grab. After sharing that journey with him, it is clear Raymond is a key expert in Enterprise Risk Management from a practical, ground-up perspective for a large spectrum of business profiles.",
+    name: "Ween Keen L.",
+    title: "Fleet & Mobility Operations Leader",
+    context: "Hyper-growth insurance programme",
+    engagement: "Grab · Nine-Figure Business Launch",
+  },
 ];
 
 export const speakingEngagements = [
   {
+    event: "FAMPOSO Conference — Family Offices, Institutional Investors & Sovereign Funds",
+    host: "FAMPOSO",
+    venue: "Singapore",
+    year: "Aug 2026",
+  },
+  {
     event: "ERM & BCP Certification Programme",
     host: "APARI & Singapore College of Insurance",
     venue: "JW Marriott Jakarta",
-    year: "2026",
+    year: "Aug 2026",
   },
   {
     event: "Climate, Environmental & ESG Risk Certification",
     host: "APARI & Singapore College of Insurance",
     venue: "JW Marriott Jakarta",
-    year: "2026",
+    year: "Aug 2026",
+  },
+  {
+    event: "RBC2 Programme (with MAS Director co-presenter)",
+    host: "Singapore College of Insurance",
+    venue: "Singapore",
+    year: "Aug 2026",
+  },
+  {
+    event: "AI in Reinsurance Course",
+    host: "Singapore College of Insurance",
+    venue: "Virtual",
+    year: "May 2026",
+  },
+  {
+    event: "Employer Risks & Workplace Insurance Event",
+    host: "SNEF & Singapore College of Insurance",
+    venue: "SNEF Paya Lebar",
+    year: "Jun 2026",
   },
   {
     event: "Enterprise Risk Management Executive Programme",
@@ -135,21 +196,27 @@ export const speakingEngagements = [
     year: "Ongoing",
   },
   {
-    event: "Refresher Mathematics Course (IDSM31081)",
-    host: "ESSEC Business School",
-    venue: "Singapore",
-    year: "Ongoing",
+    event: "Digital Economy Summit Asia — Panel: 'Green is the New Gold'",
+    host: "DESA",
+    venue: "Marina Bay Sands, Singapore",
+    year: "Sep 2025",
+  },
+  {
+    event: "Climate & Environmental Risk — ASEAN",
+    host: "Singapore College of Insurance",
+    venue: "Singapore (Cambodia participants)",
+    year: "Oct 2025",
+  },
+  {
+    event: "IFRS 17/9 Board Training",
+    host: "Berhan Insurance",
+    venue: "Bangkok",
+    year: "Nov 2025",
   },
   {
     event: "Insurance & Risk Governance Training",
     host: "Singapore College of Insurance",
     venue: "Singapore",
     year: "Ongoing",
-  },
-  {
-    event: "ERM Committee & Industry Workshops",
-    host: "Singapore Actuarial Society",
-    venue: "Singapore",
-    year: "Multiple years",
   },
 ];
