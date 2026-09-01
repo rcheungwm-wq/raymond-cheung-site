@@ -37,13 +37,16 @@
     --glass-strong: #FBF6EA;
     --glass-border: rgba(154, 123, 52, 0.28);
 
-    /* Editorial = flat. Shadows near-eliminated. */
-    --sh-glass: none;
-    --sh-deep: 0 1px 0 rgba(201, 169, 97, 0.22);
+    /* Layered, soft — depth without heaviness. */
+    --sh-glass: 0 1px 3px rgba(26, 23, 18, 0.04), 0 6px 20px rgba(26, 23, 18, 0.06);
+    --sh-deep: 0 2px 8px rgba(26, 23, 18, 0.07), 0 18px 44px rgba(26, 23, 18, 0.11);
 
-    /* Sharp, not pill. */
-    --r-card: 2px;
-    --r-sm: 2px;
+    /* Soft but crisp. */
+    --r-card: 4px;
+    --r-sm: 3px;
+
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    --maxw: 1240px;
   }
 
   html {
@@ -65,15 +68,15 @@
      display type consistent site-wide. */
   h1, h2 {
     font-family: var(--font-cormorant), "Cormorant Garamond", Georgia, serif !important;
-    font-weight: 600 !important;
-    letter-spacing: -0.01em !important;
-    line-height: 1.08;
+    font-weight: 400 !important;
+    letter-spacing: normal !important;
+    line-height: 1.02 !important;
     color: var(--ink);
   }
 
   /* Serif renders optically smaller — compensate. */
-  h1 { font-size: clamp(2.9rem, 5.4vw, 4.9rem); }
-  h2 { font-size: clamp(1.9rem, 3.4vw, 2.9rem); }
+  h1 { font-size: clamp(3.2rem, 6vw, 5.4rem); }
+  h2 { font-size: clamp(2.1rem, 4vw, 3.4rem); }
 
   h3, h4, h5, h6 {
     font-family: var(--font-plus-jakarta), "Plus Jakarta Sans", system-ui, sans-serif;
@@ -107,13 +110,15 @@
   -webkit-backdrop-filter: none;
   border: 1px solid var(--rule-soft);
   border-radius: var(--r-card);
-  box-shadow: none;
-  transition: border-color 0.35s ease, background-color 0.35s ease;
+  box-shadow: var(--sh-glass);
+  transition: border-color 0.4s var(--ease), background-color 0.4s var(--ease),
+              box-shadow 0.4s var(--ease), transform 0.4s var(--ease);
 }
 .glass-card:hover {
-  transform: none;
+  transform: translateY(-2px);
   border-color: var(--rule);
   background: var(--panel-hi);
+  box-shadow: var(--sh-deep);
 }
 
 /* ══ Buttons — squared, editorial ══ */
@@ -193,10 +198,13 @@
 .link-teal:hover { gap: 0.7rem; border-bottom-color: var(--gold); }
 
 /* ══ Card hover ══ */
-.card-hover { transition: border-color 0.3s ease, background-color 0.3s ease; }
+.card-hover {
+  transition: border-color 0.4s var(--ease), background-color 0.4s var(--ease),
+              box-shadow 0.4s var(--ease), transform 0.4s var(--ease);
+}
 .card-hover:hover {
-  transform: none;
-  box-shadow: none;
+  transform: translateY(-2px);
+  box-shadow: var(--sh-deep);
   border-color: var(--rule) !important;
   background-color: var(--panel-hi);
 }
