@@ -108,8 +108,11 @@ export default function HeroAuthoritySection() {
                 objectFit: "cover",
                 /* Crop in on the subject to push the event backdrop's
                    sponsor signage out of frame. */
-                objectPosition: "22% 15%",
-                transform: "scale(1.42)",
+                /* Source is only 400×400 and already renders ~1.8× upscaled,
+                   so keep the crop gentle — the scrim below hides the
+                   event signage instead of zooming into it. */
+                objectPosition: "34% 16%",
+                transform: "scale(1.06)",
                 /* Warm monochrome — harmonises the event-photo backdrop
                    with the champagne palette and mutes its low resolution. */
                 filter: "grayscale(100%) sepia(30%) contrast(1.05) brightness(1.03)",
@@ -121,6 +124,16 @@ export default function HeroAuthoritySection() {
               backgroundColor: "var(--gold)",
               mixBlendMode: "soft-light",
               opacity: 0.28,
+            }} />
+
+            {/* Scrim — fades the event backdrop's sponsor signage on the
+                right and bottom without cropping further into a small source. */}
+            <div aria-hidden="true" style={{
+              position: "absolute", inset: 0,
+              background: `
+                linear-gradient(100deg, transparent 38%, rgba(232,220,192,0.55) 72%, rgba(232,220,192,0.9) 100%),
+                linear-gradient(to top, rgba(232,220,192,0.5) 0%, transparent 30%)
+              `,
             }} />
           </div>
         </div>
