@@ -7,6 +7,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 import { profile } from "@/data/profile";
 import { careerJourney } from "@/data/experience";
 import PublicationsSection from "@/components/PublicationsSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 
 const roles = [
   {
@@ -409,10 +410,39 @@ export default function AboutPage() {
               >
                 Connect on LinkedIn ↗
               </a>
+
+              {/* Press */}
+              <div style={{ marginTop: "2rem", paddingTop: "1.5rem", borderTop: "1px solid var(--rule-soft)" }}>
+                <p style={{
+                  fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
+                  letterSpacing: "0.18em", color: "var(--ink-faint)",
+                  textTransform: "uppercase", marginBottom: "0.85rem",
+                }}>
+                  In the press
+                </p>
+                <a
+                  href="https://www.ceoinsightsasia.com/leader/raymond-cheung-spearheading-insurtech-to-create-an-ecosystem-for-the-next-generation-of-customers-cid-4515.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "block", fontSize: "0.82rem", lineHeight: 1.55,
+                    color: "var(--ink-soft)", textDecoration: "none",
+                  }}
+                >
+                  <span style={{ display: "block", fontWeight: 600, color: "var(--ink)" }}>
+                    CEO Insights Asia ↗
+                  </span>
+                  Spearheading insurtech to create an ecosystem for the next
+                  generation of customers
+                </a>
+              </div>
             </div>
           </aside>
         </div>
       </section>
+
+      {/* Full set of recommendations — homepage shows a curated three */}
+      <TestimonialsSection />
 
       <style>{`
         @media (max-width: 899px) {

@@ -36,7 +36,7 @@ export default function HomePage() {
       <FeaturedProgrammes />
       <SpeakingSection />
       <QuoteSection />
-      <TestimonialsSection />
+      <TestimonialsSection limit={3} />
       <InsightCards />
       <FinalCTA />
     </>

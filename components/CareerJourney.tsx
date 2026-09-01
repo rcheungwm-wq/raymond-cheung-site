@@ -1,4 +1,11 @@
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { careerJourney } from "@/data/experience";
+
+/* Homepage shows a curated arc — statutory CRO, Grab, the Nasdaq listing,
+   and current mandates. The full eight-stage journey lives on /about. */
+const FEATURED = [2, 4, 6, 7];
+const featured = FEATURED.map((i) => careerJourney[i]).filter(Boolean);
 
 export default function CareerJourney() {
   return (
@@ -31,14 +38,16 @@ export default function CareerJourney() {
           }} />
 
           <ol style={{ listStyle: "none", padding: 0, margin: 0, paddingLeft: "2.5rem" }}>
-            {careerJourney.map((m, i) => (
-              <li key={`${m.period}-${m.title}`} style={{ position: "relative", marginBottom: i < careerJourney.length - 1 ? "1.5rem" : 0 }}>
+            {featured.map((m, i) => {
+              const isCurrent = i === featured.length - 1;
+              return (
+              <li key={`${m.period}-${m.title}`} style={{ position: "relative", marginBottom: isCurrent ? 0 : "1.5rem" }}>
                 <div aria-hidden="true" style={{
                   position: "absolute", left: "-2.5rem", top: "4px",
                   width: "24px", height: "24px", borderRadius: "50%",
-                  backgroundColor: i === 0 ? "var(--strategic-teal)" : "var(--warm-ivory)",
-                  border: `2px solid ${i === 0 ? "var(--strategic-teal)" : "rgba(26,23,18,0.2)"}`,
-                  boxShadow: i === 0 ? "0 0 0 4px rgba(201,169,97,0.12)" : "none",
+                  backgroundColor: isCurrent ? "var(--gold)" : "var(--warm-ivory)",
+                  border: `2px solid ${isCurrent ? "var(--gold)" : "rgba(26,23,18,0.2)"}`,
+                  boxShadow: isCurrent ? "0 0 0 4px rgba(201,169,97,0.18)" : "none",
                 }} />
 
                 <div style={{
@@ -72,8 +81,15 @@ export default function CareerJourney() {
                   </p>
                 </div>
               </li>
-            ))}
+              );
+            })}
           </ol>
+        </div>
+
+        <div style={{ marginTop: "2.5rem", paddingLeft: "2.5rem" }}>
+          <Link href="/about" className="link-teal">
+            Full career, 2002 to present <ArrowRight size={13} />
+          </Link>
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 const domains = [
   {
@@ -78,7 +79,7 @@ export default function ExpertiseGrid() {
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.25rem" }}>
-          {domains.map((domain, i) => (
+          {domains.slice(0, 3).map((domain, i) => (
             <div key={domain.title}
               onMouseEnter={() => setHovered(i)}
               onMouseLeave={() => setHovered(null)}
@@ -139,6 +140,12 @@ export default function ExpertiseGrid() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div style={{ marginTop: "2.5rem" }}>
+          <Link href="/expertise" className="link-teal">
+            All {domains.length} areas of expertise <ArrowRight size={13} />
+          </Link>
         </div>
       </div>
     </section>

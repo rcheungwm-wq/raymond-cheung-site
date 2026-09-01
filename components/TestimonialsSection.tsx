@@ -1,11 +1,15 @@
 "use client";
 
+import Link from "next/link";
 import { testimonials } from "@/data/profile";
-import { Quote } from "lucide-react";
+import { Quote, ArrowRight } from "lucide-react";
 
-export default function TestimonialsSection() {
+/* `limit` trims the homepage to a curated three; /about renders the full set. */
+export default function TestimonialsSection({ limit }: { limit?: number }) {
+  const shown = limit ? testimonials.slice(0, limit) : testimonials;
   return (
     <section
+      id="testimonials"
       aria-labelledby="testimonials-heading"
       style={{
         background: "linear-gradient(135deg, var(--midnight-navy) 0%, var(--executive-navy) 100%)",
@@ -95,7 +99,7 @@ export default function TestimonialsSection() {
           gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
           gap: "1.5rem",
         }} className="testimonials-grid">
-          {testimonials.map((t) => (
+          {shown.map((t) => (
             <div key={t.name} style={{
               background: "var(--panel)",
               border: "1px solid var(--rule-soft)",
@@ -149,6 +153,14 @@ export default function TestimonialsSection() {
             </div>
           ))}
         </div>
+
+        {limit && testimonials.length > limit && (
+          <div style={{ marginTop: "2.5rem" }}>
+            <Link href="/about#testimonials" className="link-teal">
+              All {testimonials.length} recommendations <ArrowRight size={13} />
+            </Link>
+          </div>
+        )}
       </div>
 
       <style>{`
