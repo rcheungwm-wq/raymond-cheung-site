@@ -1371,4 +1371,169 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "19",
+    title: "What SGX's FY2026 Sustainability Mandate Means for Singapore Boards Right Now",
+    summary:
+      "From FY2026, SGX-listed companies must issue a sustainability report alongside their annual report — and large-cap issuers must disclose Scope 3 emissions. Most boards are not ready for what they are now required to sign off on.",
+    category: "Governance",
+    readingTime: "3 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "sgx-sustainability-reporting-fy2026-boards",
+    keywords: ["SGX sustainability reporting 2026", "Singapore board sustainability", "ESG governance Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I have been in enough audit committee meetings in Singapore to recognise what typically happens when the sustainability report arrives for sign-off. The sustainability team presents. The slide deck covers the ISSB framework alignment, the material ESG factors, the Scope 1 and 2 emissions data. The board chair asks whether everything is compliant. Nobody asks what any of it means for the strategy. The adviser confirms the report meets SGX RegCo's requirements. The board approves. The meeting moves on.",
+      },
+      {
+        type: "paragraph",
+        text: "From FY2026, that approach is no longer sufficient — and for some boards, it is now a governance risk. SGX's mandatory sustainability reporting framework has escalated: all listed issuers must now issue their sustainability report alongside the annual report, large-cap companies must disclose Scope 3 greenhouse gas emissions in accordance with IFRS S2, and the board is required to provide a statement on its governance structures for sustainability practices. That last requirement is the one most boards have not fully understood yet.",
+      },
+      {
+        type: "heading",
+        text: "What has changed for boards — not just for management",
+      },
+      {
+        type: "paragraph",
+        text: "The governance shift is this: the sustainability report is now formally a board-level document. Not in the sense that the board reviews it before publication — boards have been doing that. In the sense that the board is now required to describe how it governs sustainability. That means the board needs to understand what is in the report, have a view on whether the identified material ESG factors are the right ones, and be in a position to explain its oversight role to shareholders. Approving a document prepared entirely by management, without engaging with its substance, does not meet that standard.",
+      },
+      {
+        type: "pullquote",
+        text: "Signing off on a sustainability report you cannot explain is a governance risk, not just a reputational one.",
+      },
+      {
+        type: "heading",
+        text: "Three questions Singapore boards should be asking this quarter",
+      },
+      {
+        type: "list",
+        items: [
+          "Has the board been briefed on the key ESG factors that will appear in the FY2026 sustainability report — and does the board agree they are the right ones, or has the selection been left entirely to management?",
+          "For large-cap issuers: what is management's methodology for measuring Scope 3 emissions, which categories are included, and has the board tested whether the reporting boundary is appropriate for the business?",
+          "If an institutional investor or proxy adviser challenges the sustainability report in a shareholder meeting, which director will respond — and can they answer substantively, not just refer the question to management?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These are not unreasonable expectations. They are what the SGX framework now implies by requiring a board governance statement. If the board cannot answer those questions today, there is still time to put the right briefings in place before the FY2026 report is finalised. But the time is measured in quarters, not years. The requirement is live now.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does SGX require for sustainability reporting from FY2026?",
+        answer: "From FY2026, all SGX-listed companies must issue a sustainability report alongside their annual report. The report must include a board statement on governance structures for sustainability practices. Large-cap issuers are also required to disclose Scope 3 greenhouse gas emissions in accordance with IFRS S2 standards. If external assurance has been conducted, the sustainability report may be issued up to five months after financial year end.",
+      },
+      {
+        question: "What is the board's responsibility for the FY2026 SGX sustainability report?",
+        answer: "The board must provide a statement on its governance structures for sustainability practices — which means the board is expected to actively oversee the sustainability reporting process, not only receive and approve a management-prepared document. Directors should be able to explain how material ESG factors were identified, challenge key assumptions in the report, and describe the board's role in sustainability oversight.",
+      },
+      {
+        question: "When do large-cap Singapore listed companies need to report Scope 3 emissions?",
+        answer: "SGX RegCo requires large-cap listed issuers to report Scope 3 greenhouse gas emissions from FY2026, in line with IFRS S2 requirements. Smaller issuers are not yet required to report Scope 3, though SGX expects the requirement to extend to all listed issuers by FY2027.",
+      },
+    ],
+  },
+  {
+    id: "20",
+    title: "What Makes an ESG Adviser Useful to a Singapore Board",
+    summary:
+      "Most ESG advisers in Singapore help boards produce better sustainability reports. A genuinely useful ESG adviser does something harder — they help the board ask better questions, challenge management's framing, and connect sustainability to the decisions the board is actually making.",
+    category: "ESG",
+    readingTime: "7 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "esg-advisor-singapore",
+    keywords: ["ESG advisor Singapore", "ESG governance Singapore boards", "sustainability adviser Singapore board"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I have sat through enough board presentations from ESG advisers in Singapore to recognise the pattern. The slides are well-designed. The framework coverage is comprehensive. The material ESG factor mapping is thorough. The board asks a few questions about timelines and reporting scope. Nobody challenges anything. The adviser leaves. The board has just spent forty minutes on sustainability and learned almost nothing about whether the business is actually managing its ESG risks well.",
+      },
+      {
+        type: "paragraph",
+        text: "There is nothing wrong with this as a compliance function. If the organisation needs to produce an SGX-compliant sustainability report, an adviser who understands ISSB standards, material factor mapping, and disclosure requirements is genuinely valuable. But from FY2026, Singapore boards are required to provide a board statement on their governance structures for sustainability. That requirement is substantive. It means the board needs to govern sustainability — not just disclose it. And most ESG advisory relationships are not set up to help boards do that.",
+      },
+      {
+        type: "heading",
+        text: "The gap between sustainability reporting and sustainability governance",
+      },
+      {
+        type: "paragraph",
+        text: "The ESG advisory market in Singapore has developed faster than the governance thinking behind it. There are now dozens of firms offering sustainability reporting services to listed companies. Many of them are excellent at what they do: helping management teams understand the ISSB standards, map their material ESG factors, and produce a disclosure that will satisfy SGX RegCo's requirements. That is a legitimate service. What it is not is board-level governance advice.",
+      },
+      {
+        type: "paragraph",
+        text: "Advising a board is different from advising management. It requires being willing to tell a compensation committee that their ESG-linked performance targets are too weak to drive behaviour change. It means telling a board chair — in the board meeting, not in a quiet conversation afterwards — that the sustainability report describes a strategy the business is not actually pursuing. It means asking management's sustainability team difficult questions in front of the board, and making those questions legible to directors who are not sustainability specialists. Most reporting advisers are not set up to do this, and many are not inclined to.",
+      },
+      {
+        type: "pullquote",
+        text: "An ESG adviser who never says anything a Singapore board doesn't want to hear is not an adviser — they are a vendor.",
+      },
+      {
+        type: "heading",
+        text: "What I look for when assessing ESG advisory quality for boards",
+      },
+      {
+        type: "paragraph",
+        text: "When organisations ask me to assess their ESG advisory arrangements, I look for a specific set of characteristics — not qualifications or framework expertise, but how the adviser actually functions in the boardroom.",
+      },
+      {
+        type: "list",
+        items: [
+          "Does the adviser have a view, or only a framework? Frameworks are necessary but insufficient. A useful adviser can tell you which of the business's identified ESG risks they believe the board is underweighting — and why. If the adviser can only describe the framework, they are not advising the board.",
+          "Does the adviser engage with the board directly, or only with management? If the relationship is primarily with the sustainability team, the board is receiving filtered information. The board's adviser should have a direct line to the board, not a managed briefing through the sustainability function.",
+          "Is the adviser willing to disagree with management in the board meeting? This is rare. It is also the most important indicator of genuine usefulness. An adviser who only confirms that management is on track is not adding governance value.",
+          "Does the adviser connect sustainability to the decisions the board is actually making — capital allocation, M&A, strategic planning — or do they operate in a separate sustainability track that never intersects with the main board agenda? If ESG exists in its own lane, it is a disclosure exercise, not a governance function.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Why the regulatory environment is raising the bar",
+      },
+      {
+        type: "paragraph",
+        text: "Singapore's regulatory environment is escalating in a way that makes the governance gap increasingly visible. From FY2025, all SGX issuers report Scope 1 and 2 emissions. From FY2026, large-cap issuers add Scope 3. MAS's transition planning guidelines — published in March 2026 and effective September 2027 — require insurers and financial institutions to demonstrate credible plans for managing climate-related transition risk. These are not disclosure requirements alone. They require the board to demonstrate that it oversees the organisation's sustainability strategy, not merely approves its reporting.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical consequence is that an ESG adviser whose value stops at the disclosure layer is becoming insufficient for Singapore boards. Institutional investors and proxy advisers are increasingly looking for evidence of genuine board engagement with sustainability — not just a well-formatted sustainability report. The SGX board governance statement requirement is one formal expression of this. The shareholder questions at AGMs are another. Boards that cannot demonstrate substantive engagement will face escalating pressure.",
+      },
+      {
+        type: "heading",
+        text: "What a genuinely useful ESG adviser does differently",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective ESG advisers I have worked with or observed in Singapore share certain characteristics. They come with a point of view — not a framework, but a perspective on what matters most for the specific industry, regulatory environment, and strategic situation the board is navigating. They are willing to say that the organisation's greatest climate-related exposure is not the one currently in the sustainability report, because that is where management has already done the analytical work. The real risk is where nobody has looked yet.",
+      },
+      {
+        type: "paragraph",
+        text: "They also understand the distinction between the board's job and management's job. Management produces the sustainability report. The board oversees whether management is managing sustainability risk appropriately. Those are not the same thing, and an adviser who conflates them is helping management with compliance — which is legitimate — but is not helping the board with governance, which is what the regulatory environment now requires.",
+      },
+      {
+        type: "paragraph",
+        text: "If your board's ESG adviser is confirming that the sustainability report looks good, that is useful information. If they are not also telling you what the report reveals about where the business is genuinely exposed — and where the board's oversight of those exposures is still underdeveloped — then you have a reporting adviser. In Singapore's current environment, boards need both. But they especially need the second.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does an ESG adviser do for a Singapore board?",
+        answer: "A board-level ESG adviser helps directors understand the organisation's material sustainability risks, challenges the adequacy of management's sustainability governance, and connects ESG factors to the strategic decisions the board is making — capital allocation, M&A, strategic planning, and risk oversight. This is distinct from a sustainability reporting consultant, whose primary role is disclosure compliance with SGX or ISSB standards.",
+      },
+      {
+        question: "How do I assess whether my ESG adviser is useful to the board — not just to management?",
+        answer: "The clearest indicator is whether the adviser is willing to disagree with management in front of the board, and whether they engage directly with the board's actual decisions rather than only with the sustainability team's reporting process. An adviser whose relationship is primarily with management is advising management — which may be valuable, but does not constitute board-level ESG governance advisory.",
+      },
+      {
+        question: "What ESG governance requirements apply to Singapore boards from FY2026?",
+        answer: "From FY2026, SGX-listed companies must include a board statement on governance structures for sustainability practices in their sustainability report, issued alongside the annual report. Large-cap issuers must also report Scope 3 GHG emissions. MAS-regulated financial institutions face additional obligations under MAS's transition planning guidelines, with implementation required by September 2027. Both sets of requirements place substantive governance obligations on the board, not only disclosure obligations on management.",
+      },
+      {
+        question: "Is there a difference between an ESG consultant and an ESG adviser for Singapore boards?",
+        answer: "In practice, yes. An ESG consultant typically helps management teams with sustainability reporting, framework compliance, and disclosure quality. An ESG adviser working at board level helps directors challenge management's ESG framing, identify governance gaps, and demonstrate credible oversight of sustainability risk. Singapore boards increasingly need the latter as SGX and MAS requirements shift from disclosure to governance accountability.",
+      },
+    ],
+  },
 ];
