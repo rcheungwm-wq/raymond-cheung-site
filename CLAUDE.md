@@ -43,3 +43,64 @@ Hero → Credibility Strip → **Audience Router** → Introduction → Impact �
 - Add a dedicated 1200×630 OG image (currently reusing the square portrait)
 - Confirm HTTPS certificate issued on raymondcheungwm.com (GitHub Pages Settings → Enforce HTTPS)
 - Submit sitemap to Google Search Console once DNS/HTTPS confirmed
+- Wire in Calendly / scheduling link (hero + contact + speaking pages) — waiting on Raymond's URL
+- Alpha Millennia Technology (CEO, founded 2021) — confirm whether to add to career timeline
+
+---
+
+## Blog / SEO — Daily Content Routine
+
+**Goal:** Page 1 Google Singapore for tier-1 keywords by December 2026
+**Full playbook:** `seo/keywords.md`, `seo/serp-analysis.md`, `seo/daily-routine.md`
+
+### Two posts per day
+- **Morning — Short take (300–500 words, 20–30 min):** React to a Singapore news event — MAS circular, SGX announcement, ESG regulation update, SID report. Raymond's angle first, context second.
+- **Afternoon — Signature post (900–1,200 words, 60–90 min):** Keyword-targeted, Raymond's lived experience. One post per keyword from the tier-1 list.
+
+### How to add a post
+Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in the fields. Push — site rebuilds automatically in ~3 minutes.
+
+### Post backlog (next to publish, in order)
+- [ ] `esg-advisor-singapore` — "What makes an ESG adviser useful to a Singapore board"
+- [ ] `climate-physical-risk-singapore-insurance` — "Physical climate risk in Singapore insurance: what boards need to govern"
+- [ ] `mas-notice-126-insurance-boards` — "MAS Notice 126: what it actually requires of Singapore insurance boards"
+- [ ] `risk-appetite-framework-singapore` — "Why your Singapore risk appetite framework is not influencing any decisions"
+- [ ] `board-risk-committee-singapore` — "What a board risk committee should look like for a Singapore-listed company"
+- [ ] `ai-governance-insurance-singapore` — "AI governance in Singapore insurance: what MAS expects, what boards miss"
+- [ ] `corporate-governance-consultant-singapore` — independent advisory vs. firm consulting
+- [ ] `sustainability-reporting-singapore-sgx` — the board's role in SGX mandatory reporting
+- [ ] `reinsurance-governance-singapore` — what boards need to understand about reinsurance strategy
+- [ ] `insurance-capital-singapore-mas` — capital adequacy governance from the board's perspective
+
+### Published (18 posts, September 2026)
+- ✅ Climate transition governance
+- ✅ Risk appetite decisions
+- ✅ Next-generation insurance
+- ✅ AI insurance governance
+- ✅ Capital strategy boardroom
+- ✅ ESG compliance readiness
+- ✅ Actuarial board adviser Singapore (`actuarial board advisor Singapore`)
+- ✅ SGX audit committee CRO questions (`SGX board director advisory`)
+- ✅ ESG governance training Singapore boards (`ESG governance training Singapore`)
+- ✅ Climate risk board director Singapore (`climate risk board director Singapore`)
+- ✅ CRO advisory Singapore insurance (`CRO advisory Singapore insurance`)
+- ✅ InsurTech board adviser Asia (`InsurTech board advisor Asia`)
+- ✅ Independent board director Singapore (`independent board director Singapore`)
+- ✅ MAS regulatory advisor Singapore (`MAS regulatory advisor Singapore`)
+- ✅ Nasdaq listing governance (`Nasdaq CEO governance Singapore`)
+- ✅ Risk governance speaker Singapore (`risk governance speaker Singapore`)
+- ✅ Scope 3 emissions Singapore boards (`scope 3 emissions Singapore boards`)
+- ✅ ORSA strategic tool Singapore insurance (`ORSA Singapore insurance`)
+
+### Backlink actions (one-time, compound over time)
+- [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile
+- [ ] Ask Singapore College of Insurance to do the same
+- [ ] Raymond to add raymondcheungwm.com/insights as "website" on LinkedIn profile
+- [ ] Email CEO Insights Asia to add a link to the site from their feature on Raymond
+- [ ] Pitch SID.org.sg for a guest article or resource listing
+
+### Monthly tracking
+1. Google Search Console → Coverage (how many posts indexed)
+2. Google Search Console → Search results (keyword impressions appearing)
+3. Incognito Google Singapore search for tier-1 keywords — current positions
+4. Ask ChatGPT / Perplexity "who is a good actuarial board adviser in Singapore?" — is Raymond cited?
