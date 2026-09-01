@@ -131,8 +131,12 @@ export default function HeroAuthoritySection() {
             <div aria-hidden="true" style={{
               position: "absolute", inset: 0,
               background: `
-                linear-gradient(100deg, transparent 38%, rgba(232,220,192,0.55) 72%, rgba(232,220,192,0.9) 100%),
-                linear-gradient(to top, rgba(232,220,192,0.5) 0%, transparent 30%)
+                linear-gradient(100deg,
+                  transparent 30%,
+                  rgba(232,220,192,0.45) 52%,
+                  rgba(232,220,192,0.88) 74%,
+                  rgba(232,220,192,0.99) 92%),
+                linear-gradient(to top, rgba(232,220,192,0.55) 0%, transparent 32%)
               `,
             }} />
           </div>
