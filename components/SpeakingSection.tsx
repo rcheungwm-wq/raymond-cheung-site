@@ -78,7 +78,7 @@ export default function SpeakingSection() {
               Selected Engagements
             </p>
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              {speakingEngagements.map((e) => (
+              {speakingEngagements.slice(0, 5).map((e) => (
                 <li key={e.event} style={{ padding: "0.85rem 0", borderBottom: "1px solid rgba(201,169,97,0.08)", display: "grid", gridTemplateColumns: "1fr auto", gap: "1rem", alignItems: "start" }}>
                   <div>
                     <p style={{ fontSize: "0.82rem", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, color: "rgba(26,23,18,0.82)", lineHeight: 1.3, marginBottom: "0.2rem" }}>
@@ -94,6 +94,12 @@ export default function SpeakingSection() {
                 </li>
               ))}
             </ul>
+
+            <div style={{ marginTop: "1.75rem" }}>
+              <Link href="/training-speaking" className="link-teal">
+                All {speakingEngagements.length} engagements <ArrowRight size={13} />
+              </Link>
+            </div>
           </div>
         </div>
       </div>

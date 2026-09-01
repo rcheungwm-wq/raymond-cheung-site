@@ -108,8 +108,8 @@ export default function HeroAuthoritySection() {
                 objectFit: "cover",
                 /* Crop in on the subject to push the event backdrop's
                    sponsor signage out of frame. */
-                objectPosition: "38% 18%",
-                transform: "scale(1.18)",
+                objectPosition: "22% 15%",
+                transform: "scale(1.42)",
                 /* Warm monochrome — harmonises the event-photo backdrop
                    with the champagne palette and mutes its low resolution. */
                 filter: "grayscale(100%) sepia(30%) contrast(1.05) brightness(1.03)",
