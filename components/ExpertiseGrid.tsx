@@ -55,7 +55,7 @@ export default function ExpertiseGrid() {
     <section
       id="expertise"
       aria-labelledby="expertise-heading"
-      style={{ backgroundColor: "var(--soft-mist)", padding: "5rem 2rem" }}
+      style={{ backgroundColor: "var(--warm-ivory)", padding: "5rem 2rem" }}
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1rem" }}>

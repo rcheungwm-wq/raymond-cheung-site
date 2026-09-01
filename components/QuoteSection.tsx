@@ -7,7 +7,7 @@ export default function QuoteSection() {
     <section
       aria-label="Personal philosophy"
       style={{
-        background: "linear-gradient(160deg, var(--midnight-navy) 0%, var(--executive-navy) 100%)",
+        background: "var(--warm-ivory)",
         padding: "6rem 2rem",
         position: "relative",
         overflow: "hidden",

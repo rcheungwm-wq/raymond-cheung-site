@@ -5,7 +5,7 @@ export default function CareerJourney() {
     <section
       id="journey"
       aria-labelledby="journey-heading"
-      style={{ backgroundColor: "var(--warm-ivory)", padding: "5rem 2rem" }}
+      style={{ backgroundColor: "var(--soft-mist)", padding: "5rem 2rem" }}
     >
       <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "3rem" }}>
