@@ -85,6 +85,19 @@ export default async function InsightArticlePage({ params }: Props) {
     ],
   };
 
+  const faqSchema = insight.faqs && insight.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: insight.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
+
   return (
     <div style={{ backgroundColor: "var(--warm-ivory)", paddingTop: "96px" }}>
       <script
@@ -95,6 +108,12 @@ export default async function InsightArticlePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       {/* Hero */}
       <section style={{
         background: "linear-gradient(135deg, var(--midnight-navy) 0%, var(--executive-navy) 100%)",
@@ -230,6 +249,31 @@ export default async function InsightArticlePage({ params }: Props) {
               );
             })}
           </div>
+
+          {/* FAQ section */}
+          {insight.faqs && insight.faqs.length > 0 && (
+            <div style={{ marginTop: "3rem", paddingTop: "2.5rem", borderTop: "1px solid rgba(26,23,18,0.08)" }}>
+              <p style={{
+                fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
+                letterSpacing: "0.16em", color: "var(--gold)", textTransform: "uppercase",
+                marginBottom: "1.5rem",
+              }}>Common Questions</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+                {insight.faqs.map((faq, i) => (
+                  <div key={i} style={{ borderLeft: "2px solid var(--rule-soft)", paddingLeft: "1.25rem" }}>
+                    <p style={{
+                      fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                      fontWeight: 700, fontSize: "0.92rem", color: "var(--ink)",
+                      marginBottom: "0.6rem", lineHeight: 1.4,
+                    }}>{faq.question}</p>
+                    <p style={{
+                      fontSize: "0.88rem", color: "var(--graphite)", lineHeight: 1.8, opacity: 0.88,
+                    }}>{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Author card */}
           <div style={{
