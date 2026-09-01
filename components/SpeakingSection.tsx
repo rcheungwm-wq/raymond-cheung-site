@@ -35,12 +35,12 @@ export default function SpeakingSection() {
             <h2 id="speaking-heading" style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700, letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.15, marginBottom: "1.5rem" }}>
               I don&rsquo;t present theory.<br />I bring what I&rsquo;ve lived.<br />And I make it actionable.
             </h2>
-            <p style={{ fontSize: "1rem", color: "rgba(242,237,227,0.62)", lineHeight: 1.8, marginBottom: "2.5rem", maxWidth: "440px" }}>
+            <p style={{ fontSize: "1rem", color: "rgba(26,23,18,0.62)", lineHeight: 1.8, marginBottom: "2.5rem", maxWidth: "440px" }}>
               I speak to boards, regulators, executives and professional audiences across Asia on the forces reshaping insurance, risk governance, climate strategy and technology. When I stand up to speak, I bring the perspective of someone who has actually held the roles you are navigating — not read about them.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.6rem", marginBottom: "3rem" }}>
               {speakingFormats.map((fmt) => (
-                <div key={fmt.label} style={{ display: "flex", alignItems: "center", gap: "0.4rem", backgroundColor: "rgba(201,169,97,0.08)", border: "1px solid rgba(201,169,97,0.2)", borderRadius: "1px", padding: "0.45rem 0.85rem", color: "rgba(242,237,227,0.75)" }}>
+                <div key={fmt.label} style={{ display: "flex", alignItems: "center", gap: "0.4rem", backgroundColor: "rgba(201,169,97,0.08)", border: "1px solid rgba(201,169,97,0.2)", borderRadius: "1px", padding: "0.45rem 0.85rem", color: "rgba(26,23,18,0.75)" }}>
                   <span style={{ color: "var(--strategic-teal)" }}>{iconMap[fmt.icon]}</span>
                   <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem", letterSpacing: "0.1em", textTransform: "uppercase" }}>{fmt.label}</span>
                 </div>
@@ -63,10 +63,10 @@ export default function SpeakingSection() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, marginBottom: "2.5rem" }}>
               {speakingThemes.map((theme, i) => (
                 <li key={theme} style={{ display: "flex", alignItems: "flex-start", gap: "1rem", padding: "1rem 0", borderBottom: "1px solid rgba(201,169,97,0.1)" }}>
-                  <span aria-hidden="true" style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", color: "rgba(242,237,227,0.22)", flexShrink: 0, marginTop: "0.15rem" }}>
+                  <span aria-hidden="true" style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", color: "rgba(26,23,18,0.22)", flexShrink: 0, marginTop: "0.15rem" }}>
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <p style={{ fontSize: "0.9rem", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 500, color: "rgba(242,237,227,0.78)", lineHeight: 1.45 }}>
+                  <p style={{ fontSize: "0.9rem", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 500, color: "rgba(26,23,18,0.78)", lineHeight: 1.45 }}>
                     {theme}
                   </p>
                 </li>
@@ -81,10 +81,10 @@ export default function SpeakingSection() {
               {speakingEngagements.map((e) => (
                 <li key={e.event} style={{ padding: "0.85rem 0", borderBottom: "1px solid rgba(201,169,97,0.08)", display: "grid", gridTemplateColumns: "1fr auto", gap: "1rem", alignItems: "start" }}>
                   <div>
-                    <p style={{ fontSize: "0.82rem", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, color: "rgba(242,237,227,0.82)", lineHeight: 1.3, marginBottom: "0.2rem" }}>
+                    <p style={{ fontSize: "0.82rem", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 600, color: "rgba(26,23,18,0.82)", lineHeight: 1.3, marginBottom: "0.2rem" }}>
                       {e.event}
                     </p>
-                    <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.06em", color: "rgba(242,237,227,0.38)", textTransform: "uppercase" }}>
+                    <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.06em", color: "rgba(26,23,18,0.38)", textTransform: "uppercase" }}>
                       {e.host} · {e.venue}
                     </p>
                   </div>

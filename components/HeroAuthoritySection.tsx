@@ -116,9 +116,9 @@ export default function HeroAuthoritySection() {
         position: "relative",
         minHeight: "100vh",
         background: `
-          radial-gradient(ellipse 60% 50% at 78% 42%, rgba(201,169,97,0.10) 0%, transparent 62%),
-          radial-gradient(ellipse 70% 60% at 12% 78%, rgba(201,169,97,0.05) 0%, transparent 60%),
-          #08080A
+          radial-gradient(ellipse 60% 50% at 78% 42%, rgba(154,123,52,0.13) 0%, transparent 62%),
+          radial-gradient(ellipse 70% 60% at 12% 78%, rgba(154,123,52,0.07) 0%, transparent 60%),
+          var(--warm-ivory)
         `,
         display: "flex",
         alignItems: "center",
@@ -229,7 +229,7 @@ export default function HeroAuthoritySection() {
 
           <p style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.66rem",
-            letterSpacing: "0.07em", color: "rgba(242,237,227,0.42)", lineHeight: 1.65,
+            letterSpacing: "0.07em", color: "rgba(26,23,18,0.42)", lineHeight: 1.65,
           }}>
             iO3 Ltd (Nasdaq: IOTR) · SDAI Limited (SGX: 5TI) · Former Group CEO, Basel Medical Group (Nasdaq: BMGL) · Former CRO, AIG Asia Pacific · CEO, CER Consultancy
           </p>
@@ -280,7 +280,7 @@ export default function HeroAuthoritySection() {
               />
               <div aria-hidden="true" style={{
                 position: "absolute", inset: 0,
-                background: "linear-gradient(to bottom, transparent 65%, rgba(242,237,227,0.2) 100%)",
+                background: "linear-gradient(to bottom, transparent 65%, rgba(26,23,18,0.2) 100%)",
               }} />
             </div>
 
@@ -320,8 +320,8 @@ export default function HeroAuthoritySection() {
                   {/* Pulse dot */}
                   <span style={{
                     width: "8px", height: "8px", borderRadius: "50%", flexShrink: 0,
-                    backgroundColor: isActive ? "#08080A" : "var(--gold)",
-                    boxShadow: isActive ? "0 0 0 3px rgba(8,8,10,0.35)" : "0 0 0 3px rgba(201,169,97,0.15)",
+                    backgroundColor: isActive ? "var(--gold)" : "var(--gold)",
+                    boxShadow: isActive ? "0 0 0 3px rgba(154,123,52,0.35)" : "0 0 0 3px rgba(201,169,97,0.15)",
                     animation: isActive ? "pilsPulse 1s ease-in-out infinite" : "none",
                   }} />
                   <span style={{
@@ -329,7 +329,7 @@ export default function HeroAuthoritySection() {
                     fontSize: "0.72rem",
                     fontWeight: 700,
                     letterSpacing: "0.06em",
-                    color: isActive ? "#08080A" : "var(--ink)",
+                    color: isActive ? "var(--warm-ivory)" : "var(--ink)",
                     textTransform: "uppercase",
                   }}>{fl.text}</span>
                 </div>
@@ -341,8 +341,8 @@ export default function HeroAuthoritySection() {
 
       <style>{`
         @keyframes pilsPulse {
-          0%, 100% { box-shadow: 0 0 0 3px rgba(8,8,10,0.35); transform: scale(1); }
-          50% { box-shadow: 0 0 0 6px rgba(8,8,10,0.15); transform: scale(1.15); }
+          0%, 100% { box-shadow: 0 0 0 3px rgba(154,123,52,0.35); transform: scale(1); }
+          50% { box-shadow: 0 0 0 6px rgba(154,123,52,0.15); transform: scale(1.15); }
         }
         @media (min-width: 1101px) {
           .hero-portrait-col { padding-right: 160px; }

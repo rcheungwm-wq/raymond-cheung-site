@@ -25,7 +25,7 @@ const statusLabel: Record<string, string> = {
 const statusColor: Record<string, string> = {
   upcoming: "var(--strategic-teal)",
   ongoing: "var(--gold)",
-  past: "rgba(242,237,227,0.5)",
+  past: "rgba(26,23,18,0.5)",
   enquire: "var(--strategic-teal)",
 };
 
@@ -71,7 +71,7 @@ export default function FeaturedProgrammes() {
           </span>
           <div
             aria-hidden="true"
-            style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.08)" }}
+            style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.08)" }}
           />
         </div>
 
@@ -128,7 +128,7 @@ export default function FeaturedProgrammes() {
                   borderColor:
                     activeFilter === f.value
                       ? "var(--strategic-teal)"
-                      : "rgba(242,237,227,0.15)",
+                      : "rgba(26,23,18,0.15)",
                   borderRadius: "1px",
                   backgroundColor:
                     activeFilter === f.value
@@ -251,7 +251,7 @@ export default function FeaturedProgrammes() {
                   gap: "0.4rem",
                   marginBottom: "1.5rem",
                   paddingTop: "1rem",
-                  borderTop: "1px solid rgba(242,237,227,0.06)",
+                  borderTop: "1px solid rgba(26,23,18,0.06)",
                 }}
               >
                 <div
@@ -260,7 +260,7 @@ export default function FeaturedProgrammes() {
                     alignItems: "center",
                     gap: "0.5rem",
                     fontSize: "0.75rem",
-                    color: "rgba(242,237,227,0.6)",
+                    color: "rgba(26,23,18,0.6)",
                   }}
                 >
                   <MapPin size={11} />
@@ -273,7 +273,7 @@ export default function FeaturedProgrammes() {
                       alignItems: "center",
                       gap: "0.5rem",
                       fontSize: "0.75rem",
-                      color: "rgba(242,237,227,0.6)",
+                      color: "rgba(26,23,18,0.6)",
                     }}
                   >
                     <Clock size={11} />
@@ -287,7 +287,7 @@ export default function FeaturedProgrammes() {
                       alignItems: "center",
                       gap: "0.5rem",
                       fontSize: "0.75rem",
-                      color: "rgba(242,237,227,0.6)",
+                      color: "rgba(26,23,18,0.6)",
                     }}
                   >
                     <Calendar size={11} />
@@ -321,10 +321,10 @@ export default function FeaturedProgrammes() {
                     gap: "0.35rem",
                     fontSize: "0.75rem",
                     fontWeight: 500,
-                    color: "rgba(242,237,227,0.55)",
+                    color: "rgba(26,23,18,0.55)",
                     textDecoration: "none",
                     fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                    borderLeft: "1px solid rgba(242,237,227,0.12)",
+                    borderLeft: "1px solid rgba(26,23,18,0.12)",
                     paddingLeft: "0.75rem",
                   }}
                 >
@@ -339,7 +339,7 @@ export default function FeaturedProgrammes() {
           <p
             style={{
               textAlign: "center",
-              color: "rgba(242,237,227,0.45)",
+              color: "rgba(26,23,18,0.45)",
               padding: "3rem",
               fontFamily: "var(--font-ibm-mono), monospace",
               fontSize: "0.75rem",

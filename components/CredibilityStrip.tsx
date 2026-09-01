@@ -19,7 +19,7 @@ export default function CredibilityStrip() {
       <div style={{ maxWidth: "1280px", margin: "0 auto", position: "relative" }}>
         <h2 id="credibility-heading" style={{
           fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-          letterSpacing: "0.2em", color: "rgba(242,237,227,0.45)", textTransform: "uppercase",
+          letterSpacing: "0.2em", color: "rgba(26,23,18,0.45)", textTransform: "uppercase",
           textAlign: "center", marginBottom: "2.5rem", fontWeight: 400,
         }}>
           Twenty-four years across Asia&rsquo;s boardrooms, insurers and institutions
@@ -45,7 +45,7 @@ export default function CredibilityStrip() {
               </div>
 
               <p style={{
-                fontSize: "0.68rem", color: "rgba(242,237,227,0.4)",
+                fontSize: "0.68rem", color: "rgba(26,23,18,0.4)",
                 lineHeight: 1.5, marginBottom: "1rem", paddingLeft: "1.6rem",
               }}>{group.note}</p>
 
@@ -54,7 +54,7 @@ export default function CredibilityStrip() {
                   <li key={org} style={{
                     fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                     fontWeight: 600, fontSize: "0.83rem", letterSpacing: "0.01em",
-                    color: "rgba(242,237,227,0.92)", lineHeight: 1.5,
+                    color: "rgba(26,23,18,0.92)", lineHeight: 1.5,
                     paddingBottom: "0.45rem",
                   }}>{org}</li>
                 ))}

@@ -27,7 +27,7 @@ export default function InsightCards() {
           <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase" }}>
             09 / Insights
           </span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.08)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.08)" }} />
         </div>
 
         <h2 id="insights-heading" style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(1.5rem, 2.8vw, 2.2rem)", fontWeight: 700, letterSpacing: "-0.025em", color: "var(--ink)", maxWidth: "520px", marginBottom: "3.5rem", lineHeight: 1.2 }}>
@@ -49,7 +49,7 @@ export default function InsightCards() {
                 <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.12em", color: "var(--ink)", backgroundColor: categoryColors[insight.category] || "var(--graphite)", padding: "0.25rem 0.6rem", textTransform: "uppercase" }}>
                   {insight.category}
                 </span>
-                <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.55rem", letterSpacing: "0.08em", color: "rgba(242,237,227,0.35)", textTransform: "uppercase" }}>
+                <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.55rem", letterSpacing: "0.08em", color: "rgba(26,23,18,0.35)", textTransform: "uppercase" }}>
                   {insight.date}
                 </span>
               </div>
@@ -59,8 +59,8 @@ export default function InsightCards() {
               <p style={{ fontSize: "0.85rem", color: "var(--graphite)", lineHeight: 1.7, marginBottom: "1.5rem", opacity: 0.75 }}>
                 {insight.summary}
               </p>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingTop: "1rem", borderTop: "1px solid rgba(242,237,227,0.06)" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.72rem", color: "rgba(242,237,227,0.45)", fontFamily: "var(--font-ibm-mono), monospace", letterSpacing: "0.05em" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingTop: "1rem", borderTop: "1px solid rgba(26,23,18,0.06)" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", fontSize: "0.72rem", color: "rgba(26,23,18,0.45)", fontFamily: "var(--font-ibm-mono), monospace", letterSpacing: "0.05em" }}>
                   <Clock size={10} />{insight.readingTime}
                 </div>
                 <Link href={`/insights/${insight.slug}`} className="link-teal" aria-label={`Read article: ${insight.title}`}>

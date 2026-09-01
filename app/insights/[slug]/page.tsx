@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
 import { insights } from "@/data/insights";
@@ -110,7 +110,7 @@ export default async function InsightArticlePage({ params }: Props) {
           <Link href="/insights" style={{
             display: "inline-flex", alignItems: "center", gap: "0.5rem",
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-            letterSpacing: "0.12em", color: "rgba(242,237,227,0.45)",
+            letterSpacing: "0.12em", color: "rgba(26,23,18,0.45)",
             textDecoration: "none", marginBottom: "2rem", textTransform: "uppercase",
           }}>
             <ArrowLeft size={12} /> Back to Insights
@@ -125,13 +125,13 @@ export default async function InsightArticlePage({ params }: Props) {
             <span style={{
               display: "flex", alignItems: "center", gap: "0.35rem",
               fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-              letterSpacing: "0.08em", color: "rgba(242,237,227,0.4)",
+              letterSpacing: "0.08em", color: "rgba(26,23,18,0.4)",
             }}>
               <Clock size={11} />{insight.readingTime}
             </span>
             <span style={{
               fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-              letterSpacing: "0.06em", color: "rgba(242,237,227,0.3)",
+              letterSpacing: "0.06em", color: "rgba(26,23,18,0.3)",
             }}>{insight.date}</span>
           </div>
           <h1 style={{
@@ -151,7 +151,7 @@ export default async function InsightArticlePage({ params }: Props) {
           <div style={{
             display: "flex", alignItems: "center", gap: "1rem",
             paddingBottom: "2.5rem", marginBottom: "2.5rem",
-            borderBottom: "1px solid rgba(242,237,227,0.1)",
+            borderBottom: "1px solid rgba(26,23,18,0.1)",
           }}>
             <div style={{
               width: "44px", height: "44px", borderRadius: "50%",
@@ -190,7 +190,7 @@ export default async function InsightArticlePage({ params }: Props) {
                     fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                     fontSize: "1.25rem", fontWeight: 700, letterSpacing: "-0.02em",
                     color: "var(--ink)", marginTop: "1rem",
-                    paddingTop: "1rem", borderTop: "1px solid rgba(242,237,227,0.06)",
+                    paddingTop: "1rem", borderTop: "1px solid rgba(26,23,18,0.06)",
                   }}>{section.text}</h2>
                 );
               }
@@ -242,7 +242,7 @@ export default async function InsightArticlePage({ params }: Props) {
               letterSpacing: "0.14em", color: "var(--gold)", textTransform: "uppercase",
               marginBottom: "1rem",
             }}>About the author</p>
-            <p style={{ fontSize: "0.88rem", color: "rgba(242,237,227,0.8)", lineHeight: 1.75, marginBottom: "1.25rem" }}>
+            <p style={{ fontSize: "0.88rem", color: "rgba(26,23,18,0.8)", lineHeight: 1.75, marginBottom: "1.25rem" }}>
               Raymond Cheung is a Chartered Actuary, C-suite executive and board adviser with more than 20 years of experience across Asia in risk management, insurance, ESG and corporate governance. He is the CEO of CER Consultancy and an accredited trainer at SMU Academy and the Singapore College of Insurance.
             </p>
             <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
@@ -258,7 +258,7 @@ export default async function InsightArticlePage({ params }: Props) {
               <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer" style={{
                 display: "inline-flex", alignItems: "center", gap: "0.4rem",
                 padding: "0.6rem 1.25rem", borderRadius: "999px",
-                border: "1px solid rgba(242,237,227,0.2)", color: "rgba(242,237,227,0.7)",
+                border: "1px solid rgba(26,23,18,0.2)", color: "rgba(26,23,18,0.7)",
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontSize: "0.78rem", textDecoration: "none",
               }}>
@@ -270,13 +270,13 @@ export default async function InsightArticlePage({ params }: Props) {
           {/* Prev / Next navigation */}
           <nav aria-label="Article navigation" style={{
             marginTop: "3rem", paddingTop: "2rem",
-            borderTop: "1px solid rgba(242,237,227,0.08)",
+            borderTop: "1px solid rgba(26,23,18,0.08)",
             display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem",
           }}>
             {prev ? (
               <Link href={`/insights/${prev.slug}`} style={{
                 textDecoration: "none", padding: "1.25rem",
-                border: "1px solid rgba(242,237,227,0.1)", borderRadius: "2px",
+                border: "1px solid rgba(26,23,18,0.1)", borderRadius: "2px",
                 display: "block", transition: "border-color 0.2s",
               }}>
                 <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.1em", color: "var(--graphite)", opacity: 0.5, marginBottom: "0.4rem" }}>← Previous</p>
@@ -286,7 +286,7 @@ export default async function InsightArticlePage({ params }: Props) {
             {next ? (
               <Link href={`/insights/${next.slug}`} style={{
                 textDecoration: "none", padding: "1.25rem",
-                border: "1px solid rgba(242,237,227,0.1)", borderRadius: "2px",
+                border: "1px solid rgba(26,23,18,0.1)", borderRadius: "2px",
                 display: "block", textAlign: "right", transition: "border-color 0.2s",
               }}>
                 <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.1em", color: "var(--graphite)", opacity: 0.5, marginBottom: "0.4rem" }}>Next →</p>

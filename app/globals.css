@@ -2,40 +2,40 @@
 
 @layer base {
   :root {
-    /* ══ EDITORIAL AUTHORITY PALETTE ══
-       Near-black canvas, ivory ink, single gold accent.
-       Legacy token names retained so existing components inherit the new
-       system without rewrites — their *values* are now dark-canvas. */
+    /* ══ CHAMPAGNE & GOLD — EDITORIAL AUTHORITY ══
+       Warm champagne ground, near-black serif ink, antique-gold ornament.
+       Private-bank / heritage-institution register.
+       Legacy token names retained so components inherit without rewrites. */
 
-    /* Surfaces (were light; now the dark canvas ladder) */
-    --warm-ivory: #0A0A0C;          /* page canvas — deepest */
-    --soft-mist: #101014;           /* alternating band */
-    --midnight-navy: #08080A;       /* feature/hero band — darker than canvas */
-    --executive-navy: #101016;      /* gradient partner */
-    --panel: #131318;               /* raised card */
-    --panel-hi: #1A1A21;            /* hover / active card */
+    /* Surfaces — champagne ladder, light → deep */
+    --warm-ivory: #E8DCC0;          /* page canvas — champagne */
+    --soft-mist: #F0E7D2;           /* alternating band — lighter */
+    --midnight-navy: #DACBA4;       /* feature band — deeper champagne */
+    --executive-navy: #E3D5B4;      /* gradient partner */
+    --panel: #F4EDDC;               /* raised card — parchment */
+    --panel-hi: #FBF6EA;            /* hover / active card */
 
-    /* Ink */
-    --ink: #F2EDE3;                 /* primary text on canvas */
-    --ink-soft: #CFC8BC;            /* secondary */
-    --graphite: #98918A;            /* body / muted (text-only token) */
-    --ink-faint: #6B655E;           /* labels, meta */
+    /* Ink — near-black warm */
+    --ink: #1A1712;                 /* primary text */
+    --ink-soft: #3E362A;            /* secondary */
+    --graphite: #5A5044;            /* body / muted (text-only token) */
+    --ink-faint: #857A66;           /* labels, meta */
 
-    /* Accent — gold only. Coral retired. */
-    --gold: #C9A961;
-    --gold-dim: #8C7538;
-    --gold-bright: #E0C179;
-    --strategic-teal: #C9A961;      /* legacy alias → gold */
-    --deep-teal: #A8873F;           /* legacy alias → gold hover */
+    /* Accent — antique gold. Deeper than button gold so it reads on champagne. */
+    --gold: #9A7B34;
+    --gold-dim: #7A6028;
+    --gold-bright: #B8933F;
+    --strategic-teal: #9A7B34;      /* legacy alias → gold */
+    --deep-teal: #7A6028;           /* legacy alias → gold hover */
 
     --white: #ffffff;
 
     /* Hairlines & surfaces */
-    --rule: rgba(201, 169, 97, 0.18);
-    --rule-soft: rgba(242, 237, 227, 0.09);
-    --glass: #131318;               /* flat now — no blur */
-    --glass-strong: #16161C;
-    --glass-border: rgba(201, 169, 97, 0.16);
+    --rule: rgba(154, 123, 52, 0.38);
+    --rule-soft: rgba(26, 23, 18, 0.13);
+    --glass: #F4EDDC;               /* flat now — no blur */
+    --glass-strong: #FBF6EA;
+    --glass-border: rgba(154, 123, 52, 0.28);
 
     /* Editorial = flat. Shadows near-eliminated. */
     --sh-glass: none;
@@ -229,7 +229,7 @@
 /* ══ Scrollbar ══ */
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track { background: var(--warm-ivory); }
-::-webkit-scrollbar-thumb { background: #24242B; border-radius: 0; }
+::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 0; }
 ::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }
 
 /* ══ Layout guards ══ */

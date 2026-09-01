@@ -86,9 +86,9 @@ export default function PrivacyPage() {
 
           <p style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-            letterSpacing: "0.06em", color: "rgba(242,237,227,0.35)",
+            letterSpacing: "0.06em", color: "rgba(26,23,18,0.35)",
             marginTop: "3rem", paddingTop: "2rem",
-            borderTop: "1px solid rgba(242,237,227,0.08)", lineHeight: 1.6,
+            borderTop: "1px solid rgba(26,23,18,0.08)", lineHeight: 1.6,
           }}>
             Last updated: 2025 · Raymond Cheung · Singapore
           </p>

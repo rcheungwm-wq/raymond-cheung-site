@@ -58,7 +58,7 @@ export default function AdvisoryPage() {
           <h1 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800, letterSpacing: "-0.03em", color: "var(--ink)", lineHeight: 1.12, maxWidth: "600px", marginBottom: "1.5rem" }}>
             Independent thinking for consequential decisions.
           </h1>
-          <p style={{ fontSize: "1.05rem", color: "rgba(242,237,227,0.65)", lineHeight: 1.75, maxWidth: "580px" }}>
+          <p style={{ fontSize: "1.05rem", color: "rgba(26,23,18,0.65)", lineHeight: 1.75, maxWidth: "580px" }}>
             Raymond&rsquo;s advisory work is intended for organisations facing decisions that require technical understanding, executive judgement and a clear view of the wider system.
           </p>
         </div>
@@ -68,14 +68,14 @@ export default function AdvisoryPage() {
         <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.5px" }}>
             {advisoryFormats.map((fmt, i) => (
-              <div key={fmt.id} style={{ backgroundColor: i === 0 ? "var(--midnight-navy)" : "var(--white)", border: "1px solid", borderColor: i === 0 ? "rgba(201,169,97,0.2)" : "rgba(242,237,227,0.08)", padding: "2.5rem" }}>
+              <div key={fmt.id} style={{ backgroundColor: i === 0 ? "var(--midnight-navy)" : "var(--white)", border: "1px solid", borderColor: i === 0 ? "rgba(201,169,97,0.2)" : "rgba(26,23,18,0.08)", padding: "2.5rem" }}>
                 <h2 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "1.05rem", fontWeight: 700, letterSpacing: "-0.01em", color: i === 0 ? "var(--ink)" : "var(--ink)", marginBottom: "0.6rem", lineHeight: 1.3 }}>
                   {fmt.title}
                 </h2>
                 <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem", letterSpacing: "0.08em", color: "var(--strategic-teal)", marginBottom: "1.25rem", lineHeight: 1.5 }}>
                   For: {fmt.for}
                 </p>
-                <p style={{ fontSize: "0.875rem", color: i === 0 ? "rgba(242,237,227,0.65)" : "var(--graphite)", lineHeight: 1.75, marginBottom: "1.5rem", opacity: i === 0 ? 1 : 0.8 }}>
+                <p style={{ fontSize: "0.875rem", color: i === 0 ? "rgba(26,23,18,0.65)" : "var(--graphite)", lineHeight: 1.75, marginBottom: "1.5rem", opacity: i === 0 ? 1 : 0.8 }}>
                   {fmt.description}
                 </p>
                 <div>
@@ -84,7 +84,7 @@ export default function AdvisoryPage() {
                   </p>
                   <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                     {fmt.subjects.map((subj) => (
-                      <li key={subj} style={{ fontSize: "0.82rem", color: i === 0 ? "rgba(242,237,227,0.55)" : "rgba(242,237,227,0.65)", padding: "0.3rem 0", display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                      <li key={subj} style={{ fontSize: "0.82rem", color: i === 0 ? "rgba(26,23,18,0.55)" : "rgba(26,23,18,0.65)", padding: "0.3rem 0", display: "flex", alignItems: "center", gap: "0.5rem" }}>
                         <span aria-hidden="true" style={{ color: "var(--strategic-teal)", fontSize: "0.5rem", flexShrink: 0 }}>◆</span>
                         {subj}
                       </li>
@@ -95,7 +95,7 @@ export default function AdvisoryPage() {
             ))}
           </div>
 
-          <div style={{ textAlign: "center", marginTop: "4rem", padding: "4rem 2rem", backgroundColor: "var(--soft-mist)", border: "1px solid rgba(242,237,227,0.06)" }}>
+          <div style={{ textAlign: "center", marginTop: "4rem", padding: "4rem 2rem", backgroundColor: "var(--soft-mist)", border: "1px solid rgba(26,23,18,0.06)" }}>
             <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem", letterSpacing: "0.18em", color: "var(--strategic-teal)", textTransform: "uppercase", marginBottom: "1.25rem" }}>
               Begin the conversation
             </p>

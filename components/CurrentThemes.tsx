@@ -23,7 +23,7 @@ export default function CurrentThemes() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>05 / Current Themes</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.1)" }} />
         </div>
 
         <h2 id="themes-heading" style={{
@@ -51,7 +51,7 @@ export default function CurrentThemes() {
                     style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
                   <div aria-hidden="true" style={{
                     position: "absolute", inset: 0,
-                    background: "linear-gradient(to bottom, transparent, rgba(242,237,227,0.6))",
+                    background: "linear-gradient(to bottom, transparent, rgba(26,23,18,0.6))",
                   }} />
                   <div style={{
                     position: "absolute", bottom: "0.85rem", left: "1rem",

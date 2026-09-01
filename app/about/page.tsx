@@ -252,7 +252,7 @@ export default function AboutPage() {
                 const isOpen = openRole === i;
                 return (
                   <div key={`${role.title}-${role.org}`} style={{
-                    borderBottom: i < roles.length - 1 ? "1px solid rgba(242,237,227,0.07)" : "none",
+                    borderBottom: i < roles.length - 1 ? "1px solid rgba(26,23,18,0.07)" : "none",
                     backgroundColor: isOpen ? "var(--panel-hi)" : "var(--panel)",
                     transition: "background-color 0.3s ease",
                   }}>
@@ -284,14 +284,14 @@ export default function AboutPage() {
                           }}>{role.title}</p>
                           <p style={{
                             fontSize: "0.8rem",
-                            color: isOpen ? "rgba(242,237,227,0.6)" : "rgba(242,237,227,0.5)",
+                            color: isOpen ? "rgba(26,23,18,0.6)" : "rgba(26,23,18,0.5)",
                           }}>{role.org}</p>
                         </div>
                       </div>
                       <ChevronDown
                         size={16}
                         style={{
-                          color: isOpen ? "var(--strategic-teal)" : "rgba(242,237,227,0.3)",
+                          color: isOpen ? "var(--strategic-teal)" : "rgba(26,23,18,0.3)",
                           transform: isOpen ? "rotate(180deg)" : "none",
                           transition: "transform 0.3s ease",
                           flexShrink: 0,
@@ -302,7 +302,7 @@ export default function AboutPage() {
                     {isOpen && (
                       <div style={{ padding: "0 1.75rem 2rem" }}>
                         <p style={{
-                          fontSize: "0.9rem", color: "rgba(242,237,227,0.82)",
+                          fontSize: "0.9rem", color: "rgba(26,23,18,0.82)",
                           lineHeight: 1.78, marginBottom: "1.5rem",
                         }}>
                           {role.what}
@@ -315,7 +315,7 @@ export default function AboutPage() {
                                 marginTop: "0.3rem", flexShrink: 0,
                               }}>◆</span>
                               <span style={{
-                                fontSize: "0.84rem", color: "rgba(242,237,227,0.7)", lineHeight: 1.65,
+                                fontSize: "0.84rem", color: "rgba(26,23,18,0.7)", lineHeight: 1.65,
                               }}>{item}</span>
                             </li>
                           ))}
@@ -384,7 +384,7 @@ export default function AboutPage() {
                   {profile.credentials.map((cred) => (
                     <li key={cred} style={{
                       fontSize: "0.85rem", color: "var(--ink)", fontWeight: 500,
-                      padding: "0.5rem 0", borderBottom: "1px solid rgba(242,237,227,0.07)",
+                      padding: "0.5rem 0", borderBottom: "1px solid rgba(26,23,18,0.07)",
                       display: "flex", alignItems: "center", gap: "0.5rem",
                     }}>
                       <span aria-hidden="true" style={{ color: "var(--strategic-teal)", fontSize: "0.6rem" }}>◆</span>

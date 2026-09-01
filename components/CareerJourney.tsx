@@ -13,7 +13,7 @@ export default function CareerJourney() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>03 / Career Journey</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.1)" }} />
         </div>
 
         <h2 id="journey-heading" style={{
@@ -37,7 +37,7 @@ export default function CareerJourney() {
                   position: "absolute", left: "-2.5rem", top: "4px",
                   width: "24px", height: "24px", borderRadius: "50%",
                   backgroundColor: i === 0 ? "var(--strategic-teal)" : "var(--warm-ivory)",
-                  border: `2px solid ${i === 0 ? "var(--strategic-teal)" : "rgba(242,237,227,0.2)"}`,
+                  border: `2px solid ${i === 0 ? "var(--strategic-teal)" : "rgba(26,23,18,0.2)"}`,
                   boxShadow: i === 0 ? "0 0 0 4px rgba(201,169,97,0.12)" : "none",
                 }} />
 
@@ -63,7 +63,7 @@ export default function CareerJourney() {
                     </div>
                     <span style={{
                       fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem",
-                      letterSpacing: "0.1em", color: "rgba(242,237,227,0.45)", textTransform: "uppercase",
+                      letterSpacing: "0.1em", color: "rgba(26,23,18,0.45)", textTransform: "uppercase",
                       whiteSpace: "nowrap",
                     }}>{m.thread}</span>
                   </div>

@@ -63,7 +63,7 @@ export default function ExpertiseGrid() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>02 / Expertise</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.1)" }} />
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: "3rem", flexWrap: "wrap", gap: "1rem" }}>
           <h2 id="expertise-heading" style={{
@@ -73,7 +73,7 @@ export default function ExpertiseGrid() {
           }}>Six domains of deep expertise</h2>
           <span style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
-            letterSpacing: "0.12em", color: "rgba(242,237,227,0.38)", textTransform: "uppercase",
+            letterSpacing: "0.12em", color: "rgba(26,23,18,0.38)", textTransform: "uppercase",
           }}>Across Asia · 20+ years</span>
         </div>
 
@@ -99,7 +99,7 @@ export default function ExpertiseGrid() {
                     transform: hovered === i ? "scale(1.04)" : "scale(1)", transition: "transform 0.4s ease" }} />
                 <div aria-hidden="true" style={{
                   position: "absolute", inset: 0,
-                  background: "linear-gradient(to bottom, rgba(242,237,227,0.08) 0%, rgba(242,237,227,0.5) 100%)",
+                  background: "linear-gradient(to bottom, rgba(26,23,18,0.08) 0%, rgba(26,23,18,0.5) 100%)",
                 }} />
                 <div style={{
                   position: "absolute", bottom: "1rem", left: "1rem",
@@ -131,7 +131,7 @@ export default function ExpertiseGrid() {
                     <span key={cap} style={{
                       fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
                       letterSpacing: "0.1em", color: "var(--ink)",
-                      backgroundColor: "rgba(242,237,227,0.06)", borderRadius: "999px",
+                      backgroundColor: "rgba(26,23,18,0.06)", borderRadius: "999px",
                       padding: "0.3rem 0.75rem", textTransform: "uppercase",
                     }}>{cap}</span>
                   ))}

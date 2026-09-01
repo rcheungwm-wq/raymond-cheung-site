@@ -34,7 +34,7 @@ export default function ExecutiveNavbar() {
         style={{
           position: "fixed", top: 0, left: 0, right: 0, zIndex: 50,
           transition: "background-color 0.3s ease, border-color 0.3s ease, backdrop-filter 0.3s ease",
-          backgroundColor: scrolled ? "rgba(253,244,232,0.92)" : "rgba(242,237,227,0.55)",
+          backgroundColor: scrolled ? "rgba(248,240,225,0.96)" : "rgba(232,220,192,0.72)",
           borderBottom: scrolled ? "1px solid var(--rule-soft)" : "1px solid var(--rule-soft)",
           backdropFilter: "none",
           WebkitBackdropFilter: "none",
@@ -68,7 +68,7 @@ export default function ExecutiveNavbar() {
                 fontWeight: 500, fontSize: "0.85rem", letterSpacing: "0.01em",
                 color: "var(--graphite)", textDecoration: "none", transition: "color 0.2s ease",
               }}
-              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "var(--midnight-navy)")}
+              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = "var(--gold)")}
               onMouseLeave={(e) => ((e.target as HTMLElement).style.color = "var(--graphite)")}
               >{link.label}</Link>
             ))}
@@ -76,23 +76,23 @@ export default function ExecutiveNavbar() {
             <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer"
               style={{
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                fontWeight: 400, fontSize: "0.8rem", color: "rgba(242,237,227,0.5)",
+                fontWeight: 400, fontSize: "0.8rem", color: "rgba(26,23,18,0.5)",
                 textDecoration: "none", display: "flex", alignItems: "center", gap: "0.25rem", transition: "color 0.2s ease",
               }}
               onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--graphite)")}
-              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(242,237,227,0.5)")}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "rgba(26,23,18,0.5)")}
             >LinkedIn <ExternalLink size={11} /></a>
 
             <Link href="/contact" style={{
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
               fontWeight: 600, fontSize: "0.82rem", letterSpacing: "0.02em",
-              color: "var(--ink)", backgroundColor: "var(--midnight-navy)",
-              padding: "0.55rem 1.25rem", borderRadius: "999px",
-              textDecoration: "none", transition: "background-color 0.2s ease, transform 0.2s ease",
-              whiteSpace: "nowrap",
+              color: "var(--warm-ivory)", backgroundColor: "var(--gold)",
+              padding: "0.55rem 1.25rem", borderRadius: "2px",
+              textDecoration: "none", transition: "background-color 0.2s ease",
+              whiteSpace: "nowrap", letterSpacing: "0.05em", textTransform: "uppercase", fontSize: "0.75rem",
             }}
-            onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = "var(--deep-teal)"; (e.currentTarget as HTMLElement).style.transform = "translateY(-1px)"; }}
-            onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = "var(--midnight-navy)"; (e.currentTarget as HTMLElement).style.transform = "none"; }}
+            onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = "var(--gold-dim)"; }}
+            onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = "var(--gold)"; }}
             >Discuss an Engagement</Link>
           </div>
 
@@ -121,7 +121,7 @@ export default function ExecutiveNavbar() {
                 fontWeight: 600, fontSize: "1.4rem", letterSpacing: "-0.01em",
                 color: "var(--ink)", textDecoration: "none",
                 paddingTop: "1.25rem", paddingBottom: "1.25rem",
-                borderBottom: "1px solid rgba(242,237,227,0.1)", animationDelay: `${i * 60}ms`,
+                borderBottom: "1px solid rgba(26,23,18,0.1)", animationDelay: `${i * 60}ms`,
               }}>{link.label}</Link>
             ))}
           </nav>
@@ -135,7 +135,7 @@ export default function ExecutiveNavbar() {
             <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer" style={{
               display: "block", textAlign: "center",
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-              fontWeight: 400, fontSize: "0.85rem", color: "rgba(242,237,227,0.55)", textDecoration: "none",
+              fontWeight: 400, fontSize: "0.85rem", color: "rgba(26,23,18,0.55)", textDecoration: "none",
             }}>LinkedIn ↗</a>
           </div>
         </div>

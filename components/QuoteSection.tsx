@@ -7,7 +7,7 @@ export default function QuoteSection() {
     <section
       aria-label="Personal philosophy"
       style={{
-        background: "linear-gradient(160deg, var(--midnight-navy) 0%, #0a1929 100%)",
+        background: "linear-gradient(160deg, var(--midnight-navy) 0%, var(--executive-navy) 100%)",
         padding: "6rem 2rem",
         position: "relative",
         overflow: "hidden",
@@ -81,7 +81,7 @@ export default function QuoteSection() {
 
         <p style={{
           fontSize: "0.95rem",
-          color: "rgba(242,237,227,0.55)",
+          color: "rgba(26,23,18,0.55)",
           lineHeight: 1.85,
           maxWidth: "580px",
           margin: "0 auto",

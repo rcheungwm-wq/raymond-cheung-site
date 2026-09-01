@@ -21,7 +21,7 @@ export default function ExecutiveFooter() {
             <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem", letterSpacing: "0.1em", color: "var(--strategic-teal)", textTransform: "uppercase" }}>
               Risk · Insurance · Capital · ESG · Innovation
             </p>
-            <p style={{ marginTop: "1.25rem", fontSize: "0.82rem", color: "rgba(242,237,227,0.45)", lineHeight: 1.7, maxWidth: "260px" }}>
+            <p style={{ marginTop: "1.25rem", fontSize: "0.82rem", color: "rgba(26,23,18,0.45)", lineHeight: 1.7, maxWidth: "260px" }}>
               Chartered Actuary, C-suite executive and board adviser operating from Singapore.
             </p>
           </div>
@@ -80,10 +80,10 @@ export default function ExecutiveFooter() {
         {/* Bottom */}
         <div style={{ paddingTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.75rem" }}>
-            <p style={{ fontSize: "0.78rem", color: "rgba(242,237,227,0.35)" }}>
+            <p style={{ fontSize: "0.78rem", color: "rgba(26,23,18,0.35)" }}>
               &copy; {currentYear} Raymond Cheung. All rights reserved.
             </p>
-            <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem", letterSpacing: "0.08em", color: "rgba(242,237,227,0.2)" }}>
+            <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.62rem", letterSpacing: "0.08em", color: "rgba(26,23,18,0.2)" }}>
               Singapore
             </p>
           </div>

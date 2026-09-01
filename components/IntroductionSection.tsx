@@ -15,7 +15,7 @@ export default function IntroductionSection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>01 / Perspective</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.1)" }} />
         </div>
 
         {/* Two-column: text + Singapore image */}
@@ -41,7 +41,7 @@ export default function IntroductionSection() {
             />
             <div aria-hidden="true" style={{
               position: "absolute", inset: 0,
-              background: "linear-gradient(135deg, rgba(242,237,227,0.35) 0%, transparent 60%)",
+              background: "linear-gradient(135deg, rgba(26,23,18,0.35) 0%, transparent 60%)",
             }} />
             <div style={{
               position: "absolute", bottom: "1.5rem", left: "1.5rem",
@@ -81,7 +81,7 @@ export default function IntroductionSection() {
               }}>{p.title}</h3>
               <p style={{
                 fontSize: "0.9rem",
-                color: i === 1 ? "rgba(242,237,227,0.68)" : "var(--graphite)",
+                color: i === 1 ? "rgba(26,23,18,0.68)" : "var(--graphite)",
                 lineHeight: 1.75, opacity: i === 1 ? 1 : 0.85, margin: 0,
               }}>{p.body}</p>
             </div>

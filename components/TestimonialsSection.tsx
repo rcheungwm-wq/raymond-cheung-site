@@ -65,7 +65,7 @@ export default function TestimonialsSection() {
               <div style={{
                 fontFamily: "var(--font-ibm-mono), monospace",
                 fontSize: "0.58rem", letterSpacing: "0.12em",
-                color: "rgba(242,237,227,0.45)", textTransform: "uppercase",
+                color: "rgba(26,23,18,0.45)", textTransform: "uppercase",
                 marginTop: "0.25rem",
               }}>LinkedIn followers</div>
             </div>
@@ -75,14 +75,14 @@ export default function TestimonialsSection() {
             }} />
             <div>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" stroke="rgba(242,237,227,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <rect x="2" y="9" width="4" height="12" stroke="rgba(242,237,227,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="4" cy="4" r="2" stroke="rgba(242,237,227,0.5)" strokeWidth="1.5"/>
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" stroke="rgba(26,23,18,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <rect x="2" y="9" width="4" height="12" stroke="rgba(26,23,18,0.5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="4" cy="4" r="2" stroke="rgba(26,23,18,0.5)" strokeWidth="1.5"/>
               </svg>
               <div style={{
                 fontFamily: "var(--font-ibm-mono), monospace",
                 fontSize: "0.56rem", letterSpacing: "0.1em",
-                color: "rgba(242,237,227,0.3)", textTransform: "uppercase",
+                color: "rgba(26,23,18,0.3)", textTransform: "uppercase",
                 marginTop: "0.2rem",
               }}>LinkedIn</div>
             </div>
@@ -131,7 +131,7 @@ export default function TestimonialsSection() {
                 <span style={{
                   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                   fontWeight: 700, fontSize: "0.88rem",
-                  color: "rgba(242,237,227,0.9)",
+                  color: "rgba(26,23,18,0.9)",
                 }}>{t.name}</span>
                 <span style={{
                   fontFamily: "var(--font-ibm-mono), monospace",
@@ -142,7 +142,7 @@ export default function TestimonialsSection() {
                 <span style={{
                   fontFamily: "var(--font-ibm-mono), monospace",
                   fontSize: "0.56rem", letterSpacing: "0.06em",
-                  color: "rgba(242,237,227,0.3)",
+                  color: "rgba(26,23,18,0.3)",
                   textTransform: "uppercase",
                 }}>{t.engagement}</span>
               </div>

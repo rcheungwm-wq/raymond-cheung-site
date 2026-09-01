@@ -44,7 +44,7 @@ export default function ImpactMetrics() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "rgba(201,169,97,0.6)", textTransform: "uppercase",
           }}>Where I&rsquo;ve worked · What I&rsquo;ve done</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.1)" }} />
         </div>
 
         <h2 id="metrics-heading" className="sr-only">Impact metrics</h2>
@@ -66,11 +66,11 @@ export default function ImpactMetrics() {
               <div style={{
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontSize: "0.82rem", fontWeight: 600,
-                color: "rgba(242,237,227,0.9)", marginBottom: "0.5rem",
+                color: "rgba(26,23,18,0.9)", marginBottom: "0.5rem",
               }}>{m.label}</div>
               <div style={{
                 fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
-                letterSpacing: "0.06em", color: m.highlight ? "rgba(242,237,227,0.55)" : "rgba(242,237,227,0.38)", lineHeight: 1.6,
+                letterSpacing: "0.06em", color: m.highlight ? "rgba(26,23,18,0.55)" : "rgba(26,23,18,0.38)", lineHeight: 1.6,
               }}>{m.context}</div>
             </div>
           ))}

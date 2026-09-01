@@ -56,7 +56,7 @@ export default function AudienceRouter() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>How I Work With Organisations</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.1)" }} />
         </div>
 
         <h2 id="audience-heading" style={{
@@ -113,7 +113,7 @@ export default function AudienceRouter() {
               <ul style={{
                 listStyle: "none", padding: 0, margin: "0 0 1.75rem",
                 display: "flex", flexDirection: "column", gap: "0.55rem",
-                borderTop: "1px solid rgba(242,237,227,0.08)", paddingTop: "1.25rem",
+                borderTop: "1px solid rgba(26,23,18,0.08)", paddingTop: "1.25rem",
               }}>
                 {a.points.map((pt) => (
                   <li key={pt} style={{ display: "flex", alignItems: "flex-start", gap: "0.7rem" }}>

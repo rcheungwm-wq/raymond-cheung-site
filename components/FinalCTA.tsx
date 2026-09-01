@@ -44,7 +44,7 @@ export default function FinalCTA() {
         <p
           style={{
             fontSize: "1rem",
-            color: "rgba(242,237,227,0.6)",
+            color: "rgba(26,23,18,0.6)",
             lineHeight: 1.8,
             marginBottom: "3rem",
             maxWidth: "560px",
@@ -83,7 +83,7 @@ export default function FinalCTA() {
             fontFamily: "var(--font-ibm-mono), monospace",
             fontSize: "0.62rem",
             letterSpacing: "0.08em",
-            color: "rgba(242,237,227,0.22)",
+            color: "rgba(26,23,18,0.22)",
             lineHeight: 1.6,
           }}
         >
@@ -113,16 +113,16 @@ export default function FinalCTA() {
           gap: 0.5rem;
           padding: 1rem 2rem;
           background-color: transparent;
-          color: rgba(242,237,227,0.75);
+          color: rgba(26,23,18,0.75);
           font-family: var(--font-plus-jakarta), system-ui, sans-serif;
           font-weight: 500;
           font-size: 0.9rem;
           border-radius: 999px;
-          border: 1.5px solid rgba(242,237,227,0.2);
+          border: 1.5px solid rgba(26,23,18,0.2);
           text-decoration: none;
           transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
         }
-        .cta-outline-btn:hover { border-color: rgba(242,237,227,0.5); color: rgba(242,237,227,1); transform: translateY(-2px); }
+        .cta-outline-btn:hover { border-color: rgba(26,23,18,0.5); color: rgba(26,23,18,1); transform: translateY(-2px); }
       `}</style>
     </section>
   );

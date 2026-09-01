@@ -109,7 +109,7 @@ export default function ContactPage() {
           <p
             style={{
               fontSize: "1.05rem",
-              color: "rgba(242,237,227,0.65)",
+              color: "rgba(26,23,18,0.65)",
               lineHeight: 1.75,
               maxWidth: "520px",
             }}
@@ -359,7 +359,7 @@ export default function ContactPage() {
                           borderColor:
                             formState.enquiryType === type
                               ? "var(--strategic-teal)"
-                              : "rgba(242,237,227,0.15)",
+                              : "rgba(26,23,18,0.15)",
                           backgroundColor:
                             formState.enquiryType === type
                               ? "var(--strategic-teal)"
@@ -534,7 +534,7 @@ export default function ContactPage() {
               <div
                 style={{
                   backgroundColor: "var(--panel)",
-                  border: "1px solid rgba(242,237,227,0.08)",
+                  border: "1px solid rgba(26,23,18,0.08)",
                   padding: "2rem",
                 }}
               >
@@ -563,7 +563,7 @@ export default function ContactPage() {
                       textDecoration: "none",
                       padding: "0.85rem",
                       backgroundColor: "var(--soft-mist)",
-                      border: "1px solid rgba(242,237,227,0.06)",
+                      border: "1px solid rgba(26,23,18,0.06)",
                       transition: "border-color 0.2s ease",
                     }}
                     onMouseEnter={(e) =>
@@ -572,7 +572,7 @@ export default function ContactPage() {
                     }
                     onMouseLeave={(e) =>
                       ((e.currentTarget as HTMLElement).style.borderColor =
-                        "rgba(242,237,227,0.06)")
+                        "rgba(26,23,18,0.06)")
                     }
                   >
                     <ExternalLink
@@ -594,7 +594,7 @@ export default function ContactPage() {
                         style={{
                           fontFamily: "var(--font-ibm-mono), monospace",
                           fontSize: "0.58rem",
-                          color: "rgba(242,237,227,0.5)",
+                          color: "rgba(26,23,18,0.5)",
                           letterSpacing: "0.05em",
                         }}
                       >
@@ -610,7 +610,7 @@ export default function ContactPage() {
                       gap: "0.75rem",
                       padding: "0.85rem",
                       backgroundColor: "var(--soft-mist)",
-                      border: "1px solid rgba(242,237,227,0.06)",
+                      border: "1px solid rgba(26,23,18,0.06)",
                     }}
                   >
                     <Mail
@@ -632,7 +632,7 @@ export default function ContactPage() {
                         style={{
                           fontFamily: "var(--font-ibm-mono), monospace",
                           fontSize: "0.58rem",
-                          color: "rgba(242,237,227,0.5)",
+                          color: "rgba(26,23,18,0.5)",
                           letterSpacing: "0.05em",
                         }}
                       >
@@ -648,7 +648,7 @@ export default function ContactPage() {
                       gap: "0.75rem",
                       padding: "0.85rem",
                       backgroundColor: "var(--soft-mist)",
-                      border: "1px solid rgba(242,237,227,0.06)",
+                      border: "1px solid rgba(26,23,18,0.06)",
                     }}
                   >
                     <MapPin
@@ -670,7 +670,7 @@ export default function ContactPage() {
                         style={{
                           fontFamily: "var(--font-ibm-mono), monospace",
                           fontSize: "0.58rem",
-                          color: "rgba(242,237,227,0.5)",
+                          color: "rgba(26,23,18,0.5)",
                           letterSpacing: "0.05em",
                         }}
                       >
@@ -693,7 +693,7 @@ export default function ContactPage() {
                     fontFamily: "var(--font-ibm-mono), monospace",
                     fontSize: "0.62rem",
                     letterSpacing: "0.1em",
-                    color: "rgba(242,237,227,0.4)",
+                    color: "rgba(26,23,18,0.4)",
                     lineHeight: 1.7,
                   }}
                 >
@@ -764,7 +764,7 @@ const inputStyle: React.CSSProperties = {
   width: "100%",
   padding: "0.75rem 1rem",
   backgroundColor: "var(--panel)",
-  border: "1px solid rgba(242,237,227,0.15)",
+  border: "1px solid rgba(26,23,18,0.15)",
   borderRadius: "1px",
   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
   fontSize: "0.875rem",

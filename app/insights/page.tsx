@@ -60,7 +60,7 @@ export default function InsightsPage() {
             Ideas for leaders navigating uncertainty.
           </h1>
           <p style={{
-            fontSize: "1.05rem", color: "rgba(242,237,227,0.65)",
+            fontSize: "1.05rem", color: "rgba(26,23,18,0.65)",
             lineHeight: 1.75, maxWidth: "520px",
           }}>
             Perspectives on risk, insurance, climate transition, governance, ESG and the forces shaping organisations across Asia. Written by Raymond Cheung from 20 years at the sharp end.
@@ -93,12 +93,12 @@ export default function InsightsPage() {
                   }}>{featured.category}</span>
                   <span style={{
                     fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
-                    letterSpacing: "0.06em", color: "rgba(242,237,227,0.4)",
+                    letterSpacing: "0.06em", color: "rgba(26,23,18,0.4)",
                     display: "flex", alignItems: "center", gap: "0.3rem",
                   }}><Clock size={10} />{featured.readingTime}</span>
                   <span style={{
                     fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
-                    letterSpacing: "0.06em", color: "rgba(242,237,227,0.35)",
+                    letterSpacing: "0.06em", color: "rgba(26,23,18,0.35)",
                   }}>{featured.date}</span>
                 </div>
                 <h2 style={{
@@ -108,7 +108,7 @@ export default function InsightsPage() {
                   marginBottom: "1rem",
                 }}>{featured.title}</h2>
                 <p style={{
-                  fontSize: "0.92rem", color: "rgba(242,237,227,0.65)",
+                  fontSize: "0.92rem", color: "rgba(26,23,18,0.65)",
                   lineHeight: 1.75, maxWidth: "560px",
                 }}>{featured.summary}</p>
                 <span style={{
@@ -137,7 +137,7 @@ export default function InsightsPage() {
             {rest.map((insight) => (
               <article key={insight.id} style={{
                 backgroundColor: "var(--panel)", borderRadius: "2px",
-                border: "1px solid rgba(242,237,227,0.08)",
+                border: "1px solid rgba(26,23,18,0.08)",
                 padding: "2rem", display: "flex", flexDirection: "column",
                 boxShadow: "none",
                 transition: "transform 0.25s ease, box-shadow 0.25s ease",
@@ -153,7 +153,7 @@ export default function InsightsPage() {
                   }}>{insight.category}</span>
                   <span style={{
                     fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
-                    letterSpacing: "0.06em", color: "rgba(242,237,227,0.35)",
+                    letterSpacing: "0.06em", color: "rgba(26,23,18,0.35)",
                   }}>{insight.date}</span>
                 </div>
                 <h2 style={{
@@ -168,11 +168,11 @@ export default function InsightsPage() {
                 }}>{insight.summary}</p>
                 <div style={{
                   display: "flex", justifyContent: "space-between", alignItems: "center",
-                  paddingTop: "1rem", borderTop: "1px solid rgba(242,237,227,0.06)",
+                  paddingTop: "1rem", borderTop: "1px solid rgba(26,23,18,0.06)",
                 }}>
                   <div style={{
                     display: "flex", alignItems: "center", gap: "0.4rem",
-                    fontSize: "0.72rem", color: "rgba(242,237,227,0.45)",
+                    fontSize: "0.72rem", color: "rgba(26,23,18,0.45)",
                     fontFamily: "var(--font-ibm-mono), monospace", letterSpacing: "0.05em",
                   }}>
                     <Clock size={10} />{insight.readingTime}

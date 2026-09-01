@@ -13,7 +13,7 @@ export default function PublicationsSection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>Research & Publications</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.1)" }} />
         </div>
 
         <h2 id="publications-heading" style={{
@@ -38,7 +38,7 @@ export default function PublicationsSection() {
               gap: "1rem",
               padding: "1.1rem 1.5rem",
               background: "var(--panel)",
-              border: "1px solid rgba(242,237,227,0.07)",
+              border: "1px solid rgba(26,23,18,0.07)",
               borderRadius: "2px",
             }}>
               <span style={{
@@ -80,7 +80,7 @@ export default function PublicationsSection() {
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem",
             letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase",
           }}>Proprietary Curricula</span>
-          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(242,237,227,0.1)" }} />
+          <div aria-hidden="true" style={{ flex: 1, height: "1px", backgroundColor: "rgba(26,23,18,0.1)" }} />
         </div>
 
         <h2 style={{
@@ -103,7 +103,7 @@ export default function PublicationsSection() {
               display: "flex", alignItems: "flex-start", gap: "0.75rem",
               padding: "1rem 1.25rem",
               background: "var(--panel)",
-              border: "1px solid rgba(242,237,227,0.07)",
+              border: "1px solid rgba(26,23,18,0.07)",
               borderRadius: "2px",
             }}>
               <span aria-hidden="true" style={{
