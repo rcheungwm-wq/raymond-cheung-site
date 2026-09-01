@@ -69,8 +69,8 @@ export default function HeroAuthoritySection() {
           </div>
 
           {/* Proof points — borderless, editorial */}
-          <div aria-label="Career credentials" style={{
-            display: "flex", flexWrap: "wrap", gap: "2.75rem",
+          <div aria-label="Career credentials" className="hero-stats" style={{
+            display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.25rem",
             paddingTop: "2rem", borderTop: "1px solid var(--rule-soft)",
           }}>
             {proofPoints.map((p) => (
@@ -106,7 +106,10 @@ export default function HeroAuthoritySection() {
               sizes="(max-width: 899px) 90vw, 480px"
               style={{
                 objectFit: "cover",
-                objectPosition: "center 18%",
+                /* Crop in on the subject to push the event backdrop's
+                   sponsor signage out of frame. */
+                objectPosition: "38% 18%",
+                transform: "scale(1.18)",
                 /* Warm monochrome — harmonises the event-photo backdrop
                    with the champagne palette and mutes its low resolution. */
                 filter: "grayscale(100%) sepia(30%) contrast(1.05) brightness(1.03)",
@@ -131,6 +134,9 @@ export default function HeroAuthoritySection() {
             padding: 4rem 2rem 3.5rem !important;
           }
           .hero-portrait-col { justify-content: center !important; }
+        }
+        @media (max-width: 560px) {
+          .hero-stats { grid-template-columns: repeat(2, 1fr) !important; gap: 1.75rem 1.25rem !important; }
         }
       `}</style>
     </section>
