@@ -97,14 +97,28 @@ export default function HeroAuthoritySection() {
             position: "relative", width: "min(480px, 100%)", aspectRatio: "4/5",
             borderRadius: "var(--r-card)", overflow: "hidden",
             boxShadow: "var(--sh-deep)",
+            backgroundColor: "var(--midnight-navy)",
           }}>
             <Image
               src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
               alt="Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
               fill priority
               sizes="(max-width: 899px) 90vw, 480px"
-              style={{ objectFit: "cover", objectPosition: "center 20%" }}
+              style={{
+                objectFit: "cover",
+                objectPosition: "center 18%",
+                /* Warm monochrome — harmonises the event-photo backdrop
+                   with the champagne palette and mutes its low resolution. */
+                filter: "grayscale(100%) sepia(30%) contrast(1.05) brightness(1.03)",
+              }}
             />
+            {/* Champagne tint to seat the portrait in the palette */}
+            <div aria-hidden="true" style={{
+              position: "absolute", inset: 0,
+              backgroundColor: "var(--gold)",
+              mixBlendMode: "soft-light",
+              opacity: 0.28,
+            }} />
           </div>
         </div>
       </div>
