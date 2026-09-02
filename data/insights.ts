@@ -1536,4 +1536,155 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "21",
+    title: "MAS Transition Planning Is Halfway to Live — What Singapore Boards Should Have Done by Now",
+    summary:
+      "MAS issued its transition planning guidelines in March 2026 with an 18-month runway to a September 2027 effective date. That puts us at the halfway mark this month — and in my experience of regulatory implementation inside insurers, the halfway mark is when boards find out whether they started early enough.",
+    category: "Regulation",
+    readingTime: "3 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "mas-transition-planning-halfway-2026",
+    keywords: ["MAS transition planning guidelines", "climate risk governance Singapore board"],
+    body: [
+      {
+        type: "paragraph",
+        text: "MAS issued its Guidelines on Environmental Risk Management – Transition Planning in March 2026, with an 18-month transition period before they take effect in September 2027. That puts us, this month, at roughly the halfway mark. In my experience of regulatory implementation inside insurers, the halfway mark is exactly when boards discover whether they started early enough.",
+      },
+      {
+        type: "heading",
+        text: "Why this is not a project you can run in the last two quarters",
+      },
+      {
+        type: "paragraph",
+        text: "Most regulatory changes an insurance board oversees are documentation exercises: rewrite a policy, update a committee charter, add a disclosure. Those genuinely can be done in a quarter. The transition planning guidelines are different, because they require capability that does not exist until you build it — climate-related risk data on your corporate underwriting book, scenario analysis that runs against both sides of the balance sheet, and a structured process for engaging customers whose exposure is rising. None of that is a drafting task. Each takes several cycles to reach a usable state.",
+      },
+      {
+        type: "pullquote",
+        text: "The firms that leave transition planning to 2027 will meet the letter of the guidelines and none of the intent.",
+      },
+      {
+        type: "paragraph",
+        text: "The part boards most often underestimate is the customer engagement expectation. MAS has been explicit that insurers should not indiscriminately withdraw cover from customers exposed to higher climate-related risk — they are expected to engage, gather data, and price proportionately. That is an operational muscle. If your underwriting teams have never had those conversations, the first year is spent learning how to have them, not documenting that you did.",
+      },
+      {
+        type: "heading",
+        text: "What a board should be able to see this month",
+      },
+      {
+        type: "paragraph",
+        text: "If I were sitting on an insurance board in Singapore right now, I would want three things on the agenda before year end: a candid assessment of where the firm's climate data actually is versus where it needs to be by September 2027; a walk-through of at least one scenario analysis that connects underwriting exposure to investment exposure; and a realistic project plan that treats the remaining time as twelve months of build, not eighteen months of buffer.",
+      },
+      {
+        type: "paragraph",
+        text: "The guidelines are principles-based, which some boards read as latitude. It is not. Principles-based supervision means MAS will judge you on whether the capability is real, not on whether the paperwork is filed. Halfway through the transition period is the right time to find out whether yours will be.",
+      },
+    ],
+    faqs: [
+      {
+        question: "When do MAS's transition planning guidelines take effect?",
+        answer: "MAS issued the Guidelines on Environmental Risk Management – Transition Planning in March 2026. They take effect in September 2027, following an 18-month transition period. The guidelines apply to banks, insurers and asset managers, and cover both transition and physical climate risk.",
+      },
+      {
+        question: "What should a Singapore insurance board do before the September 2027 deadline?",
+        answer: "Boards should treat the remaining period as build time, not buffer. Priorities are assessing the gap in climate-related risk data, reviewing at least one scenario analysis that links underwriting and investment exposure, and confirming a realistic implementation plan. The customer engagement expectation — not withdrawing cover indiscriminately from higher-risk customers — requires operational capability that takes multiple cycles to develop.",
+      },
+    ],
+  },
+  {
+    id: "22",
+    title: "Physical Climate Risk in Singapore Insurance: What Boards Need to Govern",
+    summary:
+      "MAS's transition planning guidelines require Singapore insurance boards to oversee physical climate risk, not just transition risk. Most boards only see physical risk through the annual reinsurance renewal. This is what a board actually needs to govern: accumulation, model basis risk, reinsurance dependency, and the correlation between the underwriting book and the investment portfolio.",
+    category: "Climate Risk",
+    readingTime: "8 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "climate-physical-risk-singapore-insurance",
+    keywords: [
+      "physical climate risk Singapore insurance",
+      "climate risk governance Singapore board",
+      "nat cat accumulation Singapore insurer",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "The first time I put physical climate risk on a board agenda at an insurer, the response was that it was already handled — the reinsurance team modelled catastrophe exposure every year, bought the treaty, and reported the retained loss. That is true, and it is also the problem. Physical climate risk had a home on the reinsurance desk and nowhere on the board's risk map. The board saw one number a year, for one renewal cycle. It never saw the trajectory.",
+      },
+      {
+        type: "paragraph",
+        text: "MAS's transition planning guidelines, issued in March 2026 and effective September 2027, have changed what a board can leave to the reinsurance desk. The guidelines are usually discussed in terms of transition risk — decarbonisation, stranded assets, financed emissions. But they are equally explicit that insurers must assess and manage the physical risks they and their portfolios face from climate change. For a Singapore insurer, that is not a hypothetical exposure. It is the core of the underwriting book.",
+      },
+      {
+        type: "heading",
+        text: "What physical risk actually looks like on a Singapore insurer's balance sheet",
+      },
+      {
+        type: "paragraph",
+        text: "Singapore-based insurers and reinsurers carry physical climate exposure on both sides of the balance sheet and across two time horizons. On the liability side, acute risk is the regional catastrophe book — monsoon and convective flooding across Southeast Asia, windstorm exposure in North Asia, and the business interruption that follows. Chronic risk is slower: rising mean temperatures feeding into health, mortality and workers' compensation claims; sea-level rise and coastal flooding affecting property and infrastructure lines in a low-lying city-state. On the asset side, the same hazards sit inside real estate holdings, infrastructure debt and the equities of exposed corporates. The two sides are correlated, and that correlation is precisely what a single reinsurance renewal number hides.",
+      },
+      {
+        type: "pullquote",
+        text: "A board that only sees physical risk once a year, at renewal, is governing a decade-long trend through an annual snapshot.",
+      },
+      {
+        type: "heading",
+        text: "The governance questions a board should be asking",
+      },
+      {
+        type: "list",
+        items: [
+          "Accumulation: what is our aggregate exposure to a single flood or windstorm event across all lines and all territories, and how has that number moved over the last five years — not just since the last renewal?",
+          "Reinsurance dependency: how much of our capital position depends on reinsurance capacity that reprices annually? What happens to our solvency and our appetite if that capacity contracts, or triples in price, after a bad year in the region?",
+          "Model basis risk: whose catastrophe models are we relying on, what climate conditioning do they assume, and where do we know they are weakest — secondary perils, inland flood, compound events?",
+          "Asset-liability correlation: if a physical event hits our underwriting book, what does it simultaneously do to the value of our property and infrastructure assets? Are we running that as one scenario or two?",
+          "Repricing and exit risk: which parts of the book are we assuming we can reprice or walk away from if loss experience deteriorates, and is that assumption realistic given MAS's expectation that we do not withdraw cover indiscriminately?",
+          "Protection gap and reputation: where are we effectively the market of last resort, and what is the reputational and political cost of pulling back?",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Why 'the reinsurance team has it covered' is not a governance answer",
+      },
+      {
+        type: "paragraph",
+        text: "The reinsurance function is very good at what it does: quantifying next year's expected loss and transferring the peak. But it is structurally short-term, because the treaty is annual. It is also structurally narrow, because its job is the liability side, not the correlation with assets or the capital consequences of a hard market. The board's job is the part that falls between functions — the multi-year trajectory, the balance-sheet-wide view, and the strategic choice about which exposures the firm wants to keep underwriting at all. MAS's guidelines push that choice up to the board on purpose.",
+      },
+      {
+        type: "paragraph",
+        text: "This is also where scenario analysis earns its place. Not the compliance version — a deck showing that a scenario was run — but a genuine exercise where management walks the board through what a plausible bad year in the region does to claims, to reinsurance pricing at the next renewal, to asset values, and to the solvency ratio, all at once. If the board has never seen that connected picture, the scenario analysis is being done for the regulator, not for the board.",
+      },
+      {
+        type: "heading",
+        text: "What I recommend to boards now",
+      },
+      {
+        type: "paragraph",
+        text: "Three things, in order. First, ask for the five-year trajectory of your accumulation exposure by peril and territory, not just the current renewal position — the trend is the governance signal, not the point estimate. Second, require at least one scenario each year that connects the underwriting book, the reinsurance programme and the investment portfolio in a single narrative, presented to the full board rather than buried in a risk committee pack. Third, make an explicit strategic decision about physical risk appetite: which exposures the firm intends to keep, grow, reprice or exit over the next three to five years, documented and revisited annually.",
+      },
+      {
+        type: "paragraph",
+        text: "The September 2027 effective date makes this urgent, but it should not be the reason for doing it. Physical climate risk is the one category of climate risk that is already in the numbers — in the claims, in the treaty pricing, in the asset marks. The board's task is not to anticipate a future risk. It is to govern one that is already here, and to stop seeing it through a once-a-year window.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does MAS require Singapore insurance boards to do about physical climate risk?",
+        answer: "MAS's Guidelines on Environmental Risk Management – Transition Planning, issued in March 2026 and effective September 2027, require insurers to assess and manage the physical climate risks they and their portfolios face, alongside transition risk. The board and senior management are expected to incorporate these risks into risk appetite, strategy and business plans, and to oversee that the approach is embedded in underwriting and investment practice — not delegated entirely to the reinsurance function.",
+      },
+      {
+        question: "What is the difference between acute and chronic physical climate risk for an insurer?",
+        answer: "Acute physical risk refers to discrete extreme events — floods, windstorms, and the business interruption that follows — which drive catastrophe claims and reinsurance costs. Chronic physical risk refers to gradual shifts such as rising mean temperatures and sea-level rise, which feed more slowly into health, mortality, property and workers' compensation claims. Singapore insurers carry both, on the underwriting book and inside their investment portfolios.",
+      },
+      {
+        question: "Why isn't the reinsurance programme enough to manage physical climate risk?",
+        answer: "A reinsurance programme transfers next year's peak loss, but it is renewed annually and focuses on the liability side. It does not capture the multi-year trajectory of accumulation exposure, the correlation between underwriting losses and asset values, or the capital consequences of reinsurance capacity contracting or repricing after a bad year in the region. Those are board-level questions that sit between functions.",
+      },
+      {
+        question: "What physical climate risk scenario analysis should an insurance board see?",
+        answer: "The board should see at least one scenario a year that connects a plausible severe regional event to claims, to reinsurance pricing at the next renewal, to investment asset values, and to the solvency ratio — as a single connected narrative presented to the full board. A scenario deck that only demonstrates a scenario was run is a compliance artefact, not a governance tool.",
+      },
+    ],
+  },
 ];
