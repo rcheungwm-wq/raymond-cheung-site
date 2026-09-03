@@ -1870,4 +1870,192 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "25",
+    title: "What the ACRA–SID Director Training Partnership Means for Singapore Boards",
+    summary:
+      "ACRA and the Singapore Institute of Directors signed an MoU on 28 August 2026 to launch Company Director Fundamentals — six complimentary modules and four paid ones on directors' legal and governance duties, with registration opening in October. It raises the floor. It does not answer the question that actually catches boards out: whether the board has the wiring to discharge the duties it has been taught.",
+    category: "Governance",
+    readingTime: "3 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "acra-sid-director-training-singapore",
+    keywords: [
+      "director training Singapore",
+      "corporate governance Singapore boards",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "I have sat through board induction sessions that ran three hours and covered the constitution, the delegations of authority, the D&O policy and the SGX listing rules. By the end the new director knew the paperwork. What none of it touched was the thing that actually catches boards out: how a material risk gets from the underwriting floor or the model validation team to the person sitting at the board table, and how many days and desks it crosses on the way.",
+      },
+      {
+        type: "paragraph",
+        text: "On 28 August 2026, ACRA and the Singapore Institute of Directors signed a memorandum of understanding to build the Company Director Fundamentals programme. CDF 101 is six complimentary modules on directors' legal, fiduciary and governance duties. CDF 201 adds four paid modules on board stewardship, organisational resilience and commercial performance. Complete all ten and you get a joint ACRA–SID certificate. Registration opens in October, with course design input from RSM Singapore and Rajah & Tann.",
+      },
+      {
+        type: "paragraph",
+        text: "I think this is overdue and worth having. For years the serious director education in Singapore has been SID's own courses, priced and pitched at people already sitting on listed boards. A free first tier changes who can walk in — the director of a mid-sized private company, the first-time appointee, the family-business successor who has never had the duties laid out plainly. Standardising that baseline is a real public good.",
+      },
+      {
+        type: "pullquote",
+        text: "A certificate tells you a director has been taught the duties. It does not tell you the board has the wiring to discharge them.",
+      },
+      {
+        type: "paragraph",
+        text: "The limit is worth naming too. In my experience the directors who get Singapore boards into trouble are rarely the ones who could not recite their fiduciary duty. They are the ones who knew it precisely and still could not tell whether the risk appetite statement in the pack was influencing a single decision, or whether the stress scenarios in front of them were severe enough to be worth running. That is not an individual knowledge gap. It is a gap in how the board is fed and how it works.",
+      },
+      {
+        type: "list",
+        items: [
+          "An induction that maps the real escalation path — who sees a material risk first, and how many hand-offs it passes through before it reaches a director.",
+          "A standing agenda item where management brings the risk it is least comfortable discussing, not the one that presents best.",
+          "A board evaluation that tests whether directors can challenge a model or a capital assumption — not just whether meetings run to time.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "So take the CDF modules — CDF 101 in particular, there is no reason not to. Then ask the question the certificate cannot answer for you: when this board is handed something uncomfortable, does the information reach us intact, and are we set up to do anything with it?",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the Company Director Fundamentals (CDF) programme?",
+        answer:
+          "CDF is a director training programme jointly developed by ACRA and the Singapore Institute of Directors under a memorandum of understanding signed on 28 August 2026. CDF 101 comprises six complimentary modules on directors' legal, fiduciary and governance duties; CDF 201 comprises four paid modules on board stewardship, organisational resilience and commercial performance. Completing all ten earns a joint ACRA–SID certificate, with registration opening in October 2026.",
+      },
+      {
+        question: "Is director training mandatory in Singapore?",
+        answer:
+          "There is no blanket statutory requirement that every company director complete formal training. SGX listing rules require first-time directors of listed issuers to undergo prescribed training in areas such as their roles and responsibilities and sustainability. The ACRA–SID CDF programme is voluntary and aimed at widening access to a governance baseline across both listed and non-listed companies.",
+      },
+      {
+        question: "Does completing a director course make a board effective?",
+        answer:
+          "No. Training raises an individual director's baseline knowledge of their duties. Board effectiveness depends on whether information reaches directors intact, whether the risk and control functions can escalate without being filtered, and whether the board's processes let it act on what it learns. A certificate addresses the first of those and none of the rest.",
+      },
+    ],
+  },
+  {
+    id: "26",
+    title: "Why Your Singapore Risk Appetite Framework Is Not Influencing Any Decisions",
+    summary:
+      "Most Singapore risk appetite frameworks are technically complete and operationally inert — approved by the board, filed with MAS, and absent from every decision that matters. As a statutory CRO I signed off on a few of them. Here is how to tell whether yours is doing any work, and how to wire it back into the underwriting, investment and capital decisions it was built for.",
+    category: "Enterprise Risk",
+    readingTime: "9 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "risk-appetite-framework-singapore",
+    keywords: [
+      "risk appetite framework Singapore",
+      "risk appetite statement board",
+      "MAS Notice 126 risk appetite",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "As a statutory chief risk officer I once presented the annual risk appetite refresh to a board risk committee. Twenty-two metrics, each with a green, amber or red band, all green bar one amber on operational losses. It was approved in about six minutes. Later in the same meeting the committee approved a reinsurance restructuring that materially changed the tail of the book — and nobody put the two items in the same sentence. The framework and the decision lived on different pages of the same pack.",
+      },
+      {
+        type: "heading",
+        text: "The test: name one decision it changed",
+      },
+      {
+        type: "paragraph",
+        text: "Here is the diagnostic I give every board. Point to one decision in the last twelve months that went differently because of a risk appetite limit. A deal repriced. A line that was not allowed to grow. An investment allocation pulled back. A reinsurance retention set where it was because the net position would otherwise have breached tolerance. If nobody in the room can name one, the framework is documentation, not governance — no matter how sophisticated the metrics look.",
+      },
+      {
+        type: "paragraph",
+        text: "Most people I ask cannot name one immediately. That is not because the business is reckless. It is because the framework was built to satisfy MAS Notice 126 and the board's assurance needs, and those are reporting purposes. It was never wired into the underwriting, investment and capital processes where the risk is actually taken.",
+      },
+      {
+        type: "pullquote",
+        text: "A risk appetite framework that only appears in the board pack is a reporting artefact. It is not influencing anything.",
+      },
+      {
+        type: "heading",
+        text: "Why frameworks go inert",
+      },
+      {
+        type: "list",
+        items: [
+          "The metrics measure outcomes, not decisions. \"Solvency ratio above X\" tells you the result after everything has been decided. It gives an underwriter or a portfolio manager nothing to act on at the moment of the decision.",
+          "Tolerances are set where the business already sits. If every limit was calibrated to current exposure plus headroom, the framework will never bind — by construction.",
+          "No owner below the CRO. If a metric goes amber and the only consequence is a paragraph in the next quarterly report, nobody has to do anything by any date.",
+          "Qualitative statements with no teeth. \"We have a low appetite for reputational risk\" is not a constraint. It cannot be breached, so it cannot bite.",
+          "The framework and the business plan are built separately. The plan assumes growth the appetite would not permit, and the two are never reconciled because different people own them on different timelines.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What a framework that works looks like",
+      },
+      {
+        type: "paragraph",
+        text: "The frameworks I have seen actually influence decisions share a few features. They are smaller. They cascade into the places where decisions are made. And they show up outside the board pack.",
+      },
+      {
+        type: "list",
+        items: [
+          "Fewer metrics, each tied to a lever. Not twenty-two — closer to eight, and every one maps to something a person can actually pull: underwriting authority, per-risk and per-catastrophe limits, asset allocation ranges, reinsurance retention, counterparty concentration.",
+          "Cascaded into delegated authorities. The board's appetite is translated into the underwriting guidelines, the investment mandate and the delegations of authority, so a front-line decision-maker is working inside it without having to read the risk appetite statement.",
+          "A defined response to amber and red. Each threshold has a named owner and a required action within a set time — reprice, de-risk, bring a paper, escalate. Not \"monitor\".",
+          "Reviewed when the strategy changes, not only once a year. A new product, an acquisition, a shift in asset mix — each should trigger the question \"does this fit our stated appetite\" before the decision, not in the following year's refresh.",
+          "Visible in management papers. The investment committee paper references the asset-risk tolerance; the underwriting forum references the catastrophe limit. If risk appetite appears only in board-level documents, it is not operational.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The MAS Notice 126 angle",
+      },
+      {
+        type: "paragraph",
+        text: "For a Singapore insurer this is not optional housekeeping. MAS Notice 126 requires the board to set a risk appetite as part of the enterprise risk management framework and to satisfy itself that the framework is genuinely operating rather than merely documented. MAS Circular ID 01/26, issued in January 2026, made clear the regulator is reading ORSA submissions closely and can tell engagement from ratification. A risk appetite statement that cannot be connected to a single management decision is exactly the kind of gap a thematic review surfaces.",
+      },
+      {
+        type: "paragraph",
+        text: "The board's job here is narrow and specific. Not to write the metrics, but to ask whether they bind. When the CRO presents the annual refresh, the question is not \"are we within appetite\" — it is \"show me where this framework changed what we did\".",
+      },
+      {
+        type: "heading",
+        text: "Where to start if yours is inert",
+      },
+      {
+        type: "list",
+        items: [
+          "Run the one-decision test at the next committee meeting and record the answer honestly.",
+          "Cut the metric set to the ones that map to a real lever; move the rest to an appendix.",
+          "For each surviving metric, name the owner and write the required action for amber and for red.",
+          "Reconcile the framework against the current business plan and flag every place they disagree.",
+          "Put risk appetite references into the next investment and underwriting papers and watch whether they change the discussion.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A risk appetite framework is not meant to be an annual disclosure. It is meant to be the thing that makes someone pause before writing a large line, or trim an allocation before it is made. If yours has not done that in a year, the fix is not more metrics or a longer statement. It is fewer metrics, real owners, and a deliberate effort to push it off the board table and into the places where the risk is actually taken.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is a risk appetite framework?",
+        answer:
+          "A risk appetite framework is the set of statements, metrics and thresholds by which a board defines how much risk, and what types of risk, the organisation is willing to accept in pursuit of its strategy. For a Singapore insurer it typically spans capital and solvency, insurance and underwriting risk, market and credit risk, liquidity and operational risk, and is required under MAS Notice 126.",
+      },
+      {
+        question: "How do you know if a risk appetite framework is working?",
+        answer:
+          "Name one decision in the last twelve months that went differently because of a risk appetite limit — a deal repriced, a line capped, an allocation trimmed, a reinsurance retention set to stay within tolerance. If no one can point to such a decision, the framework is functioning as a reporting artefact rather than a governance tool, however detailed its metrics.",
+      },
+      {
+        question: "What does MAS Notice 126 require on risk appetite?",
+        answer:
+          "MAS Notice 126 requires the board of a licensed Singapore insurer to establish and approve a risk appetite as part of the enterprise risk management framework, review it at least annually, and satisfy itself that the framework is operating in practice. MAS Circular ID 01/26 (January 2026) signalled closer scrutiny of whether boards genuinely engage with these frameworks or simply ratify them.",
+      },
+      {
+        question: "How many metrics should a risk appetite statement have?",
+        answer:
+          "There is no fixed number, but frameworks that influence decisions tend to be tighter — often around eight core measures, each mapped to a specific lever such as underwriting authority, catastrophe limits, asset allocation ranges or reinsurance retention. Long lists of outcome measures such as the solvency ratio tend to describe results after decisions have been made rather than guide them.",
+      },
+    ],
+  },
 ];
