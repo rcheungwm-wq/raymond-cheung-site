@@ -72,7 +72,7 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - [x] `esg-advisor-singapore` — "What makes an ESG adviser useful to a Singapore board"
 - [x] `climate-physical-risk-singapore-insurance` — "Physical climate risk in Singapore insurance: what boards need to govern"
 - [x] `mas-notice-126-insurance-boards` — "MAS Notice 126: what it actually requires of Singapore insurance boards"
-- [ ] `risk-appetite-framework-singapore` — "Why your Singapore risk appetite framework is not influencing any decisions"
+- [x] `risk-appetite-framework-singapore` — "Why your Singapore risk appetite framework is not influencing any decisions"
 - [ ] `board-risk-committee-singapore` — "What a board risk committee should look like for a Singapore-listed company"
 - [ ] `ai-governance-insurance-singapore` — "AI governance in Singapore insurance: what MAS expects, what boards miss"
 - [ ] `corporate-governance-consultant-singapore` — independent advisory vs. firm consulting
@@ -80,7 +80,7 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - [ ] `reinsurance-governance-singapore` — what boards need to understand about reinsurance strategy
 - [ ] `insurance-capital-singapore-mas` — capital adequacy governance from the board's perspective
 
-### Published (24 posts, September 2026)
+### Published (26 posts, September 2026)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance
@@ -105,6 +105,8 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - ✅ Physical climate risk Singapore insurance (`physical climate risk Singapore insurance`)
 - ✅ Split sustainability disclosure standards for boards (`Singapore Sustainability Disclosure Standards`)
 - ✅ MAS Notice 126 insurance board requirements (`MAS Notice 126`)
+- ✅ ACRA–SID director training partnership (`director training Singapore`)
+- ✅ Singapore risk appetite framework not influencing decisions (`risk appetite framework Singapore`)
 
 ### Backlink actions (one-time, compound over time)
 - [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile
