@@ -1,0 +1,32 @@
+{
+  "targetDomain": "raymondcheungwm.com",
+  "market": {
+    "gl": "sg",
+    "hl": "en",
+    "location": "Singapore",
+    "google_domain": "google.com.sg"
+  },
+  "notes": "Keywords tracked daily by serp-check.mjs. Keep in sync with seo/keywords.md. tier 1 = winnable in 90 days, tier 2 = Q1 2027, tier 3 = long game. Set 'track': false to pause a keyword without deleting its history.",
+  "keywords": [
+    { "q": "actuarial board advisor Singapore", "tier": 1, "track": true },
+    { "q": "CRO advisory Singapore insurance", "tier": 1, "track": true },
+    { "q": "ESG governance training Singapore", "tier": 1, "track": true },
+    { "q": "climate risk board director Singapore", "tier": 1, "track": true },
+    { "q": "InsurTech board advisor Asia", "tier": 1, "track": true },
+    { "q": "risk governance speaker Singapore", "tier": 1, "track": true },
+    { "q": "SGX board director independent advisory", "tier": 1, "track": true },
+    { "q": "ORSA Singapore insurance boards", "tier": 1, "track": true },
+    { "q": "independent board director Singapore", "tier": 1, "track": true },
+    { "q": "MAS regulatory advisor Singapore", "tier": 1, "track": true },
+    { "q": "ESG advisor Singapore", "tier": 2, "track": true },
+    { "q": "corporate governance consultant Singapore", "tier": 2, "track": true },
+    { "q": "insurance risk management Singapore boards", "tier": 2, "track": true },
+    { "q": "climate risk governance Singapore", "tier": 2, "track": true },
+    { "q": "board director advisory Singapore", "tier": 2, "track": true },
+    { "q": "scope 3 emissions Singapore boards", "tier": 2, "track": true },
+    { "q": "AI governance insurance Singapore", "tier": 2, "track": true },
+    { "q": "sustainability reporting Singapore SGX", "tier": 2, "track": true },
+    { "q": "MAS Notice 126", "tier": 2, "track": true },
+    { "q": "risk appetite framework Singapore", "tier": 2, "track": true }
+  ]
+}

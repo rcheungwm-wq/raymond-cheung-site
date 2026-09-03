@@ -37,8 +37,34 @@
 
 ## DAILY WORKFLOW
 
+### Step 0 (2 min) — Competitor SERP check
+Run the rank/competitor tracker before writing anything:
+
+```
+npm run serp            # all tracked keywords
+npm run serp:tier1      # tier-1 only (fewer API calls)
+```
+
+It pulls Google Singapore page-1 results for every keyword in `seo/serp-keywords.json`,
+records who ranks, and writes:
+- `seo/serp-report-<date>.md` — today's ranking table, movers, and open gaps with the
+  page-1 competitors for each
+- `seo/serp-history/<keyword>.json` — append-only daily snapshots (the trend line)
+
+**Use the output to steer the day:**
+- Any keyword under **"Declined — priority to defend"** → that is today's signature post,
+  refreshed / expanded to reclaim position.
+- Otherwise take the first **"Suggested keyword target"** (not ranking, lowest tier,
+  weakest page-1 competition) instead of blindly walking down `seo/keywords.md`.
+- A **new entrant** on a keyword Raymond owns → consider a short take that out-angles it.
+
+Needs a provider key in `seo/.env` (gitignored) — `SERPAPI_KEY`, or
+`GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX`. No key → `npm run serp` prints setup instructions
+and the routine falls back to the `seo/keywords.md` order. `node seo/serp-check.mjs --mock`
+smoke-tests the pipeline with synthetic data.
+
 ### Morning (30 min) — Short Take
-1. Scan: MAS website, SGX announcements, SID updates, Straits Times business section
+1. Scan: MAS website, SGX announcements, SID updates, Straits Times business section — plus any **new entrant** flagged by Step 0
 2. Pick one news item Raymond has something to say about
 3. Write 300–500 words — Raymond's angle first, context second
 4. Add to `data/insights.ts` with today's date, new slug
@@ -46,7 +72,7 @@
 6. Deploy runs automatically — post live in ~3 minutes
 
 ### Afternoon / Evening (60–90 min) — Signature Post
-1. Pick next keyword from `seo/keywords.md` (work down the tier-1 list)
+1. Pick the keyword from the Step 0 output (declined keyword to defend, else first suggested target). Fall back to the next unchecked keyword in `seo/keywords.md` only if Step 0 produced nothing.
 2. Write 900–1,200 words in Raymond's voice
 3. Add 3 FAQs (exact question format AI tools use)
 4. Add to `data/insights.ts` — full body array with headings, paragraphs, pullquote, list, faqs

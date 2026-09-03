@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "serp": "node seo/serp-check.mjs",
+    "serp:tier1": "node seo/serp-check.mjs --tier=1"
   },
   "dependencies": {
     "framer-motion": "^12.42.2",
