@@ -47,3 +47,32 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  ping:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Google sitemap
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://raymondcheungwm.com/sitemap.xml"
+          echo "Google pinged"
+
+      - name: Ping Bing sitemap
+        run: |
+          curl -s "https://www.bing.com/ping?sitemap=https://raymondcheungwm.com/sitemap.xml"
+          echo "Bing pinged"
+
+      - name: Notify IndexNow
+        run: |
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{
+              "host": "raymondcheungwm.com",
+              "key": "7c3e1f9a2b5d8e4c0f6a3b9d1e7c2f5a",
+              "keyLocation": "https://raymondcheungwm.com/7c3e1f9a2b5d8e4c0f6a3b9d1e7c2f5a.txt",
+              "urlList": [
+                "https://raymondcheungwm.com/",
+                "https://raymondcheungwm.com/insights"
+              ]
+            }'
+          echo "IndexNow notified"
