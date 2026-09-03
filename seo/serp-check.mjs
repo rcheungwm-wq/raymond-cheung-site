@@ -305,10 +305,13 @@ async function main() {
     const history = readHistory(slug);
     const last = history.length ? history[history.length - 1] : null;
     const prevPosition = last ? last.targetPosition ?? null : null;
+    // "new entrant" only makes sense once there's a prior snapshot to compare to
     const prevDomains = new Set((last?.results || []).map((r) => r.domain));
-    const newEntrants = results
-      .filter((r) => !prevDomains.has(r.domain) && !isTarget(r.domain, targetDomain))
-      .map((r) => `${r.domain} (#${r.position})`);
+    const newEntrants = last
+      ? results
+          .filter((r) => !prevDomains.has(r.domain) && !isTarget(r.domain, targetDomain))
+          .map((r) => `${r.domain} (#${r.position})`)
+      : [];
 
     // de-dupe history for same date (re-runs overwrite the day)
     const snapshots = history.filter((s) => s.date !== date);
