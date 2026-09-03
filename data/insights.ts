@@ -1687,4 +1687,187 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "23",
+    title: "What Singapore's Split Sustainability Disclosure Standards Mean for Boards",
+    summary:
+      "ACRA's draft Singapore Sustainability Disclosure Standards, out for consultation until 25 October 2026, make the climate standard mandatory and keep the broader sustainability standard voluntary. The risk for boards is reading 'voluntary' as 'not our problem' — when the harder question, materiality, still sits with the board.",
+    category: "ESG",
+    readingTime: "3 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "singapore-sustainability-disclosure-standards-boards",
+    keywords: [
+      "Singapore Sustainability Disclosure Standards",
+      "sustainability reporting Singapore boards",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "A board I advise spent most of its last ESG session working out the minimum it was obliged to disclose. A reasonable instinct, and the wrong question to lead with.",
+      },
+      {
+        type: "paragraph",
+        text: "ACRA's draft Singapore Sustainability Disclosure Standards — out for consultation through the REACH portal until 25 October 2026 — formalise a split. The climate-specific standard, SFRS S2, becomes mandatory on a phased timeline. The broader general sustainability standard, SFRS S1, stays voluntary. Both are built on the ISSB's IFRS S1 and S2 with local modifications, but Singapore is deliberately diverging from jurisdictions that switched on both at once.",
+      },
+      {
+        type: "paragraph",
+        text: "I understand the policy logic. ACRA's own chief executive frames this as \"a multi-year journey for both preparers and assurance providers\", and the audit capacity to verify anything wider than climate does not yet exist here — hence the parallel Sustainability Assurance Body of Knowledge to build it. Phasing is sensible.",
+      },
+      {
+        type: "paragraph",
+        text: "The risk is in how boards hear it. \"Voluntary\" gets received as \"not yet our problem\", and the sustainability conversation contracts to greenhouse gas accounting, because that is the part with a filing deadline attached.",
+      },
+      {
+        type: "pullquote",
+        text: "The mandate line tells you what the regulator will check. It does not tell you what is financially material to your business.",
+      },
+      {
+        type: "paragraph",
+        text: "That second question is the board's, and it does not move because a standard is voluntary. If your workforce practices, your supply-chain concentration, or your dependence on a single regulator in a single country could move earnings, that belongs in front of the board whether or not SFRS S1 ever becomes compulsory. The companies that will look worst in three years are the ones that treated the mandatory climate standard as the ceiling of their disclosure obligation.",
+      },
+      {
+        type: "paragraph",
+        text: "What I am telling boards now: run the materiality assessment as if S1 were mandatory, then decide what to disclose. You may still land on climate-only reporting for this cycle — that can be the right call on cost and readiness grounds. But make it a decision the board took with the full picture in view, minuted as such, rather than a default you backed into because the deadline only covered one topic. The consultation closes 25 October; if your company has a view on the pace, that is the window to put it to ACRA.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Are the Singapore Sustainability Disclosure Standards mandatory?",
+        answer:
+          "Under ACRA's draft proposal, out for public consultation until 25 October 2026, only the climate-specific standard (SFRS S2) would be mandatory, on a phased timeline. The broader general sustainability standard (SFRS S1) would remain voluntary. Both are based on the ISSB's IFRS S1 and S2 with local modifications.",
+      },
+      {
+        question: "What is the difference between SFRS S1 and SFRS S2?",
+        answer:
+          "SFRS S2 is the climate-specific disclosure standard, covering governance, strategy, risk management and metrics for climate-related risks and opportunities. SFRS S1 is the broader standard covering sustainability-related financial information beyond climate. Singapore's draft makes S2 mandatory and keeps S1 voluntary.",
+      },
+      {
+        question: "What should a board do about voluntary sustainability disclosure?",
+        answer:
+          "Treat the mandatory line as a compliance floor, not a materiality judgement. Run a full sustainability materiality assessment, identify which non-climate topics could affect earnings or strategy, and make a documented board decision on what to disclose — rather than defaulting to climate-only reporting because that is the only topic with a filing deadline.",
+      },
+    ],
+  },
+  {
+    id: "24",
+    title: "MAS Notice 126: What It Actually Requires of Singapore Insurance Boards",
+    summary:
+      "MAS Notice 126 puts the enterprise risk management framework, the risk appetite and the annual ORSA squarely on the insurance board — not on the risk function by delegation. MAS Circular ID 01/26, issued in January 2026, made clear it is reading the submissions closely. A statutory CRO's guide to what directors are actually on the hook for.",
+    category: "Enterprise Risk",
+    readingTime: "9 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "mas-notice-126-insurance-boards",
+    keywords: [
+      "MAS Notice 126",
+      "MAS Notice 126 insurance board requirements",
+      "ORSA Singapore insurance",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "The first ORSA report I signed as a statutory chief risk officer ran to about ninety pages. It went to the board with the pack, two working days before the meeting. At the meeting it got four minutes: the capital ratio was comfortably above requirement, the stress tests had \"all passed\", and the committee moved on. Nobody asked why the reserve stress looked so mild, or what the reverse stress test had actually found. The document met MAS Notice 126. The governance around it did not.",
+      },
+      {
+        type: "paragraph",
+        text: "MAS Notice 126 — Enterprise Risk Management for Insurers — is the rule that requires every licensed Singapore insurer to run an enterprise risk management framework, set a risk appetite, and perform an Own Risk and Solvency Assessment at least once a year. The ORSA report goes to MAS. Most directors know the Notice exists and know their firm files something under it. Fewer are clear on what it asks of them personally, as distinct from what it asks of the risk function.",
+      },
+      {
+        type: "heading",
+        text: "What the Notice actually puts on the board",
+      },
+      {
+        type: "paragraph",
+        text: "Notice 126 is not neutral about where responsibility sits. The board — not the CRO, not a committee operating purely by delegation — owns the ERM framework and the risk appetite. The Notice expects the board to approve them, understand them well enough to challenge them, and satisfy itself that the framework is genuinely operating rather than merely documented. That is a higher bar than receiving an annual paper and noting it.",
+      },
+      {
+        type: "list",
+        items: [
+          "Approve the ERM framework and the risk appetite statement, and review both at least annually — with enough understanding to push back, not just ratify.",
+          "Ensure the risk appetite is expressed in terms that constrain real decisions — underwriting authority, investment limits, reinsurance retention — not as a page of qualitative sentiment.",
+          "Deliberate the ORSA: its assumptions, its scenarios, and what it implies for strategy and capital planning — and have that deliberation visible in the minutes.",
+          "Confirm the ORSA's time horizon matches the business plan's, so the solvency projection and the strategy are describing the same future.",
+          "Own the management actions the ORSA relies on — including the credibility of the actions assumed in a reverse stress scenario.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The ORSA is the part boards under-use",
+      },
+      {
+        type: "paragraph",
+        text: "The ORSA is meant to be the one document a year in which the firm asks itself, in its own words and for its own purposes, whether its risk management and its capital are adequate for the risks it is actually running and the strategy it is actually pursuing. Done well, it is the board's single best integrated view of the business. Done as a compliance return, it is ninety pages that confirm a capital ratio the board already knew.",
+      },
+      {
+        type: "pullquote",
+        text: "The ORSA is not a submission to MAS that the board happens to see. It is the board's assessment, which MAS happens to receive.",
+      },
+      {
+        type: "paragraph",
+        text: "The tell is in the minutes. When MAS and reviewers have examined board papers, they have repeatedly found deliberations that concentrate on the capital number, the pass or fail of the stress tests, and the fact of compliance — and skip the parts that carry the governance value: whether the scenarios are severe enough to be useful, whether the key assumptions still hold, how the results connect to next year's plan, and which emerging risks are not yet in the model at all.",
+      },
+      {
+        type: "heading",
+        text: "What MAS flagged in January, and why it matters to directors",
+      },
+      {
+        type: "paragraph",
+        text: "In January 2026, MAS issued Circular ID 01/26 to all licensed insurers, setting out lapses it had seen in recent ORSA submissions. It is worth directors reading directly, because the deficiencies are ones a board is well placed to catch without being actuaries.",
+      },
+      {
+        type: "list",
+        items: [
+          "Missing stress tests. The four mandatory stresses — macroeconomic, material counterparty, liquidity and reserve — must all be performed. Some insurers had dropped one or more on immateriality grounds. MAS's position: run all four, and calibrate the depth to the size and complexity of the business rather than skipping the scenario.",
+          "Group ORSA used as a substitute. Where a firm relies on a group ORSA, the stress tests still have to be tailored to the Singapore legal entity. A group-level result is not a Singapore result.",
+          "Generic counterparty stress. For the material counterparty scenario, MAS expects named counterparties and an assessment of those specific exposures — not a blanket uplift to incurred claims.",
+          "Reverse stress testing treated as optional. It is required even where the failure scenario is remote, because the point is to identify the plausible paths to failure and to test whether the management actions relied on are credible.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of these is a modelling subtlety that only the actuarial team can assess. A director can ask \"did we run all four stresses, tailored to the Singapore entity?\" and \"which specific counterparties did we stress?\" and expect a clear answer. If the answer is vague, that is itself the finding.",
+      },
+      {
+        type: "heading",
+        text: "What I tell boards to ask",
+      },
+      {
+        type: "list",
+        items: [
+          "Is our risk appetite doing any work? Point to one decision in the last year that went differently because of a risk appetite limit. If you cannot, the statement is decoration.",
+          "Did we deliberate this ORSA, or receive it? The minutes should show challenge on assumptions and scenarios, not just a note that the report was tabled.",
+          "Are the ORSA horizon and the business plan horizon the same? If the plan runs three years and the solvency projection runs one, they are not talking to each other.",
+          "What did the reverse stress test find, and do we believe the management actions? \"Raise capital from the parent\" is only a mitigant if someone has actually asked the parent.",
+          "What is not in the model? Every ORSA has a boundary. The board should know where it sits and revisit it each year.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Notice 126 has been in force in its current shape since 2023, and the ORSA requirement is older than that. The bar is not moving. What MAS has made clear this year is that it is reading the submissions closely, and that it can tell the difference between an ORSA a board has engaged with and one it has waved through. For a Singapore insurance director, the Notice is not a compliance obligation that lives with the risk function. It is a description of work the board is expected to do — and, increasingly, to show that it did.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does MAS Notice 126 require of an insurance company's board?",
+        answer:
+          "Notice 126 requires the board of a licensed Singapore insurer to approve and oversee the enterprise risk management framework and the risk appetite statement, review both at least annually, and actively deliberate the annual Own Risk and Solvency Assessment (ORSA) — including its assumptions, scenarios and implications for strategy and capital. These responsibilities sit with the board itself and are not discharged by delegation to the risk function alone.",
+      },
+      {
+        question: "What is the ORSA under MAS Notice 126?",
+        answer:
+          "The Own Risk and Solvency Assessment is an insurer's own assessment, performed at least annually, of whether its risk management and its current and projected solvency and liquidity are adequate for the risks it runs and the strategy it is pursuing, over a horizon consistent with its business plan. The ORSA report is submitted to MAS, but it is the board's and management's assessment first.",
+      },
+      {
+        question: "What are the four mandatory stress tests under MAS Notice 126?",
+        answer:
+          "MAS Circular ID 01/26 (January 2026) reiterated that an ORSA must include four mandatory stress tests: macroeconomic, material counterparty, liquidity and reserve. All four must be performed and tailored to the Singapore legal entity even where a group ORSA is used, with the depth calibrated to the nature, scale and complexity of the business rather than scenarios omitted on immateriality grounds.",
+      },
+      {
+        question: "Does a group ORSA satisfy MAS Notice 126 for a Singapore insurer?",
+        answer:
+          "Not on its own. Where an insurer relies on a group ORSA, MAS expects the mandatory stress tests and the solvency assessment to be tailored to the Singapore legal entity. A group-level result does not substitute for a Singapore-entity assessment.",
+      },
+    ],
+  },
 ];
