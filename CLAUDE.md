@@ -51,11 +51,21 @@ Hero → Credibility Strip → **Audience Router** → Introduction → Impact �
 ## Blog / SEO — Daily Content Routine
 
 **Goal:** Page 1 Google Singapore for tier-1 keywords by December 2026
-**Full playbook:** `seo/keywords.md`, `seo/serp-analysis.md`, `seo/daily-routine.md`
+**Full playbook:** `seo/keywords.md`, `seo/serp-analysis.md`, `seo/daily-routine.md`, `seo/README.md`
+
+### Step 0 — SERP / competitor check (run before writing)
+```
+npm run serp            # all tracked keywords
+npm run serp:tier1      # tier-1 only (fewer API calls)
+```
+- Script: `seo/serp-check.mjs` (no deps). Keywords: `seo/serp-keywords.json` — keep in sync with `seo/keywords.md`.
+- Writes `seo/serp-report-<date>.md` (ranking table, movers, open gaps + page-1 competitors) and appends `seo/serp-history/<keyword>.json` (trend line). Both are committed with the daily posts.
+- Prints `=== SERP SUMMARY ===` → **signature-post keyword = first "Declined – priority to defend", else first "Suggested keyword target", else fall back to the backlog below.** A flagged **new entrant** on a keyword Raymond ranks for = candidate short-take peg.
+- Needs a provider key in `seo/.env` (gitignored — see `seo/.env.example`): `SERPAPI_KEY` (100/mo) **or** `GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX` (100/day). No key → script prints setup steps and the routine falls back to the backlog order. `node seo/serp-check.mjs --mock` smoke-tests with synthetic data.
 
 ### Two posts per day
 - **Morning — Short take (300–500 words, 20–30 min):** React to a Singapore news event — MAS circular, SGX announcement, ESG regulation update, SID report. Raymond's angle first, context second.
-- **Afternoon — Signature post (900–1,200 words, 60–90 min):** Keyword-targeted, Raymond's lived experience. One post per keyword from the tier-1 list.
+- **Afternoon — Signature post (900–1,200 words, 60–90 min):** Keyword-targeted, Raymond's lived experience. Keyword chosen from Step 0 output; otherwise next unchecked item in the backlog.
 
 ### How to add a post
 Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in the fields. Push — site rebuilds automatically in ~3 minutes.
@@ -108,5 +118,5 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 ### Monthly tracking
 1. Google Search Console → Coverage (how many posts indexed)
 2. Google Search Console → Search results (keyword impressions appearing)
-3. Incognito Google Singapore search for tier-1 keywords — current positions
+3. `seo/serp-history/` — review the trend per keyword (populated daily by Step 0); incognito Google Singapore spot-check for tier-1 keywords
 4. Ask ChatGPT / Perplexity "who is a good actuarial board adviser in Singapore?" — is Raymond cited?
