@@ -35,6 +35,10 @@ yarn-error.log*
 !.env.example
 !seo/.env.example
 
+# transient daily Google-search dump fed to seo/serp-check.mjs --ingest
+# (the derived seo/serp-report-*.md and seo/serp-history/ ARE committed)
+/seo/serp-ingest.json
+
 # vercel
 .vercel
 

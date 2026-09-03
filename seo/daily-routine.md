@@ -37,31 +37,39 @@
 
 ## DAILY WORKFLOW
 
-### Step 0 (2 min) — Competitor SERP check
-Run the rank/competitor tracker before writing anything:
+### Step 0 (5 min) — Competitor SERP check (plain Google, no API key)
+Before writing anything, check where Raymond ranks and who is on page 1.
 
-```
-npm run serp            # all tracked keywords
-npm run serp:tier1      # tier-1 only (fewer API calls)
-```
+1. For each keyword in `seo/serp-keywords.json` (tier 1 daily; rotate tier 2 through the
+   week), run a normal Google search for `google.com.sg`.
+2. Write the ranked result URLs into `seo/serp-ingest.json` — copy the shape from
+   `seo/serp-ingest.example.json`. Include only the keywords you actually searched.
+   ```json
+   { "date": "<today>", "results": { "<keyword>": ["https://...", "https://..."] } }
+   ```
+3. Score it:
+   ```
+   node seo/serp-check.mjs --ingest=seo/serp-ingest.json
+   ```
 
-It pulls Google Singapore page-1 results for every keyword in `seo/serp-keywords.json`,
-records who ranks, and writes:
-- `seo/serp-report-<date>.md` — today's ranking table, movers, and open gaps with the
-  page-1 competitors for each
+The script does the bookkeeping — it writes:
+- `seo/serp-report-<date>.md` — ranking table, movers, and open gaps with page-1 competitors
 - `seo/serp-history/<keyword>.json` — append-only daily snapshots (the trend line)
 
-**Use the output to steer the day:**
+and prints `=== SERP SUMMARY ===`.
+
+**Use the summary to steer the day:**
 - Any keyword under **"Declined — priority to defend"** → that is today's signature post,
   refreshed / expanded to reclaim position.
 - Otherwise take the first **"Suggested keyword target"** (not ranking, lowest tier,
   weakest page-1 competition) instead of blindly walking down `seo/keywords.md`.
 - A **new entrant** on a keyword Raymond owns → consider a short take that out-angles it.
 
-Needs a provider key in `seo/.env` (gitignored) — `SERPAPI_KEY`, or
-`GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX`. No key → `npm run serp` prints setup instructions
-and the routine falls back to the `seo/keywords.md` order. `node seo/serp-check.mjs --mock`
-smoke-tests the pipeline with synthetic data.
+Commit `seo/serp-report-*.md` and `seo/serp-history/` with the day's posts
+(`seo/serp-ingest.json` is gitignored). If Step 0 is skipped, fall back to the
+`seo/keywords.md` order. An API key in `seo/.env` (`SERPAPI_KEY`, or
+`GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX`) lets `npm run serp` do the searching automatically
+instead; `node seo/serp-check.mjs --mock` smoke-tests the pipeline.
 
 ### Morning (30 min) — Short Take
 1. Scan: MAS website, SGX announcements, SID updates, Straits Times business section — plus any **new entrant** flagged by Step 0

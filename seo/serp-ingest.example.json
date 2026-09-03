@@ -1,0 +1,16 @@
+{
+  "_comment": "Daily Google-search dump for serp-check.mjs. Run a plain Google search (google.com.sg) for each keyword in serp-keywords.json, then list the organic result URLs top-to-bottom (about 10). Then: node seo/serp-check.mjs --ingest=seo/serp-ingest.json  — you don't have to include every keyword; missing ones are skipped.",
+  "date": "2026-09-03",
+  "results": {
+    "actuarial board advisor Singapore": [
+      "https://www.example-competitor.sg/board-advisory",
+      "https://raymondcheungwm.com/insights/actuarial-board-advisor-singapore",
+      "https://www.sid.org.sg/resources"
+    ],
+    "CRO advisory Singapore insurance": [
+      "https://www.mas.gov.sg/regulation/notices/notice-126",
+      "https://www.some-firm.com/sg/risk",
+      "https://raymondcheungwm.com/insights/cro-advisory-singapore-insurance"
+    ]
+  }
+}

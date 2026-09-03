@@ -12,23 +12,33 @@
  * It also prints a compact summary to stdout so the daily blog routine can read
  * it and pick which keyword to attack.
  *
- * Providers (auto-detected from env, or force with --provider):
+ * DEFAULT PATH — plain Google search, no API key (--ingest):
+ *   1. For each keyword in seo/serp-keywords.json, run a normal Google search
+ *      (the daily agent uses its WebSearch tool; a human can paste results).
+ *   2. Write the ranked result URLs into a JSON file, e.g.:
+ *        { "date": "2026-09-03",
+ *          "results": {
+ *            "actuarial board advisor Singapore": [
+ *              "https://www.grantthornton.sg/...",
+ *              "https://raymondcheungwm.com/insights/...",
+ *              "https://www.sid.org.sg/..."
+ *            ]
+ *          } }
+ *   3. node seo/serp-check.mjs --ingest path/to/that.json
+ *      -> same diff / history / report as the API path.
+ *
+ * OPTIONAL — automated providers (auto-detected from seo/.env, gitignored):
  *   SerpAPI          SERPAPI_KEY                     (accurate, 100 free/mo)
  *   Google CSE JSON  GOOGLE_CSE_KEY + GOOGLE_CSE_CX  (rough, 100 free/day)
  *
- * Put keys in seo/.env (gitignored) or the real environment:
- *   SERPAPI_KEY=xxxx
- *   # or
- *   GOOGLE_CSE_KEY=xxxx
- *   GOOGLE_CSE_CX=xxxx
- *
  * Usage:
- *   node seo/serp-check.mjs                 all tracked keywords
- *   node seo/serp-check.mjs --tier=1        only tier-1 keywords
- *   node seo/serp-check.mjs --limit=5       first 5 tracked keywords
+ *   node seo/serp-check.mjs --ingest results.json   score a manual Google-search dump
+ *   node seo/serp-check.mjs                         all tracked keywords (needs a key)
+ *   node seo/serp-check.mjs --tier=1                only tier-1 keywords
+ *   node seo/serp-check.mjs --limit=5               first 5 tracked keywords
  *   node seo/serp-check.mjs --provider=serpapi
- *   node seo/serp-check.mjs --dry-run       resolve config + provider, no API calls
- *   node seo/serp-check.mjs --mock          synthetic results, no keys — smoke-test the pipeline
+ *   node seo/serp-check.mjs --dry-run               resolve config + provider, no calls
+ *   node seo/serp-check.mjs --mock                  synthetic results — smoke-test the pipeline
  *
  * Exit codes: 0 ok, 1 config/provider error, 2 every keyword lookup failed.
  */
@@ -53,6 +63,7 @@ const args = Object.fromEntries(
 );
 const DRY_RUN = Boolean(args["dry-run"]);
 const MOCK = Boolean(args.mock);
+const INGEST = args.ingest ? String(args.ingest) : null;
 const TIER_FILTER = args.tier
   ? String(args.tier).split(",").map((n) => Number(n.trim()))
   : null;
@@ -176,8 +187,60 @@ async function fetchMock(query, _market) {
   }));
 }
 
+/**
+ * --ingest mode: no API. You (or the daily agent) run a plain Google search for
+ * each keyword and drop the ranked results into a JSON file; this turns them into
+ * the same shape the API providers return, so the diff / history / report logic
+ * is identical. Shape (either form works):
+ *
+ *   { "date": "2026-09-03", "results": { "<keyword>": [ "<url or domain>", ... ] } }
+ *   { "<keyword>": [ { "url": "...", "title": "..." }, ... ] }
+ *
+ * Order = rank order. Up to 10 kept. Missing keyword => that keyword is skipped.
+ */
+function buildIngestProvider(path) {
+  if (!existsSync(path)) throw new Error(`--ingest file not found: ${path}`);
+  let raw;
+  try {
+    raw = JSON.parse(readFileSync(path, "utf8"));
+  } catch (err) {
+    throw new Error(`--ingest file is not valid JSON: ${err.message}`);
+  }
+  const map = raw && typeof raw === "object" && raw.results ? raw.results : raw;
+  if (!map || typeof map !== "object") throw new Error("--ingest file has no results object");
+
+  const norm = (entry, i) => {
+    const url = typeof entry === "string" ? entry : entry.url || entry.link || entry.domain || "";
+    return {
+      position: (typeof entry === "object" && entry.position) || i + 1,
+      url,
+      domain: normaliseHost(url),
+      title: (typeof entry === "object" && (entry.title || entry.name)) || "",
+    };
+  };
+
+  const lookup = (query) =>
+    map[query] ??
+    map[query.toLowerCase()] ??
+    map[Object.keys(map).find((k) => k.toLowerCase() === query.toLowerCase())];
+
+  return {
+    name: "google-manual",
+    ingestDate: typeof raw.date === "string" ? raw.date : null,
+    // keywords absent from the file are skipped, not failed — a daily run may
+    // only search a subset (e.g. tier 1).
+    hasKeyword: (query) => lookup(query) !== undefined,
+    async fetch(query) {
+      const hit = lookup(query);
+      if (!Array.isArray(hit)) throw new Error("results for this keyword are not an array in the --ingest file");
+      return hit.slice(0, 10).map(norm);
+    },
+  };
+}
+
 function resolveProvider() {
   if (MOCK) return { name: "mock", fetch: fetchMock };
+  if (INGEST) return buildIngestProvider(INGEST);
   const wanted = FORCED_PROVIDER;
   const haveSerp = Boolean(process.env.SERPAPI_KEY);
   const haveCse = Boolean(process.env.GOOGLE_CSE_KEY && process.env.GOOGLE_CSE_CX);
@@ -253,14 +316,31 @@ async function main() {
     process.exit(1);
   }
 
+  // --ingest: only score keywords the file actually contains
+  if (provider && provider.hasKeyword) {
+    const present = keywords.filter((k) => provider.hasKeyword(k.q));
+    const skipped = keywords.filter((k) => !provider.hasKeyword(k.q));
+    if (skipped.length) {
+      console.log(`Skipping ${skipped.length} keyword(s) not in the --ingest file: ${skipped.map((k) => k.q).join(", ")}`);
+    }
+    keywords = present;
+    if (!keywords.length) {
+      console.error("None of the selected keywords are present in the --ingest file.");
+      process.exit(1);
+    }
+  }
+
   const noProviderHelp = [
-    "No SERP provider configured.",
+    "No SERP source given.",
     "",
-    "Add ONE of these to seo/.env (gitignored) or the environment:",
+    "Default (no key): run a plain Google search for each keyword in",
+    "seo/serp-keywords.json, save the ranked URLs to a JSON file, then:",
+    "  node seo/serp-check.mjs --ingest results.json",
+    "  (shape: { \"date\": \"YYYY-MM-DD\", \"results\": { \"<keyword>\": [\"url\", ...] } })",
+    "",
+    "Optional automated path: add ONE of these to seo/.env (gitignored):",
     "  SERPAPI_KEY=xxxx                         # https://serpapi.com  (100 free/mo)",
     "  GOOGLE_CSE_KEY=xxxx  GOOGLE_CSE_CX=xxxx  # https://developers.google.com/custom-search  (100 free/day)",
-    "",
-    "Then re-run: npm run serp",
   ].join("\n");
 
   if (DRY_RUN) {
@@ -276,14 +356,14 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`SERP check · ${todayISO()} · provider=${provider.name} · ${keywords.length} keyword(s)`);
+  const date = provider.ingestDate || todayISO();
+  console.log(`SERP check · ${date} · provider=${provider.name} · ${keywords.length} keyword(s)`);
 
   if (!existsSync(HISTORY_DIR)) mkdirSync(HISTORY_DIR, { recursive: true });
 
-  const date = todayISO();
   const rows = [];
   let failures = 0;
-  const gap = MOCK ? 0 : 1500; // ms between lookups — be gentle on rate limits
+  const gap = MOCK || INGEST ? 0 : 1500; // ms between lookups — be gentle on rate limits
 
   for (const [i, k] of keywords.entries()) {
     const slug = slugify(k.q);

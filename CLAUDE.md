@@ -53,15 +53,13 @@ Hero → Credibility Strip → **Audience Router** → Introduction → Impact �
 **Goal:** Page 1 Google Singapore for tier-1 keywords by December 2026
 **Full playbook:** `seo/keywords.md`, `seo/serp-analysis.md`, `seo/daily-routine.md`, `seo/README.md`
 
-### Step 0 — SERP / competitor check (run before writing)
-```
-npm run serp            # all tracked keywords
-npm run serp:tier1      # tier-1 only (fewer API calls)
-```
-- Script: `seo/serp-check.mjs` (no deps). Keywords: `seo/serp-keywords.json` — keep in sync with `seo/keywords.md`.
-- Writes `seo/serp-report-<date>.md` (ranking table, movers, open gaps + page-1 competitors) and appends `seo/serp-history/<keyword>.json` (trend line). Both are committed with the daily posts.
-- Prints `=== SERP SUMMARY ===` → **signature-post keyword = first "Declined – priority to defend", else first "Suggested keyword target", else fall back to the backlog below.** A flagged **new entrant** on a keyword Raymond ranks for = candidate short-take peg.
-- Needs a provider key in `seo/.env` (gitignored — see `seo/.env.example`): `SERPAPI_KEY` (100/mo) **or** `GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX` (100/day). No key → script prints setup steps and the routine falls back to the backlog order. `node seo/serp-check.mjs --mock` smoke-tests with synthetic data.
+### Step 0 — SERP / competitor check (run before writing; plain Google, no key)
+1. For each keyword in `seo/serp-keywords.json` (tier 1 daily + rotate tier 2), run a normal Google search (`google.com.sg`) — the daily agent uses its WebSearch tool.
+2. Save the ranked result URLs to `seo/serp-ingest.json` (shape in `seo/serp-ingest.example.json`; only the keywords you searched — missing ones are skipped).
+3. `node seo/serp-check.mjs --ingest=seo/serp-ingest.json`
+- Script: `seo/serp-check.mjs` (no deps). It writes `seo/serp-report-<date>.md` (ranking table, movers, open gaps + page-1 competitors), appends `seo/serp-history/<keyword>.json` (trend line), prints `=== SERP SUMMARY ===`. Report + history are committed with the daily posts; `serp-ingest.json` is gitignored.
+- **Signature-post keyword = first "Declined – priority to defend", else first "Suggested keyword target", else fall back to the backlog below.** A **new entrant** on a keyword Raymond ranks for = candidate short-take peg.
+- Optional automated path: put `SERPAPI_KEY` (100/mo) **or** `GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX` (100/day) in `seo/.env` (gitignored — see `seo/.env.example`), then `npm run serp` / `npm run serp:tier1` does the searching itself. `node seo/serp-check.mjs --mock` smoke-tests. Step 0 skipped → use the backlog order.
 
 ### Two posts per day
 - **Morning — Short take (300–500 words, 20–30 min):** React to a Singapore news event — MAS circular, SGX announcement, ESG regulation update, SID report. Raymond's angle first, context second.

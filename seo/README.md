@@ -7,52 +7,68 @@
 | `serp-analysis.md` | One-off deep SERP analysis notes |
 | `daily-routine.md` | The daily 2-post content routine (Step 0 = the SERP check below) |
 | `serp-keywords.json` | Keywords the tracker checks each day — keep in sync with `keywords.md` |
-| `serp-check.mjs` | Daily rank / competitor tracker (no dependencies) |
+| `serp-check.mjs` | Rank / competitor scorer — diffs today vs history, writes the report (no deps) |
+| `serp-ingest.example.json` | Template for the daily Google-search dump |
 | `serp-history/<keyword>.json` | Append-only daily snapshots per keyword — the trend line |
 | `serp-report-<date>.md` | Human-readable diff written on each run |
-| `.env` | Provider API key (gitignored) — copy from `.env.example` |
+| `.env` | Optional API key (gitignored) — only for the automated path |
 
-## Daily SERP check
+## Daily SERP check — plain Google, no API key
 
-```
-npm run serp            # every tracked keyword
-npm run serp:tier1      # tier-1 keywords only (fewer API calls)
-```
+The script does the **bookkeeping** (position, day-over-day delta, new entrants,
+"which keyword to attack"). You do the **searching** with a normal Google search.
 
-For each keyword in `serp-keywords.json` it pulls Google Singapore page-1 organic
-results, finds `raymondcheungwm.com`'s position, diffs against the previous run, and:
+1. For each keyword in `serp-keywords.json`, run a Google search (google.com.sg).
+   The daily agent uses its WebSearch tool; a person can just search in a browser.
+2. Put the ranked result URLs into `seo/serp-ingest.json` (copy
+   `serp-ingest.example.json`). You don't need every keyword — missing ones are skipped.
+   ```json
+   {
+     "date": "2026-09-03",
+     "results": {
+       "actuarial board advisor Singapore": [
+         "https://competitor.sg/...",
+         "https://raymondcheungwm.com/insights/actuarial-board-advisor-singapore"
+       ]
+     }
+   }
+   ```
+3. Score it:
+   ```
+   node seo/serp-check.mjs --ingest=seo/serp-ingest.json
+   ```
 
-- updates `serp-history/<keyword>.json` (one snapshot per day; a same-day re-run
-  overwrites that day)
-- writes `serp-report-<date>.md` — ranking table, movers, and **open gaps** listing the
-  page-1 competitors and any new entrants
-- prints `=== SERP SUMMARY ===` to stdout for the content routine to act on
+It updates `serp-history/<keyword>.json` (one snapshot per day; a same-day re-run
+overwrites that day), writes `serp-report-<date>.md`, and prints
+`=== SERP SUMMARY ===`. `serp-ingest.json` itself is gitignored; the report and
+history are committed with the day's posts.
 
-### Setup (one time)
-Copy `seo/.env.example` to `seo/.env` and set **one** provider:
-
-- **SerpAPI** — `SERPAPI_KEY`. 100 free searches/month. Closest to a real SERP.
-- **Google Custom Search JSON API** — `GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX`. 100 free/day.
-  Create a Programmable Search Engine set to "Search the entire web".
-
-With 20 tracked keywords, a full daily `npm run serp` uses 20 calls — within the Google
-free tier daily, or ~5 days/month of the SerpAPI free tier (use `serp:tier1`, or upgrade,
-if running on SerpAPI daily).
-
-No key configured → the script prints setup instructions and exits; the daily routine
-then falls back to the `keywords.md` order.
-
-### Flags
-```
-node seo/serp-check.mjs --tier=1,2     # restrict by tier
-node seo/serp-check.mjs --limit=5      # first N keywords
-node seo/serp-check.mjs --provider=serpapi | google_cse
-node seo/serp-check.mjs --dry-run      # validate config + provider, no API calls
-node seo/serp-check.mjs --mock         # synthetic data — smoke-test the pipeline
-```
-
-### How the content routine uses it
+### How the content routine uses the output
 1. Keyword under **"Declined — priority to defend"** → today's signature post reclaims it.
 2. Else the first **"Suggested keyword target"** (not ranking · lowest tier · weakest page 1).
 3. Else fall back to the `keywords.md` / CLAUDE.md backlog order.
-4. A **new entrant** on a keyword Raymond owns → candidate peg for the short take.
+4. A **new entrant** on a keyword Raymond ranks for → candidate peg for the short take.
+
+## Optional: automated (API key)
+
+Skip the manual dump by giving the script a provider. Copy `seo/.env.example` to
+`seo/.env` and set **one**:
+
+- **SerpAPI** — `SERPAPI_KEY`. 100 free searches/month. Closest to a real SERP.
+- **Google Custom Search JSON API** — `GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX`. 100 free/day.
+
+Then:
+```
+npm run serp            # every tracked keyword
+npm run serp:tier1      # tier-1 only
+```
+
+## Flags
+```
+node seo/serp-check.mjs --ingest=FILE   score a manual Google-search dump (no key)
+node seo/serp-check.mjs --tier=1,2      restrict by tier
+node seo/serp-check.mjs --limit=5       first N keywords
+node seo/serp-check.mjs --provider=serpapi | google_cse
+node seo/serp-check.mjs --dry-run       validate config + provider, no calls
+node seo/serp-check.mjs --mock          synthetic data — smoke-test the pipeline
+```
