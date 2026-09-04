@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/speakers",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ilearn.isca.org.sg",
+        "url": "https://ilearn.isca.org.sg/home/course/risk-management-corporate-governance/154",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "australia.risklive.net",
+        "url": "https://australia.risklive.net/speaker",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "asia.risklive.net",
+        "url": "https://asia.risklive.net/speakers",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "xlodglobalsingapore.1lod.com",
+        "url": "https://xlodglobalsingapore.1lod.com/speakers",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sginnovate.com",
+        "url": "https://www.sginnovate.com/event/sginnovate-x-curiouscore-tech-talk-leaders-risk-management-ai-innovation-projects",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "cybersecurityasia.tech",
+        "url": "https://cybersecurityasia.tech/speakers/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "nus.edu.sg",
+        "url": "https://nus.edu.sg/about/management/martin-leo",
+        "title": ""
+      }
+    ]
+  }
+]

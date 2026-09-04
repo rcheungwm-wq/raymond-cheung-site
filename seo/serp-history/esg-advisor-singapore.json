@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-09-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/risk/esg-advisory/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "boardroomlimited.com",
+        "url": "https://www.boardroomlimited.com/services/esg",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "esgconsulting.sg",
+        "url": "https://esgconsulting.sg/best-esg-consulting-companies-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "estes.sg",
+        "url": "https://estes.sg/services/esg-consulting/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "greenco-esg.sg",
+        "url": "https://greenco-esg.sg/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "investors.directory",
+        "url": "https://investors.directory/top-5-esg-sustainability-advisors-in-singapore/",
+        "title": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "academy.smu.edu.sg",
+        "url": "https://academy.smu.edu.sg/insights/esg-reporting",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/sustainability-report",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "acra.gov.sg",
+        "url": "https://www.acra.gov.sg/regulations/sustainability-reporting/requirements-timeline/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sgx.com",
+        "url": "https://www.sgx.com/sustainable-finance/sustainability-reporting",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "cheddarmedia.com",
+        "url": "https://www.cheddarmedia.com/a-complete-guide-to-sgx-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "presgo.com",
+        "url": "https://www.presgo.com/frameworks/sgx-sustainability-reporting-guide/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "pace-esg.com",
+        "url": "https://www.pace-esg.com/academy/singapore-sustainability-reporting-a-guide-for-the-aviation-sector/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rafflescorporateservices.com",
+        "url": "https://rafflescorporateservices.com/singapore-sustainability-reporting-2026-sgx-issb-sra-roadmap/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sageshield.com",
+        "url": "https://sageshield.com/esg-reporting-requirements-singapore-guide/",
+        "title": ""
+      }
+    ]
+  }
+]

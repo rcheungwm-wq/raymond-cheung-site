@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-09-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/singapore-budget-signals-bold-ai-push--but-governance-gaps-loom-566094.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scicollege.edu.sg",
+        "url": "https://www.scicollege.edu.sg/technical-training/ai-governance-risk-management-for-insurers",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/manulife-singapore-launches-artificial-intelligence-hub-559676.aspx",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "smartonlinecourse.co.in",
+        "url": "https://www.smartonlinecourse.co.in/blog/how-ai-is-revolutionizing-insurance-in-singapore",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "insuranceindustry.ai",
+        "url": "https://insuranceindustry.ai/six-regulators-six-answers-the-ai-insurance-governance-map-nobodys-drawn/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "job-boards.greenhouse.io",
+        "url": "https://job-boards.greenhouse.io/dataiku/jobs/5657260004",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "forrester.com",
+        "url": "https://www.forrester.com/blogs/singapores-model-ai-governance-framework-sets-out-to-help-organizations-deploy-ai-responsibly",
+        "title": ""
+      }
+    ]
+  }
+]

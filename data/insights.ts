@@ -2058,4 +2058,144 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "27",
+    title: "What SGX's Own Board Tenure Clock Means for Singapore Boards",
+    summary:
+      "SGX Group has just reclassified one of its own directors as non-independent after nine years' service, while keeping him on its Risk Management Committee. The mechanics of that decision are a useful test of whether your board is managing the nine-year cliff edge or just waiting to hit it.",
+    category: "Governance",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "sgx-independent-director-tenure-clock",
+    keywords: ["SGX board director independent advisory", "independent director tenure Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "Singapore Exchange has confirmed that Lim Chin Hu will have served nine years on its board as of 21 September 2026, and that under the SGX RegCo tenure rule he will be treated as a non-independent, non-executive director from that date. He had already stepped down as chair of the Remuneration & Staff Development Committee in June, and he stays on the Nominating & Governance Committee and the Risk Management Committee — with SGX stating that independence composition requirements on both are still satisfied.",
+      },
+      {
+        type: "paragraph",
+        text: "I have sat on the other side of exactly this calculation — mapping out, eighteen months before a director's ninth anniversary, which committees would tip out of compliance and who would need to be recruited, onboarded and up to speed before the clock ran out. What strikes me about the SGX announcement is not the reclassification itself. It is that the transition was staged: one committee chairmanship handed over in June, full reclassification landing in September, remaining seats confirmed as still compliant. That is what the rule working as intended looks like.",
+      },
+      {
+        type: "heading",
+        text: "Most boards treat the nine-year cap as a director problem",
+      },
+      {
+        type: "paragraph",
+        text: "SGX RegCo capped independent director tenure at nine years back in 2022, with transitional arrangements for directors already past that mark. Three-plus years on, I still see boards treat the cap as something that happens to an individual director rather than something that happens to a committee's composition. The nominating committee tracks tenure against a spreadsheet, someone flags an upcoming anniversary, and the conversation starts about six months out — usually framed as \"do we renew this director's independence narrative\" rather than \"what does our audit or risk committee look like the day this seat changes category.\"",
+      },
+      {
+        type: "pullquote",
+        text: "A tenure cap is not a director-level event. It is a committee-composition event, and it should be planned as one — with a successor identified before the incumbent's independence status changes, not after.",
+      },
+      {
+        type: "paragraph",
+        text: "The reason this matters more for risk and audit committees than for the board as a whole is that SGX listing rules and the Code of Corporate Governance set minimum independence thresholds for those specific committees, not just for the board in aggregate. A board can carry one long-tenured, newly non-independent director comfortably. A three-person risk committee cannot carry the same director if his reclassification drops independent representation below the required majority. That is a compliance breach discovered on an anniversary date, not a governance failure discovered through vigilance — and it is entirely avoidable with an eighteen-month runway.",
+      },
+      {
+        type: "heading",
+        text: "What good succession planning for tenure looks like",
+      },
+      {
+        type: "list",
+        items: [
+          "Map every committee's independence math against each director's individual anniversary date — not just the board's, the committee's",
+          "Identify, at least twelve months out, which committee seats become non-compliant on that date if no successor is recruited",
+          "Recruit and onboard the successor while the incumbent is still active on the committee, so institutional knowledge transfers before the seat changes hands",
+          "Stage the transition — chairmanship first, full committee membership second — the way SGX Group did with its June and September changes",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If your board is relying on a single tenure-tracking line item reviewed once a year at the nominating committee, you are managing this reactively. The fix is not complicated — it is a standing agenda item, cross-referenced against every committee charter's independence requirement, reviewed at least annually with an eighteen-month forward window. Boards that get this right never have a Lim Chin Hu moment that looks like a scramble. They have one that looks like SGX's: staged, disclosed calmly, and unremarkable.",
+      },
+    ],
+  },
+  {
+    id: "28",
+    title: "What a Board Risk Committee Should Look Like for a Singapore-Listed Company",
+    summary:
+      "Most board risk committees I have sat in front of spend their time reviewing a risk register nobody outside the room has read. Here is what changes when a risk committee is actually built to influence decisions rather than to document them, drawn from years reporting into these committees as a statutory CRO.",
+    category: "Board Advisory",
+    readingTime: "8 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "board-risk-committee-singapore",
+    keywords: ["board risk committee Singapore", "risk committee governance Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "Early in my time as a statutory Chief Risk Officer, I presented the same twelve-page risk register to the board risk committee for three consecutive quarters. The heat map colours shifted slightly each time. Nobody asked a different question. It took a new independent director joining the committee — someone with no prior exposure to the deck — to ask, in her first meeting, \"which two of these fifteen risks would actually change what we do next quarter?\" That single question did more to reshape how the committee worked than the previous eighteen months of reporting had.",
+      },
+      {
+        type: "paragraph",
+        text: "I have since sat on the other side of that table, advising boards on how their risk committees are structured, and the pattern repeats across almost every Singapore-listed company I have worked with: a committee that meets its statutory obligations, reviews a comprehensive risk register, and has almost no measurable effect on how the business actually makes decisions. That gap — between a compliant committee and an influential one — is the real subject of this piece.",
+      },
+      {
+        type: "heading",
+        text: "The three failure modes I see most often",
+      },
+      {
+        type: "paragraph",
+        text: "The first is scope confusion with the audit committee. Many Singapore-listed companies, particularly outside the financial sector, still run a combined audit and risk committee. That is permitted under the Code of Corporate Governance, but it is workable only when the committee agenda genuinely splits time and mindset between the two. In practice I have watched risk items get fifteen minutes at the end of a two-hour audit committee meeting that has already run long, discussed by directors whose entire prior conversation was about controls testing and financial statement assurance — a completely different cognitive mode from forward-looking risk judgement.",
+      },
+      {
+        type: "paragraph",
+        text: "The second is a register that reports risk instead of a committee that governs it. A comprehensive risk register with fifteen to twenty-five entries, each rated on likelihood and impact, is a management tool. It is not a board tool, and treating it as one is why so many risk committee meetings feel like a status update rather than a discussion. The committee's job is not to read the register — it is to decide which handful of risks are material enough to warrant board-level attention this quarter, and to interrogate management's judgement on exactly those.",
+      },
+      {
+        type: "pullquote",
+        text: "A risk committee that reviews everything influences nothing. A risk committee that interrogates three things thoroughly changes how the business is run.",
+      },
+      {
+        type: "paragraph",
+        text: "The third failure mode is committee composition that does not match the company's actual risk profile. I have reviewed risk committees at insurers and financial institutions where not a single member had underwriting, actuarial or treasury experience, and risk committees at technology and consumer businesses where cyber and data risk — arguably the company's largest single exposure — had no directorial expertise represented at all. Independence and financial literacy are necessary; they are not sufficient. A risk committee needs at least one member who can ask a genuinely informed follow-up question on the company's dominant risk category, not just a well-run process for the rest.",
+      },
+      {
+        type: "heading",
+        text: "What changes the committee's effectiveness",
+      },
+      {
+        type: "paragraph",
+        text: "For MAS-regulated insurers, this is not optional — MAS's own reviews of ORSA reports have repeatedly found that board minutes document discussion of capital adequacy and stress test results but are silent on whether the board actually debated the plausibility of scenarios or the connection between risk appetite and business strategy. The same gap shows up in listed non-financial companies, just without a regulator naming it in a public report.",
+      },
+      {
+        type: "list",
+        items: [
+          "Set a standing agenda structure of three to five material risks per meeting, chosen in advance by the CRO or risk owner in consultation with the committee chair — not the full register",
+          "Require every material risk item to state explicitly which decision, limit or business unit it connects to, not just its likelihood and impact score",
+          "Match at least one committee member's expertise to the company's single largest risk category, even if that means recruiting for it specifically",
+          "Separate risk from audit on the agenda even in a combined committee — a hard time allocation, not a courtesy at the end",
+          "Ask the CRO, at least once a year, to bring the committee a risk that was assessed and judged not material — the negative case is often more revealing of judgement quality than the positive one",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The SGX Group board tenure changes I wrote about separately this month are a useful adjacent example — Lim Chin Hu retained his seat on SGX's Risk Management Committee even after losing independent status, because the board had already confirmed the committee's independence composition remained compliant without him counted as independent. That is forward planning applied to committee composition. The same discipline — knowing exactly what expertise and independence math a risk committee needs before a vacancy or reclassification forces the question — is what separates a risk committee built to survive an audit from one built to actually change outcomes.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are advising a board or sitting on one, the test I would apply is simple: pull the minutes from the last four risk committee meetings and count how many times a director's question changed a management recommendation. If the answer is zero, the committee is compliant. It is not yet doing its job.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What should a board risk committee in Singapore actually focus on each meeting?",
+        answer:
+          "Three to five material risks chosen in advance, each tied explicitly to a decision, limit or business unit — not a full walkthrough of the risk register. The committee's value comes from depth on a small number of items, not breadth across all of them.",
+      },
+      {
+        question: "Can a Singapore-listed company combine its audit and risk committees?",
+        answer:
+          "Yes, this is permitted under Singapore's Code of Corporate Governance and common outside the financial sector. It works only if risk is given a genuinely separate, protected block of agenda time rather than the last fifteen minutes of an audit committee meeting that has run long.",
+      },
+      {
+        question: "Who should sit on a board risk committee for an MAS-regulated insurer?",
+        answer:
+          "At minimum, members with the financial literacy to interrogate an ORSA report, plus at least one director with underwriting, actuarial or treasury depth relevant to the insurer's specific risk profile. MAS reviews have found that board minutes often show discussion of capital adequacy figures but little evidence of debate on scenario plausibility or the link between risk appetite and strategy — composition gaps are a common root cause.",
+      },
+    ],
+  },
 ];

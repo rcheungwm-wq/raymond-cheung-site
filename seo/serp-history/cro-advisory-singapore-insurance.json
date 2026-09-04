@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-09-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/cro-risk",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "teneo.com",
+        "url": "https://www.teneo.com/service/financial-advisory/restructuring/cro-and-interim-management/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "novotech-cro.com",
+        "url": "https://novotech-cro.com/locations/singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "compliance.waystone.com",
+        "url": "https://compliance.waystone.com/corporate-financial-advisory-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/asia-pacific-insurance/asia-pacific/singapore/topics/guide-for-insurance-sales-advisory-and-distribution",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "agencylist.com",
+        "url": "https://agencylist.com/services/conversion-rate-optimization/sg/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/xx/en/contacts/b/paul-brenchley.html",
+        "title": ""
+      }
+    ]
+  }
+]

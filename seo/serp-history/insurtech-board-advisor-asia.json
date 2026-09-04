@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/insurtech-asia-appoints-athistha-chitranukroh-advisory-board/58/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/top-10-insurtech-companies-in-asia-214884.aspx",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "fintechnews.sg",
+        "url": "https://fintechnews.sg/28620/insurtech/top-10-insurtech-leaders-in-asia/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "asia.insuretechconnect.com",
+        "url": "https://asia.insuretechconnect.com/2025-agenda",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "insurtechinsights.com",
+        "url": "https://insurtechinsights.com/asia/speakers/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "insurtechasia.org",
+        "url": "https://www.insurtechasia.org/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "apacinsurtech.com",
+        "url": "https://www.apacinsurtech.com/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "lusha.com",
+        "url": "https://www.lusha.com/business/7cd37d8a900bc4e8/",
+        "title": ""
+      }
+    ]
+  }
+]
