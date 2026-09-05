@@ -149,10 +149,18 @@ export default function AboutPage() {
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800,
             letterSpacing: "-0.03em", color: "var(--ink)", lineHeight: 1.12,
-            maxWidth: "680px",
+            maxWidth: "760px",
+          }}>
+            Raymond Cheung — Chartered Actuary, Chief Risk Officer and Board Adviser in Singapore
+          </h1>
+          <p style={{
+            fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+            fontSize: "clamp(1.05rem, 2vw, 1.35rem)", fontWeight: 500,
+            color: "var(--graphite)", lineHeight: 1.4, maxWidth: "620px",
+            marginTop: "1.25rem",
           }}>
             Two decades of risk, leadership and the discipline to connect them.
-          </h1>
+          </p>
         </div>
       </section>
 

@@ -113,13 +113,14 @@ const personSchema = {
   name: "Raymond Cheung",
   url: SITE_URL,
   image: `${SITE_URL}/raymond-cheung-portrait.jpg`,
-  jobTitle: "Chief Executive Officer",
+  jobTitle: "Chartered Actuary and Board Adviser",
   description:
     "Chartered Actuary, former Nasdaq CEO and independent board director advising boards, insurers and financial institutions across Asia on enterprise risk, governance, ESG and IPO readiness.",
   email: "mailto:enquiries@cer-consultancy.com",
   sameAs: [
     "https://www.linkedin.com/in/raymond-cheung-erm/",
     "https://www.cer-consultancy.com",
+    "https://www.alphacoasia.com/raymond-cheung/",
   ],
   address: {
     "@type": "PostalAddress",
