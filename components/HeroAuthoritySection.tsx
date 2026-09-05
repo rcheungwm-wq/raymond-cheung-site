@@ -47,6 +47,15 @@ export default function HeroAuthoritySection() {
             color: "var(--ink)",
           }}>
             Raymond Cheung
+            <span style={{
+              display: "block",
+              fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+              fontSize: "clamp(1.05rem, 2vw, 1.5rem)", fontWeight: 600,
+              letterSpacing: "-0.01em", lineHeight: 1.3,
+              color: "var(--ink-soft)", marginTop: "1rem",
+            }}>
+              Chartered Actuary &middot; Chief Risk Officer &middot; Board Adviser, Singapore
+            </span>
           </h1>
 
           <p style={{
@@ -55,8 +64,8 @@ export default function HeroAuthoritySection() {
             lineHeight: 1.65, color: "var(--ink-soft)",
             maxWidth: "440px", marginBottom: "2.75rem",
           }}>
-            Chartered Actuary and former Nasdaq CEO, advising Asia&rsquo;s boards
-            on risk, governance and ESG.
+            Former statutory Chief Risk Officer and Nasdaq-listed CEO, now advising
+            Asia&rsquo;s boards on risk, governance and ESG.
           </p>
 
           <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", marginBottom: "3.5rem" }}>
