@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/advisory/regulatory-compliance-advisory/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "flagright.com",
+        "url": "https://www.flagright.com/post/how-the-monetary-authority-singapore-mas-drives-financial-compliance",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/capital-markets/understand-the-types-of-capital-market-entities/financial-advisers",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "financialadvisor.com.sg",
+        "url": "https://financialadvisor.com.sg/mas-licensed-financial-advisors-singapore/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "duffandphelps.nl",
+        "url": "https://duffandphelps.nl/services/compliance-and-regulatory-consulting/regional/singapore-regulation/mas-licensing",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "capitalmarkets.sg",
+        "url": "https://capitalmarkets.sg/financial-advisers",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "bestar-sg.com",
+        "url": "https://www.bestar-sg.com/post/singapore-corporate-finance-advisory-licensing",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "businesswire.com",
+        "url": "https://www.businesswire.com/news/home/20220209006217/en",
+        "title": ""
+      }
+    ]
+  }
+]

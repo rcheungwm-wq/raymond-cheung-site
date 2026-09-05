@@ -59,5 +59,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sgs.com",
+        "url": "https://www.sgs.com/en-sg/services/esg-training",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sgs.com",
+        "url": "https://www.sgs.com/en-sg/service-groups/sustainability-and-environmental-social-and-corporate-governance-esg-training",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/Professional_Development/Courses/Advanced/Advanced_Programme_on_Sustainability_for_Listed_Entity_Directors.aspx",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "grc-solutions.com",
+        "url": "https://grc-solutions.com/courses/esg-sg/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sgc.org.sg",
+        "url": "https://www.sgc.org.sg/en/sgc-academy/sustainability-expert",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "enterprisesg.gov.sg",
+        "url": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/sustainability/enterprise-sustainability-programme/esp-sustainability-courses",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "academy.smu.edu.sg",
+        "url": "https://academy.smu.edu.sg/courses/certificate-environmental-social-and-governance-esg-professionals-banking-and-finance",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "theknowledgeacademy.com",
+        "url": "https://www.theknowledgeacademy.com/sg/courses/compliance-training/environmental-social-and-governance-esg-training-course/singapore/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "malaymail.com",
+        "url": "https://www.malaymail.com/news/money/mediaoutreach/2026/03/03/agileasia-and-smu-academy-establish-partnership-to-deliver-applied-sustainability-programmes-in-singapore/452124",
+        "title": ""
+      }
+    ]
   }
 ]

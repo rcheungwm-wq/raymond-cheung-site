@@ -47,5 +47,54 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/breaking-news/singapore-insurers-called-to-refine-risk-assessment-reports-73922.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "bhspecialty.com",
+        "url": "https://www.bhspecialty.com/asia/singapore-products/berkshire-hathaway-specialty-insurance-singapore-branch/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "pwchk.com",
+        "url": "https://www.pwchk.com/en/industries/financial-services/insurance/publications/using-the-orsa-to-embed-risk-management-processes.html",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "content.naic.org",
+        "url": "https://content.naic.org/sites/default/files/publication-orsa-guidance-manual.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "moodys.com",
+        "url": "https://www.moodys.com/web/en/us/insights/insurance/orsa-capital-adequacy-assessment-process-for-insurers.html",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "finma.ch",
+        "url": "https://www.finma.ch/en/supervision/insurers/cross-sectoral-tools/selbstbeurteilung-der-risikosituation-und-des-kapitalbedarfs-orsa/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "wongpartnership.com",
+        "url": "https://www.wongpartnership.com/upload/medias/KnowledgeInsight/document/18780/TheLegal500InsuranceandReinsuranceGuide2023.pdf",
+        "title": ""
+      }
+    ]
   }
 ]

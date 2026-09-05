@@ -59,5 +59,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/publication/articles/23017/sgx-regco-amends-listing-rules-to-limit-tenure-of-independent-directors-to-nine-years-and-require-disclosure-of-exact-remuneration-of-directors-and-ceos",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/SID-eGuide/SID-eGuide/eGuide-to-CG-Code/PracticeGuidance/Board_Composition_and_Guidance.aspx",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/board-matters-0",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sgxgroup.com",
+        "url": "https://www.sgxgroup.com/media-centre/20230111-sgx-regco-caps-independent-directors-tenure-enhances-remuneration",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/practice-guidance-1-board-roles-and-director-duties",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/practice-guidance-2-board-composition-and-guidance",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sgxgroup.com",
+        "url": "https://www.sgxgroup.com/leadership/board-directors",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/board-matters-2",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/kh/corporate/newsroom/press-release/2017/April-June/ne0317-170428",
+        "title": ""
+      }
+    ]
   }
 ]

@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-09-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/CGS/CGS-Who-We-Are.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "hub.climate-governance.org",
+        "url": "https://hub.climate-governance.org/Primer/Geography/sg",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "tandfonline.com",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/00472336.2025.2540968",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "esgtoday.com",
+        "url": "https://www.esgtoday.com/singapore-sets-climate-risk-management-expectations-for-banks-investors-insurers/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "nccs.gov.sg",
+        "url": "https://www.nccs.gov.sg/singapores-climate-action/climate-risk-management/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "cms.law",
+        "url": "https://cms.law/en/sgp/legal-updates/singapore-regulator-issues-new-guidelines-on-environmental-risk-management-transition-planning",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "wri.org",
+        "url": "https://www.wri.org/update/singapore-net-zero-corporate-climate-risk-disclosure-private-climate-finance",
+        "title": ""
+      }
+    ]
+  }
+]

@@ -74,13 +74,13 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - [x] `mas-notice-126-insurance-boards` — "MAS Notice 126: what it actually requires of Singapore insurance boards"
 - [x] `risk-appetite-framework-singapore` — "Why your Singapore risk appetite framework is not influencing any decisions"
 - [x] `board-risk-committee-singapore` — "What a board risk committee should look like for a Singapore-listed company"
-- [ ] `ai-governance-insurance-singapore` — "AI governance in Singapore insurance: what MAS expects, what boards miss"
+- [x] `ai-governance-insurance-singapore` — "AI governance in Singapore insurance: what MAS expects, what boards miss"
 - [ ] `corporate-governance-consultant-singapore` — independent advisory vs. firm consulting
 - [ ] `sustainability-reporting-singapore-sgx` — the board's role in SGX mandatory reporting
 - [ ] `reinsurance-governance-singapore` — what boards need to understand about reinsurance strategy
 - [ ] `insurance-capital-singapore-mas` — capital adequacy governance from the board's perspective
 
-### Published (28 posts, September 2026)
+### Published (30 posts, September 2026)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance
@@ -109,6 +109,8 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - ✅ Singapore risk appetite framework not influencing decisions (`risk appetite framework Singapore`)
 - ✅ SGX own board tenure clock (`SGX board director independent advisory`)
 - ✅ Board risk committee Singapore-listed company (`board-risk-committee-singapore`)
+- ✅ Emissions disclosure accuracy Singapore boards (`Scope 1 Scope 2 emissions disclosure Singapore`)
+- ✅ AI governance in Singapore insurance (`ai-governance-insurance-singapore`)
 
 ### Backlink actions (one-time, compound over time)
 - [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile

@@ -53,5 +53,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "rsm.global",
+        "url": "https://www.rsm.global/singapore/service/business-risk-consulting/corporate-governance-advisory",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/governance/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/advisory/corporate-governance-advisory/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "nobleprog.com.sg",
+        "url": "https://www.nobleprog.com.sg/consulting/corporate-governance",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "hmstrategy.com",
+        "url": "https://hmstrategy.com/corporate-governance/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mdmchongsme.com",
+        "url": "https://mdmchongsme.com/corporate-governance-advisory-singapore/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "threesquarednine.com",
+        "url": "https://threesquarednine.com/publications/corporate-governance-services-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rtcompliance.sg",
+        "url": "https://rtcompliance.sg/blog/best-corporate-governance-and-compliance-consultants/",
+        "title": ""
+      }
+    ]
   }
 ]

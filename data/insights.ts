@@ -2198,4 +2198,157 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "29",
+    title: "What Parliament's question on emissions data accuracy means for Singapore boards",
+    summary:
+      "A written parliamentary reply this year confirmed that mandatory external assurance on Scope 1 and Scope 2 emissions disclosures by Singapore-listed companies does not begin until FY2029. Until then, board oversight is the primary control over whether reported emissions figures are accurate — a responsibility, not a reassurance.",
+    category: "ESG",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "emissions-disclosure-accuracy-singapore-boards",
+    keywords: ["Scope 1 Scope 2 emissions disclosure Singapore", "board oversight sustainability reporting Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "The last time I sat in a committee meeting where the sustainability report was tabled for approval, the emissions figures took less airtime than a single disputed line in the management accounts. That is the wrong ratio, and a written parliamentary reply this year has made the point for me better than I have managed to.",
+      },
+      {
+        type: "paragraph",
+        text: "Mr Dennis Tan asked what ACRA and SGX RegCo have put in place to ensure the accuracy and reliability of Scope 1 and Scope 2 greenhouse gas emissions disclosures by listed companies from FY2025, given that mandatory external limited assurance on those disclosures is only required from FY2029. The reply, from Mr Gan Kim Yong as Chairman of MAS, pointed to the machinery already in place: the Greenhouse Gas Protocol as the required measurement standard, disclosure of measurement approaches, inputs and assumptions, internal review of reporting processes, and — his words — appropriate board oversight on all their disclosures. He also noted that reporting rates have climbed from around 50 to 87 per cent for Scope 1, and 61 to 93 per cent for Scope 2, between 2023 and 2025.",
+      },
+      {
+        type: "heading",
+        text: "Completeness is not accuracy",
+      },
+      {
+        type: "paragraph",
+        text: "Those reporting-rate numbers are real progress, and I do not want to be dismissive of them. But they measure whether a company disclosed a figure, not whether the figure is right. Between now and FY2029 — four full reporting cycles — boards are approving emissions data that no external assurer will examine. The reply is explicit that the control in the interim is the company's own processes and its board. That is a responsibility being placed on directors, not a comfort being offered to them.",
+      },
+      {
+        type: "pullquote",
+        text: "For four more reporting cycles, the only assurance on your emissions numbers is your own board's diligence. The regulator has said so in writing.",
+      },
+      {
+        type: "heading",
+        text: "What I would ask before signing off",
+      },
+      {
+        type: "list",
+        items: [
+          "Who owns the emissions calculation, and have they walked the committee through the boundary decisions — which legal entities, which sites, which activities are in and out, and why?",
+          "Where are the estimates, and how large are they? A number built on supplier averages and extrapolation is not the same as one built on metered data, and the report rarely makes the difference visible.",
+          "What changed since last year, and is the change operational or methodological? A 12 per cent fall driven by a new emissions factor is not a 12 per cent decarbonisation, and should not be presented as one.",
+          "If this figure were assured today, where would the assurer push back first — and can we answer that now, or are we hoping to have three years to work it out?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The FY2029 assurance deadline is being treated in some boardrooms as the date the emissions numbers start to matter. It is the opposite. It is the date someone outside the building starts checking them. Until then, the accuracy of what a Singapore-listed company reports about its emissions is governed entirely by its own management and its own board — and, in too many cases I have seen, by a committee that gives it ten minutes at the end of a long agenda.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do Singapore-listed companies need external assurance on Scope 1 and Scope 2 emissions before FY2029?",
+        answer:
+          "No. Mandatory external limited assurance on Scope 1 and Scope 2 greenhouse gas emissions applies to listed issuers only from FY2029. For FY2025 to FY2028 disclosures the safeguards are the Greenhouse Gas Protocol measurement standard, disclosure of methods and assumptions, internal review of reporting processes, and board oversight — there is no independent third-party check in that window.",
+      },
+      {
+        question: "What is the board's responsibility for emissions disclosure accuracy in Singapore?",
+        answer:
+          "SGX RegCo requires listed companies to have robust processes, data governance, internal controls and appropriate board oversight over all disclosures, including greenhouse gas emissions. In the years before assurance becomes mandatory, the board is effectively the primary control over whether reported emissions figures are reliable, and should interrogate calculation boundaries, the share of the number that is estimated, and year-on-year movements.",
+      },
+      {
+        question: "What should a Singapore audit or risk committee ask about the emissions figures in a sustainability report?",
+        answer:
+          "Ask who owns the calculation and what boundary decisions they made, how much of the figure is estimated rather than measured, whether year-on-year changes are operational or methodological, and where an external assurer would most likely challenge the number if assurance applied today.",
+      },
+    ],
+  },
+  {
+    id: "30",
+    title: "AI governance in Singapore insurance: what MAS expects, what boards miss",
+    summary:
+      "MAS has set clear supervisory expectations for how insurers govern, test and monitor AI. In the boardrooms I sit in, the effort goes into mapping the guidelines clause by clause — when the harder and more useful work is building an inventory of where the insurer already uses AI, and owning the third-party models, drift and human oversight that inventory exposes.",
+    category: "Technology Risk",
+    readingTime: "8 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "ai-governance-insurance-singapore",
+    keywords: ["AI governance insurance Singapore", "MAS AI risk management guidelines insurers"],
+    body: [
+      {
+        type: "paragraph",
+        text: "A board I advise asked me last quarter whether the insurer was ready for MAS's incoming AI risk management guidelines. The honest place to start, I said, was that we could not yet produce a reliable list of where the company already used AI. Underwriting had two models. Claims had a triage tool bought from a vendor. Marketing had licensed a platform with a generative feature that nobody had mentioned to the risk function. The guidelines were not the problem. The inventory was.",
+      },
+      {
+        type: "paragraph",
+        text: "MAS consulted on its Guidelines on AI Risk Management from November 2025 to January 2026, and followed in March 2026 with an industry toolkit built alongside two dozen banks and insurers. This is not a new regime bolted onto insurance regulation. It sets out how a financial institution is expected to govern, test, monitor and manage AI across its whole life cycle — from board and senior management oversight through data management, fairness, transparency and human oversight — scaled to the size and nature of what the institution actually does. MAS has proposed a twelve-month runway from issuance to implementation.",
+      },
+      {
+        type: "pullquote",
+        text: "The AI guidelines are not a new regime bolted onto insurance regulation. They are model risk governance, extended to tools your actuaries did not build.",
+      },
+      {
+        type: "heading",
+        text: "What MAS expects, in plain terms",
+      },
+      {
+        type: "paragraph",
+        text: "Strip out the terminology and the expectations are familiar to anyone who has run model governance for pricing or reserving. Know which models you have. Know what they do and which decisions they drive. Assess them before deployment, in proportion to how material they are. Monitor them after deployment, because performance drifts. Keep a human genuinely accountable for outcomes, not merely present in the workflow. Be able to explain, to a customer or a regulator, why a model produced the decision it did. The genuinely new surface area is generative AI, autonomous agents that can take actions on their own, and the rising share of models that arrive through vendors rather than internal teams.",
+      },
+      {
+        type: "heading",
+        text: "Where boards think the work is",
+      },
+      {
+        type: "paragraph",
+        text: "In most of the boardrooms I have sat in, the instinct is to treat the guidelines as a mapping exercise: line up each clause against an existing policy, note the gaps, ask management for a remediation plan, move on. That produces a tidy paper. It does not produce governance. The mapping approach assumes the hard part is knowing what the regulator wants. The hard part is knowing what your own business is already doing — and a clause-by-clause review will not tell you that, because it starts from the regulation rather than from the company.",
+      },
+      {
+        type: "heading",
+        text: "The five things I see boards miss",
+      },
+      {
+        type: "list",
+        items: [
+          "The AI inventory. Almost no insurer I have worked with can produce a current, complete list of AI and machine-learning models in use, who owns each one, and what decision it influences. Without that list, every other control is theoretical.",
+          "The third-party blind spot. A claims model licensed from a vendor is still your model for governance purposes. Boards routinely accept 'the vendor handles that' for the testing, bias assessment and monitoring the guidelines expect the insurer itself to own.",
+          "Explainability as a document, not a capability. Being able to explain a model's decision is treated as a one-time write-up for the file. It should be a standing ability to reconstruct, on request, why a specific customer was declined, priced or flagged.",
+          "Post-deployment drift with no owner. Models are scrutinised hardest just before go-live and least afterwards, which is backwards. Pricing and underwriting models degrade as portfolios and customer behaviour shift, and few insurers have named the person accountable for noticing.",
+          "Nominal human oversight. 'Human in the loop' often means someone who approves model output under time pressure with no real ability to override it. The guidelines expect meaningful human accountability, which is a question of resourcing and authority, not a box on a workflow diagram.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What I would have in place before the transition period ends",
+      },
+      {
+        type: "paragraph",
+        text: "If I were chairing the risk committee of a Singapore insurer today, I would want four things settled before the guidelines take effect. A complete AI inventory, refreshed quarterly, with a named owner for each model. A materiality tiering, so that the heaviest governance falls on the models that price risk, accept risk or pay claims. A monitoring regime for the high-tier models, with defined performance thresholds and an escalation path when they are breached. And a clear line between the MAS supervisory expectations that apply to the institution and the older, voluntary Model AI Governance Framework, which some management teams still cite as though it discharges the obligation. It does not.",
+      },
+      {
+        type: "paragraph",
+        text: "Singapore is ahead of most jurisdictions in writing down what it expects of AI in finance, and insurers here will be judged against a standard that is clearer than the one their peers face elsewhere. The institutions that struggle will not be the ones that misread a clause. They will be the ones that spent the transition period mapping the guidelines instead of mapping their own use of AI. The board's first question should not be 'are we compliant?' It should be 'can someone show me the list?'",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does MAS expect from insurers on AI governance?",
+        answer:
+          "MAS's Guidelines on AI Risk Management set supervisory expectations for how insurers and other financial institutions govern, test, monitor and manage AI across its full life cycle — including board and senior management oversight, data management, fairness, explainability and human oversight — scaled to the size and nature of the institution. MAS consulted on the guidelines between November 2025 and January 2026 and has proposed a twelve-month implementation period after they are issued.",
+      },
+      {
+        question: "How is AI governance different from existing model risk management for a Singapore insurer?",
+        answer:
+          "For pricing and reserving models built in-house, the expectations are largely an extension of the model risk governance actuaries already know: inventory, pre-deployment assessment, post-deployment monitoring and accountable human ownership. The genuinely new elements are generative AI, autonomous AI agents, and the rising share of models supplied by third-party vendors — where the insurer still carries governance responsibility even though it did not build the model.",
+      },
+      {
+        question: "What is the difference between MAS's AI Risk Management Guidelines and Singapore's Model AI Governance Framework?",
+        answer:
+          "The Model AI Governance Framework, issued through IMDA and the PDPC, is a voluntary, cross-sector guide to responsible AI practices. MAS's AI Risk Management Guidelines are financial-sector supervisory expectations that MAS will assess regulated institutions against. Citing the voluntary framework does not discharge a MAS-regulated insurer's obligations under the guidelines.",
+      },
+    ],
+  },
 ];

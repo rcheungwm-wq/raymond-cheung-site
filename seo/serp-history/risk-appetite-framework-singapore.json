@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "fsb.org",
+        "url": "https://www.fsb.org/uploads/c_131011m.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "cdn.aws.singtel.com",
+        "url": "https://cdn.aws.singtel.com/annualreport/2020/downloads/risk-management.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "bakermckenzie.com",
+        "url": "https://www.bakermckenzie.com/en/insight/publications/2026/03/singapore-mas-proposes-updated-guidelines-on-operational-risk-management",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "qbe.com",
+        "url": "https://www.qbe.com/sg/about-qbe/enterprise-risk-management",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "cms.law",
+        "url": "https://cms.law/en/sgp/legal-updates/singapore-regulator-issues-new-guidelines-on-environmental-risk-management-transition-planning",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-risk-management-practices--board-and-senior-management",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "rmaindia.org",
+        "url": "https://rmaindia.org/risk-management-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "assets.kpmg.com",
+        "url": "https://assets.kpmg.com/content/dam/kpmgsites/uk/pdf/2023/11/risk-appetite-framework.pdf",
+        "title": ""
+      }
+    ]
+  }
+]
