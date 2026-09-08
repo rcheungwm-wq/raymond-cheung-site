@@ -2351,4 +2351,165 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "31",
+    title: "What MAS's stablecoin reserve rules ask of the boards that will run them",
+    summary:
+      "On 1 September 2026 MAS published draft Payment Services Act amendments requiring single-currency stablecoin issuers to hold reserves at least equal to par value, redeem on demand in the pegged currency, and pay no yield. Strip out the crypto vocabulary and this is an insurance balance sheet — and it needs a board that can govern a promise to pay a fixed amount on demand.",
+    category: "Regulation",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "mas-stablecoin-reserve-governance-boards",
+    keywords: ["MAS stablecoin framework Singapore", "stablecoin reserve governance board"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I have sat through risk committee meetings where the entire agenda came down to one question: can this pool of assets meet a fixed obligation on demand, in full, on the worst day we can plausibly imagine? That is an insurance question, and an asset-liability question, and it is answered with duration analysis, liquidity ladders and run scenarios — not with a strategy deck. MAS has just written a version of that question for a new set of companies.",
+      },
+      {
+        type: "paragraph",
+        text: "On 1 September 2026 MAS published a consultation on draft amendments to the Payment Services Act to implement its single-currency stablecoin framework, with responses due by 16 October. The core obligations are straightforward to state: an issuer must hold reserve assets at least equal to the par value of every stablecoin in circulation, must meet redemption requests in the pegged currency within timeframes MAS will prescribe, must safeguard customer funds until tokens are delivered, and may not pay yield or interest tied to holdings.",
+      },
+      {
+        type: "heading",
+        text: "This is an insurance balance sheet",
+      },
+      {
+        type: "paragraph",
+        text: "Take away the word stablecoin and you have a liability that is redeemable at a fixed value, on demand, backed by a segregated pool of investable assets. That is the structure of a money-market fund and, in its risk shape, of a short-tail insurer. What keeps it safe is not payments-industry governance or technology governance. It is the unglamorous discipline of matching assets to the liability, laddering liquidity so a wave of redemptions can be met without a fire sale, and stress-testing a run before it happens.",
+      },
+      {
+        type: "pullquote",
+        text: "A stablecoin issuer is running an insurance balance sheet. The board that governs it needs to think like an insurer's board, not a payments start-up's.",
+      },
+      {
+        type: "heading",
+        text: "What I would want the board asking",
+      },
+      {
+        type: "list",
+        items: [
+          "What is the duration and liquidity profile of the reserves against a defined redemption shock — can we meet, say, 30 per cent redemption within a week without realising losses?",
+          "Who owns the reserve investment mandate, and is it deliberately dull? The rules now forbid passing yield to holders, which removes the excuse for reaching for it in the first place.",
+          "What is our modelled worst-day outflow, and has the board actually seen that scenario and pushed back on the assumptions behind it?",
+          "If the peg comes under pressure intraday, who has the authority to act, on what triggers, and within what timeframe?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Singapore is regulating stablecoins as a stability product, not as a piece of technology. The issuers that cope with this framework will be the ones whose boards already know how to govern a promise to pay a fixed amount on demand. That is a skill set the insurance and asset-management sectors have built over decades. Most firms coming to stablecoin issuance from the crypto side have not — and the transition period is the time to bring that expertise onto the board, not after the first redemption spike.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What do MAS's proposed stablecoin rules require issuers to hold in reserve?",
+        answer:
+          "Under the draft Payment Services Act amendments published on 1 September 2026, a regulated single-currency stablecoin issuer must hold reserve assets at least equal to the par value of all stablecoins in circulation, meet redemption requests in the pegged currency within MAS-prescribed timeframes, and safeguard customer funds until the stablecoins are delivered. Issuers are also barred from paying yield or interest tied to holdings. The consultation closes on 16 October 2026.",
+      },
+      {
+        question: "Why should a stablecoin issuer's board think like an insurance board?",
+        answer:
+          "Because the underlying structure is the same: a liability redeemable at a fixed value on demand, backed by a pool of investable assets. The governance that matters is asset-liability matching, liquidity laddering and run-scenario stress testing — the disciplines an insurer's board risk committee already runs — rather than the product, growth and technology focus of a typical payments firm.",
+      },
+      {
+        question: "What should a board ask about stablecoin reserve management?",
+        answer:
+          "Ask for the liquidity and duration profile of the reserves against a defined redemption shock, who owns the investment mandate and how conservative it is, the modelled worst-day outflow and whether the board has stress-tested it, and the decision rights and timeline if the peg comes under pressure intraday.",
+      },
+    ],
+  },
+  {
+    id: "32",
+    title: "What a corporate governance consultant in Singapore can't give a board — and an adviser can",
+    summary:
+      "Singapore's governance consulting market is mature and useful: gap assessments against the Code, refreshed charters, board evaluations, skills matrices. But a consulting engagement is scoped, priced and closed, and the firm is accountable for the document — not for whether the board makes better decisions afterwards. That gap is where an independent board adviser works.",
+    category: "Board Advisory",
+    readingTime: "7 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "corporate-governance-consultant-singapore",
+    keywords: ["corporate governance consultant Singapore", "independent board adviser Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I have been on both sides of this. As a board adviser I have walked into companies where a governance consulting firm had recently delivered a polished report — a new board charter, revised committee terms of reference, a meeting calendar, a director skills matrix. All of it competent. None of it had changed a single decision the board actually made. The machinery was upgraded and the behaviour was identical.",
+      },
+      {
+        type: "heading",
+        text: "What the firms are genuinely good at",
+      },
+      {
+        type: "paragraph",
+        text: "The corporate governance consulting market in Singapore is mature, and I do not want to be dismissive of it. Firms of every size — the large accounting-adjacent practices, the compliance specialists, the boutiques — will run a gap assessment against the Code of Corporate Governance, draft or rebuild board and committee charters, design a delegation-of-authority framework, facilitate a board evaluation, and document the policies a company is expected to have and often does not. If your governance scaffolding is missing, inconsistent, or a decade out of date, engaging one of these firms is the right move.",
+      },
+      {
+        type: "paragraph",
+        text: "The output is a deliverable, and the deliverable is genuinely needed at specific moments: preparing for an IPO, responding to a regulatory review, absorbing a change of control, or professionalising a founder-led board that has outgrown its informal habits. At those moments you need documents that exist, are correct, and align with the listing rules. A consulting firm produces those efficiently, and a board adviser generally does not — it is not what the retainer is for.",
+      },
+      {
+        type: "heading",
+        text: "Where the consulting model runs out",
+      },
+      {
+        type: "paragraph",
+        text: "A consulting engagement is scoped, priced and closed. The firm is accountable for the report, not for what the board does with it over the following year. That is not a criticism of any individual firm — it is the structure of the transaction. Three things follow from it. The firm is commercially reluctant to tell the chair something the chair does not want to hear, because the chair is the buyer. The specialists doing the work often know the Code thoroughly but have never sat in the seat, so their advice is about what boards should do rather than how boards actually behave when a dominant CEO is managing the agenda. And once the report is delivered, nobody is in the room to notice that the new risk committee terms of reference have not changed what the risk committee discusses.",
+      },
+      {
+        type: "pullquote",
+        text: "A consulting firm is accountable for the report. An adviser is accountable for whether the board is any better.",
+      },
+      {
+        type: "heading",
+        text: "What an independent adviser does differently",
+      },
+      {
+        type: "list",
+        items: [
+          "Stays in the room over time. The adviser sees whether the redesigned committee actually behaves differently six months on, and says so plainly when it does not.",
+          "Has no deliverable to protect. The only output is the board's decision quality, so the adviser is free to say 'the framework is fine — the problem is that you are not using it.'",
+          "Usually brings operating experience. Someone who has been a chief risk officer, a chief executive, or a committee chair advises on how boards behave under pressure, not on what a governance code recommends in principle.",
+          "Is retained by, and loyal to, the board or a specific committee — not management. The uncomfortable conversation with the CEO is the job, not a threat to the account.",
+          "Works on this board, not a template. A skills matrix that looks balanced on paper can still leave a board with nobody who can genuinely challenge the appointed actuary or read a reinsurance treaty, and only someone working the specific board will catch that.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "When you need which",
+      },
+      {
+        type: "paragraph",
+        text: "This is not an either-or. Use a consulting firm to build or refresh the machinery. Use an adviser to make sure the machinery drives decisions. In practice, a board that has just been through a consulting engagement is often exactly the board that then needs someone to sit with it for a year and hold it to what the report recommended — because the report, on its own, will be filed and referenced at the next evaluation and otherwise ignored.",
+      },
+      {
+        type: "heading",
+        text: "The question to ask before you engage anyone",
+      },
+      {
+        type: "paragraph",
+        text: "Ask what will be different in twelve months, and how you will know. A consulting firm will answer in deliverables: charters, a skills matrix, an evaluation report, a policy suite. An adviser should answer in decisions: the board will have declined something it would previously have waved through, the risk committee will have sent a paper back for rework, the chair will have had a conversation with the chief executive that was overdue by a year. If the honest answer to your question is 'you will have better documents,' you want a firm, and you should pay a firm's price for a firm's scope. If the answer is 'you will be a better board,' that is not a document and it is not a project — it is a relationship, and you should engage it as one.",
+      },
+      {
+        type: "paragraph",
+        text: "Most Singapore boards that go looking for a corporate governance consultant have two problems at once: the machinery needs work, and the board is not using the machinery it already has. Fix the first once, with a firm. Fix the second continuously, with someone who has done the job and has nothing to sell you next quarter.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does a corporate governance consultant in Singapore actually do?",
+        answer:
+          "Typically a scoped project: a gap assessment against the Code of Corporate Governance, drafting or refreshing board and committee charters, designing a delegation-of-authority framework, facilitating a board evaluation, and producing a director skills matrix. It is most useful at a point of transition — IPO preparation, a regulatory review, or a change of control — where the governance framework is missing or out of date.",
+      },
+      {
+        question: "What is the difference between a governance consultant and an independent board adviser in Singapore?",
+        answer:
+          "A consultant is accountable for a deliverable and the engagement ends when it is delivered. An independent board adviser is retained over time, is loyal to the board or a committee rather than to management, usually brings experience of having held an executive or chair role, and is measured on whether the board's decisions improve rather than on documents produced.",
+      },
+      {
+        question: "Do I need both a governance consultant and a board adviser?",
+        answer:
+          "Often yes, and usually in sequence. Use a consulting firm to build or modernise the governance machinery, then an independent adviser to ensure that machinery influences real decisions. A board that has just completed a consulting engagement frequently benefits most from an adviser who can hold it to the report's recommendations over the following year.",
+      },
+    ],
+  },
 ];

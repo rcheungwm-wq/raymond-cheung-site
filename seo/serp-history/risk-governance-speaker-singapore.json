@@ -126,5 +126,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "isca.org.sg",
+        "url": "https://isca.org.sg/member-support/events/isca-conference-2025/isca-conference-speakers-2025",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/speakers",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ilearn.isca.org.sg",
+        "url": "https://ilearn.isca.org.sg/home/course/risk-management-corporate-governance/154",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "singaporespeakerbureau.com",
+        "url": "https://www.singaporespeakerbureau.com/category/risk-management",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "australia.risklive.net",
+        "url": "https://australia.risklive.net/speaker",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "asia.risklive.net",
+        "url": "https://asia.risklive.net/speakers",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "cybersecurityasia.tech",
+        "url": "https://cybersecurityasia.tech/speakers/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "math.nus.edu.sg",
+        "url": "https://www.math.nus.edu.sg/?p=3025",
+        "title": ""
+      }
+    ]
   }
 ]

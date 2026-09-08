@@ -47,5 +47,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "cambridge.org",
+        "url": "https://www.cambridge.org/core/books/abs/independent-directors-in-asia/independent-directors-in-singapore/074A1AF3C8762084B42E157461DB8E39",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "singaporelegaladvice.com",
+        "url": "https://singaporelegaladvice.com/law-articles/independent-directors-who-role/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/board-matters-0",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "rpc.cfainstitute.org",
+        "url": "https://rpc.cfainstitute.org/policy/positions/independent-directors-in-asia-pacific",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/q-independent-director-board-of-directors-jobs.html",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "v1.lawgazette.com.sg",
+        "url": "https://v1.lawgazette.com.sg/2004-4/April04-feature3.htm",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "kennedyslaw.com",
+        "url": "https://www.kennedyslaw.com/en/thought-leadership/article/new-regulatory-rules-to-limit-the-tenure-of-independent-directors-in-a-move-to-strengthen-corporate-governance-in-singapore-are-these-changes-enough/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/my/corporate/newsroom/press-release/2018/July-September/ne2918-180831",
+        "title": ""
+      }
+    ]
   }
 ]
