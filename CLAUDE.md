@@ -76,11 +76,11 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - [x] `board-risk-committee-singapore` — "What a board risk committee should look like for a Singapore-listed company"
 - [x] `ai-governance-insurance-singapore` — "AI governance in Singapore insurance: what MAS expects, what boards miss"
 - [x] `corporate-governance-consultant-singapore` — independent advisory vs. firm consulting
-- [ ] `sustainability-reporting-singapore-sgx` — the board's role in SGX mandatory reporting
+- [x] `sustainability-reporting-singapore-sgx` — the board's role in SGX mandatory reporting
 - [ ] `reinsurance-governance-singapore` — what boards need to understand about reinsurance strategy
 - [ ] `insurance-capital-singapore-mas` — capital adequacy governance from the board's perspective
 
-### Published (32 posts, September 2026)
+### Published (34 posts, September 2026)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance
@@ -113,6 +113,8 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - ✅ AI governance in Singapore insurance (`ai-governance-insurance-singapore`)
 - ✅ MAS stablecoin reserve governance for boards (`MAS stablecoin framework Singapore`)
 - ✅ Corporate governance consultant vs independent board adviser (`corporate-governance-consultant-singapore`)
+- ✅ SGTI market-centric model reaction (`sgti-market-centric-model-singapore-boards`)
+- ✅ Board's role in SGX mandatory sustainability reporting (`sustainability-reporting-singapore-sgx`)
 
 ### Backlink actions (one-time, compound over time)
 - [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile

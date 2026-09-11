@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-09-11",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "se.com",
+        "url": "https://www.se.com/sg/en/download/document/Counting-to-3",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "bizbeat.nus.edu.sg",
+        "url": "https://bizbeat.nus.edu.sg/thought-leadership/article/the-strategic-imperative-around-carbon-management",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "se.com",
+        "url": "https://www.se.com/my/en/about-us/newsroom/news/press-releases/nine-out-of-10-singapore-companies-not-fully-measuring-and-analysing-scope-3-emissions-joint-report-by-schneider-electric-and-isca-6683cd9ef0963f9a700b8545",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "blog.se.com",
+        "url": "https://blog.se.com/energy-management-energy-efficiency/2025/08/27/why-tackling-scope-3-emissions-is-the-hardest-and-most-important-part-of-sustainability/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "lawinsider.com",
+        "url": "https://www.lawinsider.com/dictionary/scope-3-emissions",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "ibm.com",
+        "url": "https://ibm.com/think/topics/scope-3-emissions",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/th/en/home/insights/2024/08/unlocking-the-scope-3-opportunity-in-asia-pacific.html",
+        "title": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-09-11",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/circulars/id01_26",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas/regulations-and-financial-stability/regulations-guidance-and-licensing/insurance/regulations-guidance-and-licensing/notices/notices-to-all-insurers/mas-126_mar-2020_tracked-2.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/notices/notice-126",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/notices/id/notice-126/mas-126_30-sep-2022-tracked.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/notices/id/notice-133/mas-notice-133_16-mar-2026.pdf",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulations-and-financial-stability/regulations-guidance-and-licensing/insurance/notices.aspx",
+        "title": ""
+      }
+    ]
+  }
+]

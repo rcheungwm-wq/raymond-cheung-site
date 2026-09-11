@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-11",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-risk-management-practices--board-and-senior-management",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/MAS/Regulations-and-Financial-Stability/Regulatory-and-Supervisory-Framework/Risk-Management/Risk-Management-Guidelines_Insurance-Core-Activities.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-risk-management-practices-for-insurance-business---core-activities",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "parima.org",
+        "url": "https://parima.org/board-members/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "rimas.org.sg",
+        "url": "https://www.rimas.org.sg/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "parima.org",
+        "url": "https://parima.org/about-us/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/asia-pacific-insurance/asia-pacific/singapore/topics/guide-for-directors-and-senior-managers-of-insurance-companies",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "singre.com.sg",
+        "url": "https://www.singre.com.sg/content/risk-and-insurance-management-association-singapore",
+        "title": ""
+      }
+    ]
+  }
+]

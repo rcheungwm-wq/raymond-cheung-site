@@ -145,5 +145,103 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/resources/announcements/press-releases/2025/soa-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ensun.io",
+        "url": "https://ensun.io/search/actuarial-consulting/singapore",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "glassdoor.com",
+        "url": "https://www.glassdoor.com/Job/singapore-actuary-jobs-SRCH_IL.0,9_IM1123_KO10,17.htm",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/company/singapore-actuarial-society",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/singaporeactuaries/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "gravitasgroup.com.sg",
+        "url": "https://www.gravitasgroup.com.sg/specialisms/actuarial",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "skillup.sg",
+        "url": "https://www.skillup.sg/careers/actuary",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sg.jobstreet.com",
+        "url": "https://sg.jobstreet.com/actuary-jobs",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/resources/announcements/press-releases/2025/soa-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ensun.io",
+        "url": "https://ensun.io/search/actuarial-consulting/singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "glassdoor.com",
+        "url": "https://www.glassdoor.com/Job/singapore-actuary-jobs-SRCH_IL.0,9_IM1123_KO10,17.htm",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/singaporeactuaries/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "gravitasgroup.com.sg",
+        "url": "https://www.gravitasgroup.com.sg/specialisms/actuarial",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "skillup.sg",
+        "url": "https://www.skillup.sg/careers/actuary",
+        "title": ""
+      }
+    ]
   }
 ]

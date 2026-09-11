@@ -487,7 +487,7 @@ export const insights: Insight[] = [
     summary:
       "Most boards understand they need financial and legal expertise around the table. Far fewer have thought carefully about actuarial oversight — and in an environment of mandatory ESG disclosure, rising catastrophe exposure and capital reform, that gap is becoming expensive.",
     category: "Board Advisory",
-    readingTime: "7 min read",
+    readingTime: "9 min read",
     date: "August 2026",
     status: "published",
     slug: "actuarial-board-adviser-singapore",
@@ -550,6 +550,39 @@ export const insights: Insight[] = [
         type: "paragraph",
         text: "If your board is heading into FY2026 carrying significant insurance, capital, climate or financial services exposure, it is worth asking whether the expertise you have around the table is sufficient to govern what is in front of you.",
       },
+      {
+        type: "heading",
+        text: "This is not the same role as your Appointed Actuary",
+      },
+      {
+        type: "paragraph",
+        text: "Every MAS-regulated insurer already has an Appointed Actuary, and boards sometimes assume that satisfies the need for actuarial oversight. It does not, and conflating the two is one of the more expensive governance mistakes I see. The Appointed Actuary has a statutory function — signing off reserve adequacy, certifying the ORSA's technical content, reporting to management and the board on the matters MAS Notice 126 prescribes. That role is necessarily close to the numbers the company itself produces, and its accountability runs to the regulator as much as to the board.",
+      },
+      {
+        type: "paragraph",
+        text: "An actuarial board adviser sits on the other side of that relationship. The job is not to certify management's numbers — it is to help the board decide whether to accept them, and what to ask before it does. When a chair asks me whether the reserving assumptions the Appointed Actuary has signed off are conservative or optimistic relative to the market, or whether a proposed reinsurance renewal actually closes the gap the last stress test identified, that is a governance judgment, not a technical certification. Boards that only have the Appointed Actuary's sign-off are hearing one voice, produced under one set of incentives, on a question that deserves independent challenge.",
+      },
+      {
+        type: "pullquote",
+        text: "The Appointed Actuary tells you the numbers are correctly calculated. A board adviser helps you decide whether they are the right numbers to be comfortable with.",
+      },
+      {
+        type: "heading",
+        text: "What to check before you engage one",
+      },
+      {
+        type: "list",
+        items: [
+          "Statutory track record — has this person actually held sign-off responsibility as an Appointed Actuary or CRO, or only advised from outside the seat?",
+          "Independence from product and consulting relationships — is the adviser also selling reinsurance placement, audit, or technology services that create a conflict when they are meant to be challenging management's numbers?",
+          "Board-level fluency, not just technical depth — can they translate a reserving or capital assumption into a question a non-actuary director can act on, in the time a board meeting actually allows?",
+          "Willingness to put a view in writing — an adviser who will only speak informally in the corridor is not giving the board anything it can rely on if the assumption turns out to be wrong.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this needs to be a large or permanent commitment. Most engagements I run start narrow — a single ORSA cycle, a capital transaction, a reinsurance renewal — and the board decides from there whether the value justifies a standing advisory relationship. The mistake is not under-committing to a small engagement. It is assuming the gap does not exist because the Appointed Actuary's report already has a signature on it.",
+      },
     ],
     faqs: [
       {
@@ -559,6 +592,14 @@ export const insights: Insight[] = [
       {
         question: "Which Singapore-listed companies need actuarial board advisory?",
         answer: "MAS-regulated insurers and reinsurers have the clearest need, but any SGX-listed company with significant insurance, pension, financial services, or climate-related capital exposure benefits from actuarial oversight at board level — particularly under the new mandatory sustainability reporting requirements from FY2025.",
+      },
+      {
+        question: "Is an actuarial board adviser the same as the company's Appointed Actuary?",
+        answer: "No. The Appointed Actuary is a statutory role that signs off reserve adequacy and the ORSA's technical content, reporting to management and MAS as much as to the board. An actuarial board adviser works for the board itself, helping directors decide whether to accept the Appointed Actuary's assumptions and what to challenge before they do — an independent, governance-level check rather than a technical certification.",
+      },
+      {
+        question: "How should a board structure an engagement with an actuarial adviser?",
+        answer: "Most engagements should start narrow — tied to a single ORSA cycle, a capital transaction, or a reinsurance renewal — rather than an open-ended retainer. That lets the board see the value directly before deciding whether a standing advisory role, such as attendance at risk or audit committee meetings, is warranted.",
       },
       {
         question: "Is Raymond Cheung a qualified actuary?",
@@ -2509,6 +2550,146 @@ export const insights: Insight[] = [
         question: "Do I need both a governance consultant and a board adviser?",
         answer:
           "Often yes, and usually in sequence. Use a consulting firm to build or modernise the governance machinery, then an independent adviser to ensure that machinery influences real decisions. A board that has just completed a consulting engagement frequently benefits most from an adviser who can hold it to the report's recommendations over the following year.",
+      },
+    ],
+  },
+  {
+    id: "33",
+    title: "What SGTI's Move to a 'Market-Centric' Score Means for Singapore Boards",
+    summary:
+      "The Singapore Governance and Transparency Index is proposing to let financial metrics — return on equity, net profit margin, dividend yield — make up a quarter of its score from 2026. That is a bigger change to how governance gets measured than most boards have registered.",
+    category: "Governance",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "sgti-market-centric-model-singapore-boards",
+    keywords: ["Singapore Governance and Transparency Index", "SGTI 2026", "corporate governance Singapore boards"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I once sat on a risk committee that turned down a reinsurance-backed growth line the CEO badly wanted written. The economics looked attractive for at least two years. We said no because the tail risk on the assumptions was thinner than management was pricing for, and it was the right call — the kind of call that shows up nowhere in a return-on-equity figure and would, if anything, have made that year's numbers look more conservative than a board that said yes. That is the tension I thought about reading that the Singapore Governance and Transparency Index is moving to a 'market-centric' model.",
+      },
+      {
+        type: "heading",
+        text: "What is actually changing",
+      },
+      {
+        type: "paragraph",
+        text: "SGTI 2026, released by CPA Australia, NUS Business School's Centre for Governance and Sustainability, and the Singapore Institute of Directors, showed small and mid-cap issuers narrowing the governance gap with the large caps — a genuinely encouraging result. Alongside it, CGS proposed that financial and stock-related indicators — return on equity, net profit margin, dividend yield among them — make up around 25% of the overall score from 2026 onward, with governance and transparency practices carrying the remaining 75%. The stated logic is reasonable: an index that only measures process and disclosure can reward boards that look procedurally immaculate while the company underperforms, and investors want to know that governance quality is actually connected to outcomes.",
+      },
+      {
+        type: "pullquote",
+        text: "Good governance and good short-term financial performance are correlated, not identical — and an index that cannot tell the difference will eventually reward the wrong boards.",
+      },
+      {
+        type: "heading",
+        text: "Why I am not fully comfortable with it",
+      },
+      {
+        type: "paragraph",
+        text: "Financial metrics move with the cycle, sector, and capital intensity of the business in ways governance quality does not. A board that responsibly declines a leveraged acquisition, holds back a dividend to rebuild capital after a catastrophe year, or insists on more conservative reserving than the market rewards will see its ROE and dividend yield suffer precisely because it governed well. Meanwhile a board riding a strong sector tailwind can post excellent financial metrics while doing very little that resembles active oversight. Blend financial performance into the governance score at a material weighting and you risk measuring the cycle, not the boardroom.",
+      },
+      {
+        type: "list",
+        items: [
+          "Boards in capital-intensive or cyclical sectors — insurance, shipping, commodities — should expect more scrutiny of how a weaker ROE or dividend year is explained, not just how it is scored",
+          "A strong SGTI financial sub-score is not evidence of good governance on its own — directors should keep asking the process questions (challenge, independence, information flow) that the other 75% is meant to capture",
+          "If your company's score moves mainly on the financial component next cycle, that is worth a specific board discussion, not quiet relief or quiet alarm",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The index makers are not wrong that outcomes matter, and 25% is a modest weighting rather than a wholesale redefinition. But boards should read this as a signal to keep their own internal sense of governance quality separate from whatever a blended external score says in any given year — and to be ready to explain a financial dip that was, in fact, the board doing its job.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the Singapore Governance and Transparency Index (SGTI)?",
+        answer: "SGTI is an annual ranking of SGX-listed companies on governance and transparency, jointly produced by CPA Australia, the Centre for Governance and Sustainability at NUS Business School, and the Singapore Institute of Directors. The 2026 edition was released on 5 August 2026.",
+      },
+      {
+        question: "What does the SGTI's proposed 'market-centric' model change?",
+        answer: "From 2026 onward, CGS has proposed that financial and stock-related indicators — including return on equity, net profit margin, and dividend yield — make up roughly 25% of the overall SGTI score, with existing governance and transparency indicators making up the remaining 75%.",
+      },
+      {
+        question: "Should a board worry if its SGTI score drops because of the new financial weighting?",
+        answer: "Not automatically. A dip driven by a deliberate, well-reasoned financial decision — capital conservation, declining a risky transaction, conservative reserving — is different from a dip caused by weak oversight. The board should be able to explain which one it is, both internally and to the market.",
+      },
+    ],
+  },
+  {
+    id: "34",
+    title: "What the Board Actually Owns in SGX's Mandatory Sustainability Reporting",
+    summary:
+      "SGX now requires a board statement on the governance of sustainability practices in every listed company's annual report. Most boards treat it as a paragraph the company secretary drafts and the board approves. It was designed to be evidence of something else entirely.",
+    category: "Regulation",
+    readingTime: "8 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "sustainability-reporting-singapore-sgx",
+    keywords: ["sustainability reporting Singapore SGX", "SGX board sustainability governance", "board statement sustainability Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "A few years ago I sat on an audit committee reviewing a sustainability report two weeks before the annual general meeting. Management's draft included a board statement — three paragraphs, largely unchanged from the prior year, describing the board's 'oversight of sustainability matters.' When I asked which director had actually reviewed the materiality assessment behind the report, there was a pause. Nobody had, in any documented sense. The statement was true in the loosest possible reading and false in every way that mattered. We sent it back and rewrote it before sign-off, but the exercise stayed with me, because that gap — between what a board statement says and what actually happened in the boardroom — is where most of the governance risk in SGX's sustainability reporting regime actually sits.",
+      },
+      {
+        type: "heading",
+        text: "What SGX actually requires the board to say",
+      },
+      {
+        type: "paragraph",
+        text: "Every SGX-listed company must issue a sustainability report alongside its annual report, and that report must include a board statement on the governance structures the company has in place for sustainability practices — distinct from the substantive ESG content itself. From FY2025, larger issuers must additionally disclose climate-related risks in line with mandatory requirements, and from FY2026 large-cap issuers must disclose Scope 3 emissions. The board statement is not a summary of the ESG content. It is an attestation about governance: that the board has a process for identifying material sustainability factors, that it has oversight structures in place, and — implicitly — that a director could stand behind how the report came to say what it says.",
+      },
+      {
+        type: "heading",
+        text: "The three things that make a board statement genuine, not boilerplate",
+      },
+      {
+        type: "list",
+        items: [
+          "Ownership is named, not collective. 'The board oversees sustainability' is not a governance structure. A named committee or director with explicit responsibility, appearing in the charter and the minutes, is.",
+          "The process for identifying material topics is described and was actually followed. If the materiality assessment changed this year, the statement should say why — a change in stakeholder input, a new regulatory threshold, a shift in the business — not repeat last year's list with updated numbers.",
+          "Data quality and assurance are addressed honestly. The statement should reflect what level of assurance was obtained, over which figures, and what the board did with an assurance provider's findings — not simply that 'assurance was obtained.'",
+        ],
+      },
+      {
+        type: "pullquote",
+        text: "A board statement that could be copied word-for-word from last year's report has already told the market everything it needs to know about how seriously the board took this year's cycle.",
+      },
+      {
+        type: "heading",
+        text: "Where boards get this wrong",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure is delegation without return. The sustainability team or company secretary drafts the statement, it circulates as one line item among twenty in the board pack ahead of the AGM, and it is approved with the same attention given to routine administrative resolutions. The second most common failure is treating year-on-year consistency as safety — repeating the prior year's governance description because changing it invites questions. Both failures are invisible until an institutional investor, proxy adviser, or activist reads the sustainability report closely against the financial statements and finds the mismatch: a board statement describing rigorous oversight sitting next to a materiality assessment that visibly was not updated, or emissions data with a footnote about methodology changes nobody at board level appears to have interrogated.",
+      },
+      {
+        type: "heading",
+        text: "What genuine oversight looks like across the year",
+      },
+      {
+        type: "paragraph",
+        text: "The board statement should be the output of work done across the reporting cycle, not a document produced in the final fortnight. That means the audit or risk committee reviewing the material topics list at least annually and asking what changed and why; understanding, in plain terms, the difference between limited and reasonable assurance and which one the company's external provider is actually delivering on which figures; and tracking methodology consistency for emissions data year over year so the board can explain a jump or a drop before an analyst asks about it. None of this requires directors to become sustainability specialists. It requires the same discipline boards already apply to financial statements — knowing enough to ask whether the number in front of them is right, not simply whether it has been produced.",
+      },
+      {
+        type: "paragraph",
+        text: "Before your next sign-off, have the committee responsible run a short pre-mortem: if a journalist or an activist investor picked the sustainability report apart line by line against the board statement, what would not hold up? Fix that before the statement is signed, not after someone else finds it. That single exercise does more for the credibility of the report than any amount of additional disclosure volume.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does the board have to say in an SGX sustainability report?",
+        answer: "SGX requires a board statement on the governance structures the company has in place for sustainability practices — how material ESG factors are identified, how oversight is structured, and what role the board plays in the reporting process. This is separate from the substantive ESG disclosures such as emissions data or climate scenario analysis.",
+      },
+      {
+        question: "Does the board need to personally verify ESG data before signing off?",
+        answer: "Not personally verify in a technical sense, but the board should understand the assurance level obtained on key figures, know what changed methodologically from the prior year, and be able to explain the numbers if challenged. Signing off without that understanding exposes directors to the same liability risk as signing financial statements they cannot explain.",
+      },
+      {
+        question: "What is the difference between limited and reasonable assurance for Singapore sustainability reports?",
+        answer: "Limited assurance means the external provider concludes nothing has come to their attention suggesting the data is materially misstated — a lower bar involving less testing. Reasonable assurance is a higher bar, closer to a financial audit, providing a positive opinion that the data is fairly stated. Boards should know which level applies to which figures in their report, since MAS and SGX are signalling rising expectations on assurance over time.",
       },
     ],
   },

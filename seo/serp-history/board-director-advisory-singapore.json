@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-10",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/Services/Services-for-Boards.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "councilforboarddiversity.sg",
+        "url": "https://www.councilforboarddiversity.sg/aspiring-women-directors/preparing-for-a-board-role/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/advisory/corporate-governance-advisory/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "advisoryboardcentre.com",
+        "url": "https://www.advisoryboardcentre.com/country/singapore/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "wisdomcircle.com",
+        "url": "https://wisdomcircle.com/board-director-guide-singapore/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "singaporelegaladvice.com",
+        "url": "https://singaporelegaladvice.com/law-articles/board-of-advisors-who-role/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "vivos.com.sg",
+        "url": "https://vivos.com.sg/blog/what-are-the-duties-and-responsibilities-of-the-board-of-directors-in-singapore/",
+        "title": ""
+      }
+    ]
+  }
+]

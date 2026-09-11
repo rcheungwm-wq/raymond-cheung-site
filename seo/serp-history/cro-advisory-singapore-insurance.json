@@ -151,5 +151,103 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "teneo.com",
+        "url": "https://www.teneo.com/service/financial-advisory/restructuring/cro-and-interim-management/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/cro-risk",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "compliance.waystone.com",
+        "url": "https://compliance.waystone.com/corporate-financial-advisory-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/asia-pacific-insurance/asia-pacific/singapore/topics/guide-for-insurance-sales-advisory-and-distribution",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "novotech-cro.com",
+        "url": "https://novotech-cro.com/locations/singapore",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "travel.state.gov",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/singapore.html",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "agencylist.com",
+        "url": "https://agencylist.com/services/conversion-rate-optimization/sg/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "job-boards.greenhouse.io",
+        "url": "https://job-boards.greenhouse.io/moneyherogroup/jobs/6588178003",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "teneo.com",
+        "url": "https://www.teneo.com/service/financial-advisory/restructuring/cro-and-interim-management/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/cro-risk",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/asia-pacific-insurance/asia-pacific/singapore/topics/guide-for-insurance-sales-advisory-and-distribution",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "novotech-cro.com",
+        "url": "https://novotech-cro.com/locations/singapore",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/insurance-agency",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "job-boards.greenhouse.io",
+        "url": "https://job-boards.greenhouse.io/moneyherogroup/jobs/6588178003",
+        "title": ""
+      }
+    ]
   }
 ]

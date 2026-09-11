@@ -193,5 +193,121 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/SID-eGuide/iCore/Events/Event_display.aspx?EventKey=CGS110725",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "cms.law",
+        "url": "https://cms.law/en/sgp/legal-updates/singapore-regulator-issues-new-guidelines-on-environmental-risk-management-transition-planning",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "hub.climate-governance.org",
+        "url": "https://hub.climate-governance.org/Primer/Geography/sg",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "howdengroup.com",
+        "url": "https://www.howdengroup.com/sg-en/climate-risk-and-resilience",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "commonwealthclimatelaw.org",
+        "url": "https://commonwealthclimatelaw.org/legal-opinion-on-directors-responsibilities-and-climate-change-under-singapore-law/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "esgpedia.io",
+        "url": "https://esgpedia.io/blog/climate-governance-forum-2025-esg-solutions-corporate-sustainability/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "commonwealthclimatelaw.org",
+        "url": "https://commonwealthclimatelaw.org/publication/legal-opinion-on-directors-responsibilities-and-climate-change-under-singapore-law/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/sg/en/publications/environmental-risk-management-for-financial-institutions-in-singapore.html",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sfinstitute.asia",
+        "url": "https://www.sfinstitute.asia/wp-content/uploads/2024/07/Final-Climate-Governance-Board-Oversight-of-Climate-Risks-and-Opportunities.pdf",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/SID-eGuide/iCore/Events/Event_display.aspx?EventKey=CGS110725",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "cms.law",
+        "url": "https://cms.law/en/sgp/legal-updates/singapore-regulator-issues-new-guidelines-on-environmental-risk-management-transition-planning",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "hub.climate-governance.org",
+        "url": "https://hub.climate-governance.org/Primer/Geography/sg",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "howdengroup.com",
+        "url": "https://www.howdengroup.com/sg-en/climate-risk-and-resilience",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "commonwealthclimatelaw.org",
+        "url": "https://commonwealthclimatelaw.org/legal-opinion-on-directors-responsibilities-and-climate-change-under-singapore-law/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "esgpedia.io",
+        "url": "https://esgpedia.io/blog/climate-governance-forum-2025-esg-solutions-corporate-sustainability/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/sg/en/publications/environmental-risk-management-for-financial-institutions-in-singapore.html",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sfinstitute.asia",
+        "url": "https://www.sfinstitute.asia/wp-content/uploads/2024/07/Final-Climate-Governance-Board-Oversight-of-Climate-Risks-and-Opportunities.pdf",
+        "title": ""
+      }
+    ]
   }
 ]
