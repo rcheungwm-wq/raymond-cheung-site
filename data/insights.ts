@@ -2693,4 +2693,145 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "35",
+    title: "What the SGX-Nasdaq Global Listing Board Means for Singapore Boards",
+    summary:
+      "The Global Listing Board now lets a company list on SGX and Nasdaq at the same time under one prospectus and a harmonised rulebook. Boards weighing it are focused on the fundraising upside. The governance question — who actually reconciles two disclosure clocks in real time — is the one I would ask first.",
+    category: "Regulation",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "sgx-nasdaq-global-listing-board-singapore",
+    keywords: ["Global Listing Board Singapore", "SGX Nasdaq dual listing", "dual listing governance Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "When I was CEO of Basel Medical Group taking the company onto Nasdaq, one listing was already a genuine governance undertaking — reconciling MAS and SEC expectations, building an audit committee that could function under both regimes, getting disclosure discipline to a US institutional standard. The Global Listing Board, now live after the Securities and Futures (Amendment) Act came into force earlier this year, lets a company list on SGX and Nasdaq simultaneously under one prospectus and one harmonised set of listing rules. My reaction, watching boards start to weigh it, is that the paperwork has been solved faster than the governance has.",
+      },
+      {
+        type: "heading",
+        text: "What the GLB actually removes",
+      },
+      {
+        type: "paragraph",
+        text: "The mechanics are genuinely useful. A single prospectus and harmonised timelines mean a company no longer has to sequence a Nasdaq listing after an SGX one, or run two separate offering processes months apart. Retail allocation requirements and a mandate for timely SGXNet disclosure of US-side material announcements were built in specifically so Singapore shareholders are not structurally disadvantaged relative to US ones. For a board that has watched a promising growth company delay a US listing for two or three years because running both processes sequentially was too expensive, this is a real unlock.",
+      },
+      {
+        type: "pullquote",
+        text: "A harmonised rulebook tells you when to disclose. It does not tell your board who is awake at 6am Singapore time when a US-triggered disclosure event needs an SGX-compliant announcement within the hour.",
+      },
+      {
+        type: "heading",
+        text: "The part the framework does not solve",
+      },
+      {
+        type: "paragraph",
+        text: "What the GLB harmonises is process, not governance capability. A company on the GLB is still subject to two active disclosure regimes running on overlapping but not identical clocks, two regulators with different enforcement postures, and two investor bases reading the same announcement with different expectations of what it should contain. Nothing about a single prospectus builds the muscle inside a board to make that work continuously, not just at IPO. That muscle — a committee that actually understands both regimes, management that has internalised US-grade disclosure specificity, a genuine escalation path for a US-side event that needs an immediate SGX response — is exactly what took us real time to build for a single listing, and the GLB does not shortcut it for two.",
+      },
+      {
+        type: "list",
+        items: [
+          "Before deciding to list on the GLB, ask who on the board and in management already has working fluency in SEC-style disclosure specificity, not just SGX compliance",
+          "Build the cross-market disclosure escalation path — who decides, who drafts, who signs off — before admission, not after the first US-triggered event catches the board flat-footed",
+          "Treat the harmonised rulebook as the floor, not the governance plan: it standardises the forms, it does not standardise the judgment",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The Global Listing Board is a genuinely good piece of market infrastructure, and I expect more Singapore companies to use it over the next few years. But I would tell any board excited about the fundraising access to spend as much time this quarter on the disclosure governance question as on the roadshow — because the framework will not stop you from finding out the hard way which one you underbuilt.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the SGX-Nasdaq Global Listing Board?",
+        answer: "The Global Listing Board (GLB) is a joint SGX-Nasdaq initiative, enabled by the Securities and Futures (Amendment) Act 2026, that lets a company list concurrently on both exchanges under one prospectus and a harmonised set of listing rules. It sets minimum fundraising and market capitalisation thresholds, requires a minimum retail share allocation, and mandates timely SGXNet disclosure of US-side material announcements.",
+      },
+      {
+        question: "Does the Global Listing Board reduce governance requirements for a dual listing?",
+        answer: "No. It harmonises process — one prospectus, aligned timelines and submission requirements — but a GLB-listed company is still subject to two active disclosure regimes and two regulators. Boards still need genuine SEC-grade disclosure capability and a cross-market escalation process; the framework does not build that capability for them.",
+      },
+    ],
+  },
+  {
+    id: "36",
+    title: "What a Singapore Board Actually Needs to Understand About Reinsurance Strategy",
+    summary:
+      "Most Singapore insurance boards treat reinsurance as a renewal to approve once a year, not a strategy to govern. That gap shows up exactly when it matters most — in a hard market, after a large loss, or when management wants to retain risk the board never actually agreed to hold.",
+    category: "Insurance Capital",
+    readingTime: "9 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "reinsurance-governance-singapore",
+    keywords: ["reinsurance governance Singapore", "reinsurance strategy Singapore insurance boards", "board oversight reinsurance"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I sat on a risk committee that approved a property catastrophe reinsurance renewal three years running with barely a question, because the broker's slide showed the same structure, a similar rate, and management's recommendation to proceed. In the fourth year, the market hardened sharply after a regional loss event, capacity tightened, and the renewal came back with a materially higher retention and a narrower scope of cover. The committee's first real question — what happens to our capital position and our appetite if we retain this much more risk — should have been asked three years earlier, when the answer was cheap to get right. That is the pattern I see most often in Singapore boardrooms: reinsurance treated as a procurement decision that recurs annually, not a strategic risk transfer decision that the board actually owns.",
+      },
+      {
+        type: "heading",
+        text: "Reinsurance is a capital decision wearing an insurance costume",
+      },
+      {
+        type: "paragraph",
+        text: "The framing that changes how a board engages with reinsurance is simple: every reinsurance structure is a decision about how much risk the company retains against its own capital, and how much it pays someone else to hold instead. Treated that way, a reinsurance renewal sits in the same category as a capital raise, a dividend policy, or a decision to enter a new line of business — it directly shapes the capital the company needs to hold under MAS's risk-based capital framework, and it directly shapes what happens to solvency in a stress scenario. Treated as a procurement renewal, it gets the scrutiny of a vendor contract. Both framings produce the same signature on the same page. Only one of them reflects what the decision actually is.",
+      },
+      {
+        type: "pullquote",
+        text: "A board that has never asked what happens to its solvency position if the reinsurance market hardens 30% at next renewal does not have a reinsurance strategy. It has a reinsurance habit.",
+      },
+      {
+        type: "heading",
+        text: "The questions a board should be able to answer, not just receive answers to",
+      },
+      {
+        type: "paragraph",
+        text: "When I review a reinsurance programme with a board, I am not looking at whether the structure is reasonable — brokers and management are generally competent at that. I am looking at whether the board actually understands what it is retaining and why, in terms connected to its own stated risk appetite, rather than in terms connected to what the market was willing to offer this year.",
+      },
+      {
+        type: "list",
+        items: [
+          "What is our net retention across the programme, in absolute terms and as a percentage of capital — and has the board explicitly agreed that figure is within appetite, or has it simply accepted whatever retention this year's market pricing produced?",
+          "What is the credit quality and concentration of our reinsurance panel, and what happens to our balance sheet if our largest reinsurer is downgraded or disputes a claim?",
+          "Have we modelled what this programme costs and covers in a hard market — not the base case, the scenario where capacity contracts and rates move against us — and does the board know its fallback if that scenario arrives at renewal?",
+          "Does the reinsurance structure actually match the risks the business has grown into, or is it inherited from a book of business that looked different three renewals ago?",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Where this goes wrong most often",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure is delegation without a return loop. Management and the broker negotiate the renewal, present a recommendation, and the board approves it as a single agenda item alongside routine business — with no standing mechanism for the board to have set the retention and appetite parameters before the negotiation started. The second is treating reinsurance strategy as static once set. A programme built for a book of business five years ago, before a shift into a new line or geography, can leave material gaps or unnecessary cost that nobody revisits because the renewal process itself never prompts the question. The third, and the one that causes the most damage when it surfaces, is discovering during or after a large loss that the board's understanding of what was covered did not match the policy wording — because nobody at board level had actually walked through the exclusions and triggers before the loss happened, only the headline structure.",
+      },
+      {
+        type: "heading",
+        text: "What good oversight looks like",
+      },
+      {
+        type: "paragraph",
+        text: "A board that governs reinsurance well sets retention and risk appetite parameters before the renewal negotiation begins, not after seeing the result. It asks for the hard-market scenario alongside the base case every year, not only when the market is visibly hardening. It understands reinsurer credit risk and concentration as a standing agenda item connected to the ERM framework, not a one-line disclosure buried in the renewal pack. And it treats a material change in retention or structure as a decision that deserves the same board-level scrutiny as a comparable-sized capital transaction — because that is what it economically is.",
+      },
+      {
+        type: "paragraph",
+        text: "None of this requires a board to negotiate the treaty itself, or to second-guess a competent broker on pricing. It requires the board to own the risk appetite the programme is built around, ask for the stress scenario every single year regardless of market conditions, and refuse to let a renewal become routine simply because the last three were uneventful. The renewal that finally surprises a board is never really a surprise — it is usually the year the market simply stopped being generous enough to hide the questions nobody had been asking.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What should a Singapore insurance board ask before approving a reinsurance renewal?",
+        answer: "The board should be able to state its net retention in absolute terms and as a percentage of capital, understand the credit quality and concentration of the reinsurance panel, have seen a hard-market stress scenario alongside the base case, and confirm the structure still matches the current book of business rather than one from several renewals ago.",
+      },
+      {
+        question: "How does reinsurance strategy connect to MAS's risk-based capital requirements?",
+        answer: "Reinsurance directly affects the capital an insurer must hold under Singapore's risk-based capital framework, because it determines how much underwriting risk is retained on the balance sheet versus transferred. A board that treats reinsurance purely as an operational renewal, rather than a capital decision, is missing the direct link between that renewal and its own solvency position.",
+      },
+      {
+        question: "Why do reinsurance programmes often fail to keep pace with a growing insurer?",
+        answer: "Because the annual renewal process rarely prompts a structural review. A programme designed for an earlier book of business can persist unchanged through shifts into new lines or geographies simply because nobody at board level asked whether the original structure still fits — the renewal gets treated as a continuation, not a fresh decision.",
+      },
+    ],
+  },
 ];
