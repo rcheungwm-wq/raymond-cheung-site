@@ -2834,4 +2834,132 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "37",
+    title: "What SGX Applying Its Own Nine-Year Rule to Its Own Board Tells Every Singapore Director",
+    summary:
+      "SGX's board has just reclassified one of its own directors as non-independent under the nine-year tenure rule it enforces on every listed issuer. The mechanics were unremarkable — which is exactly what makes it worth a board's attention right now.",
+    category: "Governance",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "sgx-board-nine-year-tenure-self-application",
+    keywords: ["SGX independent director nine year rule", "board tenure Singapore", "independent director tenure limit"],
+    body: [
+      {
+        type: "paragraph",
+        text: "Singapore Exchange's own board recently confirmed that one of its directors, having served nine years, will be reclassified as non-independent and non-executive with effect from 21 September 2026. He had already stepped down as chair of a board committee earlier in the year, and stayed on the relevant committees in a non-independent capacity. No drama, no last-minute scramble, no awkward AGM statement explaining why an obviously long-tenured director was still being described as independent. My reaction, having sat through more than a few tenure conversations that did not go this smoothly: this is what the rule is supposed to look like when a board actually plans for it.",
+      },
+      {
+        type: "heading",
+        text: "The rule SGX enforces on everyone else, applied to itself",
+      },
+      {
+        type: "paragraph",
+        text: "SGX RegCo has required, since 2023, that a director's independence come under particularly rigorous review past nine years, with listed issuers expected to manage the transition rather than treat it as a compliance cliff-edge. I have watched boards handle this badly — reclassifying a director quietly, hoping nobody in the room asks why the same person who chaired the audit committee last year is suddenly \"non-independent\" this year, with no succession story attached. SGX's own board did the unglamorous version correctly: stepped the director down from a committee chair months ahead of the formal reclassification date, kept him on committees where his experience still had value in a non-independent capacity, and let the nine-year clock run its course in public view the whole time.",
+      },
+      {
+        type: "pullquote",
+        text: "A tenure limit only tests your board on the day it takes effect if you were not managing it in the two years before.",
+      },
+      {
+        type: "heading",
+        text: "The question every Singapore board should ask this week",
+      },
+      {
+        type: "paragraph",
+        text: "Most boards I advise know their nine-year rule in the abstract. Far fewer can tell me, without checking, which of their current independent directors crosses that line in the next 18 months, and what the succession plan is for the committee seat that director holds. That is the gap SGX's own example closes: it is not enough to know the rule exists. A board needs a live tenure register, reviewed at least annually, with the two-year runway before each cliff used for exactly what SGX used it for — reallocating committee roles, identifying the replacement candidate, and giving shareholders time to see the transition coming rather than discover it in a single announcement.",
+      },
+      {
+        type: "paragraph",
+        text: "If your board cannot answer, off the top of its head, when its longest-serving independent director actually crosses nine years, that is this week's action item. The rule was never the hard part. The two years of preparation before it bites is where boards either look like SGX's, or look like the ones I get called in to fix after the fact.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is SGX's nine-year independent director tenure rule?",
+        answer: "Since 2023, SGX RegCo requires that a director who has served on a board beyond nine years be subject to particularly rigorous review of their continued independence, and in practice most such directors are reclassified as non-independent and non-executive once the nine-year mark is reached.",
+      },
+      {
+        question: "What should a board do before a director hits the nine-year tenure limit?",
+        answer: "Maintain a live tenure register for every director, flag anyone approaching nine years at least two years out, plan the handover of any committee chair or leadership role they hold, and identify a successor candidate early enough that the eventual reclassification is a scheduled governance event rather than a surprise disclosure.",
+      },
+    ],
+  },
+  {
+    id: "38",
+    title: "Insurance Capital Adequacy Is a Board Decision, Not an Actuarial Report",
+    summary:
+      "Most Singapore insurance boards treat capital adequacy as a number the appointed actuary certifies and the board notes. Under MAS's risk-based capital framework, the capital position is one of the few things a board is genuinely, personally accountable for getting right.",
+    category: "Insurance Capital",
+    readingTime: "9 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "insurance-capital-singapore-mas",
+    keywords: ["insurance capital Singapore MAS", "capital adequacy governance Singapore insurance boards", "MAS risk-based capital framework board oversight"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I have sat in board meetings in Singapore where the capital adequacy ratio was presented as a single line on a dashboard slide — comfortably above the regulatory minimum, coloured green, four seconds of airtime before the meeting moved to the next item. I have also sat in the meeting that follows a market shock, where that same ratio has moved meaningfully and the board's first questions reveal that almost nobody in the room actually understands what drives the number, only that it used to be green and now it is closer to amber. The gap between those two meetings is not a market event. It is a governance failure that was already there — it just had not been tested yet.",
+      },
+      {
+        type: "heading",
+        text: "What MAS actually expects a board to own",
+      },
+      {
+        type: "paragraph",
+        text: "Under Singapore's risk-based capital framework, an insurer's Prescribed Capital Requirement and the buffers a board chooses to hold above it are not purely actuarial outputs — they are board decisions with actuarial inputs. MAS is explicit that the board is ultimately responsible for the insurer's capital adequacy, not the appointed actuary and not the CFO. The actuary certifies the technical calculation: the valuation of liabilities, the capital charges for insurance, market and credit risk, the impact of approved internal models where they are used. What the actuary cannot decide for the board is how much buffer above the regulatory minimum is prudent for this insurer, in this market, given this risk appetite — and that is precisely the judgment call boards most often delegate upward to the number on the slide instead of making themselves.",
+      },
+      {
+        type: "paragraph",
+        text: "This matters because the capital position is not static. It moves with interest rates, with equity markets, with mortality and morbidity experience, with the credit quality of the reinsurance panel, and with growth in the underlying book. A board that only engages with capital adequacy once a year, at the point the regulatory return is signed, is engaging with a lagging indicator of decisions that were already made months earlier — new product launches, changes in asset allocation, growth targets — without having tested what those decisions would do to the capital ratio under stress.",
+      },
+      {
+        type: "pullquote",
+        text: "The capital adequacy ratio on your board pack is a photograph. The board's job is to understand the film that produced it.",
+      },
+      {
+        type: "heading",
+        text: "Where Singapore boards get this wrong",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure is treating the capital buffer as a fixed number rather than a risk appetite decision. I ask boards directly: why is your target buffer 20% above the Prescribed Capital Requirement rather than 40%, or 10%? Most of the time the honest answer is that it is the number the insurer has always held, inherited from a prior CFO or a rating agency conversation years ago, never explicitly re-approved as a considered risk appetite statement by the current board. The second failure is separating the capital conversation from the strategy conversation — approving a growth initiative, a new distribution channel, or an M&A transaction in one meeting, and reviewing the capital adequacy impact as a technical afterthought in a different one, months later, once the actuary has run the numbers. The third, and the one I see cause the most damage, is a board that understands the base-case capital ratio in detail but has never actually seen the stress and scenario testing that shows what happens to that ratio in a genuinely adverse scenario — a sharp rate move, a mass lapse event, a large reinsurer downgrade — because the ORSA process that should surface those scenarios is run as a compliance exercise rather than read closely by the people who are supposed to act on it.",
+      },
+      {
+        type: "heading",
+        text: "What good capital governance looks like",
+      },
+      {
+        type: "paragraph",
+        text: "A board that governs capital adequacy well can state its target buffer above the Prescribed Capital Requirement in board-approved risk appetite language, not just as an inherited number, and can explain why that buffer is right for this insurer's risk profile. It reviews the capital impact of a material strategic decision — a new product line, a change in investment mandate, a significant reinsurance restructure — before approving the decision, not after. It asks for, and genuinely engages with, at least one severe-but-plausible stress scenario every year that shows the capital ratio breaching internal thresholds, and has a pre-agreed view of what management action that would trigger. And it treats a capital ratio that is trending down over consecutive quarters, even while still comfortably above the regulatory minimum, as an early-warning signal worth discussing at board level — not a number that only earns attention once it turns amber.",
+      },
+      {
+        type: "list",
+        items: [
+          "Ask for the target capital buffer to be re-presented as a board-owned risk appetite decision, with the rationale stated explicitly, not inherited silently from a prior year",
+          "Require the capital impact of any material strategic proposal — new product, new market, reinsurance restructure, capital distribution — before approving the proposal, not after",
+          "Read the ORSA stress scenarios yourself rather than relying on a management summary, and agree in advance what action each breach threshold would trigger",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this requires directors to become actuaries. It requires directors to stop treating the capital adequacy ratio as a certified fact to be noted, and start treating it as what it actually is under MAS's framework — a board-owned judgment about how much risk this insurer can safely carry, refreshed continuously rather than rediscovered once a year. The insurers that get into genuine capital trouble in Singapore are rarely the ones with a bad actuarial calculation. They are the ones whose board never owned the number in the first place.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is responsible for an insurer's capital adequacy under MAS's framework?",
+        answer: "The board of directors is ultimately responsible for the insurer's capital adequacy under Singapore's risk-based capital framework, not the appointed actuary or the CFO. The actuary certifies the technical calculation of capital requirements; the board is accountable for the risk appetite decisions — including the target buffer above the regulatory minimum — that determine whether that calculated position is actually prudent.",
+      },
+      {
+        question: "How much capital buffer above the regulatory minimum should a Singapore insurer hold?",
+        answer: "There is no single correct number — it should reflect a board-approved risk appetite decision specific to the insurer's business mix, volatility of its risks, and access to capital markets, re-evaluated periodically rather than inherited unchanged from prior years. A board that cannot explain why its target buffer is set where it is has not actually made this decision; it has simply continued a historical default.",
+      },
+      {
+        question: "What is the connection between ORSA and capital adequacy governance?",
+        answer: "The Own Risk and Solvency Assessment is where the stress and scenario testing that reveals how the capital ratio behaves under adverse conditions is supposed to surface. A board that reviews ORSA results closely and agrees in advance what management action each stress threshold should trigger is exercising real capital governance; a board that treats the ORSA report as a document to be noted is not.",
+      },
+    ],
+  },
 ];

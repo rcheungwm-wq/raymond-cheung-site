@@ -78,9 +78,9 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - [x] `corporate-governance-consultant-singapore` — independent advisory vs. firm consulting
 - [x] `sustainability-reporting-singapore-sgx` — the board's role in SGX mandatory reporting
 - [x] `reinsurance-governance-singapore` — what boards need to understand about reinsurance strategy
-- [ ] `insurance-capital-singapore-mas` — capital adequacy governance from the board's perspective
+- [x] `insurance-capital-singapore-mas` — capital adequacy governance from the board's perspective
 
-### Published (36 posts, September 2026)
+### Published (38 posts, September 2026)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance
@@ -117,6 +117,8 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - ✅ Board's role in SGX mandatory sustainability reporting (`sustainability-reporting-singapore-sgx`)
 - ✅ SGX-Nasdaq Global Listing Board reaction (`sgx-nasdaq-global-listing-board-singapore`)
 - ✅ Reinsurance strategy governance for Singapore boards (`reinsurance-governance-singapore`)
+- ✅ SGX self-application of nine-year director tenure rule (`sgx-board-nine-year-tenure-self-application`)
+- ✅ Insurance capital adequacy as a board decision (`insurance-capital-singapore-mas`)
 
 ### Backlink actions (one-time, compound over time)
 - [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile

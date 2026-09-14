@@ -47,5 +47,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-14",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/news/scope-3-a-critical-weak-link-as-most-singapore-listed-firms-begin-basic-climate-reporting/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "speeki.com",
+        "url": "https://www.speeki.com/blog/scope-1-2-and-3-emissions-reporting-a-practical-guide-for-singapore-companies",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "greencentralbanking.com",
+        "url": "https://greencentralbanking.com/2024/10/01/singapore-moves-forward-with-issb-standards-despite-scope-3-delay/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "esgtoday.com",
+        "url": "https://www.esgtoday.com/singapore-exchange-softens-requirement-for-scope-3-reporting-for-smaller-companies/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sustainablefutures.linklaters.com",
+        "url": "https://sustainablefutures.linklaters.com/post/102l487/singapore-extended-timelines-for-most-climate-reporting-requirements-for-listed",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "acra.gov.sg",
+        "url": "https://www.acra.gov.sg/regulations/sustainability-reporting/requirements-timeline/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "persefoni.com",
+        "url": "https://www.persefoni.com/blog/issb-reporting-singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "lexplosion.in",
+        "url": "https://lexplosion.in/singapore/climate-reporting-in-singapore-understanding-the-new-timelines-and-next-steps/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ideagencarbonaccounting.com",
+        "url": "https://www.ideagencarbonaccounting.com/blog/navigating-singapores-climate-reporting-mandate",
+        "title": ""
+      }
+    ]
   }
 ]
