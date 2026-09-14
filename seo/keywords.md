@@ -50,6 +50,26 @@ Personal brand content + lived experience = E-E-A-T advantage over company blogs
 
 ---
 
+## ROUND 2 — added 2026-09-14, sourced from live regulatory/trend research (MAS consultations, SGX RegCo rule changes, ISSB/SGX reporting timeline, cybersecurity/family-office/actuarial-market news), not a static list. See CLAUDE.md "Post backlog — Round 2" for the matching post angles.
+
+### Tier 1 — winnable, high board-governance intent
+| Keyword | Notes |
+|---------|-------|
+| cyber risk governance Singapore boards | Cybersecurity Act 2026 update pushes cyber oversight to board level — low personal-brand competition |
+| single family office governance Singapore | MAS SFO class-exemption (eff. 15 Jun 2026) driving active search, governance angle underserved |
+| board effectiveness evaluation Singapore | Evergreen SID-adjacent topic, no strong personal-brand competitor |
+| CEO succession planning Singapore boards | High intent, boardroom-specific, no named-individual competitor |
+
+### Tier 2 — build now
+MAS corporate governance guidelines insurers Singapore · related party transactions governance Singapore insurers · Global Listing Board resident director Singapore · director liability cyber incident Singapore · family office investment committee Singapore · actuarial talent shortage Singapore · technology risk management guidelines Singapore insurer · director remuneration disclosure Singapore SGX · board diversity Singapore listed companies · nominating committee succession planning Singapore · AI model risk governance insurance Singapore · fit and proper criteria MAS directors
+
+### Tier 3 — long game / narrow regulatory hooks
+sustainability assurance Scope 1 2 Singapore · ISSB reporting private companies Singapore · Cyber Trust Mark board Singapore · appointed actuary succession planning Singapore · MAS outsourcing guidelines insurer Singapore · data breach notification insurer Singapore · whistleblowing governance Singapore listed companies · climate stress test insurers Singapore · embedded insurance governance Singapore · reinsurance capacity climate risk Singapore · insurance M&A due diligence governance Singapore · ESG greenwashing litigation risk Singapore · operational resilience MAS guidelines Singapore
+
+**Note:** regulatory anchors (dates, effective terms) should be re-verified against the live source before each post publishes — this round was compiled from search snippets, not primary MAS/SGX documents.
+
+---
+
 ## PRIORITY KEYWORDS FOR IMMEDIATE ACTION
 Focus first — highest intent + most realistic to rank within 90 days:
 

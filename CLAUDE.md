@@ -68,7 +68,7 @@ Hero → Credibility Strip → **Audience Router** → Introduction → Impact �
 ### How to add a post
 Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in the fields. Push — site rebuilds automatically in ~3 minutes.
 
-### Post backlog (next to publish, in order)
+### Post backlog — Round 1 (complete)
 - [x] `esg-advisor-singapore` — "What makes an ESG adviser useful to a Singapore board"
 - [x] `climate-physical-risk-singapore-insurance` — "Physical climate risk in Singapore insurance: what boards need to govern"
 - [x] `mas-notice-126-insurance-boards` — "MAS Notice 126: what it actually requires of Singapore insurance boards"
@@ -79,6 +79,44 @@ Open `data/insights.ts`. Copy the template from `seo/daily-routine.md`. Fill in 
 - [x] `sustainability-reporting-singapore-sgx` — the board's role in SGX mandatory reporting
 - [x] `reinsurance-governance-singapore` — what boards need to understand about reinsurance strategy
 - [x] `insurance-capital-singapore-mas` — capital adequacy governance from the board's perspective
+
+### Post backlog — Round 2 (added 2026-09-14, ~1 month of signature posts)
+Sourced from live regulatory/trend research (MAS consultations, SGX RegCo rule changes, ISSB/SGX
+reporting timeline, cybersecurity/family-office/actuarial-market news as of Sept 2026), not just
+static keywords — cross-check each against that day's Step 0 SERP output before writing: if Step 0
+surfaces a "Declined – priority to defend" keyword or a genuinely fresher trending angle that day,
+use that instead and slot the skipped backlog item back in later. Each entry's regulatory anchor
+should be re-verified (dates/effective terms can move) before publishing.
+- [ ] `mas-corporate-governance-guidelines-insurers-singapore` — MAS's consultation on revised Corporate Governance Guidelines for insurers (board matters, remuneration, related-party oversight) — what it actually changes for boards
+- [ ] `related-party-transactions-governance-singapore-insurers` — the related-party-transaction oversight duty buried inside MAS's governance guidelines
+- [ ] `global-listing-board-resident-director-singapore` — the Singapore-resident independent director / compliance-adviser requirement for Global Listing Board issuers
+- [ ] `issb-scope3-sti-companies-singapore` — Scope 3 is now mandatory for STI-constituent companies from FY2026 — what boards need before year-end
+- [ ] `sustainability-assurance-scope-1-2-singapore-fy2027` — external limited assurance over Scope 1/2 emissions becomes mandatory FY2027 — boards aren't ready
+- [ ] `issb-reporting-large-non-listed-companies-singapore` — ISSB-aligned reporting is being phased onto large non-listed companies from FY2027, not just listed ones
+- [ ] `cyber-risk-governance-singapore-boards` — Cybersecurity Act 2026 update: cyber risk is now a board duty, not a CISO problem
+- [ ] `director-liability-cyber-incident-singapore` — when a cyber incident becomes a director's personal legal exposure under Singapore law
+- [ ] `cyber-trust-mark-level-5-board-oversight` — what Cyber Trust Mark Level 5 (mandatory for critical infrastructure owners) actually requires the board to own
+- [ ] `single-family-office-governance-singapore` — MAS's new SFO class-exemption (effective 15 June 2026) still needs real governance behind it
+- [ ] `family-office-investment-committee-governance-singapore` — what a Singapore family office investment committee should actually look like
+- [ ] `actuarial-talent-shortage-singapore-boards` — the actuarial talent shortage is a board risk, not an HR problem
+- [ ] `appointed-actuary-succession-planning-singapore` — why every Singapore insurer board needs an appointed-actuary succession plan
+- [ ] `mas-outsourcing-guidelines-insurer-board-oversight` — what MAS's outsourcing guidelines actually require the board to own, not just procurement
+- [ ] `technology-risk-management-guidelines-singapore-insurers` — MAS's Technology Risk Management guidelines: what the board signs off on
+- [ ] `data-breach-notification-governance-singapore-insurers` — faster breach notification expectations — is the board actually ready to respond that fast
+- [ ] `director-remuneration-disclosure-singapore-sgx` — exact director/CEO remuneration disclosure is now mandatory — what to do before the next AGM
+- [ ] `board-diversity-singapore-listed-companies` — board diversity in Singapore beyond the compliance statement
+- [ ] `board-effectiveness-evaluation-singapore` — most Singapore board evaluations are theatre — what an honest one looks like
+- [ ] `nominating-committee-succession-planning-singapore` — the nominating committee job most Singapore boards are quietly skipping
+- [ ] `whistleblowing-governance-sgx-listed-companies` — whistleblowing policies on paper vs. whistleblowing governance that actually works
+- [ ] `ceo-succession-planning-singapore-boards` — the CEO succession conversation Singapore boards avoid until it's too late
+- [ ] `environmental-risk-stress-testing-insurers-singapore` — what MAS's climate stress test actually tests about the board, not just the balance sheet
+- [ ] `ai-model-risk-governance-insurance-singapore` — AI model risk is different from AI governance — boards are conflating the two
+- [ ] `embedded-insurance-governance-singapore` — embedded insurance is growing fast in Singapore — whose board actually owns the risk
+- [ ] `reinsurance-capacity-climate-risk-singapore-boards` — climate risk is tightening reinsurance capacity — is the board watching the renewal early enough
+- [ ] `insurance-ma-due-diligence-governance-singapore` — what a Singapore insurance board should actually diligence in M&A, not just what the bankers show it
+- [ ] `fit-and-proper-criteria-mas-directors` — what MAS's fit-and-proper criteria actually test for in a director
+- [ ] `esg-greenwashing-litigation-risk-singapore-boards` — greenwashing risk is now a board liability question, not just a marketing one
+- [ ] `operational-resilience-mas-guidelines-insurer-boards` — operational resilience is the MAS guideline boards keep delegating to IT
 
 ### Published (38 posts, September 2026)
 - ✅ Climate transition governance
