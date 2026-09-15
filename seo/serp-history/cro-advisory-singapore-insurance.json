@@ -341,5 +341,48 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/insights/insurance/three-strategic-actions-for-insurance-cros-in-2026",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/cro-risk",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/asia-pacific-insurance/asia-pacific/singapore/topics/guide-for-insurance-sales-advisory-and-distribution",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/newsroom/2026/04/insurance-cros-are-faced-with-an-evolving-risk-landscape-defined-by-speed-volatility-and-interconnection-ey-iif-survey",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "novotech-cro.com",
+        "url": "https://novotech-cro.com/locations/singapore",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/insurance-agency",
+        "title": ""
+      }
+    ]
   }
 ]

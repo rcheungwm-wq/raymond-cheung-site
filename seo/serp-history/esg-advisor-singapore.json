@@ -90,5 +90,54 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "esgconsulting.sg",
+        "url": "https://esgconsulting.sg/best-esg-consulting-companies-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "estes.sg",
+        "url": "https://estes.sg/services/esg-consulting/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "greenco-esg.sg",
+        "url": "https://greenco-esg.sg/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "ecosphereasia.com",
+        "url": "https://www.ecosphereasia.com/services/esg-strategy-reporting-advisory",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "investors.directory",
+        "url": "https://investors.directory/top-5-esg-sustainability-advisors-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "ycp.com",
+        "url": "https://ycp.com/lp/singapore-esg-consulting",
+        "title": ""
+      }
+    ]
   }
 ]

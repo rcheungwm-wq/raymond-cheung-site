@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-15",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "eguide.sid.org.sg",
+        "url": "https://www.eguide.sid.org.sg/index.php/singapore-code-of-corporate-governance/board-matters/principle-5/provision-5-1",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "russellreynolds.com",
+        "url": "https://www.russellreynolds.com/en/insights/articles/making-it-count-board-effectiveness-exercises-re-examined",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "kornferry.com",
+        "url": "https://www.kornferry.com/capabilities/board-ceo-services/board-effectiveness",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "aicd.com.au",
+        "url": "https://www.aicd.com.au/board-of-directors/performance/evaluations.html",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/images/PDFS/Publications/DirectorsBulletin/DirectorsBulletin_20081.pdf",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "better-boards.com",
+        "url": "https://better-boards.com/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "theboardpractice.com",
+        "url": "https://theboardpractice.com/service/board-effectiveness/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "deloitte.com",
+        "url": "https://www.deloitte.com/southeast-asia/en/services/consulting-financial/services/electronic-board-effectiveness-evaluation.html",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "assets.kpmg.com",
+        "url": "https://assets.kpmg.com/content/dam/kpmg/cn/pdf/en/2025/01/digital-enabled-board-effectiveness-assessment.pdf",
+        "title": ""
+      }
+    ]
+  }
+]

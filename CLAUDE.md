@@ -93,7 +93,7 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [ ] `issb-scope3-sti-companies-singapore` — Scope 3 is now mandatory for STI-constituent companies from FY2026 — what boards need before year-end
 - [ ] `sustainability-assurance-scope-1-2-singapore-fy2027` — external limited assurance over Scope 1/2 emissions becomes mandatory FY2027 — boards aren't ready
 - [ ] `issb-reporting-large-non-listed-companies-singapore` — ISSB-aligned reporting is being phased onto large non-listed companies from FY2027, not just listed ones
-- [ ] `cyber-risk-governance-singapore-boards` — Cybersecurity Act 2026 update: cyber risk is now a board duty, not a CISO problem
+- [x] `cyber-risk-governance-singapore-boards` — Cybersecurity Act 2026 update: cyber risk is now a board duty, not a CISO problem (picked ahead of backlog order — 2026-09-15 SERP output showed this as a fresh, non-cannibalising tier-1 target with strong same-day source material: CSA's 29 July 2026 updated Code of Practice)
 - [ ] `director-liability-cyber-incident-singapore` — when a cyber incident becomes a director's personal legal exposure under Singapore law
 - [ ] `cyber-trust-mark-level-5-board-oversight` — what Cyber Trust Mark Level 5 (mandatory for critical infrastructure owners) actually requires the board to own
 - [ ] `single-family-office-governance-singapore` — MAS's new SFO class-exemption (effective 15 June 2026) still needs real governance behind it
@@ -157,6 +157,8 @@ should be re-verified (dates/effective terms can move) before publishing.
 - ✅ Reinsurance strategy governance for Singapore boards (`reinsurance-governance-singapore`)
 - ✅ SGX self-application of nine-year director tenure rule (`sgx-board-nine-year-tenure-self-application`)
 - ✅ Insurance capital adequacy as a board decision (`insurance-capital-singapore-mas`)
+- ✅ CDL boardroom feud and the SGTI governance-score lesson (`cdl-boardroom-feud-governance-lesson-singapore`)
+- ✅ Cybersecurity Act 2026 board accountability (`cyber-risk-governance-singapore-boards`)
 
 ### Backlink actions (one-time, compound over time)
 - [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile

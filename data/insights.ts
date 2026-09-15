@@ -2962,4 +2962,144 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "39",
+    title: "What CDL's Fall From Singapore's Governance Top 10 Actually Tells Boards",
+    summary:
+      "City Developments Limited dropped out of the Singapore Governance and Transparency Index's top 10 this year for the first time since 2016, following the Kwek family's public boardroom dispute. The score did not cause the governance failure — it just arrived months after the failure was already visible to anyone in the room.",
+    category: "Governance",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "cdl-boardroom-feud-governance-lesson-singapore",
+    keywords: ["CDL governance score Singapore", "board dysfunction Singapore listed company", "SGTI board governance lesson"],
+    body: [
+      {
+        type: "paragraph",
+        text: "City Developments Limited dropped out of the top 10 of the Singapore Governance and Transparency Index this year for the first time since 2016. Read the index methodology and you would assume that happens because of a late filing or a weak disclosure item. It did not. It happened because the boardroom itself became the story — a public dispute between executive chairman Kwek Leng Beng and his son, group CEO Sherman Kwek, that triggered a trading halt in February 2025, resurfaced with shareholder questions at the company's April 2026 AGM, and was never fully resolved before this year's scorers sat down to mark the company's governance. My reaction, having advised boards through their own version of a founder-successor standoff: the index did not punish CDL for a governance failure. It measured one that had already happened, months earlier, in a room most shareholders never saw.",
+      },
+      {
+        type: "heading",
+        text: "A score is the trailing indicator, not the event",
+      },
+      {
+        type: "paragraph",
+        text: "By the time a governance index reflects a boardroom dispute, the damage it is measuring is old news to everyone who sat through it. The real governance test at CDL happened months earlier — when two new directors were brought onto the board over the chairman's objection, when a board member publicly accused the board of bypassing proper procedure, when the dispute became visible enough to halt trading. Whether the board handled that moment well or badly was decided in real time, long before any index picked it up. Waiting for the annual score to tell a board how it is doing on governance is like waiting for a credit downgrade to tell a CFO the balance sheet was already stretched.",
+      },
+      {
+        type: "pullquote",
+        text: "A governance index tells you what already broke. A board's job is to notice before the index does.",
+      },
+      {
+        type: "heading",
+        text: "The lesson is not really about family companies",
+      },
+      {
+        type: "paragraph",
+        text: "It is tempting to file this under 'family business succession problem' and move on, especially for boards without a controlling family shareholder. I would resist that. Every board has some version of this exposure — a dominant founder or long-tenured chair, a succession question left deliberately vague because it is uncomfortable to resolve, independent directors who have never actually had to overrule the person who effectively put them there. CDL's independent directors were, in the end, kept on by an overwhelming shareholder vote. That is not vindication. It is the shareholders telling the board that the real work — proving those directors can actually hold the line the next time a decision like adding two new directors comes up without full board agreement — starts now, not before.",
+      },
+      {
+        type: "list",
+        items: [
+          "Has your board actually pressure-tested its succession or founder-transition plan, or does it exist only as a document nobody has had to use",
+          "Do your independent directors have a genuine, exercised channel to challenge a dominant chair or controlling shareholder before a disagreement becomes public",
+          "Is your board's procedure for appointing or removing directors followed to the letter when there is internal disagreement, not just when everyone already agrees",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Boards that wait for a governance index, an activist shareholder, or a journalist to surface a boardroom rift have already lost the ability to manage it on their own terms. The index score is useful for exactly one thing: telling you, a year late, whether the informal governance culture in your boardroom actually held up under pressure. The better question is whether you already know the answer to that without waiting for the index to tell you.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why did CDL fall out of Singapore's governance and transparency index top 10?",
+        answer: "CDL fell out of the Singapore Governance and Transparency Index's top 10 for the first time since 2016 following a public boardroom dispute between executive chairman Kwek Leng Beng and group CEO Sherman Kwek, which triggered a February 2025 trading halt and resurfaced at the company's April 2026 AGM.",
+      },
+      {
+        question: "What can other Singapore boards learn from CDL's governance score drop?",
+        answer: "The governance failure that cost CDL its ranking happened in the boardroom months before the index reflected it. Boards should treat annual governance scores as a lagging indicator and instead pressure-test their own succession planning, director-appointment procedures, and independent directors' actual willingness to challenge a dominant chair before a dispute becomes public.",
+      },
+    ],
+  },
+  {
+    id: "40",
+    title: "Cybersecurity Act 2026 Update: Cyber Risk Is Now a Board Duty, Not a CISO Problem",
+    summary:
+      "Singapore's Cyber Security Agency has rewritten the rules for critical infrastructure owners: board-level accountability, mandatory Cyber Trust Mark Level 5 certification, and personal director liability for cyber failures traced back to a lack of skill, care and diligence. Most boards are still treating this as an IT reporting line, not a governance duty.",
+    category: "Technology Risk",
+    readingTime: "7 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "cyber-risk-governance-singapore-boards",
+    keywords: ["cyber risk governance Singapore boards", "Cybersecurity Act 2026 board accountability", "CII board cybersecurity oversight Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I have sat in a board meeting where the cyber risk update was five minutes long: a green status on the dashboard, a line about the annual penetration test, and a question from the chair about whether the insurance was still in force. Nobody in that room could have told you what their organisation's actual recovery time objective was for its most critical system, or what 'board-level accountability for cyber resilience' was supposed to mean in practice. That gap — between a status update and genuine board ownership — is exactly what Singapore's regulators have just stopped tolerating for the organisations that matter most.",
+      },
+      {
+        type: "heading",
+        text: "What actually changed on 29 July 2026",
+      },
+      {
+        type: "paragraph",
+        text: "Singapore's Cyber Security Agency issued an updated Cybersecurity Code of Practice for Critical Information Infrastructure on 29 July 2026, and it is a materially different document from what came before it. Two changes matter most to a board. First, it imposes explicit board-level accountability on CII owners — not senior management, not the CISO, the board. Second, it mandates Cyber Trust Mark Level 5 certification, the highest tier available, for CII owners and their auditors, covering 22 cybersecurity domains that now explicitly include cloud security, operational technology security and AI security. CII owners have a two-year grace period to reach that standard, with a hard deadline of end-2027 for the non-CII systems that support core operations, while auditors and licensed cybersecurity service providers face an earlier cut-off of 31 December 2026. Layered on top of this, a separate requirement — expected to be codified in the first quarter of 2026 — obliges board members of CII owners to undergo cybersecurity training directly, not delegate that learning to a management briefing.",
+      },
+      {
+        type: "pullquote",
+        text: "The regulator did not ask boards to buy better cyber tools. It asked boards to personally own the resilience framework those tools sit inside.",
+      },
+      {
+        type: "heading",
+        text: "The line CSA is drawing: governance, not just implementation",
+      },
+      {
+        type: "paragraph",
+        text: "The substantive requirement underneath the certification headline is the one boards tend to skip past. Boards and senior management at CII owners must now maintain a documented cyber resilience framework that explicitly covers risk tolerance, mitigation, risk transfer and recovery — reviewed at least annually as a board-level record, not a technical appendix management produces for its own use. That framework has to exist in a form that can be audited and defended, because Singapore's legal position on director liability for cyber failures is now unambiguous: if an organisation fails to prevent, mitigate, manage or respond to an incident because of a lack of honesty, or a lack of the requisite skill, care and diligence on the part of its directors, that can constitute a breach of directors' duties. That is not a CISO's exposure. It is personal, individual director exposure, and it turns the annual cyber briefing from a courtesy update into the primary evidence of whether a director actually exercised the diligence the law now expects.",
+      },
+      {
+        type: "heading",
+        text: "Where boards get this wrong",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure I see is structural: cyber risk sits permanently on the IT or technology sub-committee's agenda and only reaches the full board as a summarised status line, the same way the CDL boardroom dispute I wrote about separately this month sat invisibly below the surface until it became impossible to ignore. A board that has never read its own organisation's documented resilience framework — never asked what 'recovery' actually means in hours for the systems that matter most, never tested whether the risk tolerance statement in that document matches what the board would actually accept in a real incident — cannot credibly claim to have exercised the skill, care and diligence the law now expects of it. The second failure is treating Cyber Trust Mark Level 5 as a procurement exercise to be handed to IT, when the certification's 22 domains include governance and organisational accountability as first-class requirements, not technical add-ons. A board that outsources the entire certification process without engaging with the governance domains has not actually met the standard the certification exists to prove.",
+      },
+      {
+        type: "heading",
+        text: "What good cyber governance looks like on a board",
+      },
+      {
+        type: "paragraph",
+        text: "A board that is genuinely ahead of this has read its own cyber resilience framework document in full, at least once, and can state in plain language what the organisation's risk tolerance and recovery objectives actually are — not recite the name of the framework. It treats the shift to Cyber Trust Mark Level 5 as a governance project with a named board sponsor and a realistic timeline against the 2027 deadline, not a checkbox IT will handle. And every director on a CII owner's board has personally completed the cybersecurity training the regulation now requires, rather than nominating someone else in the organisation to sit through it on the board's behalf.",
+      },
+      {
+        type: "list",
+        items: [
+          "Read the organisation's documented cyber resilience framework in full at board level at least once a year, rather than accepting a management summary of it",
+          "Assign a named board sponsor and realistic milestone plan for reaching Cyber Trust Mark Level 5 well ahead of the 2027 deadline, treating the governance domains as seriously as the technical ones",
+          "Confirm every director has personally completed the cybersecurity training now expected of CII owner boards, and document that completion the same way other governance training is recorded",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this requires a director to become a security engineer. It requires the board to stop treating the cyber update as a status report to be noted and start treating it as what the regulator has now made explicit: a governance duty carrying personal accountability, exercised continuously, not rediscovered the week after an incident makes the newspapers.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What changed in Singapore's Cybersecurity Code of Practice in 2026?",
+        answer: "On 29 July 2026, Singapore's Cyber Security Agency issued an updated Cybersecurity Code of Practice for Critical Information Infrastructure that imposes explicit board-level accountability on CII owners and mandates Cyber Trust Mark Level 5 certification, the highest tier, for CII owners and their auditors across 22 domains including cloud, operational technology and AI security.",
+      },
+      {
+        question: "Can a Singapore director be personally liable for a cybersecurity failure?",
+        answer: "Yes. Singapore's legal position is that if an organisation fails to prevent, mitigate, manage or respond to a cyber incident due to a lack of honesty or a lack of the requisite skill, care and diligence on the part of its directors, that can constitute a breach of directors' duties — making cyber governance a matter of personal director accountability, not just a management or CISO responsibility.",
+      },
+      {
+        question: "What is Cyber Trust Mark Level 5 and who needs it?",
+        answer: "Cyber Trust Mark Level 5 is the highest tier of Singapore's cybersecurity certification, requiring demonstrated preparedness across 22 domains including governance, asset protection, cloud security, operational technology security and AI security. It is now mandatory for Critical Information Infrastructure owners and their auditors, with CII owners given a grace period to end-2027 and auditors facing an earlier 31 December 2026 deadline.",
+      },
+    ],
+  },
 ];

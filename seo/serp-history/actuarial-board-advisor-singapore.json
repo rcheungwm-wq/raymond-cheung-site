@@ -347,5 +347,54 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sg.jobstreet.com",
+        "url": "https://sg.jobstreet.com/actuary-jobs",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/resources/announcements/press-releases/2025/soa-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ensun.io",
+        "url": "https://ensun.io/search/actuarial-consulting/singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/singaporeactuaries/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "workopia.io",
+        "url": "https://workopia.io/browsejobs/sg/singapore/actuary",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "gravitasgroup.com.sg",
+        "url": "https://www.gravitasgroup.com.sg/specialisms/actuarial",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "skillup.sg",
+        "url": "https://www.skillup.sg/careers/actuary",
+        "title": ""
+      }
+    ]
   }
 ]

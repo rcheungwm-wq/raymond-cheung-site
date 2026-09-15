@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-15",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "rsm.global",
+        "url": "https://www.rsm.global/singapore/insights/strengthening-board-level-cyber-oversight-through-ciso-service",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "bakermckenzie.com",
+        "url": "https://www.bakermckenzie.com/en/insight/publications/2026/07/singapore-cybersecurity-code-of-practice-to-be-updated",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/sg/en/services/risk/digital-solutions/navigating-new-csa-cii-requirements-for-board-of-directors.html",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "technode.global",
+        "url": "https://technode.global/2025/04/03/cyber-risk-is-business-risk-five-tips-for-business-leaders-in-singapore-to-consider/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "techtimes.com",
+        "url": "https://www.techtimes.com/articles/321332/20260723/singapore-makes-critical-infrastructure-boards-own-cyber-recovery-launches-cloud-code.htm",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "careers.singaporeair.com",
+        "url": "https://careers.singaporeair.com/sia/job/Information-Technology-Cyber-Security-Specialist-%28Risk-and-Governance%29/19660044",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "assets.kpmg.com",
+        "url": "https://assets.kpmg.com/content/dam/kpmg/sg/pdf/2016/11/improved-risked-transparency-among-singapore-companies.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "ncsc.gov.uk",
+        "url": "https://ncsc.gov.uk/blog-post/new-online-training-helps-board-members-govern-cyber-risk",
+        "title": ""
+      }
+    ]
+  }
+]
