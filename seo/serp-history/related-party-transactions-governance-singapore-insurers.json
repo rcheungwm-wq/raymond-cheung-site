@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-18",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "link.springer.com",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-85817-9_6",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ecgi.global",
+        "url": "https://www.ecgi.global/publications/codes/guidelines-on-corporate-governance-for-designated-financial-holding-companies",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/perspectives/articles/19721/sgkh-mas-issues-revised-corporate-governance-guidelines-for-designated-financial-holding-companies-banks-direct-insurers-reinsurers-and-captive-insurers",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/MAS/News-and-Publications/Consultation-Papers/Consultation-Paper-on-Related-Party-Transaction-Requirements-for-Banks.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "isca.org.sg",
+        "url": "https://isca.org.sg/docs/default-source/audit-assurance/aa-standards/ssa-550-(dec-2021).pdf?sfvrsn=7e7729e1_2",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "isca.org.sg",
+        "url": "https://isca.org.sg/docs/default-source/audit-assurance/aa-standards/previous-ssas-versions/ssa-550-(nov-2013).pdf?sfvrsn=f7ffe2e8_2",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "voffice-singapore.com.sg",
+        "url": "https://voffice-singapore.com.sg/2026/business/related-party-transaction-rules-singapore-ultimate-guide/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "vofficesg.com.sg",
+        "url": "https://vofficesg.com.sg/2026/corporates-businesses/related-party-transaction-rules-singapore-a-comprehensive-guide/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-corporate-governance",
+        "title": ""
+      }
+    ]
+  }
+]

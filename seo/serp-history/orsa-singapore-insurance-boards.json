@@ -384,5 +384,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/breaking-news/singapore-insurers-called-to-refine-risk-assessment-reports-73922.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/MAS/resource/legislation_guidelines/insurance/guidelines/MAS-Information-Paper--Guidance-on-ORSA-July-2017.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "bhspecialty.com",
+        "url": "https://www.bhspecialty.com/asia/singapore-products/berkshire-hathaway-specialty-insurance-singapore-branch/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "iais.org",
+        "url": "https://www.iais.org/uploads/2026/07/Thematic-note-on-how-to-build-a-risk-based-solvency-RBS-regime-using-an-own-risk-and-solvency-assessment-ORSA-as-a-basis.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Tan_Suee_Chieh",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "content.naic.org",
+        "url": "https://content.naic.org/sites/default/files/publication-orsa-guidance-manual.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "moodys.com",
+        "url": "https://www.moodys.com/web/en/us/insights/insurance/orsa-capital-adequacy-assessment-process-for-insurers.html",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "pwchk.com",
+        "url": "https://www.pwchk.com/en/industries/financial-services/insurance/publications/using-the-orsa-to-embed-risk-management-processes.html",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "workiva.com",
+        "url": "https://www.workiva.com/blog/best-practices-creating-your-orsa-summary-report",
+        "title": ""
+      }
+    ]
   }
 ]

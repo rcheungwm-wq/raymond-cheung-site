@@ -94,7 +94,7 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [ ] `sustainability-assurance-scope-1-2-singapore-fy2027` — external limited assurance over Scope 1/2 emissions becomes mandatory FY2027 — boards aren't ready
 - [ ] `issb-reporting-large-non-listed-companies-singapore` — ISSB-aligned reporting is being phased onto large non-listed companies from FY2027, not just listed ones
 - [x] `cyber-risk-governance-singapore-boards` — Cybersecurity Act 2026 update: cyber risk is now a board duty, not a CISO problem (picked ahead of backlog order — 2026-09-15 SERP output showed this as a fresh, non-cannibalising tier-1 target with strong same-day source material: CSA's 29 July 2026 updated Code of Practice)
-- [ ] `director-liability-cyber-incident-singapore` — when a cyber incident becomes a director's personal legal exposure under Singapore law
+- [x] `director-liability-cyber-incident-singapore` — when a cyber incident becomes a director's personal legal exposure under Singapore law (2026-09-18 SERP output: 0/18 tracked keywords ranked and no "declined" flags since the site is too young to have ranked yet; top suggested targets were all tier-1 keywords already covered by Round 1 posts, so fell back to backlog order instead of cannibalising)
 - [ ] `cyber-trust-mark-level-5-board-oversight` — what Cyber Trust Mark Level 5 (mandatory for critical infrastructure owners) actually requires the board to own
 - [ ] `single-family-office-governance-singapore` — MAS's new SFO class-exemption (effective 15 June 2026) still needs real governance behind it
 - [ ] `family-office-investment-committee-governance-singapore` — what a Singapore family office investment committee should actually look like
@@ -118,7 +118,7 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [ ] `esg-greenwashing-litigation-risk-singapore-boards` — greenwashing risk is now a board liability question, not just a marketing one
 - [ ] `operational-resilience-mas-guidelines-insurer-boards` — operational resilience is the MAS guideline boards keep delegating to IT
 
-### Published (38 posts, September 2026)
+### Published (42 posts, September 2026)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance

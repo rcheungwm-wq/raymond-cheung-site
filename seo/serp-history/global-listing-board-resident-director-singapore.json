@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-18",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "aoshearman.com",
+        "url": "https://www.aoshearman.com/en/insights/mas-and-sgx-regco-consult-on-a-new-global-listing-board",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/global-listing-board-rules",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/part-3-global-listing-board-listings",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "commenda.io",
+        "url": "https://www.commenda.io/blog/resident-director-services-singapore",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "links.sgx.com",
+        "url": "https://links.sgx.com/1.0.0/corporate-announcements/MI8349GDIXSKCD08/871682_20260109%20SGX%20RegCo%20consults%20on%20listing%20rules%20for%20proposed%20Global%20Listing%20Board.pdf",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/resident-director",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "enterslice.com",
+        "url": "https://enterslice.com/sg/resident-director-in-singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/cross-border-listings-guide/asia-pacific/singapore-stock-exchange/topics/principal-listing-and-maintenance-requirements-and-procedures",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/cross-border-listings-guide/asia-pacific/singapore-stock-exchange/topics/quick-summary",
+        "title": ""
+      }
+    ]
+  }
+]
