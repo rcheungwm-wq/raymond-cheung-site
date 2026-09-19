@@ -3226,4 +3226,136 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "43",
+    title: "What SGX RegCo's New Disclosure Rules Actually Ask of a Board",
+    summary:
+      "SGX RegCo's April 2026 consultation on remuneration KPI, dividend policy, and investor relations disclosures is a quiet rule change with a 2027 start date — which is exactly why most boards haven't started preparing for it. The gap it exposes isn't disclosure capability. It's whether the board can explain a policy it never actually debated.",
+    category: "Governance",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "sgx-regco-remuneration-dividend-ir-disclosure-singapore-boards",
+    keywords: ["SGX RegCo disclosure rules Singapore boards", "remuneration KPI disclosure SGX", "dividend policy disclosure Singapore listed companies"],
+    body: [
+      {
+        type: "paragraph",
+        text: "SGX RegCo's April 2026 consultation paper proposing new disclosure requirements — remuneration KPIs, a published dividend policy, an investor relations policy — closed for comment back in May, with implementation phased in from 2027 and the first annual-report disclosures due in 2028. That timeline is long enough that most boards have filed it under 'not yet,' which is my reaction to it: the boards that wait until 2027 to think about this will spend that year writing down policies that were never actually board decisions, just management defaults nobody challenged.",
+      },
+      {
+        type: "heading",
+        text: "The disclosure isn't the hard part",
+      },
+      {
+        type: "paragraph",
+        text: "None of the three requirements is technically difficult. Explaining the KPIs behind executive remuneration, describing a dividend policy, publishing an investor relations policy — a competent company secretary can draft all three in an afternoon. The requirement that actually bites is subtler: SGX RegCo isn't just asking companies to disclose a policy, it's asking them to explain material changes in remuneration KPIs year over year, and to describe investor engagement activity, not just claim it exists. That converts a disclosure exercise into an audit trail. If the board never debated why the remuneration KPI mix shifted, or never actually reviewed what 'investor engagement' consists of beyond an annual roadshow, 2027 is when that absence becomes visible in print.",
+      },
+      {
+        type: "pullquote",
+        text: "SGX RegCo isn't asking for a policy document. It's asking for proof the board actually owns the policy it's about to publish.",
+      },
+      {
+        type: "heading",
+        text: "What I'd put in front of a board now",
+      },
+      {
+        type: "paragraph",
+        text: "I'd rather a board spend an hour on this in 2026 than scramble in 2027. Three questions worth asking at the next remuneration or nominating committee meeting: Does the board currently have a documented view on why executive KPIs are weighted the way they are, or has that always been management's call to present and the board's to approve without much debate? Does the company have an actual dividend policy, or an informal payout pattern nobody has written down because writing it down felt like a constraint? And can the board point to specific investor engagement — not just the existence of an IR function, but decisions the board made in response to what shareholders raised?",
+      },
+      {
+        type: "paragraph",
+        text: "None of this requires new committees or new advisers. It requires the board to treat 2026 as the year it starts owning three decisions it may have been quietly delegating. SGX RegCo has given the market eighteen months of runway specifically so boards don't have to write these policies under deadline pressure. Boards that use that runway to actually debate the substance will find 2027 straightforward. Boards that wait will find themselves disclosing, for the first time in public, that nobody was really deciding.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does SGX RegCo's proposed disclosure rule actually require?",
+        answer: "The April 2026 consultation proposes three new annual-report disclosures for Mainboard and Catalist issuers: the KPIs used to determine executive remuneration and an explanation of material year-on-year changes, a documented dividend policy, and a published investor relations policy with a description of investor engagement activities. Implementation is proposed to start from 2027, with disclosures appearing in annual reports from 2028.",
+      },
+      {
+        question: "Does the dividend policy disclosure require companies to pay a dividend?",
+        answer: "No. SGX RegCo has been explicit that the proposal does not prescribe a payout ratio, quantified target, or a requirement to pay a dividend at all — only that the company document and describe whatever policy it does follow.",
+      },
+    ],
+  },
+  {
+    id: "44",
+    title: "MAS's Corporate Governance Guidelines for Insurers: What They Actually Change for a Board",
+    summary:
+      "MAS's Guidelines on Corporate Governance for designated financial holding companies, banks, and insurers incorporated in Singapore — most recently touched by the Notice 106 amendment effective 30 May 2026 — are not a checklist a company secretary files quietly. They reach into remuneration oversight of material risk takers, mandatory documentation of independent directors' dissent, and related-party transaction oversight in ways most insurer boards still treat as compliance rather than governance.",
+    category: "Regulation",
+    readingTime: "8 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "mas-corporate-governance-guidelines-insurers-singapore",
+    keywords: ["MAS corporate governance guidelines insurers Singapore", "board remuneration oversight material risk takers Singapore", "related party transaction oversight insurer board Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I have sat on the receiving end of a board pack where the corporate governance guideline compliance section was a single slide — a table of provisions with a green tick next to each one. Nobody in the room could tell you, if asked, what the board had actually done that year to earn that tick. That is the failure mode MAS's Guidelines on Corporate Governance for designated financial holding companies, banks, direct insurers, reinsurers and captive insurers incorporated in Singapore are designed to close, and it's a failure mode I still see regularly on insurer boards that treat the Guidelines as a legal filing exercise rather than a description of how the board is actually supposed to work.",
+      },
+      {
+        type: "heading",
+        text: "This is a live, amended framework — not a 2021 artefact",
+      },
+      {
+        type: "paragraph",
+        text: "The Guidelines were substantively revised in 2021 following a public consultation, but they are not static. MAS Notice 106 — which governs the appointment of directors, the chairman, nominating committee members, and key executive persons for insurers, and which reaches every Tier 1 insurer's chief executive, CFO, CRO, appointed actuary and certifying actuary — was itself amended again, with the amendment taking effect on 30 May 2026. Boards that last reviewed their governance framework against the 2021 text and assumed the file was closed are working from a document that has since moved. That matters practically: appointment and fit-and-proper processes that were compliant in 2022 are not automatically compliant today just because nobody flagged a problem.",
+      },
+      {
+        type: "heading",
+        text: "Remuneration oversight now reaches past the C-suite",
+      },
+      {
+        type: "paragraph",
+        text: "The provision I find boards most consistently under-engage with is the extension of remuneration oversight beyond executive officers to Material Risk Takers — employees whose individual actions can materially affect the insurer's risk exposure, who are not necessarily executives and may sit several layers down the organisation chart. The Board Remuneration Committee is expected to actively oversee and monitor the effectiveness of remuneration policy for this group, evaluating outcomes in aggregate to confirm they don't create incentives for excessive risk-taking. Most remuneration committees I have observed spend the bulk of their time on the CEO and the direct reports whose pay packages get board-level scrutiny by habit. Very few can tell you, without going back to management for the answer, who their MRT population actually is this year, or whether that population's incentive structure has been stress-tested against the same risk-taking concerns the Guidelines are aimed at.",
+      },
+      {
+        type: "pullquote",
+        text: "A remuneration committee that can name its five most senior executives' pay but not its Material Risk Takers has satisfied the letter of the old Guidelines and missed the point of the current ones.",
+      },
+      {
+        type: "heading",
+        text: "Board minutes are now expected to record disagreement, not just decisions",
+      },
+      {
+        type: "paragraph",
+        text: "A second provision that is easy to treat as procedural and hard to actually implement: the Guidelines expect financial institutions to document, in board meeting minutes, the unresolved concerns of independent directors — particularly where those concerns relate to how the company is being run or to a proposed corporate action. This is a deliberate departure from the convention of minutes that record only what was approved. It exists because a board's real governance value often shows up in what an independent director objected to and could not get resolved, not in the unanimous votes. I have reviewed board minutes from more than one Singapore financial institution where every recorded vote across a full year was unanimous — not because the board agreed on everything, but because dissent was resolved informally before the meeting or never written down. That pattern is precisely what this provision is meant to surface, and it is precisely the pattern a MAS inspection or a post-incident review will go looking for first.",
+      },
+      {
+        type: "heading",
+        text: "Related-party oversight is a standing duty, not a transaction-by-transaction check",
+      },
+      {
+        type: "paragraph",
+        text: "The Guidelines also place oversight of related-party transactions squarely with the board, not delegated wholesale to management or buried inside an audit committee's annual review. For insurers with related corporations, substantial shareholders, or intra-group service arrangements — common in Singapore's insurance market, where many players sit inside larger regional or global groups — this is not a once-a-year exercise. It is an expectation that the board maintains ongoing visibility into related-party arrangements and can demonstrate, if asked, that those arrangements were assessed on arm's-length terms and in the interest of policyholders and minority shareholders, not just the parent group's convenience.",
+      },
+      {
+        type: "list",
+        items: [
+          "Can the remuneration committee name its current Material Risk Taker population and describe how their incentive structure was evaluated in aggregate this year — without asking management to pull the list first?",
+          "Do this year's board minutes show any recorded, unresolved concern from an independent director, or does a full year of unanimous votes suggest disagreement was being resolved off the record?",
+          "Is related-party transaction oversight a standing board agenda item with real documentation, or a once-a-year audit committee memo that gets nodded through?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of these three gaps require new committees, new headcount, or outside consultants to close. They require a board to stop treating the Guidelines as a compliance artefact from 2021 and start treating them as a live description of how MAS expects the board to actually function this year. The insurers that get this right will have board packs that read as evidence of governance. The ones that don't will have a green tick on a slide and nothing behind it when someone finally asks.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do MAS's Corporate Governance Guidelines apply to all insurers in Singapore?",
+        answer: "They apply to designated financial holding companies, banks, direct insurers, reinsurers and captive insurers incorporated in Singapore. Related requirements under MAS Notice 106 on director and key executive person appointments apply specifically to Direct Insurers (Life, General, and Composite), Reinsurers, and Captive Insurers, with the Notice 106 amendment taking effect 30 May 2026.",
+      },
+      {
+        question: "What is a Material Risk Taker under MAS's remuneration oversight expectations?",
+        answer: "A Material Risk Taker (MRT) is an employee whose individual actions can have a material impact on the insurer's risk exposure, regardless of seniority. The Board Remuneration Committee is expected to actively oversee remuneration policy for this group and evaluate outcomes in aggregate to ensure they don't incentivise excessive risk-taking — not just review the pay of named executives.",
+      },
+      {
+        question: "Why do board minutes need to record unresolved concerns from independent directors?",
+        answer: "MAS's Guidelines expect financial institutions to document unresolved concerns of independent directors in board minutes, particularly on matters related to how the company is run or proposed corporate actions. This creates a record of genuine board debate rather than only unanimous outcomes, and is often the first thing a regulator or post-incident review looks for as evidence of real governance versus rubber-stamping.",
+      },
+    ],
+  },
 ];

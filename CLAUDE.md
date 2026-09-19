@@ -87,7 +87,7 @@ static keywords — cross-check each against that day's Step 0 SERP output befor
 surfaces a "Declined – priority to defend" keyword or a genuinely fresher trending angle that day,
 use that instead and slot the skipped backlog item back in later. Each entry's regulatory anchor
 should be re-verified (dates/effective terms can move) before publishing.
-- [ ] `mas-corporate-governance-guidelines-insurers-singapore` — MAS's consultation on revised Corporate Governance Guidelines for insurers (board matters, remuneration, related-party oversight) — what it actually changes for boards
+- [x] `mas-corporate-governance-guidelines-insurers-singapore` — MAS's consultation on revised Corporate Governance Guidelines for insurers (board matters, remuneration, related-party oversight) — what it actually changes for boards
 - [ ] `related-party-transactions-governance-singapore-insurers` — the related-party-transaction oversight duty buried inside MAS's governance guidelines
 - [ ] `global-listing-board-resident-director-singapore` — the Singapore-resident independent director / compliance-adviser requirement for Global Listing Board issuers
 - [ ] `issb-scope3-sti-companies-singapore` — Scope 3 is now mandatory for STI-constituent companies from FY2026 — what boards need before year-end
@@ -159,6 +159,8 @@ should be re-verified (dates/effective terms can move) before publishing.
 - ✅ Insurance capital adequacy as a board decision (`insurance-capital-singapore-mas`)
 - ✅ CDL boardroom feud and the SGTI governance-score lesson (`cdl-boardroom-feud-governance-lesson-singapore`)
 - ✅ Cybersecurity Act 2026 board accountability (`cyber-risk-governance-singapore-boards`)
+- ✅ SGX RegCo remuneration/dividend/IR disclosure rules reaction (`sgx-regco-remuneration-dividend-ir-disclosure-singapore-boards`)
+- ✅ MAS Corporate Governance Guidelines for insurers — what they change for boards (`mas-corporate-governance-guidelines-insurers-singapore`)
 
 ### Backlink actions (one-time, compound over time)
 - [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile

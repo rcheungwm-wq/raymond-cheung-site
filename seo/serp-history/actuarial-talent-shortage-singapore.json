@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-19",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sg.jobstreet.com",
+        "url": "https://sg.jobstreet.com/actuarial-jobs",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/jobs/actuarial-jobs",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "glassdoor.sg",
+        "url": "https://www.glassdoor.sg/Job/singapore-actuarial-jobs-SRCH_IL.0,9_IC3235921_KO10,19.htm",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "glassdoor.com",
+        "url": "https://www.glassdoor.com/Job/singapore-actuarial-jobs-SRCH_IL.0,9_IC3235921_KO10,19.htm",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "glassdoor.com",
+        "url": "https://www.glassdoor.com/Job/singapore-actuary-jobs-SRCH_IL.0,9_IM1123_KO10,17.htm",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/q-actuarial-jobs.html",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "actuarylist.com",
+        "url": "https://www.actuarylist.com/cities/singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "eliterecruitments.com",
+        "url": "https://eliterecruitments.com/bermuda-actuarial-talent-shortage-2026/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "malaymail.com",
+        "url": "https://www.malaymail.com/news/singapore/2022/09/24/can-singapores-bid-to-woo-elite-global-talents-succeed/29867",
+        "title": ""
+      }
+    ]
+  }
+]

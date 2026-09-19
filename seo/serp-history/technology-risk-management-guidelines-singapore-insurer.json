@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-19",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "cyberarrow.io",
+        "url": "https://www.cyberarrow.io/blog/singapore-mas-technology-risk-management-guidelines/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/MAS/Regulations-and-Financial-Stability/Regulatory-and-Supervisory-Framework/Risk-Management/TRM-Guidelines-18-January-2021.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "konfirmity.com",
+        "url": "https://www.konfirmity.com/framework/mas-trm",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "securitybrigade.com",
+        "url": "https://www.securitybrigade.com/technology-risk-management-guidelines/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "atlassystems.com",
+        "url": "https://www.atlassystems.com/blog/mas-trm-compliance",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/technology-risk-management-guidelines",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-risk-management-practices-for-insurance-business---core-activities",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rmaindia.org",
+        "url": "https://rmaindia.org/risk-management-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "assets.kpmg.com",
+        "url": "https://assets.kpmg.com/content/dam/kpmg/th/pdf/2021/06/managing-technology-and-cyber-risk-for-insurers-time-to-act-now.pdf",
+        "title": ""
+      }
+    ]
+  }
+]

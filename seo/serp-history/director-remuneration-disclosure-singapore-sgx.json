@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-19",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "blogs.duanemorris.com",
+        "url": "https://blogs.duanemorris.com/duanemorrisandselvam/2023/01/19/sgx-regco-updates-enhancements-to-disclosures-on-directors-remuneration-and-cap-on-independent-directors-tenure/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sg.finance.yahoo.com",
+        "url": "https://sg.finance.yahoo.com/news/two-thirds-sgx-listcos-disclosing-200200970.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/publication/articles/23017/sgx-regco-amends-listing-rules-to-limit-tenure-of-independent-directors-to-nine-years-and-require-disclosure-of-exact-remuneration-of-directors-and-ceos",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/node/5887/revisions/7642/view",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "fl.sg",
+        "url": "https://fl.sg/resource/directors-fees-and-renumeration-in-singapore-what-you-need-to-know-legally/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/practice-guidance-8-disclosure-remuneration",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "scs-cpa.com",
+        "url": "https://scs-cpa.com/mastering-directors-remuneration-and-compliance-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rafflescorporateservices.com",
+        "url": "https://rafflescorporateservices.com/director-remuneration-singapore-guide/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/cip/wp-content/uploads/sites/144/2026/03/Remuneration-Practices-2026-Edition_final-2.pdf",
+        "title": ""
+      }
+    ]
+  }
+]

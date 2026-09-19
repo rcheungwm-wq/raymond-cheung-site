@@ -120,5 +120,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-19",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sovereigngroup.com",
+        "url": "https://www.sovereigngroup.com/singapore/singapores-success-at-attracting-single-family-offices/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "roedl.com",
+        "url": "https://www.roedl.com/en/insights/structuring-global-wealth-family-offices-singapore/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "academy.smu.edu.sg",
+        "url": "https://academy.smu.edu.sg/insights/family-office-singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "dakota.com",
+        "url": "https://www.dakota.com/resources/blog/top-10-family-offices-in-singapore-asias-wealth-management-hub",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "ocorian.com",
+        "url": "https://www.ocorian.com/knowledge-hub/insights/faqs-singapore-family-office",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "aseanbriefing.com",
+        "url": "https://www.aseanbriefing.com/doing-business-guide/singapore/company-establishment/family-office-establishment",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "stashaway.sg",
+        "url": "https://www.stashaway.sg/r/guide-to-establish-family-offices-singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "invest.edb.gov.sg",
+        "url": "https://invest.edb.gov.sg/gov-support/sfo-setup-guide",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singlefamilyofficesingapore.com",
+        "url": "https://singlefamilyofficesingapore.com/",
+        "title": ""
+      }
+    ]
   }
 ]
