@@ -3358,4 +3358,137 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "45",
+    title: "What MAS's Agentic AI Guardrails Mean for Every Singapore Board, Not Just Banks",
+    summary:
+      "MAS's Managing Director used his 11 September 2026 Global FinTech Fest address to put SAFR — the industry framework for governing autonomous AI agents in finance — back in front of the market, alongside a sixfold rise in high-severity vulnerabilities this year. For boards outside the banks and fintechs that co-authored it, that repetition is the signal worth reading, not the framework itself.",
+    category: "Technology Risk",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "mas-safr-agentic-ai-governance-singapore-boards",
+    keywords: ["agentic AI governance Singapore boards", "MAS SAFR framework Singapore", "AI agent oversight financial institutions Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "A board I've advised spent an hour last quarter satisfied that its AI governance was in order because it had a policy on chatbot use. That is not the conversation MAS is having anymore. On 11 September, Managing Director Chia Der Jiun told the Global FinTech Fest that AI would increasingly strip out transaction and decision-making frictions altogether — and in the same address, flagged that high-severity vulnerabilities tracked this year had risen sixfold to around 2,200. Read together, that is a regulator describing autonomous systems taking actions on their own, faster than the institutions running them can watch every one, at the exact moment the attack surface is expanding fastest.",
+      },
+      {
+        type: "heading",
+        text: "The white paper MAS keeps putting back in front of the industry",
+      },
+      {
+        type: "paragraph",
+        text: "MAS published SAFR — Safeguards for Agentic Finance at Runtime — as an industry white paper in July 2026, developed under its BuildFin.ai initiative with Ant International, Circle, HSBC, J.P. Morgan Chase, Manulife, Mastercard, OCBC and Visa. It is explicitly not regulatory guidance; MAS says so in the document itself. But a Managing Director does not use a keynote nine weeks later to walk an industry audience back through the same territory — AI agents, oversight, runtime controls — unless the regulator intends it to become the reference point institutions get measured against before it becomes a Notice.",
+      },
+      {
+        type: "pullquote",
+        text: "SAFR isn't a rule yet. MAS repeating it in a Managing Director's keynote nine weeks after publishing it is not an accident.",
+      },
+      {
+        type: "heading",
+        text: "The four questions it forces a board to answer",
+      },
+      {
+        type: "paragraph",
+        text: "Strip away the terminology and SAFR asks a board four plain questions about every AI agent operating anywhere near money movement, underwriting, or claims decisions: does the agent have a verifiable identity distinct from the human who deployed it; is there a controls repository defining what it is and isn't permitted to do; is there a disposition engine that evaluates each proposed action and routes it to Deny, Escalate, Auto-Execute or Observe; and is there an audit log detailed enough to reconstruct, after the fact, exactly why the agent did what it did. Most boards outside the SAFR co-authors cannot currently answer any of the four for the AI tools already running inside their operations — not because the technology is unusually complex, but because the tools arrived through procurement or an ops team's pilot project, not through a governance conversation.",
+      },
+      {
+        type: "list",
+        items: [
+          "Can management name every AI agent currently authorised to take an action — not just answer a query — inside the business, and who approved that authorisation?",
+          "For each one, is there a defined trigger that escalates the decision to a human, or does the agent simply act and report afterward?",
+          "If a regulator or auditor asked for the audit trail behind a specific automated decision from six months ago, could it be produced today?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this requires a board to slow down AI adoption — MAS's own message is the opposite, that innovation should scale, not stall. What it requires is a board that treats agent identity, escalation triggers, and audit trails as standing governance questions now, while building the infrastructure is a design choice, rather than in eighteen months when it is a supervisory finding.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is MAS's SAFR framework a mandatory requirement for Singapore financial institutions?",
+        answer: "No. SAFR is an industry white paper published by MAS under its BuildFin.ai initiative with major banks, insurers, and payment firms, and MAS states explicitly that it does not constitute regulatory guidance or supervisory expectations. It is a voluntary reference architecture — but MAS's continued public promotion of it, most recently in the Managing Director's September 2026 keynote, signals the direction future guidance is likely to take.",
+      },
+      {
+        question: "Which board committee should oversee AI agent deployment in a Singapore financial institution?",
+        answer: "There is no prescribed structure, but the practical answer is whichever committee already owns technology and operational risk — typically the risk committee or a technology risk subcommittee — should extend its mandate explicitly to autonomous AI agents rather than leaving oversight to management's AI governance policy alone. The board's role is to confirm agent identity, escalation, and audit-trail controls exist, not to approve individual use cases.",
+      },
+    ],
+  },
+  {
+    id: "46",
+    title: "Scope 3 Emissions Reporting Is Mandatory for STI Companies From FY2026 — What Boards Need Before Year-End",
+    summary:
+      "Straits Times Index constituents stay on the original timeline for mandatory Scope 3 emissions reporting from FY2026, even after SGX RegCo pushed the requirement back for every other listed company. With only 29% of Singapore-listed issuers currently reporting Scope 3 at all, STI boards that treat this as a data problem for the sustainability team, rather than a governance decision for the board, will run out of runway before their next annual report.",
+    category: "ESG",
+    readingTime: "7 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "issb-scope3-sti-companies-singapore-fy2026",
+    keywords: ["scope 3 emissions Singapore boards", "STI Scope 3 reporting FY2026", "ISSB climate reporting Singapore boards"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I've sat in more than one board sustainability committee meeting where Scope 3 was discussed as a future problem — something to build capability toward over the next few years, once Scope 1 and 2 reporting had matured. For companies inside the Straits Times Index, that runway has already run out. When SGX RegCo extended the timeline for mandatory value-chain emissions reporting in 2024, it built a three-tier system by company size and index membership — and it deliberately left STI constituents on the original schedule. Scope 3 is mandatory for STI companies from FY2026. For a board with a December year-end, that is effectively now.",
+      },
+      {
+        type: "heading",
+        text: "The tiering means STI boards don't get the grace period everyone else just got",
+      },
+      {
+        type: "paragraph",
+        text: "The revised framework splits listed companies into three groups: STI constituents, non-STI companies above roughly S$1 billion in market capitalisation, and everyone below that. All listed companies must disclose Scope 1 and 2 emissions from FY2025 — that part is uniform. But ISSB-aligned climate disclosures more broadly are deferred to FY2028 for larger non-STI companies and FY2030 for smaller ones, and Scope 3 stays voluntary for both of those tiers in the meantime. STI constituents got none of that relief. The regulator's logic is straightforward — the thirty largest, most liquid companies on the exchange are the ones institutional investors and index funds most need comparable value-chain data from — but it means the boards facing the hardest reporting category are the ones with the least additional time to prepare for it.",
+      },
+      {
+        type: "pullquote",
+        text: "STI boards facing Scope 3 don't get to say the data is hard to get. That is exactly why the exchange put them on the original schedule.",
+      },
+      {
+        type: "heading",
+        text: "The compliance gap is exactly where the mandate now lands",
+      },
+      {
+        type: "paragraph",
+        text: "A review of Singapore-listed sustainability reports found 87% of issuers disclosing Scope 2 emissions and 80% disclosing Scope 1 — but only 29% disclosing Scope 3. That gap exists for a structural reason: Scope 3 covers purchased goods and services, business travel, employee commuting, waste disposal, and the use and disposal of sold products — categories that, combined, typically make up 70% or more of a company's total footprint, and that no single internal function fully owns. A sustainability team can pull utility bills for Scope 1 and 2. It cannot unilaterally produce supplier-level emissions data, employee commuting patterns, or product end-of-life assumptions without procurement, HR, finance, and often the supply chain itself cooperating on definitions the board has never actually settled.",
+      },
+      {
+        type: "heading",
+        text: "Why this is a board decision, not a data-collection exercise",
+      },
+      {
+        type: "paragraph",
+        text: "The mistake I see most often is delegating Scope 3 entirely to the sustainability function as though it were a technical reporting task. It isn't. Before any data gets collected, someone has to decide which Scope 3 categories are material enough to report on and which can be reasonably excluded — a judgement call with real disclosure risk attached if it's made by a junior team without board sign-off. Someone has to decide what estimation methodology is used where supplier-level data doesn't exist yet, because for most companies it won't in year one. And someone has to start planning now for external limited assurance over Scope 1 and 2, which becomes mandatory from FY2029 — a deadline that sounds distant but requires the underlying data systems to be assurance-ready years before an auditor ever looks at them.",
+      },
+      {
+        type: "list",
+        items: [
+          "Has the board — not the sustainability team alone — signed off on which Scope 3 categories are material to this business and documented why any are excluded?",
+          "Is there a named owner in procurement, HR, or finance for each material category's data, or does the sustainability team still own all of it by default?",
+          "Has the company engaged, or started evaluating, an external assurance provider ahead of the FY2029 mandatory assurance requirement for Scope 1 and 2?",
+          "Does the sustainability or ESG committee report Scope 3 progress to the full board as a standing item, or only surface it once a year when the annual report is being drafted?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this is a call to panic. It's a call to sequence the work correctly. The STI boards that get ahead of FY2026 will have spent the remaining months of this year making the judgement calls — materiality, methodology, ownership — that actually require board input, so that what's left for the sustainability team is execution rather than guesswork. The ones that wait for the annual report drafting cycle to force the conversation will discover, in public, that 29% Scope 3 disclosure rate exists for a reason, and that reason was never really about data.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Which Singapore-listed companies must report Scope 3 emissions from FY2026?",
+        answer: "Straits Times Index (STI) constituents remain on the original mandatory timeline for Scope 3 (value-chain) emissions reporting from FY2026. Non-STI companies above roughly S$1 billion in market capitalisation and smaller listed companies had their broader ISSB-aligned climate disclosure timelines deferred to FY2028 and FY2030 respectively, with Scope 3 remaining voluntary for those tiers in the interim. All listed companies must still disclose Scope 1 and Scope 2 emissions from FY2025.",
+      },
+      {
+        question: "What should an STI board do if it can't get reliable Scope 3 data from suppliers?",
+        answer: "Use recognised estimation methodologies for categories where primary supplier data isn't yet available, and disclose the methodology and its limitations transparently rather than omitting the category. The board's job is to sign off on which categories are material and what estimation approach is being used, and to task management with improving data quality — usually starting with the largest suppliers by spend — in subsequent reporting years.",
+      },
+      {
+        question: "Does Scope 3 emissions reporting require external assurance in Singapore?",
+        answer: "Not yet. External limited assurance is currently mandated for Scope 1 and Scope 2 emissions from FY2029 for listed companies. Scope 3 assurance requirements have not been mandated on the same timeline, but boards preparing for FY2026 Scope 3 disclosure should build data systems now that will also support Scope 1 and 2 assurance readiness ahead of that FY2029 deadline.",
+      },
+    ],
+  },
 ];

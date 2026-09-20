@@ -175,5 +175,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "rsm.global",
+        "url": "https://www.rsm.global/singapore/insights/strengthening-board-level-cyber-oversight-through-ciso-service",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/sg/en/services/risk/digital-solutions/navigating-new-csa-cii-requirements-for-board-of-directors.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas/resource/fin_development/corporate_governance/riskgovernanceguidanceforlistedboards.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "technode.global",
+        "url": "https://technode.global/2025/04/03/cyber-risk-is-business-risk-five-tips-for-business-leaders-in-singapore-to-consider/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "exd.smu.edu.sg",
+        "url": "https://exd.smu.edu.sg/short-courses/risk-management-cybersecurity-governance",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "techtimes.com",
+        "url": "https://www.techtimes.com/articles/321332/20260723/singapore-makes-critical-infrastructure-boards-own-cyber-recovery-launches-cloud-code.htm",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "assets.kpmg.com",
+        "url": "https://assets.kpmg.com/content/dam/kpmg/sg/pdf/2016/11/improved-risked-transparency-among-singapore-companies.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "builtin.com",
+        "url": "https://builtin.com/job/senior-manager-cybersecurity-operations/7521364",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ncsc.gov.uk",
+        "url": "https://www.ncsc.gov.uk/cyber-governance-for-boards/overview",
+        "title": ""
+      }
+    ]
   }
 ]

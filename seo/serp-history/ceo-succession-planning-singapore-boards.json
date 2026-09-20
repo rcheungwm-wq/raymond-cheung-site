@@ -175,5 +175,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/career-advice/career-development/succession-planning",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "egonzehnder.com",
+        "url": "https://www.egonzehnder.com/office/singapore",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "protiviti.com",
+        "url": "https://www.protiviti.com/sg-en/blogs/7-ways-strengthen-leadership-succession-development",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "singaporelegaladvice.com",
+        "url": "https://singaporelegaladvice.com/law-articles/business-succession-planning/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/us/en/services/governance-insights-center/library/ceo-succession-planning.html",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "kornferry.com",
+        "url": "https://www.kornferry.com/insights/featured-topics/leadership/ceo-succession-planning-best-practices-for-boards",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "roberthalf.com",
+        "url": "https://www.roberthalf.com/sg/en/insights/management-tips/why-you-shouldnt-neglect-business-succession-planning",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "dvphilippines.com",
+        "url": "https://www.dvphilippines.com/blog/importance-of-succession-planning",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ccnalaw.com",
+        "url": "https://ccnalaw.com/how-to-choose-successor-family-business-singapore/",
+        "title": ""
+      }
+    ]
   }
 ]

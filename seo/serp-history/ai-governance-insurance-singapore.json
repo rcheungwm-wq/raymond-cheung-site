@@ -237,5 +237,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/manulife-singapore-launches-artificial-intelligence-hub-559676.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scicollege.edu.sg",
+        "url": "https://www.scicollege.edu.sg/technical-training/ai-governance-risk-management-for-insurers",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/singapore-budget-signals-bold-ai-push--but-governance-gaps-loom-566094.aspx",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "asiainsurancereview.com",
+        "url": "https://www.asiainsurancereview.com/News/View-NewsLetter-Article/id/95484/type/AIRPlus/Singapore-Playbook-reframes-AI-governance-for-strategic-headstart-and-trust",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "techforgoodinstitute.org",
+        "url": "https://techforgoodinstitute.org/insights/country-spotlights/assurance-as-infrastructure-how-singapore-governs-ai-in-practice/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "insuranceindustry.ai",
+        "url": "https://insuranceindustry.ai/six-regulators-six-answers-the-ai-insurance-governance-map-nobodys-drawn/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "financexmagazine.com",
+        "url": "https://www.financexmagazine.com/post/after-singapore-fintech-festival-2025-why-ai-assurance-is-becoming-finance-s-most-urgent-frontier",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "nortonrosefulbright.com",
+        "url": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/d29492fd/the-robots-are-coming",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "job-boards.greenhouse.io",
+        "url": "https://job-boards.greenhouse.io/dataiku/jobs/5657260004",
+        "title": ""
+      }
+    ]
   }
 ]

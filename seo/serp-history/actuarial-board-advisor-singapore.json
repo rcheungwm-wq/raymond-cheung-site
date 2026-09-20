@@ -518,5 +518,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "glassdoor.sg",
+        "url": "https://www.glassdoor.sg/Job/singapore-advisory-board-member-jobs-SRCH_IL.0,9_IC3235921_KO10,31.htm",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/resources/announcements/press-releases/2025/soa-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ensun.io",
+        "url": "https://ensun.io/search/actuarial-consulting/singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/singaporeactuaries/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/institutions/singapore-management-university/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "workopia.io",
+        "url": "https://workopia.io/browsejobs/sg/singapore/actuary",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "gravitasgroup.com.sg",
+        "url": "https://www.gravitasgroup.com.sg/specialisms/actuarial",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "actuaries.org.sg",
+        "url": "https://actuaries.org.sg/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "skillup.sg",
+        "url": "https://www.skillup.sg/careers/actuary",
+        "title": ""
+      }
+    ]
   }
 ]
