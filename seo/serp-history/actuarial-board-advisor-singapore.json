@@ -579,5 +579,36 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=qb0nkoYAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=HZXCV4wAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=4ogN11gAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "statistics.byu.edu",
+        "url": "https://statistics.byu.edu/actuarial-science-advisory-board",
+        "title": ""
+      }
+    ]
   }
 ]

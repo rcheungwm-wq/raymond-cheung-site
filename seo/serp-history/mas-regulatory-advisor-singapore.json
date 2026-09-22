@@ -614,5 +614,48 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Monetary_Authority_of_Singapore",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "cloud.google.com",
+        "url": "https://cloud.google.com/security/compliance/mas-trm",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "job-boards.greenhouse.io",
+        "url": "https://job-boards.greenhouse.io/trustbank/jobs/6593137003",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "jdsupra.com",
+        "url": "https://www.jdsupra.com/topics/singapore/financial-adviser/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "builtin.com",
+        "url": "https://builtin.com/job/compliance-manager/6947594",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "fintechlab.nus.edu.sg",
+        "url": "https://fintechlab.nus.edu.sg/enhancing-consumer-protection-singapores-crypto-regulatory-measures/",
+        "title": ""
+      }
+    ]
   }
 ]

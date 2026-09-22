@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-fit-and-proper-criteria",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "complianceonline.com",
+        "url": "https://www.complianceonline.com/monetary-authority-of-singapore-guidelines-on-fit-and-proper-persons-an-overview-and-summary-of-requirements-13641-prdad",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-corporate-governance",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "alder.com.sg",
+        "url": "https://alder.com.sg/mas-fit-and-proper-criteria-singapore/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "lanturn.com",
+        "url": "https://www.lanturn.com/sg/blog/monetary-authority-of-singapore-fit-and-proper-criteria-and-individual-accountability",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "rtcompliance.sg",
+        "url": "https://rtcompliance.sg/mas-fit-and-proper-criteria/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "rafflescorporateservices.com",
+        "url": "https://rafflescorporateservices.com/fit-and-proper-criteria-singapore/",
+        "title": ""
+      }
+    ]
+  }
+]

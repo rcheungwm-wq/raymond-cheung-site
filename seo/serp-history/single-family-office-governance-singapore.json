@@ -242,5 +242,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "roedl.com",
+        "url": "https://www.roedl.com/en/insights/structuring-global-wealth-family-offices-singapore/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "academy.smu.edu.sg",
+        "url": "https://academy.smu.edu.sg/insights/family-office-singapore",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "dakota.com",
+        "url": "https://www.dakota.com/resources/blog/top-10-family-offices-in-singapore-asias-wealth-management-hub",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ocorian.com",
+        "url": "https://www.ocorian.com/knowledge-hub/insights/faqs-singapore-family-office",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "aseanbriefing.com",
+        "url": "https://www.aseanbriefing.com/doing-business-guide/singapore/company-establishment/family-office-establishment",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "stashaway.sg",
+        "url": "https://www.stashaway.sg/r/guide-to-establish-family-offices-singapore",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "invest.edb.gov.sg",
+        "url": "https://invest.edb.gov.sg/gov-support/sfo-setup-guide",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "step.org",
+        "url": "https://www.step.org/industry-news/singapores-simplified-framework-single-family-offices-comes-effect",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singlefamilyofficesingapore.com",
+        "url": "https://singlefamilyofficesingapore.com/",
+        "title": ""
+      }
+    ]
   }
 ]

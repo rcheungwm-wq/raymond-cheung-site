@@ -615,5 +615,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/insurtech-asia-appoints-athistha-chitranukroh-advisory-board/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "fintechnews.sg",
+        "url": "https://fintechnews.sg/28620/insurtech/top-10-insurtech-leaders-in-asia/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/company/insurtech-asia",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "fintechnews.sg",
+        "url": "https://fintechnews.sg/23449/insurtech/asia-100-insurtech-companies/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/top-10-insurtech-companies-in-asia-214884.aspx",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/DirectAsia",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "insurtechinsights.com",
+        "url": "https://insurtechinsights.com/asia/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "asiainsurancereview.com",
+        "url": "https://www.asiainsurancereview.com/Magazine/ReadMagazineArticle?aid=42290",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "insurtechinsights.com",
+        "url": "https://www.insurtechinsights.com/asia/who-attends/",
+        "title": ""
+      }
+    ]
   }
 ]

@@ -242,5 +242,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "aicd.com.au",
+        "url": "https://www.aicd.com.au/board-of-directors/performance/evaluations.html",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "kornferry.com",
+        "url": "https://www.kornferry.com/capabilities/board-ceo-services/board-effectiveness",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/images/PDFS/Publications/DirectorsBulletin/DirectorsBulletin_20081.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "better-boards.com",
+        "url": "https://better-boards.com/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "russellreynolds.com",
+        "url": "https://www.russellreynolds.com/en/insights/articles/making-it-count-board-effectiveness-exercises-re-examined",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "theboardpractice.com",
+        "url": "https://theboardpractice.com/service/board-effectiveness/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "ecgi.global",
+        "url": "https://www.ecgi.global/sites/default/files/working_papers/documents/finalfenwickvermeulen.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "deloitte.com",
+        "url": "https://www.deloitte.com/southeast-asia/en/services/consulting-financial/services/electronic-board-effectiveness-evaluation.html",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/?p=16004",
+        "title": ""
+      }
+    ]
   }
 ]

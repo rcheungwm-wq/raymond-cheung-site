@@ -3491,4 +3491,137 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "47",
+    title: "What MAS's Stablecoin Licensing Framework Means for Every Singapore Board, Not Just Crypto Firms",
+    summary:
+      "MAS opened a consultation on 1 September 2026 to convert its Single-Currency Stablecoin framework from supervisory expectation into enforceable law under the Payment Services Act — with a new power to designate any stablecoin as systemic. Boards that have been treating stablecoin exposure as a treasury or payments-ops sandbox item now need to treat it as a standing risk-register entry.",
+    category: "Regulation",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "mas-stablecoin-licensing-framework-singapore-boards",
+    keywords: ["MAS stablecoin regulatory framework Singapore", "MAS regulatory advisor Singapore", "stablecoin governance board oversight Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I've sat in board risk discussions where stablecoin exposure got waved off in under a minute — 'that's a treasury team question' — and moved on to the next agenda item. MAS just made that answer obsolete. On 1 September, it opened a consultation on amendments to the Payment Services Act that would give its Single-Currency Stablecoin framework the force of law, not just the weight of supervisory guidance a board could reasonably treat as a soft expectation.",
+      },
+      {
+        type: "heading",
+        text: "From stated policy to enforceable statute",
+      },
+      {
+        type: "paragraph",
+        text: "The framework MAS finalised in 2023 has, until now, operated as policy: firms were expected to comply, but the label 'MAS-regulated stablecoin' wasn't backed by a licensing regime with real teeth. The proposed amendments change that. They introduce a licensing regime for Singapore-incorporated issuers of stablecoins pegged to the Singapore dollar or a G10 currency, a recognition regime for foreign issuers already subject to comparable oversight at home, and — the detail I'd flag first to any board — a new MAS power to designate a specific stablecoin as systemic if it could pose risk to, or disrupt, Singapore's financial system. Only licensed issuers will be permitted to call themselves 'MAS-regulated,' which turns a marketing claim into a legal one.",
+      },
+      {
+        type: "pullquote",
+        text: "A systemic designation power means a stablecoin your business touches today, quietly and through a vendor, can become a named regulatory risk tomorrow without your board ever having voted on exposure to it.",
+      },
+      {
+        type: "heading",
+        text: "Why this reaches boards that have never issued a token",
+      },
+      {
+        type: "paragraph",
+        text: "This isn't only a compliance question for the handful of firms seeking a licence. Value stability, capital, redemption-at-par, and disclosure requirements now become testable legal obligations rather than best-practice expectations — which changes the due-diligence bar for any company holding stablecoins on its balance sheet, using them for cross-border settlement, or embedding them in a payments product built on top of someone else's rails. A board that has never discussed stablecoins directly may still be carrying counterparty exposure to one through a payments partner, and the systemic-designation power means that exposure's risk profile can change on MAS's timetable, not the board's.",
+      },
+      {
+        type: "list",
+        items: [
+          "Does anyone on management know which, if any, stablecoins the business is exposed to — directly or through a payments or treasury vendor?",
+          "If MAS designated one of those as systemic, is there a process to identify and reassess that exposure within days, or would the board find out from a news alert?",
+          "Has risk or treasury been asked to respond to the consultation, or map its implications, ahead of the 16 October 2026 deadline?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The consultation closes on 16 October. Boards don't need a position on the legislative detail to act now — they need a straight answer to one question: where does this business actually touch a stablecoin, and who is watching it. That answer should exist before the framework becomes law, not after.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is MAS's Single-Currency Stablecoin (MAS-SCS) framework?",
+        answer: "It's MAS's regulatory framework, finalised in 2023, for stablecoins pegged to the Singapore dollar or other G10 currencies, covering value stability, capital, redemption at par, and disclosure. Until the September 2026 consultation, it operated as supervisory policy rather than enforceable statute.",
+      },
+      {
+        question: "What changes under the proposed Payment Services Act amendments?",
+        answer: "The amendments would create a licensing regime for Singapore-incorporated stablecoin issuers, a recognition regime for comparably regulated foreign issuers, and give MAS power to designate specific stablecoins as systemic if they could pose risk to Singapore's financial system. Only MAS-licensed issuers would be permitted to describe their tokens as 'MAS-regulated stablecoins.'",
+      },
+      {
+        question: "Does this affect companies that don't issue stablecoins themselves?",
+        answer: "Yes. Any company holding stablecoins, using them for settlement, or relying on a payments vendor built on stablecoin rails carries exposure that the new systemic-designation power can reclassify as higher-risk on MAS's timetable. Boards should map that exposure now rather than waiting for the framework to take legal effect.",
+      },
+    ],
+  },
+  {
+    id: "48",
+    title: "ISSB-Aligned Reporting Reaches Singapore's Large Private Companies From FY2030 — Most Don't Have the Board For It",
+    summary:
+      "From FY2030, Singapore's large non-listed companies — revenue above S$1 billion and total assets above S$500 million — must report Scope 1 and 2 emissions and full ISSB-aligned climate disclosures for the first time. Unlike the listed companies that have been building toward this since FY2025, most of these boards have never run a risk committee, an audit committee, or an independent director through a disclosure sign-off, and four years is not as much runway as it looks.",
+    category: "ESG",
+    readingTime: "8 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "issb-reporting-large-non-listed-companies-singapore",
+    keywords: ["ISSB reporting large non-listed companies Singapore", "large NLCo sustainability reporting Singapore", "private company board ESG governance Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I've advised family-owned and private-equity-backed businesses that are, by any commercial measure, bigger than half the companies on SGX's Mainboard — and whose boards have never once had to demonstrate independent oversight of a public disclosure. That gap is about to matter. From financial years starting on or after 1 January 2030, Singapore's large non-listed companies must report ISSB-aligned climate disclosures, including mandatory Scope 1 and 2 emissions, for the first time. Listed companies have had a multi-year runway toward this, phased in from FY2025. Large private companies get one mandate, on one date, with none of the board infrastructure listed companies were required to build along the way.",
+      },
+      {
+        type: "heading",
+        text: "Who this actually catches, and what it requires",
+      },
+      {
+        type: "paragraph",
+        text: "ACRA's threshold is specific: a large non-listed company (Large NLCo) is one with annual revenue of S$1 billion or more and total assets of S$500 million or more — both conditions, not either. That catches a real population of Singapore businesses: family conglomerates, PE-backed platforms nearing exit, and Singapore-incorporated subsidiaries of foreign multinationals that aren't separately listed anywhere. From FY2030, those companies must report Scope 1 and 2 GHG emissions as a mandatory item, with Scope 3 remaining voluntary, structured around the same four ISSB pillars listed companies already report against: governance, strategy, risk management, and metrics and targets. A subsidiary can be exempted if its parent — local or foreign — already publishes an ISSB-based or equivalent climate report that covers the subsidiary's activities, which will let some MNC subsidiaries off the hook. It will not help the standalone family business or the PE platform with no reporting parent above it.",
+      },
+      {
+        type: "pullquote",
+        text: "A listed company spent four years building the board machinery to answer the governance question in its climate disclosure. A large private company gets one filing deadline and has to build the same machinery from a standing start.",
+      },
+      {
+        type: "heading",
+        text: "The governance pillar is the one that exposes the real gap",
+      },
+      {
+        type: "paragraph",
+        text: "Of the four ISSB pillars, metrics and targets is the one that gets the attention because it's the number-crunching exercise — get the emissions data, pick a methodology, report a figure. Governance is the one that actually exposes whether the board is ready. IFRS S1 and S2 require a company to describe the board's oversight of climate-related risks and opportunities, and management's role in assessing and managing them. A listed company answers that question with an existing risk committee charter, board minutes showing climate on the agenda, and — since Singapore's Code of Corporate Governance applies to it — independent directors whose role is specifically to challenge management's assumptions. A large non-listed company, with no Code of Corporate Governance obligation, frequently has none of that: no mandated independent directors, no standing risk committee, and a board that may consist largely of family members or the PE sponsor's own operating partners, none of whom were put there to independently challenge a climate risk assessment.",
+      },
+      {
+        type: "paragraph",
+        text: "That's not a data problem four years can't fix — it's a board-composition and governance-process problem that takes just as long to fix properly, and that most Large NLCo boards haven't started on because FY2030 still sounds far away. Standing up a functioning risk oversight process, bringing in at least one genuinely independent voice, and getting the board comfortable discussing emissions data with the same rigor it applies to a covenant test is a multi-year exercise even when a company starts now. Boards that wait until FY2028 or FY2029 to think about governance, because the emissions data collection felt like the more urgent problem, will arrive at their first ISSB disclosure with a metrics section that reads adequately and a governance section that reads exactly like what it is: written after the fact, to describe oversight that didn't happen.",
+      },
+      {
+        type: "list",
+        items: [
+          "Does this company clear both the S$1 billion revenue and S$500 million total assets thresholds — and if it's a subsidiary, does a parent's existing ISSB-aligned report actually cover its activities, in writing, or is that assumed?",
+          "Does the board have a standing risk committee, or any board-level process, that has discussed climate risk in the last twelve months — not as a briefing, but as a decision item?",
+          "Is there at least one director on the board whose role is to independently challenge management's assumptions, on climate or anything else, or is the board composed entirely of family members, sponsor representatives, or executives?",
+          "If asked today to describe the board's oversight of climate-related risk for a disclosure document, would that description be true, or would it be written to sound true?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Four years is enough time to build a genuine governance process around climate risk. It is not enough time to build one in the six months before the first filing, which is when most boards facing a mandate this far out actually start. The Large NLCos that treat FY2030 as a board-composition project starting now will file a governance disclosure that's simply true. The ones that treat it as a data project will spend 2029 discovering that the hardest section to write honestly was never the one with the numbers in it.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Which companies count as a Large Non-Listed Company (Large NLCo) under Singapore's sustainability reporting regime?",
+        answer: "A company that is not listed on SGX but has annual revenue of S$1 billion or more and total assets of S$500 million or more — both thresholds must be met. This captures large family-owned businesses, private-equity-backed platforms, and Singapore-incorporated subsidiaries of foreign multinationals.",
+      },
+      {
+        question: "What must Large NLCos report from FY2030, and is Scope 3 included?",
+        answer: "From financial years starting on or after 1 January 2030, Large NLCos must report ISSB-based climate-related disclosures, including mandatory Scope 1 and 2 GHG emissions, structured around the four IFRS S1/S2 pillars: governance, strategy, risk management, and metrics and targets. Scope 3 emissions reporting remains voluntary for this group. External limited assurance over Scope 1 and 2 becomes mandatory later, from FY2032.",
+      },
+      {
+        question: "Is a Large NLCo exempt if it's a subsidiary of a foreign multinational?",
+        answer: "It can be, but only if the parent company — local or foreign — already prepares an ISSB-based or equivalent climate or sustainability report, and that report's coverage explicitly includes the Singapore subsidiary's activities. A subsidiary should confirm this in writing rather than assume group-level reporting automatically covers it.",
+      },
+    ],
+  },
 ];

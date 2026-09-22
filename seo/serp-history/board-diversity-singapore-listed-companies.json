@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "humanresourcesonline.net",
+        "url": "https://www.humanresourcesonline.net/top-10-companies-in-the-singapore-board-diversity-index",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/publications/staff-papers/2012/mas-staff-paper-no52-apr2012",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/About/News-and-Press/News_2025/2025-01-20_ST_Singapore-listed_companies_have_more_diverse_boards.aspx",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "councilforboarddiversity.sg",
+        "url": "https://www.councilforboarddiversity.sg/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "councilforboarddiversity.sg",
+        "url": "https://www.councilforboarddiversity.sg/diversity-is-gathering-momentum-among-listed-companies-and-statutory-boards-council-for-board-diversity/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "councilforboarddiversity.sg",
+        "url": "https://www.councilforboarddiversity.sg/resources/latest-statistics/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/blog/press-release/article/board-diversity-recognised-in-inaugural-awards-at-asean-corporate-governance-scorecard-singapore-results-2018",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "bizbeat.nus.edu.sg",
+        "url": "https://bizbeat.nus.edu.sg/press-release/article/joint-study-diverse-leadership-brings-better-firm-performance/",
+        "title": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "aidf.nus.edu.sg",
+        "url": "https://www.aidf.nus.edu.sg/fintech-training-programmes/ai-risk-management/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scicollege.edu.sg",
+        "url": "https://www.scicollege.edu.sg/technical-training/ai-governance-risk-management-for-insurers",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "hdsr.mitpress.mit.edu",
+        "url": "https://hdsr.mitpress.mit.edu/pub/f10qbic0/release/2",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mayerbrown.com",
+        "url": "https://www.mayerbrown.com/en/insights/publications/2026/04/singapores-agentic-ai-framework-practical-guidance-for-market-entry",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "techforgoodinstitute.org",
+        "url": "https://techforgoodinstitute.org/insights/country-spotlights/assurance-as-infrastructure-how-singapore-governs-ai-in-practice/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "insuranceindustry.ai",
+        "url": "https://insuranceindustry.ai/six-regulators-six-answers-the-ai-insurance-governance-map-nobodys-drawn/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "pecuniya.com",
+        "url": "https://www.pecuniya.com/ai-risk-assessment-a-step-by-step-guide-to-responsible-ai-for-singapore-financial-institutions/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "compliancecorylated.com",
+        "url": "https://www.compliancecorylated.com/news/singapore-launches-ai-risk-management-toolkit/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "clydeco.com",
+        "url": "https://www.clydeco.com/en/insights/2024/12/singapore-s-ai-model-risk-management-paper-key-ins",
+        "title": ""
+      }
+    ]
+  }
+]

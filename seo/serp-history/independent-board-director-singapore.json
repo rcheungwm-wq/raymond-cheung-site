@@ -530,5 +530,54 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tipranks.com",
+        "url": "https://www.tipranks.com/news/company-announcements/genting-singapore-welcomes-new-board-director",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/my/corporate/newsroom/press-release/2018/July-September/ne2918-180831",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/sa/corporate/newsroom/press-release/2021/April-June/ne1221-210519",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/us/corporate/newsroom/press-release/2016/July-September/ne2416-160831",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/es/corporate/newsroom/press-release/2021/July-September/ne1421-210705",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/au/corporate/newsroom/press-release/2017/April-June/ne1017-170531/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/kh/corporate/newsroom/press-release/2017/April-June/ne0317-170428",
+        "title": ""
+      }
+    ]
   }
 ]
