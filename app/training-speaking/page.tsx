@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Download, Mic, Users, Briefcase, GraduationCap, MessageSquare, Radio } from "lucide-react";
 import { programmes, speakingThemes, speakingFormats } from "@/data/programmes";
@@ -43,6 +44,35 @@ export default function TrainingSpeakingPage() {
           <p style={{ fontSize: "1.05rem", color: "rgba(26,23,18,0.65)", lineHeight: 1.75, maxWidth: "560px" }}>
             Raymond delivers corporate training programmes, executive briefings, keynotes and conference contributions on the subjects shaping risk, insurance, regulation, climate and technology across Asia.
           </p>
+        </div>
+      </section>
+
+      {/* Photo evidence strip */}
+      <section style={{ padding: "3rem 2rem 0", backgroundColor: "var(--warm-ivory)" }}>
+        <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
+          <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem", letterSpacing: "0.18em", color: "var(--ink-faint)", textTransform: "uppercase", marginBottom: "1.25rem" }}>
+            In the room
+          </p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }} className="photo-grid">
+            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+              <Image src="/raymond-speaking-jakarta.jpg" alt="Raymond Cheung delivering Enterprise Risk Management programme at JW Marriott Jakarta — Singapore College of Insurance and APARI" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+              <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>SCI & APARI — Jakarta 2026</p>
+              </div>
+            </div>
+            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+              <Image src="/raymond-training-classroom.jpg" alt="Participants at Raymond Cheung's executive training session, September 2026" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center" }} />
+              <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>Executive Training — Singapore 2026</p>
+              </div>
+            </div>
+            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+              <Image src="/raymond-international-conference.jpg" alt="Raymond Cheung representing Singapore at international reinsurance conference, Minsk 2026" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+              <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>International Conference — Belarus 2026</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -153,6 +183,7 @@ export default function TrainingSpeakingPage() {
 
       <style>{`
         @media (max-width: 899px) { .pathway-grid { grid-template-columns: 1fr !important; } }
+        @media (max-width: 699px) { .photo-grid { grid-template-columns: 1fr !important; } }
       `}</style>
     </div>
   );

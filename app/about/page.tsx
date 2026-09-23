@@ -378,6 +378,22 @@ export default function AboutPage() {
                 />
               </div>
 
+              {/* Proof images */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+                <div style={{ position: "relative", width: "100%", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+                  <Image src="/raymond-certificate-recognition.jpg" alt="Certificate of Recognition awarded to Raymond Cheung" fill sizes="320px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+                  <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.5rem 0.75rem", background: "linear-gradient(transparent, rgba(10,16,31,0.8))" }}>
+                    <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.52rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>Certificate of Recognition</p>
+                  </div>
+                </div>
+                <div style={{ position: "relative", width: "100%", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+                  <Image src="/raymond-sas-book-interview.jpg" alt="Raymond Cheung featured in The Mark of an Actuary — 50 Years of the Singapore Actuarial Society" fill sizes="320px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+                  <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.5rem 0.75rem", background: "linear-gradient(transparent, rgba(10,16,31,0.8))" }}>
+                    <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.52rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>SAS 50th Anniversary Publication</p>
+                  </div>
+                </div>
+              </div>
+
               <div style={{
                 background: "var(--glass)", backdropFilter: "none",
                 WebkitBackdropFilter: "none",
