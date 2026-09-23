@@ -110,20 +110,13 @@ export default function HeroAuthoritySection() {
           }}>
             <Image
               src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
-              alt="Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
+              alt="Raymond Cheung — Chartered Actuary, Chief Risk Officer and Board Adviser, Singapore"
               fill priority
               sizes="(max-width: 899px) 90vw, 480px"
               style={{
                 objectFit: "cover",
-                /* Crop in on the subject to push the event backdrop's
-                   sponsor signage out of frame. */
-                /* Source is only 400×400 and already renders ~1.8× upscaled,
-                   so keep the crop gentle — the scrim below hides the
-                   event signage instead of zooming into it. */
-                objectPosition: "34% 16%",
-                transform: "scale(1.06)",
-                /* Warm monochrome — harmonises the event-photo backdrop
-                   with the champagne palette and mutes its low resolution. */
+                objectPosition: "50% 18%",
+                transform: "scale(1.08)",
                 filter: "grayscale(100%) sepia(30%) contrast(1.05) brightness(1.03)",
               }}
             />
