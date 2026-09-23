@@ -110,13 +110,13 @@ export default function HeroAuthoritySection() {
           }}>
             <Image
               src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
-              alt="Raymond Cheung — Chartered Actuary, Chief Risk Officer and Board Adviser, Singapore"
+              alt="Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
               fill priority
               sizes="(max-width: 899px) 90vw, 480px"
               style={{
                 objectFit: "cover",
-                objectPosition: "50% 18%",
-                transform: "scale(1.08)",
+                objectPosition: "34% 16%",
+                transform: "scale(1.06)",
                 filter: "grayscale(100%) sepia(30%) contrast(1.05) brightness(1.03)",
               }}
             />
