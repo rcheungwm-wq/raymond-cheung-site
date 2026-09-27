@@ -48,7 +48,7 @@ export default function TestimonialsSection({ limit }: { limit?: number }) {
           <h2 id="testimonials-heading" style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700,
-            letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.15, margin: 0,
+            letterSpacing: "-0.025em", color: "#F5F0E8", lineHeight: 1.15, margin: 0,
           }}>
             What clients and<br />colleagues say.
           </h2>

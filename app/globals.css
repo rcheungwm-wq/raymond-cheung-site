@@ -10,8 +10,8 @@
     /* Surfaces — champagne ladder, light → deep */
     --warm-ivory: #E8DCC0;          /* page canvas — champagne */
     --soft-mist: #F0E7D2;           /* alternating band — lighter */
-    --midnight-navy: #DACBA4;       /* feature band — deeper champagne */
-    --executive-navy: #E3D5B4;      /* gradient partner */
+    --midnight-navy: #0A101F;        /* feature band — deep navy */
+    --executive-navy: #0F1E38;      /* gradient partner — navy */
     --panel: #F4EDDC;               /* raised card — parchment */
     --panel-hi: #FBF6EA;            /* hover / active card */
 
@@ -217,6 +217,9 @@
   transition: color 0.2s ease;
 }
 .nav-link-footer:hover { color: var(--gold); }
+
+footer .nav-link-footer { color: rgba(245,240,232,0.6); }
+footer .nav-link-footer:hover { color: var(--gold); }
 
 /* ══ Advisory card ══ */
 .advisory-card-hover { transition: border-color 0.25s ease; }

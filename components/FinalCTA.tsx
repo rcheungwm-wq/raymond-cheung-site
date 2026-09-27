@@ -33,7 +33,7 @@ export default function FinalCTA() {
             fontSize: "clamp(1.8rem, 4vw, 3rem)",
             fontWeight: 700,
             letterSpacing: "-0.03em",
-            color: "var(--ink)",
+            color: "#F5F0E8",
             lineHeight: 1.15,
             marginBottom: "1.5rem",
           }}
@@ -44,7 +44,7 @@ export default function FinalCTA() {
         <p
           style={{
             fontSize: "1rem",
-            color: "rgba(26,23,18,0.6)",
+            color: "rgba(245,240,232,0.72)",
             lineHeight: 1.8,
             marginBottom: "3rem",
             maxWidth: "560px",
@@ -83,7 +83,7 @@ export default function FinalCTA() {
             fontFamily: "var(--font-ibm-mono), monospace",
             fontSize: "0.62rem",
             letterSpacing: "0.08em",
-            color: "rgba(26,23,18,0.22)",
+            color: "rgba(245,240,232,0.3)",
             lineHeight: 1.6,
           }}
         >
@@ -97,8 +97,8 @@ export default function FinalCTA() {
           align-items: center;
           gap: 0.5rem;
           padding: 1rem 2rem;
-          background-color: var(--midnight-navy);
-          color: var(--warm-ivory);
+          background-color: var(--gold);
+          color: #0A0A0C;
           font-family: var(--font-plus-jakarta), system-ui, sans-serif;
           font-weight: 600;
           font-size: 0.9rem;
@@ -106,23 +106,23 @@ export default function FinalCTA() {
           text-decoration: none;
           transition: background-color 0.2s ease, transform 0.2s ease;
         }
-        .cta-dark-btn:hover { background-color: var(--deep-teal); transform: translateY(-2px); }
+        .cta-dark-btn:hover { background-color: var(--gold-dim); transform: translateY(-2px); }
         .cta-outline-btn {
           display: inline-flex;
           align-items: center;
           gap: 0.5rem;
           padding: 1rem 2rem;
           background-color: transparent;
-          color: rgba(26,23,18,0.75);
+          color: rgba(245,240,232,0.8);
           font-family: var(--font-plus-jakarta), system-ui, sans-serif;
           font-weight: 500;
           font-size: 0.9rem;
           border-radius: 999px;
-          border: 1.5px solid rgba(26,23,18,0.2);
+          border: 1.5px solid rgba(245,240,232,0.25);
           text-decoration: none;
           transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
         }
-        .cta-outline-btn:hover { border-color: rgba(26,23,18,0.5); color: rgba(26,23,18,1); transform: translateY(-2px); }
+        .cta-outline-btn:hover { border-color: rgba(245,240,232,0.6); color: rgba(245,240,232,1); transform: translateY(-2px); }
       `}</style>
     </section>
   );

@@ -359,7 +359,7 @@ export default function FeaturedProgrammes() {
               gap: "0.5rem",
               padding: "0.85rem 2rem",
               backgroundColor: "var(--midnight-navy)",
-              color: "var(--ink)",
+              color: "#F5F0E8",
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
               fontWeight: 600,
               fontSize: "0.875rem",

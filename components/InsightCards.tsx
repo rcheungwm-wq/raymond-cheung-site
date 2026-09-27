@@ -46,7 +46,7 @@ export default function InsightCards() {
               boxShadow: "var(--sh-glass)",
             }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.25rem", flexWrap: "wrap", gap: "0.5rem" }}>
-                <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.12em", color: "var(--ink)", backgroundColor: categoryColors[insight.category] || "var(--graphite)", padding: "0.25rem 0.6rem", textTransform: "uppercase" }}>
+                <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.12em", color: (categoryColors[insight.category] === "var(--midnight-navy)" || categoryColors[insight.category] === "var(--executive-navy)") ? "#F5F0E8" : "var(--ink)", backgroundColor: categoryColors[insight.category] || "var(--graphite)", padding: "0.25rem 0.6rem", textTransform: "uppercase" }}>
                   {insight.category}
                 </span>
                 <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.55rem", letterSpacing: "0.08em", color: "rgba(26,23,18,0.35)", textTransform: "uppercase" }}>

@@ -98,7 +98,7 @@ export default function ContactPage() {
               fontSize: "clamp(2rem, 4vw, 3.2rem)",
               fontWeight: 800,
               letterSpacing: "-0.03em",
-              color: "var(--ink)",
+              color: "#F5F0E8",
               lineHeight: 1.12,
               maxWidth: "560px",
               marginBottom: "1.25rem",
@@ -109,7 +109,7 @@ export default function ContactPage() {
           <p
             style={{
               fontSize: "1.05rem",
-              color: "rgba(26,23,18,0.65)",
+              color: "rgba(245,240,232,0.75)",
               lineHeight: 1.75,
               maxWidth: "520px",
             }}
@@ -495,8 +495,8 @@ export default function ContactPage() {
                     alignItems: "center",
                     gap: "0.5rem",
                     padding: "0.95rem 2.25rem",
-                    backgroundColor: "var(--midnight-navy)",
-                    color: "var(--ink)",
+                    backgroundColor: "var(--gold)",
+                    color: "#0A0A0C",
                     fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                     fontWeight: 600,
                     fontSize: "0.9rem",
@@ -507,11 +507,11 @@ export default function ContactPage() {
                   }}
                   onMouseEnter={(e) =>
                     ((e.currentTarget as HTMLElement).style.backgroundColor =
-                      "var(--executive-navy)")
+                      "var(--gold-dim)")
                   }
                   onMouseLeave={(e) =>
                     ((e.currentTarget as HTMLElement).style.backgroundColor =
-                      "var(--midnight-navy)")
+                      "var(--gold)")
                   }
                 >
                   Send Enquiry (Preview)
@@ -693,7 +693,7 @@ export default function ContactPage() {
                     fontFamily: "var(--font-ibm-mono), monospace",
                     fontSize: "0.62rem",
                     letterSpacing: "0.1em",
-                    color: "rgba(26,23,18,0.4)",
+                    color: "rgba(245,240,232,0.55)",
                     lineHeight: 1.7,
                   }}
                 >

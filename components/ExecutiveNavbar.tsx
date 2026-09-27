@@ -129,7 +129,7 @@ export default function ExecutiveNavbar() {
             <Link href="/contact" onClick={() => setMobileOpen(false)} style={{
               display: "block", textAlign: "center",
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-              fontWeight: 600, fontSize: "0.9rem", color: "var(--ink)",
+              fontWeight: 600, fontSize: "0.9rem", color: "#F5F0E8",
               backgroundColor: "var(--midnight-navy)", padding: "1rem", borderRadius: "999px", textDecoration: "none",
             }}>Discuss an Engagement</Link>
             <a href="https://www.linkedin.com/in/raymond-cheung-actuary/" target="_blank" rel="noopener noreferrer" style={{

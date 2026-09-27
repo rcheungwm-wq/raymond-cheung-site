@@ -148,7 +148,7 @@ export default function AboutPage() {
           <h1 id="about-heading" style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800,
-            letterSpacing: "-0.03em", color: "var(--ink)", lineHeight: 1.12,
+            letterSpacing: "-0.03em", color: "#F5F0E8", lineHeight: 1.12,
             maxWidth: "760px",
           }}>
             Raymond Cheung — Chartered Actuary, Chief Risk Officer and Board Adviser in Singapore
@@ -156,7 +156,7 @@ export default function AboutPage() {
           <p style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(1.05rem, 2vw, 1.35rem)", fontWeight: 500,
-            color: "var(--graphite)", lineHeight: 1.4, maxWidth: "620px",
+            color: "rgba(245,240,232,0.8)", lineHeight: 1.4, maxWidth: "620px",
             marginTop: "1.25rem",
           }}>
             Two decades of risk, leadership and the discipline to connect them.
@@ -198,7 +198,7 @@ export default function AboutPage() {
               <p style={{
                 fontFamily: "var(--font-cormorant, Georgia), serif",
                 fontSize: "1.25rem", fontWeight: 600, fontStyle: "italic",
-                color: "var(--ink)", lineHeight: 1.6,
+                color: "#F5F0E8", lineHeight: 1.6,
               }}>
                 &ldquo;{profile.philosophy.headline}&rdquo;
               </p>
@@ -426,7 +426,7 @@ export default function AboutPage() {
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem",
                   padding: "0.85rem 1.5rem",
-                  background: "var(--midnight-navy)", color: "var(--ink)",
+                  background: "var(--midnight-navy)", color: "#F5F0E8",
                   borderRadius: "999px", textDecoration: "none",
                   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                   fontSize: "0.82rem", fontWeight: 600,

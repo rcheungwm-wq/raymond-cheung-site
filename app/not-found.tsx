@@ -34,7 +34,7 @@ export default function NotFound() {
           fontSize: "clamp(2rem, 5vw, 3.5rem)",
           fontWeight: 800,
           letterSpacing: "-0.03em",
-          color: "var(--ink)",
+          color: "#F5F0E8",
           lineHeight: 1.15,
           marginBottom: "1.25rem",
           maxWidth: "560px",
@@ -45,7 +45,7 @@ export default function NotFound() {
       <p
         style={{
           fontSize: "1rem",
-          color: "rgba(26,23,18,0.55)",
+          color: "rgba(245,240,232,0.65)",
           lineHeight: 1.75,
           marginBottom: "2.5rem",
           maxWidth: "440px",
@@ -61,8 +61,8 @@ export default function NotFound() {
           alignItems: "center",
           gap: "0.5rem",
           padding: "0.9rem 2rem",
-          backgroundColor: "var(--strategic-teal)",
-          color: "var(--ink)",
+          backgroundColor: "var(--gold)",
+          color: "#0A0A0C",
           fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
           fontWeight: 600,
           fontSize: "0.875rem",
