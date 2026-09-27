@@ -47,5 +47,127 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/circulars/id01_26",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "lexology.com",
+        "url": "https://www.lexology.com/library/detail.aspx?g=5930ce36-07a8-4268-81d7-ced7357fbed2",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/notices/notice-126",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/circulars/id11_22",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas/regulations-and-financial-stability/regulations-guidance-and-licensing/insurance/regulations-guidance-and-licensing/notices/notices-to-all-insurers/mas-126_mar-2020_tracked-2.pdf",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/notices/id/notice-126/mas-126_30-sep-2022-tracked.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/notices/id/notice-133/mas-notice-133_16-mar-2026.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/publications/consultations/id/2022/notice-124-125-and-126-consultation-response-paper.pdf",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/notices/notice-124",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/circulars/id01_26",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "lexology.com",
+        "url": "https://www.lexology.com/library/detail.aspx?g=5930ce36-07a8-4268-81d7-ced7357fbed2",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/notices/notice-126",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/circulars/id11_22",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas/regulations-and-financial-stability/regulations-guidance-and-licensing/insurance/regulations-guidance-and-licensing/notices/notices-to-all-insurers/mas-126_mar-2020_tracked-2.pdf",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/notices/id/notice-126/mas-126_30-sep-2022-tracked.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/notices/id/notice-133/mas-notice-133_16-mar-2026.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/publications/consultations/id/2022/notice-124-125-and-126-consultation-response-paper.pdf",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/notices/notice-124",
+        "title": ""
+      }
+    ]
   }
 ]

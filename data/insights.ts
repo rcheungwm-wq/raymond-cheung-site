@@ -3624,4 +3624,151 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "49",
+    title: "SGX RegCo's New Disclosure Rules Take Effect 1 January 2027 — What Boards Need to Do Before Then",
+    summary:
+      "On 23 September 2026, SGX RegCo finalised enhanced listing rules requiring Singapore-listed companies to disclose the performance indicators driving executive pay, to publish a dividend policy, and to maintain a visible investor relations presence — all for annual reports covering financial years starting 1 January 2027. The rules are cleaner than their April consultation draft. The board work they require is not trivial and it starts now.",
+    category: "Governance",
+    readingTime: "4 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "sgx-regco-disclosure-rules-2027-board-preparation",
+    keywords: ["SGX RegCo disclosure rules 2027 Singapore boards", "executive remuneration KPI disclosure Singapore", "director remuneration disclosure Singapore SGX"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I've sat in enough nomination and remuneration committee meetings to know that the gap between 'we have a remuneration framework' and 'we can explain in plain language what indicators we actually used to set pay this year' is larger than most listed companies will admit. SGX RegCo's 23 September announcement closes that gap with a rule. From financial years beginning on or after 1 January 2027, Singapore-listed issuers must describe in their annual reports the key financial and non-financial performance indicators used to determine executive director and officer remuneration, and explain how those indicators connect to long-term value creation. That's not a disclosure upgrade — it's a governance accountability test dressed as one.",
+      },
+      {
+        type: "heading",
+        text: "What the rules actually require",
+      },
+      {
+        type: "paragraph",
+        text: "There are three distinct requirements. First, the remuneration KPI narrative: companies must describe the specific metrics tied to executive pay, not just the existence of a framework. A board that built its executive compensation structure around revenue growth, total shareholder return, or ESG scorecard targets needs to say which ones and how they were weighted. Second, dividend policy: boards must publish a dividend policy in the annual report. SGX RegCo was deliberate here — there's no mandatory payout commitment. A company that is retaining capital for growth can say so clearly. What it cannot do is say nothing, which many companies currently manage to do. Third, IR presence: all listed issuers must maintain a website with an investor engagement section and publish their IR policy there. This sounds administrative. It is administrative. It also creates a publicly visible record that makes the next investor complaint about access much harder to deflect.",
+      },
+      {
+        type: "pullquote",
+        text: "A board that built its executive compensation structure around revenue growth, total shareholder return, or ESG scorecard targets needs to say which ones and how they were weighted.",
+      },
+      {
+        type: "heading",
+        text: "The statistics that explain why this rule exists",
+      },
+      {
+        type: "paragraph",
+        text: "SGX RegCo's own data from the consultation: as of May 2026, only 47% of listed companies disclosed the specific financial indicators used to determine executive pay, despite more than 90% incorporating financial metrics into their compensation frameworks somewhere. That means roughly half of Singapore's listed companies have a compensation structure they've never explained. The rule simply requires them to explain it. Tan Boon Gin, CEO of SGX RegCo, put it plainly at the announcement: 'Singapore's equity market is benefiting from a resurgence of investor interest, but this will not last if boards and management do not increase investor engagement and demonstrate greater transparency.' The rule is the follow-through.",
+      },
+      {
+        type: "heading",
+        text: "What boards should do before the first affected annual report",
+      },
+      {
+        type: "list",
+        items: [
+          "Audit the remuneration framework now: can the NRC chair articulate in one paragraph exactly which KPIs drove executive pay for FY2026, with weightings? If not, the disclosure will be thin and the preparation will be rushed.",
+          "Agree a dividend policy with the full board — including the growth-retention rationale if that's the position — before the first affected annual report is drafted.",
+          "Review the company's IR infrastructure: investor engagement webpage, contact mechanism for shareholders, whether the IR policy has ever been written down rather than assumed.",
+          "Confirm first applicability date: the rules apply to annual reports for financial years beginning on or after 1 January 2027, so the first affected reports publish in 2028. That is more time than it sounds only if the board starts the NRC work now.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The rules aren't hard to comply with in the technical sense — the disclosure lengths are modest, the format requirements are principles-based, and early adoption is encouraged. What they require is for a board to have actually done the work that the disclosure describes. That's the uncomfortable part for boards that have been going through remuneration motions rather than running a real NRC process.",
+      },
+    ],
+    faqs: [
+      {
+        question: "When do SGX RegCo's new remuneration and IR disclosure rules take effect?",
+        answer: "The new rules apply to annual reports for financial years beginning on or after 1 January 2027, meaning the first batch of compliant annual reports will be published in 2028. SGX RegCo has encouraged early adoption ahead of that date.",
+      },
+      {
+        question: "What specifically must a Singapore-listed company disclose about executive remuneration under the new rules?",
+        answer: "The annual report must describe the key financial and non-financial performance indicators used to determine the remuneration of executive directors and executive officers, and explain how those indicators are aligned with long-term value creation. This goes beyond confirming a framework exists — it requires naming the indicators actually used and their role in pay decisions.",
+      },
+      {
+        question: "Does the new dividend policy rule require Singapore-listed companies to commit to a specific payout?",
+        answer: "No. SGX RegCo explicitly chose not to require a minimum payout commitment. A company that is retaining capital for growth can state that as its policy. The requirement is simply that some dividend policy is disclosed in the annual report, removing the current practice of omitting it entirely.",
+      },
+    ],
+  },
+  {
+    id: "50",
+    title: "Cyber Trust Mark Level 5 Is Mandatory for Critical Infrastructure Boards — Most Haven't Absorbed What That Means",
+    summary:
+      "Since 2 March 2026, boards of Critical Information Infrastructure owners in Singapore are legally required to undergo cybersecurity training at least annually and receive cyber threat briefings every six months. CIIOs — covering banking, telcos, hospitals, power, and nine other sectors — also have a two-year window (end 2027) to certify their non-CII systems to Cyber Trust Mark Level 5. Most boards have the circular. Far fewer have translated it into a board-level governance obligation that the chairman actually owns.",
+    category: "Technology Risk",
+    readingTime: "7 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "cyber-trust-mark-level-5-board-oversight",
+    keywords: ["Cyber Trust Mark Level 5 board Singapore", "critical information infrastructure board governance Singapore", "cyber risk governance Singapore boards"],
+    body: [
+      {
+        type: "paragraph",
+        text: "When I advised on risk governance for a Singapore-listed financial institution after the Cybersecurity Act's 2018 enactment, the board's instinct was to route every cybersecurity matter through the CISO and note it in the risk committee's minutes. That was defensible then. It is not defensible now. Since 2 March 2026, the Cyber Security Agency has imposed a specific, named, board-level obligation on every Critical Information Infrastructure owner: the board must participate in cybersecurity training at least once every twelve months and receive cyber threat briefings at least once every six months. This is not a best-practice recommendation. It is a compliance requirement under the updated Cybersecurity Code of Practice for Critical Information Infrastructure.",
+      },
+      {
+        type: "heading",
+        text: "What the mandate actually covers",
+      },
+      {
+        type: "paragraph",
+        text: "Singapore has eleven designated CII sectors: banking and finance, commerce, education, energy, government, healthcare, infocommunications, land transport, maritime, security and emergency services, and water. If you sit on the board of a bank, insurer regulated under the Financial Services and Markets Act's CII provisions, a hospital, a power utility, or any of the other designated operators in those sectors, your board is now a named participant in Singapore's national cybersecurity architecture — not just a governance observer of it. The specific obligations: annual board participation in cybersecurity training, half-yearly cyber threat briefings delivered to the board level, and a two-year window from March 2026 to certify the organisation's non-CII operational systems to Cyber Trust Mark Level 5, the highest certification tier under CSA's scheme.",
+      },
+      {
+        type: "pullquote",
+        text: "The board must participate in cybersecurity training at least once every twelve months. Not 'be briefed by.' Participate in. That is a different word choice, and it is not accidental.",
+      },
+      {
+        type: "heading",
+        text: "The word 'participate' is doing a lot of work in that sentence",
+      },
+      {
+        type: "paragraph",
+        text: "The standard board response to a new regulatory requirement is to add it to the agenda, receive a management paper, ask two or three questions, and pass a resolution. That is not what 'participate in cybersecurity training' means. CSA's language is specific: the board participates. That implies directors engaging with content designed to test their own understanding of cyber risk, not just receiving information produced by management for board consumption. The distinction matters because the board training obligation was designed to close a specific gap: the 67% of non-executive directors who — according to Gartner's 2025 survey — believed their current board practices were inadequate to oversee cyber risk. A briefing from the CISO does not close that gap. A training exercise designed to challenge what directors actually understand does.",
+      },
+      {
+        type: "heading",
+        text: "What Cyber Trust Mark Level 5 certification actually involves for the board",
+      },
+      {
+        type: "paragraph",
+        text: "CTM Level 5 is an external certification programme run by CSA for organisations with elevated risk profiles. For CIIOs, it applies not just to the designated CII system itself — which is already subject to the Cybersecurity Code of Practice — but to the non-CII operational systems that support the organisation's business operations. Achieving certification involves a structured assessment of cyber governance, risk management processes, supply chain security, incident response capability, and security testing rigour. The board is relevant to all of those. Governance of cyber risk begins at board level — the risk appetite, the resourcing commitment, the consequence management framework if an incident occurs. A certification assessor examining CTM Level 5 compliance will look at whether the board owns those parameters, not just whether the IT team has implemented the technical controls.",
+      },
+      {
+        type: "heading",
+        text: "What a board should be doing before end 2027",
+      },
+      {
+        type: "list",
+        items: [
+          "Confirm whether your organisation is classified as a CIIO under the Cybersecurity Act — for financial institutions, the MAS Technology Risk Management guidelines already carry adjacent obligations, but the CII classification is separate and CSA administers it.",
+          "Schedule the mandatory annual board cybersecurity training as a standing agenda item — not a one-off management presentation, but a structured exercise with external facilitation that tests board-level understanding.",
+          "Ensure the half-yearly threat briefing is a genuine intelligence brief on current threat actors and attack surfaces relevant to your sector, not a recycled industry risk report.",
+          "Map which non-CII systems fall in scope for CTM Level 5 certification by end 2027 — the assessment preparation takes 12–18 months for complex organisations and starts with a governance-layer review, not a technical audit.",
+          "Board minutes should reflect actual deliberation on cyber risk parameters — risk appetite, incident response authority, and what the board will and won't delegate to management — not just a notation that the CISO presented.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The two-year window to achieve CTM Level 5 for non-CII systems sounds like runway. It isn't, for any organisation that treats governance preparation as something that happens after the technical remediation is done. In my experience advising boards on regulatory readiness, the governance layer — board risk appetite for cyber, incident response authority, escalation protocols, and the documentation trail that shows these exist and are used — takes as long to build credibly as any technology fix. Boards that start the governance work now will find the certification assessment manageable. Boards that start it in late 2027 will find it painful.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is Cyber Trust Mark Level 5 certification mandatory for all Singapore companies?",
+        answer: "No. The mandatory CTM Level 5 obligation applies specifically to Critical Information Infrastructure owners (CIIOs) — organisations designated under the Cybersecurity Act as operators of CII in Singapore's eleven critical sectors. The deadline for their non-CII operational systems is end 2027. CII auditors face an earlier deadline of end 2026 at the organisation level. For non-CIIO organisations, CTM certification is voluntary, though it signals a strong cyber governance baseline.",
+      },
+      {
+        question: "What exactly must a CIIO board do under CSA's March 2026 requirements?",
+        answer: "Two specific obligations: participate in cybersecurity training at least once every 12 months, and receive cyber threat briefings at least once every six months. Both are board-level requirements — not delegated to a management committee — under the updated Cybersecurity Code of Practice for Critical Information Infrastructure.",
+      },
+      {
+        question: "How does the Cyber Trust Mark Level 5 board obligation interact with MAS Technology Risk Management guidelines for Singapore insurers and banks?",
+        answer: "MAS TRM guidelines already require financial institutions to maintain board-level oversight of technology and cyber risk, including documented risk appetite and accountability for technology risk governance. For MAS-regulated CIIOs — banks and designated insurers — the CSA Cyber Trust Mark obligation sits on top of existing TRM requirements, not instead of them. The governance infrastructure MAS expects should, if properly implemented, give a financial institution a meaningful head start on the CTM Level 5 governance assessment, but the two regimes use different frameworks and both need to be addressed on their own terms.",
+      },
+    ],
+  },
 ];

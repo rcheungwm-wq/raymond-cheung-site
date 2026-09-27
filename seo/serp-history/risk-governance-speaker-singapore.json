@@ -742,5 +742,267 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/markstuartkeynotespeaker/posts/1338864678244456/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "isca.org.sg",
+        "url": "https://isca.org.sg/member-support/events/isca-conference-2025/isca-conference-speakers-2025",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/speakers",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ilearn.isca.org.sg",
+        "url": "https://ilearn.isca.org.sg/home/course/risk-management-corporate-governance/154",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "asia.risklive.net",
+        "url": "https://asia.risklive.net/speakers",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "australia.risklive.net",
+        "url": "https://australia.risklive.net/speaker",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "apacconference.gbta.org",
+        "url": "https://apacconference.gbta.org/speakers/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sginnovate.com",
+        "url": "https://www.sginnovate.com/event/sginnovate-x-curiouscore-tech-talk-leaders-risk-management-ai-innovation-projects",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "nus.edu.sg",
+        "url": "https://www.nus.edu.sg/thought-leadership/risk-resilience-imagination-innovation",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "isca.org.sg",
+        "url": "https://isca.org.sg/member-support/events/isca-conference-2025/isca-conference-speakers-2025",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/speakers",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ilearn.isca.org.sg",
+        "url": "https://ilearn.isca.org.sg/home/course/risk-management-corporate-governance/154",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "singaporespeakerbureau.com",
+        "url": "https://www.singaporespeakerbureau.com/category/risk-management",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "asia.risklive.net",
+        "url": "https://asia.risklive.net/speakers",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "apacconference.gbta.org",
+        "url": "https://apacconference.gbta.org/speakers/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "cybersecurityasia.tech",
+        "url": "https://cybersecurityasia.tech/speakers/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "nus.edu.sg",
+        "url": "https://www.nus.edu.sg/thought-leadership/risk-resilience-imagination-innovation",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/markstuartkeynotespeaker/posts/-ai-meets-governance-risk-and-compliance-mark-stuart-as-keynote-speaker-for-dili/1338864678244456/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/speakers",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ilearn.isca.org.sg",
+        "url": "https://ilearn.isca.org.sg/home/course/risk-management-corporate-governance/154",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "singaporespeakerbureau.com",
+        "url": "https://www.singaporespeakerbureau.com/category/risk-management",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "asia.risklive.net",
+        "url": "https://asia.risklive.net/speakers",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "australia.risklive.net",
+        "url": "https://australia.risklive.net/speaker",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sginnovate.com",
+        "url": "https://www.sginnovate.com/event/sginnovate-x-curiouscore-tech-talk-leaders-risk-management-ai-innovation-projects",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "cybersecurityasia.tech",
+        "url": "https://cybersecurityasia.tech/speakers/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "nus.edu.sg",
+        "url": "https://www.nus.edu.sg/thought-leadership/risk-resilience-imagination-innovation",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/speakers",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ilearn.isca.org.sg",
+        "url": "https://ilearn.isca.org.sg/home/course/risk-management-corporate-governance/154",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "singaporespeakerbureau.com",
+        "url": "https://www.singaporespeakerbureau.com/category/risk-management",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "asia.risklive.net",
+        "url": "https://asia.risklive.net/speakers",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "australia.risklive.net",
+        "url": "https://australia.risklive.net/speaker",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "apacconference.gbta.org",
+        "url": "https://apacconference.gbta.org/speakers/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sginnovate.com",
+        "url": "https://www.sginnovate.com/event/sginnovate-x-curiouscore-tech-talk-leaders-risk-management-ai-innovation-projects",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "cybersecurityasia.tech",
+        "url": "https://cybersecurityasia.tech/speakers/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "nus.edu.sg",
+        "url": "https://www.nus.edu.sg/thought-leadership/risk-resilience-imagination-innovation",
+        "title": ""
+      }
+    ]
   }
 ]

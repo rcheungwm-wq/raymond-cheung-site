@@ -59,5 +59,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "svca.org.sg",
+        "url": "https://www.svca.org.sg/committees/family-office-committee",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "edb.gov.sg",
+        "url": "https://www.edb.gov.sg/en/our-industries/global-business-families.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "stashaway.sg",
+        "url": "https://www.stashaway.sg/r/guide-to-establish-family-offices-singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "dakota.com",
+        "url": "https://www.dakota.com/resources/blog/top-10-family-offices-in-singapore-asias-wealth-management-hub",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "marketsgroup.org",
+        "url": "https://www.marketsgroup.org/news/singapore-family-office-investors-2026",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "invest.edb.gov.sg",
+        "url": "https://invest.edb.gov.sg/gov-support/sfo-setup-guide",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "empaxis.com",
+        "url": "https://www.empaxis.com/blog/family-offices-singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "vccsingapore.com",
+        "url": "https://vccsingapore.com/family-office-funds/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "rafflescorporateservices.com",
+        "url": "https://rafflescorporateservices.com/complete-guide-family-office-singapore-2026/",
+        "title": ""
+      }
+    ]
   }
 ]

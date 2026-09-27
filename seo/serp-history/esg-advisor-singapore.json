@@ -139,5 +139,127 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "forvismazars.com",
+        "url": "https://www.forvismazars.com/sg/en/services/sustainability/environmental-social-and-governance-esg",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "grantthornton.sg",
+        "url": "https://www.grantthornton.sg/service/esg-and-sustainability-services/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "boardroomlimited.com",
+        "url": "https://www.boardroomlimited.com/services/esg",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "esgconsulting.sg",
+        "url": "https://esgconsulting.sg/best-esg-consulting-companies-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Laura_Ashton",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "estes.sg",
+        "url": "https://estes.sg/services/esg-consulting/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "greenco-esg.sg",
+        "url": "https://greenco-esg.sg/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ecosphereasia.com",
+        "url": "https://www.ecosphereasia.com/services/esg-strategy-reporting-advisory",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "forvismazars.com",
+        "url": "https://www.forvismazars.com/sg/en/services/sustainability/environmental-social-and-governance-esg",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "boardroomlimited.com",
+        "url": "https://www.boardroomlimited.com/services/esg",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "grantthornton.sg",
+        "url": "https://www.grantthornton.sg/service/esg-and-sustainability-services/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "esgconsulting.sg",
+        "url": "https://esgconsulting.sg/best-esg-consulting-companies-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Laura_Ashton",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "estes.sg",
+        "url": "https://estes.sg/services/esg-consulting/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "greenco-esg.sg",
+        "url": "https://greenco-esg.sg/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ecosphereasia.com",
+        "url": "https://www.ecosphereasia.com/services/esg-strategy-reporting-advisory",
+        "title": ""
+      }
+    ]
   }
 ]
