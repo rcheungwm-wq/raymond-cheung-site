@@ -109,15 +109,14 @@ export default function HeroAuthoritySection() {
             backgroundColor: "var(--midnight-navy)",
           }}>
             <Image
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.png`}
               alt="Raymond Cheung, Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
               fill priority
               sizes="(max-width: 899px) 90vw, 480px"
               style={{
                 objectFit: "cover",
-                objectPosition: "34% 16%",
-                transform: "scale(1.06)",
-                filter: "grayscale(100%) sepia(30%) contrast(1.05) brightness(1.03)",
+                objectPosition: "50% 8%",
+                filter: "grayscale(100%) sepia(25%) contrast(1.04) brightness(1.05)",
               }}
             />
             {/* Champagne tint to seat the portrait in the palette */}
@@ -125,21 +124,7 @@ export default function HeroAuthoritySection() {
               position: "absolute", inset: 0,
               backgroundColor: "var(--gold)",
               mixBlendMode: "soft-light",
-              opacity: 0.28,
-            }} />
-
-            {/* Scrim, fades the event backdrop's sponsor signage on the
-                right and bottom without cropping further into a small source. */}
-            <div aria-hidden="true" style={{
-              position: "absolute", inset: 0,
-              background: `
-                linear-gradient(100deg,
-                  transparent 30%,
-                  rgba(232,220,192,0.45) 52%,
-                  rgba(232,220,192,0.88) 74%,
-                  rgba(232,220,192,0.99) 92%),
-                linear-gradient(to top, rgba(232,220,192,0.55) 0%, transparent 32%)
-              `,
+              opacity: 0.22,
             }} />
           </div>
         </div>
