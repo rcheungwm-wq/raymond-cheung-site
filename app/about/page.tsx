@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown, ArrowUpRight } from "lucide-react";
 import { profile } from "@/data/profile";
 import { careerJourney } from "@/data/experience";
 import PublicationsSection from "@/components/PublicationsSection";
@@ -334,6 +334,82 @@ export default function AboutPage() {
                   </div>
                 );
               })}
+            </div>
+
+            {/* Selected insights */}
+            <div style={{ marginBottom: "3rem" }}>
+              <h2 style={{
+                fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                fontSize: "1.5rem", fontWeight: 700, letterSpacing: "-0.02em",
+                color: "var(--ink)", marginBottom: "0.6rem",
+              }}>Selected insights</h2>
+              <p style={{
+                fontSize: "0.88rem", color: "var(--graphite)", opacity: 0.7,
+                marginBottom: "1.75rem", lineHeight: 1.6,
+              }}>
+                Writing on governance, risk and regulation for Singapore boards and insurers.
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0", borderRadius: "2px", overflow: "hidden", boxShadow: "var(--sh-glass)" }}>
+                {[
+                  {
+                    category: "Enterprise Risk",
+                    title: "MAS Notice 126 Board Obligations: What Singapore Insurance Directors Are Personally Accountable For",
+                    slug: "mas-notice-126-insurance-boards",
+                  },
+                  {
+                    category: "Enterprise Risk",
+                    title: "ORSA as a Strategic Tool for Singapore Insurance Boards",
+                    slug: "orsa-strategic-tool-singapore-insurance-boards",
+                  },
+                  {
+                    category: "Governance",
+                    title: "What a Board Risk Committee Should Look Like for a Singapore-Listed Company",
+                    slug: "board-risk-committee-singapore",
+                  },
+                  {
+                    category: "Actuarial",
+                    title: "The Actuarial Board Adviser in Singapore: What the Role Actually Involves",
+                    slug: "actuarial-board-adviser-singapore",
+                  },
+                ].map((item, i, arr) => (
+                  <Link
+                    key={item.slug}
+                    href={`/insights/${item.slug}`}
+                    style={{
+                      display: "flex", alignItems: "center", justifyContent: "space-between",
+                      gap: "1rem", padding: "1.25rem 1.75rem",
+                      backgroundColor: "var(--panel)",
+                      borderBottom: i < arr.length - 1 ? "1px solid rgba(26,23,18,0.07)" : "none",
+                      textDecoration: "none",
+                      transition: "background-color 0.2s",
+                    }}
+                  >
+                    <div style={{ flex: 1 }}>
+                      <span style={{
+                        fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem",
+                        letterSpacing: "0.12em", textTransform: "uppercase",
+                        color: "var(--strategic-teal)",
+                        display: "block", marginBottom: "0.3rem",
+                      }}>{item.category}</span>
+                      <span style={{
+                        fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                        fontSize: "0.88rem", fontWeight: 600, color: "var(--ink)",
+                        lineHeight: 1.4,
+                      }}>{item.title}</span>
+                    </div>
+                    <ArrowUpRight size={15} style={{ color: "var(--gold)", flexShrink: 0 }} />
+                  </Link>
+                ))}
+              </div>
+              <div style={{ marginTop: "0.85rem", textAlign: "right" }}>
+                <Link href="/insights" style={{
+                  fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                  fontSize: "0.8rem", fontWeight: 600, color: "var(--strategic-teal)",
+                  textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "0.35rem",
+                }}>
+                  All insights <ArrowRight size={12} />
+                </Link>
+              </div>
             </div>
 
             {/* CTA strip */}

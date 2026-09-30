@@ -17,10 +17,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const insight = insights.find((i) => i.slug === slug);
   if (!insight) return { title: "Insight Not Found" };
   const url = `${SITE_URL}/insights/${insight.slug}`;
+  // If this post is superseded by a newer one, point the canonical there so
+  // Google consolidates ranking signals into the authoritative version.
+  const canonicalUrl = insight.canonicalSlug
+    ? `${SITE_URL}/insights/${insight.canonicalSlug}`
+    : url;
   return {
     title: insight.title,
     description: insight.summary,
-    alternates: { canonical: url },
+    alternates: { canonical: canonicalUrl },
     openGraph: {
       title: insight.title,
       description: insight.summary,

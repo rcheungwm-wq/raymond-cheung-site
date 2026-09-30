@@ -33,6 +33,9 @@ export interface Insight {
   body: InsightSection[];
   faqs?: InsightFAQ[];
   keywords?: string[];
+  /** If set, the canonical URL for this page points to this slug instead of its own.
+   *  Use when an older post is superseded by a newer, more specific one. */
+  canonicalSlug?: string;
 }
 
 export const insights: Insight[] = [
@@ -342,6 +345,22 @@ export const insights: Insight[] = [
       {
         type: "paragraph",
         text: "If you sit on a board of an insurance organisation, I would encourage you to ask for a briefing on the three most consequential AI models currently in production — what they do, how they are validated, what the failure scenario looks like, and who is accountable. The answers will tell you a great deal about the maturity of your AI governance. And the question itself will send a signal that this is an area where the board expects to be informed.",
+      },
+    ],
+    keywords: ["AI governance insurance Singapore", "AI model risk governance Singapore insurers", "MAS Technology Risk Management guidelines AI"],
+    canonicalSlug: "ai-governance-insurance-singapore",
+    faqs: [
+      {
+        question: "What do MAS Technology Risk Management guidelines require Singapore insurance boards to own on AI?",
+        answer: "MAS's Technology Risk Management guidelines require Singapore insurers to maintain board-level oversight of technology and AI risks, including a documented risk appetite for technology risk and clear accountability for AI model governance at senior management level. The board must approve the technology risk framework and satisfy itself that AI models — particularly those used in underwriting, claims, and fraud detection — are subject to independent validation and documented explainability standards. This goes beyond receiving a CISO briefing: the board needs to understand the AI risk the organisation is carrying and the controls in place.",
+      },
+      {
+        question: "What is the difference between AI governance and AI model risk governance for Singapore insurers?",
+        answer: "AI governance covers the broad policies and frameworks an insurer has for developing and deploying AI — ethics principles, data use policies, regulatory compliance processes. AI model risk governance is narrower and more specific: it covers how individual AI models are validated, monitored for performance drift, stress-tested for failure scenarios, and reviewed when they produce unexpected outputs. Singapore insurance boards that focus only on AI governance at the framework level often miss the model risk layer — the specific questions about which models are in production, who validated them, and what happens when they fail.",
+      },
+      {
+        question: "How should a Singapore insurance board get visibility into AI risk?",
+        answer: "The board should receive periodic reporting from the risk function — not the data science team — that covers: the inventory of AI models in production or near-production, the validation status of each material model, any model performance drift flagged since the last report, and the regulatory exposure from models that cannot yet be explained to MAS or to a challenged policyholder. Asking management for this report, and asking why any material models are not on it, is a straightforward governance action. The act of asking tells management that AI model risk is board-supervised, not just CIO-supervised.",
       },
     ],
   },
@@ -1792,9 +1811,9 @@ export const insights: Insight[] = [
   },
   {
     id: "24",
-    title: "MAS Notice 126: What It Actually Requires of Singapore Insurance Boards",
+    title: "MAS Notice 126 Board Obligations: What Singapore Insurance Directors Are Personally Accountable For",
     summary:
-      "MAS Notice 126 puts the enterprise risk management framework, the risk appetite and the annual ORSA squarely on the insurance board — not on the risk function by delegation. MAS Circular ID 01/26, issued in January 2026, made clear it is reading the submissions closely. A statutory CRO's guide to what directors are actually on the hook for.",
+      "Most Singapore insurance boards receive the ORSA report and move on. That is not what MAS Notice 126 requires. The Notice puts the ERM framework, the risk appetite and the ORSA directly on the board, not on the CRO by delegation. A statutory CRO's account of what directors are personally on the hook for under Notice 126, and the governance questions MAS will ask if submissions are weak.",
     category: "Enterprise Risk",
     readingTime: "9 min read",
     date: "September 2026",
