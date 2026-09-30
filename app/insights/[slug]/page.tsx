@@ -1,5 +1,6 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
 import { insights } from "@/data/insights";
 import { notFound } from "next/navigation";
@@ -249,6 +250,29 @@ export default async function InsightArticlePage({ params }: Props) {
                       </li>
                     ))}
                   </ul>
+                );
+              }
+              if (section.type === "image" && section.src) {
+                return (
+                  <figure key={i} style={{ margin: "0.5rem 0" }}>
+                    <div style={{ position: "relative", width: "100%", borderRadius: "var(--r-card)", overflow: "hidden", aspectRatio: "16/10" }}>
+                      <Image src={section.src} alt={section.alt || ""} fill style={{ objectFit: "cover" }} sizes="(max-width: 899px) 100vw, 720px" />
+                    </div>
+                    {section.caption && (
+                      <figcaption style={{ fontSize: "0.75rem", color: "var(--graphite)", opacity: 0.55, marginTop: "0.5rem", fontStyle: "italic" }}>{section.caption}</figcaption>
+                    )}
+                  </figure>
+                );
+              }
+              if (section.type === "image-grid" && section.images) {
+                return (
+                  <div key={i} style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "0.75rem", margin: "0.5rem 0" }}>
+                    {section.images.map((img, j) => (
+                      <div key={j} style={{ position: "relative", borderRadius: "var(--r-card)", overflow: "hidden", aspectRatio: "4/3" }}>
+                        <Image src={img.src} alt={img.alt} fill style={{ objectFit: "cover" }} sizes="(max-width: 899px) 50vw, 360px" />
+                      </div>
+                    ))}
+                  </div>
                 );
               }
               return (
