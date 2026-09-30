@@ -547,5 +547,139 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "roedl.com",
+        "url": "https://www.roedl.com/en/insights/structuring-global-wealth-family-offices-singapore/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "academy.smu.edu.sg",
+        "url": "https://academy.smu.edu.sg/insights/family-office-singapore",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "dakota.com",
+        "url": "https://www.dakota.com/resources/blog/top-10-family-offices-in-singapore-asias-wealth-management-hub",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "rsm.global",
+        "url": "https://www.rsm.global/singapore/insights/setting-family-office-singapore",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "ocorian.com",
+        "url": "https://www.ocorian.com/knowledge-hub/insights/faqs-singapore-family-office",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "aseanbriefing.com",
+        "url": "https://www.aseanbriefing.com/doing-business-guide/singapore/company-establishment/family-office-establishment",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "stashaway.sg",
+        "url": "https://www.stashaway.sg/r/guide-to-establish-family-offices-singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/guides/family-office/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "shooklin.com",
+        "url": "https://shooklin.com/single-family-office-revised-regulatory-framework/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "singlefamilyofficesingapore.com",
+        "url": "https://singlefamilyofficesingapore.com/",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "stephensonharwood.com",
+        "url": "https://www.stephensonharwood.com/insights/singapores-new-single-family-office-licensing-exemption-framework/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "cms.law",
+        "url": "https://cms.law/en/sgp/legal-updates/mas-finalises-licensing-exemption-framework-for-single-family-offices",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/revised-framework-for-single-family-offices-to-take-effect-on-15-june-2026",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ocorian.com",
+        "url": "https://www.ocorian.com/knowledge-hub/insights/what-you-need-know-about-mass-new-notification-framework-single-family",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "bakermckenzie.com",
+        "url": "https://www.bakermckenzie.com/en/insight/publications/2026/06/singapore-revised-framework-for-sfos-comes-into-force",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "shooklin.com",
+        "url": "https://shooklin.com/single-family-office-revised-regulatory-framework/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "cnplaw.com",
+        "url": "https://www.cnplaw.com/implementation-of-single-family-office-framework/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "agreusgroup.com",
+        "url": "https://www.agreusgroup.com/singapore-simplifies-family-office-framework-what-you-need-to-know/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "alpadis.com",
+        "url": "https://www.alpadis.com/insights/singapores-revised-single-family-office-framework-what-changes-and-what-family-offices-must-now-do",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "alitium.com",
+        "url": "https://www.alitium.com/singapore-single-family-office-framework-2026",
+        "title": ""
+      }
+    ]
   }
 ]

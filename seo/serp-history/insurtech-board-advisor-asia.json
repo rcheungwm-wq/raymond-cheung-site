@@ -920,5 +920,121 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/insurtech-asia-appoints-athistha-chitranukroh-advisory-board/58/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "auckland.ac.nz",
+        "url": "https://www.auckland.ac.nz/en/business/our-research/research-institutes-centres/new-zealand-asia-institute/strategic-advisory-board.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "fintechnews.sg",
+        "url": "https://fintechnews.sg/28620/insurtech/top-10-insurtech-leaders-in-asia/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/top-10-insurtech-companies-in-asia-214884.aspx",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "asia.insuretechconnect.com",
+        "url": "https://asia.insuretechconnect.com/2025-agenda",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "insurtechasia.org",
+        "url": "https://www.insurtechasia.org/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "apacinsurtech.com",
+        "url": "https://www.apacinsurtech.com/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "lusha.com",
+        "url": "https://www.lusha.com/business/7cd37d8a900bc4e8/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "internationalinsurance.org",
+        "url": "https://www.internationalinsurance.org/IIS_Executive_Council",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/insurtech-asia-appoints-athistha-chitranukroh-advisory-board/58/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "asia.insuretechconnect.com",
+        "url": "https://asia.insuretechconnect.com/2026-speakers",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "insurtechexpress.com",
+        "url": "https://www.insurtechexpress.com/events/insurtech-insights-asia-2026/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "insurtechinsights.com",
+        "url": "https://insurtechinsights.com/asia/speakers/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "insurtechinsights.com",
+        "url": "https://insurtechinsights.com/asia/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "conferencegrid.com",
+        "url": "https://conferencegrid.com/events/insurtech-insights-asia-2026",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "szwgroup.com",
+        "url": "https://www.szwgroup.com/iic-asia-pacific/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "asia.insuretechconnect.com",
+        "url": "https://asia.insuretechconnect.com/insights",
+        "title": ""
+      }
+    ]
   }
 ]

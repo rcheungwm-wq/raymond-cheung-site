@@ -242,5 +242,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "acra.gov.sg",
+        "url": "https://www.acra.gov.sg/regulations/sustainability-reporting/requirements-timeline/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sgx.com",
+        "url": "https://www.sgx.com/sustainable-finance/sustainability-reporting",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/sustainability-report",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sgx.com",
+        "url": "https://www.sgx.com/sustainable-finance/sustainability-reporting?os=v",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/practice-note-76-sustainability-reporting-guide",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "cheddarmedia.com",
+        "url": "https://www.cheddarmedia.com/a-complete-guide-to-sgx-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "presgo.com",
+        "url": "https://www.presgo.com/frameworks/sgx-sustainability-reporting-guide/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "pace-esg.com",
+        "url": "https://www.pace-esg.com/academy/singapore-sustainability-reporting-a-guide-for-the-aviation-sector/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sageshield.com",
+        "url": "https://sageshield.com/esg-reporting-requirements-singapore-guide/",
+        "title": ""
+      }
+    ]
   }
 ]

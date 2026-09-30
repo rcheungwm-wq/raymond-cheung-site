@@ -261,5 +261,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-30",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "law.asia",
+        "url": "https://law.asia/acc-singapore-esg-ai-boardroom-priorities/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/insights/esg/what-firms-in-singapore-need-to-know-for-esg-in-2026.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Eddie_Teo",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/services/advisory/risk-consulting/esg.html",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "aseanbriefing.com",
+        "url": "https://www.aseanbriefing.com/doing-business-guide/singapore/company-establishment/esg-singapore-blueprint",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "estes.sg",
+        "url": "https://estes.sg/preparing-for-esg-reporting-singapore-compliance-2026-timeline-best-practices/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "tyteoh.com",
+        "url": "https://www.tyteoh.com/digital-advisory-imda-esg-grant-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "enterprisesg.gov.sg",
+        "url": "https://www.enterprisesg.gov.sg/",
+        "title": ""
+      }
+    ]
   }
 ]

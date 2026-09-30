@@ -854,5 +854,121 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "glassdoor.sg",
+        "url": "https://www.glassdoor.sg/Job/singapore-advisory-board-member-jobs-SRCH_IL.0,9_IC3235921_KO10,31.htm",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ensun.io",
+        "url": "https://ensun.io/search/actuarial-consulting/singapore",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/resources/announcements/press-releases/2025/soa-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/singaporeactuaries/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/institutions/singapore-management-university/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "workopia.io",
+        "url": "https://workopia.io/browsejobs/sg/singapore/actuary",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "gravitasgroup.com.sg",
+        "url": "https://www.gravitasgroup.com.sg/specialisms/actuarial",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "skillup.sg",
+        "url": "https://www.skillup.sg/careers/actuary",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "statistics.byu.edu",
+        "url": "https://statistics.byu.edu/actuarial-science-advisory-board",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/contacts/n/judy-ng.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "math.asu.edu",
+        "url": "https://math.asu.edu/actuary/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "actuarialscience.natsci.msu.edu",
+        "url": "https://actuarialscience.natsci.msu.edu/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sias.org.sg",
+        "url": "https://www.sias.org.sg/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "linkedin.com",
+        "url": "https://www.linkedin.com/in/actuarial-singapore/",
+        "title": ""
+      }
+    ]
   }
 ]

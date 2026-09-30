@@ -872,5 +872,121 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/insights/insurance/three-strategic-actions-for-insurance-cros-in-2026",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/cro-risk",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "novotech-cro.com",
+        "url": "https://novotech-cro.com/locations/singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/insurance-agency",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chief_risk_officer",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/insurance-broker",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "agencylist.com",
+        "url": "https://agencylist.com/services/conversion-rate-optimization/sg/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/financial-advisory",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sganalytics.com",
+        "url": "https://www.sganalytics.com/healthcare-research-and-analytics-services/contract-research-organization-services/",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/insights/insurance/three-strategic-actions-for-insurance-cros-in-2026",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/cro-risk",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "practiceguides.chambers.com",
+        "url": "https://practiceguides.chambers.com/practice-guides/insurance-reinsurance-2026/singapore/trends-and-developments",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "fraxtional.co",
+        "url": "https://fraxtional.co/feeds/blog/advisory-consulting-firms-cro-services",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/insurance-agency",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/financial-advisory",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/insurance",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/sg/en/insurance/",
+        "title": ""
+      }
+    ]
   }
 ]
