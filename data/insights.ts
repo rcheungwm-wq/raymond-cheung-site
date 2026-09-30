@@ -48,6 +48,134 @@ export interface Insight {
 
 export const insights: Insight[] = [
   {
+    id: "56",
+    title: "Teaching Actuarial Mathematics to ESSEC MiM Students in Singapore: What the Exam Results Actually Tell Us",
+    summary:
+      "In September 2026, I delivered a six-session refresher mathematics programme for nine incoming Year 1 Master in Management students at ESSEC Business School Asia-Pacific. Here is what that sprint module reveals about mathematical readiness in top-tier business education.",
+    category: "Speaking & Events",
+    readingTime: "7 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "essec-mim-refresher-maths-singapore-2026",
+    ogImage: "/og-essec-mim-refresher-maths-singapore-2026.jpg",
+    keywords: [
+      "ESSEC Business School Singapore",
+      "actuarial mathematics training",
+      "Master in Management mathematics",
+      "business mathematics Singapore",
+      "quantitative finance education",
+      "ESSEC Asia-Pacific",
+      "MiM programme Singapore",
+      "mathematics refresher course",
+      "Raymond Cheung lecturer",
+      "actuarial trainer Singapore",
+    ],
+    body: [
+      {
+        type: "image",
+        src: "/raymond-essec-maths-exam-classroom.jpg",
+        alt: "ESSEC MiM students sitting their Refresher Mathematics final exam at ESSEC Business School Asia-Pacific campus, Singapore, 18 September 2026",
+        caption: "ESSEC MiM Year 1 students during the Refresher Mathematics final examination, 18 September 2026, ESSEC Asia-Pacific campus, Singapore.",
+      },
+      {
+        type: "paragraph",
+        text: "On 18 September 2026, nine Year 1 Master in Management (MiM) students at ESSEC Business School's Asia-Pacific campus in Singapore sat their Refresher Mathematics final examination. I had the privilege of delivering the six-session programme that prepared them for it.",
+      },
+      {
+        type: "paragraph",
+        text: "This was not an ordinary module. These students arrived in Singapore from France fewer than three months earlier. They were adjusting to a new country, a new time zone, and a new academic culture simultaneously. And their very first formal assessment at ESSEC required them to demonstrate mathematical competence under exam conditions.",
+      },
+      {
+        type: "heading",
+        text: "The Programme Structure",
+      },
+      {
+        type: "paragraph",
+        text: "The curriculum compressed six intensive mathematics sessions into a single week, running from 3 September to 10 September 2026. Students then had one week of independent revision before sitting the comprehensive final examination on 18 September.",
+      },
+      {
+        type: "paragraph",
+        text: "The content covered the quantitative foundations that underpin rigorous business and finance study at postgraduate level: calculus, linear algebra, probability, and statistical inference. For students whose undergraduate background was in management, law, or the humanities, this was a genuine challenge.",
+      },
+      {
+        type: "pullquote",
+        text: "Six sessions, one week, nine students, one exam. The sprint format forces active learning in a way that semester-long modules rarely achieve.",
+      },
+      {
+        type: "heading",
+        text: "Why Mathematical Rigour Matters in a Business Degree",
+      },
+      {
+        type: "paragraph",
+        text: "ESSEC's decision to require a mathematics refresher for incoming MiM students reflects a wider shift in what top business schools expect from graduates. Risk management, data analytics, ESG measurement, and financial modelling all require quantitative literacy that cannot be borrowed from a spreadsheet or delegated to a data team.",
+      },
+      {
+        type: "paragraph",
+        text: "From my own experience advising boards on enterprise risk and capital strategy, I have seen the practical consequence when senior managers cannot interrogate a model. They either defer to the analyst -- and lose the ability to challenge assumptions -- or they dismiss the output entirely and rely on intuition. Neither serves the organisation well.",
+      },
+      {
+        type: "paragraph",
+        text: "Teaching at ESSEC reinforces my view that mathematical fluency is a governance skill, not just a technical one. A board member who understands variance, expected value, and correlation is a better risk overseer than one who cannot.",
+      },
+      {
+        type: "heading",
+        text: "What the Exam Cohort Tells Us About MiM Talent",
+      },
+      {
+        type: "paragraph",
+        text: "These nine students were not mathematics specialists. They were admitted to ESSEC on the strength of their leadership potential, academic record across disciplines, and aptitude for management. Yet they sat down to a comprehensive quantitative examination at the end of a gruelling sprint week and delivered.",
+      },
+      {
+        type: "paragraph",
+        text: "That signals something important: high-achieving students from non-quantitative backgrounds can acquire mathematical competence rapidly when the instruction is structured well, the pace is demanding but achievable, and the peer environment is collaborative rather than competitive.",
+      },
+      {
+        type: "image",
+        src: "/raymond-essec-maths-exam-group.jpg",
+        alt: "Raymond Cheung with the nine ESSEC MiM students after completing their Refresher Mathematics final examination, Singapore, September 2026",
+        caption: "After the exam -- Raymond Cheung with the Year 1 MiM cohort outside ESSEC Asia-Pacific campus, Singapore.",
+      },
+      {
+        type: "heading",
+        text: "The Singapore Context",
+      },
+      {
+        type: "paragraph",
+        text: "ESSEC's Asia-Pacific campus in Singapore offers a distinctive educational context. Students are immersed in one of the world's most dynamic financial and regulatory environments while pursuing a French grande ecole qualification. The intersection demands both European analytical rigour and Asian market awareness.",
+      },
+      {
+        type: "paragraph",
+        text: "For actuarial and risk professionals working in Singapore, the ESSEC MiM pipeline matters. These students will spend time in Singapore's financial sector -- banking, insurance, asset management -- and the quantitative foundation they build here shapes how they engage with risk professionals in those roles.",
+      },
+      {
+        type: "heading",
+        text: "What I Take Away as an Instructor",
+      },
+      {
+        type: "paragraph",
+        text: "Teaching is not separate from advisory work -- it sharpens it. Explaining why a concept matters, not just how to apply it, forces the clarity of thinking that makes board presentations effective. The questions students ask often reveal assumptions that practitioners have stopped interrogating.",
+      },
+      {
+        type: "paragraph",
+        text: "To the nine students in this cohort: the sprint is done. The rest of your MiM journey will be longer, broader, and more ambiguous. The discipline you demonstrated in one compressed week will serve you in all of it.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Raymond Cheung teach actuarial or quantitative mathematics in Singapore?",
+        answer: "Yes. Raymond Cheung has delivered quantitative mathematics and actuarial training for postgraduate students and finance professionals in Singapore, including the Refresher Mathematics programme for Master in Management students at ESSEC Business School's Asia-Pacific campus.",
+      },
+      {
+        question: "What mathematics topics are covered in ESSEC's MiM Refresher programme?",
+        answer: "The refresher programme covers core quantitative methods including calculus, linear algebra, probability and statistical inference -- the mathematical foundations required for rigorous postgraduate business and finance study.",
+      },
+      {
+        question: "How does actuarial training benefit business students?",
+        answer: "Actuarial methods -- probability, risk modelling, and statistical reasoning -- equip business graduates to interrogate financial models, assess risk exposures, and engage substantively with quantitative analysts and risk officers rather than delegating critical judgement to specialists.",
+      },
+    ],
+  },
+  {
     id: "55",
     title: "Health AI Is Arriving in Reinsurance. Here Is What That Actually Means.",
     summary:
