@@ -8,7 +8,8 @@ export type InsightCategory =
   | "Governance"
   | "Regulation"
   | "Board Advisory"
-  | "Actuarial";
+  | "Actuarial"
+  | "Speaking & Events";
 
 export interface InsightSection {
   type: "paragraph" | "heading" | "pullquote" | "list" | "image" | "image-grid";
@@ -51,7 +52,7 @@ export const insights: Insight[] = [
     title: "Health AI Is Arriving in Reinsurance. Here Is What That Actually Means.",
     summary:
       "Speaking on Health AI at the Belarus Re International Conference in Minsk, I made the case that the industry is not facing a technology question -- it is facing a data governance and underwriting philosophy question. The reinsurers who get this right will price risk the rest cannot see.",
-    category: "Insurance Innovation",
+    category: "Speaking & Events",
     readingTime: "6 min read",
     date: "September 2026",
     status: "published",
@@ -184,7 +185,7 @@ export const insights: Insight[] = [
     title: "We Stress-Test Balance Sheets. Do We Stress-Test Our Own Lives?",
     summary:
       "Speaking at the Q3 General Insurance Drinks and Discussion, I asked a room of actuaries a question we rarely turn on ourselves: if you apply the same rigour to your own life that you apply to your clients, what does the answer look like?",
-    category: "Actuarial",
+    category: "Speaking & Events",
     readingTime: "5 min read",
     date: "September 2026",
     status: "published",

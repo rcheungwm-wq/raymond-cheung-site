@@ -16,14 +16,23 @@ const categoryColors: Record<string, string> = {
   Regulation: "var(--graphite)",
   "Board Advisory": "#8C7538",
   Actuarial: "var(--midnight-navy)",
+  "Speaking & Events": "var(--strategic-teal)",
 };
+
+const CATEGORY_ORDER = [
+  "All",
+  "Climate Risk", "Enterprise Risk", "Insurance Innovation", "Technology Risk",
+  "Insurance Capital", "ESG", "Governance", "Regulation", "Board Advisory",
+  "Actuarial", "Speaking & Events",
+];
 
 const ALL = "All" as const;
 
 export default function InsightsClient({ insights }: { insights: Insight[] }) {
   const [active, setActive] = useState<InsightCategory | typeof ALL>(ALL);
 
-  const categories = [ALL, ...Array.from(new Set(insights.map((i) => i.category)))];
+  const presentCats = new Set(insights.map((i) => i.category));
+  const categories = CATEGORY_ORDER.filter((c) => c === ALL || presentCats.has(c as InsightCategory)) as (InsightCategory | typeof ALL)[];
 
   const filtered = active === ALL ? insights : insights.filter((i) => i.category === active);
   const featured = filtered[0];
