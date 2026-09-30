@@ -119,6 +119,20 @@ export const insights: Insight[] = [
         text: "Climate transition is one of the defining risk management challenges of the next two decades. The organisations that navigate it well will not be the ones with the most sophisticated disclosure. They will be the ones that treated it as a governance problem first.",
       },
     ],
+    faqs: [
+      {
+        question: "What does climate transition risk mean for Singapore company boards?",
+        answer: "Climate transition risk refers to the financial and strategic risks arising from the shift to a lower-carbon economy, including policy changes, carbon pricing, shifting customer preferences and asset stranding. For Singapore company boards, MAS has made climate risk a board-level governance matter through its Environmental Risk Management guidelines and TCFD-aligned disclosure expectations. Boards are expected to understand how transition risk affects the organisation's business model, capital position and long-term strategy, not just to sign off on a sustainability report.",
+      },
+      {
+        question: "How should a Singapore board govern climate transition risk?",
+        answer: "Effective climate governance starts with assigning clear accountability: who owns the physical and transition risks in the portfolio, and does that ownership connect to capital allocation decisions? The board should receive stress-tested scenario analysis showing what the organisation's capital and business model look like under different transition pathways, not just descriptive disclosures. It should also ensure the risk function and finance function are working from the same information, and that the board itself has enough climate literacy to ask meaningful questions of management.",
+      },
+      {
+        question: "What do MAS Environmental Risk Management guidelines require from Singapore boards?",
+        answer: "MAS Environmental Risk Management guidelines, applicable to banks, insurers and asset managers in Singapore, require boards and senior management to integrate environmental risk into their governance frameworks, risk appetite statements and risk management processes. For Singapore insurers specifically, the board must approve the organisation's approach to identifying, assessing and managing environmental risks, and must receive regular reporting on environmental risk exposure. The guidelines expect boards to go beyond disclosure compliance and ensure that environmental risks are embedded into underwriting, investment and capital planning decisions.",
+      },
+    ],
   },
   {
     id: "2",
@@ -197,6 +211,20 @@ export const insights: Insight[] = [
         text: "Risk appetite is not a compliance exercise. When it works, it is the mechanism by which a board's risk judgement travels through the organisation and shapes the decisions being made three layers down. That is worth building properly.",
       },
     ],
+    faqs: [
+      {
+        question: "What is a risk appetite framework and why does it matter for Singapore boards?",
+        answer: "A risk appetite framework is the structured set of statements, thresholds and metrics that define the amount and type of risk an organisation is willing to accept in pursuit of its objectives. For Singapore boards, MAS expects risk appetite to be a genuine governance tool, not a compliance document. MAS guidelines on corporate governance require boards to approve the risk appetite framework and satisfy themselves that it is embedded in strategic and operational decision-making, not merely referenced in risk committee papers.",
+      },
+      {
+        question: "How do Singapore boards ensure risk appetite is actually used in decisions?",
+        answer: "The most common failure is embedding risk appetite in a framework document rather than in decision-making processes. For a Singapore board to ensure risk appetite is operational, it should require management to cite risk appetite in board papers where it is relevant, ask to see decisions in the past six months that the framework caused the organisation to change, and demand reporting that shows where the organisation sits relative to appetite, including trend direction, not just a binary within-limits or breach flag. Boards that only hear 'we are within appetite' without seeing the underlying analysis are not governing risk appetite, they are receiving reassurance.",
+      },
+      {
+        question: "What is the difference between risk appetite and risk tolerance for Singapore regulated entities?",
+        answer: "Risk appetite is the amount and type of risk an organisation is willing to accept in pursuit of its objectives, expressed at a strategic level. Risk tolerance is the acceptable variation around those appetite boundaries, the operational bandwidth within which day-to-day decisions can move without escalation. For Singapore insurers regulated by MAS, the ORSA process requires both to be defined and stress-tested against the organisation's capital position. In practice, risk appetite is set by the board and risk tolerance is managed by the CRO and business units, with a clear escalation path when tolerance boundaries are approached.",
+      },
+    ],
   },
   {
     id: "3",
@@ -272,6 +300,20 @@ export const insights: Insight[] = [
       {
         type: "paragraph",
         text: "It also means being honest about what you cannot do well as a traditional insurer, and where partnership, with platforms, with fintechs, with ecosystem players,creates more value than going alone. The organisations I have seen struggle most are those that are digitising their existing product and distribution model rather than rethinking it.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What do younger customers expect from insurance in Singapore and Southeast Asia?",
+        answer: "Younger customers in Singapore and Southeast Asia expect insurance to behave like the other digital services they use daily, personalised, transparent, and present throughout the relationship rather than invisible until a claim. They want to understand clearly what they are covered for, they expect coverage to adapt to their circumstances, and a meaningful segment cares about the values and social purpose of the organisations they buy from. The traditional annual-renewal model, designed around physical distribution and paper documentation, does not fit how this demographic engages with financial services.",
+      },
+      {
+        question: "How is embedded insurance changing the Singapore and ASEAN insurance market?",
+        answer: "Embedded insurance, coverage offered at the point of relevance within a platform or service the customer already uses, is growing rapidly across ASEAN because it solves the distribution and engagement problem that has held back insurance penetration in the region. When insurance is integrated into a ride-hailing app, an e-commerce checkout or a digital banking flow, the customer does not need to be in an insurance-buying mindset. The coverage is contextually relevant, the decision is low-friction, and the brand trust transfers from the platform. For Singapore insurance boards, the strategic question is whether to build embedded propositions directly, partner with platforms, or risk being disintermediated by those that do.",
+      },
+      {
+        question: "What should Singapore insurance boards do to adapt to digital-first customer expectations?",
+        answer: "Singapore insurance boards should ask management three questions: How much of our current product design was built for a digital-first customer rather than a traditional distribution channel? Where are our embedded distribution partnerships and what proportion of new business do they represent? And what does our lapse and engagement data tell us about whether customers find value in our products during the policy period rather than only at claims? The boards that get ahead of this shift are investing in product simplification, data capability and platform partnerships, not simply digitising legacy policy administration.",
       },
     ],
   },
@@ -433,6 +475,20 @@ export const insights: Insight[] = [
         text: "Capital strategy is not a finance function deliverable. It is a board-level conversation that happens to be technically complex. The organisations that treat it that way, that invest in building board-level capital literacy and demand that the connection between capital and strategy is made explicit, are better positioned to allocate capital wisely, to respond to stress intelligently, and to grow sustainably. That is what good governance of capital looks like.",
       },
     ],
+    faqs: [
+      {
+        question: "What should a Singapore insurance board understand about capital strategy?",
+        answer: "Singapore insurance boards are expected by MAS to have meaningful engagement with their organisation's capital position, not just to receive compliance-framed solvency summaries. At a minimum, a board should understand the organisation's capital position relative to its regulatory minimum, internal target and strategic ambition, and which of those three is actually binding current decisions. It should understand the stress scenarios under which the capital position deteriorates significantly and the lead time available for management to respond. And it should understand how capital connects to the strategic plan, including what the capital cost of planned growth is and whether the board is prepared to fund it.",
+      },
+      {
+        question: "How does the ORSA connect to board governance of insurance capital in Singapore?",
+        answer: "The Own Risk and Solvency Assessment, required for Singapore insurers under MAS risk-based capital frameworks, is one of the most important documents a board can use to govern capital, but it is frequently not used that way. A well-executed ORSA shows the board, in stress-tested terms, what happens to the organisation's capital position under scenarios relevant to its business, and connects that analysis to the strategic choices the board is being asked to approve. Singapore boards that receive only a compliance summary of the ORSA, without the underlying scenario analysis and strategic implications, are missing the governance value the document is designed to provide.",
+      },
+      {
+        question: "What are MAS expectations for Singapore insurance board oversight of capital management?",
+        answer: "MAS expects Singapore insurance boards to provide active oversight of capital management, not passive approval of actuarial submissions. The MAS Risk-Based Capital framework and associated guidance requires boards to approve the internal capital target, understand the connection between capital and risk appetite, and satisfy themselves that the ORSA process is genuinely integrated into strategic planning rather than produced as a standalone regulatory deliverable. MAS supervisory reviews assess whether the board is asking substantive capital questions of management, whether the capital function has appropriate independence, and whether capital stress testing is informing rather than merely documenting strategic decisions.",
+      },
+    ],
   },
   {
     id: "6",
@@ -496,6 +552,20 @@ export const insights: Insight[] = [
       {
         type: "paragraph",
         text: "None of those timelines are controlled by the organisation. Compliance gives you some protection, it shows you were paying attention. But readiness is what determines whether you respond well when the moment arrives. I would rather help organisations build the second than produce the first alone.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the difference between ESG compliance and ESG readiness for Singapore companies?",
+        answer: "ESG compliance means meeting the disclosure and reporting requirements that regulators, exchanges and investors mandate, producing a sustainability report, disclosing emissions, satisfying SGX listing requirements. ESG readiness means the organisation is actually prepared to manage ESG risks when they materialise, that climate physical risk is embedded in capital planning, that supply chain risks are visible in procurement, and that the board can make informed decisions when an ESG risk becomes a strategic or liability issue. Most Singapore companies are ahead on compliance and behind on readiness, because compliance has clear deliverables and deadlines while readiness is harder to measure until something goes wrong.",
+      },
+      {
+        question: "What ESG risks should Singapore insurance boards integrate into their risk frameworks?",
+        answer: "Singapore insurance boards should ensure three categories of ESG risk are visible inside the enterprise risk framework: climate physical risk, the financial impact of extreme weather events and long-term climate trends on the insurer's asset portfolio, underwriting exposures and operating environment; transition risk, exposure to regulatory change, carbon pricing and changing customer behaviour as the economy decarbonises; and governance risk, the liability and reputational exposure from inadequate ESG disclosure or failure to meet the expectations set in public commitments. MAS Environmental Risk Management guidelines expect these risks to appear in risk registers, be stress-tested against capital, and have named owners with authority to act.",
+      },
+      {
+        question: "How do MAS and SGX sustainability requirements affect Singapore board ESG obligations?",
+        answer: "MAS and SGX have established a layered set of sustainability obligations for Singapore companies. SGX listing rules require climate-related disclosures aligned with TCFD for all listed companies, with mandatory requirements phased in progressively. MAS Environmental Risk Management guidelines require banks, insurers and asset managers to integrate environmental risk into governance frameworks, risk appetite and risk management processes, with board-level accountability. Together, these frameworks mean Singapore boards face both disclosure obligations under SGX and substantive risk management obligations under MAS, and the two are not the same. A board that satisfies its SGX disclosure requirements without embedding environmental risk into its MAS-governed risk framework is exposed on the supervisory side.",
       },
     ],
   },
@@ -2170,6 +2240,20 @@ export const insights: Insight[] = [
       {
         type: "paragraph",
         text: "If your board is relying on a single tenure-tracking line item reviewed once a year at the nominating committee, you are managing this reactively. The fix is not complicated, it is a standing agenda item, cross-referenced against every committee charter's independence requirement, reviewed at least annually with an eighteen-month forward window. Boards that get this right never have a Lim Chin Hu moment that looks like a scramble. They have one that looks like SGX's: staged, disclosed calmly, and unremarkable.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the SGX nine-year independent director tenure rule?",
+        answer: "SGX Listing Rules require that independent directors who have served for more than nine cumulative years be reclassified as non-independent, non-executive directors, unless shareholders approve their continued classification as independent by a two-tier vote. This rule, introduced by SGX RegCo following the Code of Corporate Governance's position that long tenure may compromise a director's independence, has a direct practical effect: directors approaching their ninth anniversary must be tracked against each committee's independence composition requirement, not just the board's overall independence ratio.",
+      },
+      {
+        question: "How should Singapore company secretaries and nominating committees manage director tenure tracking?",
+        answer: "Tenure tracking for Singapore-listed companies should be managed as a committee-composition planning exercise, not just an individual director anniversary calendar. The nominating committee should maintain a forward-looking matrix showing each director's anniversary date against each committee's independence requirement, updated annually with an eighteen-month forward window. When a director's reclassification would breach a committee's minimum independence threshold, the nominating committee needs to have a successor identified, recruited and onboarded before the anniversary date arrives, not after. The SGX RegCo guidance and the Code of Corporate Governance's commentary on tenure both contemplate this planning as a nominating committee responsibility.",
+      },
+      {
+        question: "Can a Singapore company apply the two-tier shareholder vote to retain a long-tenured director as independent?",
+        answer: "SGX Listing Rules provide for a two-tier shareholder vote process under which a director who has served more than nine years can be retained as independent, but only with approval from both a majority of all shareholders and a majority of shareholders excluding the company's substantial shareholders and their associates. This is a high bar in practice, particularly for companies with concentrated ownership. Boards considering this route should assess both the probability of passing and the governance optics of asking shareholders to approve a director whose independence may reasonably be questioned, weighed against the alternative of proactive succession planning and a smooth transition.",
       },
     ],
   },

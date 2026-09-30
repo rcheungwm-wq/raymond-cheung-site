@@ -122,8 +122,34 @@ const roles = [
 export default function AboutPage() {
   const [openRole, setOpenRole] = useState<number | null>(0);
 
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Raymond Cheung",
+    url: "https://raymondcheungwm.com",
+    jobTitle: "Chartered Actuary, Board Director and Risk Adviser",
+    description:
+      "Chartered Actuary and former Nasdaq CEO who led Basel Medical Group to listing. Independent director on Nasdaq and SGX boards, former statutory CRO at AIG Asia Pacific. Advising Asia's boards on enterprise risk, ESG and IPO readiness.",
+    sameAs: ["https://www.linkedin.com/in/raymond-cheung-erm/"],
+    worksFor: { "@type": "Organization", name: "CER Consultancy" },
+    knowsAbout: [
+      "Enterprise Risk Management",
+      "Corporate Governance",
+      "ESG",
+      "Insurance Regulation",
+      "Actuarial Science",
+      "Board Advisory",
+      "IPO Readiness",
+      "Singapore Financial Regulation",
+    ],
+  };
+
   return (
     <div style={{ backgroundColor: "var(--warm-ivory)", paddingTop: "96px" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
       {/* Page hero */}
       <section
         aria-labelledby="about-heading"

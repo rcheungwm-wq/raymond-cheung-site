@@ -53,6 +53,10 @@ export default async function InsightArticlePage({ params }: Props) {
   const prev = idx > 0 ? insights[idx - 1] : null;
   const next = idx < insights.length - 1 ? insights[idx + 1] : null;
 
+  const relatedInsights = insights
+    .filter((i) => i.category === insight.category && i.slug !== insight.slug && !i.canonicalSlug)
+    .slice(0, 3);
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -275,6 +279,33 @@ export default async function InsightArticlePage({ params }: Props) {
                       fontSize: "0.88rem", color: "var(--graphite)", lineHeight: 1.8, opacity: 0.88,
                     }}>{faq.answer}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Related insights */}
+          {relatedInsights.length > 0 && (
+            <div style={{ marginTop: "3rem", paddingTop: "2.5rem", borderTop: "1px solid rgba(26,23,18,0.08)" }}>
+              <p style={{
+                fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
+                letterSpacing: "0.16em", color: "var(--strategic-teal)", textTransform: "uppercase",
+                marginBottom: "1.25rem",
+              }}>Related insights</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+                {relatedInsights.map((r) => (
+                  <Link key={r.slug} href={`/insights/${r.slug}`} style={{
+                    display: "flex", justifyContent: "space-between", alignItems: "center",
+                    padding: "1rem 1.25rem",
+                    border: "1px solid rgba(26,23,18,0.1)", borderRadius: "2px",
+                    textDecoration: "none", gap: "1rem",
+                  }}>
+                    <span style={{
+                      fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                      fontWeight: 600, fontSize: "0.85rem", color: "var(--ink)", lineHeight: 1.4,
+                    }}>{r.title}</span>
+                    <ArrowRight size={14} color="var(--strategic-teal)" style={{ flexShrink: 0 }} />
+                  </Link>
                 ))}
               </div>
             </div>
