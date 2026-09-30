@@ -48,6 +48,281 @@ export interface Insight {
 
 export const insights: Insight[] = [
   {
+    id: "58",
+    title: "AI Application in Reinsurance: The Three Things 33 Practitioners Took Away From the SCI Course",
+    summary:
+      "I recently delivered 'AI Application in Reinsurance' for Singapore College of Insurance -- my first time running this course fully on Zoom, with 33 participants. Here are the three core ideas that generated the most discussion, and what they mean for the profession's next three years.",
+    category: "Speaking & Events",
+    readingTime: "8 min read",
+    date: "May 2026",
+    status: "published",
+    slug: "ai-application-reinsurance-sci-course-2026",
+    ogImage: "/og-ai-application-reinsurance-sci-course-2026.jpg",
+    keywords: [
+      "AI reinsurance training Singapore",
+      "Singapore College of Insurance AI course",
+      "artificial intelligence reinsurance",
+      "AI governance reinsurance",
+      "reinsurance innovation AI",
+      "SCI CPD course Singapore",
+      "AI in insurance Singapore",
+      "parametric reinsurance AI",
+      "Raymond Cheung AI trainer",
+      "AI-native reinsurance",
+      "reinsurance ecosystem transformation",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "Earlier this year I delivered 'AI Application in Reinsurance' for Singapore College of Insurance -- the first time I ran this course entirely over Zoom. Thirty-three participants joined from across the reinsurance and insurance sectors. The format was virtual; the quality of questions was not.",
+      },
+      {
+        type: "paragraph",
+        text: "What follows is a distillation of the three ideas that drove the most discussion during the session, and why I think each one will matter more in 2028 than it does today.",
+      },
+      {
+        type: "heading",
+        text: "1. AI Is Not a Productivity Tool -- It Is an Ecosystem Transformation Platform",
+      },
+      {
+        type: "paragraph",
+        text: "Most conversations about AI in reinsurance start and end with efficiency: faster document processing, quicker catastrophe model runs, automated treaty checking. That is useful. But it is not the opportunity.",
+      },
+      {
+        type: "paragraph",
+        text: "The distinction I drew in the session is between progressive innovation and disruptive innovation. Progressive innovation makes existing processes faster and cheaper. It is valuable and worth pursuing. Disruptive innovation redesigns the underlying model entirely.",
+      },
+      {
+        type: "paragraph",
+        text: "In reinsurance, disruptive AI applications look like real-time risk exchange platforms that match cedents and reinsurers dynamically based on live exposure data. They look like parametric 2.0 products that trigger automatically on AI-verified event parameters without loss adjustment delays. They look like AI-native managing general agents that underwrite entirely in-model, with human review reserved for genuine edge cases.",
+      },
+      {
+        type: "pullquote",
+        text: "The fast fish eats the slow fish, not the big fish eating the small fish. Scale no longer guarantees survival. Speed of adaptation does.",
+      },
+      {
+        type: "paragraph",
+        text: "The reinsurers and brokers who treat AI as a cost reduction exercise will achieve incremental gains. The ones who treat it as a redesign opportunity will define the next market structure.",
+      },
+      {
+        type: "heading",
+        text: "2. Governance Must Scale With Ambition",
+      },
+      {
+        type: "paragraph",
+        text: "The session spent significant time on the governance architecture that AI adoption in reinsurance requires. The core framework I use is what I call the Traffic Light Model.",
+      },
+      {
+        type: "list",
+        items: [
+          "Green: AI automates the decision fully. Output is acted on without human review. Applies to routine, high-volume, low-stakes decisions where AI performance is validated and monitored continuously.",
+          "Amber: AI generates a recommendation and a human reviews before acting. Applies to material underwriting decisions, complex treaty structures, and situations where regulatory accountability requires a named decision-maker.",
+          "Red: Human decision only. AI may provide data and analysis but the decision itself must be made and documented by a qualified professional. Applies to novel risk categories, significant financial commitments, and cases where explainability to a regulator or cedent is required.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Two governance requirements that I regard as non-negotiable: override rights must be designed into AI systems from the start, not bolted on as an afterthought when a regulator or client asks for them. And every AI use case deployed in a reinsurance operation must have a pre-defined stop condition -- the specific trigger that causes the system to pause and escalate to human review.",
+      },
+      {
+        type: "paragraph",
+        text: "Without a stop condition, an AI system operating at Green will keep running through edge cases it was not designed for. The stop condition is the governance equivalent of a circuit breaker.",
+      },
+      {
+        type: "heading",
+        text: "3. The Best Reinsurance Professionals of 2028 Will Direct, Challenge, and Govern AI",
+      },
+      {
+        type: "paragraph",
+        text: "The question I hear most often from practitioners is whether AI will replace reinsurance underwriters, actuaries, and brokers. My answer is consistent: AI will not replace reinsurance professionals. But reinsurance professionals who cannot engage substantively with AI will be outperformed by those who can.",
+      },
+      {
+        type: "paragraph",
+        text: "The skill that will differentiate senior reinsurance professionals by 2028 is not the ability to build AI models -- that is an engineering task. It is the ability to direct what a model should optimise for, challenge the assumptions embedded in its outputs, identify when a model is operating outside its training distribution, and govern the AI use case within the firm's risk appetite and regulatory framework.",
+      },
+      {
+        type: "paragraph",
+        text: "This is a domain expert skill, not a technology skill. It requires deep knowledge of reinsurance structures, underwriting philosophy, reserving methodology, and regulatory expectations -- combined with enough AI literacy to ask the right questions of an AI output and recognise a plausible-sounding error.",
+      },
+      {
+        type: "paragraph",
+        text: "The practitioners who develop this capability in the next two years will be significantly more valuable in 2028. The ones who wait until it becomes an obvious requirement will spend two years catching up.",
+      },
+      {
+        type: "heading",
+        text: "What the Zoom Format Revealed",
+      },
+      {
+        type: "paragraph",
+        text: "This was my first time delivering this course entirely virtually. I was uncertain whether a complex technical topic would sustain engagement across a full session without the dynamic of a physical room.",
+      },
+      {
+        type: "paragraph",
+        text: "It did. The chat ran continuously with questions and references to participants' own AI implementation challenges. The discussion on governance frameworks was particularly active -- which suggests that the industry is moving past the question of whether to adopt AI and into the harder question of how to govern it responsibly.",
+      },
+      {
+        type: "paragraph",
+        text: "Thank you to Singapore College of Insurance for the ongoing partnership, and to the 33 participants who brought real challenges into the room. The transformation does not stop at the course.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does Raymond Cheung's AI in Reinsurance course cover?",
+        answer: "The SCI course 'AI Application in Reinsurance' covers AI as an ecosystem transformation platform (not just a productivity tool), governance frameworks including the Traffic Light Model for AI decision classification, stop conditions and override rights, and the skills reinsurance professionals need to direct, challenge, and govern AI systems in their organisations.",
+      },
+      {
+        question: "What is the Traffic Light Model for AI governance in insurance?",
+        answer: "The Traffic Light Model classifies AI decisions into three tiers: Green (AI automates fully, for routine validated decisions), Amber (AI recommends, human reviews before acting, for material underwriting decisions), and Red (human decision only, AI provides data and analysis but a qualified professional makes and documents the final decision). It is a practical governance framework for managing AI risk in regulated financial services environments.",
+      },
+      {
+        question: "How will AI change reinsurance underwriting by 2028?",
+        answer: "By 2028, AI will likely power real-time risk exchange platforms, parametric 2.0 triggers verified without human loss adjustment, and AI-native MGA underwriting models. The competitive advantage will shift to reinsurers and brokers who can govern AI responsibly, not just adopt it -- and to individual professionals who can direct and challenge AI outputs rather than simply consume them.",
+      },
+    ],
+  },
+  {
+    id: "57",
+    title: "ERM and Business Continuity Planning for Indonesian Insurance Brokers: What the APARI Programme Covered",
+    summary:
+      "On 18 August 2026, I facilitated a full-day Professional Certification programme on Enterprise Risk Management and Business Continuity Planning for Indonesian insurance and reinsurance brokers, organised by APARI and Singapore College of Insurance at JW Marriott Jakarta. Here is what we worked through and why it matters for Indonesia's evolving regulatory landscape.",
+    category: "Speaking & Events",
+    readingTime: "8 min read",
+    date: "August 2026",
+    status: "published",
+    slug: "apari-erm-bcp-indonesia-brokers-2026",
+    ogImage: "/og-apari-erm-bcp-indonesia-brokers-2026.jpg",
+    keywords: [
+      "ERM training Indonesia",
+      "enterprise risk management Indonesia brokers",
+      "APARI training programme",
+      "Singapore College of Insurance",
+      "business continuity planning insurance",
+      "POJK ERM compliance Indonesia",
+      "ISO 31000 insurance Indonesia",
+      "OJK risk management",
+      "BCP insurance brokers Jakarta",
+      "Raymond Cheung ERM trainer",
+      "risk governance Indonesia",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "On 18 August 2026, I facilitated the Professional Certification in Enterprise Risk Management and Business Continuity Planning at JW Marriott Hotel Jakarta, organised by APARI (the Association of Indonesian Qualified Insurance and Reinsurance Brokers) and Singapore College of Insurance. The programme ran from 09:00 to 17:00 and brought together active insurance and reinsurance brokers from across Indonesia.",
+      },
+      {
+        type: "paragraph",
+        text: "Indonesia's insurance brokerage sector is operating under an increasingly demanding regulatory framework. OJK regulations POJK 44/2020, POJK 4/2021, and POJK 24/2023 have progressively tightened expectations around risk governance, capital adequacy, and operational resilience. The programme was designed to translate those regulatory requirements into practical tools that brokers can implement immediately.",
+      },
+      {
+        type: "heading",
+        text: "The Modern Risk Landscape for Indonesian Brokers",
+      },
+      {
+        type: "paragraph",
+        text: "The opening session grounded participants in what risk actually means in the current operating environment. The conventional risks -- counterparty default, premium collection failure, E&O claims -- remain. But they now sit alongside a new layer of emerging exposures: AI-driven underwriting decisions that brokers cannot audit, cyber incidents that can freeze client operations overnight, and regulatory changes that compress implementation timelines.",
+      },
+      {
+        type: "paragraph",
+        text: "For an Indonesian broker operating across multiple lines, this creates a risk identification problem before it creates a risk management problem. If your risk register only reflects the risks your predecessors wrote down five years ago, it is not a risk register -- it is a historical document.",
+      },
+      {
+        type: "pullquote",
+        text: "Compliance with POJK is the floor, not the ceiling. The brokers who treat ERM as a governance tool rather than a reporting obligation will outperform on client retention and regulatory standing.",
+      },
+      {
+        type: "heading",
+        text: "ERM Frameworks: ISO 31000 and COSO in an Insurance Context",
+      },
+      {
+        type: "paragraph",
+        text: "The programme covered both ISO 31000 and the COSO ERM framework, with particular attention to how each applies in an insurance distribution context. ISO 31000 provides the principles and process architecture for risk management -- the iterative cycle of context-setting, risk identification, analysis, evaluation, treatment, and monitoring. COSO ERM adds the strategic dimension, connecting risk management to value creation and linking it explicitly to organisational objectives.",
+      },
+      {
+        type: "paragraph",
+        text: "The key shift both frameworks demand is from siloed risk management -- where compliance, operations, and finance each manage their own risks independently -- to an integrated, enterprise-wide view. For brokers, this means connecting client risk profiles to internal operational risks and understanding how disruptions in one area cascade into others.",
+      },
+      {
+        type: "heading",
+        text: "Risk Governance: The Board, Three Lines of Defence, and Accountability",
+      },
+      {
+        type: "paragraph",
+        text: "Risk governance is where many Indonesian brokers, particularly mid-sized firms, face the largest gap. The Three Lines of Defence model -- operational management as the first line, risk and compliance functions as the second, and internal audit as the third -- requires clarity about who owns each risk and who is accountable when something goes wrong.",
+      },
+      {
+        type: "paragraph",
+        text: "In practice, the most common failure mode is not a broken process -- it is ambiguous ownership. Participants worked through how to assign clear risk owners at the operational level, how to structure the second line function proportionately for a brokerage firm (which may not need a dedicated CRO but does need a named risk officer with actual authority), and how the board receives and acts on risk information.",
+      },
+      {
+        type: "list",
+        items: [
+          "First line: Business units and client-facing teams own and manage risk day-to-day",
+          "Second line: Risk and compliance functions set standards, monitor, and challenge",
+          "Third line: Internal audit provides independent assurance to the board",
+          "Board: Sets risk appetite, receives MI, and holds management accountable",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Practical Risk Identification and the Risk Appetite Statement",
+      },
+      {
+        type: "paragraph",
+        text: "The afternoon sessions moved into hands-on exercises. Participants built a risk register for a representative Indonesian brokerage, working through risk identification, likelihood and impact assessment, and prioritisation. The exercise surfaced risks that participants had not previously documented -- including technology dependency on legacy policy administration systems and concentration risk in client portfolios.",
+      },
+      {
+        type: "paragraph",
+        text: "The Risk Appetite Statement exercise was particularly valuable. Many firms have a generic statement that says they want to 'minimise risk' or 'maintain financial stability' without specifying what that means in measurable terms. The session guided participants through writing appetite statements that are specific, linked to strategic objectives, and actionable -- so that a front-line broker can use the statement to make a real decision about whether to pursue a particular client or product line.",
+      },
+      {
+        type: "heading",
+        text: "Business Continuity Planning: From BIA to Crisis Playbook",
+      },
+      {
+        type: "paragraph",
+        text: "The BCP module covered the full lifecycle: Business Impact Analysis (BIA) to identify critical functions and their dependencies, Recovery Time Objective (RTO) and Recovery Point Objective (RPO) setting, crisis playbook construction, and testing protocols.",
+      },
+      {
+        type: "paragraph",
+        text: "For insurance brokers, the BIA typically surfaces three critical vulnerabilities: loss of access to policy management systems, inability to reach key clients during a crisis, and dependence on insurer capacity that may itself be constrained during a major event. The session addressed each with practical mitigation approaches.",
+      },
+      {
+        type: "paragraph",
+        text: "Testing is where most BCP programmes fail. A plan that has never been tested is not a plan -- it is an assumption. The programme covered tabletop exercises, functional drills, and the governance requirement to document test results and close gaps identified.",
+      },
+      {
+        type: "heading",
+        text: "Why This Matters Now for Indonesia",
+      },
+      {
+        type: "paragraph",
+        text: "Indonesia's OJK has progressively embedded risk management requirements into its licensing and supervision framework for insurance intermediaries. Firms that have already implemented credible ERM and BCP frameworks are better positioned for regulatory review, better able to demonstrate resilience to their insurance company partners, and better equipped to retain institutional clients who now routinely ask about counterparty risk management during broker selection.",
+      },
+      {
+        type: "paragraph",
+        text: "The programme was SCI-certified, with participants receiving the Certificate of Completion in Enterprise Risk Management and Business Continuity Planning from Singapore College of Insurance -- a qualification that carries professional credibility across the ASEAN region.",
+      },
+      {
+        type: "paragraph",
+        text: "Thank you to APARI and Singapore College of Insurance for the invitation, and to all participants who brought their real-world challenges into the room. That is what makes a training programme useful.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What ERM regulations apply to Indonesian insurance brokers under OJK?",
+        answer: "Indonesian insurance brokers are subject to OJK regulations including POJK 44/2020 on insurance business, POJK 4/2021 and POJK 24/2023, which progressively expand risk governance, capital, and operational resilience requirements for insurance intermediaries. Compliance requires documented risk management frameworks and business continuity plans.",
+      },
+      {
+        question: "What is the difference between ISO 31000 and COSO ERM for insurance firms?",
+        answer: "ISO 31000 provides a universal risk management process framework covering risk identification, analysis, evaluation, treatment and monitoring. COSO ERM adds a strategic layer, explicitly linking risk management to value creation and organisational objectives. For insurance intermediaries, ISO 31000 is the more commonly referenced standard in the ASEAN regulatory context, but COSO ERM is valuable for firms seeking to embed risk into strategic planning.",
+      },
+      {
+        question: "Does Raymond Cheung provide ERM training for insurance companies and brokers in Asia?",
+        answer: "Yes. Raymond Cheung facilitates professional ERM and BCP certification programmes for insurance companies, reinsurers and brokers across Asia, including the APARI programme for Indonesian brokers delivered in partnership with Singapore College of Insurance. He is available for in-house corporate training and public certification programmes.",
+      },
+    ],
+  },
+  {
     id: "56",
     title: "Teaching Actuarial Mathematics to ESSEC MiM Students in Singapore: What the Exam Results Actually Tell Us",
     summary:
