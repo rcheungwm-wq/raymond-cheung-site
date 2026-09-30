@@ -120,7 +120,7 @@ const personSchema = {
   sameAs: [
     "https://www.linkedin.com/in/raymond-cheung-erm/",
     "https://www.cer-consultancy.com",
-    "https://www.alphacoasia.com/raymond-cheung/",
+    "https://www.alphacoasia.com/team/raymond-cheung/",
   ],
   address: {
     "@type": "PostalAddress",
