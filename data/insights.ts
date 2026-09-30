@@ -46,6 +46,138 @@ export interface Insight {
 
 export const insights: Insight[] = [
   {
+    id: "55",
+    title: "Health AI Is Arriving in Reinsurance. Here Is What That Actually Means.",
+    summary:
+      "Speaking on Health AI at the Belarus Re International Conference in Minsk, I made the case that the industry is not facing a technology question -- it is facing a data governance and underwriting philosophy question. The reinsurers who get this right will price risk the rest cannot see.",
+    category: "Insurance Innovation",
+    readingTime: "6 min read",
+    date: "September 2026",
+    status: "published",
+    slug: "health-ai-reinsurance-belarus-re-2026",
+    keywords: [
+      "health AI reinsurance",
+      "AI underwriting insurance",
+      "SalvionAI health assessment",
+      "reinsurance technology transformation",
+      "health data insurance risk",
+      "AI mortality morbidity modelling",
+      "digital health underwriting Asia",
+    ],
+    body: [
+      {
+        type: "image",
+        src: "/raymond-belarus-re-2026-07.jpg",
+        alt: "Raymond Cheung presenting on Health AI at the Belarus Re International Conference, Minsk, September 2026",
+        caption: "International Conference 'Reinsurance in a Transformative Global Environment', Minsk -- September 2026",
+      },
+      {
+        type: "paragraph",
+        text: "I was invited to speak on Health AI at the Belarus Re International Conference in Minsk on 15 September 2026 -- a gathering of reinsurance leaders from across the CIS, ASEAN and broader emerging markets, convened to mark the 20th anniversary of the Belarusian National Reinsurance Organization. The conference theme was 'Reinsurance in a Transformative Global Environment,' and the room reflected that: senior underwriters, regulators, and ministry officials from more than a dozen markets, debating what transformation actually looks like from the inside of a re/insurance balance sheet.",
+      },
+      {
+        type: "paragraph",
+        text: "My session focused on something I have been building toward through my work with SalvionAI: what happens when continuous, AI-interpreted health data becomes part of the underwriting conversation. Not as a theoretical capability, but as a deployable reality that is already changing what insurers can know about risk at the point of application -- and throughout the policy lifecycle.",
+      },
+      {
+        type: "image-grid",
+        images: [
+          { src: "/raymond-belarus-re-2026-02.jpg", alt: "Raymond Cheung at the Belarus Re conference venue with international flags" },
+          { src: "/raymond-belarus-re-2026-04.jpg", alt: "Raymond Cheung speaker introduction slide at Belarus Re conference" },
+        ],
+      },
+      {
+        type: "heading",
+        text: "The underwriting gap that AI is exposing",
+      },
+      {
+        type: "paragraph",
+        text: "Traditional life and health underwriting relies on a point-in-time snapshot: a medical questionnaire, perhaps a blood test, occasionally a GP report. The insurer prices a risk based on what the applicant reveals and what a brief examination can confirm. For most of insurance history, this was the best available data. It was also, structurally, a bet on the applicant's honesty and the examiner's attention over a single interaction.",
+      },
+      {
+        type: "paragraph",
+        text: "Health AI changes this in two ways. First, it makes continuous biometric data interpretable at scale -- cardiovascular indicators, stress and autonomic nervous system markers, vascular age estimates, fatigue and recovery patterns -- in ways that a point-in-time examination cannot capture. Second, it enables risk stratification that is genuinely predictive rather than retrospective. The difference is not incremental. It is the difference between pricing the risk you can see today and pricing the trajectory the data suggests.",
+      },
+      {
+        type: "pullquote",
+        text: "The reinsurers who understand this earliest will price risk the rest of the market cannot see. That is a durable competitive position.",
+      },
+      {
+        type: "image",
+        src: "/raymond-belarus-re-2026-03.jpg",
+        alt: "Conference audience at Belarus Re International Conference, Minsk 2026",
+      },
+      {
+        type: "heading",
+        text: "Why this is a governance question before it is a technology question",
+      },
+      {
+        type: "paragraph",
+        text: "The conversation I wanted to have in Minsk was not about the technology itself. The capability exists. SalvionAI's health assessment platform already generates the biometric depth I described -- stress indices, pulse wave velocity, vascular age, cognitive load indicators -- from non-invasive inputs. The question is not whether you can do this. The question is whether your underwriting philosophy, your data governance framework, and your reinsurance treaty structure are positioned to use it.",
+      },
+      {
+        type: "paragraph",
+        text: "Most reinsurance treaties were written before continuous health data was a realistic input. Most underwriting manuals treat AI-sourced biometric data as a supplementary flag rather than a primary pricing variable. And most regulatory frameworks -- particularly across the CIS and Southeast Asian markets represented in that room -- are still developing their position on what constitutes permissible health data use in insurance contexts.",
+      },
+      {
+        type: "list",
+        items: [
+          "Treaty design: cedants and reinsurers need to agree in advance how AI-sourced health data affects risk transfer terms. This is not yet standard.",
+          "Data standards: the industry lacks agreed protocols for what biometric variables are admissible, how they are validated, and what audit trail is required for pricing decisions based on them.",
+          "Regulatory alignment: markets across Asia and Eastern Europe are at different stages. A reinsurer deploying AI-driven health underwriting across multiple markets needs a compliance framework that moves with the regulatory landscape.",
+          "Model governance: an AI health model that prices risk must be explainable to a regulator and defensible to a claimant. Black-box scoring is not sustainable in a regulated insurance context.",
+        ],
+      },
+      {
+        type: "image-grid",
+        images: [
+          { src: "/raymond-belarus-re-2026-05.jpg", alt: "Group photo of conference delegates at Belarus Re 20th anniversary" },
+          { src: "/raymond-belarus-re-2026-06.jpg", alt: "Conference hall at Belarus Re International Conference Minsk" },
+        ],
+      },
+      {
+        type: "heading",
+        text: "What the room in Minsk told me",
+      },
+      {
+        type: "paragraph",
+        text: "The questions after my session were revealing. There was genuine interest in the capability -- particularly from markets where traditional underwriting infrastructure is thin and digital health data is already more prevalent than paper-based medical records. For some of these markets, leapfrogging conventional underwriting through AI-interpreted biometrics is not just possible but logical.",
+      },
+      {
+        type: "paragraph",
+        text: "The hesitation was not about the technology. It was about the pipeline: who owns the data, how does it flow between the cedant and the reinsurer, what happens at claims stage when an AI-generated health score influenced the original pricing decision. These are legitimate questions, and they are the ones the industry needs to answer before Health AI becomes standard practice rather than a conference topic.",
+      },
+      {
+        type: "paragraph",
+        text: "I was particularly encouraged by the engagement from Deputy Minister of Finance Mr. Kachan Siarhei, who oversees insurance regulation in Belarus. That level of regulatory seniority in the room, asking substantive questions about AI governance in insurance, is a signal that the policy environment is moving. Regulators who engage early with technology capability tend to build frameworks that enable responsible adoption rather than ones that block it after the fact.",
+      },
+      {
+        type: "image",
+        src: "/raymond-belarus-re-2026-01.jpg",
+        alt: "Opening address at the Belarus Re International Conference with CIS country flags",
+        caption: "Opening plenary -- delegates from across CIS, ASEAN and emerging markets",
+      },
+      {
+        type: "paragraph",
+        text: "Congratulations to Ms. Tarasevich Olga and the Belarus Re team on twenty years of building one of the region's most respected reinsurance institutions. The quality of the conference -- the agenda, the delegate mix, the senior government presence -- reflected that track record. I left Minsk with a clearer sense of where the reinsurance industry's centre of gravity is moving, and more confidence that the work we are doing at SalvionAI is well-timed for the questions that market is now asking.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is SalvionAI and how does it relate to health underwriting?",
+        answer: "SalvionAI is an AI health assessment platform that generates continuous biometric indicators -- cardiovascular health, stress markers, vascular age, cognitive load -- from non-invasive inputs. In an insurance context, this data can supplement or replace traditional point-in-time medical examinations, enabling more accurate risk stratification at scale.",
+      },
+      {
+        question: "Which markets are most ready to adopt AI-driven health underwriting?",
+        answer: "Markets with thin traditional underwriting infrastructure and high digital health penetration are best positioned to leapfrog conventional methods. Several Southeast Asian markets and parts of the CIS region fit this profile. The constraint is not technology availability but regulatory readiness and treaty framework adaptation.",
+      },
+      {
+        question: "How should reinsurers be thinking about this now?",
+        answer: "Start with governance before product. Map which biometric variables your underwriting philosophy can defensibly incorporate, align with cedants on data standards, and engage regulators early. The reinsurers building that infrastructure now will be positioned to price risks the rest of the market cannot see when AI health underwriting becomes standard.",
+      },
+    ],
+  },
+  {
     id: "54",
     title: "We Stress-Test Balance Sheets. Do We Stress-Test Our Own Lives?",
     summary:
