@@ -13,8 +13,17 @@ const categoryColors: Record<string, string> = {
   Regulation: "var(--graphite)",
 };
 
+const FEATURED_SLUGS = [
+  "mas-notice-126-insurance-boards",
+  "orsa-strategic-tool-singapore-insurance-boards",
+  "actuarial-board-adviser-singapore",
+  "board-risk-committee-singapore",
+  "ai-governance-insurance-singapore",
+  "capital-strategy-boardroom",
+];
+
 export default function InsightCards() {
-  const featured = insights.slice(0, 6);
+  const featured = FEATURED_SLUGS.map((s) => insights.find((i) => i.slug === s)).filter(Boolean) as typeof insights;
 
   return (
     <section
