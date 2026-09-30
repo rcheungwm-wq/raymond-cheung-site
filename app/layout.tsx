@@ -90,7 +90,7 @@ export const metadata: Metadata = {
       "Former Nasdaq CEO. Independent director on Nasdaq and SGX boards. Former statutory CRO at AIG Asia Pacific and Asia Capital Reinsurance. Advising boards across Asia on risk, governance and ESG.",
     images: [
       {
-        url: "/raymond-cheung-portrait.jpg",
+        url: "/og-default.jpg",
         width: 1200,
         height: 630,
         alt: "Raymond Cheung, Chartered Actuary, Board Director and ESG Adviser",
@@ -102,7 +102,7 @@ export const metadata: Metadata = {
     title: "Raymond Cheung | Chartered Actuary & Board Director, Singapore",
     description:
       "Former Nasdaq CEO. Independent director on Nasdaq and SGX boards. Advising Asia's boards on risk, governance and ESG.",
-    images: ["/raymond-cheung-portrait.jpg"],
+    images: ["/og-default.jpg"],
   },
 };
 
@@ -112,7 +112,7 @@ const personSchema = {
   "@id": `${SITE_URL}/#person`,
   name: "Raymond Cheung",
   url: SITE_URL,
-  image: `${SITE_URL}/raymond-cheung-portrait.jpg`,
+  image: `${SITE_URL}/og-default.jpg`,
   jobTitle: "Chartered Actuary and Board Adviser",
   description:
     "Chartered Actuary, former Nasdaq CEO and independent board director advising boards, insurers and financial institutions across Asia on enterprise risk, governance, ESG and IPO readiness.",

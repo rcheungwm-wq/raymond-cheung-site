@@ -42,6 +42,7 @@ export interface Insight {
   /** If set, the canonical URL for this page points to this slug instead of its own.
    *  Use when an older post is superseded by a newer, more specific one. */
   canonicalSlug?: string;
+  ogImage?: string;
 }
 
 export const insights: Insight[] = [
@@ -55,6 +56,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "health-ai-reinsurance-belarus-re-2026",
+    ogImage: "/og-health-ai-reinsurance-belarus-re-2026.jpg",
     keywords: [
       "health AI reinsurance",
       "AI underwriting insurance",
@@ -187,6 +189,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "stress-test-your-own-life",
+    ogImage: "/og-stress-test-your-own-life.jpg",
     keywords: [
       "actuarial career pivot",
       "actuarial thinking personal finance",

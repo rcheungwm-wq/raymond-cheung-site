@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: insight.date,
       authors: ["Raymond Cheung"],
       section: insight.category,
-      images: [{ url: "/raymond-cheung-portrait.jpg", width: 1200, height: 630, alt: insight.title }],
+      images: [{ url: insight.ogImage ?? "/og-default.jpg", width: 1200, height: 630, alt: insight.title }],
     },
     twitter: {
       card: "summary_large_image",
@@ -66,7 +66,7 @@ export default async function InsightArticlePage({ params }: Props) {
     articleSection: insight.category,
     datePublished: insight.date,
     inLanguage: "en-SG",
-    image: `${SITE_URL}/raymond-cheung-portrait.jpg`,
+    image: `${SITE_URL}${insight.ogImage ?? "/og-default.jpg"}`,
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `${SITE_URL}/insights/${insight.slug}`,
