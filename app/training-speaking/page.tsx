@@ -5,12 +5,12 @@ import { ArrowRight, Download, Mic, Users, Briefcase, GraduationCap, MessageSqua
 import { programmes, speakingThemes, speakingFormats } from "@/data/programmes";
 
 export const metadata: Metadata = {
-  title: "Executive Training & Keynote Speaking — Risk, ESG & Governance",
+  title: "Executive Training & Keynote Speaking, Risk, ESG & Governance",
   description:
     "Accredited trainer at SMU Academy and the Singapore College of Insurance, lecturer at ESSEC Business School, and author of ten proprietary curricula covering ERM, RBC2, cyber risk, IoT, blockchain and PDPA. Available for board briefings, certification programmes and conference keynotes across Asia.",
   alternates: { canonical: "https://raymondcheungwm.com/training-speaking" },
   openGraph: {
-    title: "Executive Training & Keynote Speaking — Raymond Cheung",
+    title: "Executive Training & Keynote Speaking, Raymond Cheung",
     description:
       "Accredited trainer at SMU Academy and SCI. Ten authored curricula. Board briefings and conference keynotes across Asia.",
     url: "https://raymondcheungwm.com/training-speaking",
@@ -55,21 +55,21 @@ export default function TrainingSpeakingPage() {
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }} className="photo-grid">
             <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
-              <Image src="/raymond-speaking-jakarta.jpg" alt="Raymond Cheung delivering Enterprise Risk Management programme at JW Marriott Jakarta — Singapore College of Insurance and APARI" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+              <Image src="/raymond-speaking-jakarta.jpg" alt="Raymond Cheung delivering Enterprise Risk Management programme at JW Marriott Jakarta, Singapore College of Insurance and APARI" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center top" }} />
               <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
-                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>SCI & APARI — Jakarta 2026</p>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>SCI & APARI, Jakarta 2026</p>
               </div>
             </div>
             <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
               <Image src="/raymond-training-classroom.jpg" alt="Participants at Raymond Cheung's executive training session, September 2026" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center" }} />
               <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
-                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>Executive Training — Singapore 2026</p>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>Executive Training, Singapore 2026</p>
               </div>
             </div>
             <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
               <Image src="/raymond-international-conference.jpg" alt="Raymond Cheung representing Singapore at international reinsurance conference, Minsk 2026" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center top" }} />
               <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
-                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>International Conference — Belarus 2026</p>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>International Conference, Belarus 2026</p>
               </div>
             </div>
           </div>

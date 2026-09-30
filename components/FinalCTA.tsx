@@ -53,7 +53,7 @@ export default function FinalCTA() {
         >
           Whether you need to strengthen your board&rsquo;s risk oversight, develop
           your team&rsquo;s capability, bring a credible voice to your event, or work
-          through a complex advisory challenge — I&rsquo;d welcome the conversation.
+          through a complex advisory challenge, I&rsquo;d welcome the conversation.
         </p>
 
         <div

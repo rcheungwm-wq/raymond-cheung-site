@@ -45,7 +45,7 @@ export default function PrivacyPage() {
             2. Information we collect
           </h2>
           <p style={{ marginBottom: "1.75rem", opacity: 0.85 }}>
-            Information submitted through enquiry forms — including name, organisation, email address, role and message content —
+            Information submitted through enquiry forms, including name, organisation, email address, role and message content , 
             is used solely for the purpose of responding to professional enquiries. This information will not be shared with
             third parties for marketing purposes.
           </p>

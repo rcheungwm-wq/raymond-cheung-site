@@ -48,7 +48,7 @@ export default function ExecutiveNavbar() {
             display: "flex", alignItems: "center", justifyContent: "space-between", height: "72px",
           }}
         >
-          <Link href="/" aria-label="Raymond Cheung — Home" style={{ textDecoration: "none", display: "flex", flexDirection: "column", lineHeight: 1 }}>
+          <Link href="/" aria-label="Raymond Cheung, Home" style={{ textDecoration: "none", display: "flex", flexDirection: "column", lineHeight: 1 }}>
             <span style={{
               fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
               fontWeight: 800, fontSize: "1rem", letterSpacing: "0.18em",

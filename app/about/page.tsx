@@ -15,7 +15,7 @@ const roles = [
     org: "CER Consultancy",
     status: "current",
     period: "Current",
-    what: "CER Consultancy is my independent advisory practice. I work with boards, insurers, financial institutions and regulators across Asia on the questions that matter most — risk governance, capital strategy, ESG implementation and organisational resilience. Every engagement is different, but the underlying challenge is usually the same: turning complex, high-stakes problems into clear decisions.",
+    what: "CER Consultancy is my independent advisory practice. I work with boards, insurers, financial institutions and regulators across Asia on the questions that matter most, risk governance, capital strategy, ESG implementation and organisational resilience. Every engagement is different, but the underlying challenge is usually the same: turning complex, high-stakes problems into clear decisions.",
     did: [
       "Board and strategic advisory across insurance, finance and listed companies",
       "Climate risk and ESG governance frameworks for institutions and regulators",
@@ -28,7 +28,7 @@ const roles = [
     org: "AIG Asia Pacific",
     status: "former",
     period: "Former",
-    what: "This was one of the most formative roles of my career. As statutory CRO for one of Asia Pacific's largest insurance groups, I was personally accountable — not just functionally responsible — for enterprise risk across the region. I had to understand how risk, capital, strategy and governance connected at the highest levels of the organisation and explain it clearly to boards and regulators.",
+    what: "This was one of the most formative roles of my career. As statutory CRO for one of Asia Pacific's largest insurance groups, I was personally accountable, not just functionally responsible,for enterprise risk across the region. I had to understand how risk, capital, strategy and governance connected at the highest levels of the organisation and explain it clearly to boards and regulators.",
     did: [
       "Enterprise-wide risk framework design and implementation across Asia Pacific",
       "Statutory risk accountability across multiple regulatory jurisdictions",
@@ -42,7 +42,7 @@ const roles = [
     org: "Asia Capital Reinsurance Group",
     status: "former",
     period: "Former",
-    what: "Leading risk and compliance for a pan-Asian reinsurance group gave me a distinctive perspective on how risk accumulates at the group level — across subsidiaries, markets and regulatory regimes with very different expectations. Reinsurance sits at the intersection of risk transfer, capital and relationships; understanding it deeply shaped how I advise on capital and governance today.",
+    what: "Leading risk and compliance for a pan-Asian reinsurance group gave me a distinctive perspective on how risk accumulates at the group level, across subsidiaries, markets and regulatory regimes with very different expectations. Reinsurance sits at the intersection of risk transfer, capital and relationships; understanding it deeply shaped how I advise on capital and governance today.",
     did: [
       "Group-level risk governance across multiple Asian jurisdictions",
       "Enterprise risk management and compliance programme leadership",
@@ -56,7 +56,7 @@ const roles = [
     org: "Grab",
     status: "former",
     period: "Former",
-    what: "This role sat at the intersection of insurance and technology at a scale few practitioners ever get to see. I helped build digital insurance programmes across eight ASEAN markets at one of Southeast Asia's most significant technology platforms — designing products, securing regulatory licences, structuring partnerships and connecting insurance expertise to a customer base of millions. It gave me a practitioner's understanding of where insurance is going.",
+    what: "This role sat at the intersection of insurance and technology at a scale few practitioners ever get to see. I helped build digital insurance programmes across eight ASEAN markets at one of Southeast Asia's most significant technology platforms, designing products, securing regulatory licences, structuring partnerships and connecting insurance expertise to a customer base of millions. It gave me a practitioner's understanding of where insurance is going.",
     did: [
       "Digital insurance product design and launch across 8 ASEAN markets",
       "Insurance regulatory licensing and compliance across multiple jurisdictions",
@@ -70,7 +70,7 @@ const roles = [
     org: "Basel Medical Group",
     status: "former",
     period: "Former",
-    what: "Stepping into the Group CEO role of a listed healthcare company expanded my perspective far beyond financial services. I was responsible for commercial strategy, operational performance and board governance of a publicly listed organisation — with all the accountability that entails. It reinforced for me how universal the fundamentals of good governance and strategic risk management really are.",
+    what: "Stepping into the Group CEO role of a listed healthcare company expanded my perspective far beyond financial services. I was responsible for commercial strategy, operational performance and board governance of a publicly listed organisation, with all the accountability that entails. It reinforced for me how universal the fundamentals of good governance and strategic risk management really are.",
     did: [
       "Group strategic leadership and commercial performance",
       "Board governance and listed-company accountability",
@@ -83,7 +83,7 @@ const roles = [
     org: "SGX & Nasdaq Listed Companies",
     status: "associated",
     period: "Board",
-    what: "Serving as an independent director on publicly listed companies — across both SGX and Nasdaq — is where my experience on both sides of the boardroom becomes most visible. I bring risk, actuarial and financial services depth to audit and risk committee work, and I know from my own CRO experience what good risk reporting to a board should look like.",
+    what: "Serving as an independent director on publicly listed companies, across both SGX and Nasdaq,is where my experience on both sides of the boardroom becomes most visible. I bring risk, actuarial and financial services depth to audit and risk committee work, and I know from my own CRO experience what good risk reporting to a board should look like.",
     did: [
       "Independent board oversight and governance stewardship",
       "Audit and risk committee membership",
@@ -96,7 +96,7 @@ const roles = [
     org: "SMU Academy",
     status: "associated",
     period: "Training",
-    what: "I design and deliver executive education at Singapore Management University's professional learning arm. My programmes are built around the questions that boards, executives and senior practitioners are actually wrestling with — not theoretical frameworks disconnected from practice. I teach risk, insurance, ESG and governance through the lens of someone who has had to make the decisions I'm asking participants to think about.",
+    what: "I design and deliver executive education at Singapore Management University's professional learning arm. My programmes are built around the questions that boards, executives and senior practitioners are actually wrestling with, not theoretical frameworks disconnected from practice. I teach risk, insurance, ESG and governance through the lens of someone who has had to make the decisions I'm asking participants to think about.",
     did: [
       "Executive education in risk management, ESG and insurance governance",
       "Programme design for board directors, C-suite and senior professionals",
@@ -109,7 +109,7 @@ const roles = [
     org: "Singapore College of Insurance",
     status: "associated",
     period: "Training",
-    what: "The Singapore College of Insurance is the region's principal professional development institution for insurance practitioners. Training here connects me with the next generation of insurance professionals — and keeps me close to what the industry is thinking about, asking about and struggling with. I cover insurance regulation, enterprise risk, climate risk and ESG practice.",
+    what: "The Singapore College of Insurance is the region's principal professional development institution for insurance practitioners. Training here connects me with the next generation of insurance professionals, and keeps me close to what the industry is thinking about, asking about and struggling with. I cover insurance regulation, enterprise risk, climate risk and ESG practice.",
     did: [
       "Accredited professional training in insurance regulation and risk management",
       "Climate risk and ESG content for insurance practitioners",
@@ -151,7 +151,7 @@ export default function AboutPage() {
             letterSpacing: "-0.03em", color: "#F5F0E8", lineHeight: 1.12,
             maxWidth: "760px",
           }}>
-            Raymond Cheung — Chartered Actuary, Chief Risk Officer and Board Adviser in Singapore
+            Raymond Cheung, Chartered Actuary, Chief Risk Officer and Board Adviser in Singapore
           </h1>
           <p style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
@@ -463,7 +463,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div style={{ position: "relative", width: "100%", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
-                  <Image src="/raymond-sas-book-interview.jpg" alt="Raymond Cheung featured in The Mark of an Actuary — 50 Years of the Singapore Actuarial Society" fill sizes="320px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+                  <Image src="/raymond-sas-book-interview.jpg" alt="Raymond Cheung featured in The Mark of an Actuary, 50 Years of the Singapore Actuarial Society" fill sizes="320px" style={{ objectFit: "cover", objectPosition: "center top" }} />
                   <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.5rem 0.75rem", background: "linear-gradient(transparent, rgba(10,16,31,0.8))" }}>
                     <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.52rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>SAS 50th Anniversary Publication</p>
                   </div>
@@ -541,7 +541,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Full set of recommendations — homepage shows a curated three */}
+      {/* Full set of recommendations, homepage shows a curated three */}
       <TestimonialsSection />
 
       <style>{`

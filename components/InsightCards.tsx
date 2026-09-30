@@ -31,7 +31,7 @@ export default function InsightCards() {
         </div>
 
         <h2 id="insights-heading" style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(1.5rem, 2.8vw, 2.2rem)", fontWeight: 700, letterSpacing: "-0.025em", color: "var(--ink)", maxWidth: "520px", marginBottom: "3.5rem", lineHeight: 1.2 }}>
-          What I&rsquo;m thinking about — and why it matters to you.
+          What I&rsquo;m thinking about, and why it matters to you.
         </h2>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.25rem" }}>

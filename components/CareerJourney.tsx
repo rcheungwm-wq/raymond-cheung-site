@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { careerJourney } from "@/data/experience";
 
-/* Homepage shows a curated arc — statutory CRO, Grab, the Nasdaq listing,
+/* Homepage shows a curated arc, statutory CRO, Grab, the Nasdaq listing,
    and current mandates. The full eight-stage journey lives on /about. */
 const FEATURED = [2, 4, 6, 7];
 const featured = FEATURED.map((i) => careerJourney[i]).filter(Boolean);

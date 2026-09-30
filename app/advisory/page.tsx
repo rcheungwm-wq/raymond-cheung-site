@@ -3,12 +3,12 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Board Advisory & Independent Directorship — Asia",
+  title: "Board Advisory & Independent Directorship, Asia",
   description:
     "Independent director on Nasdaq (iO3 Ltd) and SGX (SDAI Limited) boards, chairing Nominating and Risk Committees. Board advisory on risk governance, IPO readiness, regulatory engagement and ESG strategy for insurers, financial institutions and listed companies across Asia.",
   alternates: { canonical: "https://raymondcheungwm.com/advisory" },
   openGraph: {
-    title: "Board Advisory & Independent Directorship — Raymond Cheung",
+    title: "Board Advisory & Independent Directorship, Raymond Cheung",
     description:
       "Nasdaq and SGX independent director. Board advisory on risk governance, IPO readiness and ESG across Asia.",
     url: "https://raymondcheungwm.com/advisory",
@@ -42,7 +42,7 @@ const advisoryFormats = [
     title: "Capability Development",
     for: "Leadership teams and professional functions",
     subjects: ["Risk culture", "Decision-making", "Executive workshops", "Technical education", "Internal trainer development"],
-    description: "Working with leadership teams and professional functions to build genuine risk capability—not just awareness.",
+    description: "Working with leadership teams and professional functions to build genuine risk capability, not just awareness.",
   },
 ];
 

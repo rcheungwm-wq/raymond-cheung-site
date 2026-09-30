@@ -76,7 +76,7 @@ export default function QuoteSection() {
           textTransform: "uppercase",
           marginBottom: "2.5rem",
         }}>
-          — {signature.attribution}
+         , {signature.attribution}
         </p>
 
         <p style={{

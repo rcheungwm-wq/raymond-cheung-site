@@ -40,7 +40,7 @@ export default function NotFound() {
           maxWidth: "560px",
         }}
       >
-        This page doesn&rsquo;t exist—but the right answer often begins with a better question.
+        This page doesn&rsquo;t exist, but the right answer often begins with a better question.
       </h1>
       <p
         style={{

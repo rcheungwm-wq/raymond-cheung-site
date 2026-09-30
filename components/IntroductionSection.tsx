@@ -57,7 +57,7 @@ export default function IntroductionSection() {
           </div>
         </div>
 
-        {/* Three principles — glass cards */}
+        {/* Three principles, glass cards */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.25rem" }}>
           {philosophy.principles.map((p, i) => (
             <div key={p.title} style={{

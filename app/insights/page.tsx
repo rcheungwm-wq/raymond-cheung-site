@@ -3,12 +3,12 @@ import { insights } from "@/data/insights";
 import InsightsClient from "./InsightsClient";
 
 export const metadata: Metadata = {
-  title: "Insights — Risk, Governance, ESG & Insurance Commentary",
+  title: "Insights, Risk, Governance, ESG & Insurance Commentary",
   description:
-    "Written commentary from Raymond Cheung on enterprise risk, climate transition governance, risk appetite, insurance capital strategy, AI governance and ESG compliance — drawn from two decades in Asia's boardrooms and risk functions.",
+    "Written commentary from Raymond Cheung on enterprise risk, climate transition governance, risk appetite, insurance capital strategy, AI governance and ESG compliance, drawn from two decades in Asia's boardrooms and risk functions.",
   alternates: { canonical: "https://raymondcheungwm.com/insights" },
   openGraph: {
-    title: "Insights — Raymond Cheung on Risk, Governance & ESG",
+    title: "Insights, Raymond Cheung on Risk, Governance & ESG",
     description:
       "Commentary on enterprise risk, climate governance, capital strategy and ESG from a Chartered Actuary and former Nasdaq CEO.",
     url: "https://raymondcheungwm.com/insights",

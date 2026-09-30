@@ -27,7 +27,7 @@ export default function PublicationsSection() {
           fontSize: "0.88rem", color: "var(--graphite)", opacity: 0.72,
           marginBottom: "2rem", lineHeight: 1.65,
         }}>
-          {conferenceCount} conference presentations and {publicationCount} published works (2012–2016) — across international actuarial conferences, Singapore regulators, and regional industry bodies.
+          {conferenceCount} conference presentations and {publicationCount} published works (2012–2016), across international actuarial conferences, Singapore regulators, and regional industry bodies.
         </p>
 
         <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.75rem" }}>
@@ -94,7 +94,7 @@ export default function PublicationsSection() {
           fontSize: "0.88rem", color: "var(--graphite)", opacity: 0.72,
           marginBottom: "2rem", lineHeight: 1.65,
         }}>
-          Ten original curricula built under BRCA Pte Ltd and delivered through accredited institutions across Asia — not programmes I teach, but programmes I created from the ground up.
+          Ten original curricula built under BRCA Pte Ltd and delivered through accredited institutions across Asia, not programmes I teach, but programmes I created from the ground up.
         </p>
 
         <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "0.75rem" }}>

@@ -43,7 +43,7 @@ export const insights: Insight[] = [
     id: "1",
     title: "Climate Transition Is a Governance Issue Before It Is a Reporting Issue",
     summary:
-      "Organisations are racing to improve their climate disclosures. The harder — and more consequential — work is in governance: who owns the risk, how it connects to strategy, and what your board must be willing to actually ask.",
+      "Organisations are racing to improve their climate disclosures. The harder, and more consequential,work is in governance: who owns the risk, how it connects to strategy, and what your board must be willing to actually ask.",
     category: "Climate Risk",
     readingTime: "6 min read",
     date: "July 2025",
@@ -52,11 +52,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Every week I see another organisation announce its climate disclosure framework, appoint a sustainability officer, or commit to a net-zero target. These are not bad things. But they are frequently mistaken for the hard work — and the hard work is something different.",
+        text: "Every week I see another organisation announce its climate disclosure framework, appoint a sustainability officer, or commit to a net-zero target. These are not bad things. But they are frequently mistaken for the hard work, and the hard work is something different.",
       },
       {
         type: "paragraph",
-        text: "The hard work is governance. It is the question of who in your organisation actually owns the climate risk — not on a reporting chart, but in a way that changes what decisions get made and by whom. It is whether your board has the information it needs to ask difficult questions of management, and whether management is genuinely empowered to bring uncomfortable answers.",
+        text: "The hard work is governance. It is the question of who in your organisation actually owns the climate risk, not on a reporting chart, but in a way that changes what decisions get made and by whom. It is whether your board has the information it needs to ask difficult questions of management, and whether management is genuinely empowered to bring uncomfortable answers.",
       },
       {
         type: "heading",
@@ -64,11 +64,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "When I work with boards on climate risk, I start by asking a simple question: if your organisation's largest physical asset became uninsurable in the next five years due to climate-related conditions, who would know about that risk today, and how would it reach your board? In most cases the answer reveals a gap — not between intention and disclosure, but between disclosure and governance.",
+        text: "When I work with boards on climate risk, I start by asking a simple question: if your organisation's largest physical asset became uninsurable in the next five years due to climate-related conditions, who would know about that risk today, and how would it reach your board? In most cases the answer reveals a gap, not between intention and disclosure, but between disclosure and governance.",
       },
       {
         type: "paragraph",
-        text: "TCFD, ISSB, MAS guidelines — these frameworks have done an important job of creating a common language for climate risk reporting. But language is not the same as ownership. I have reviewed reporting that is technically compliant and substantively hollow — disclosure that describes risk categories without assigning accountability, sets targets without connecting them to capital decisions, and reassures readers without informing them.",
+        text: "TCFD, ISSB, MAS guidelines, these frameworks have done an important job of creating a common language for climate risk reporting. But language is not the same as ownership. I have reviewed reporting that is technically compliant and substantively hollow, disclosure that describes risk categories without assigning accountability, sets targets without connecting them to capital decisions, and reassures readers without informing them.",
       },
       {
         type: "pullquote",
@@ -86,13 +86,13 @@ export const insights: Insight[] = [
         type: "list",
         items: [
           "Who owns the physical and transition risks in our portfolio, and does that ownership connect to our capital allocation decisions?",
-          "What is our exposure to regulatory change — carbon pricing, mandatory disclosure, liability — in each market we operate in, and over what time horizon?",
+          "What is our exposure to regulatory change, carbon pricing, mandatory disclosure, liability,in each market we operate in, and over what time horizon?",
           "What assumptions are embedded in our current strategy that climate developments could invalidate, and when would we know they were wrong?",
         ],
       },
       {
         type: "paragraph",
-        text: "These questions are not answered by a disclosure report. They require the risk function, the finance function and the board to be working from the same information — and they require your board to be willing to sit with uncertainty rather than demand false precision.",
+        text: "These questions are not answered by a disclosure report. They require the risk function, the finance function and the board to be working from the same information, and they require your board to be willing to sit with uncertainty rather than demand false precision.",
       },
       {
         type: "heading",
@@ -104,7 +104,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "This is not a gap you solve with a hire. It requires deliberate investment in building shared fluency across your risk, finance and sustainability teams — and it requires your board to develop enough literacy to ask the right questions of the people presenting to them.",
+        text: "This is not a gap you solve with a hire. It requires deliberate investment in building shared fluency across your risk, finance and sustainability teams, and it requires your board to develop enough literacy to ask the right questions of the people presenting to them.",
       },
       {
         type: "heading",
@@ -112,7 +112,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Start with accountability, not disclosure. Map your material climate risks — physical, transition, and liability — and assign clear ownership to named individuals with the authority to act. Connect those risks to your capital planning cycle, not just your reporting calendar. And ask your board, honestly, whether it has the expertise and information it needs to govern this risk — or whether it is simply receiving it.",
+        text: "Start with accountability, not disclosure. Map your material climate risks, physical, transition, and liability,and assign clear ownership to named individuals with the authority to act. Connect those risks to your capital planning cycle, not just your reporting calendar. And ask your board, honestly, whether it has the expertise and information it needs to govern this risk, or whether it is simply receiving it.",
       },
       {
         type: "paragraph",
@@ -124,7 +124,7 @@ export const insights: Insight[] = [
     id: "2",
     title: "Risk Appetite Should Guide Decisions, Not Decorate a Policy Document",
     summary:
-      "Risk appetite statements are everywhere. Frameworks that genuinely influence how an organisation makes choices are far rarer. The difference is not technical — it is about whether leadership is willing to be constrained by it.",
+      "Risk appetite statements are everywhere. Frameworks that genuinely influence how an organisation makes choices are far rarer. The difference is not technical, it is about whether leadership is willing to be constrained by it.",
     category: "Enterprise Risk",
     readingTime: "5 min read",
     date: "June 2025",
@@ -137,7 +137,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Risk appetite — the amount and type of risk an organisation is willing to accept in pursuit of its objectives — should be the anchor for strategic decisions. It should be the framework that a CFO invokes when evaluating a capital allocation, that an underwriter references when pricing a risk, that a board director reaches for when a management proposal tests the boundaries of what the organisation has said it stands for. In practice, most risk appetite frameworks sit behind the enterprise risk policy and are referenced at half-yearly risk committee meetings.",
+        text: "Risk appetite, the amount and type of risk an organisation is willing to accept in pursuit of its objectives,should be the anchor for strategic decisions. It should be the framework that a CFO invokes when evaluating a capital allocation, that an underwriter references when pricing a risk, that a board director reaches for when a management proposal tests the boundaries of what the organisation has said it stands for. In practice, most risk appetite frameworks sit behind the enterprise risk policy and are referenced at half-yearly risk committee meetings.",
       },
       {
         type: "heading",
@@ -145,7 +145,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "In my years as a statutory CRO, I saw this pattern consistently. A risk appetite framework gets developed — usually with significant effort from the risk function, real engagement from the CFO, genuine sign-off from the board. It is well-designed. It identifies the right categories of risk. It sets sensible thresholds. And then nothing changes.",
+        text: "In my years as a statutory CRO, I saw this pattern consistently. A risk appetite framework gets developed, usually with significant effort from the risk function, real engagement from the CFO, genuine sign-off from the board. It is well-designed. It identifies the right categories of risk. It sets sensible thresholds. And then nothing changes.",
       },
       {
         type: "paragraph",
@@ -161,11 +161,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Embedding risk appetite is not about putting it in a dashboard. It is about connecting it to the moments where decisions are actually made — capital committee papers, product approval processes, M&A due diligence, strategic planning cycles.",
+        text: "Embedding risk appetite is not about putting it in a dashboard. It is about connecting it to the moments where decisions are actually made, capital committee papers, product approval processes, M&A due diligence, strategic planning cycles.",
       },
       {
         type: "paragraph",
-        text: "At AIG Asia Pacific, we worked hard to move risk appetite from a document that informed the annual report to a framework that shaped how businesses submitted capital requests. That required two things: a clear articulation of appetite in terms that business units could actually use, and consistent challenge from the risk function when proposals pushed against the stated boundaries. The second part is the harder one — it requires the CRO to be willing to slow things down, and it requires the CEO and board to support that when it happens.",
+        text: "At AIG Asia Pacific, we worked hard to move risk appetite from a document that informed the annual report to a framework that shaped how businesses submitted capital requests. That required two things: a clear articulation of appetite in terms that business units could actually use, and consistent challenge from the risk function when proposals pushed against the stated boundaries. The second part is the harder one, it requires the CRO to be willing to slow things down, and it requires the CEO and board to support that when it happens.",
       },
       {
         type: "heading",
@@ -173,11 +173,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Boards set risk appetite. But in my experience, too few boards follow up on whether that appetite is actually operating as intended. The question to ask is not 'Are we within appetite?' — management will almost always say yes. The question is: 'Show me a decision made in the last six months where the risk appetite framework caused us to do something differently than we otherwise would have.'",
+        text: "Boards set risk appetite. But in my experience, too few boards follow up on whether that appetite is actually operating as intended. The question to ask is not 'Are we within appetite?', management will almost always say yes. The question is: 'Show me a decision made in the last six months where the risk appetite framework caused us to do something differently than we otherwise would have.'",
       },
       {
         type: "paragraph",
-        text: "If the answer is silence, the framework is decorative. A functioning risk appetite framework should be producing real friction — decisions slowed down, proposals modified, strategies adjusted because the organisation has made a commitment to itself about the kind of risk it is willing to carry.",
+        text: "If the answer is silence, the framework is decorative. A functioning risk appetite framework should be producing real friction, decisions slowed down, proposals modified, strategies adjusted because the organisation has made a commitment to itself about the kind of risk it is willing to carry.",
       },
       {
         type: "heading",
@@ -186,9 +186,9 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Translate your risk appetite into decision-relevant language for each business function — not just risk categories, but thresholds they can actually apply",
+          "Translate your risk appetite into decision-relevant language for each business function, not just risk categories, but thresholds they can actually apply",
           "Connect it explicitly to your capital allocation, underwriting guidelines and product development process",
-          "Build a reporting cadence that shows the board where the organisation is sitting relative to appetite — not just whether it is within limits, but how the trend is moving",
+          "Build a reporting cadence that shows the board where the organisation is sitting relative to appetite, not just whether it is within limits, but how the trend is moving",
           "Require management to cite risk appetite in board papers where it is relevant, and challenge when it is absent",
         ],
       },
@@ -202,7 +202,7 @@ export const insights: Insight[] = [
     id: "3",
     title: "What the Next Generation Expects From Insurance",
     summary:
-      "Younger customers are not simply less loyal — they hold fundamentally different expectations about value, digital experience and social purpose. The organisations that understand this early will carry a structural advantage.",
+      "Younger customers are not simply less loyal, they hold fundamentally different expectations about value, digital experience and social purpose. The organisations that understand this early will carry a structural advantage.",
     category: "Insurance Innovation",
     readingTime: "7 min read",
     date: "May 2025",
@@ -211,11 +211,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "When I was building digital insurance programmes across eight ASEAN markets at Grab, I spent a lot of time thinking about what insurance looks like to someone who has never bought a paper policy, spoken to a broker, or visited a bank branch. For a significant portion of Southeast Asia's population — particularly the young, urban, mobile-first demographic — that is the reality. And what they expect from insurance is genuinely different from what the industry has spent a century building.",
+        text: "When I was building digital insurance programmes across eight ASEAN markets at Grab, I spent a lot of time thinking about what insurance looks like to someone who has never bought a paper policy, spoken to a broker, or visited a bank branch. For a significant portion of Southeast Asia's population, particularly the young, urban, mobile-first demographic,that is the reality. And what they expect from insurance is genuinely different from what the industry has spent a century building.",
       },
       {
         type: "paragraph",
-        text: "This is not simply a distribution problem. It is not solved by building a better app or reducing the number of clicks in a purchase journey, though both of those things matter. It is a fundamental question about what insurance is for — what value it delivers, how it relates to the rest of someone's financial and digital life, and what the organisation behind it stands for.",
+        text: "This is not simply a distribution problem. It is not solved by building a better app or reducing the number of clicks in a purchase journey, though both of those things matter. It is a fundamental question about what insurance is for, what value it delivers, how it relates to the rest of someone's financial and digital life, and what the organisation behind it stands for.",
       },
       {
         type: "heading",
@@ -223,11 +223,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Traditional insurance propositions are built around a transaction: you pay a premium, something bad happens, you make a claim. The value is largely invisible until the moment of loss. For a generation that expects services to be useful, personalised and engaged on a near-daily basis — because their bank, their food delivery, their transport app all operate that way — a product that disappears for eleven months and reappears only when something goes wrong is genuinely strange.",
+        text: "Traditional insurance propositions are built around a transaction: you pay a premium, something bad happens, you make a claim. The value is largely invisible until the moment of loss. For a generation that expects services to be useful, personalised and engaged on a near-daily basis, because their bank, their food delivery, their transport app all operate that way,a product that disappears for eleven months and reappears only when something goes wrong is genuinely strange.",
       },
       {
         type: "paragraph",
-        text: "At Grab, we were integrating insurance into a daily-use platform. Customers were interacting with the Grab app multiple times a week — sometimes multiple times a day. That context forced us to think about how insurance fits into an ongoing relationship rather than an annual transaction. It is a very different design problem.",
+        text: "At Grab, we were integrating insurance into a daily-use platform. Customers were interacting with the Grab app multiple times a week, sometimes multiple times a day. That context forced us to think about how insurance fits into an ongoing relationship rather than an annual transaction. It is a very different design problem.",
       },
       {
         type: "pullquote",
@@ -245,8 +245,8 @@ export const insights: Insight[] = [
         type: "list",
         items: [
           "Transparency about value. What am I actually covered for? What will happen if I claim? What am I paying for? The generation that grew up comparing products online will not accept opacity in a financial product.",
-          "Relevance and context. Coverage that adapts to circumstance — trip-based motor cover, on-demand health products, micro-insurance tied to specific activities — fits a life that does not conform to annual policy cycles.",
-          "Social purpose alignment. This one surprised some incumbents. A meaningful proportion of younger customers care about what the organisation behind the product does and stands for — not superficially, but substantively. Greenwashing is noticed.",
+          "Relevance and context. Coverage that adapts to circumstance, trip-based motor cover, on-demand health products, micro-insurance tied to specific activities,fits a life that does not conform to annual policy cycles.",
+          "Social purpose alignment. This one surprised some incumbents. A meaningful proportion of younger customers care about what the organisation behind the product does and stands for, not superficially, but substantively. Greenwashing is noticed.",
         ],
       },
       {
@@ -255,7 +255,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Insurance has always been sold through relationships — agents, brokers, bancassurance partnerships. Those channels are not going away. But the role of embedded distribution — insurance offered at the point of relevance within a platform, app or service the customer is already using — is growing fast, and it changes the economics and the dynamics of the product fundamentally.",
+        text: "Insurance has always been sold through relationships, agents, brokers, bancassurance partnerships. Those channels are not going away. But the role of embedded distribution,insurance offered at the point of relevance within a platform, app or service the customer is already using, is growing fast, and it changes the economics and the dynamics of the product fundamentally.",
       },
       {
         type: "paragraph",
@@ -271,7 +271,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "It also means being honest about what you cannot do well as a traditional insurer, and where partnership — with platforms, with fintechs, with ecosystem players — creates more value than going alone. The organisations I have seen struggle most are those that are digitising their existing product and distribution model rather than rethinking it.",
+        text: "It also means being honest about what you cannot do well as a traditional insurer, and where partnership, with platforms, with fintechs, with ecosystem players,creates more value than going alone. The organisations I have seen struggle most are those that are digitising their existing product and distribution model rather than rethinking it.",
       },
     ],
   },
@@ -279,7 +279,7 @@ export const insights: Insight[] = [
     id: "4",
     title: "AI in Insurance: Where Efficiency Ends and Governance Begins",
     summary:
-      "AI adoption in insurance is accelerating. The governance frameworks needed to manage it are not keeping pace. That gap is not a technology problem — it is a leadership problem. And it is where risk quietly accumulates.",
+      "AI adoption in insurance is accelerating. The governance frameworks needed to manage it are not keeping pace. That gap is not a technology problem, it is a leadership problem. And it is where risk quietly accumulates.",
     category: "Technology Risk",
     readingTime: "8 min read",
     date: "April 2025",
@@ -288,7 +288,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Insurance has always been a data business. Underwriting is the art of pricing uncertainty from incomplete information. Claims management is the discipline of separating genuine loss from fraudulent claim with limited visibility. Distribution is the challenge of matching the right product to the right customer before they understand they need it. AI is not entering a sector that is unfamiliar with analytical discipline — it is entering one that has been building models for longer than the word 'algorithm' became fashionable.",
+        text: "Insurance has always been a data business. Underwriting is the art of pricing uncertainty from incomplete information. Claims management is the discipline of separating genuine loss from fraudulent claim with limited visibility. Distribution is the challenge of matching the right product to the right customer before they understand they need it. AI is not entering a sector that is unfamiliar with analytical discipline, it is entering one that has been building models for longer than the word 'algorithm' became fashionable.",
       },
       {
         type: "paragraph",
@@ -300,15 +300,15 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "When I describe this as a leadership problem, I mean something specific. The absence of adequate AI governance in most insurance organisations is not primarily a failure of the technology team or the data science function. It is a failure of senior leadership and boards to ask the right questions at the right time — and to demand accountability for the answers.",
+        text: "When I describe this as a leadership problem, I mean something specific. The absence of adequate AI governance in most insurance organisations is not primarily a failure of the technology team or the data science function. It is a failure of senior leadership and boards to ask the right questions at the right time, and to demand accountability for the answers.",
       },
       {
         type: "paragraph",
-        text: "What models are we using to make underwriting decisions, and who has accountability for their outputs? What happens when a model produces a decision that a customer or regulator challenges — who in this organisation can explain it, and to what standard? What are the failure modes we have stress-tested for, and what is our remediation plan? These are governance questions, not technology questions. And they are frequently not being asked at board level.",
+        text: "What models are we using to make underwriting decisions, and who has accountability for their outputs? What happens when a model produces a decision that a customer or regulator challenges, who in this organisation can explain it, and to what standard? What are the failure modes we have stress-tested for, and what is our remediation plan? These are governance questions, not technology questions. And they are frequently not being asked at board level.",
       },
       {
         type: "pullquote",
-        text: "If your board cannot describe the AI risk it is carrying in the same terms it describes credit risk or concentration risk, you have a governance gap — regardless of how sophisticated your models are.",
+        text: "If your board cannot describe the AI risk it is carrying in the same terms it describes credit risk or concentration risk, you have a governance gap, regardless of how sophisticated your models are.",
       },
       {
         type: "heading",
@@ -317,9 +317,9 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Model dependency and brittleness. As organisations lean harder on AI-driven underwriting and claims decisions, the failure risk of those models — and the difficulty of identifying and correcting a systematic error — increases. A poorly calibrated fraud detection model, for example, can systematically disadvantage a segment of policyholders before anyone notices.",
-          "Regulatory and liability exposure. Regulators across Asia are developing frameworks for algorithmic accountability in financial services. Organisations that cannot explain their AI-driven decisions to a regulator, or to a policyholder who has had a claim declined, are exposed — regardless of whether the underlying decision was technically correct.",
-          "Third-party model risk. Many insurers are integrating models built or maintained by third parties — vendors, reinsurers, data providers. The governance obligations do not travel with the vendor relationship. The accountability stays with the insurer.",
+          "Model dependency and brittleness. As organisations lean harder on AI-driven underwriting and claims decisions, the failure risk of those models, and the difficulty of identifying and correcting a systematic error,increases. A poorly calibrated fraud detection model, for example, can systematically disadvantage a segment of policyholders before anyone notices.",
+          "Regulatory and liability exposure. Regulators across Asia are developing frameworks for algorithmic accountability in financial services. Organisations that cannot explain their AI-driven decisions to a regulator, or to a policyholder who has had a claim declined, are exposed, regardless of whether the underlying decision was technically correct.",
+          "Third-party model risk. Many insurers are integrating models built or maintained by third parties, vendors, reinsurers, data providers. The governance obligations do not travel with the vendor relationship. The accountability stays with the insurer.",
         ],
       },
       {
@@ -332,7 +332,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "At minimum, this means an AI model inventory that is known to your risk function — not just your data science team. It means explainability standards that are defined before models go into production, not after they are challenged. It means a model validation function that has independence from the teams building the models. And it means board reporting that gives directors meaningful visibility into the AI risk the organisation is carrying.",
+        text: "At minimum, this means an AI model inventory that is known to your risk function, not just your data science team. It means explainability standards that are defined before models go into production, not after they are challenged. It means a model validation function that has independence from the teams building the models. And it means board reporting that gives directors meaningful visibility into the AI risk the organisation is carrying.",
       },
       {
         type: "paragraph",
@@ -344,7 +344,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "If you sit on a board of an insurance organisation, I would encourage you to ask for a briefing on the three most consequential AI models currently in production — what they do, how they are validated, what the failure scenario looks like, and who is accountable. The answers will tell you a great deal about the maturity of your AI governance. And the question itself will send a signal that this is an area where the board expects to be informed.",
+        text: "If you sit on a board of an insurance organisation, I would encourage you to ask for a briefing on the three most consequential AI models currently in production, what they do, how they are validated, what the failure scenario looks like, and who is accountable. The answers will tell you a great deal about the maturity of your AI governance. And the question itself will send a signal that this is an area where the board expects to be informed.",
       },
     ],
     keywords: ["AI governance insurance Singapore", "AI model risk governance Singapore insurers", "MAS Technology Risk Management guidelines AI"],
@@ -352,15 +352,15 @@ export const insights: Insight[] = [
     faqs: [
       {
         question: "What do MAS Technology Risk Management guidelines require Singapore insurance boards to own on AI?",
-        answer: "MAS's Technology Risk Management guidelines require Singapore insurers to maintain board-level oversight of technology and AI risks, including a documented risk appetite for technology risk and clear accountability for AI model governance at senior management level. The board must approve the technology risk framework and satisfy itself that AI models — particularly those used in underwriting, claims, and fraud detection — are subject to independent validation and documented explainability standards. This goes beyond receiving a CISO briefing: the board needs to understand the AI risk the organisation is carrying and the controls in place.",
+        answer: "MAS's Technology Risk Management guidelines require Singapore insurers to maintain board-level oversight of technology and AI risks, including a documented risk appetite for technology risk and clear accountability for AI model governance at senior management level. The board must approve the technology risk framework and satisfy itself that AI models, particularly those used in underwriting, claims, and fraud detection,are subject to independent validation and documented explainability standards. This goes beyond receiving a CISO briefing: the board needs to understand the AI risk the organisation is carrying and the controls in place.",
       },
       {
         question: "What is the difference between AI governance and AI model risk governance for Singapore insurers?",
-        answer: "AI governance covers the broad policies and frameworks an insurer has for developing and deploying AI — ethics principles, data use policies, regulatory compliance processes. AI model risk governance is narrower and more specific: it covers how individual AI models are validated, monitored for performance drift, stress-tested for failure scenarios, and reviewed when they produce unexpected outputs. Singapore insurance boards that focus only on AI governance at the framework level often miss the model risk layer — the specific questions about which models are in production, who validated them, and what happens when they fail.",
+        answer: "AI governance covers the broad policies and frameworks an insurer has for developing and deploying AI, ethics principles, data use policies, regulatory compliance processes. AI model risk governance is narrower and more specific: it covers how individual AI models are validated, monitored for performance drift, stress-tested for failure scenarios, and reviewed when they produce unexpected outputs. Singapore insurance boards that focus only on AI governance at the framework level often miss the model risk layer, the specific questions about which models are in production, who validated them, and what happens when they fail.",
       },
       {
         question: "How should a Singapore insurance board get visibility into AI risk?",
-        answer: "The board should receive periodic reporting from the risk function — not the data science team — that covers: the inventory of AI models in production or near-production, the validation status of each material model, any model performance drift flagged since the last report, and the regulatory exposure from models that cannot yet be explained to MAS or to a challenged policyholder. Asking management for this report, and asking why any material models are not on it, is a straightforward governance action. The act of asking tells management that AI model risk is board-supervised, not just CIO-supervised.",
+        answer: "The board should receive periodic reporting from the risk function, not the data science team,that covers: the inventory of AI models in production or near-production, the validation status of each material model, any model performance drift flagged since the last report, and the regulatory exposure from models that cannot yet be explained to MAS or to a challenged policyholder. Asking management for this report, and asking why any material models are not on it, is a straightforward governance action. The act of asking tells management that AI model risk is board-supervised, not just CIO-supervised.",
       },
     ],
   },
@@ -368,7 +368,7 @@ export const insights: Insight[] = [
     id: "5",
     title: "Why Capital Strategy Belongs in the Boardroom",
     summary:
-      "In every CRO role I have held, capital was the conversation that shaped everything else — growth, reinsurance, product decisions, strategic resilience. It should not be confined to the actuarial function. It belongs at the highest level of governance.",
+      "In every CRO role I have held, capital was the conversation that shaped everything else, growth, reinsurance, product decisions, strategic resilience. It should not be confined to the actuarial function. It belongs at the highest level of governance.",
     category: "Insurance Capital",
     readingTime: "6 min read",
     date: "March 2025",
@@ -377,11 +377,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Capital is the most fundamental constraint in insurance. It determines what risks you can write, what markets you can enter, what losses you can absorb, and how much flexibility you have when circumstances change. And yet in many insurance organisations, capital management is treated as a technical discipline — something managed by the actuarial function, reported to the finance committee, and engaged with by the board primarily at the point of regulatory submission.",
+        text: "Capital is the most fundamental constraint in insurance. It determines what risks you can write, what markets you can enter, what losses you can absorb, and how much flexibility you have when circumstances change. And yet in many insurance organisations, capital management is treated as a technical discipline, something managed by the actuarial function, reported to the finance committee, and engaged with by the board primarily at the point of regulatory submission.",
       },
       {
         type: "paragraph",
-        text: "That is a mistake. Not because actuaries and finance teams are doing their jobs poorly, but because capital decisions are strategic decisions — and strategic decisions belong in conversations where the full commercial, regulatory and competitive context is present. That is the board.",
+        text: "That is a mistake. Not because actuaries and finance teams are doing their jobs poorly, but because capital decisions are strategic decisions, and strategic decisions belong in conversations where the full commercial, regulatory and competitive context is present. That is the board.",
       },
       {
         type: "heading",
@@ -389,11 +389,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "When I was CRO at AIG Asia Pacific, capital sat at the centre of every significant commercial decision. Whether we could pursue a specific growth opportunity in a particular market, how aggressively we could underwrite in a cycle, what our reinsurance programme needed to look like, how we structured dividend payments to the parent — all of these were capital conversations before they were anything else.",
+        text: "When I was CRO at AIG Asia Pacific, capital sat at the centre of every significant commercial decision. Whether we could pursue a specific growth opportunity in a particular market, how aggressively we could underwrite in a cycle, what our reinsurance programme needed to look like, how we structured dividend payments to the parent, all of these were capital conversations before they were anything else.",
       },
       {
         type: "paragraph",
-        text: "The organisations that managed capital well were those where the commercial leadership understood the capital implications of their decisions and the capital function understood the commercial context for its recommendations. When those two groups were operating separately — when the actuarial team was producing ORSA outputs that the commercial team did not engage with, or when commercial teams were making growth commitments without understanding their capital cost — the consequences ranged from inefficiency to genuine instability.",
+        text: "The organisations that managed capital well were those where the commercial leadership understood the capital implications of their decisions and the capital function understood the commercial context for its recommendations. When those two groups were operating separately, when the actuarial team was producing ORSA outputs that the commercial team did not engage with, or when commercial teams were making growth commitments without understanding their capital cost, the consequences ranged from inefficiency to genuine instability.",
       },
       {
         type: "pullquote",
@@ -405,12 +405,12 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "I am not suggesting that board directors need to become actuaries. But they do need enough fluency to ask the right questions — and to recognise when they are not getting clear answers.",
+        text: "I am not suggesting that board directors need to become actuaries. But they do need enough fluency to ask the right questions, and to recognise when they are not getting clear answers.",
       },
       {
         type: "list",
         items: [
-          "What is our current capital position relative to our regulatory minimum, our internal target and our strategic ambition — and which of those three is actually binding our decisions right now?",
+          "What is our current capital position relative to our regulatory minimum, our internal target and our strategic ambition, and which of those three is actually binding our decisions right now?",
           "What are the scenarios under which our capital position deteriorates significantly, and what is the lead time for management to respond?",
           "How does our capital strategy connect to our reinsurance programme, and are we buying the right protection for the risks we actually carry?",
           "What is the capital cost of our strategic plan, and does the board understand what we are committing to fund?",
@@ -422,15 +422,15 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The Own Risk and Solvency Assessment — required under regulatory frameworks across Asia — is one of the most important governance documents an insurance organisation produces. It is also one of the most underused at board level. In too many organisations, the ORSA is produced for the regulator and summarised for the board in a way that strips out the strategic content and leaves only the compliance conclusion.",
+        text: "The Own Risk and Solvency Assessment, required under regulatory frameworks across Asia,is one of the most important governance documents an insurance organisation produces. It is also one of the most underused at board level. In too many organisations, the ORSA is produced for the regulator and summarised for the board in a way that strips out the strategic content and leaves only the compliance conclusion.",
       },
       {
         type: "paragraph",
-        text: "An ORSA done well should be one of the most strategically useful documents the board reviews. It should show the board, in stress-tested terms, what happens to the organisation's capital position under the scenarios most relevant to its business — and it should connect that analysis to the strategic decisions the board is being asked to make. That is the conversation I encourage boards to demand.",
+        text: "An ORSA done well should be one of the most strategically useful documents the board reviews. It should show the board, in stress-tested terms, what happens to the organisation's capital position under the scenarios most relevant to its business, and it should connect that analysis to the strategic decisions the board is being asked to make. That is the conversation I encourage boards to demand.",
       },
       {
         type: "paragraph",
-        text: "Capital strategy is not a finance function deliverable. It is a board-level conversation that happens to be technically complex. The organisations that treat it that way — that invest in building board-level capital literacy and demand that the connection between capital and strategy is made explicit — are better positioned to allocate capital wisely, to respond to stress intelligently, and to grow sustainably. That is what good governance of capital looks like.",
+        text: "Capital strategy is not a finance function deliverable. It is a board-level conversation that happens to be technically complex. The organisations that treat it that way, that invest in building board-level capital literacy and demand that the connection between capital and strategy is made explicit, are better positioned to allocate capital wisely, to respond to stress intelligently, and to grow sustainably. That is what good governance of capital looks like.",
       },
     ],
   },
@@ -438,7 +438,7 @@ export const insights: Insight[] = [
     id: "6",
     title: "ESG Compliance Is Not the Same as Organisational Readiness",
     summary:
-      "Meeting disclosure requirements and being genuinely prepared to manage ESG risks are very different states. Many companies are achieving the first while quietly deferring the second. That gap will close — on someone else's timeline.",
+      "Meeting disclosure requirements and being genuinely prepared to manage ESG risks are very different states. Many companies are achieving the first while quietly deferring the second. That gap will close, on someone else's timeline.",
     category: "ESG",
     readingTime: "5 min read",
     date: "February 2025",
@@ -447,11 +447,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "There is a version of ESG that organisations are getting quite good at. They are producing sustainability reports. They are disclosing Scope 1 and 2 emissions. They are appointing ESG committees and publishing diversity targets. They are meeting the reporting requirements that regulators, investors and lenders are increasingly mandating. That is compliance, and compliance is not nothing — it signals seriousness and creates accountability.",
+        text: "There is a version of ESG that organisations are getting quite good at. They are producing sustainability reports. They are disclosing Scope 1 and 2 emissions. They are appointing ESG committees and publishing diversity targets. They are meeting the reporting requirements that regulators, investors and lenders are increasingly mandating. That is compliance, and compliance is not nothing, it signals seriousness and creates accountability.",
       },
       {
         type: "paragraph",
-        text: "But there is a different question — a harder one — that compliance does not answer: Is your organisation actually prepared to manage ESG risks as they materialise? Is climate physical risk embedded in your capital planning? Are supply chain labour risks visible in your procurement process? Is your governance framework capable of handling the liability questions that are beginning to move through courts in multiple jurisdictions? That is readiness. And most organisations are significantly further along on the compliance journey than the readiness journey.",
+        text: "But there is a different question, a harder one,that compliance does not answer: Is your organisation actually prepared to manage ESG risks as they materialise? Is climate physical risk embedded in your capital planning? Are supply chain labour risks visible in your procurement process? Is your governance framework capable of handling the liability questions that are beginning to move through courts in multiple jurisdictions? That is readiness. And most organisations are significantly further along on the compliance journey than the readiness journey.",
       },
       {
         type: "heading",
@@ -459,11 +459,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The gap exists for understandable reasons. Compliance has a clear deliverable — a report, a disclosure, a rating. Readiness is harder to define and harder to measure. Compliance has a deadline — a regulatory requirement, an investor expectation, a reporting period. Readiness does not come with a deadline until the moment a risk materialises and you discover you were not prepared for it.",
+        text: "The gap exists for understandable reasons. Compliance has a clear deliverable, a report, a disclosure, a rating. Readiness is harder to define and harder to measure. Compliance has a deadline,a regulatory requirement, an investor expectation, a reporting period. Readiness does not come with a deadline until the moment a risk materialises and you discover you were not prepared for it.",
       },
       {
         type: "paragraph",
-        text: "And compliance, in many organisations, is owned by a dedicated function — sustainability, legal, investor relations — that has the skills and the mandate to produce the required outputs. Readiness requires the risk function, the finance function, the operations function and the board to understand what ESG risks mean for how the organisation operates. That requires broader organisational change.",
+        text: "And compliance, in many organisations, is owned by a dedicated function, sustainability, legal, investor relations,that has the skills and the mandate to produce the required outputs. Readiness requires the risk function, the finance function, the operations function and the board to understand what ESG risks mean for how the organisation operates. That requires broader organisational change.",
       },
       {
         type: "pullquote",
@@ -480,8 +480,8 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Risk integration. ESG risks — climate physical, transition, social and governance risks — need to be visible inside the enterprise risk framework, not alongside it. That means they appear in risk registers, are stress-tested against capital, and have named owners with authority to act.",
-          "Decision relevance. ESG considerations need to show up in actual decisions — capital allocation, M&A due diligence, supplier selection, product design — not just in reporting. If your sustainability report is not informing your investment committee, the work is not embedded.",
+          "Risk integration. ESG risks, climate physical, transition, social and governance risks,need to be visible inside the enterprise risk framework, not alongside it. That means they appear in risk registers, are stress-tested against capital, and have named owners with authority to act.",
+          "Decision relevance. ESG considerations need to show up in actual decisions, capital allocation, M&A due diligence, supplier selection, product design,not just in reporting. If your sustainability report is not informing your investment committee, the work is not embedded.",
           "Board capability. Directors need the literacy to ask meaningful questions about ESG risk, to challenge management on the adequacy of the organisation's response, and to understand where their personal fiduciary obligations are now touching ESG territory. That requires deliberate investment in board education.",
         ],
       },
@@ -491,20 +491,20 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The reason I phrase this as a gap that will close on someone else's timeline is because that is precisely what I observe. The regulatory requirements on ESG disclosure and risk management are tightening — MAS guidelines in Singapore, HKMA requirements, ASEAN taxonomy developments, global ISSB standards. The liability questions — who is responsible when an organisation's climate risk disclosure turns out to be materially misleading — are moving through legal systems. The physical risks — rising insurance costs, asset impairments, supply chain disruptions — are arriving ahead of schedule.",
+        text: "The reason I phrase this as a gap that will close on someone else's timeline is because that is precisely what I observe. The regulatory requirements on ESG disclosure and risk management are tightening, MAS guidelines in Singapore, HKMA requirements, ASEAN taxonomy developments, global ISSB standards. The liability questions, who is responsible when an organisation's climate risk disclosure turns out to be materially misleading,are moving through legal systems. The physical risks, rising insurance costs, asset impairments, supply chain disruptions,are arriving ahead of schedule.",
       },
       {
         type: "paragraph",
-        text: "None of those timelines are controlled by the organisation. Compliance gives you some protection — it shows you were paying attention. But readiness is what determines whether you respond well when the moment arrives. I would rather help organisations build the second than produce the first alone.",
+        text: "None of those timelines are controlled by the organisation. Compliance gives you some protection, it shows you were paying attention. But readiness is what determines whether you respond well when the moment arrives. I would rather help organisations build the second than produce the first alone.",
       },
     ],
   },
   // ── New keyword-targeted posts ──────────────────────────────────────────────
   {
     id: "7",
-    title: "What an Actuarial Board Adviser Actually Does — and Why Singapore Boards Need One",
+    title: "What an Actuarial Board Adviser Actually Does, and Why Singapore Boards Need One",
     summary:
-      "Most boards understand they need financial and legal expertise around the table. Far fewer have thought carefully about actuarial oversight — and in an environment of mandatory ESG disclosure, rising catastrophe exposure and capital reform, that gap is becoming expensive.",
+      "Most boards understand they need financial and legal expertise around the table. Far fewer have thought carefully about actuarial oversight, and in an environment of mandatory ESG disclosure, rising catastrophe exposure and capital reform, that gap is becoming expensive.",
     category: "Board Advisory",
     readingTime: "9 min read",
     date: "August 2026",
@@ -514,11 +514,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "There is a standard template for board composition in Singapore. A company secretary with corporate governance credentials. An independent director with financial expertise — usually an accountant or banker. A legal representative if the business carries significant contract or regulatory exposure. A commercial operator who has run a P&L. Those are the boxes that most SGX-listed boards and MAS-regulated entities try to fill.",
+        text: "There is a standard template for board composition in Singapore. A company secretary with corporate governance credentials. An independent director with financial expertise, usually an accountant or banker. A legal representative if the business carries significant contract or regulatory exposure. A commercial operator who has run a P&L. Those are the boxes that most SGX-listed boards and MAS-regulated entities try to fill.",
       },
       {
         type: "paragraph",
-        text: "What is consistently missing — and what I see causing real governance failures across insurance, financial services and increasingly across listed corporates — is actuarial oversight. Not necessarily an actuary on the board itself, though that has value. More precisely: board-level access to someone who can translate quantitative risk into governance language, stress-test the assumptions embedded in financial reporting, and challenge management on the adequacy of capital and reserving decisions.",
+        text: "What is consistently missing, and what I see causing real governance failures across insurance, financial services and increasingly across listed corporates, is actuarial oversight. Not necessarily an actuary on the board itself, though that has value. More precisely: board-level access to someone who can translate quantitative risk into governance language, stress-test the assumptions embedded in financial reporting, and challenge management on the adequacy of capital and reserving decisions.",
       },
       {
         type: "heading",
@@ -526,20 +526,20 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "I have spent two decades in and around actuarial functions — as a practitioner, as a CRO with statutory responsibility for actuarial oversight, and now as a board adviser. The value I bring to a board is not the ability to build models. It is the ability to look at a set of financial assumptions and understand what they are actually saying — and what they are not saying.",
+        text: "I have spent two decades in and around actuarial functions, as a practitioner, as a CRO with statutory responsibility for actuarial oversight, and now as a board adviser. The value I bring to a board is not the ability to build models. It is the ability to look at a set of financial assumptions and understand what they are actually saying, and what they are not saying.",
       },
       {
         type: "list",
         items: [
           "Are the discount rate assumptions embedded in your pension or insurance liabilities realistic, or are they carrying optimism that will eventually need to be corrected?",
           "What does your reinsurance programme actually protect against, and what scenarios leave you exposed above that protection?",
-          "Are your climate transition assumptions — in your capital planning, your underwriting strategy, your asset allocation — stress-tested against physical scenarios that are now MAS-reportable?",
+          "Are your climate transition assumptions, in your capital planning, your underwriting strategy, your asset allocation,stress-tested against physical scenarios that are now MAS-reportable?",
           "What is the actuarial basis for your dividend proposal, and does the board understand the capital margin it is consuming?",
         ],
       },
       {
         type: "pullquote",
-        text: "A board that cannot challenge the assumptions underneath its financial reporting is not governing the business — it is approving the presentation of it.",
+        text: "A board that cannot challenge the assumptions underneath its financial reporting is not governing the business, it is approving the presentation of it.",
       },
       {
         type: "heading",
@@ -547,11 +547,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The regulatory environment in Singapore is making actuarial literacy at board level increasingly consequential. MAS Notice 126 has raised the bar on climate risk governance for insurers. The ISSB sustainability disclosure standards, which MAS has signalled alignment with, require boards to understand and take responsibility for climate-related risk assumptions that have actuarial content. SGX mandatory climate reporting for listed companies from FY2025 means that what was previously a sustainability team's deliverable now requires board sign-off — and the assumptions behind it can be material.",
+        text: "The regulatory environment in Singapore is making actuarial literacy at board level increasingly consequential. MAS Notice 126 has raised the bar on climate risk governance for insurers. The ISSB sustainability disclosure standards, which MAS has signalled alignment with, require boards to understand and take responsibility for climate-related risk assumptions that have actuarial content. SGX mandatory climate reporting for listed companies from FY2025 means that what was previously a sustainability team's deliverable now requires board sign-off, and the assumptions behind it can be material.",
       },
       {
         type: "paragraph",
-        text: "A board that treats these as compliance exercises — approve the report, move on — is carrying real liability exposure. A board that understands the actuarial content of what it is signing creates genuine governance value and, increasingly, competitive advantage.",
+        text: "A board that treats these as compliance exercises, approve the report, move on,is carrying real liability exposure. A board that understands the actuarial content of what it is signing creates genuine governance value and, increasingly, competitive advantage.",
       },
       {
         type: "heading",
@@ -563,7 +563,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "That might be a standing NRC or risk committee advisory role. It might be a specific engagement around a capital transaction, a reinsurance restructuring, or the development of a climate risk governance framework. It might be board education — building the quantitative risk literacy that allows directors to interrogate management rather than simply receive it.",
+        text: "That might be a standing NRC or risk committee advisory role. It might be a specific engagement around a capital transaction, a reinsurance restructuring, or the development of a climate risk governance framework. It might be board education, building the quantitative risk literacy that allows directors to interrogate management rather than simply receive it.",
       },
       {
         type: "paragraph",
@@ -575,11 +575,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Every MAS-regulated insurer already has an Appointed Actuary, and boards sometimes assume that satisfies the need for actuarial oversight. It does not, and conflating the two is one of the more expensive governance mistakes I see. The Appointed Actuary has a statutory function — signing off reserve adequacy, certifying the ORSA's technical content, reporting to management and the board on the matters MAS Notice 126 prescribes. That role is necessarily close to the numbers the company itself produces, and its accountability runs to the regulator as much as to the board.",
+        text: "Every MAS-regulated insurer already has an Appointed Actuary, and boards sometimes assume that satisfies the need for actuarial oversight. It does not, and conflating the two is one of the more expensive governance mistakes I see. The Appointed Actuary has a statutory function, signing off reserve adequacy, certifying the ORSA's technical content, reporting to management and the board on the matters MAS Notice 126 prescribes. That role is necessarily close to the numbers the company itself produces, and its accountability runs to the regulator as much as to the board.",
       },
       {
         type: "paragraph",
-        text: "An actuarial board adviser sits on the other side of that relationship. The job is not to certify management's numbers — it is to help the board decide whether to accept them, and what to ask before it does. When a chair asks me whether the reserving assumptions the Appointed Actuary has signed off are conservative or optimistic relative to the market, or whether a proposed reinsurance renewal actually closes the gap the last stress test identified, that is a governance judgment, not a technical certification. Boards that only have the Appointed Actuary's sign-off are hearing one voice, produced under one set of incentives, on a question that deserves independent challenge.",
+        text: "An actuarial board adviser sits on the other side of that relationship. The job is not to certify management's numbers, it is to help the board decide whether to accept them, and what to ask before it does. When a chair asks me whether the reserving assumptions the Appointed Actuary has signed off are conservative or optimistic relative to the market, or whether a proposed reinsurance renewal actually closes the gap the last stress test identified, that is a governance judgment, not a technical certification. Boards that only have the Appointed Actuary's sign-off are hearing one voice, produced under one set of incentives, on a question that deserves independent challenge.",
       },
       {
         type: "pullquote",
@@ -592,33 +592,33 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Statutory track record — has this person actually held sign-off responsibility as an Appointed Actuary or CRO, or only advised from outside the seat?",
-          "Independence from product and consulting relationships — is the adviser also selling reinsurance placement, audit, or technology services that create a conflict when they are meant to be challenging management's numbers?",
-          "Board-level fluency, not just technical depth — can they translate a reserving or capital assumption into a question a non-actuary director can act on, in the time a board meeting actually allows?",
-          "Willingness to put a view in writing — an adviser who will only speak informally in the corridor is not giving the board anything it can rely on if the assumption turns out to be wrong.",
+          "Statutory track record, has this person actually held sign-off responsibility as an Appointed Actuary or CRO, or only advised from outside the seat?",
+          "Independence from product and consulting relationships, is the adviser also selling reinsurance placement, audit, or technology services that create a conflict when they are meant to be challenging management's numbers?",
+          "Board-level fluency, not just technical depth, can they translate a reserving or capital assumption into a question a non-actuary director can act on, in the time a board meeting actually allows?",
+          "Willingness to put a view in writing, an adviser who will only speak informally in the corridor is not giving the board anything it can rely on if the assumption turns out to be wrong.",
         ],
       },
       {
         type: "paragraph",
-        text: "None of this needs to be a large or permanent commitment. Most engagements I run start narrow — a single ORSA cycle, a capital transaction, a reinsurance renewal — and the board decides from there whether the value justifies a standing advisory relationship. The mistake is not under-committing to a small engagement. It is assuming the gap does not exist because the Appointed Actuary's report already has a signature on it.",
+        text: "None of this needs to be a large or permanent commitment. Most engagements I run start narrow, a single ORSA cycle, a capital transaction, a reinsurance renewal,and the board decides from there whether the value justifies a standing advisory relationship. The mistake is not under-committing to a small engagement. It is assuming the gap does not exist because the Appointed Actuary's report already has a signature on it.",
       },
     ],
     faqs: [
       {
         question: "What does an actuarial board adviser do in Singapore?",
-        answer: "An actuarial board adviser helps Singapore boards understand and challenge the quantitative risk, capital, and financial assumptions that management presents — including climate risk scenarios, reserving adequacy, reinsurance coverage, and ORSA outputs. This is distinct from a company actuary; the adviser operates at governance level rather than in the technical function.",
+        answer: "An actuarial board adviser helps Singapore boards understand and challenge the quantitative risk, capital, and financial assumptions that management presents, including climate risk scenarios, reserving adequacy, reinsurance coverage, and ORSA outputs. This is distinct from a company actuary; the adviser operates at governance level rather than in the technical function.",
       },
       {
         question: "Which Singapore-listed companies need actuarial board advisory?",
-        answer: "MAS-regulated insurers and reinsurers have the clearest need, but any SGX-listed company with significant insurance, pension, financial services, or climate-related capital exposure benefits from actuarial oversight at board level — particularly under the new mandatory sustainability reporting requirements from FY2025.",
+        answer: "MAS-regulated insurers and reinsurers have the clearest need, but any SGX-listed company with significant insurance, pension, financial services, or climate-related capital exposure benefits from actuarial oversight at board level, particularly under the new mandatory sustainability reporting requirements from FY2025.",
       },
       {
         question: "Is an actuarial board adviser the same as the company's Appointed Actuary?",
-        answer: "No. The Appointed Actuary is a statutory role that signs off reserve adequacy and the ORSA's technical content, reporting to management and MAS as much as to the board. An actuarial board adviser works for the board itself, helping directors decide whether to accept the Appointed Actuary's assumptions and what to challenge before they do — an independent, governance-level check rather than a technical certification.",
+        answer: "No. The Appointed Actuary is a statutory role that signs off reserve adequacy and the ORSA's technical content, reporting to management and MAS as much as to the board. An actuarial board adviser works for the board itself, helping directors decide whether to accept the Appointed Actuary's assumptions and what to challenge before they do, an independent, governance-level check rather than a technical certification.",
       },
       {
         question: "How should a board structure an engagement with an actuarial adviser?",
-        answer: "Most engagements should start narrow — tied to a single ORSA cycle, a capital transaction, or a reinsurance renewal — rather than an open-ended retainer. That lets the board see the value directly before deciding whether a standing advisory role, such as attendance at risk or audit committee meetings, is warranted.",
+        answer: "Most engagements should start narrow, tied to a single ORSA cycle, a capital transaction, or a reinsurance renewal,rather than an open-ended retainer. That lets the board see the value directly before deciding whether a standing advisory role, such as attendance at risk or audit committee meetings, is warranted.",
       },
       {
         question: "Is Raymond Cheung a qualified actuary?",
@@ -640,7 +640,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I spend a significant part of my advisory practice working with audit committees — helping them understand what they should be asking, how to interpret what they are being told, and where the gaps between the presentation and the reality tend to sit. What I find consistently is that the standard audit committee agenda — financial reporting, internal controls, external audit, compliance — has not kept pace with the risk environment that Singapore-listed companies are now operating in.",
+        text: "I spend a significant part of my advisory practice working with audit committees, helping them understand what they should be asking, how to interpret what they are being told, and where the gaps between the presentation and the reality tend to sit. What I find consistently is that the standard audit committee agenda, financial reporting, internal controls, external audit, compliance,has not kept pace with the risk environment that Singapore-listed companies are now operating in.",
       },
       {
         type: "paragraph",
@@ -648,7 +648,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Against that backdrop, here are the five questions I believe every SGX audit committee should be putting to the CRO — and what the answers should sound like.",
+        text: "Against that backdrop, here are the five questions I believe every SGX audit committee should be putting to the CRO, and what the answers should sound like.",
       },
       {
         type: "heading",
@@ -656,7 +656,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "This question is more useful than asking whether the risk register is complete, because a competent risk function knows where its blind spots are. If the CRO cannot answer it — or answers with excessive confidence that everything material is captured — that tells you something important about the quality of the risk identification process.",
+        text: "This question is more useful than asking whether the risk register is complete, because a competent risk function knows where its blind spots are. If the CRO cannot answer it, or answers with excessive confidence that everything material is captured,that tells you something important about the quality of the risk identification process.",
       },
       {
         type: "heading",
@@ -664,23 +664,23 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Most risk presentations focus on what controls are in place. This question forces the conversation onto adequacy — whether the control is actually sufficient for the severity and likelihood of the risk, and what gap remains. It produces a much more useful conversation than the standard red-amber-green heat map.",
+        text: "Most risk presentations focus on what controls are in place. This question forces the conversation onto adequacy, whether the control is actually sufficient for the severity and likelihood of the risk, and what gap remains. It produces a much more useful conversation than the standard red-amber-green heat map.",
       },
       {
         type: "heading",
-        text: "3. How has our risk profile changed in the last twelve months — and why?",
+        text: "3. How has our risk profile changed in the last twelve months, and why?",
       },
       {
         type: "paragraph",
-        text: "Risk reporting that does not explain change is not governance information — it is a status update. The audit committee should understand whether risks are moving because the external environment has changed, because management has made decisions that altered the profile, or because the risk assessment methodology has been adjusted. These are very different things.",
+        text: "Risk reporting that does not explain change is not governance information, it is a status update. The audit committee should understand whether risks are moving because the external environment has changed, because management has made decisions that altered the profile, or because the risk assessment methodology has been adjusted. These are very different things.",
       },
       {
         type: "heading",
-        text: "4. Where is our climate risk currently sitting in the enterprise risk framework — and is that appropriate?",
+        text: "4. Where is our climate risk currently sitting in the enterprise risk framework, and is that appropriate?",
       },
       {
         type: "paragraph",
-        text: "From FY2025, SGX-listed companies with a market cap above the threshold must disclose climate-related risks under the mandatory requirements. The question is not whether you are disclosing — it is whether the risk governance matches the disclosure. Climate risk that lives only in the sustainability report, and has not been integrated into the ERM framework, capital planning, or board reporting, is a governance gap with increasing liability implications.",
+        text: "From FY2025, SGX-listed companies with a market cap above the threshold must disclose climate-related risks under the mandatory requirements. The question is not whether you are disclosing, it is whether the risk governance matches the disclosure. Climate risk that lives only in the sustainability report, and has not been integrated into the ERM framework, capital planning, or board reporting, is a governance gap with increasing liability implications.",
       },
       {
         type: "heading",
@@ -688,7 +688,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "This is the question that separates a functioning risk function from a reporting function. If the CRO cannot name a specific example — a decision slowed, a proposal modified, a strategy adjusted because of risk challenge — then the risk function is producing paper rather than governance value. That is an important finding for an audit committee to hold.",
+        text: "This is the question that separates a functioning risk function from a reporting function. If the CRO cannot name a specific example, a decision slowed, a proposal modified, a strategy adjusted because of risk challenge,then the risk function is producing paper rather than governance value. That is an important finding for an audit committee to hold.",
       },
       {
         type: "pullquote",
@@ -696,7 +696,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "These questions are not adversarial. They are the questions that allow a board to govern with confidence rather than assurance. A CRO who can answer them clearly — with evidence, with appropriate uncertainty, with a view on what the board should worry about that management may be underweighting — is providing genuine value. If the answers are vague, deferential or focused on compliance outputs, the audit committee has something to address.",
+        text: "These questions are not adversarial. They are the questions that allow a board to govern with confidence rather than assurance. A CRO who can answer them clearly, with evidence, with appropriate uncertainty, with a view on what the board should worry about that management may be underweighting, is providing genuine value. If the answers are vague, deferential or focused on compliance outputs, the audit committee has something to address.",
       },
     ],
     faqs: [
@@ -706,7 +706,7 @@ export const insights: Insight[] = [
       },
       {
         question: "How often should an SGX board review the risk register?",
-        answer: "Best practice is quarterly review at the risk committee level, with material changes reported to the full board. However, the frequency matters less than the quality of the review — whether the board is challenging assumptions, asking about emerging risks, and receiving information in governance terms rather than technical terms.",
+        answer: "Best practice is quarterly review at the risk committee level, with material changes reported to the full board. However, the frequency matters less than the quality of the review, whether the board is challenging assumptions, asking about emerging risks, and receiving information in governance terms rather than technical terms.",
       },
     ],
   },
@@ -714,7 +714,7 @@ export const insights: Insight[] = [
     id: "9",
     title: "ESG Governance Training for Singapore Boards: What Directors Actually Need to Know",
     summary:
-      "With mandatory sustainability reporting now in force for SGX-listed companies and MAS guidelines tightening for financial institutions, board directors need more than awareness — they need working fluency. Here is what that looks like in practice.",
+      "With mandatory sustainability reporting now in force for SGX-listed companies and MAS guidelines tightening for financial institutions, board directors need more than awareness, they need working fluency. Here is what that looks like in practice.",
     category: "ESG",
     readingTime: "8 min read",
     date: "September 2026",
@@ -724,11 +724,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Singapore entered a new phase of ESG governance in 2025. Mandatory climate-related disclosures under the TCFD framework are now required for all SGX Mainboard issuers with market capitalisation above S$1 billion, with smaller companies following on a phased schedule. MAS has embedded environmental risk management expectations into supervisory guidance for banks, insurers, and asset managers. The ISSB standards — IFRS S1 and S2 — are being adopted progressively across the region.",
+        text: "Singapore entered a new phase of ESG governance in 2025. Mandatory climate-related disclosures under the TCFD framework are now required for all SGX Mainboard issuers with market capitalisation above S$1 billion, with smaller companies following on a phased schedule. MAS has embedded environmental risk management expectations into supervisory guidance for banks, insurers, and asset managers. The ISSB standards, IFRS S1 and S2,are being adopted progressively across the region.",
       },
       {
         type: "paragraph",
-        text: "What this means for board directors is that ESG is no longer a topic that can be left to a sustainability committee or a CSR team. Directors are now signing off on climate disclosures that contain forward-looking assumptions, scenario analyses, and judgements about material risk — all of which carry potential liability exposure if they are materially misleading. That requires a level of board literacy that most director development programmes have not kept pace with.",
+        text: "What this means for board directors is that ESG is no longer a topic that can be left to a sustainability committee or a CSR team. Directors are now signing off on climate disclosures that contain forward-looking assumptions, scenario analyses, and judgements about material risk, all of which carry potential liability exposure if they are materially misleading. That requires a level of board literacy that most director development programmes have not kept pace with.",
       },
       {
         type: "heading",
@@ -743,8 +743,8 @@ export const insights: Insight[] = [
         items: [
           "Understand the difference between Scope 1, 2 and 3 emissions and why Scope 3 (required from FY2026) is both the most material and the most difficult to measure",
           "Interpret a climate scenario analysis and ask whether the scenarios are sufficiently severe and relevant to the company's actual business exposure",
-          "Challenge a sustainability report's claims about targets — specifically whether the targets are connected to capital planning and operational decisions, or are aspirational statements without a funding mechanism",
-          "Understand what physical risk means for a specific business — asset impairment, insurance costs, supply chain disruption — and whether management has a credible response",
+          "Challenge a sustainability report's claims about targets, specifically whether the targets are connected to capital planning and operational decisions, or are aspirational statements without a funding mechanism",
+          "Understand what physical risk means for a specific business, asset impairment, insurance costs, supply chain disruption,and whether management has a credible response",
           "Know when the company's ESG disclosure requires independent assurance and what level of assurance is appropriate for the risk",
         ],
       },
@@ -758,7 +758,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The MAS Guidelines on Environmental Risk Management set out expectations that go well beyond disclosure. They require boards of MAS-regulated entities to understand environmental risks as financial risks — embedded in credit assessment, asset valuation, underwriting, and capital management. That is a governance requirement, not a reporting one.",
+        text: "The MAS Guidelines on Environmental Risk Management set out expectations that go well beyond disclosure. They require boards of MAS-regulated entities to understand environmental risks as financial risks, embedded in credit assessment, asset valuation, underwriting, and capital management. That is a governance requirement, not a reporting one.",
       },
       {
         type: "paragraph",
@@ -782,7 +782,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Directors who have gone through this training consistently report that they feel more confident engaging with management on ESG matters — not because they know more than the sustainability team, but because they know enough to ask better questions. That is the governance value I am trying to produce.",
+        text: "Directors who have gone through this training consistently report that they feel more confident engaging with management on ESG matters, not because they know more than the sustainability team, but because they know enough to ask better questions. That is the governance value I am trying to produce.",
       },
       {
         type: "paragraph",
@@ -806,9 +806,9 @@ export const insights: Insight[] = [
   },
   {
     id: "10",
-    title: "Climate Risk Is a Board Responsibility in Singapore — Here Is What That Means Operationally",
+    title: "Climate Risk Is a Board Responsibility in Singapore, Here Is What That Means Operationally",
     summary:
-      "Singapore boards are now legally accountable for climate risk disclosure. The operational question — how to build the governance structures that make that accountability real rather than nominal — is where most organisations are still working it out.",
+      "Singapore boards are now legally accountable for climate risk disclosure. The operational question, how to build the governance structures that make that accountability real rather than nominal,is where most organisations are still working it out.",
     category: "Climate Risk",
     readingTime: "7 min read",
     date: "September 2026",
@@ -818,11 +818,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Singapore boards are now in a position that is, historically, quite unusual. They are being asked to take governance responsibility for a category of risk — climate — that is scientifically complex, financially uncertain, and structurally different from the risks that traditional governance frameworks were designed to manage. And they are being asked to do this under a regulatory and legal environment that is assigning real accountability for how that responsibility is exercised.",
+        text: "Singapore boards are now in a position that is, historically, quite unusual. They are being asked to take governance responsibility for a category of risk, climate,that is scientifically complex, financially uncertain, and structurally different from the risks that traditional governance frameworks were designed to manage. And they are being asked to do this under a regulatory and legal environment that is assigning real accountability for how that responsibility is exercised.",
       },
       {
         type: "paragraph",
-        text: "I want to be specific about what that accountability means. Under MAS guidelines, boards of regulated financial institutions are expected to understand and oversee environmental risks as components of financial risk management — not as a separate sustainability exercise. Under SGX mandatory disclosure requirements, boards are signing off on climate-related disclosures that contain forward-looking statements and scenario analyses. Directors who sign off on material misstatements — or who cannot demonstrate that they exercised appropriate oversight — carry personal exposure.",
+        text: "I want to be specific about what that accountability means. Under MAS guidelines, boards of regulated financial institutions are expected to understand and oversee environmental risks as components of financial risk management, not as a separate sustainability exercise. Under SGX mandatory disclosure requirements, boards are signing off on climate-related disclosures that contain forward-looking statements and scenario analyses. Directors who sign off on material misstatements, or who cannot demonstrate that they exercised appropriate oversight,carry personal exposure.",
       },
       {
         type: "heading",
@@ -834,7 +834,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The result is that boards are approving disclosures without the information architecture to challenge them — and that is precisely where the liability exposure sits.",
+        text: "The result is that boards are approving disclosures without the information architecture to challenge them, and that is precisely where the liability exposure sits.",
       },
       {
         type: "pullquote",
@@ -847,11 +847,11 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Board-level climate risk ownership: a named director or board committee with explicit responsibility for climate risk oversight — not just sustainability disclosure",
+          "Board-level climate risk ownership: a named director or board committee with explicit responsibility for climate risk oversight, not just sustainability disclosure",
           "Integration with ERM: climate physical and transition risks appearing in the enterprise risk register with named owners, quantified exposures, and stress-tested mitigants",
           "Capital connection: climate risk scenarios stress-tested against the capital position, with outputs that inform strategic planning and investment decisions",
           "Independent challenge: access to independent actuarial or risk advisory input at board level, separate from the management team producing the analysis",
-          "Regular board engagement: at least quarterly board-level review of climate risk developments — regulatory, physical, and financial — not just annual disclosure review",
+          "Regular board engagement: at least quarterly board-level review of climate risk developments, regulatory, physical, and financial,not just annual disclosure review",
         ],
       },
       {
@@ -860,7 +860,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "For boards that are building this from a low base, the starting point is not a disclosure framework. It is a board education programme that builds sufficient climate risk literacy for directors to ask meaningful questions of management. That typically takes four to six hours of well-structured engagement — focused on the specific risk profile of the company's sector and geography, not a generic ESG overview.",
+        text: "For boards that are building this from a low base, the starting point is not a disclosure framework. It is a board education programme that builds sufficient climate risk literacy for directors to ask meaningful questions of management. That typically takes four to six hours of well-structured engagement, focused on the specific risk profile of the company's sector and geography, not a generic ESG overview.",
       },
       {
         type: "paragraph",
@@ -868,7 +868,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "This is work that I do with boards directly — as an advisory engagement, not as a training programme. If your board is approaching its FY2026 climate disclosure cycle without that architecture in place, the time to address it is before the disclosure is signed.",
+        text: "This is work that I do with boards directly, as an advisory engagement, not as a training programme. If your board is approaching its FY2026 climate disclosure cycle without that architecture in place, the time to address it is before the disclosure is signed.",
       },
     ],
     faqs: [
@@ -878,7 +878,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What is MAS's expectation for boards on environmental risk?",
-        answer: "MAS expects boards of regulated financial institutions to understand environmental risks as financial risks — not as a separate sustainability function. This means integrating physical and transition risk into credit, underwriting, investment, and capital management governance, with board-level oversight of the adequacy of risk management.",
+        answer: "MAS expects boards of regulated financial institutions to understand environmental risks as financial risks, not as a separate sustainability function. This means integrating physical and transition risk into credit, underwriting, investment, and capital management governance, with board-level oversight of the adequacy of risk management.",
       },
       {
         question: "Can a Singapore director be held liable for climate risk disclosures?",
@@ -890,7 +890,7 @@ export const insights: Insight[] = [
     id: "11",
     title: "CRO Advisory in Singapore: What Insurers and Financial Institutions Need Beyond a Chief Risk Officer",
     summary:
-      "A statutory CRO manages risk within the organisation. CRO advisory brings independent perspective, regulatory credibility, and board-level risk literacy to the governance layer — and in Singapore's tightening MAS environment, that distinction is becoming critical.",
+      "A statutory CRO manages risk within the organisation. CRO advisory brings independent perspective, regulatory credibility, and board-level risk literacy to the governance layer, and in Singapore's tightening MAS environment, that distinction is becoming critical.",
     category: "Enterprise Risk",
     readingTime: "6 min read",
     date: "September 2026",
@@ -900,11 +900,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Singapore's insurance and financial services sector operates under one of the more demanding risk governance frameworks in Asia. MAS's supervisory expectations — on capital adequacy, model governance, climate risk, operational resilience, and conduct — have been tightening consistently since the post-2008 regulatory wave. For organisations navigating this environment, the internal CRO function is essential. But it is not always sufficient.",
+        text: "Singapore's insurance and financial services sector operates under one of the more demanding risk governance frameworks in Asia. MAS's supervisory expectations, on capital adequacy, model governance, climate risk, operational resilience, and conduct,have been tightening consistently since the post-2008 regulatory wave. For organisations navigating this environment, the internal CRO function is essential. But it is not always sufficient.",
       },
       {
         type: "paragraph",
-        text: "I held statutory CRO roles at two MAS-regulated entities — AIG Asia Pacific and Basel Medical Group. In both roles, I was accountable to the board, to MAS, and to my colleagues for the adequacy of the risk framework. I know the mandate well. And what I know from that experience is that there are things the internal CRO cannot provide: independent perspective on whether the framework is adequate, experienced challenge on blind spots that internal teams have normalised, and board-level risk translation that does not carry the limitations of someone who is also managing the day-to-day risk function.",
+        text: "I held statutory CRO roles at two MAS-regulated entities, AIG Asia Pacific and Basel Medical Group. In both roles, I was accountable to the board, to MAS, and to my colleagues for the adequacy of the risk framework. I know the mandate well. And what I know from that experience is that there are things the internal CRO cannot provide: independent perspective on whether the framework is adequate, experienced challenge on blind spots that internal teams have normalised, and board-level risk translation that does not carry the limitations of someone who is also managing the day-to-day risk function.",
       },
       {
         type: "heading",
@@ -913,16 +913,16 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Independent review of the enterprise risk framework — whether it is adequate for the regulatory environment and the actual risk profile of the business",
-          "Board-level risk translation — presenting complex risk information in governance terms that directors can interrogate and take responsibility for",
-          "Regulatory preparation — helping organisations anticipate and prepare for MAS supervisory expectations, including thematic reviews and ORSA assessments",
-          "Specialist input on actuarial risk, capital strategy, and climate risk integration — areas where the internal CRO may lack depth or independence",
-          "Transition support — when an organisation is between CROs, facing a significant risk event, or restructuring its risk governance framework",
+          "Independent review of the enterprise risk framework, whether it is adequate for the regulatory environment and the actual risk profile of the business",
+          "Board-level risk translation, presenting complex risk information in governance terms that directors can interrogate and take responsibility for",
+          "Regulatory preparation, helping organisations anticipate and prepare for MAS supervisory expectations, including thematic reviews and ORSA assessments",
+          "Specialist input on actuarial risk, capital strategy, and climate risk integration, areas where the internal CRO may lack depth or independence",
+          "Transition support, when an organisation is between CROs, facing a significant risk event, or restructuring its risk governance framework",
         ],
       },
       {
         type: "pullquote",
-        text: "The internal CRO manages risk. An external risk adviser challenges whether risk is being managed adequately — and does so from a position of independence that the internal role cannot occupy.",
+        text: "The internal CRO manages risk. An external risk adviser challenges whether risk is being managed adequately, and does so from a position of independence that the internal role cannot occupy.",
       },
       {
         type: "heading",
@@ -930,11 +930,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "In my advisory practice, engagements tend to cluster around five situations: preparing for an MAS supervisory review; restructuring the risk governance framework following a significant event or leadership change; building out a new capability — climate risk, AI governance, ORSA — that requires specialist expertise the internal team does not have; providing ongoing board-level risk advisory alongside the internal CRO function; and situations where the internal risk function's independence is structurally compromised.",
+        text: "In my advisory practice, engagements tend to cluster around five situations: preparing for an MAS supervisory review; restructuring the risk governance framework following a significant event or leadership change; building out a new capability, climate risk, AI governance, ORSA,that requires specialist expertise the internal team does not have; providing ongoing board-level risk advisory alongside the internal CRO function; and situations where the internal risk function's independence is structurally compromised.",
       },
       {
         type: "paragraph",
-        text: "In each of those situations, the value of an external CRO adviser is not in replacing the internal function — it is in providing the independent perspective and board-level credibility that the internal function cannot provide for itself.",
+        text: "In each of those situations, the value of an external CRO adviser is not in replacing the internal function, it is in providing the independent perspective and board-level credibility that the internal function cannot provide for itself.",
       },
       {
         type: "heading",
@@ -942,7 +942,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The key criteria are statutory experience — have they actually held the role, with real regulatory accountability, in a regulated entity? Do they understand MAS supervisory expectations from the inside rather than from a consulting framework? Do they have the actuarial or quantitative depth to engage with the technical content of risk governance, not just the structural layer? And can they operate at board level — presenting, challenging, and building governance capability — rather than producing deliverables for the risk function?",
+        text: "The key criteria are statutory experience, have they actually held the role, with real regulatory accountability, in a regulated entity? Do they understand MAS supervisory expectations from the inside rather than from a consulting framework? Do they have the actuarial or quantitative depth to engage with the technical content of risk governance, not just the structural layer? And can they operate at board level, presenting, challenging, and building governance capability,rather than producing deliverables for the risk function?",
       },
       {
         type: "paragraph",
@@ -952,7 +952,7 @@ export const insights: Insight[] = [
     faqs: [
       {
         question: "What is CRO advisory in Singapore?",
-        answer: "CRO advisory provides independent risk governance expertise to boards and senior leadership of Singapore financial institutions — typically insurers, reinsurers, and MAS-regulated entities. It differs from an internal CRO role in that the adviser operates independently of the management team, providing external perspective and board-level risk translation.",
+        answer: "CRO advisory provides independent risk governance expertise to boards and senior leadership of Singapore financial institutions, typically insurers, reinsurers, and MAS-regulated entities. It differs from an internal CRO role in that the adviser operates independently of the management team, providing external perspective and board-level risk translation.",
       },
       {
         question: "When should a Singapore insurer engage a CRO adviser?",
@@ -968,7 +968,7 @@ export const insights: Insight[] = [
     id: "12",
     title: "InsurTech in Asia: What Boards Need to Govern Digital Insurance Ventures",
     summary:
-      "Digital insurance ventures in Asia are moving fast. The boards overseeing them often are not. Governance frameworks built for traditional insurance do not map cleanly onto platform-based, embedded, and AI-driven insurance models — and the gaps are consequential.",
+      "Digital insurance ventures in Asia are moving fast. The boards overseeing them often are not. Governance frameworks built for traditional insurance do not map cleanly onto platform-based, embedded, and AI-driven insurance models, and the gaps are consequential.",
     category: "Insurance Innovation",
     readingTime: "7 min read",
     date: "August 2026",
@@ -978,11 +978,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Between 2016 and 2018, I led the digital insurance programme at Grab across eight ASEAN markets. We were building embedded insurance products into a super-app serving tens of millions of users — micro-insurance, on-demand motor products, health covers distributed at the point of a ride or food delivery order. The governance challenges were genuinely different from anything I had encountered in traditional insurance.",
+        text: "Between 2016 and 2018, I led the digital insurance programme at Grab across eight ASEAN markets. We were building embedded insurance products into a super-app serving tens of millions of users, micro-insurance, on-demand motor products, health covers distributed at the point of a ride or food delivery order. The governance challenges were genuinely different from anything I had encountered in traditional insurance.",
       },
       {
         type: "paragraph",
-        text: "Traditional insurance governance is built for slow cycles — annual underwriting reviews, quarterly board reporting, regulatory submissions that move at the pace of actuarial assessment. InsurTech operates at product cycles measured in weeks, customer data that changes the risk model in real time, and distribution partnerships that can alter the character of the book overnight. Boards that try to apply the traditional governance template to digital ventures create one of two failure modes: they slow the business to the point of non-competitiveness, or they rubber-stamp management without the tools to provide real oversight.",
+        text: "Traditional insurance governance is built for slow cycles, annual underwriting reviews, quarterly board reporting, regulatory submissions that move at the pace of actuarial assessment. InsurTech operates at product cycles measured in weeks, customer data that changes the risk model in real time, and distribution partnerships that can alter the character of the book overnight. Boards that try to apply the traditional governance template to digital ventures create one of two failure modes: they slow the business to the point of non-competitiveness, or they rubber-stamp management without the tools to provide real oversight.",
       },
       {
         type: "heading",
@@ -991,7 +991,7 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Model velocity: AI-driven underwriting and pricing models can iterate faster than a traditional model validation cycle. Boards need a framework for approving model changes at the right level of oversight — not every change, but the changes that matter.",
+          "Model velocity: AI-driven underwriting and pricing models can iterate faster than a traditional model validation cycle. Boards need a framework for approving model changes at the right level of oversight, not every change, but the changes that matter.",
           "Data governance: InsurTech businesses are using customer data in ways that traditional insurance regulation did not anticipate. PDPA compliance, cross-border data flows, and the use of behavioural data in underwriting all carry regulatory and reputational risk that boards need to be equipped to govern.",
           "Partner risk: Embedded insurance depends on platform partnerships. The distribution partner controls the customer relationship, the data, and the context in which the product is sold. Boards need to understand what governance travels with those partnerships and what stays with the insurer.",
           "Regulatory uncertainty: MAS, OJK, BSP, and other ASEAN regulators are developing InsurTech frameworks at different speeds. A board governing a multi-market digital insurance business needs visibility into the regulatory environment across all operating markets.",
@@ -1007,15 +1007,15 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The boards I have seen govern digital insurance ventures effectively share several characteristics. They have more frequent board engagement — monthly updates at minimum — because the business environment changes faster than quarterly cycles can capture. They have board members who understand the technology and data dimensions of the business, not just the insurance dimensions. They have clear escalation frameworks that define what management can decide autonomously and what requires board visibility.",
+        text: "The boards I have seen govern digital insurance ventures effectively share several characteristics. They have more frequent board engagement, monthly updates at minimum,because the business environment changes faster than quarterly cycles can capture. They have board members who understand the technology and data dimensions of the business, not just the insurance dimensions. They have clear escalation frameworks that define what management can decide autonomously and what requires board visibility.",
       },
       {
         type: "paragraph",
-        text: "They also have a risk function that is designed for the business model — not a traditional insurance risk team that has been asked to adapt. That means a risk framework that includes model risk, data risk, platform risk, and regulatory risk across multiple jurisdictions, reported to the board in terms that directors can engage with.",
+        text: "They also have a risk function that is designed for the business model, not a traditional insurance risk team that has been asked to adapt. That means a risk framework that includes model risk, data risk, platform risk, and regulatory risk across multiple jurisdictions, reported to the board in terms that directors can engage with.",
       },
       {
         type: "paragraph",
-        text: "Building that governance capability is something I help InsurTech boards and their investors do — either as an independent board adviser, or through structured board education engagements. The digital insurance opportunity in Asia is significant. The governance infrastructure needs to be built to match it.",
+        text: "Building that governance capability is something I help InsurTech boards and their investors do, either as an independent board adviser, or through structured board education engagements. The digital insurance opportunity in Asia is significant. The governance infrastructure needs to be built to match it.",
       },
     ],
     faqs: [
@@ -1033,7 +1033,7 @@ export const insights: Insight[] = [
     id: "13",
     title: "What Singapore Boards Get Wrong About Independent Board Directors",
     summary:
-      "Independence in the structural sense — no business relationship, no family connection — is not the same as independence in the governance sense. The boards that get the most value from their independent directors understand this distinction. Most do not.",
+      "Independence in the structural sense, no business relationship, no family connection,is not the same as independence in the governance sense. The boards that get the most value from their independent directors understand this distinction. Most do not.",
     category: "Governance",
     readingTime: "5 min read",
     date: "July 2026",
@@ -1043,11 +1043,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Singapore's corporate governance code sets out clear criteria for independence — the absence of relationships that might compromise an independent director's ability to exercise objective judgement. These criteria are important, and getting them right matters. But structural independence and genuine governance independence are not the same thing, and most board nomination discussions focus almost entirely on the former.",
+        text: "Singapore's corporate governance code sets out clear criteria for independence, the absence of relationships that might compromise an independent director's ability to exercise objective judgement. These criteria are important, and getting them right matters. But structural independence and genuine governance independence are not the same thing, and most board nomination discussions focus almost entirely on the former.",
       },
       {
         type: "paragraph",
-        text: "I have sat across from a number of boards — as an adviser, as someone being assessed for a board role, and as someone observing board dynamics from the risk committee chair — and what I observe is that the independent directors who provide the most governance value are those who exercise independence of thought and challenge, not just independence of relationship. Those who provide the least are often technically independent but effectively deferential — they have no problematic relationships, but they also rarely push back.",
+        text: "I have sat across from a number of boards, as an adviser, as someone being assessed for a board role, and as someone observing board dynamics from the risk committee chair, and what I observe is that the independent directors who provide the most governance value are those who exercise independence of thought and challenge, not just independence of relationship. Those who provide the least are often technically independent but effectively deferential, they have no problematic relationships, but they also rarely push back.",
       },
       {
         type: "heading",
@@ -1057,14 +1057,14 @@ export const insights: Insight[] = [
         type: "list",
         items: [
           "Domain expertise: an independent director who cannot understand what management is presenting cannot challenge it. Genuine independence requires knowing enough about the business, the risk environment, or the technical domain to ask the right questions.",
-          "Willingness to slow things down: the most governance-valuable independent directors are those who are willing to be the reason a decision is reconsidered — even when that creates friction with management and the chair.",
-          "A perspective management does not have: the value of an independent director is not replicating what management already knows. It is bringing a perspective — from a different sector, a different discipline, or a different stakeholder lens — that challenges the assumptions management has normalised.",
+          "Willingness to slow things down: the most governance-valuable independent directors are those who are willing to be the reason a decision is reconsidered, even when that creates friction with management and the chair.",
+          "A perspective management does not have: the value of an independent director is not replicating what management already knows. It is bringing a perspective, from a different sector, a different discipline, or a different stakeholder lens,that challenges the assumptions management has normalised.",
           "Prepared engagement: independent directors who read the board papers thoroughly, come prepared with questions, and follow up between meetings provide qualitatively different governance from those who engage primarily during the meeting itself.",
         ],
       },
       {
         type: "pullquote",
-        text: "Independence is not a negative quality — the absence of conflicting interests. It is a positive one: the presence of an independent mind that management has to genuinely account for.",
+        text: "Independence is not a negative quality, the absence of conflicting interests. It is a positive one: the presence of an independent mind that management has to genuinely account for.",
       },
       {
         type: "heading",
@@ -1072,11 +1072,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "When I advise nomination committees, I push them to assess candidates not just against the negative criteria of independence but against the positive criteria of governance value. What specific expertise does this director bring that the board currently lacks? In what situations in their career have they challenged a management decision and been right to do so? What is their track record of actual challenge — not just attendance and approval?",
+        text: "When I advise nomination committees, I push them to assess candidates not just against the negative criteria of independence but against the positive criteria of governance value. What specific expertise does this director bring that the board currently lacks? In what situations in their career have they challenged a management decision and been right to do so? What is their track record of actual challenge, not just attendance and approval?",
       },
       {
         type: "paragraph",
-        text: "The boards that work best are those where the independent directors are genuinely contributing expertise and independent perspective — where management comes to board meetings expecting to be challenged and finding that useful, not adversarial. Building that kind of board requires a more rigorous nomination process than most Singapore-listed companies currently apply.",
+        text: "The boards that work best are those where the independent directors are genuinely contributing expertise and independent perspective, where management comes to board meetings expecting to be challenged and finding that useful, not adversarial. Building that kind of board requires a more rigorous nomination process than most Singapore-listed companies currently apply.",
       },
     ],
     faqs: [
@@ -1094,7 +1094,7 @@ export const insights: Insight[] = [
     id: "14",
     title: "MAS Regulatory Advisory: Preparing Singapore Financial Institutions for Supervisory Reviews",
     summary:
-      "MAS supervisory reviews have become more thematic, more substantive, and more consequential for leadership teams. Preparation is not about producing the right documents — it is about being able to demonstrate that governance is real rather than formal.",
+      "MAS supervisory reviews have become more thematic, more substantive, and more consequential for leadership teams. Preparation is not about producing the right documents, it is about being able to demonstrate that governance is real rather than formal.",
     category: "Regulation",
     readingTime: "6 min read",
     date: "July 2026",
@@ -1104,11 +1104,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I have been on both sides of MAS supervisory interactions — as a CRO preparing for and managing regulatory reviews, and as an adviser helping boards and senior leadership teams understand what MAS is looking for and how to demonstrate it. The change I have seen over the last decade is significant. MAS reviews have become more thematic — focused on whether an institution's governance framework is actually operating as intended, not just whether it is documented. And the consequences of a poor review have become more serious.",
+        text: "I have been on both sides of MAS supervisory interactions, as a CRO preparing for and managing regulatory reviews, and as an adviser helping boards and senior leadership teams understand what MAS is looking for and how to demonstrate it. The change I have seen over the last decade is significant. MAS reviews have become more thematic, focused on whether an institution's governance framework is actually operating as intended, not just whether it is documented. And the consequences of a poor review have become more serious.",
       },
       {
         type: "paragraph",
-        text: "The organisations that navigate MAS reviews well are not those with the thickest policy manuals. They are those where leadership can demonstrate, with evidence, that governance frameworks are producing real decisions — that risk appetite is influencing capital allocation, that board oversight is substantive rather than ceremonial, that the CRO function has genuine independence and the access it needs to do its job.",
+        text: "The organisations that navigate MAS reviews well are not those with the thickest policy manuals. They are those where leadership can demonstrate, with evidence, that governance frameworks are producing real decisions, that risk appetite is influencing capital allocation, that board oversight is substantive rather than ceremonial, that the CRO function has genuine independence and the access it needs to do its job.",
       },
       {
         type: "heading",
@@ -1123,14 +1123,14 @@ export const insights: Insight[] = [
         items: [
           "Board oversight quality: are directors asking substantive questions, challenging management, and receiving information in governance terms? Or is the board meeting functioning primarily to ratify management decisions?",
           "Risk governance integration: is the risk framework connected to strategic and capital decisions, or operating as a separate compliance exercise?",
-          "Climate risk management: under Notice 126 for insurers and equivalent guidance for banks, MAS is assessing whether environmental risk is embedded in financial risk governance — not just disclosed",
+          "Climate risk management: under Notice 126 for insurers and equivalent guidance for banks, MAS is assessing whether environmental risk is embedded in financial risk governance, not just disclosed",
           "Operational resilience: how the institution would respond to a significant operational disruption, and whether the board has tested that response",
           "Model governance: for institutions using AI or algorithmic tools in underwriting, pricing, or credit decisions, the governance and validation of those models",
         ],
       },
       {
         type: "pullquote",
-        text: "MAS is asking: does your governance work, or does it look like it works? The organisations that can answer honestly — and demonstrate the answer — navigate reviews well.",
+        text: "MAS is asking: does your governance work, or does it look like it works? The organisations that can answer honestly, and demonstrate the answer,navigate reviews well.",
       },
       {
         type: "heading",
@@ -1138,33 +1138,33 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "My approach to MAS regulatory preparation is not about coaching for the review. It is about helping an institution assess honestly where its governance is genuinely strong and where it is more formal than substantive — and then addressing the gaps before MAS identifies them.",
+        text: "My approach to MAS regulatory preparation is not about coaching for the review. It is about helping an institution assess honestly where its governance is genuinely strong and where it is more formal than substantive, and then addressing the gaps before MAS identifies them.",
       },
       {
         type: "paragraph",
-        text: "That typically involves a structured review of the risk governance framework against the specific MAS guidelines relevant to the institution type; an assessment of the board's risk information diet — what it is receiving, what it is not receiving, and whether the quality is sufficient for meaningful oversight; and preparation of leadership teams for the kinds of questions they should expect from a thematic review focused on the current MAS supervisory agenda.",
+        text: "That typically involves a structured review of the risk governance framework against the specific MAS guidelines relevant to the institution type; an assessment of the board's risk information diet, what it is receiving, what it is not receiving, and whether the quality is sufficient for meaningful oversight; and preparation of leadership teams for the kinds of questions they should expect from a thematic review focused on the current MAS supervisory agenda.",
       },
       {
         type: "paragraph",
-        text: "The value of this preparation is not in passing the review. It is in building governance that is genuinely sound — which is what a well-functioning supervisory system is trying to verify.",
+        text: "The value of this preparation is not in passing the review. It is in building governance that is genuinely sound, which is what a well-functioning supervisory system is trying to verify.",
       },
     ],
     faqs: [
       {
         question: "What does MAS look for in a supervisory review of a Singapore insurer?",
-        answer: "MAS assesses whether risk governance is genuine rather than formal — specifically whether the board exercises substantive oversight, whether the risk framework influences real decisions, and whether key areas including climate risk, model governance, and operational resilience are managed to the standard required by MAS guidelines.",
+        answer: "MAS assesses whether risk governance is genuine rather than formal, specifically whether the board exercises substantive oversight, whether the risk framework influences real decisions, and whether key areas including climate risk, model governance, and operational resilience are managed to the standard required by MAS guidelines.",
       },
       {
         question: "How should a Singapore financial institution prepare for an MAS review?",
-        answer: "Preparation should focus on honest gap assessment — identifying where governance frameworks are substantive and where they are more formal than real — and addressing structural gaps before the review. This includes reviewing the board's risk information quality, stress-testing whether key governance frameworks are producing evidence of real decisions, and ensuring leadership can articulate the governance framework clearly and with evidence.",
+        answer: "Preparation should focus on honest gap assessment, identifying where governance frameworks are substantive and where they are more formal than real,and addressing structural gaps before the review. This includes reviewing the board's risk information quality, stress-testing whether key governance frameworks are producing evidence of real decisions, and ensuring leadership can articulate the governance framework clearly and with evidence.",
       },
     ],
   },
   {
     id: "15",
-    title: "How I Helped Lead a Company to a Nasdaq Listing — and What Governance Made the Difference",
+    title: "How I Helped Lead a Company to a Nasdaq Listing, and What Governance Made the Difference",
     summary:
-      "A Nasdaq listing is a governance milestone as much as a financial one. The discipline required to satisfy US capital market standards — risk management, board structure, disclosure — is exactly the discipline that builds lasting organisational value. Here is what we built.",
+      "A Nasdaq listing is a governance milestone as much as a financial one. The discipline required to satisfy US capital market standards, risk management, board structure, disclosure,is exactly the discipline that builds lasting organisational value. Here is what we built.",
     category: "Governance",
     readingTime: "8 min read",
     date: "June 2026",
@@ -1174,11 +1174,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I was CEO of Basel Medical Group when it listed on Nasdaq. That experience — navigating the regulatory, governance, and capital market requirements of a US listing from a Singapore-based company — gave me a very specific perspective on what governance actually requires when the standards are set by the most demanding capital market in the world.",
+        text: "I was CEO of Basel Medical Group when it listed on Nasdaq. That experience, navigating the regulatory, governance, and capital market requirements of a US listing from a Singapore-based company,gave me a very specific perspective on what governance actually requires when the standards are set by the most demanding capital market in the world.",
       },
       {
         type: "paragraph",
-        text: "What I want to share is not the mechanics of a Nasdaq listing — those are well-documented by advisers who do the legal and financial work. What I want to share is the governance reality: the disciplines that a Nasdaq listing requires of a board, a management team, and an organisation — and which, if built genuinely, become organisational assets long after the listing day.",
+        text: "What I want to share is not the mechanics of a Nasdaq listing, those are well-documented by advisers who do the legal and financial work. What I want to share is the governance reality: the disciplines that a Nasdaq listing requires of a board, a management team, and an organisation, and which, if built genuinely, become organisational assets long after the listing day.",
       },
       {
         type: "heading",
@@ -1190,7 +1190,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "But the more consequential requirement is what those structures need to actually do. The audit committee of a Nasdaq-listed company is responsible for the appointment and oversight of the external auditor, the internal audit function, the financial reporting process, and the adequacy of internal controls. That is a significant governance mandate — and it requires audit committee members who can actually exercise it, not just fill the seat.",
+        text: "But the more consequential requirement is what those structures need to actually do. The audit committee of a Nasdaq-listed company is responsible for the appointment and oversight of the external auditor, the internal audit function, the financial reporting process, and the adequacy of internal controls. That is a significant governance mandate, and it requires audit committee members who can actually exercise it, not just fill the seat.",
       },
       {
         type: "heading",
@@ -1198,20 +1198,20 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "US capital markets — through SEC disclosure requirements, investor relations expectations, and the attention of institutional shareholders — require a quality of risk governance that goes beyond what many Singapore-listed companies have built. Not because SGX standards are inadequate, but because the volume and specificity of disclosure in a US-listed environment, and the sophistication of the institutional investor scrutiny that follows it, forces governance to become substantive.",
+        text: "US capital markets, through SEC disclosure requirements, investor relations expectations, and the attention of institutional shareholders,require a quality of risk governance that goes beyond what many Singapore-listed companies have built. Not because SGX standards are inadequate, but because the volume and specificity of disclosure in a US-listed environment, and the sophistication of the institutional investor scrutiny that follows it, forces governance to become substantive.",
       },
       {
         type: "list",
         items: [
-          "Risk factor disclosure in the prospectus and annual reports must be genuinely specific and reflective of the actual risk profile — not generic disclaimers",
-          "Management discussion of risk must be capable of being interrogated by sophisticated investors and short-sellers — organisations that have done the work to find the gaps",
-          "Board oversight of the financial statements must be real — audit committees that are active, informed, and capable of challenging the CFO and external auditor",
+          "Risk factor disclosure in the prospectus and annual reports must be genuinely specific and reflective of the actual risk profile, not generic disclaimers",
+          "Management discussion of risk must be capable of being interrogated by sophisticated investors and short-sellers, organisations that have done the work to find the gaps",
+          "Board oversight of the financial statements must be real, audit committees that are active, informed, and capable of challenging the CFO and external auditor",
           "Internal controls over financial reporting must be documented, tested, and signed off on by management and, for larger companies, by external auditors",
         ],
       },
       {
         type: "pullquote",
-        text: "A Nasdaq listing does not create governance discipline. It reveals whether you have it — and punishes the organisations that do not.",
+        text: "A Nasdaq listing does not create governance discipline. It reveals whether you have it, and punishes the organisations that do not.",
       },
       {
         type: "heading",
@@ -1219,11 +1219,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "At Basel Medical Group, preparing for the Nasdaq listing required us to build a risk governance framework that could satisfy both MAS and SEC expectations simultaneously — not a small task for a Singapore-based healthcare company. We restructured the board composition, built a proper audit committee function, developed the internal control documentation that SOX compliance required, and established an investor relations function capable of communicating the company's risk profile accurately to a US investor base.",
+        text: "At Basel Medical Group, preparing for the Nasdaq listing required us to build a risk governance framework that could satisfy both MAS and SEC expectations simultaneously, not a small task for a Singapore-based healthcare company. We restructured the board composition, built a proper audit committee function, developed the internal control documentation that SOX compliance required, and established an investor relations function capable of communicating the company's risk profile accurately to a US investor base.",
       },
       {
         type: "paragraph",
-        text: "The disciplines we built in that process — specific risk identification, board-level accountability for disclosure, internal control rigour — remained valuable long after the listing. That is the governance case for treating a capital market transaction as a genuine governance project, not just a financial one.",
+        text: "The disciplines we built in that process, specific risk identification, board-level accountability for disclosure, internal control rigour,remained valuable long after the listing. That is the governance case for treating a capital market transaction as a genuine governance project, not just a financial one.",
       },
     ],
     faqs: [
@@ -1241,7 +1241,7 @@ export const insights: Insight[] = [
     id: "16",
     title: "Risk Governance Speaker Singapore: What I Speak On and Why It Matters to Boards",
     summary:
-      "I have spoken to boards, regulators, insurance executives and risk professionals across Asia for over a decade. The topics I am asked to address have shifted significantly — here is what Singapore's leadership community is grappling with right now.",
+      "I have spoken to boards, regulators, insurance executives and risk professionals across Asia for over a decade. The topics I am asked to address have shifted significantly, here is what Singapore's leadership community is grappling with right now.",
     category: "Board Advisory",
     readingTime: "5 min read",
     date: "June 2026",
@@ -1251,11 +1251,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "When I started speaking at governance and risk conferences in Singapore, the topics were largely technical — actuarial models, capital frameworks, reinsurance structures. What boards wanted to hear about was how to understand the numbers their risk teams were producing. That has shifted considerably. What I am asked to speak on now is more strategic: how do governance structures need to adapt to risks that traditional frameworks were not built for?",
+        text: "When I started speaking at governance and risk conferences in Singapore, the topics were largely technical, actuarial models, capital frameworks, reinsurance structures. What boards wanted to hear about was how to understand the numbers their risk teams were producing. That has shifted considerably. What I am asked to speak on now is more strategic: how do governance structures need to adapt to risks that traditional frameworks were not built for?",
       },
       {
         type: "paragraph",
-        text: "I speak at board retreats, regulatory conferences, industry associations, and professional development programmes. The audiences range from NEDs and audit committee chairs to C-suite executives and regulators. What connects those audiences is a shared challenge: the risk environment is changing faster than governance frameworks, and the question of how to close that gap — quickly, practically, and without creating compliance theatre — is genuinely difficult.",
+        text: "I speak at board retreats, regulatory conferences, industry associations, and professional development programmes. The audiences range from NEDs and audit committee chairs to C-suite executives and regulators. What connects those audiences is a shared challenge: the risk environment is changing faster than governance frameworks, and the question of how to close that gap, quickly, practically, and without creating compliance theatre,is genuinely difficult.",
       },
       {
         type: "heading",
@@ -1274,7 +1274,7 @@ export const insights: Insight[] = [
       },
       {
         type: "pullquote",
-        text: "When I stand up to speak, I am not presenting theory. I am bringing two decades of having held the roles — CRO, CEO, board adviser — that the people in the room are navigating.",
+        text: "When I stand up to speak, I am not presenting theory. I am bringing two decades of having held the roles, CRO, CEO, board adviser,that the people in the room are navigating.",
       },
       {
         type: "heading",
@@ -1282,7 +1282,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "I work in keynote, panel, workshop, and board retreat formats. For governance audiences, I find that interactive workshop formats — where directors can bring their own situations and test frameworks against real examples — produce the most durable learning. For conference and regulatory audiences, I speak in keynote format with enough analytical specificity to be useful rather than inspirational.",
+        text: "I work in keynote, panel, workshop, and board retreat formats. For governance audiences, I find that interactive workshop formats, where directors can bring their own situations and test frameworks against real examples,produce the most durable learning. For conference and regulatory audiences, I speak in keynote format with enough analytical specificity to be useful rather than inspirational.",
       },
       {
         type: "paragraph",
@@ -1304,7 +1304,7 @@ export const insights: Insight[] = [
     id: "17",
     title: "Scope 3 Emissions: What Singapore Boards Need to Govern Before FY2026 Disclosure",
     summary:
-      "Scope 3 emission reporting becomes mandatory for SGX-listed companies from FY2026. The data challenges are significant. The governance challenges — who owns the disclosure, how the assumptions are validated, what board sign-off means — are where most organisations are least prepared.",
+      "Scope 3 emission reporting becomes mandatory for SGX-listed companies from FY2026. The data challenges are significant. The governance challenges, who owns the disclosure, how the assumptions are validated, what board sign-off means,are where most organisations are least prepared.",
     category: "ESG",
     readingTime: "6 min read",
     date: "September 2026",
@@ -1314,11 +1314,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Scope 3 emissions — all indirect emissions in a company's value chain, upstream and downstream — become part of mandatory sustainability disclosure for SGX-listed companies from FY2026. The scope of what needs to be measured, estimated, and disclosed is significant: supply chain emissions, employee commuting, use of sold products, end-of-life treatment of goods, business travel, leased assets not in direct control.",
+        text: "Scope 3 emissions, all indirect emissions in a company's value chain, upstream and downstream,become part of mandatory sustainability disclosure for SGX-listed companies from FY2026. The scope of what needs to be measured, estimated, and disclosed is significant: supply chain emissions, employee commuting, use of sold products, end-of-life treatment of goods, business travel, leased assets not in direct control.",
       },
       {
         type: "paragraph",
-        text: "The data challenge is well-understood: Scope 3 requires organisations to collect emissions data from suppliers, customers, and across their value chain — much of which is estimated rather than measured, and none of which is under the reporting company's direct control. What is less well-discussed is the governance challenge: who in the organisation takes responsibility for the adequacy of those estimates, how the board validates a disclosure it cannot independently verify, and what liability attaches to a Scope 3 disclosure that turns out to be materially inaccurate.",
+        text: "The data challenge is well-understood: Scope 3 requires organisations to collect emissions data from suppliers, customers, and across their value chain, much of which is estimated rather than measured, and none of which is under the reporting company's direct control. What is less well-discussed is the governance challenge: who in the organisation takes responsibility for the adequacy of those estimates, how the board validates a disclosure it cannot independently verify, and what liability attaches to a Scope 3 disclosure that turns out to be materially inaccurate.",
       },
       {
         type: "heading",
@@ -1327,11 +1327,11 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Methodology ownership: who has decided which estimation methodology the company is using for each Scope 3 category, and on what basis? This should be a documented, board-approved decision — not a sustainability team judgment",
+          "Methodology ownership: who has decided which estimation methodology the company is using for each Scope 3 category, and on what basis? This should be a documented, board-approved decision, not a sustainability team judgment",
           "Materiality assessment: which Scope 3 categories are material to the business? A company does not need to report immaterial categories, but the determination of materiality requires board-level engagement",
-          "Data quality governance: what is the quality of the underlying data, and what assurance does the board have that the estimates are reasonable? This is the hardest question — and the one most sustainability reports avoid",
+          "Data quality governance: what is the quality of the underlying data, and what assurance does the board have that the estimates are reasonable? This is the hardest question, and the one most sustainability reports avoid",
           "Year-on-year consistency: Scope 3 disclosures will be compared across years and against peers. The board needs to understand what changes in the disclosure reflect genuine changes in the business versus methodology changes",
-          "External assurance: MAS has signalled expectations on assurance of climate disclosures. The board should be deciding — not just approving — the level and scope of external assurance for Scope 3",
+          "External assurance: MAS has signalled expectations on assurance of climate disclosures. The board should be deciding, not just approving,the level and scope of external assurance for Scope 3",
         ],
       },
       {
@@ -1344,11 +1344,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "For companies that have not yet built their Scope 3 governance architecture, FY2026 is already underway. The practical steps are: commission a Scope 3 materiality assessment if one has not been done; establish internal ownership of the methodology and data quality; understand what your material categories are and what the data sources for each are; and brief the board — in governance terms, not technical terms — on what the company will be disclosing and what the confidence level in those disclosures is.",
+        text: "For companies that have not yet built their Scope 3 governance architecture, FY2026 is already underway. The practical steps are: commission a Scope 3 materiality assessment if one has not been done; establish internal ownership of the methodology and data quality; understand what your material categories are and what the data sources for each are; and brief the board, in governance terms, not technical terms,on what the company will be disclosing and what the confidence level in those disclosures is.",
       },
       {
         type: "paragraph",
-        text: "This is exactly the kind of work I help boards with — translating a technically complex reporting requirement into a governance question that boards can take responsibility for. The time to do that work is before the disclosure is signed.",
+        text: "This is exactly the kind of work I help boards with, translating a technically complex reporting requirement into a governance question that boards can take responsibility for. The time to do that work is before the disclosure is signed.",
       },
     ],
     faqs: [
@@ -1358,7 +1358,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What is Scope 3 and why is it harder to report than Scope 1 and 2?",
-        answer: "Scope 3 covers all indirect emissions in a company's value chain — supplier emissions, customer use of products, business travel, leased assets, and more. Unlike Scope 1 (direct emissions) and Scope 2 (purchased energy), Scope 3 data is largely outside the company's direct control and must be estimated from supplier data, industry averages, or spend-based proxies, making accuracy and consistency significantly more challenging.",
+        answer: "Scope 3 covers all indirect emissions in a company's value chain, supplier emissions, customer use of products, business travel, leased assets, and more. Unlike Scope 1 (direct emissions) and Scope 2 (purchased energy), Scope 3 data is largely outside the company's direct control and must be estimated from supplier data, industry averages, or spend-based proxies, making accuracy and consistency significantly more challenging.",
       },
       {
         question: "What is a Singapore board's responsibility for Scope 3 disclosure?",
@@ -1370,7 +1370,7 @@ export const insights: Insight[] = [
     id: "18",
     title: "The ORSA as a Strategic Tool: What Singapore Insurance Boards Are Missing",
     summary:
-      "The Own Risk and Solvency Assessment is one of the most governance-valuable documents an insurance organisation produces — and one of the most underused at board level. Here is how to change that.",
+      "The Own Risk and Solvency Assessment is one of the most governance-valuable documents an insurance organisation produces, and one of the most underused at board level. Here is how to change that.",
     category: "Insurance Capital",
     readingTime: "6 min read",
     date: "July 2026",
@@ -1380,11 +1380,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Every MAS-regulated insurer in Singapore produces an Own Risk and Solvency Assessment. The ORSA is one of the most actuarially intensive documents the organisation creates — it stress-tests the capital position against a range of scenarios, quantifies the resilience of the business to adverse developments, and connects the risk profile to the capital strategy. It should be one of the most strategically useful documents the board reviews.",
+        text: "Every MAS-regulated insurer in Singapore produces an Own Risk and Solvency Assessment. The ORSA is one of the most actuarially intensive documents the organisation creates, it stress-tests the capital position against a range of scenarios, quantifies the resilience of the business to adverse developments, and connects the risk profile to the capital strategy. It should be one of the most strategically useful documents the board reviews.",
       },
       {
         type: "paragraph",
-        text: "In most organisations it is not. What typically reaches the board is a summary that confirms the organisation is within its capital requirements, presents the key assumptions at a high level, and reassures directors that the regulatory deliverable has been met. The stress test results — the scenarios that reveal where the capital position is under genuine pressure — often do not make it to the board in a form that directors can engage with.",
+        text: "In most organisations it is not. What typically reaches the board is a summary that confirms the organisation is within its capital requirements, presents the key assumptions at a high level, and reassures directors that the regulatory deliverable has been met. The stress test results, the scenarios that reveal where the capital position is under genuine pressure,often do not make it to the board in a form that directors can engage with.",
       },
       {
         type: "heading",
@@ -1392,7 +1392,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The value of the ORSA is not in the compliance conclusion. It is in the stress test analysis — what happens to the capital position in the scenarios the business is most exposed to, and what those results imply for strategic decisions the board is being asked to make.",
+        text: "The value of the ORSA is not in the compliance conclusion. It is in the stress test analysis, what happens to the capital position in the scenarios the business is most exposed to, and what those results imply for strategic decisions the board is being asked to make.",
       },
       {
         type: "list",
@@ -1405,7 +1405,7 @@ export const insights: Insight[] = [
       },
       {
         type: "pullquote",
-        text: "The ORSA is produced for MAS. But its real audience should be the board — the people making the strategic decisions the stress tests are designed to inform.",
+        text: "The ORSA is produced for MAS. But its real audience should be the board, the people making the strategic decisions the stress tests are designed to inform.",
       },
       {
         type: "heading",
@@ -1413,7 +1413,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The boards I have worked with that use the ORSA most effectively do three things differently. They engage with the stress test scenarios rather than just the base case results — asking which scenarios are most relevant to the current strategic decisions and what the results imply for those decisions. They connect the ORSA outputs explicitly to capital allocation proposals — requiring management to show the capital cost of proposed investments and growth plans in ORSA terms. And they treat the ORSA as a live document — using it as the reference point for capital discussions throughout the year, not just the moment of regulatory submission.",
+        text: "The boards I have worked with that use the ORSA most effectively do three things differently. They engage with the stress test scenarios rather than just the base case results, asking which scenarios are most relevant to the current strategic decisions and what the results imply for those decisions. They connect the ORSA outputs explicitly to capital allocation proposals, requiring management to show the capital cost of proposed investments and growth plans in ORSA terms. And they treat the ORSA as a live document, using it as the reference point for capital discussions throughout the year, not just the moment of regulatory submission.",
       },
       {
         type: "paragraph",
@@ -1427,7 +1427,7 @@ export const insights: Insight[] = [
       },
       {
         question: "How should a Singapore insurance board use the ORSA?",
-        answer: "The board should engage with the stress test scenarios — not just the base case compliance conclusion — and connect ORSA outputs to strategic decisions including dividend proposals, growth plans, reinsurance structure, and asset allocation. The ORSA's value is as a strategic governance tool, not only a regulatory deliverable.",
+        answer: "The board should engage with the stress test scenarios, not just the base case compliance conclusion,and connect ORSA outputs to strategic decisions including dividend proposals, growth plans, reinsurance structure, and asset allocation. The ORSA's value is as a strategic governance tool, not only a regulatory deliverable.",
       },
     ],
   },
@@ -1435,7 +1435,7 @@ export const insights: Insight[] = [
     id: "19",
     title: "What SGX's FY2026 Sustainability Mandate Means for Singapore Boards Right Now",
     summary:
-      "From FY2026, SGX-listed companies must issue a sustainability report alongside their annual report — and large-cap issuers must disclose Scope 3 emissions. Most boards are not ready for what they are now required to sign off on.",
+      "From FY2026, SGX-listed companies must issue a sustainability report alongside their annual report, and large-cap issuers must disclose Scope 3 emissions. Most boards are not ready for what they are now required to sign off on.",
     category: "Governance",
     readingTime: "3 min read",
     date: "September 2026",
@@ -1449,15 +1449,15 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "From FY2026, that approach is no longer sufficient — and for some boards, it is now a governance risk. SGX's mandatory sustainability reporting framework has escalated: all listed issuers must now issue their sustainability report alongside the annual report, large-cap companies must disclose Scope 3 greenhouse gas emissions in accordance with IFRS S2, and the board is required to provide a statement on its governance structures for sustainability practices. That last requirement is the one most boards have not fully understood yet.",
+        text: "From FY2026, that approach is no longer sufficient, and for some boards, it is now a governance risk. SGX's mandatory sustainability reporting framework has escalated: all listed issuers must now issue their sustainability report alongside the annual report, large-cap companies must disclose Scope 3 greenhouse gas emissions in accordance with IFRS S2, and the board is required to provide a statement on its governance structures for sustainability practices. That last requirement is the one most boards have not fully understood yet.",
       },
       {
         type: "heading",
-        text: "What has changed for boards — not just for management",
+        text: "What has changed for boards, not just for management",
       },
       {
         type: "paragraph",
-        text: "The governance shift is this: the sustainability report is now formally a board-level document. Not in the sense that the board reviews it before publication — boards have been doing that. In the sense that the board is now required to describe how it governs sustainability. That means the board needs to understand what is in the report, have a view on whether the identified material ESG factors are the right ones, and be in a position to explain its oversight role to shareholders. Approving a document prepared entirely by management, without engaging with its substance, does not meet that standard.",
+        text: "The governance shift is this: the sustainability report is now formally a board-level document. Not in the sense that the board reviews it before publication, boards have been doing that. In the sense that the board is now required to describe how it governs sustainability. That means the board needs to understand what is in the report, have a view on whether the identified material ESG factors are the right ones, and be in a position to explain its oversight role to shareholders. Approving a document prepared entirely by management, without engaging with its substance, does not meet that standard.",
       },
       {
         type: "pullquote",
@@ -1470,9 +1470,9 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Has the board been briefed on the key ESG factors that will appear in the FY2026 sustainability report — and does the board agree they are the right ones, or has the selection been left entirely to management?",
+          "Has the board been briefed on the key ESG factors that will appear in the FY2026 sustainability report, and does the board agree they are the right ones, or has the selection been left entirely to management?",
           "For large-cap issuers: what is management's methodology for measuring Scope 3 emissions, which categories are included, and has the board tested whether the reporting boundary is appropriate for the business?",
-          "If an institutional investor or proxy adviser challenges the sustainability report in a shareholder meeting, which director will respond — and can they answer substantively, not just refer the question to management?",
+          "If an institutional investor or proxy adviser challenges the sustainability report in a shareholder meeting, which director will respond, and can they answer substantively, not just refer the question to management?",
         ],
       },
       {
@@ -1487,7 +1487,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What is the board's responsibility for the FY2026 SGX sustainability report?",
-        answer: "The board must provide a statement on its governance structures for sustainability practices — which means the board is expected to actively oversee the sustainability reporting process, not only receive and approve a management-prepared document. Directors should be able to explain how material ESG factors were identified, challenge key assumptions in the report, and describe the board's role in sustainability oversight.",
+        answer: "The board must provide a statement on its governance structures for sustainability practices, which means the board is expected to actively oversee the sustainability reporting process, not only receive and approve a management-prepared document. Directors should be able to explain how material ESG factors were identified, challenge key assumptions in the report, and describe the board's role in sustainability oversight.",
       },
       {
         question: "When do large-cap Singapore listed companies need to report Scope 3 emissions?",
@@ -1499,7 +1499,7 @@ export const insights: Insight[] = [
     id: "20",
     title: "What Makes an ESG Adviser Useful to a Singapore Board",
     summary:
-      "Most ESG advisers in Singapore help boards produce better sustainability reports. A genuinely useful ESG adviser does something harder — they help the board ask better questions, challenge management's framing, and connect sustainability to the decisions the board is actually making.",
+      "Most ESG advisers in Singapore help boards produce better sustainability reports. A genuinely useful ESG adviser does something harder, they help the board ask better questions, challenge management's framing, and connect sustainability to the decisions the board is actually making.",
     category: "ESG",
     readingTime: "7 min read",
     date: "September 2026",
@@ -1513,7 +1513,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "There is nothing wrong with this as a compliance function. If the organisation needs to produce an SGX-compliant sustainability report, an adviser who understands ISSB standards, material factor mapping, and disclosure requirements is genuinely valuable. But from FY2026, Singapore boards are required to provide a board statement on their governance structures for sustainability. That requirement is substantive. It means the board needs to govern sustainability — not just disclose it. And most ESG advisory relationships are not set up to help boards do that.",
+        text: "There is nothing wrong with this as a compliance function. If the organisation needs to produce an SGX-compliant sustainability report, an adviser who understands ISSB standards, material factor mapping, and disclosure requirements is genuinely valuable. But from FY2026, Singapore boards are required to provide a board statement on their governance structures for sustainability. That requirement is substantive. It means the board needs to govern sustainability, not just disclose it. And most ESG advisory relationships are not set up to help boards do that.",
       },
       {
         type: "heading",
@@ -1525,11 +1525,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Advising a board is different from advising management. It requires being willing to tell a compensation committee that their ESG-linked performance targets are too weak to drive behaviour change. It means telling a board chair — in the board meeting, not in a quiet conversation afterwards — that the sustainability report describes a strategy the business is not actually pursuing. It means asking management's sustainability team difficult questions in front of the board, and making those questions legible to directors who are not sustainability specialists. Most reporting advisers are not set up to do this, and many are not inclined to.",
+        text: "Advising a board is different from advising management. It requires being willing to tell a compensation committee that their ESG-linked performance targets are too weak to drive behaviour change. It means telling a board chair, in the board meeting, not in a quiet conversation afterwards,that the sustainability report describes a strategy the business is not actually pursuing. It means asking management's sustainability team difficult questions in front of the board, and making those questions legible to directors who are not sustainability specialists. Most reporting advisers are not set up to do this, and many are not inclined to.",
       },
       {
         type: "pullquote",
-        text: "An ESG adviser who never says anything a Singapore board doesn't want to hear is not an adviser — they are a vendor.",
+        text: "An ESG adviser who never says anything a Singapore board doesn't want to hear is not an adviser, they are a vendor.",
       },
       {
         type: "heading",
@@ -1537,15 +1537,15 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "When organisations ask me to assess their ESG advisory arrangements, I look for a specific set of characteristics — not qualifications or framework expertise, but how the adviser actually functions in the boardroom.",
+        text: "When organisations ask me to assess their ESG advisory arrangements, I look for a specific set of characteristics, not qualifications or framework expertise, but how the adviser actually functions in the boardroom.",
       },
       {
         type: "list",
         items: [
-          "Does the adviser have a view, or only a framework? Frameworks are necessary but insufficient. A useful adviser can tell you which of the business's identified ESG risks they believe the board is underweighting — and why. If the adviser can only describe the framework, they are not advising the board.",
+          "Does the adviser have a view, or only a framework? Frameworks are necessary but insufficient. A useful adviser can tell you which of the business's identified ESG risks they believe the board is underweighting, and why. If the adviser can only describe the framework, they are not advising the board.",
           "Does the adviser engage with the board directly, or only with management? If the relationship is primarily with the sustainability team, the board is receiving filtered information. The board's adviser should have a direct line to the board, not a managed briefing through the sustainability function.",
           "Is the adviser willing to disagree with management in the board meeting? This is rare. It is also the most important indicator of genuine usefulness. An adviser who only confirms that management is on track is not adding governance value.",
-          "Does the adviser connect sustainability to the decisions the board is actually making — capital allocation, M&A, strategic planning — or do they operate in a separate sustainability track that never intersects with the main board agenda? If ESG exists in its own lane, it is a disclosure exercise, not a governance function.",
+          "Does the adviser connect sustainability to the decisions the board is actually making, capital allocation, M&A, strategic planning,or do they operate in a separate sustainability track that never intersects with the main board agenda? If ESG exists in its own lane, it is a disclosure exercise, not a governance function.",
         ],
       },
       {
@@ -1554,11 +1554,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Singapore's regulatory environment is escalating in a way that makes the governance gap increasingly visible. From FY2025, all SGX issuers report Scope 1 and 2 emissions. From FY2026, large-cap issuers add Scope 3. MAS's transition planning guidelines — published in March 2026 and effective September 2027 — require insurers and financial institutions to demonstrate credible plans for managing climate-related transition risk. These are not disclosure requirements alone. They require the board to demonstrate that it oversees the organisation's sustainability strategy, not merely approves its reporting.",
+        text: "Singapore's regulatory environment is escalating in a way that makes the governance gap increasingly visible. From FY2025, all SGX issuers report Scope 1 and 2 emissions. From FY2026, large-cap issuers add Scope 3. MAS's transition planning guidelines, published in March 2026 and effective September 2027,require insurers and financial institutions to demonstrate credible plans for managing climate-related transition risk. These are not disclosure requirements alone. They require the board to demonstrate that it oversees the organisation's sustainability strategy, not merely approves its reporting.",
       },
       {
         type: "paragraph",
-        text: "The practical consequence is that an ESG adviser whose value stops at the disclosure layer is becoming insufficient for Singapore boards. Institutional investors and proxy advisers are increasingly looking for evidence of genuine board engagement with sustainability — not just a well-formatted sustainability report. The SGX board governance statement requirement is one formal expression of this. The shareholder questions at AGMs are another. Boards that cannot demonstrate substantive engagement will face escalating pressure.",
+        text: "The practical consequence is that an ESG adviser whose value stops at the disclosure layer is becoming insufficient for Singapore boards. Institutional investors and proxy advisers are increasingly looking for evidence of genuine board engagement with sustainability, not just a well-formatted sustainability report. The SGX board governance statement requirement is one formal expression of this. The shareholder questions at AGMs are another. Boards that cannot demonstrate substantive engagement will face escalating pressure.",
       },
       {
         type: "heading",
@@ -1566,25 +1566,25 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The most effective ESG advisers I have worked with or observed in Singapore share certain characteristics. They come with a point of view — not a framework, but a perspective on what matters most for the specific industry, regulatory environment, and strategic situation the board is navigating. They are willing to say that the organisation's greatest climate-related exposure is not the one currently in the sustainability report, because that is where management has already done the analytical work. The real risk is where nobody has looked yet.",
+        text: "The most effective ESG advisers I have worked with or observed in Singapore share certain characteristics. They come with a point of view, not a framework, but a perspective on what matters most for the specific industry, regulatory environment, and strategic situation the board is navigating. They are willing to say that the organisation's greatest climate-related exposure is not the one currently in the sustainability report, because that is where management has already done the analytical work. The real risk is where nobody has looked yet.",
       },
       {
         type: "paragraph",
-        text: "They also understand the distinction between the board's job and management's job. Management produces the sustainability report. The board oversees whether management is managing sustainability risk appropriately. Those are not the same thing, and an adviser who conflates them is helping management with compliance — which is legitimate — but is not helping the board with governance, which is what the regulatory environment now requires.",
+        text: "They also understand the distinction between the board's job and management's job. Management produces the sustainability report. The board oversees whether management is managing sustainability risk appropriately. Those are not the same thing, and an adviser who conflates them is helping management with compliance, which is legitimate,but is not helping the board with governance, which is what the regulatory environment now requires.",
       },
       {
         type: "paragraph",
-        text: "If your board's ESG adviser is confirming that the sustainability report looks good, that is useful information. If they are not also telling you what the report reveals about where the business is genuinely exposed — and where the board's oversight of those exposures is still underdeveloped — then you have a reporting adviser. In Singapore's current environment, boards need both. But they especially need the second.",
+        text: "If your board's ESG adviser is confirming that the sustainability report looks good, that is useful information. If they are not also telling you what the report reveals about where the business is genuinely exposed, and where the board's oversight of those exposures is still underdeveloped,then you have a reporting adviser. In Singapore's current environment, boards need both. But they especially need the second.",
       },
     ],
     faqs: [
       {
         question: "What does an ESG adviser do for a Singapore board?",
-        answer: "A board-level ESG adviser helps directors understand the organisation's material sustainability risks, challenges the adequacy of management's sustainability governance, and connects ESG factors to the strategic decisions the board is making — capital allocation, M&A, strategic planning, and risk oversight. This is distinct from a sustainability reporting consultant, whose primary role is disclosure compliance with SGX or ISSB standards.",
+        answer: "A board-level ESG adviser helps directors understand the organisation's material sustainability risks, challenges the adequacy of management's sustainability governance, and connects ESG factors to the strategic decisions the board is making, capital allocation, M&A, strategic planning, and risk oversight. This is distinct from a sustainability reporting consultant, whose primary role is disclosure compliance with SGX or ISSB standards.",
       },
       {
-        question: "How do I assess whether my ESG adviser is useful to the board — not just to management?",
-        answer: "The clearest indicator is whether the adviser is willing to disagree with management in front of the board, and whether they engage directly with the board's actual decisions rather than only with the sustainability team's reporting process. An adviser whose relationship is primarily with management is advising management — which may be valuable, but does not constitute board-level ESG governance advisory.",
+        question: "How do I assess whether my ESG adviser is useful to the board, not just to management?",
+        answer: "The clearest indicator is whether the adviser is willing to disagree with management in front of the board, and whether they engage directly with the board's actual decisions rather than only with the sustainability team's reporting process. An adviser whose relationship is primarily with management is advising management, which may be valuable, but does not constitute board-level ESG governance advisory.",
       },
       {
         question: "What ESG governance requirements apply to Singapore boards from FY2026?",
@@ -1598,9 +1598,9 @@ export const insights: Insight[] = [
   },
   {
     id: "21",
-    title: "MAS Transition Planning Is Halfway to Live — What Singapore Boards Should Have Done by Now",
+    title: "MAS Transition Planning Is Halfway to Live, What Singapore Boards Should Have Done by Now",
     summary:
-      "MAS issued its transition planning guidelines in March 2026 with an 18-month runway to a September 2027 effective date. That puts us at the halfway mark this month — and in my experience of regulatory implementation inside insurers, the halfway mark is when boards find out whether they started early enough.",
+      "MAS issued its transition planning guidelines in March 2026 with an 18-month runway to a September 2027 effective date. That puts us at the halfway mark this month, and in my experience of regulatory implementation inside insurers, the halfway mark is when boards find out whether they started early enough.",
     category: "Regulation",
     readingTime: "3 min read",
     date: "September 2026",
@@ -1618,7 +1618,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Most regulatory changes an insurance board oversees are documentation exercises: rewrite a policy, update a committee charter, add a disclosure. Those genuinely can be done in a quarter. The transition planning guidelines are different, because they require capability that does not exist until you build it — climate-related risk data on your corporate underwriting book, scenario analysis that runs against both sides of the balance sheet, and a structured process for engaging customers whose exposure is rising. None of that is a drafting task. Each takes several cycles to reach a usable state.",
+        text: "Most regulatory changes an insurance board oversees are documentation exercises: rewrite a policy, update a committee charter, add a disclosure. Those genuinely can be done in a quarter. The transition planning guidelines are different, because they require capability that does not exist until you build it, climate-related risk data on your corporate underwriting book, scenario analysis that runs against both sides of the balance sheet, and a structured process for engaging customers whose exposure is rising. None of that is a drafting task. Each takes several cycles to reach a usable state.",
       },
       {
         type: "pullquote",
@@ -1626,7 +1626,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The part boards most often underestimate is the customer engagement expectation. MAS has been explicit that insurers should not indiscriminately withdraw cover from customers exposed to higher climate-related risk — they are expected to engage, gather data, and price proportionately. That is an operational muscle. If your underwriting teams have never had those conversations, the first year is spent learning how to have them, not documenting that you did.",
+        text: "The part boards most often underestimate is the customer engagement expectation. MAS has been explicit that insurers should not indiscriminately withdraw cover from customers exposed to higher climate-related risk, they are expected to engage, gather data, and price proportionately. That is an operational muscle. If your underwriting teams have never had those conversations, the first year is spent learning how to have them, not documenting that you did.",
       },
       {
         type: "heading",
@@ -1648,7 +1648,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What should a Singapore insurance board do before the September 2027 deadline?",
-        answer: "Boards should treat the remaining period as build time, not buffer. Priorities are assessing the gap in climate-related risk data, reviewing at least one scenario analysis that links underwriting and investment exposure, and confirming a realistic implementation plan. The customer engagement expectation — not withdrawing cover indiscriminately from higher-risk customers — requires operational capability that takes multiple cycles to develop.",
+        answer: "Boards should treat the remaining period as build time, not buffer. Priorities are assessing the gap in climate-related risk data, reviewing at least one scenario analysis that links underwriting and investment exposure, and confirming a realistic implementation plan. The customer engagement expectation, not withdrawing cover indiscriminately from higher-risk customers,requires operational capability that takes multiple cycles to develop.",
       },
     ],
   },
@@ -1670,11 +1670,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "The first time I put physical climate risk on a board agenda at an insurer, the response was that it was already handled — the reinsurance team modelled catastrophe exposure every year, bought the treaty, and reported the retained loss. That is true, and it is also the problem. Physical climate risk had a home on the reinsurance desk and nowhere on the board's risk map. The board saw one number a year, for one renewal cycle. It never saw the trajectory.",
+        text: "The first time I put physical climate risk on a board agenda at an insurer, the response was that it was already handled, the reinsurance team modelled catastrophe exposure every year, bought the treaty, and reported the retained loss. That is true, and it is also the problem. Physical climate risk had a home on the reinsurance desk and nowhere on the board's risk map. The board saw one number a year, for one renewal cycle. It never saw the trajectory.",
       },
       {
         type: "paragraph",
-        text: "MAS's transition planning guidelines, issued in March 2026 and effective September 2027, have changed what a board can leave to the reinsurance desk. The guidelines are usually discussed in terms of transition risk — decarbonisation, stranded assets, financed emissions. But they are equally explicit that insurers must assess and manage the physical risks they and their portfolios face from climate change. For a Singapore insurer, that is not a hypothetical exposure. It is the core of the underwriting book.",
+        text: "MAS's transition planning guidelines, issued in March 2026 and effective September 2027, have changed what a board can leave to the reinsurance desk. The guidelines are usually discussed in terms of transition risk, decarbonisation, stranded assets, financed emissions. But they are equally explicit that insurers must assess and manage the physical risks they and their portfolios face from climate change. For a Singapore insurer, that is not a hypothetical exposure. It is the core of the underwriting book.",
       },
       {
         type: "heading",
@@ -1682,7 +1682,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Singapore-based insurers and reinsurers carry physical climate exposure on both sides of the balance sheet and across two time horizons. On the liability side, acute risk is the regional catastrophe book — monsoon and convective flooding across Southeast Asia, windstorm exposure in North Asia, and the business interruption that follows. Chronic risk is slower: rising mean temperatures feeding into health, mortality and workers' compensation claims; sea-level rise and coastal flooding affecting property and infrastructure lines in a low-lying city-state. On the asset side, the same hazards sit inside real estate holdings, infrastructure debt and the equities of exposed corporates. The two sides are correlated, and that correlation is precisely what a single reinsurance renewal number hides.",
+        text: "Singapore-based insurers and reinsurers carry physical climate exposure on both sides of the balance sheet and across two time horizons. On the liability side, acute risk is the regional catastrophe book, monsoon and convective flooding across Southeast Asia, windstorm exposure in North Asia, and the business interruption that follows. Chronic risk is slower: rising mean temperatures feeding into health, mortality and workers' compensation claims; sea-level rise and coastal flooding affecting property and infrastructure lines in a low-lying city-state. On the asset side, the same hazards sit inside real estate holdings, infrastructure debt and the equities of exposed corporates. The two sides are correlated, and that correlation is precisely what a single reinsurance renewal number hides.",
       },
       {
         type: "pullquote",
@@ -1695,9 +1695,9 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Accumulation: what is our aggregate exposure to a single flood or windstorm event across all lines and all territories, and how has that number moved over the last five years — not just since the last renewal?",
+          "Accumulation: what is our aggregate exposure to a single flood or windstorm event across all lines and all territories, and how has that number moved over the last five years, not just since the last renewal?",
           "Reinsurance dependency: how much of our capital position depends on reinsurance capacity that reprices annually? What happens to our solvency and our appetite if that capacity contracts, or triples in price, after a bad year in the region?",
-          "Model basis risk: whose catastrophe models are we relying on, what climate conditioning do they assume, and where do we know they are weakest — secondary perils, inland flood, compound events?",
+          "Model basis risk: whose catastrophe models are we relying on, what climate conditioning do they assume, and where do we know they are weakest, secondary perils, inland flood, compound events?",
           "Asset-liability correlation: if a physical event hits our underwriting book, what does it simultaneously do to the value of our property and infrastructure assets? Are we running that as one scenario or two?",
           "Repricing and exit risk: which parts of the book are we assuming we can reprice or walk away from if loss experience deteriorates, and is that assumption realistic given MAS's expectation that we do not withdraw cover indiscriminately?",
           "Protection gap and reputation: where are we effectively the market of last resort, and what is the reputational and political cost of pulling back?",
@@ -1709,11 +1709,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The reinsurance function is very good at what it does: quantifying next year's expected loss and transferring the peak. But it is structurally short-term, because the treaty is annual. It is also structurally narrow, because its job is the liability side, not the correlation with assets or the capital consequences of a hard market. The board's job is the part that falls between functions — the multi-year trajectory, the balance-sheet-wide view, and the strategic choice about which exposures the firm wants to keep underwriting at all. MAS's guidelines push that choice up to the board on purpose.",
+        text: "The reinsurance function is very good at what it does: quantifying next year's expected loss and transferring the peak. But it is structurally short-term, because the treaty is annual. It is also structurally narrow, because its job is the liability side, not the correlation with assets or the capital consequences of a hard market. The board's job is the part that falls between functions, the multi-year trajectory, the balance-sheet-wide view, and the strategic choice about which exposures the firm wants to keep underwriting at all. MAS's guidelines push that choice up to the board on purpose.",
       },
       {
         type: "paragraph",
-        text: "This is also where scenario analysis earns its place. Not the compliance version — a deck showing that a scenario was run — but a genuine exercise where management walks the board through what a plausible bad year in the region does to claims, to reinsurance pricing at the next renewal, to asset values, and to the solvency ratio, all at once. If the board has never seen that connected picture, the scenario analysis is being done for the regulator, not for the board.",
+        text: "This is also where scenario analysis earns its place. Not the compliance version, a deck showing that a scenario was run,but a genuine exercise where management walks the board through what a plausible bad year in the region does to claims, to reinsurance pricing at the next renewal, to asset values, and to the solvency ratio, all at once. If the board has never seen that connected picture, the scenario analysis is being done for the regulator, not for the board.",
       },
       {
         type: "heading",
@@ -1721,21 +1721,21 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Three things, in order. First, ask for the five-year trajectory of your accumulation exposure by peril and territory, not just the current renewal position — the trend is the governance signal, not the point estimate. Second, require at least one scenario each year that connects the underwriting book, the reinsurance programme and the investment portfolio in a single narrative, presented to the full board rather than buried in a risk committee pack. Third, make an explicit strategic decision about physical risk appetite: which exposures the firm intends to keep, grow, reprice or exit over the next three to five years, documented and revisited annually.",
+        text: "Three things, in order. First, ask for the five-year trajectory of your accumulation exposure by peril and territory, not just the current renewal position, the trend is the governance signal, not the point estimate. Second, require at least one scenario each year that connects the underwriting book, the reinsurance programme and the investment portfolio in a single narrative, presented to the full board rather than buried in a risk committee pack. Third, make an explicit strategic decision about physical risk appetite: which exposures the firm intends to keep, grow, reprice or exit over the next three to five years, documented and revisited annually.",
       },
       {
         type: "paragraph",
-        text: "The September 2027 effective date makes this urgent, but it should not be the reason for doing it. Physical climate risk is the one category of climate risk that is already in the numbers — in the claims, in the treaty pricing, in the asset marks. The board's task is not to anticipate a future risk. It is to govern one that is already here, and to stop seeing it through a once-a-year window.",
+        text: "The September 2027 effective date makes this urgent, but it should not be the reason for doing it. Physical climate risk is the one category of climate risk that is already in the numbers, in the claims, in the treaty pricing, in the asset marks. The board's task is not to anticipate a future risk. It is to govern one that is already here, and to stop seeing it through a once-a-year window.",
       },
     ],
     faqs: [
       {
         question: "What does MAS require Singapore insurance boards to do about physical climate risk?",
-        answer: "MAS's Guidelines on Environmental Risk Management – Transition Planning, issued in March 2026 and effective September 2027, require insurers to assess and manage the physical climate risks they and their portfolios face, alongside transition risk. The board and senior management are expected to incorporate these risks into risk appetite, strategy and business plans, and to oversee that the approach is embedded in underwriting and investment practice — not delegated entirely to the reinsurance function.",
+        answer: "MAS's Guidelines on Environmental Risk Management – Transition Planning, issued in March 2026 and effective September 2027, require insurers to assess and manage the physical climate risks they and their portfolios face, alongside transition risk. The board and senior management are expected to incorporate these risks into risk appetite, strategy and business plans, and to oversee that the approach is embedded in underwriting and investment practice, not delegated entirely to the reinsurance function.",
       },
       {
         question: "What is the difference between acute and chronic physical climate risk for an insurer?",
-        answer: "Acute physical risk refers to discrete extreme events — floods, windstorms, and the business interruption that follows — which drive catastrophe claims and reinsurance costs. Chronic physical risk refers to gradual shifts such as rising mean temperatures and sea-level rise, which feed more slowly into health, mortality, property and workers' compensation claims. Singapore insurers carry both, on the underwriting book and inside their investment portfolios.",
+        answer: "Acute physical risk refers to discrete extreme events, floods, windstorms, and the business interruption that follows,which drive catastrophe claims and reinsurance costs. Chronic physical risk refers to gradual shifts such as rising mean temperatures and sea-level rise, which feed more slowly into health, mortality, property and workers' compensation claims. Singapore insurers carry both, on the underwriting book and inside their investment portfolios.",
       },
       {
         question: "Why isn't the reinsurance programme enough to manage physical climate risk?",
@@ -1743,7 +1743,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What physical climate risk scenario analysis should an insurance board see?",
-        answer: "The board should see at least one scenario a year that connects a plausible severe regional event to claims, to reinsurance pricing at the next renewal, to investment asset values, and to the solvency ratio — as a single connected narrative presented to the full board. A scenario deck that only demonstrates a scenario was run is a compliance artefact, not a governance tool.",
+        answer: "The board should see at least one scenario a year that connects a plausible severe regional event to claims, to reinsurance pricing at the next renewal, to investment asset values, and to the solvency ratio, as a single connected narrative presented to the full board. A scenario deck that only demonstrates a scenario was run is a compliance artefact, not a governance tool.",
       },
     ],
   },
@@ -1751,7 +1751,7 @@ export const insights: Insight[] = [
     id: "23",
     title: "What Singapore's Split Sustainability Disclosure Standards Mean for Boards",
     summary:
-      "ACRA's draft Singapore Sustainability Disclosure Standards, out for consultation until 25 October 2026, make the climate standard mandatory and keep the broader sustainability standard voluntary. The risk for boards is reading 'voluntary' as 'not our problem' — when the harder question, materiality, still sits with the board.",
+      "ACRA's draft Singapore Sustainability Disclosure Standards, out for consultation until 25 October 2026, make the climate standard mandatory and keep the broader sustainability standard voluntary. The risk for boards is reading 'voluntary' as 'not our problem', when the harder question, materiality, still sits with the board.",
     category: "ESG",
     readingTime: "3 min read",
     date: "September 2026",
@@ -1768,11 +1768,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "ACRA's draft Singapore Sustainability Disclosure Standards — out for consultation through the REACH portal until 25 October 2026 — formalise a split. The climate-specific standard, SFRS S2, becomes mandatory on a phased timeline. The broader general sustainability standard, SFRS S1, stays voluntary. Both are built on the ISSB's IFRS S1 and S2 with local modifications, but Singapore is deliberately diverging from jurisdictions that switched on both at once.",
+        text: "ACRA's draft Singapore Sustainability Disclosure Standards, out for consultation through the REACH portal until 25 October 2026,formalise a split. The climate-specific standard, SFRS S2, becomes mandatory on a phased timeline. The broader general sustainability standard, SFRS S1, stays voluntary. Both are built on the ISSB's IFRS S1 and S2 with local modifications, but Singapore is deliberately diverging from jurisdictions that switched on both at once.",
       },
       {
         type: "paragraph",
-        text: "I understand the policy logic. ACRA's own chief executive frames this as \"a multi-year journey for both preparers and assurance providers\", and the audit capacity to verify anything wider than climate does not yet exist here — hence the parallel Sustainability Assurance Body of Knowledge to build it. Phasing is sensible.",
+        text: "I understand the policy logic. ACRA's own chief executive frames this as \"a multi-year journey for both preparers and assurance providers\", and the audit capacity to verify anything wider than climate does not yet exist here, hence the parallel Sustainability Assurance Body of Knowledge to build it. Phasing is sensible.",
       },
       {
         type: "paragraph",
@@ -1788,7 +1788,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "What I am telling boards now: run the materiality assessment as if S1 were mandatory, then decide what to disclose. You may still land on climate-only reporting for this cycle — that can be the right call on cost and readiness grounds. But make it a decision the board took with the full picture in view, minuted as such, rather than a default you backed into because the deadline only covered one topic. The consultation closes 25 October; if your company has a view on the pace, that is the window to put it to ACRA.",
+        text: "What I am telling boards now: run the materiality assessment as if S1 were mandatory, then decide what to disclose. You may still land on climate-only reporting for this cycle, that can be the right call on cost and readiness grounds. But make it a decision the board took with the full picture in view, minuted as such, rather than a default you backed into because the deadline only covered one topic. The consultation closes 25 October; if your company has a view on the pace, that is the window to put it to ACRA.",
       },
     ],
     faqs: [
@@ -1805,7 +1805,7 @@ export const insights: Insight[] = [
       {
         question: "What should a board do about voluntary sustainability disclosure?",
         answer:
-          "Treat the mandatory line as a compliance floor, not a materiality judgement. Run a full sustainability materiality assessment, identify which non-climate topics could affect earnings or strategy, and make a documented board decision on what to disclose — rather than defaulting to climate-only reporting because that is the only topic with a filing deadline.",
+          "Treat the mandatory line as a compliance floor, not a materiality judgement. Run a full sustainability materiality assessment, identify which non-climate topics could affect earnings or strategy, and make a documented board decision on what to disclose, rather than defaulting to climate-only reporting because that is the only topic with a filing deadline.",
       },
     ],
   },
@@ -1831,7 +1831,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "MAS Notice 126 — Enterprise Risk Management for Insurers — is the rule that requires every licensed Singapore insurer to run an enterprise risk management framework, set a risk appetite, and perform an Own Risk and Solvency Assessment at least once a year. The ORSA report goes to MAS. Most directors know the Notice exists and know their firm files something under it. Fewer are clear on what it asks of them personally, as distinct from what it asks of the risk function.",
+        text: "MAS Notice 126, Enterprise Risk Management for Insurers,is the rule that requires every licensed Singapore insurer to run an enterprise risk management framework, set a risk appetite, and perform an Own Risk and Solvency Assessment at least once a year. The ORSA report goes to MAS. Most directors know the Notice exists and know their firm files something under it. Fewer are clear on what it asks of them personally, as distinct from what it asks of the risk function.",
       },
       {
         type: "heading",
@@ -1839,16 +1839,16 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Notice 126 is not neutral about where responsibility sits. The board — not the CRO, not a committee operating purely by delegation — owns the ERM framework and the risk appetite. The Notice expects the board to approve them, understand them well enough to challenge them, and satisfy itself that the framework is genuinely operating rather than merely documented. That is a higher bar than receiving an annual paper and noting it.",
+        text: "Notice 126 is not neutral about where responsibility sits. The board, not the CRO, not a committee operating purely by delegation,owns the ERM framework and the risk appetite. The Notice expects the board to approve them, understand them well enough to challenge them, and satisfy itself that the framework is genuinely operating rather than merely documented. That is a higher bar than receiving an annual paper and noting it.",
       },
       {
         type: "list",
         items: [
-          "Approve the ERM framework and the risk appetite statement, and review both at least annually — with enough understanding to push back, not just ratify.",
-          "Ensure the risk appetite is expressed in terms that constrain real decisions — underwriting authority, investment limits, reinsurance retention — not as a page of qualitative sentiment.",
-          "Deliberate the ORSA: its assumptions, its scenarios, and what it implies for strategy and capital planning — and have that deliberation visible in the minutes.",
+          "Approve the ERM framework and the risk appetite statement, and review both at least annually, with enough understanding to push back, not just ratify.",
+          "Ensure the risk appetite is expressed in terms that constrain real decisions, underwriting authority, investment limits, reinsurance retention,not as a page of qualitative sentiment.",
+          "Deliberate the ORSA: its assumptions, its scenarios, and what it implies for strategy and capital planning, and have that deliberation visible in the minutes.",
           "Confirm the ORSA's time horizon matches the business plan's, so the solvency projection and the strategy are describing the same future.",
-          "Own the management actions the ORSA relies on — including the credibility of the actions assumed in a reverse stress scenario.",
+          "Own the management actions the ORSA relies on, including the credibility of the actions assumed in a reverse stress scenario.",
         ],
       },
       {
@@ -1865,7 +1865,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The tell is in the minutes. When MAS and reviewers have examined board papers, they have repeatedly found deliberations that concentrate on the capital number, the pass or fail of the stress tests, and the fact of compliance — and skip the parts that carry the governance value: whether the scenarios are severe enough to be useful, whether the key assumptions still hold, how the results connect to next year's plan, and which emerging risks are not yet in the model at all.",
+        text: "The tell is in the minutes. When MAS and reviewers have examined board papers, they have repeatedly found deliberations that concentrate on the capital number, the pass or fail of the stress tests, and the fact of compliance, and skip the parts that carry the governance value: whether the scenarios are severe enough to be useful, whether the key assumptions still hold, how the results connect to next year's plan, and which emerging risks are not yet in the model at all.",
       },
       {
         type: "heading",
@@ -1878,9 +1878,9 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Missing stress tests. The four mandatory stresses — macroeconomic, material counterparty, liquidity and reserve — must all be performed. Some insurers had dropped one or more on immateriality grounds. MAS's position: run all four, and calibrate the depth to the size and complexity of the business rather than skipping the scenario.",
+          "Missing stress tests. The four mandatory stresses, macroeconomic, material counterparty, liquidity and reserve,must all be performed. Some insurers had dropped one or more on immateriality grounds. MAS's position: run all four, and calibrate the depth to the size and complexity of the business rather than skipping the scenario.",
           "Group ORSA used as a substitute. Where a firm relies on a group ORSA, the stress tests still have to be tailored to the Singapore legal entity. A group-level result is not a Singapore result.",
-          "Generic counterparty stress. For the material counterparty scenario, MAS expects named counterparties and an assessment of those specific exposures — not a blanket uplift to incurred claims.",
+          "Generic counterparty stress. For the material counterparty scenario, MAS expects named counterparties and an assessment of those specific exposures, not a blanket uplift to incurred claims.",
           "Reverse stress testing treated as optional. It is required even where the failure scenario is remote, because the point is to identify the plausible paths to failure and to test whether the management actions relied on are credible.",
         ],
       },
@@ -1904,14 +1904,14 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Notice 126 has been in force in its current shape since 2023, and the ORSA requirement is older than that. The bar is not moving. What MAS has made clear this year is that it is reading the submissions closely, and that it can tell the difference between an ORSA a board has engaged with and one it has waved through. For a Singapore insurance director, the Notice is not a compliance obligation that lives with the risk function. It is a description of work the board is expected to do — and, increasingly, to show that it did.",
+        text: "Notice 126 has been in force in its current shape since 2023, and the ORSA requirement is older than that. The bar is not moving. What MAS has made clear this year is that it is reading the submissions closely, and that it can tell the difference between an ORSA a board has engaged with and one it has waved through. For a Singapore insurance director, the Notice is not a compliance obligation that lives with the risk function. It is a description of work the board is expected to do, and, increasingly, to show that it did.",
       },
     ],
     faqs: [
       {
         question: "What does MAS Notice 126 require of an insurance company's board?",
         answer:
-          "Notice 126 requires the board of a licensed Singapore insurer to approve and oversee the enterprise risk management framework and the risk appetite statement, review both at least annually, and actively deliberate the annual Own Risk and Solvency Assessment (ORSA) — including its assumptions, scenarios and implications for strategy and capital. These responsibilities sit with the board itself and are not discharged by delegation to the risk function alone.",
+          "Notice 126 requires the board of a licensed Singapore insurer to approve and oversee the enterprise risk management framework and the risk appetite statement, review both at least annually, and actively deliberate the annual Own Risk and Solvency Assessment (ORSA), including its assumptions, scenarios and implications for strategy and capital. These responsibilities sit with the board itself and are not discharged by delegation to the risk function alone.",
       },
       {
         question: "What is the ORSA under MAS Notice 126?",
@@ -1934,7 +1934,7 @@ export const insights: Insight[] = [
     id: "25",
     title: "What the ACRA–SID Director Training Partnership Means for Singapore Boards",
     summary:
-      "ACRA and the Singapore Institute of Directors signed an MoU on 28 August 2026 to launch Company Director Fundamentals — six complimentary modules and four paid ones on directors' legal and governance duties, with registration opening in October. It raises the floor. It does not answer the question that actually catches boards out: whether the board has the wiring to discharge the duties it has been taught.",
+      "ACRA and the Singapore Institute of Directors signed an MoU on 28 August 2026 to launch Company Director Fundamentals, six complimentary modules and four paid ones on directors' legal and governance duties, with registration opening in October. It raises the floor. It does not answer the question that actually catches boards out: whether the board has the wiring to discharge the duties it has been taught.",
     category: "Governance",
     readingTime: "3 min read",
     date: "September 2026",
@@ -1955,7 +1955,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "I think this is overdue and worth having. For years the serious director education in Singapore has been SID's own courses, priced and pitched at people already sitting on listed boards. A free first tier changes who can walk in — the director of a mid-sized private company, the first-time appointee, the family-business successor who has never had the duties laid out plainly. Standardising that baseline is a real public good.",
+        text: "I think this is overdue and worth having. For years the serious director education in Singapore has been SID's own courses, priced and pitched at people already sitting on listed boards. A free first tier changes who can walk in, the director of a mid-sized private company, the first-time appointee, the family-business successor who has never had the duties laid out plainly. Standardising that baseline is a real public good.",
       },
       {
         type: "pullquote",
@@ -1968,14 +1968,14 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "An induction that maps the real escalation path — who sees a material risk first, and how many hand-offs it passes through before it reaches a director.",
+          "An induction that maps the real escalation path, who sees a material risk first, and how many hand-offs it passes through before it reaches a director.",
           "A standing agenda item where management brings the risk it is least comfortable discussing, not the one that presents best.",
-          "A board evaluation that tests whether directors can challenge a model or a capital assumption — not just whether meetings run to time.",
+          "A board evaluation that tests whether directors can challenge a model or a capital assumption, not just whether meetings run to time.",
         ],
       },
       {
         type: "paragraph",
-        text: "So take the CDF modules — CDF 101 in particular, there is no reason not to. Then ask the question the certificate cannot answer for you: when this board is handed something uncomfortable, does the information reach us intact, and are we set up to do anything with it?",
+        text: "So take the CDF modules, CDF 101 in particular, there is no reason not to. Then ask the question the certificate cannot answer for you: when this board is handed something uncomfortable, does the information reach us intact, and are we set up to do anything with it?",
       },
     ],
     faqs: [
@@ -2000,7 +2000,7 @@ export const insights: Insight[] = [
     id: "26",
     title: "Why Your Singapore Risk Appetite Framework Is Not Influencing Any Decisions",
     summary:
-      "Most Singapore risk appetite frameworks are technically complete and operationally inert — approved by the board, filed with MAS, and absent from every decision that matters. As a statutory CRO I signed off on a few of them. Here is how to tell whether yours is doing any work, and how to wire it back into the underwriting, investment and capital decisions it was built for.",
+      "Most Singapore risk appetite frameworks are technically complete and operationally inert, approved by the board, filed with MAS, and absent from every decision that matters. As a statutory CRO I signed off on a few of them. Here is how to tell whether yours is doing any work, and how to wire it back into the underwriting, investment and capital decisions it was built for.",
     category: "Enterprise Risk",
     readingTime: "9 min read",
     date: "September 2026",
@@ -2014,7 +2014,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "As a statutory chief risk officer I once presented the annual risk appetite refresh to a board risk committee. Twenty-two metrics, each with a green, amber or red band, all green bar one amber on operational losses. It was approved in about six minutes. Later in the same meeting the committee approved a reinsurance restructuring that materially changed the tail of the book — and nobody put the two items in the same sentence. The framework and the decision lived on different pages of the same pack.",
+        text: "As a statutory chief risk officer I once presented the annual risk appetite refresh to a board risk committee. Twenty-two metrics, each with a green, amber or red band, all green bar one amber on operational losses. It was approved in about six minutes. Later in the same meeting the committee approved a reinsurance restructuring that materially changed the tail of the book, and nobody put the two items in the same sentence. The framework and the decision lived on different pages of the same pack.",
       },
       {
         type: "heading",
@@ -2022,7 +2022,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Here is the diagnostic I give every board. Point to one decision in the last twelve months that went differently because of a risk appetite limit. A deal repriced. A line that was not allowed to grow. An investment allocation pulled back. A reinsurance retention set where it was because the net position would otherwise have breached tolerance. If nobody in the room can name one, the framework is documentation, not governance — no matter how sophisticated the metrics look.",
+        text: "Here is the diagnostic I give every board. Point to one decision in the last twelve months that went differently because of a risk appetite limit. A deal repriced. A line that was not allowed to grow. An investment allocation pulled back. A reinsurance retention set where it was because the net position would otherwise have breached tolerance. If nobody in the room can name one, the framework is documentation, not governance, no matter how sophisticated the metrics look.",
       },
       {
         type: "paragraph",
@@ -2040,7 +2040,7 @@ export const insights: Insight[] = [
         type: "list",
         items: [
           "The metrics measure outcomes, not decisions. \"Solvency ratio above X\" tells you the result after everything has been decided. It gives an underwriter or a portfolio manager nothing to act on at the moment of the decision.",
-          "Tolerances are set where the business already sits. If every limit was calibrated to current exposure plus headroom, the framework will never bind — by construction.",
+          "Tolerances are set where the business already sits. If every limit was calibrated to current exposure plus headroom, the framework will never bind, by construction.",
           "No owner below the CRO. If a metric goes amber and the only consequence is a paragraph in the next quarterly report, nobody has to do anything by any date.",
           "Qualitative statements with no teeth. \"We have a low appetite for reputational risk\" is not a constraint. It cannot be breached, so it cannot bite.",
           "The framework and the business plan are built separately. The plan assumes growth the appetite would not permit, and the two are never reconciled because different people own them on different timelines.",
@@ -2057,10 +2057,10 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Fewer metrics, each tied to a lever. Not twenty-two — closer to eight, and every one maps to something a person can actually pull: underwriting authority, per-risk and per-catastrophe limits, asset allocation ranges, reinsurance retention, counterparty concentration.",
+          "Fewer metrics, each tied to a lever. Not twenty-two, closer to eight, and every one maps to something a person can actually pull: underwriting authority, per-risk and per-catastrophe limits, asset allocation ranges, reinsurance retention, counterparty concentration.",
           "Cascaded into delegated authorities. The board's appetite is translated into the underwriting guidelines, the investment mandate and the delegations of authority, so a front-line decision-maker is working inside it without having to read the risk appetite statement.",
-          "A defined response to amber and red. Each threshold has a named owner and a required action within a set time — reprice, de-risk, bring a paper, escalate. Not \"monitor\".",
-          "Reviewed when the strategy changes, not only once a year. A new product, an acquisition, a shift in asset mix — each should trigger the question \"does this fit our stated appetite\" before the decision, not in the following year's refresh.",
+          "A defined response to amber and red. Each threshold has a named owner and a required action within a set time, reprice, de-risk, bring a paper, escalate. Not \"monitor\".",
+          "Reviewed when the strategy changes, not only once a year. A new product, an acquisition, a shift in asset mix, each should trigger the question \"does this fit our stated appetite\" before the decision, not in the following year's refresh.",
           "Visible in management papers. The investment committee paper references the asset-risk tolerance; the underwriting forum references the catastrophe limit. If risk appetite appears only in board-level documents, it is not operational.",
         ],
       },
@@ -2074,7 +2074,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The board's job here is narrow and specific. Not to write the metrics, but to ask whether they bind. When the CRO presents the annual refresh, the question is not \"are we within appetite\" — it is \"show me where this framework changed what we did\".",
+        text: "The board's job here is narrow and specific. Not to write the metrics, but to ask whether they bind. When the CRO presents the annual refresh, the question is not \"are we within appetite\", it is \"show me where this framework changed what we did\".",
       },
       {
         type: "heading",
@@ -2104,7 +2104,7 @@ export const insights: Insight[] = [
       {
         question: "How do you know if a risk appetite framework is working?",
         answer:
-          "Name one decision in the last twelve months that went differently because of a risk appetite limit — a deal repriced, a line capped, an allocation trimmed, a reinsurance retention set to stay within tolerance. If no one can point to such a decision, the framework is functioning as a reporting artefact rather than a governance tool, however detailed its metrics.",
+          "Name one decision in the last twelve months that went differently because of a risk appetite limit, a deal repriced, a line capped, an allocation trimmed, a reinsurance retention set to stay within tolerance. If no one can point to such a decision, the framework is functioning as a reporting artefact rather than a governance tool, however detailed its metrics.",
       },
       {
         question: "What does MAS Notice 126 require on risk appetite?",
@@ -2114,7 +2114,7 @@ export const insights: Insight[] = [
       {
         question: "How many metrics should a risk appetite statement have?",
         answer:
-          "There is no fixed number, but frameworks that influence decisions tend to be tighter — often around eight core measures, each mapped to a specific lever such as underwriting authority, catastrophe limits, asset allocation ranges or reinsurance retention. Long lists of outcome measures such as the solvency ratio tend to describe results after decisions have been made rather than guide them.",
+          "There is no fixed number, but frameworks that influence decisions tend to be tighter, often around eight core measures, each mapped to a specific lever such as underwriting authority, catastrophe limits, asset allocation ranges or reinsurance retention. Long lists of outcome measures such as the solvency ratio tend to describe results after decisions have been made rather than guide them.",
       },
     ],
   },
@@ -2132,11 +2132,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Singapore Exchange has confirmed that Lim Chin Hu will have served nine years on its board as of 21 September 2026, and that under the SGX RegCo tenure rule he will be treated as a non-independent, non-executive director from that date. He had already stepped down as chair of the Remuneration & Staff Development Committee in June, and he stays on the Nominating & Governance Committee and the Risk Management Committee — with SGX stating that independence composition requirements on both are still satisfied.",
+        text: "Singapore Exchange has confirmed that Lim Chin Hu will have served nine years on its board as of 21 September 2026, and that under the SGX RegCo tenure rule he will be treated as a non-independent, non-executive director from that date. He had already stepped down as chair of the Remuneration & Staff Development Committee in June, and he stays on the Nominating & Governance Committee and the Risk Management Committee, with SGX stating that independence composition requirements on both are still satisfied.",
       },
       {
         type: "paragraph",
-        text: "I have sat on the other side of exactly this calculation — mapping out, eighteen months before a director's ninth anniversary, which committees would tip out of compliance and who would need to be recruited, onboarded and up to speed before the clock ran out. What strikes me about the SGX announcement is not the reclassification itself. It is that the transition was staged: one committee chairmanship handed over in June, full reclassification landing in September, remaining seats confirmed as still compliant. That is what the rule working as intended looks like.",
+        text: "I have sat on the other side of exactly this calculation, mapping out, eighteen months before a director's ninth anniversary, which committees would tip out of compliance and who would need to be recruited, onboarded and up to speed before the clock ran out. What strikes me about the SGX announcement is not the reclassification itself. It is that the transition was staged: one committee chairmanship handed over in June, full reclassification landing in September, remaining seats confirmed as still compliant. That is what the rule working as intended looks like.",
       },
       {
         type: "heading",
@@ -2144,15 +2144,15 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "SGX RegCo capped independent director tenure at nine years back in 2022, with transitional arrangements for directors already past that mark. Three-plus years on, I still see boards treat the cap as something that happens to an individual director rather than something that happens to a committee's composition. The nominating committee tracks tenure against a spreadsheet, someone flags an upcoming anniversary, and the conversation starts about six months out — usually framed as \"do we renew this director's independence narrative\" rather than \"what does our audit or risk committee look like the day this seat changes category.\"",
+        text: "SGX RegCo capped independent director tenure at nine years back in 2022, with transitional arrangements for directors already past that mark. Three-plus years on, I still see boards treat the cap as something that happens to an individual director rather than something that happens to a committee's composition. The nominating committee tracks tenure against a spreadsheet, someone flags an upcoming anniversary, and the conversation starts about six months out, usually framed as \"do we renew this director's independence narrative\" rather than \"what does our audit or risk committee look like the day this seat changes category.\"",
       },
       {
         type: "pullquote",
-        text: "A tenure cap is not a director-level event. It is a committee-composition event, and it should be planned as one — with a successor identified before the incumbent's independence status changes, not after.",
+        text: "A tenure cap is not a director-level event. It is a committee-composition event, and it should be planned as one, with a successor identified before the incumbent's independence status changes, not after.",
       },
       {
         type: "paragraph",
-        text: "The reason this matters more for risk and audit committees than for the board as a whole is that SGX listing rules and the Code of Corporate Governance set minimum independence thresholds for those specific committees, not just for the board in aggregate. A board can carry one long-tenured, newly non-independent director comfortably. A three-person risk committee cannot carry the same director if his reclassification drops independent representation below the required majority. That is a compliance breach discovered on an anniversary date, not a governance failure discovered through vigilance — and it is entirely avoidable with an eighteen-month runway.",
+        text: "The reason this matters more for risk and audit committees than for the board as a whole is that SGX listing rules and the Code of Corporate Governance set minimum independence thresholds for those specific committees, not just for the board in aggregate. A board can carry one long-tenured, newly non-independent director comfortably. A three-person risk committee cannot carry the same director if his reclassification drops independent representation below the required majority. That is a compliance breach discovered on an anniversary date, not a governance failure discovered through vigilance, and it is entirely avoidable with an eighteen-month runway.",
       },
       {
         type: "heading",
@@ -2161,15 +2161,15 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Map every committee's independence math against each director's individual anniversary date — not just the board's, the committee's",
+          "Map every committee's independence math against each director's individual anniversary date, not just the board's, the committee's",
           "Identify, at least twelve months out, which committee seats become non-compliant on that date if no successor is recruited",
           "Recruit and onboard the successor while the incumbent is still active on the committee, so institutional knowledge transfers before the seat changes hands",
-          "Stage the transition — chairmanship first, full committee membership second — the way SGX Group did with its June and September changes",
+          "Stage the transition, chairmanship first, full committee membership second,the way SGX Group did with its June and September changes",
         ],
       },
       {
         type: "paragraph",
-        text: "If your board is relying on a single tenure-tracking line item reviewed once a year at the nominating committee, you are managing this reactively. The fix is not complicated — it is a standing agenda item, cross-referenced against every committee charter's independence requirement, reviewed at least annually with an eighteen-month forward window. Boards that get this right never have a Lim Chin Hu moment that looks like a scramble. They have one that looks like SGX's: staged, disclosed calmly, and unremarkable.",
+        text: "If your board is relying on a single tenure-tracking line item reviewed once a year at the nominating committee, you are managing this reactively. The fix is not complicated, it is a standing agenda item, cross-referenced against every committee charter's independence requirement, reviewed at least annually with an eighteen-month forward window. Boards that get this right never have a Lim Chin Hu moment that looks like a scramble. They have one that looks like SGX's: staged, disclosed calmly, and unremarkable.",
       },
     ],
   },
@@ -2187,11 +2187,11 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "Early in my time as a statutory Chief Risk Officer, I presented the same twelve-page risk register to the board risk committee for three consecutive quarters. The heat map colours shifted slightly each time. Nobody asked a different question. It took a new independent director joining the committee — someone with no prior exposure to the deck — to ask, in her first meeting, \"which two of these fifteen risks would actually change what we do next quarter?\" That single question did more to reshape how the committee worked than the previous eighteen months of reporting had.",
+        text: "Early in my time as a statutory Chief Risk Officer, I presented the same twelve-page risk register to the board risk committee for three consecutive quarters. The heat map colours shifted slightly each time. Nobody asked a different question. It took a new independent director joining the committee, someone with no prior exposure to the deck,to ask, in her first meeting, \"which two of these fifteen risks would actually change what we do next quarter?\" That single question did more to reshape how the committee worked than the previous eighteen months of reporting had.",
       },
       {
         type: "paragraph",
-        text: "I have since sat on the other side of that table, advising boards on how their risk committees are structured, and the pattern repeats across almost every Singapore-listed company I have worked with: a committee that meets its statutory obligations, reviews a comprehensive risk register, and has almost no measurable effect on how the business actually makes decisions. That gap — between a compliant committee and an influential one — is the real subject of this piece.",
+        text: "I have since sat on the other side of that table, advising boards on how their risk committees are structured, and the pattern repeats across almost every Singapore-listed company I have worked with: a committee that meets its statutory obligations, reviews a comprehensive risk register, and has almost no measurable effect on how the business actually makes decisions. That gap, between a compliant committee and an influential one,is the real subject of this piece.",
       },
       {
         type: "heading",
@@ -2199,11 +2199,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The first is scope confusion with the audit committee. Many Singapore-listed companies, particularly outside the financial sector, still run a combined audit and risk committee. That is permitted under the Code of Corporate Governance, but it is workable only when the committee agenda genuinely splits time and mindset between the two. In practice I have watched risk items get fifteen minutes at the end of a two-hour audit committee meeting that has already run long, discussed by directors whose entire prior conversation was about controls testing and financial statement assurance — a completely different cognitive mode from forward-looking risk judgement.",
+        text: "The first is scope confusion with the audit committee. Many Singapore-listed companies, particularly outside the financial sector, still run a combined audit and risk committee. That is permitted under the Code of Corporate Governance, but it is workable only when the committee agenda genuinely splits time and mindset between the two. In practice I have watched risk items get fifteen minutes at the end of a two-hour audit committee meeting that has already run long, discussed by directors whose entire prior conversation was about controls testing and financial statement assurance, a completely different cognitive mode from forward-looking risk judgement.",
       },
       {
         type: "paragraph",
-        text: "The second is a register that reports risk instead of a committee that governs it. A comprehensive risk register with fifteen to twenty-five entries, each rated on likelihood and impact, is a management tool. It is not a board tool, and treating it as one is why so many risk committee meetings feel like a status update rather than a discussion. The committee's job is not to read the register — it is to decide which handful of risks are material enough to warrant board-level attention this quarter, and to interrogate management's judgement on exactly those.",
+        text: "The second is a register that reports risk instead of a committee that governs it. A comprehensive risk register with fifteen to twenty-five entries, each rated on likelihood and impact, is a management tool. It is not a board tool, and treating it as one is why so many risk committee meetings feel like a status update rather than a discussion. The committee's job is not to read the register, it is to decide which handful of risks are material enough to warrant board-level attention this quarter, and to interrogate management's judgement on exactly those.",
       },
       {
         type: "pullquote",
@@ -2211,7 +2211,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The third failure mode is committee composition that does not match the company's actual risk profile. I have reviewed risk committees at insurers and financial institutions where not a single member had underwriting, actuarial or treasury experience, and risk committees at technology and consumer businesses where cyber and data risk — arguably the company's largest single exposure — had no directorial expertise represented at all. Independence and financial literacy are necessary; they are not sufficient. A risk committee needs at least one member who can ask a genuinely informed follow-up question on the company's dominant risk category, not just a well-run process for the rest.",
+        text: "The third failure mode is committee composition that does not match the company's actual risk profile. I have reviewed risk committees at insurers and financial institutions where not a single member had underwriting, actuarial or treasury experience, and risk committees at technology and consumer businesses where cyber and data risk, arguably the company's largest single exposure,had no directorial expertise represented at all. Independence and financial literacy are necessary; they are not sufficient. A risk committee needs at least one member who can ask a genuinely informed follow-up question on the company's dominant risk category, not just a well-run process for the rest.",
       },
       {
         type: "heading",
@@ -2219,21 +2219,21 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "For MAS-regulated insurers, this is not optional — MAS's own reviews of ORSA reports have repeatedly found that board minutes document discussion of capital adequacy and stress test results but are silent on whether the board actually debated the plausibility of scenarios or the connection between risk appetite and business strategy. The same gap shows up in listed non-financial companies, just without a regulator naming it in a public report.",
+        text: "For MAS-regulated insurers, this is not optional, MAS's own reviews of ORSA reports have repeatedly found that board minutes document discussion of capital adequacy and stress test results but are silent on whether the board actually debated the plausibility of scenarios or the connection between risk appetite and business strategy. The same gap shows up in listed non-financial companies, just without a regulator naming it in a public report.",
       },
       {
         type: "list",
         items: [
-          "Set a standing agenda structure of three to five material risks per meeting, chosen in advance by the CRO or risk owner in consultation with the committee chair — not the full register",
+          "Set a standing agenda structure of three to five material risks per meeting, chosen in advance by the CRO or risk owner in consultation with the committee chair, not the full register",
           "Require every material risk item to state explicitly which decision, limit or business unit it connects to, not just its likelihood and impact score",
           "Match at least one committee member's expertise to the company's single largest risk category, even if that means recruiting for it specifically",
-          "Separate risk from audit on the agenda even in a combined committee — a hard time allocation, not a courtesy at the end",
-          "Ask the CRO, at least once a year, to bring the committee a risk that was assessed and judged not material — the negative case is often more revealing of judgement quality than the positive one",
+          "Separate risk from audit on the agenda even in a combined committee, a hard time allocation, not a courtesy at the end",
+          "Ask the CRO, at least once a year, to bring the committee a risk that was assessed and judged not material, the negative case is often more revealing of judgement quality than the positive one",
         ],
       },
       {
         type: "paragraph",
-        text: "The SGX Group board tenure changes I wrote about separately this month are a useful adjacent example — Lim Chin Hu retained his seat on SGX's Risk Management Committee even after losing independent status, because the board had already confirmed the committee's independence composition remained compliant without him counted as independent. That is forward planning applied to committee composition. The same discipline — knowing exactly what expertise and independence math a risk committee needs before a vacancy or reclassification forces the question — is what separates a risk committee built to survive an audit from one built to actually change outcomes.",
+        text: "The SGX Group board tenure changes I wrote about separately this month are a useful adjacent example, Lim Chin Hu retained his seat on SGX's Risk Management Committee even after losing independent status, because the board had already confirmed the committee's independence composition remained compliant without him counted as independent. That is forward planning applied to committee composition. The same discipline, knowing exactly what expertise and independence math a risk committee needs before a vacancy or reclassification forces the question, is what separates a risk committee built to survive an audit from one built to actually change outcomes.",
       },
       {
         type: "paragraph",
@@ -2244,7 +2244,7 @@ export const insights: Insight[] = [
       {
         question: "What should a board risk committee in Singapore actually focus on each meeting?",
         answer:
-          "Three to five material risks chosen in advance, each tied explicitly to a decision, limit or business unit — not a full walkthrough of the risk register. The committee's value comes from depth on a small number of items, not breadth across all of them.",
+          "Three to five material risks chosen in advance, each tied explicitly to a decision, limit or business unit, not a full walkthrough of the risk register. The committee's value comes from depth on a small number of items, not breadth across all of them.",
       },
       {
         question: "Can a Singapore-listed company combine its audit and risk committees?",
@@ -2254,7 +2254,7 @@ export const insights: Insight[] = [
       {
         question: "Who should sit on a board risk committee for an MAS-regulated insurer?",
         answer:
-          "At minimum, members with the financial literacy to interrogate an ORSA report, plus at least one director with underwriting, actuarial or treasury depth relevant to the insurer's specific risk profile. MAS reviews have found that board minutes often show discussion of capital adequacy figures but little evidence of debate on scenario plausibility or the link between risk appetite and strategy — composition gaps are a common root cause.",
+          "At minimum, members with the financial literacy to interrogate an ORSA report, plus at least one director with underwriting, actuarial or treasury depth relevant to the insurer's specific risk profile. MAS reviews have found that board minutes often show discussion of capital adequacy figures but little evidence of debate on scenario plausibility or the link between risk appetite and strategy, composition gaps are a common root cause.",
       },
     ],
   },
@@ -2262,7 +2262,7 @@ export const insights: Insight[] = [
     id: "29",
     title: "What Parliament's question on emissions data accuracy means for Singapore boards",
     summary:
-      "A written parliamentary reply this year confirmed that mandatory external assurance on Scope 1 and Scope 2 emissions disclosures by Singapore-listed companies does not begin until FY2029. Until then, board oversight is the primary control over whether reported emissions figures are accurate — a responsibility, not a reassurance.",
+      "A written parliamentary reply this year confirmed that mandatory external assurance on Scope 1 and Scope 2 emissions disclosures by Singapore-listed companies does not begin until FY2029. Until then, board oversight is the primary control over whether reported emissions figures are accurate, a responsibility, not a reassurance.",
     category: "ESG",
     readingTime: "4 min read",
     date: "September 2026",
@@ -2276,7 +2276,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Mr Dennis Tan asked what ACRA and SGX RegCo have put in place to ensure the accuracy and reliability of Scope 1 and Scope 2 greenhouse gas emissions disclosures by listed companies from FY2025, given that mandatory external limited assurance on those disclosures is only required from FY2029. The reply, from Mr Gan Kim Yong as Chairman of MAS, pointed to the machinery already in place: the Greenhouse Gas Protocol as the required measurement standard, disclosure of measurement approaches, inputs and assumptions, internal review of reporting processes, and — his words — appropriate board oversight on all their disclosures. He also noted that reporting rates have climbed from around 50 to 87 per cent for Scope 1, and 61 to 93 per cent for Scope 2, between 2023 and 2025.",
+        text: "Mr Dennis Tan asked what ACRA and SGX RegCo have put in place to ensure the accuracy and reliability of Scope 1 and Scope 2 greenhouse gas emissions disclosures by listed companies from FY2025, given that mandatory external limited assurance on those disclosures is only required from FY2029. The reply, from Mr Gan Kim Yong as Chairman of MAS, pointed to the machinery already in place: the Greenhouse Gas Protocol as the required measurement standard, disclosure of measurement approaches, inputs and assumptions, internal review of reporting processes, and, his words,appropriate board oversight on all their disclosures. He also noted that reporting rates have climbed from around 50 to 87 per cent for Scope 1, and 61 to 93 per cent for Scope 2, between 2023 and 2025.",
       },
       {
         type: "heading",
@@ -2284,7 +2284,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Those reporting-rate numbers are real progress, and I do not want to be dismissive of them. But they measure whether a company disclosed a figure, not whether the figure is right. Between now and FY2029 — four full reporting cycles — boards are approving emissions data that no external assurer will examine. The reply is explicit that the control in the interim is the company's own processes and its board. That is a responsibility being placed on directors, not a comfort being offered to them.",
+        text: "Those reporting-rate numbers are real progress, and I do not want to be dismissive of them. But they measure whether a company disclosed a figure, not whether the figure is right. Between now and FY2029, four full reporting cycles,boards are approving emissions data that no external assurer will examine. The reply is explicit that the control in the interim is the company's own processes and its board. That is a responsibility being placed on directors, not a comfort being offered to them.",
       },
       {
         type: "pullquote",
@@ -2297,22 +2297,22 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Who owns the emissions calculation, and have they walked the committee through the boundary decisions — which legal entities, which sites, which activities are in and out, and why?",
+          "Who owns the emissions calculation, and have they walked the committee through the boundary decisions, which legal entities, which sites, which activities are in and out, and why?",
           "Where are the estimates, and how large are they? A number built on supplier averages and extrapolation is not the same as one built on metered data, and the report rarely makes the difference visible.",
           "What changed since last year, and is the change operational or methodological? A 12 per cent fall driven by a new emissions factor is not a 12 per cent decarbonisation, and should not be presented as one.",
-          "If this figure were assured today, where would the assurer push back first — and can we answer that now, or are we hoping to have three years to work it out?",
+          "If this figure were assured today, where would the assurer push back first, and can we answer that now, or are we hoping to have three years to work it out?",
         ],
       },
       {
         type: "paragraph",
-        text: "The FY2029 assurance deadline is being treated in some boardrooms as the date the emissions numbers start to matter. It is the opposite. It is the date someone outside the building starts checking them. Until then, the accuracy of what a Singapore-listed company reports about its emissions is governed entirely by its own management and its own board — and, in too many cases I have seen, by a committee that gives it ten minutes at the end of a long agenda.",
+        text: "The FY2029 assurance deadline is being treated in some boardrooms as the date the emissions numbers start to matter. It is the opposite. It is the date someone outside the building starts checking them. Until then, the accuracy of what a Singapore-listed company reports about its emissions is governed entirely by its own management and its own board, and, in too many cases I have seen, by a committee that gives it ten minutes at the end of a long agenda.",
       },
     ],
     faqs: [
       {
         question: "Do Singapore-listed companies need external assurance on Scope 1 and Scope 2 emissions before FY2029?",
         answer:
-          "No. Mandatory external limited assurance on Scope 1 and Scope 2 greenhouse gas emissions applies to listed issuers only from FY2029. For FY2025 to FY2028 disclosures the safeguards are the Greenhouse Gas Protocol measurement standard, disclosure of methods and assumptions, internal review of reporting processes, and board oversight — there is no independent third-party check in that window.",
+          "No. Mandatory external limited assurance on Scope 1 and Scope 2 greenhouse gas emissions applies to listed issuers only from FY2029. For FY2025 to FY2028 disclosures the safeguards are the Greenhouse Gas Protocol measurement standard, disclosure of methods and assumptions, internal review of reporting processes, and board oversight, there is no independent third-party check in that window.",
       },
       {
         question: "What is the board's responsibility for emissions disclosure accuracy in Singapore?",
@@ -2330,7 +2330,7 @@ export const insights: Insight[] = [
     id: "30",
     title: "AI governance in Singapore insurance: what MAS expects, what boards miss",
     summary:
-      "MAS has set clear supervisory expectations for how insurers govern, test and monitor AI. In the boardrooms I sit in, the effort goes into mapping the guidelines clause by clause — when the harder and more useful work is building an inventory of where the insurer already uses AI, and owning the third-party models, drift and human oversight that inventory exposes.",
+      "MAS has set clear supervisory expectations for how insurers govern, test and monitor AI. In the boardrooms I sit in, the effort goes into mapping the guidelines clause by clause, when the harder and more useful work is building an inventory of where the insurer already uses AI, and owning the third-party models, drift and human oversight that inventory exposes.",
     category: "Technology Risk",
     readingTime: "8 min read",
     date: "September 2026",
@@ -2344,7 +2344,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "MAS consulted on its Guidelines on AI Risk Management from November 2025 to January 2026, and followed in March 2026 with an industry toolkit built alongside two dozen banks and insurers. This is not a new regime bolted onto insurance regulation. It sets out how a financial institution is expected to govern, test, monitor and manage AI across its whole life cycle — from board and senior management oversight through data management, fairness, transparency and human oversight — scaled to the size and nature of what the institution actually does. MAS has proposed a twelve-month runway from issuance to implementation.",
+        text: "MAS consulted on its Guidelines on AI Risk Management from November 2025 to January 2026, and followed in March 2026 with an industry toolkit built alongside two dozen banks and insurers. This is not a new regime bolted onto insurance regulation. It sets out how a financial institution is expected to govern, test, monitor and manage AI across its whole life cycle, from board and senior management oversight through data management, fairness, transparency and human oversight,scaled to the size and nature of what the institution actually does. MAS has proposed a twelve-month runway from issuance to implementation.",
       },
       {
         type: "pullquote",
@@ -2364,7 +2364,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "In most of the boardrooms I have sat in, the instinct is to treat the guidelines as a mapping exercise: line up each clause against an existing policy, note the gaps, ask management for a remediation plan, move on. That produces a tidy paper. It does not produce governance. The mapping approach assumes the hard part is knowing what the regulator wants. The hard part is knowing what your own business is already doing — and a clause-by-clause review will not tell you that, because it starts from the regulation rather than from the company.",
+        text: "In most of the boardrooms I have sat in, the instinct is to treat the guidelines as a mapping exercise: line up each clause against an existing policy, note the gaps, ask management for a remediation plan, move on. That produces a tidy paper. It does not produce governance. The mapping approach assumes the hard part is knowing what the regulator wants. The hard part is knowing what your own business is already doing, and a clause-by-clause review will not tell you that, because it starts from the regulation rather than from the company.",
       },
       {
         type: "heading",
@@ -2397,12 +2397,12 @@ export const insights: Insight[] = [
       {
         question: "What does MAS expect from insurers on AI governance?",
         answer:
-          "MAS's Guidelines on AI Risk Management set supervisory expectations for how insurers and other financial institutions govern, test, monitor and manage AI across its full life cycle — including board and senior management oversight, data management, fairness, explainability and human oversight — scaled to the size and nature of the institution. MAS consulted on the guidelines between November 2025 and January 2026 and has proposed a twelve-month implementation period after they are issued.",
+          "MAS's Guidelines on AI Risk Management set supervisory expectations for how insurers and other financial institutions govern, test, monitor and manage AI across its full life cycle, including board and senior management oversight, data management, fairness, explainability and human oversight,scaled to the size and nature of the institution. MAS consulted on the guidelines between November 2025 and January 2026 and has proposed a twelve-month implementation period after they are issued.",
       },
       {
         question: "How is AI governance different from existing model risk management for a Singapore insurer?",
         answer:
-          "For pricing and reserving models built in-house, the expectations are largely an extension of the model risk governance actuaries already know: inventory, pre-deployment assessment, post-deployment monitoring and accountable human ownership. The genuinely new elements are generative AI, autonomous AI agents, and the rising share of models supplied by third-party vendors — where the insurer still carries governance responsibility even though it did not build the model.",
+          "For pricing and reserving models built in-house, the expectations are largely an extension of the model risk governance actuaries already know: inventory, pre-deployment assessment, post-deployment monitoring and accountable human ownership. The genuinely new elements are generative AI, autonomous AI agents, and the rising share of models supplied by third-party vendors, where the insurer still carries governance responsibility even though it did not build the model.",
       },
       {
         question: "What is the difference between MAS's AI Risk Management Guidelines and Singapore's Model AI Governance Framework?",
@@ -2415,7 +2415,7 @@ export const insights: Insight[] = [
     id: "31",
     title: "What MAS's stablecoin reserve rules ask of the boards that will run them",
     summary:
-      "On 1 September 2026 MAS published draft Payment Services Act amendments requiring single-currency stablecoin issuers to hold reserves at least equal to par value, redeem on demand in the pegged currency, and pay no yield. Strip out the crypto vocabulary and this is an insurance balance sheet — and it needs a board that can govern a promise to pay a fixed amount on demand.",
+      "On 1 September 2026 MAS published draft Payment Services Act amendments requiring single-currency stablecoin issuers to hold reserves at least equal to par value, redeem on demand in the pegged currency, and pay no yield. Strip out the crypto vocabulary and this is an insurance balance sheet, and it needs a board that can govern a promise to pay a fixed amount on demand.",
     category: "Regulation",
     readingTime: "4 min read",
     date: "September 2026",
@@ -2425,7 +2425,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I have sat through risk committee meetings where the entire agenda came down to one question: can this pool of assets meet a fixed obligation on demand, in full, on the worst day we can plausibly imagine? That is an insurance question, and an asset-liability question, and it is answered with duration analysis, liquidity ladders and run scenarios — not with a strategy deck. MAS has just written a version of that question for a new set of companies.",
+        text: "I have sat through risk committee meetings where the entire agenda came down to one question: can this pool of assets meet a fixed obligation on demand, in full, on the worst day we can plausibly imagine? That is an insurance question, and an asset-liability question, and it is answered with duration analysis, liquidity ladders and run scenarios, not with a strategy deck. MAS has just written a version of that question for a new set of companies.",
       },
       {
         type: "paragraph",
@@ -2450,7 +2450,7 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "What is the duration and liquidity profile of the reserves against a defined redemption shock — can we meet, say, 30 per cent redemption within a week without realising losses?",
+          "What is the duration and liquidity profile of the reserves against a defined redemption shock, can we meet, say, 30 per cent redemption within a week without realising losses?",
           "Who owns the reserve investment mandate, and is it deliberately dull? The rules now forbid passing yield to holders, which removes the excuse for reaching for it in the first place.",
           "What is our modelled worst-day outflow, and has the board actually seen that scenario and pushed back on the assumptions behind it?",
           "If the peg comes under pressure intraday, who has the authority to act, on what triggers, and within what timeframe?",
@@ -2458,7 +2458,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Singapore is regulating stablecoins as a stability product, not as a piece of technology. The issuers that cope with this framework will be the ones whose boards already know how to govern a promise to pay a fixed amount on demand. That is a skill set the insurance and asset-management sectors have built over decades. Most firms coming to stablecoin issuance from the crypto side have not — and the transition period is the time to bring that expertise onto the board, not after the first redemption spike.",
+        text: "Singapore is regulating stablecoins as a stability product, not as a piece of technology. The issuers that cope with this framework will be the ones whose boards already know how to govern a promise to pay a fixed amount on demand. That is a skill set the insurance and asset-management sectors have built over decades. Most firms coming to stablecoin issuance from the crypto side have not, and the transition period is the time to bring that expertise onto the board, not after the first redemption spike.",
       },
     ],
     faqs: [
@@ -2470,7 +2470,7 @@ export const insights: Insight[] = [
       {
         question: "Why should a stablecoin issuer's board think like an insurance board?",
         answer:
-          "Because the underlying structure is the same: a liability redeemable at a fixed value on demand, backed by a pool of investable assets. The governance that matters is asset-liability matching, liquidity laddering and run-scenario stress testing — the disciplines an insurer's board risk committee already runs — rather than the product, growth and technology focus of a typical payments firm.",
+          "Because the underlying structure is the same: a liability redeemable at a fixed value on demand, backed by a pool of investable assets. The governance that matters is asset-liability matching, liquidity laddering and run-scenario stress testing, the disciplines an insurer's board risk committee already runs,rather than the product, growth and technology focus of a typical payments firm.",
       },
       {
         question: "What should a board ask about stablecoin reserve management?",
@@ -2481,9 +2481,9 @@ export const insights: Insight[] = [
   },
   {
     id: "32",
-    title: "What a corporate governance consultant in Singapore can't give a board — and an adviser can",
+    title: "What a corporate governance consultant in Singapore can't give a board, and an adviser can",
     summary:
-      "Singapore's governance consulting market is mature and useful: gap assessments against the Code, refreshed charters, board evaluations, skills matrices. But a consulting engagement is scoped, priced and closed, and the firm is accountable for the document — not for whether the board makes better decisions afterwards. That gap is where an independent board adviser works.",
+      "Singapore's governance consulting market is mature and useful: gap assessments against the Code, refreshed charters, board evaluations, skills matrices. But a consulting engagement is scoped, priced and closed, and the firm is accountable for the document, not for whether the board makes better decisions afterwards. That gap is where an independent board adviser works.",
     category: "Board Advisory",
     readingTime: "7 min read",
     date: "September 2026",
@@ -2493,7 +2493,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I have been on both sides of this. As a board adviser I have walked into companies where a governance consulting firm had recently delivered a polished report — a new board charter, revised committee terms of reference, a meeting calendar, a director skills matrix. All of it competent. None of it had changed a single decision the board actually made. The machinery was upgraded and the behaviour was identical.",
+        text: "I have been on both sides of this. As a board adviser I have walked into companies where a governance consulting firm had recently delivered a polished report, a new board charter, revised committee terms of reference, a meeting calendar, a director skills matrix. All of it competent. None of it had changed a single decision the board actually made. The machinery was upgraded and the behaviour was identical.",
       },
       {
         type: "heading",
@@ -2501,11 +2501,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The corporate governance consulting market in Singapore is mature, and I do not want to be dismissive of it. Firms of every size — the large accounting-adjacent practices, the compliance specialists, the boutiques — will run a gap assessment against the Code of Corporate Governance, draft or rebuild board and committee charters, design a delegation-of-authority framework, facilitate a board evaluation, and document the policies a company is expected to have and often does not. If your governance scaffolding is missing, inconsistent, or a decade out of date, engaging one of these firms is the right move.",
+        text: "The corporate governance consulting market in Singapore is mature, and I do not want to be dismissive of it. Firms of every size, the large accounting-adjacent practices, the compliance specialists, the boutiques,will run a gap assessment against the Code of Corporate Governance, draft or rebuild board and committee charters, design a delegation-of-authority framework, facilitate a board evaluation, and document the policies a company is expected to have and often does not. If your governance scaffolding is missing, inconsistent, or a decade out of date, engaging one of these firms is the right move.",
       },
       {
         type: "paragraph",
-        text: "The output is a deliverable, and the deliverable is genuinely needed at specific moments: preparing for an IPO, responding to a regulatory review, absorbing a change of control, or professionalising a founder-led board that has outgrown its informal habits. At those moments you need documents that exist, are correct, and align with the listing rules. A consulting firm produces those efficiently, and a board adviser generally does not — it is not what the retainer is for.",
+        text: "The output is a deliverable, and the deliverable is genuinely needed at specific moments: preparing for an IPO, responding to a regulatory review, absorbing a change of control, or professionalising a founder-led board that has outgrown its informal habits. At those moments you need documents that exist, are correct, and align with the listing rules. A consulting firm produces those efficiently, and a board adviser generally does not, it is not what the retainer is for.",
       },
       {
         type: "heading",
@@ -2513,7 +2513,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "A consulting engagement is scoped, priced and closed. The firm is accountable for the report, not for what the board does with it over the following year. That is not a criticism of any individual firm — it is the structure of the transaction. Three things follow from it. The firm is commercially reluctant to tell the chair something the chair does not want to hear, because the chair is the buyer. The specialists doing the work often know the Code thoroughly but have never sat in the seat, so their advice is about what boards should do rather than how boards actually behave when a dominant CEO is managing the agenda. And once the report is delivered, nobody is in the room to notice that the new risk committee terms of reference have not changed what the risk committee discusses.",
+        text: "A consulting engagement is scoped, priced and closed. The firm is accountable for the report, not for what the board does with it over the following year. That is not a criticism of any individual firm, it is the structure of the transaction. Three things follow from it. The firm is commercially reluctant to tell the chair something the chair does not want to hear, because the chair is the buyer. The specialists doing the work often know the Code thoroughly but have never sat in the seat, so their advice is about what boards should do rather than how boards actually behave when a dominant CEO is managing the agenda. And once the report is delivered, nobody is in the room to notice that the new risk committee terms of reference have not changed what the risk committee discusses.",
       },
       {
         type: "pullquote",
@@ -2527,9 +2527,9 @@ export const insights: Insight[] = [
         type: "list",
         items: [
           "Stays in the room over time. The adviser sees whether the redesigned committee actually behaves differently six months on, and says so plainly when it does not.",
-          "Has no deliverable to protect. The only output is the board's decision quality, so the adviser is free to say 'the framework is fine — the problem is that you are not using it.'",
+          "Has no deliverable to protect. The only output is the board's decision quality, so the adviser is free to say 'the framework is fine, the problem is that you are not using it.'",
           "Usually brings operating experience. Someone who has been a chief risk officer, a chief executive, or a committee chair advises on how boards behave under pressure, not on what a governance code recommends in principle.",
-          "Is retained by, and loyal to, the board or a specific committee — not management. The uncomfortable conversation with the CEO is the job, not a threat to the account.",
+          "Is retained by, and loyal to, the board or a specific committee, not management. The uncomfortable conversation with the CEO is the job, not a threat to the account.",
           "Works on this board, not a template. A skills matrix that looks balanced on paper can still leave a board with nobody who can genuinely challenge the appointed actuary or read a reinsurance treaty, and only someone working the specific board will catch that.",
         ],
       },
@@ -2539,7 +2539,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "This is not an either-or. Use a consulting firm to build or refresh the machinery. Use an adviser to make sure the machinery drives decisions. In practice, a board that has just been through a consulting engagement is often exactly the board that then needs someone to sit with it for a year and hold it to what the report recommended — because the report, on its own, will be filed and referenced at the next evaluation and otherwise ignored.",
+        text: "This is not an either-or. Use a consulting firm to build or refresh the machinery. Use an adviser to make sure the machinery drives decisions. In practice, a board that has just been through a consulting engagement is often exactly the board that then needs someone to sit with it for a year and hold it to what the report recommended, because the report, on its own, will be filed and referenced at the next evaluation and otherwise ignored.",
       },
       {
         type: "heading",
@@ -2547,7 +2547,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Ask what will be different in twelve months, and how you will know. A consulting firm will answer in deliverables: charters, a skills matrix, an evaluation report, a policy suite. An adviser should answer in decisions: the board will have declined something it would previously have waved through, the risk committee will have sent a paper back for rework, the chair will have had a conversation with the chief executive that was overdue by a year. If the honest answer to your question is 'you will have better documents,' you want a firm, and you should pay a firm's price for a firm's scope. If the answer is 'you will be a better board,' that is not a document and it is not a project — it is a relationship, and you should engage it as one.",
+        text: "Ask what will be different in twelve months, and how you will know. A consulting firm will answer in deliverables: charters, a skills matrix, an evaluation report, a policy suite. An adviser should answer in decisions: the board will have declined something it would previously have waved through, the risk committee will have sent a paper back for rework, the chair will have had a conversation with the chief executive that was overdue by a year. If the honest answer to your question is 'you will have better documents,' you want a firm, and you should pay a firm's price for a firm's scope. If the answer is 'you will be a better board,' that is not a document and it is not a project, it is a relationship, and you should engage it as one.",
       },
       {
         type: "paragraph",
@@ -2558,7 +2558,7 @@ export const insights: Insight[] = [
       {
         question: "What does a corporate governance consultant in Singapore actually do?",
         answer:
-          "Typically a scoped project: a gap assessment against the Code of Corporate Governance, drafting or refreshing board and committee charters, designing a delegation-of-authority framework, facilitating a board evaluation, and producing a director skills matrix. It is most useful at a point of transition — IPO preparation, a regulatory review, or a change of control — where the governance framework is missing or out of date.",
+          "Typically a scoped project: a gap assessment against the Code of Corporate Governance, drafting or refreshing board and committee charters, designing a delegation-of-authority framework, facilitating a board evaluation, and producing a director skills matrix. It is most useful at a point of transition, IPO preparation, a regulatory review, or a change of control,where the governance framework is missing or out of date.",
       },
       {
         question: "What is the difference between a governance consultant and an independent board adviser in Singapore?",
@@ -2576,7 +2576,7 @@ export const insights: Insight[] = [
     id: "33",
     title: "What SGTI's Move to a 'Market-Centric' Score Means for Singapore Boards",
     summary:
-      "The Singapore Governance and Transparency Index is proposing to let financial metrics — return on equity, net profit margin, dividend yield — make up a quarter of its score from 2026. That is a bigger change to how governance gets measured than most boards have registered.",
+      "The Singapore Governance and Transparency Index is proposing to let financial metrics, return on equity, net profit margin, dividend yield,make up a quarter of its score from 2026. That is a bigger change to how governance gets measured than most boards have registered.",
     category: "Governance",
     readingTime: "4 min read",
     date: "September 2026",
@@ -2586,7 +2586,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I once sat on a risk committee that turned down a reinsurance-backed growth line the CEO badly wanted written. The economics looked attractive for at least two years. We said no because the tail risk on the assumptions was thinner than management was pricing for, and it was the right call — the kind of call that shows up nowhere in a return-on-equity figure and would, if anything, have made that year's numbers look more conservative than a board that said yes. That is the tension I thought about reading that the Singapore Governance and Transparency Index is moving to a 'market-centric' model.",
+        text: "I once sat on a risk committee that turned down a reinsurance-backed growth line the CEO badly wanted written. The economics looked attractive for at least two years. We said no because the tail risk on the assumptions was thinner than management was pricing for, and it was the right call, the kind of call that shows up nowhere in a return-on-equity figure and would, if anything, have made that year's numbers look more conservative than a board that said yes. That is the tension I thought about reading that the Singapore Governance and Transparency Index is moving to a 'market-centric' model.",
       },
       {
         type: "heading",
@@ -2594,11 +2594,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "SGTI 2026, released by CPA Australia, NUS Business School's Centre for Governance and Sustainability, and the Singapore Institute of Directors, showed small and mid-cap issuers narrowing the governance gap with the large caps — a genuinely encouraging result. Alongside it, CGS proposed that financial and stock-related indicators — return on equity, net profit margin, dividend yield among them — make up around 25% of the overall score from 2026 onward, with governance and transparency practices carrying the remaining 75%. The stated logic is reasonable: an index that only measures process and disclosure can reward boards that look procedurally immaculate while the company underperforms, and investors want to know that governance quality is actually connected to outcomes.",
+        text: "SGTI 2026, released by CPA Australia, NUS Business School's Centre for Governance and Sustainability, and the Singapore Institute of Directors, showed small and mid-cap issuers narrowing the governance gap with the large caps, a genuinely encouraging result. Alongside it, CGS proposed that financial and stock-related indicators,return on equity, net profit margin, dividend yield among them, make up around 25% of the overall score from 2026 onward, with governance and transparency practices carrying the remaining 75%. The stated logic is reasonable: an index that only measures process and disclosure can reward boards that look procedurally immaculate while the company underperforms, and investors want to know that governance quality is actually connected to outcomes.",
       },
       {
         type: "pullquote",
-        text: "Good governance and good short-term financial performance are correlated, not identical — and an index that cannot tell the difference will eventually reward the wrong boards.",
+        text: "Good governance and good short-term financial performance are correlated, not identical, and an index that cannot tell the difference will eventually reward the wrong boards.",
       },
       {
         type: "heading",
@@ -2611,14 +2611,14 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Boards in capital-intensive or cyclical sectors — insurance, shipping, commodities — should expect more scrutiny of how a weaker ROE or dividend year is explained, not just how it is scored",
-          "A strong SGTI financial sub-score is not evidence of good governance on its own — directors should keep asking the process questions (challenge, independence, information flow) that the other 75% is meant to capture",
+          "Boards in capital-intensive or cyclical sectors, insurance, shipping, commodities,should expect more scrutiny of how a weaker ROE or dividend year is explained, not just how it is scored",
+          "A strong SGTI financial sub-score is not evidence of good governance on its own, directors should keep asking the process questions (challenge, independence, information flow) that the other 75% is meant to capture",
           "If your company's score moves mainly on the financial component next cycle, that is worth a specific board discussion, not quiet relief or quiet alarm",
         ],
       },
       {
         type: "paragraph",
-        text: "The index makers are not wrong that outcomes matter, and 25% is a modest weighting rather than a wholesale redefinition. But boards should read this as a signal to keep their own internal sense of governance quality separate from whatever a blended external score says in any given year — and to be ready to explain a financial dip that was, in fact, the board doing its job.",
+        text: "The index makers are not wrong that outcomes matter, and 25% is a modest weighting rather than a wholesale redefinition. But boards should read this as a signal to keep their own internal sense of governance quality separate from whatever a blended external score says in any given year, and to be ready to explain a financial dip that was, in fact, the board doing its job.",
       },
     ],
     faqs: [
@@ -2628,11 +2628,11 @@ export const insights: Insight[] = [
       },
       {
         question: "What does the SGTI's proposed 'market-centric' model change?",
-        answer: "From 2026 onward, CGS has proposed that financial and stock-related indicators — including return on equity, net profit margin, and dividend yield — make up roughly 25% of the overall SGTI score, with existing governance and transparency indicators making up the remaining 75%.",
+        answer: "From 2026 onward, CGS has proposed that financial and stock-related indicators, including return on equity, net profit margin, and dividend yield,make up roughly 25% of the overall SGTI score, with existing governance and transparency indicators making up the remaining 75%.",
       },
       {
         question: "Should a board worry if its SGTI score drops because of the new financial weighting?",
-        answer: "Not automatically. A dip driven by a deliberate, well-reasoned financial decision — capital conservation, declining a risky transaction, conservative reserving — is different from a dip caused by weak oversight. The board should be able to explain which one it is, both internally and to the market.",
+        answer: "Not automatically. A dip driven by a deliberate, well-reasoned financial decision, capital conservation, declining a risky transaction, conservative reserving,is different from a dip caused by weak oversight. The board should be able to explain which one it is, both internally and to the market.",
       },
     ],
   },
@@ -2650,7 +2650,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "A few years ago I sat on an audit committee reviewing a sustainability report two weeks before the annual general meeting. Management's draft included a board statement — three paragraphs, largely unchanged from the prior year, describing the board's 'oversight of sustainability matters.' When I asked which director had actually reviewed the materiality assessment behind the report, there was a pause. Nobody had, in any documented sense. The statement was true in the loosest possible reading and false in every way that mattered. We sent it back and rewrote it before sign-off, but the exercise stayed with me, because that gap — between what a board statement says and what actually happened in the boardroom — is where most of the governance risk in SGX's sustainability reporting regime actually sits.",
+        text: "A few years ago I sat on an audit committee reviewing a sustainability report two weeks before the annual general meeting. Management's draft included a board statement, three paragraphs, largely unchanged from the prior year, describing the board's 'oversight of sustainability matters.' When I asked which director had actually reviewed the materiality assessment behind the report, there was a pause. Nobody had, in any documented sense. The statement was true in the loosest possible reading and false in every way that mattered. We sent it back and rewrote it before sign-off, but the exercise stayed with me, because that gap, between what a board statement says and what actually happened in the boardroom,is where most of the governance risk in SGX's sustainability reporting regime actually sits.",
       },
       {
         type: "heading",
@@ -2658,7 +2658,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Every SGX-listed company must issue a sustainability report alongside its annual report, and that report must include a board statement on the governance structures the company has in place for sustainability practices — distinct from the substantive ESG content itself. From FY2025, larger issuers must additionally disclose climate-related risks in line with mandatory requirements, and from FY2026 large-cap issuers must disclose Scope 3 emissions. The board statement is not a summary of the ESG content. It is an attestation about governance: that the board has a process for identifying material sustainability factors, that it has oversight structures in place, and — implicitly — that a director could stand behind how the report came to say what it says.",
+        text: "Every SGX-listed company must issue a sustainability report alongside its annual report, and that report must include a board statement on the governance structures the company has in place for sustainability practices, distinct from the substantive ESG content itself. From FY2025, larger issuers must additionally disclose climate-related risks in line with mandatory requirements, and from FY2026 large-cap issuers must disclose Scope 3 emissions. The board statement is not a summary of the ESG content. It is an attestation about governance: that the board has a process for identifying material sustainability factors, that it has oversight structures in place, and, implicitly,that a director could stand behind how the report came to say what it says.",
       },
       {
         type: "heading",
@@ -2668,8 +2668,8 @@ export const insights: Insight[] = [
         type: "list",
         items: [
           "Ownership is named, not collective. 'The board oversees sustainability' is not a governance structure. A named committee or director with explicit responsibility, appearing in the charter and the minutes, is.",
-          "The process for identifying material topics is described and was actually followed. If the materiality assessment changed this year, the statement should say why — a change in stakeholder input, a new regulatory threshold, a shift in the business — not repeat last year's list with updated numbers.",
-          "Data quality and assurance are addressed honestly. The statement should reflect what level of assurance was obtained, over which figures, and what the board did with an assurance provider's findings — not simply that 'assurance was obtained.'",
+          "The process for identifying material topics is described and was actually followed. If the materiality assessment changed this year, the statement should say why, a change in stakeholder input, a new regulatory threshold, a shift in the business,not repeat last year's list with updated numbers.",
+          "Data quality and assurance are addressed honestly. The statement should reflect what level of assurance was obtained, over which figures, and what the board did with an assurance provider's findings, not simply that 'assurance was obtained.'",
         ],
       },
       {
@@ -2682,7 +2682,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The most common failure is delegation without return. The sustainability team or company secretary drafts the statement, it circulates as one line item among twenty in the board pack ahead of the AGM, and it is approved with the same attention given to routine administrative resolutions. The second most common failure is treating year-on-year consistency as safety — repeating the prior year's governance description because changing it invites questions. Both failures are invisible until an institutional investor, proxy adviser, or activist reads the sustainability report closely against the financial statements and finds the mismatch: a board statement describing rigorous oversight sitting next to a materiality assessment that visibly was not updated, or emissions data with a footnote about methodology changes nobody at board level appears to have interrogated.",
+        text: "The most common failure is delegation without return. The sustainability team or company secretary drafts the statement, it circulates as one line item among twenty in the board pack ahead of the AGM, and it is approved with the same attention given to routine administrative resolutions. The second most common failure is treating year-on-year consistency as safety, repeating the prior year's governance description because changing it invites questions. Both failures are invisible until an institutional investor, proxy adviser, or activist reads the sustainability report closely against the financial statements and finds the mismatch: a board statement describing rigorous oversight sitting next to a materiality assessment that visibly was not updated, or emissions data with a footnote about methodology changes nobody at board level appears to have interrogated.",
       },
       {
         type: "heading",
@@ -2690,7 +2690,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The board statement should be the output of work done across the reporting cycle, not a document produced in the final fortnight. That means the audit or risk committee reviewing the material topics list at least annually and asking what changed and why; understanding, in plain terms, the difference between limited and reasonable assurance and which one the company's external provider is actually delivering on which figures; and tracking methodology consistency for emissions data year over year so the board can explain a jump or a drop before an analyst asks about it. None of this requires directors to become sustainability specialists. It requires the same discipline boards already apply to financial statements — knowing enough to ask whether the number in front of them is right, not simply whether it has been produced.",
+        text: "The board statement should be the output of work done across the reporting cycle, not a document produced in the final fortnight. That means the audit or risk committee reviewing the material topics list at least annually and asking what changed and why; understanding, in plain terms, the difference between limited and reasonable assurance and which one the company's external provider is actually delivering on which figures; and tracking methodology consistency for emissions data year over year so the board can explain a jump or a drop before an analyst asks about it. None of this requires directors to become sustainability specialists. It requires the same discipline boards already apply to financial statements, knowing enough to ask whether the number in front of them is right, not simply whether it has been produced.",
       },
       {
         type: "paragraph",
@@ -2700,7 +2700,7 @@ export const insights: Insight[] = [
     faqs: [
       {
         question: "What does the board have to say in an SGX sustainability report?",
-        answer: "SGX requires a board statement on the governance structures the company has in place for sustainability practices — how material ESG factors are identified, how oversight is structured, and what role the board plays in the reporting process. This is separate from the substantive ESG disclosures such as emissions data or climate scenario analysis.",
+        answer: "SGX requires a board statement on the governance structures the company has in place for sustainability practices, how material ESG factors are identified, how oversight is structured, and what role the board plays in the reporting process. This is separate from the substantive ESG disclosures such as emissions data or climate scenario analysis.",
       },
       {
         question: "Does the board need to personally verify ESG data before signing off?",
@@ -2708,7 +2708,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What is the difference between limited and reasonable assurance for Singapore sustainability reports?",
-        answer: "Limited assurance means the external provider concludes nothing has come to their attention suggesting the data is materially misstated — a lower bar involving less testing. Reasonable assurance is a higher bar, closer to a financial audit, providing a positive opinion that the data is fairly stated. Boards should know which level applies to which figures in their report, since MAS and SGX are signalling rising expectations on assurance over time.",
+        answer: "Limited assurance means the external provider concludes nothing has come to their attention suggesting the data is materially misstated, a lower bar involving less testing. Reasonable assurance is a higher bar, closer to a financial audit, providing a positive opinion that the data is fairly stated. Boards should know which level applies to which figures in their report, since MAS and SGX are signalling rising expectations on assurance over time.",
       },
     ],
   },
@@ -2716,7 +2716,7 @@ export const insights: Insight[] = [
     id: "35",
     title: "What the SGX-Nasdaq Global Listing Board Means for Singapore Boards",
     summary:
-      "The Global Listing Board now lets a company list on SGX and Nasdaq at the same time under one prospectus and a harmonised rulebook. Boards weighing it are focused on the fundraising upside. The governance question — who actually reconciles two disclosure clocks in real time — is the one I would ask first.",
+      "The Global Listing Board now lets a company list on SGX and Nasdaq at the same time under one prospectus and a harmonised rulebook. Boards weighing it are focused on the fundraising upside. The governance question, who actually reconciles two disclosure clocks in real time,is the one I would ask first.",
     category: "Regulation",
     readingTime: "4 min read",
     date: "September 2026",
@@ -2726,7 +2726,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "When I was CEO of Basel Medical Group taking the company onto Nasdaq, one listing was already a genuine governance undertaking — reconciling MAS and SEC expectations, building an audit committee that could function under both regimes, getting disclosure discipline to a US institutional standard. The Global Listing Board, now live after the Securities and Futures (Amendment) Act came into force earlier this year, lets a company list on SGX and Nasdaq simultaneously under one prospectus and one harmonised set of listing rules. My reaction, watching boards start to weigh it, is that the paperwork has been solved faster than the governance has.",
+        text: "When I was CEO of Basel Medical Group taking the company onto Nasdaq, one listing was already a genuine governance undertaking, reconciling MAS and SEC expectations, building an audit committee that could function under both regimes, getting disclosure discipline to a US institutional standard. The Global Listing Board, now live after the Securities and Futures (Amendment) Act came into force earlier this year, lets a company list on SGX and Nasdaq simultaneously under one prospectus and one harmonised set of listing rules. My reaction, watching boards start to weigh it, is that the paperwork has been solved faster than the governance has.",
       },
       {
         type: "heading",
@@ -2746,19 +2746,19 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "What the GLB harmonises is process, not governance capability. A company on the GLB is still subject to two active disclosure regimes running on overlapping but not identical clocks, two regulators with different enforcement postures, and two investor bases reading the same announcement with different expectations of what it should contain. Nothing about a single prospectus builds the muscle inside a board to make that work continuously, not just at IPO. That muscle — a committee that actually understands both regimes, management that has internalised US-grade disclosure specificity, a genuine escalation path for a US-side event that needs an immediate SGX response — is exactly what took us real time to build for a single listing, and the GLB does not shortcut it for two.",
+        text: "What the GLB harmonises is process, not governance capability. A company on the GLB is still subject to two active disclosure regimes running on overlapping but not identical clocks, two regulators with different enforcement postures, and two investor bases reading the same announcement with different expectations of what it should contain. Nothing about a single prospectus builds the muscle inside a board to make that work continuously, not just at IPO. That muscle, a committee that actually understands both regimes, management that has internalised US-grade disclosure specificity, a genuine escalation path for a US-side event that needs an immediate SGX response, is exactly what took us real time to build for a single listing, and the GLB does not shortcut it for two.",
       },
       {
         type: "list",
         items: [
           "Before deciding to list on the GLB, ask who on the board and in management already has working fluency in SEC-style disclosure specificity, not just SGX compliance",
-          "Build the cross-market disclosure escalation path — who decides, who drafts, who signs off — before admission, not after the first US-triggered event catches the board flat-footed",
+          "Build the cross-market disclosure escalation path, who decides, who drafts, who signs off,before admission, not after the first US-triggered event catches the board flat-footed",
           "Treat the harmonised rulebook as the floor, not the governance plan: it standardises the forms, it does not standardise the judgment",
         ],
       },
       {
         type: "paragraph",
-        text: "The Global Listing Board is a genuinely good piece of market infrastructure, and I expect more Singapore companies to use it over the next few years. But I would tell any board excited about the fundraising access to spend as much time this quarter on the disclosure governance question as on the roadshow — because the framework will not stop you from finding out the hard way which one you underbuilt.",
+        text: "The Global Listing Board is a genuinely good piece of market infrastructure, and I expect more Singapore companies to use it over the next few years. But I would tell any board excited about the fundraising access to spend as much time this quarter on the disclosure governance question as on the roadshow, because the framework will not stop you from finding out the hard way which one you underbuilt.",
       },
     ],
     faqs: [
@@ -2768,7 +2768,7 @@ export const insights: Insight[] = [
       },
       {
         question: "Does the Global Listing Board reduce governance requirements for a dual listing?",
-        answer: "No. It harmonises process — one prospectus, aligned timelines and submission requirements — but a GLB-listed company is still subject to two active disclosure regimes and two regulators. Boards still need genuine SEC-grade disclosure capability and a cross-market escalation process; the framework does not build that capability for them.",
+        answer: "No. It harmonises process, one prospectus, aligned timelines and submission requirements,but a GLB-listed company is still subject to two active disclosure regimes and two regulators. Boards still need genuine SEC-grade disclosure capability and a cross-market escalation process; the framework does not build that capability for them.",
       },
     ],
   },
@@ -2776,7 +2776,7 @@ export const insights: Insight[] = [
     id: "36",
     title: "What a Singapore Board Actually Needs to Understand About Reinsurance Strategy",
     summary:
-      "Most Singapore insurance boards treat reinsurance as a renewal to approve once a year, not a strategy to govern. That gap shows up exactly when it matters most — in a hard market, after a large loss, or when management wants to retain risk the board never actually agreed to hold.",
+      "Most Singapore insurance boards treat reinsurance as a renewal to approve once a year, not a strategy to govern. That gap shows up exactly when it matters most, in a hard market, after a large loss, or when management wants to retain risk the board never actually agreed to hold.",
     category: "Insurance Capital",
     readingTime: "9 min read",
     date: "September 2026",
@@ -2786,7 +2786,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I sat on a risk committee that approved a property catastrophe reinsurance renewal three years running with barely a question, because the broker's slide showed the same structure, a similar rate, and management's recommendation to proceed. In the fourth year, the market hardened sharply after a regional loss event, capacity tightened, and the renewal came back with a materially higher retention and a narrower scope of cover. The committee's first real question — what happens to our capital position and our appetite if we retain this much more risk — should have been asked three years earlier, when the answer was cheap to get right. That is the pattern I see most often in Singapore boardrooms: reinsurance treated as a procurement decision that recurs annually, not a strategic risk transfer decision that the board actually owns.",
+        text: "I sat on a risk committee that approved a property catastrophe reinsurance renewal three years running with barely a question, because the broker's slide showed the same structure, a similar rate, and management's recommendation to proceed. In the fourth year, the market hardened sharply after a regional loss event, capacity tightened, and the renewal came back with a materially higher retention and a narrower scope of cover. The committee's first real question, what happens to our capital position and our appetite if we retain this much more risk,should have been asked three years earlier, when the answer was cheap to get right. That is the pattern I see most often in Singapore boardrooms: reinsurance treated as a procurement decision that recurs annually, not a strategic risk transfer decision that the board actually owns.",
       },
       {
         type: "heading",
@@ -2794,7 +2794,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The framing that changes how a board engages with reinsurance is simple: every reinsurance structure is a decision about how much risk the company retains against its own capital, and how much it pays someone else to hold instead. Treated that way, a reinsurance renewal sits in the same category as a capital raise, a dividend policy, or a decision to enter a new line of business — it directly shapes the capital the company needs to hold under MAS's risk-based capital framework, and it directly shapes what happens to solvency in a stress scenario. Treated as a procurement renewal, it gets the scrutiny of a vendor contract. Both framings produce the same signature on the same page. Only one of them reflects what the decision actually is.",
+        text: "The framing that changes how a board engages with reinsurance is simple: every reinsurance structure is a decision about how much risk the company retains against its own capital, and how much it pays someone else to hold instead. Treated that way, a reinsurance renewal sits in the same category as a capital raise, a dividend policy, or a decision to enter a new line of business, it directly shapes the capital the company needs to hold under MAS's risk-based capital framework, and it directly shapes what happens to solvency in a stress scenario. Treated as a procurement renewal, it gets the scrutiny of a vendor contract. Both framings produce the same signature on the same page. Only one of them reflects what the decision actually is.",
       },
       {
         type: "pullquote",
@@ -2806,14 +2806,14 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "When I review a reinsurance programme with a board, I am not looking at whether the structure is reasonable — brokers and management are generally competent at that. I am looking at whether the board actually understands what it is retaining and why, in terms connected to its own stated risk appetite, rather than in terms connected to what the market was willing to offer this year.",
+        text: "When I review a reinsurance programme with a board, I am not looking at whether the structure is reasonable, brokers and management are generally competent at that. I am looking at whether the board actually understands what it is retaining and why, in terms connected to its own stated risk appetite, rather than in terms connected to what the market was willing to offer this year.",
       },
       {
         type: "list",
         items: [
-          "What is our net retention across the programme, in absolute terms and as a percentage of capital — and has the board explicitly agreed that figure is within appetite, or has it simply accepted whatever retention this year's market pricing produced?",
+          "What is our net retention across the programme, in absolute terms and as a percentage of capital, and has the board explicitly agreed that figure is within appetite, or has it simply accepted whatever retention this year's market pricing produced?",
           "What is the credit quality and concentration of our reinsurance panel, and what happens to our balance sheet if our largest reinsurer is downgraded or disputes a claim?",
-          "Have we modelled what this programme costs and covers in a hard market — not the base case, the scenario where capacity contracts and rates move against us — and does the board know its fallback if that scenario arrives at renewal?",
+          "Have we modelled what this programme costs and covers in a hard market, not the base case, the scenario where capacity contracts and rates move against us,and does the board know its fallback if that scenario arrives at renewal?",
           "Does the reinsurance structure actually match the risks the business has grown into, or is it inherited from a book of business that looked different three renewals ago?",
         ],
       },
@@ -2823,7 +2823,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The most common failure is delegation without a return loop. Management and the broker negotiate the renewal, present a recommendation, and the board approves it as a single agenda item alongside routine business — with no standing mechanism for the board to have set the retention and appetite parameters before the negotiation started. The second is treating reinsurance strategy as static once set. A programme built for a book of business five years ago, before a shift into a new line or geography, can leave material gaps or unnecessary cost that nobody revisits because the renewal process itself never prompts the question. The third, and the one that causes the most damage when it surfaces, is discovering during or after a large loss that the board's understanding of what was covered did not match the policy wording — because nobody at board level had actually walked through the exclusions and triggers before the loss happened, only the headline structure.",
+        text: "The most common failure is delegation without a return loop. Management and the broker negotiate the renewal, present a recommendation, and the board approves it as a single agenda item alongside routine business, with no standing mechanism for the board to have set the retention and appetite parameters before the negotiation started. The second is treating reinsurance strategy as static once set. A programme built for a book of business five years ago, before a shift into a new line or geography, can leave material gaps or unnecessary cost that nobody revisits because the renewal process itself never prompts the question. The third, and the one that causes the most damage when it surfaces, is discovering during or after a large loss that the board's understanding of what was covered did not match the policy wording, because nobody at board level had actually walked through the exclusions and triggers before the loss happened, only the headline structure.",
       },
       {
         type: "heading",
@@ -2831,11 +2831,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "A board that governs reinsurance well sets retention and risk appetite parameters before the renewal negotiation begins, not after seeing the result. It asks for the hard-market scenario alongside the base case every year, not only when the market is visibly hardening. It understands reinsurer credit risk and concentration as a standing agenda item connected to the ERM framework, not a one-line disclosure buried in the renewal pack. And it treats a material change in retention or structure as a decision that deserves the same board-level scrutiny as a comparable-sized capital transaction — because that is what it economically is.",
+        text: "A board that governs reinsurance well sets retention and risk appetite parameters before the renewal negotiation begins, not after seeing the result. It asks for the hard-market scenario alongside the base case every year, not only when the market is visibly hardening. It understands reinsurer credit risk and concentration as a standing agenda item connected to the ERM framework, not a one-line disclosure buried in the renewal pack. And it treats a material change in retention or structure as a decision that deserves the same board-level scrutiny as a comparable-sized capital transaction, because that is what it economically is.",
       },
       {
         type: "paragraph",
-        text: "None of this requires a board to negotiate the treaty itself, or to second-guess a competent broker on pricing. It requires the board to own the risk appetite the programme is built around, ask for the stress scenario every single year regardless of market conditions, and refuse to let a renewal become routine simply because the last three were uneventful. The renewal that finally surprises a board is never really a surprise — it is usually the year the market simply stopped being generous enough to hide the questions nobody had been asking.",
+        text: "None of this requires a board to negotiate the treaty itself, or to second-guess a competent broker on pricing. It requires the board to own the risk appetite the programme is built around, ask for the stress scenario every single year regardless of market conditions, and refuse to let a renewal become routine simply because the last three were uneventful. The renewal that finally surprises a board is never really a surprise, it is usually the year the market simply stopped being generous enough to hide the questions nobody had been asking.",
       },
     ],
     faqs: [
@@ -2849,7 +2849,7 @@ export const insights: Insight[] = [
       },
       {
         question: "Why do reinsurance programmes often fail to keep pace with a growing insurer?",
-        answer: "Because the annual renewal process rarely prompts a structural review. A programme designed for an earlier book of business can persist unchanged through shifts into new lines or geographies simply because nobody at board level asked whether the original structure still fits — the renewal gets treated as a continuation, not a fresh decision.",
+        answer: "Because the annual renewal process rarely prompts a structural review. A programme designed for an earlier book of business can persist unchanged through shifts into new lines or geographies simply because nobody at board level asked whether the original structure still fits, the renewal gets treated as a continuation, not a fresh decision.",
       },
     ],
   },
@@ -2857,7 +2857,7 @@ export const insights: Insight[] = [
     id: "37",
     title: "What SGX Applying Its Own Nine-Year Rule to Its Own Board Tells Every Singapore Director",
     summary:
-      "SGX's board has just reclassified one of its own directors as non-independent under the nine-year tenure rule it enforces on every listed issuer. The mechanics were unremarkable — which is exactly what makes it worth a board's attention right now.",
+      "SGX's board has just reclassified one of its own directors as non-independent under the nine-year tenure rule it enforces on every listed issuer. The mechanics were unremarkable, which is exactly what makes it worth a board's attention right now.",
     category: "Governance",
     readingTime: "4 min read",
     date: "September 2026",
@@ -2875,7 +2875,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "SGX RegCo has required, since 2023, that a director's independence come under particularly rigorous review past nine years, with listed issuers expected to manage the transition rather than treat it as a compliance cliff-edge. I have watched boards handle this badly — reclassifying a director quietly, hoping nobody in the room asks why the same person who chaired the audit committee last year is suddenly \"non-independent\" this year, with no succession story attached. SGX's own board did the unglamorous version correctly: stepped the director down from a committee chair months ahead of the formal reclassification date, kept him on committees where his experience still had value in a non-independent capacity, and let the nine-year clock run its course in public view the whole time.",
+        text: "SGX RegCo has required, since 2023, that a director's independence come under particularly rigorous review past nine years, with listed issuers expected to manage the transition rather than treat it as a compliance cliff-edge. I have watched boards handle this badly, reclassifying a director quietly, hoping nobody in the room asks why the same person who chaired the audit committee last year is suddenly \"non-independent\" this year, with no succession story attached. SGX's own board did the unglamorous version correctly: stepped the director down from a committee chair months ahead of the formal reclassification date, kept him on committees where his experience still had value in a non-independent capacity, and let the nine-year clock run its course in public view the whole time.",
       },
       {
         type: "pullquote",
@@ -2887,7 +2887,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Most boards I advise know their nine-year rule in the abstract. Far fewer can tell me, without checking, which of their current independent directors crosses that line in the next 18 months, and what the succession plan is for the committee seat that director holds. That is the gap SGX's own example closes: it is not enough to know the rule exists. A board needs a live tenure register, reviewed at least annually, with the two-year runway before each cliff used for exactly what SGX used it for — reallocating committee roles, identifying the replacement candidate, and giving shareholders time to see the transition coming rather than discover it in a single announcement.",
+        text: "Most boards I advise know their nine-year rule in the abstract. Far fewer can tell me, without checking, which of their current independent directors crosses that line in the next 18 months, and what the succession plan is for the committee seat that director holds. That is the gap SGX's own example closes: it is not enough to know the rule exists. A board needs a live tenure register, reviewed at least annually, with the two-year runway before each cliff used for exactly what SGX used it for, reallocating committee roles, identifying the replacement candidate, and giving shareholders time to see the transition coming rather than discover it in a single announcement.",
       },
       {
         type: "paragraph",
@@ -2919,7 +2919,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I have sat in board meetings in Singapore where the capital adequacy ratio was presented as a single line on a dashboard slide — comfortably above the regulatory minimum, coloured green, four seconds of airtime before the meeting moved to the next item. I have also sat in the meeting that follows a market shock, where that same ratio has moved meaningfully and the board's first questions reveal that almost nobody in the room actually understands what drives the number, only that it used to be green and now it is closer to amber. The gap between those two meetings is not a market event. It is a governance failure that was already there — it just had not been tested yet.",
+        text: "I have sat in board meetings in Singapore where the capital adequacy ratio was presented as a single line on a dashboard slide, comfortably above the regulatory minimum, coloured green, four seconds of airtime before the meeting moved to the next item. I have also sat in the meeting that follows a market shock, where that same ratio has moved meaningfully and the board's first questions reveal that almost nobody in the room actually understands what drives the number, only that it used to be green and now it is closer to amber. The gap between those two meetings is not a market event. It is a governance failure that was already there, it just had not been tested yet.",
       },
       {
         type: "heading",
@@ -2927,11 +2927,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Under Singapore's risk-based capital framework, an insurer's Prescribed Capital Requirement and the buffers a board chooses to hold above it are not purely actuarial outputs — they are board decisions with actuarial inputs. MAS is explicit that the board is ultimately responsible for the insurer's capital adequacy, not the appointed actuary and not the CFO. The actuary certifies the technical calculation: the valuation of liabilities, the capital charges for insurance, market and credit risk, the impact of approved internal models where they are used. What the actuary cannot decide for the board is how much buffer above the regulatory minimum is prudent for this insurer, in this market, given this risk appetite — and that is precisely the judgment call boards most often delegate upward to the number on the slide instead of making themselves.",
+        text: "Under Singapore's risk-based capital framework, an insurer's Prescribed Capital Requirement and the buffers a board chooses to hold above it are not purely actuarial outputs, they are board decisions with actuarial inputs. MAS is explicit that the board is ultimately responsible for the insurer's capital adequacy, not the appointed actuary and not the CFO. The actuary certifies the technical calculation: the valuation of liabilities, the capital charges for insurance, market and credit risk, the impact of approved internal models where they are used. What the actuary cannot decide for the board is how much buffer above the regulatory minimum is prudent for this insurer, in this market, given this risk appetite, and that is precisely the judgment call boards most often delegate upward to the number on the slide instead of making themselves.",
       },
       {
         type: "paragraph",
-        text: "This matters because the capital position is not static. It moves with interest rates, with equity markets, with mortality and morbidity experience, with the credit quality of the reinsurance panel, and with growth in the underlying book. A board that only engages with capital adequacy once a year, at the point the regulatory return is signed, is engaging with a lagging indicator of decisions that were already made months earlier — new product launches, changes in asset allocation, growth targets — without having tested what those decisions would do to the capital ratio under stress.",
+        text: "This matters because the capital position is not static. It moves with interest rates, with equity markets, with mortality and morbidity experience, with the credit quality of the reinsurance panel, and with growth in the underlying book. A board that only engages with capital adequacy once a year, at the point the regulatory return is signed, is engaging with a lagging indicator of decisions that were already made months earlier, new product launches, changes in asset allocation, growth targets,without having tested what those decisions would do to the capital ratio under stress.",
       },
       {
         type: "pullquote",
@@ -2943,7 +2943,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The most common failure is treating the capital buffer as a fixed number rather than a risk appetite decision. I ask boards directly: why is your target buffer 20% above the Prescribed Capital Requirement rather than 40%, or 10%? Most of the time the honest answer is that it is the number the insurer has always held, inherited from a prior CFO or a rating agency conversation years ago, never explicitly re-approved as a considered risk appetite statement by the current board. The second failure is separating the capital conversation from the strategy conversation — approving a growth initiative, a new distribution channel, or an M&A transaction in one meeting, and reviewing the capital adequacy impact as a technical afterthought in a different one, months later, once the actuary has run the numbers. The third, and the one I see cause the most damage, is a board that understands the base-case capital ratio in detail but has never actually seen the stress and scenario testing that shows what happens to that ratio in a genuinely adverse scenario — a sharp rate move, a mass lapse event, a large reinsurer downgrade — because the ORSA process that should surface those scenarios is run as a compliance exercise rather than read closely by the people who are supposed to act on it.",
+        text: "The most common failure is treating the capital buffer as a fixed number rather than a risk appetite decision. I ask boards directly: why is your target buffer 20% above the Prescribed Capital Requirement rather than 40%, or 10%? Most of the time the honest answer is that it is the number the insurer has always held, inherited from a prior CFO or a rating agency conversation years ago, never explicitly re-approved as a considered risk appetite statement by the current board. The second failure is separating the capital conversation from the strategy conversation, approving a growth initiative, a new distribution channel, or an M&A transaction in one meeting, and reviewing the capital adequacy impact as a technical afterthought in a different one, months later, once the actuary has run the numbers. The third, and the one I see cause the most damage, is a board that understands the base-case capital ratio in detail but has never actually seen the stress and scenario testing that shows what happens to that ratio in a genuinely adverse scenario, a sharp rate move, a mass lapse event, a large reinsurer downgrade,because the ORSA process that should surface those scenarios is run as a compliance exercise rather than read closely by the people who are supposed to act on it.",
       },
       {
         type: "heading",
@@ -2951,29 +2951,29 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "A board that governs capital adequacy well can state its target buffer above the Prescribed Capital Requirement in board-approved risk appetite language, not just as an inherited number, and can explain why that buffer is right for this insurer's risk profile. It reviews the capital impact of a material strategic decision — a new product line, a change in investment mandate, a significant reinsurance restructure — before approving the decision, not after. It asks for, and genuinely engages with, at least one severe-but-plausible stress scenario every year that shows the capital ratio breaching internal thresholds, and has a pre-agreed view of what management action that would trigger. And it treats a capital ratio that is trending down over consecutive quarters, even while still comfortably above the regulatory minimum, as an early-warning signal worth discussing at board level — not a number that only earns attention once it turns amber.",
+        text: "A board that governs capital adequacy well can state its target buffer above the Prescribed Capital Requirement in board-approved risk appetite language, not just as an inherited number, and can explain why that buffer is right for this insurer's risk profile. It reviews the capital impact of a material strategic decision, a new product line, a change in investment mandate, a significant reinsurance restructure,before approving the decision, not after. It asks for, and genuinely engages with, at least one severe-but-plausible stress scenario every year that shows the capital ratio breaching internal thresholds, and has a pre-agreed view of what management action that would trigger. And it treats a capital ratio that is trending down over consecutive quarters, even while still comfortably above the regulatory minimum, as an early-warning signal worth discussing at board level, not a number that only earns attention once it turns amber.",
       },
       {
         type: "list",
         items: [
           "Ask for the target capital buffer to be re-presented as a board-owned risk appetite decision, with the rationale stated explicitly, not inherited silently from a prior year",
-          "Require the capital impact of any material strategic proposal — new product, new market, reinsurance restructure, capital distribution — before approving the proposal, not after",
+          "Require the capital impact of any material strategic proposal, new product, new market, reinsurance restructure, capital distribution,before approving the proposal, not after",
           "Read the ORSA stress scenarios yourself rather than relying on a management summary, and agree in advance what action each breach threshold would trigger",
         ],
       },
       {
         type: "paragraph",
-        text: "None of this requires directors to become actuaries. It requires directors to stop treating the capital adequacy ratio as a certified fact to be noted, and start treating it as what it actually is under MAS's framework — a board-owned judgment about how much risk this insurer can safely carry, refreshed continuously rather than rediscovered once a year. The insurers that get into genuine capital trouble in Singapore are rarely the ones with a bad actuarial calculation. They are the ones whose board never owned the number in the first place.",
+        text: "None of this requires directors to become actuaries. It requires directors to stop treating the capital adequacy ratio as a certified fact to be noted, and start treating it as what it actually is under MAS's framework, a board-owned judgment about how much risk this insurer can safely carry, refreshed continuously rather than rediscovered once a year. The insurers that get into genuine capital trouble in Singapore are rarely the ones with a bad actuarial calculation. They are the ones whose board never owned the number in the first place.",
       },
     ],
     faqs: [
       {
         question: "Who is responsible for an insurer's capital adequacy under MAS's framework?",
-        answer: "The board of directors is ultimately responsible for the insurer's capital adequacy under Singapore's risk-based capital framework, not the appointed actuary or the CFO. The actuary certifies the technical calculation of capital requirements; the board is accountable for the risk appetite decisions — including the target buffer above the regulatory minimum — that determine whether that calculated position is actually prudent.",
+        answer: "The board of directors is ultimately responsible for the insurer's capital adequacy under Singapore's risk-based capital framework, not the appointed actuary or the CFO. The actuary certifies the technical calculation of capital requirements; the board is accountable for the risk appetite decisions, including the target buffer above the regulatory minimum,that determine whether that calculated position is actually prudent.",
       },
       {
         question: "How much capital buffer above the regulatory minimum should a Singapore insurer hold?",
-        answer: "There is no single correct number — it should reflect a board-approved risk appetite decision specific to the insurer's business mix, volatility of its risks, and access to capital markets, re-evaluated periodically rather than inherited unchanged from prior years. A board that cannot explain why its target buffer is set where it is has not actually made this decision; it has simply continued a historical default.",
+        answer: "There is no single correct number, it should reflect a board-approved risk appetite decision specific to the insurer's business mix, volatility of its risks, and access to capital markets, re-evaluated periodically rather than inherited unchanged from prior years. A board that cannot explain why its target buffer is set where it is has not actually made this decision; it has simply continued a historical default.",
       },
       {
         question: "What is the connection between ORSA and capital adequacy governance?",
@@ -2985,7 +2985,7 @@ export const insights: Insight[] = [
     id: "39",
     title: "What CDL's Fall From Singapore's Governance Top 10 Actually Tells Boards",
     summary:
-      "City Developments Limited dropped out of the Singapore Governance and Transparency Index's top 10 this year for the first time since 2016, following the Kwek family's public boardroom dispute. The score did not cause the governance failure — it just arrived months after the failure was already visible to anyone in the room.",
+      "City Developments Limited dropped out of the Singapore Governance and Transparency Index's top 10 this year for the first time since 2016, following the Kwek family's public boardroom dispute. The score did not cause the governance failure, it just arrived months after the failure was already visible to anyone in the room.",
     category: "Governance",
     readingTime: "4 min read",
     date: "September 2026",
@@ -2995,7 +2995,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "City Developments Limited dropped out of the top 10 of the Singapore Governance and Transparency Index this year for the first time since 2016. Read the index methodology and you would assume that happens because of a late filing or a weak disclosure item. It did not. It happened because the boardroom itself became the story — a public dispute between executive chairman Kwek Leng Beng and his son, group CEO Sherman Kwek, that triggered a trading halt in February 2025, resurfaced with shareholder questions at the company's April 2026 AGM, and was never fully resolved before this year's scorers sat down to mark the company's governance. My reaction, having advised boards through their own version of a founder-successor standoff: the index did not punish CDL for a governance failure. It measured one that had already happened, months earlier, in a room most shareholders never saw.",
+        text: "City Developments Limited dropped out of the top 10 of the Singapore Governance and Transparency Index this year for the first time since 2016. Read the index methodology and you would assume that happens because of a late filing or a weak disclosure item. It did not. It happened because the boardroom itself became the story, a public dispute between executive chairman Kwek Leng Beng and his son, group CEO Sherman Kwek, that triggered a trading halt in February 2025, resurfaced with shareholder questions at the company's April 2026 AGM, and was never fully resolved before this year's scorers sat down to mark the company's governance. My reaction, having advised boards through their own version of a founder-successor standoff: the index did not punish CDL for a governance failure. It measured one that had already happened, months earlier, in a room most shareholders never saw.",
       },
       {
         type: "heading",
@@ -3003,7 +3003,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "By the time a governance index reflects a boardroom dispute, the damage it is measuring is old news to everyone who sat through it. The real governance test at CDL happened months earlier — when two new directors were brought onto the board over the chairman's objection, when a board member publicly accused the board of bypassing proper procedure, when the dispute became visible enough to halt trading. Whether the board handled that moment well or badly was decided in real time, long before any index picked it up. Waiting for the annual score to tell a board how it is doing on governance is like waiting for a credit downgrade to tell a CFO the balance sheet was already stretched.",
+        text: "By the time a governance index reflects a boardroom dispute, the damage it is measuring is old news to everyone who sat through it. The real governance test at CDL happened months earlier, when two new directors were brought onto the board over the chairman's objection, when a board member publicly accused the board of bypassing proper procedure, when the dispute became visible enough to halt trading. Whether the board handled that moment well or badly was decided in real time, long before any index picked it up. Waiting for the annual score to tell a board how it is doing on governance is like waiting for a credit downgrade to tell a CFO the balance sheet was already stretched.",
       },
       {
         type: "pullquote",
@@ -3015,7 +3015,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "It is tempting to file this under 'family business succession problem' and move on, especially for boards without a controlling family shareholder. I would resist that. Every board has some version of this exposure — a dominant founder or long-tenured chair, a succession question left deliberately vague because it is uncomfortable to resolve, independent directors who have never actually had to overrule the person who effectively put them there. CDL's independent directors were, in the end, kept on by an overwhelming shareholder vote. That is not vindication. It is the shareholders telling the board that the real work — proving those directors can actually hold the line the next time a decision like adding two new directors comes up without full board agreement — starts now, not before.",
+        text: "It is tempting to file this under 'family business succession problem' and move on, especially for boards without a controlling family shareholder. I would resist that. Every board has some version of this exposure, a dominant founder or long-tenured chair, a succession question left deliberately vague because it is uncomfortable to resolve, independent directors who have never actually had to overrule the person who effectively put them there. CDL's independent directors were, in the end, kept on by an overwhelming shareholder vote. That is not vindication. It is the shareholders telling the board that the real work, proving those directors can actually hold the line the next time a decision like adding two new directors comes up without full board agreement, starts now, not before.",
       },
       {
         type: "list",
@@ -3055,7 +3055,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I have sat in a board meeting where the cyber risk update was five minutes long: a green status on the dashboard, a line about the annual penetration test, and a question from the chair about whether the insurance was still in force. Nobody in that room could have told you what their organisation's actual recovery time objective was for its most critical system, or what 'board-level accountability for cyber resilience' was supposed to mean in practice. That gap — between a status update and genuine board ownership — is exactly what Singapore's regulators have just stopped tolerating for the organisations that matter most.",
+        text: "I have sat in a board meeting where the cyber risk update was five minutes long: a green status on the dashboard, a line about the annual penetration test, and a question from the chair about whether the insurance was still in force. Nobody in that room could have told you what their organisation's actual recovery time objective was for its most critical system, or what 'board-level accountability for cyber resilience' was supposed to mean in practice. That gap, between a status update and genuine board ownership,is exactly what Singapore's regulators have just stopped tolerating for the organisations that matter most.",
       },
       {
         type: "heading",
@@ -3063,7 +3063,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Singapore's Cyber Security Agency issued an updated Cybersecurity Code of Practice for Critical Information Infrastructure on 29 July 2026, and it is a materially different document from what came before it. Two changes matter most to a board. First, it imposes explicit board-level accountability on CII owners — not senior management, not the CISO, the board. Second, it mandates Cyber Trust Mark Level 5 certification, the highest tier available, for CII owners and their auditors, covering 22 cybersecurity domains that now explicitly include cloud security, operational technology security and AI security. CII owners have a two-year grace period to reach that standard, with a hard deadline of end-2027 for the non-CII systems that support core operations, while auditors and licensed cybersecurity service providers face an earlier cut-off of 31 December 2026. Layered on top of this, a separate requirement — expected to be codified in the first quarter of 2026 — obliges board members of CII owners to undergo cybersecurity training directly, not delegate that learning to a management briefing.",
+        text: "Singapore's Cyber Security Agency issued an updated Cybersecurity Code of Practice for Critical Information Infrastructure on 29 July 2026, and it is a materially different document from what came before it. Two changes matter most to a board. First, it imposes explicit board-level accountability on CII owners, not senior management, not the CISO, the board. Second, it mandates Cyber Trust Mark Level 5 certification, the highest tier available, for CII owners and their auditors, covering 22 cybersecurity domains that now explicitly include cloud security, operational technology security and AI security. CII owners have a two-year grace period to reach that standard, with a hard deadline of end-2027 for the non-CII systems that support core operations, while auditors and licensed cybersecurity service providers face an earlier cut-off of 31 December 2026. Layered on top of this, a separate requirement, expected to be codified in the first quarter of 2026,obliges board members of CII owners to undergo cybersecurity training directly, not delegate that learning to a management briefing.",
       },
       {
         type: "pullquote",
@@ -3075,7 +3075,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The substantive requirement underneath the certification headline is the one boards tend to skip past. Boards and senior management at CII owners must now maintain a documented cyber resilience framework that explicitly covers risk tolerance, mitigation, risk transfer and recovery — reviewed at least annually as a board-level record, not a technical appendix management produces for its own use. That framework has to exist in a form that can be audited and defended, because Singapore's legal position on director liability for cyber failures is now unambiguous: if an organisation fails to prevent, mitigate, manage or respond to an incident because of a lack of honesty, or a lack of the requisite skill, care and diligence on the part of its directors, that can constitute a breach of directors' duties. That is not a CISO's exposure. It is personal, individual director exposure, and it turns the annual cyber briefing from a courtesy update into the primary evidence of whether a director actually exercised the diligence the law now expects.",
+        text: "The substantive requirement underneath the certification headline is the one boards tend to skip past. Boards and senior management at CII owners must now maintain a documented cyber resilience framework that explicitly covers risk tolerance, mitigation, risk transfer and recovery, reviewed at least annually as a board-level record, not a technical appendix management produces for its own use. That framework has to exist in a form that can be audited and defended, because Singapore's legal position on director liability for cyber failures is now unambiguous: if an organisation fails to prevent, mitigate, manage or respond to an incident because of a lack of honesty, or a lack of the requisite skill, care and diligence on the part of its directors, that can constitute a breach of directors' duties. That is not a CISO's exposure. It is personal, individual director exposure, and it turns the annual cyber briefing from a courtesy update into the primary evidence of whether a director actually exercised the diligence the law now expects.",
       },
       {
         type: "heading",
@@ -3083,7 +3083,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The most common failure I see is structural: cyber risk sits permanently on the IT or technology sub-committee's agenda and only reaches the full board as a summarised status line, the same way the CDL boardroom dispute I wrote about separately this month sat invisibly below the surface until it became impossible to ignore. A board that has never read its own organisation's documented resilience framework — never asked what 'recovery' actually means in hours for the systems that matter most, never tested whether the risk tolerance statement in that document matches what the board would actually accept in a real incident — cannot credibly claim to have exercised the skill, care and diligence the law now expects of it. The second failure is treating Cyber Trust Mark Level 5 as a procurement exercise to be handed to IT, when the certification's 22 domains include governance and organisational accountability as first-class requirements, not technical add-ons. A board that outsources the entire certification process without engaging with the governance domains has not actually met the standard the certification exists to prove.",
+        text: "The most common failure I see is structural: cyber risk sits permanently on the IT or technology sub-committee's agenda and only reaches the full board as a summarised status line, the same way the CDL boardroom dispute I wrote about separately this month sat invisibly below the surface until it became impossible to ignore. A board that has never read its own organisation's documented resilience framework, never asked what 'recovery' actually means in hours for the systems that matter most, never tested whether the risk tolerance statement in that document matches what the board would actually accept in a real incident, cannot credibly claim to have exercised the skill, care and diligence the law now expects of it. The second failure is treating Cyber Trust Mark Level 5 as a procurement exercise to be handed to IT, when the certification's 22 domains include governance and organisational accountability as first-class requirements, not technical add-ons. A board that outsources the entire certification process without engaging with the governance domains has not actually met the standard the certification exists to prove.",
       },
       {
         type: "heading",
@@ -3091,7 +3091,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "A board that is genuinely ahead of this has read its own cyber resilience framework document in full, at least once, and can state in plain language what the organisation's risk tolerance and recovery objectives actually are — not recite the name of the framework. It treats the shift to Cyber Trust Mark Level 5 as a governance project with a named board sponsor and a realistic timeline against the 2027 deadline, not a checkbox IT will handle. And every director on a CII owner's board has personally completed the cybersecurity training the regulation now requires, rather than nominating someone else in the organisation to sit through it on the board's behalf.",
+        text: "A board that is genuinely ahead of this has read its own cyber resilience framework document in full, at least once, and can state in plain language what the organisation's risk tolerance and recovery objectives actually are, not recite the name of the framework. It treats the shift to Cyber Trust Mark Level 5 as a governance project with a named board sponsor and a realistic timeline against the 2027 deadline, not a checkbox IT will handle. And every director on a CII owner's board has personally completed the cybersecurity training the regulation now requires, rather than nominating someone else in the organisation to sit through it on the board's behalf.",
       },
       {
         type: "list",
@@ -3113,7 +3113,7 @@ export const insights: Insight[] = [
       },
       {
         question: "Can a Singapore director be personally liable for a cybersecurity failure?",
-        answer: "Yes. Singapore's legal position is that if an organisation fails to prevent, mitigate, manage or respond to a cyber incident due to a lack of honesty or a lack of the requisite skill, care and diligence on the part of its directors, that can constitute a breach of directors' duties — making cyber governance a matter of personal director accountability, not just a management or CISO responsibility.",
+        answer: "Yes. Singapore's legal position is that if an organisation fails to prevent, mitigate, manage or respond to a cyber incident due to a lack of honesty or a lack of the requisite skill, care and diligence on the part of its directors, that can constitute a breach of directors' duties, making cyber governance a matter of personal director accountability, not just a management or CISO responsibility.",
       },
       {
         question: "What is Cyber Trust Mark Level 5 and who needs it?",
@@ -3135,7 +3135,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "MAS and the People's Bank of China met in Nanning on 17 September for the 4th Singapore-China Green Finance Taskforce, and the detail that should catch a board's attention is not the diplomacy — it's the agenda. Alongside the usual standards and product workstreams, the taskforce ran an industry-led Climate Adaptation and Resilience Roundtable specifically to discuss how adaptation and resilience projects could develop viable revenue models and attract commercial financing. My reaction, having sat through years of board discussions that treat physical climate risk as something you disclose rather than something you fund: when a central bank starts co-developing financing models for resilience infrastructure, it is telling you that adaptation is graduating from a sustainability-report line item into an investable asset class. Boards that have not caught up to that shift are about to be asked capital-allocation questions they have never had to answer.",
+        text: "MAS and the People's Bank of China met in Nanning on 17 September for the 4th Singapore-China Green Finance Taskforce, and the detail that should catch a board's attention is not the diplomacy, it's the agenda. Alongside the usual standards and product workstreams, the taskforce ran an industry-led Climate Adaptation and Resilience Roundtable specifically to discuss how adaptation and resilience projects could develop viable revenue models and attract commercial financing. My reaction, having sat through years of board discussions that treat physical climate risk as something you disclose rather than something you fund: when a central bank starts co-developing financing models for resilience infrastructure, it is telling you that adaptation is graduating from a sustainability-report line item into an investable asset class. Boards that have not caught up to that shift are about to be asked capital-allocation questions they have never had to answer.",
       },
       {
         type: "heading",
@@ -3143,7 +3143,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Singapore boards have spent the last two years building muscle around climate disclosure — ISSB alignment, scope emissions, transition plans. That work matters, but it answers a narrower question than boards think: what are our exposures, and are we reporting them accurately. It does not answer the harder question a financeable adaptation market forces onto the table, which is whether the organisation should actually be spending capital on resilience — flood defences for a logistics hub, backup capacity for a data centre, hardened supply routes — and whether that spending should be underwritten by debt, blended finance, or insurance-linked structures now being piloted specifically for this purpose.",
+        text: "Singapore boards have spent the last two years building muscle around climate disclosure, ISSB alignment, scope emissions, transition plans. That work matters, but it answers a narrower question than boards think: what are our exposures, and are we reporting them accurately. It does not answer the harder question a financeable adaptation market forces onto the table, which is whether the organisation should actually be spending capital on resilience, flood defences for a logistics hub, backup capacity for a data centre, hardened supply routes,and whether that spending should be underwritten by debt, blended finance, or insurance-linked structures now being piloted specifically for this purpose.",
       },
       {
         type: "pullquote",
@@ -3155,7 +3155,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "I would put three questions in front of a risk committee this quarter. First, does management have a shortlist of physical resilience investments the organisation would make if financing terms improved — or has nobody done that homework because it never seemed fundable? Second, if a resilience project could plausibly attract blended finance or a green loan under frameworks like the ones this taskforce is building, who on the board actually owns evaluating that opportunity — the CFO's team, the sustainability function, or nobody? Third, has the board asked its insurers and reinsurers directly whether documented resilience investment would change pricing or capacity on physical-risk-exposed lines, given that reinsurance capacity is already tightening around climate exposure.",
+        text: "I would put three questions in front of a risk committee this quarter. First, does management have a shortlist of physical resilience investments the organisation would make if financing terms improved, or has nobody done that homework because it never seemed fundable? Second, if a resilience project could plausibly attract blended finance or a green loan under frameworks like the ones this taskforce is building, who on the board actually owns evaluating that opportunity, the CFO's team, the sustainability function, or nobody? Third, has the board asked its insurers and reinsurers directly whether documented resilience investment would change pricing or capacity on physical-risk-exposed lines, given that reinsurance capacity is already tightening around climate exposure.",
       },
       {
         type: "paragraph",
@@ -3169,7 +3169,7 @@ export const insights: Insight[] = [
       },
       {
         question: "Why does climate adaptation financing matter for Singapore boards specifically?",
-        answer: "As regulators build financing models for resilience infrastructure, physical climate risk shifts from a reporting obligation to a capital allocation decision. Boards will increasingly need to evaluate resilience investments — and their financing terms — the same way they evaluate any other capital project.",
+        answer: "As regulators build financing models for resilience infrastructure, physical climate risk shifts from a reporting obligation to a capital allocation decision. Boards will increasingly need to evaluate resilience investments, and their financing terms,the same way they evaluate any other capital project.",
       },
     ],
   },
@@ -3177,7 +3177,7 @@ export const insights: Insight[] = [
     id: "42",
     title: "When a Cyber Incident Becomes a Director's Personal Legal Exposure in Singapore",
     summary:
-      "A breach happening to your organisation is not, by itself, a director's problem. What is a director's problem is not being able to show the board asked the right questions before it happened. Singapore's stepping-stone liability doctrine and MAS's individual accountability regime both turn on that distinction — and most boards have never tested which side of it they're on.",
+      "A breach happening to your organisation is not, by itself, a director's problem. What is a director's problem is not being able to show the board asked the right questions before it happened. Singapore's stepping-stone liability doctrine and MAS's individual accountability regime both turn on that distinction, and most boards have never tested which side of it they're on.",
     category: "Governance",
     readingTime: "7 min read",
     date: "September 2026",
@@ -3187,7 +3187,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I have sat with a board in the week after a breach became public, watching individual directors quietly do the math on their own personal exposure for the first time. Up to that point, cyber risk had been a line on the enterprise risk register with a green or amber status next to it. Afterwards, it was a question every director was asking privately: could this come back on me personally, not just on the company? The honest answer in Singapore is yes — but not for the reason most directors assume. A breach happening to your organisation is not, by itself, a breach of your duties. What exposes a director personally is not being able to show, after the fact, that the board asked the right questions before the incident, not after it.",
+        text: "I have sat with a board in the week after a breach became public, watching individual directors quietly do the math on their own personal exposure for the first time. Up to that point, cyber risk had been a line on the enterprise risk register with a green or amber status next to it. Afterwards, it was a question every director was asking privately: could this come back on me personally, not just on the company? The honest answer in Singapore is yes, but not for the reason most directors assume. A breach happening to your organisation is not, by itself, a breach of your duties. What exposes a director personally is not being able to show, after the fact, that the board asked the right questions before the incident, not after it.",
       },
       {
         type: "heading",
@@ -3195,7 +3195,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Singapore law does not treat a cybersecurity incident as an automatic breach of directors' duties. What it recognises is 'stepping-stone' liability — a director becomes personally liable not for the breach itself, but for failing to prevent the company's contravention of its legal obligations, with that contravention acting as the stepping stone to the director's own exposure. Section 157 of the Companies Act requires a director to use reasonable diligence in the discharge of their duties. Directors and officers can be held personally liable where a failure is attributable to their neglect, consent or connivance. Under the Cybersecurity Act, officers of a company — particularly a designated critical infrastructure operator — who consented to or negligently failed to prevent an offence under the Act can be personally prosecuted, not just the company. The distinction that matters is subtle but decisive: the law is not asking whether your organisation was attacked. Every organisation eventually is. It is asking whether you, as a director, kept yourself informed about cyber threats, implemented appropriate risk management strategies, and ensured compliance with legal obligations before the incident happened.",
+        text: "Singapore law does not treat a cybersecurity incident as an automatic breach of directors' duties. What it recognises is 'stepping-stone' liability, a director becomes personally liable not for the breach itself, but for failing to prevent the company's contravention of its legal obligations, with that contravention acting as the stepping stone to the director's own exposure. Section 157 of the Companies Act requires a director to use reasonable diligence in the discharge of their duties. Directors and officers can be held personally liable where a failure is attributable to their neglect, consent or connivance. Under the Cybersecurity Act, officers of a company, particularly a designated critical infrastructure operator,who consented to or negligently failed to prevent an offence under the Act can be personally prosecuted, not just the company. The distinction that matters is subtle but decisive: the law is not asking whether your organisation was attacked. Every organisation eventually is. It is asking whether you, as a director, kept yourself informed about cyber threats, implemented appropriate risk management strategies, and ensured compliance with legal obligations before the incident happened.",
       },
       {
         type: "pullquote",
@@ -3207,7 +3207,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Stepping-stone liability sits alongside a separate, regulator-driven accountability regime that applies more broadly than most directors realise. MAS's Guidelines on Individual Accountability and Conduct, issued in 2021, make clear that senior managers in key roles — technology risk among them — will be held individually responsible for misconduct or failures on their watch, independent of whatever the company itself faces. For a financial institution's board, that means the question is no longer just 'is the company compliant' but 'can each accountable individual demonstrate they exercised oversight over the specific risk area they were responsible for.' I have seen boards assume this framework only touches the CISO or the head of technology. It doesn't stop there — it reaches any senior individual whose role gives them oversight of technology risk, and increasingly that includes non-executive directors sitting on a board risk or audit committee with cyber explicitly in scope.",
+        text: "Stepping-stone liability sits alongside a separate, regulator-driven accountability regime that applies more broadly than most directors realise. MAS's Guidelines on Individual Accountability and Conduct, issued in 2021, make clear that senior managers in key roles, technology risk among them,will be held individually responsible for misconduct or failures on their watch, independent of whatever the company itself faces. For a financial institution's board, that means the question is no longer just 'is the company compliant' but 'can each accountable individual demonstrate they exercised oversight over the specific risk area they were responsible for.' I have seen boards assume this framework only touches the CISO or the head of technology. It doesn't stop there, it reaches any senior individual whose role gives them oversight of technology risk, and increasingly that includes non-executive directors sitting on a board risk or audit committee with cyber explicitly in scope.",
       },
       {
         type: "heading",
@@ -3215,7 +3215,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The practical implication is that a director's defence is built before an incident, not during the crisis response. Minutes that show the board actually engaged with a cyber briefing — asked what the recovery time objective was, challenged an assumption in the risk register, requested a follow-up — are worth more than any post-incident statement of regret. A board that can produce a paper trail of genuine, substantive engagement with cyber risk over time is in a fundamentally different legal position than one that can only produce a stack of status updates nobody questioned. I ask boards I advise a version of the same three questions after every serious incident I have been close to, and I would rather a board ask them before one:",
+        text: "The practical implication is that a director's defence is built before an incident, not during the crisis response. Minutes that show the board actually engaged with a cyber briefing, asked what the recovery time objective was, challenged an assumption in the risk register, requested a follow-up,are worth more than any post-incident statement of regret. A board that can produce a paper trail of genuine, substantive engagement with cyber risk over time is in a fundamentally different legal position than one that can only produce a stack of status updates nobody questioned. I ask boards I advise a version of the same three questions after every serious incident I have been close to, and I would rather a board ask them before one:",
       },
       {
         type: "list",
@@ -3227,21 +3227,21 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "None of this is about directors becoming technologists. It is about directors understanding that the legal test was never whether the organisation gets breached — it is whether the board can prove, in writing, that it took the risk seriously before that day arrived. That proof either exists in your board papers already, or it doesn't, and by the time you need it, it is too late to go back and create it.",
+        text: "None of this is about directors becoming technologists. It is about directors understanding that the legal test was never whether the organisation gets breached, it is whether the board can prove, in writing, that it took the risk seriously before that day arrived. That proof either exists in your board papers already, or it doesn't, and by the time you need it, it is too late to go back and create it.",
       },
     ],
     faqs: [
       {
         question: "Can a director in Singapore be personally liable for a cybersecurity incident?",
-        answer: "Yes, through 'stepping-stone' liability. A director is not automatically liable because the company suffered a breach, but can become personally liable for failing to prevent the company's contravention of its legal obligations — for example under section 157 of the Companies Act's reasonable diligence duty, or under the Cybersecurity Act where an officer consented to or negligently failed to prevent an offence.",
+        answer: "Yes, through 'stepping-stone' liability. A director is not automatically liable because the company suffered a breach, but can become personally liable for failing to prevent the company's contravention of its legal obligations, for example under section 157 of the Companies Act's reasonable diligence duty, or under the Cybersecurity Act where an officer consented to or negligently failed to prevent an offence.",
       },
       {
         question: "What does MAS's Guidelines on Individual Accountability and Conduct mean for board directors?",
-        answer: "Issued in 2021, the guidelines hold senior individuals in key roles — including technology risk — personally accountable for failures on their watch, separate from the company's own liability. This can extend to non-executive directors with oversight responsibility for cyber risk through a board risk or audit committee, not just the CISO.",
+        answer: "Issued in 2021, the guidelines hold senior individuals in key roles, including technology risk,personally accountable for failures on their watch, separate from the company's own liability. This can extend to non-executive directors with oversight responsibility for cyber risk through a board risk or audit committee, not just the CISO.",
       },
       {
         question: "How can a Singapore board protect its directors from personal cyber liability?",
-        answer: "The strongest protection is a documented record of genuine board engagement with cyber risk before an incident — minutes showing substantive questions asked and followed up on, not just status updates noted. Regular tabletop exercises testing the board's actual response also help demonstrate the skill, care and diligence standard the law expects.",
+        answer: "The strongest protection is a documented record of genuine board engagement with cyber risk before an incident, minutes showing substantive questions asked and followed up on, not just status updates noted. Regular tabletop exercises testing the board's actual response also help demonstrate the skill, care and diligence standard the law expects.",
       },
     ],
   },
@@ -3249,7 +3249,7 @@ export const insights: Insight[] = [
     id: "43",
     title: "What SGX RegCo's New Disclosure Rules Actually Ask of a Board",
     summary:
-      "SGX RegCo's April 2026 consultation on remuneration KPI, dividend policy, and investor relations disclosures is a quiet rule change with a 2027 start date — which is exactly why most boards haven't started preparing for it. The gap it exposes isn't disclosure capability. It's whether the board can explain a policy it never actually debated.",
+      "SGX RegCo's April 2026 consultation on remuneration KPI, dividend policy, and investor relations disclosures is a quiet rule change with a 2027 start date, which is exactly why most boards haven't started preparing for it. The gap it exposes isn't disclosure capability. It's whether the board can explain a policy it never actually debated.",
     category: "Governance",
     readingTime: "4 min read",
     date: "September 2026",
@@ -3259,7 +3259,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "SGX RegCo's April 2026 consultation paper proposing new disclosure requirements — remuneration KPIs, a published dividend policy, an investor relations policy — closed for comment back in May, with implementation phased in from 2027 and the first annual-report disclosures due in 2028. That timeline is long enough that most boards have filed it under 'not yet,' which is my reaction to it: the boards that wait until 2027 to think about this will spend that year writing down policies that were never actually board decisions, just management defaults nobody challenged.",
+        text: "SGX RegCo's April 2026 consultation paper proposing new disclosure requirements, remuneration KPIs, a published dividend policy, an investor relations policy,closed for comment back in May, with implementation phased in from 2027 and the first annual-report disclosures due in 2028. That timeline is long enough that most boards have filed it under 'not yet,' which is my reaction to it: the boards that wait until 2027 to think about this will spend that year writing down policies that were never actually board decisions, just management defaults nobody challenged.",
       },
       {
         type: "heading",
@@ -3267,7 +3267,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "None of the three requirements is technically difficult. Explaining the KPIs behind executive remuneration, describing a dividend policy, publishing an investor relations policy — a competent company secretary can draft all three in an afternoon. The requirement that actually bites is subtler: SGX RegCo isn't just asking companies to disclose a policy, it's asking them to explain material changes in remuneration KPIs year over year, and to describe investor engagement activity, not just claim it exists. That converts a disclosure exercise into an audit trail. If the board never debated why the remuneration KPI mix shifted, or never actually reviewed what 'investor engagement' consists of beyond an annual roadshow, 2027 is when that absence becomes visible in print.",
+        text: "None of the three requirements is technically difficult. Explaining the KPIs behind executive remuneration, describing a dividend policy, publishing an investor relations policy, a competent company secretary can draft all three in an afternoon. The requirement that actually bites is subtler: SGX RegCo isn't just asking companies to disclose a policy, it's asking them to explain material changes in remuneration KPIs year over year, and to describe investor engagement activity, not just claim it exists. That converts a disclosure exercise into an audit trail. If the board never debated why the remuneration KPI mix shifted, or never actually reviewed what 'investor engagement' consists of beyond an annual roadshow, 2027 is when that absence becomes visible in print.",
       },
       {
         type: "pullquote",
@@ -3279,7 +3279,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "I'd rather a board spend an hour on this in 2026 than scramble in 2027. Three questions worth asking at the next remuneration or nominating committee meeting: Does the board currently have a documented view on why executive KPIs are weighted the way they are, or has that always been management's call to present and the board's to approve without much debate? Does the company have an actual dividend policy, or an informal payout pattern nobody has written down because writing it down felt like a constraint? And can the board point to specific investor engagement — not just the existence of an IR function, but decisions the board made in response to what shareholders raised?",
+        text: "I'd rather a board spend an hour on this in 2026 than scramble in 2027. Three questions worth asking at the next remuneration or nominating committee meeting: Does the board currently have a documented view on why executive KPIs are weighted the way they are, or has that always been management's call to present and the board's to approve without much debate? Does the company have an actual dividend policy, or an informal payout pattern nobody has written down because writing it down felt like a constraint? And can the board point to specific investor engagement, not just the existence of an IR function, but decisions the board made in response to what shareholders raised?",
       },
       {
         type: "paragraph",
@@ -3293,7 +3293,7 @@ export const insights: Insight[] = [
       },
       {
         question: "Does the dividend policy disclosure require companies to pay a dividend?",
-        answer: "No. SGX RegCo has been explicit that the proposal does not prescribe a payout ratio, quantified target, or a requirement to pay a dividend at all — only that the company document and describe whatever policy it does follow.",
+        answer: "No. SGX RegCo has been explicit that the proposal does not prescribe a payout ratio, quantified target, or a requirement to pay a dividend at all, only that the company document and describe whatever policy it does follow.",
       },
     ],
   },
@@ -3301,7 +3301,7 @@ export const insights: Insight[] = [
     id: "44",
     title: "MAS's Corporate Governance Guidelines for Insurers: What They Actually Change for a Board",
     summary:
-      "MAS's Guidelines on Corporate Governance for designated financial holding companies, banks, and insurers incorporated in Singapore — most recently touched by the Notice 106 amendment effective 30 May 2026 — are not a checklist a company secretary files quietly. They reach into remuneration oversight of material risk takers, mandatory documentation of independent directors' dissent, and related-party transaction oversight in ways most insurer boards still treat as compliance rather than governance.",
+      "MAS's Guidelines on Corporate Governance for designated financial holding companies, banks, and insurers incorporated in Singapore, most recently touched by the Notice 106 amendment effective 30 May 2026,are not a checklist a company secretary files quietly. They reach into remuneration oversight of material risk takers, mandatory documentation of independent directors' dissent, and related-party transaction oversight in ways most insurer boards still treat as compliance rather than governance.",
     category: "Regulation",
     readingTime: "8 min read",
     date: "September 2026",
@@ -3311,15 +3311,15 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I have sat on the receiving end of a board pack where the corporate governance guideline compliance section was a single slide — a table of provisions with a green tick next to each one. Nobody in the room could tell you, if asked, what the board had actually done that year to earn that tick. That is the failure mode MAS's Guidelines on Corporate Governance for designated financial holding companies, banks, direct insurers, reinsurers and captive insurers incorporated in Singapore are designed to close, and it's a failure mode I still see regularly on insurer boards that treat the Guidelines as a legal filing exercise rather than a description of how the board is actually supposed to work.",
+        text: "I have sat on the receiving end of a board pack where the corporate governance guideline compliance section was a single slide, a table of provisions with a green tick next to each one. Nobody in the room could tell you, if asked, what the board had actually done that year to earn that tick. That is the failure mode MAS's Guidelines on Corporate Governance for designated financial holding companies, banks, direct insurers, reinsurers and captive insurers incorporated in Singapore are designed to close, and it's a failure mode I still see regularly on insurer boards that treat the Guidelines as a legal filing exercise rather than a description of how the board is actually supposed to work.",
       },
       {
         type: "heading",
-        text: "This is a live, amended framework — not a 2021 artefact",
+        text: "This is a live, amended framework, not a 2021 artefact",
       },
       {
         type: "paragraph",
-        text: "The Guidelines were substantively revised in 2021 following a public consultation, but they are not static. MAS Notice 106 — which governs the appointment of directors, the chairman, nominating committee members, and key executive persons for insurers, and which reaches every Tier 1 insurer's chief executive, CFO, CRO, appointed actuary and certifying actuary — was itself amended again, with the amendment taking effect on 30 May 2026. Boards that last reviewed their governance framework against the 2021 text and assumed the file was closed are working from a document that has since moved. That matters practically: appointment and fit-and-proper processes that were compliant in 2022 are not automatically compliant today just because nobody flagged a problem.",
+        text: "The Guidelines were substantively revised in 2021 following a public consultation, but they are not static. MAS Notice 106, which governs the appointment of directors, the chairman, nominating committee members, and key executive persons for insurers, and which reaches every Tier 1 insurer's chief executive, CFO, CRO, appointed actuary and certifying actuary, was itself amended again, with the amendment taking effect on 30 May 2026. Boards that last reviewed their governance framework against the 2021 text and assumed the file was closed are working from a document that has since moved. That matters practically: appointment and fit-and-proper processes that were compliant in 2022 are not automatically compliant today just because nobody flagged a problem.",
       },
       {
         type: "heading",
@@ -3327,7 +3327,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The provision I find boards most consistently under-engage with is the extension of remuneration oversight beyond executive officers to Material Risk Takers — employees whose individual actions can materially affect the insurer's risk exposure, who are not necessarily executives and may sit several layers down the organisation chart. The Board Remuneration Committee is expected to actively oversee and monitor the effectiveness of remuneration policy for this group, evaluating outcomes in aggregate to confirm they don't create incentives for excessive risk-taking. Most remuneration committees I have observed spend the bulk of their time on the CEO and the direct reports whose pay packages get board-level scrutiny by habit. Very few can tell you, without going back to management for the answer, who their MRT population actually is this year, or whether that population's incentive structure has been stress-tested against the same risk-taking concerns the Guidelines are aimed at.",
+        text: "The provision I find boards most consistently under-engage with is the extension of remuneration oversight beyond executive officers to Material Risk Takers, employees whose individual actions can materially affect the insurer's risk exposure, who are not necessarily executives and may sit several layers down the organisation chart. The Board Remuneration Committee is expected to actively oversee and monitor the effectiveness of remuneration policy for this group, evaluating outcomes in aggregate to confirm they don't create incentives for excessive risk-taking. Most remuneration committees I have observed spend the bulk of their time on the CEO and the direct reports whose pay packages get board-level scrutiny by habit. Very few can tell you, without going back to management for the answer, who their MRT population actually is this year, or whether that population's incentive structure has been stress-tested against the same risk-taking concerns the Guidelines are aimed at.",
       },
       {
         type: "pullquote",
@@ -3339,7 +3339,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "A second provision that is easy to treat as procedural and hard to actually implement: the Guidelines expect financial institutions to document, in board meeting minutes, the unresolved concerns of independent directors — particularly where those concerns relate to how the company is being run or to a proposed corporate action. This is a deliberate departure from the convention of minutes that record only what was approved. It exists because a board's real governance value often shows up in what an independent director objected to and could not get resolved, not in the unanimous votes. I have reviewed board minutes from more than one Singapore financial institution where every recorded vote across a full year was unanimous — not because the board agreed on everything, but because dissent was resolved informally before the meeting or never written down. That pattern is precisely what this provision is meant to surface, and it is precisely the pattern a MAS inspection or a post-incident review will go looking for first.",
+        text: "A second provision that is easy to treat as procedural and hard to actually implement: the Guidelines expect financial institutions to document, in board meeting minutes, the unresolved concerns of independent directors, particularly where those concerns relate to how the company is being run or to a proposed corporate action. This is a deliberate departure from the convention of minutes that record only what was approved. It exists because a board's real governance value often shows up in what an independent director objected to and could not get resolved, not in the unanimous votes. I have reviewed board minutes from more than one Singapore financial institution where every recorded vote across a full year was unanimous, not because the board agreed on everything, but because dissent was resolved informally before the meeting or never written down. That pattern is precisely what this provision is meant to surface, and it is precisely the pattern a MAS inspection or a post-incident review will go looking for first.",
       },
       {
         type: "heading",
@@ -3347,12 +3347,12 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The Guidelines also place oversight of related-party transactions squarely with the board, not delegated wholesale to management or buried inside an audit committee's annual review. For insurers with related corporations, substantial shareholders, or intra-group service arrangements — common in Singapore's insurance market, where many players sit inside larger regional or global groups — this is not a once-a-year exercise. It is an expectation that the board maintains ongoing visibility into related-party arrangements and can demonstrate, if asked, that those arrangements were assessed on arm's-length terms and in the interest of policyholders and minority shareholders, not just the parent group's convenience.",
+        text: "The Guidelines also place oversight of related-party transactions squarely with the board, not delegated wholesale to management or buried inside an audit committee's annual review. For insurers with related corporations, substantial shareholders, or intra-group service arrangements, common in Singapore's insurance market, where many players sit inside larger regional or global groups,this is not a once-a-year exercise. It is an expectation that the board maintains ongoing visibility into related-party arrangements and can demonstrate, if asked, that those arrangements were assessed on arm's-length terms and in the interest of policyholders and minority shareholders, not just the parent group's convenience.",
       },
       {
         type: "list",
         items: [
-          "Can the remuneration committee name its current Material Risk Taker population and describe how their incentive structure was evaluated in aggregate this year — without asking management to pull the list first?",
+          "Can the remuneration committee name its current Material Risk Taker population and describe how their incentive structure was evaluated in aggregate this year, without asking management to pull the list first?",
           "Do this year's board minutes show any recorded, unresolved concern from an independent director, or does a full year of unanimous votes suggest disagreement was being resolved off the record?",
           "Is related-party transaction oversight a standing board agenda item with real documentation, or a once-a-year audit committee memo that gets nodded through?",
         ],
@@ -3369,7 +3369,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What is a Material Risk Taker under MAS's remuneration oversight expectations?",
-        answer: "A Material Risk Taker (MRT) is an employee whose individual actions can have a material impact on the insurer's risk exposure, regardless of seniority. The Board Remuneration Committee is expected to actively oversee remuneration policy for this group and evaluate outcomes in aggregate to ensure they don't incentivise excessive risk-taking — not just review the pay of named executives.",
+        answer: "A Material Risk Taker (MRT) is an employee whose individual actions can have a material impact on the insurer's risk exposure, regardless of seniority. The Board Remuneration Committee is expected to actively oversee remuneration policy for this group and evaluate outcomes in aggregate to ensure they don't incentivise excessive risk-taking, not just review the pay of named executives.",
       },
       {
         question: "Why do board minutes need to record unresolved concerns from independent directors?",
@@ -3381,7 +3381,7 @@ export const insights: Insight[] = [
     id: "45",
     title: "What MAS's Agentic AI Guardrails Mean for Every Singapore Board, Not Just Banks",
     summary:
-      "MAS's Managing Director used his 11 September 2026 Global FinTech Fest address to put SAFR — the industry framework for governing autonomous AI agents in finance — back in front of the market, alongside a sixfold rise in high-severity vulnerabilities this year. For boards outside the banks and fintechs that co-authored it, that repetition is the signal worth reading, not the framework itself.",
+      "MAS's Managing Director used his 11 September 2026 Global FinTech Fest address to put SAFR, the industry framework for governing autonomous AI agents in finance,back in front of the market, alongside a sixfold rise in high-severity vulnerabilities this year. For boards outside the banks and fintechs that co-authored it, that repetition is the signal worth reading, not the framework itself.",
     category: "Technology Risk",
     readingTime: "4 min read",
     date: "September 2026",
@@ -3391,7 +3391,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "A board I've advised spent an hour last quarter satisfied that its AI governance was in order because it had a policy on chatbot use. That is not the conversation MAS is having anymore. On 11 September, Managing Director Chia Der Jiun told the Global FinTech Fest that AI would increasingly strip out transaction and decision-making frictions altogether — and in the same address, flagged that high-severity vulnerabilities tracked this year had risen sixfold to around 2,200. Read together, that is a regulator describing autonomous systems taking actions on their own, faster than the institutions running them can watch every one, at the exact moment the attack surface is expanding fastest.",
+        text: "A board I've advised spent an hour last quarter satisfied that its AI governance was in order because it had a policy on chatbot use. That is not the conversation MAS is having anymore. On 11 September, Managing Director Chia Der Jiun told the Global FinTech Fest that AI would increasingly strip out transaction and decision-making frictions altogether, and in the same address, flagged that high-severity vulnerabilities tracked this year had risen sixfold to around 2,200. Read together, that is a regulator describing autonomous systems taking actions on their own, faster than the institutions running them can watch every one, at the exact moment the attack surface is expanding fastest.",
       },
       {
         type: "heading",
@@ -3399,7 +3399,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "MAS published SAFR — Safeguards for Agentic Finance at Runtime — as an industry white paper in July 2026, developed under its BuildFin.ai initiative with Ant International, Circle, HSBC, J.P. Morgan Chase, Manulife, Mastercard, OCBC and Visa. It is explicitly not regulatory guidance; MAS says so in the document itself. But a Managing Director does not use a keynote nine weeks later to walk an industry audience back through the same territory — AI agents, oversight, runtime controls — unless the regulator intends it to become the reference point institutions get measured against before it becomes a Notice.",
+        text: "MAS published SAFR, Safeguards for Agentic Finance at Runtime,as an industry white paper in July 2026, developed under its BuildFin.ai initiative with Ant International, Circle, HSBC, J.P. Morgan Chase, Manulife, Mastercard, OCBC and Visa. It is explicitly not regulatory guidance; MAS says so in the document itself. But a Managing Director does not use a keynote nine weeks later to walk an industry audience back through the same territory, AI agents, oversight, runtime controls,unless the regulator intends it to become the reference point institutions get measured against before it becomes a Notice.",
       },
       {
         type: "pullquote",
@@ -3411,35 +3411,35 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Strip away the terminology and SAFR asks a board four plain questions about every AI agent operating anywhere near money movement, underwriting, or claims decisions: does the agent have a verifiable identity distinct from the human who deployed it; is there a controls repository defining what it is and isn't permitted to do; is there a disposition engine that evaluates each proposed action and routes it to Deny, Escalate, Auto-Execute or Observe; and is there an audit log detailed enough to reconstruct, after the fact, exactly why the agent did what it did. Most boards outside the SAFR co-authors cannot currently answer any of the four for the AI tools already running inside their operations — not because the technology is unusually complex, but because the tools arrived through procurement or an ops team's pilot project, not through a governance conversation.",
+        text: "Strip away the terminology and SAFR asks a board four plain questions about every AI agent operating anywhere near money movement, underwriting, or claims decisions: does the agent have a verifiable identity distinct from the human who deployed it; is there a controls repository defining what it is and isn't permitted to do; is there a disposition engine that evaluates each proposed action and routes it to Deny, Escalate, Auto-Execute or Observe; and is there an audit log detailed enough to reconstruct, after the fact, exactly why the agent did what it did. Most boards outside the SAFR co-authors cannot currently answer any of the four for the AI tools already running inside their operations, not because the technology is unusually complex, but because the tools arrived through procurement or an ops team's pilot project, not through a governance conversation.",
       },
       {
         type: "list",
         items: [
-          "Can management name every AI agent currently authorised to take an action — not just answer a query — inside the business, and who approved that authorisation?",
+          "Can management name every AI agent currently authorised to take an action, not just answer a query,inside the business, and who approved that authorisation?",
           "For each one, is there a defined trigger that escalates the decision to a human, or does the agent simply act and report afterward?",
           "If a regulator or auditor asked for the audit trail behind a specific automated decision from six months ago, could it be produced today?",
         ],
       },
       {
         type: "paragraph",
-        text: "None of this requires a board to slow down AI adoption — MAS's own message is the opposite, that innovation should scale, not stall. What it requires is a board that treats agent identity, escalation triggers, and audit trails as standing governance questions now, while building the infrastructure is a design choice, rather than in eighteen months when it is a supervisory finding.",
+        text: "None of this requires a board to slow down AI adoption, MAS's own message is the opposite, that innovation should scale, not stall. What it requires is a board that treats agent identity, escalation triggers, and audit trails as standing governance questions now, while building the infrastructure is a design choice, rather than in eighteen months when it is a supervisory finding.",
       },
     ],
     faqs: [
       {
         question: "Is MAS's SAFR framework a mandatory requirement for Singapore financial institutions?",
-        answer: "No. SAFR is an industry white paper published by MAS under its BuildFin.ai initiative with major banks, insurers, and payment firms, and MAS states explicitly that it does not constitute regulatory guidance or supervisory expectations. It is a voluntary reference architecture — but MAS's continued public promotion of it, most recently in the Managing Director's September 2026 keynote, signals the direction future guidance is likely to take.",
+        answer: "No. SAFR is an industry white paper published by MAS under its BuildFin.ai initiative with major banks, insurers, and payment firms, and MAS states explicitly that it does not constitute regulatory guidance or supervisory expectations. It is a voluntary reference architecture, but MAS's continued public promotion of it, most recently in the Managing Director's September 2026 keynote, signals the direction future guidance is likely to take.",
       },
       {
         question: "Which board committee should oversee AI agent deployment in a Singapore financial institution?",
-        answer: "There is no prescribed structure, but the practical answer is whichever committee already owns technology and operational risk — typically the risk committee or a technology risk subcommittee — should extend its mandate explicitly to autonomous AI agents rather than leaving oversight to management's AI governance policy alone. The board's role is to confirm agent identity, escalation, and audit-trail controls exist, not to approve individual use cases.",
+        answer: "There is no prescribed structure, but the practical answer is whichever committee already owns technology and operational risk, typically the risk committee or a technology risk subcommittee,should extend its mandate explicitly to autonomous AI agents rather than leaving oversight to management's AI governance policy alone. The board's role is to confirm agent identity, escalation, and audit-trail controls exist, not to approve individual use cases.",
       },
     ],
   },
   {
     id: "46",
-    title: "Scope 3 Emissions Reporting Is Mandatory for STI Companies From FY2026 — What Boards Need Before Year-End",
+    title: "Scope 3 Emissions Reporting Is Mandatory for STI Companies From FY2026, What Boards Need Before Year-End",
     summary:
       "Straits Times Index constituents stay on the original timeline for mandatory Scope 3 emissions reporting from FY2026, even after SGX RegCo pushed the requirement back for every other listed company. With only 29% of Singapore-listed issuers currently reporting Scope 3 at all, STI boards that treat this as a data problem for the sustainability team, rather than a governance decision for the board, will run out of runway before their next annual report.",
     category: "ESG",
@@ -3451,7 +3451,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I've sat in more than one board sustainability committee meeting where Scope 3 was discussed as a future problem — something to build capability toward over the next few years, once Scope 1 and 2 reporting had matured. For companies inside the Straits Times Index, that runway has already run out. When SGX RegCo extended the timeline for mandatory value-chain emissions reporting in 2024, it built a three-tier system by company size and index membership — and it deliberately left STI constituents on the original schedule. Scope 3 is mandatory for STI companies from FY2026. For a board with a December year-end, that is effectively now.",
+        text: "I've sat in more than one board sustainability committee meeting where Scope 3 was discussed as a future problem, something to build capability toward over the next few years, once Scope 1 and 2 reporting had matured. For companies inside the Straits Times Index, that runway has already run out. When SGX RegCo extended the timeline for mandatory value-chain emissions reporting in 2024, it built a three-tier system by company size and index membership, and it deliberately left STI constituents on the original schedule. Scope 3 is mandatory for STI companies from FY2026. For a board with a December year-end, that is effectively now.",
       },
       {
         type: "heading",
@@ -3459,7 +3459,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The revised framework splits listed companies into three groups: STI constituents, non-STI companies above roughly S$1 billion in market capitalisation, and everyone below that. All listed companies must disclose Scope 1 and 2 emissions from FY2025 — that part is uniform. But ISSB-aligned climate disclosures more broadly are deferred to FY2028 for larger non-STI companies and FY2030 for smaller ones, and Scope 3 stays voluntary for both of those tiers in the meantime. STI constituents got none of that relief. The regulator's logic is straightforward — the thirty largest, most liquid companies on the exchange are the ones institutional investors and index funds most need comparable value-chain data from — but it means the boards facing the hardest reporting category are the ones with the least additional time to prepare for it.",
+        text: "The revised framework splits listed companies into three groups: STI constituents, non-STI companies above roughly S$1 billion in market capitalisation, and everyone below that. All listed companies must disclose Scope 1 and 2 emissions from FY2025, that part is uniform. But ISSB-aligned climate disclosures more broadly are deferred to FY2028 for larger non-STI companies and FY2030 for smaller ones, and Scope 3 stays voluntary for both of those tiers in the meantime. STI constituents got none of that relief. The regulator's logic is straightforward, the thirty largest, most liquid companies on the exchange are the ones institutional investors and index funds most need comparable value-chain data from, but it means the boards facing the hardest reporting category are the ones with the least additional time to prepare for it.",
       },
       {
         type: "pullquote",
@@ -3471,7 +3471,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "A review of Singapore-listed sustainability reports found 87% of issuers disclosing Scope 2 emissions and 80% disclosing Scope 1 — but only 29% disclosing Scope 3. That gap exists for a structural reason: Scope 3 covers purchased goods and services, business travel, employee commuting, waste disposal, and the use and disposal of sold products — categories that, combined, typically make up 70% or more of a company's total footprint, and that no single internal function fully owns. A sustainability team can pull utility bills for Scope 1 and 2. It cannot unilaterally produce supplier-level emissions data, employee commuting patterns, or product end-of-life assumptions without procurement, HR, finance, and often the supply chain itself cooperating on definitions the board has never actually settled.",
+        text: "A review of Singapore-listed sustainability reports found 87% of issuers disclosing Scope 2 emissions and 80% disclosing Scope 1, but only 29% disclosing Scope 3. That gap exists for a structural reason: Scope 3 covers purchased goods and services, business travel, employee commuting, waste disposal, and the use and disposal of sold products, categories that, combined, typically make up 70% or more of a company's total footprint, and that no single internal function fully owns. A sustainability team can pull utility bills for Scope 1 and 2. It cannot unilaterally produce supplier-level emissions data, employee commuting patterns, or product end-of-life assumptions without procurement, HR, finance, and often the supply chain itself cooperating on definitions the board has never actually settled.",
       },
       {
         type: "heading",
@@ -3479,12 +3479,12 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The mistake I see most often is delegating Scope 3 entirely to the sustainability function as though it were a technical reporting task. It isn't. Before any data gets collected, someone has to decide which Scope 3 categories are material enough to report on and which can be reasonably excluded — a judgement call with real disclosure risk attached if it's made by a junior team without board sign-off. Someone has to decide what estimation methodology is used where supplier-level data doesn't exist yet, because for most companies it won't in year one. And someone has to start planning now for external limited assurance over Scope 1 and 2, which becomes mandatory from FY2029 — a deadline that sounds distant but requires the underlying data systems to be assurance-ready years before an auditor ever looks at them.",
+        text: "The mistake I see most often is delegating Scope 3 entirely to the sustainability function as though it were a technical reporting task. It isn't. Before any data gets collected, someone has to decide which Scope 3 categories are material enough to report on and which can be reasonably excluded, a judgement call with real disclosure risk attached if it's made by a junior team without board sign-off. Someone has to decide what estimation methodology is used where supplier-level data doesn't exist yet, because for most companies it won't in year one. And someone has to start planning now for external limited assurance over Scope 1 and 2, which becomes mandatory from FY2029, a deadline that sounds distant but requires the underlying data systems to be assurance-ready years before an auditor ever looks at them.",
       },
       {
         type: "list",
         items: [
-          "Has the board — not the sustainability team alone — signed off on which Scope 3 categories are material to this business and documented why any are excluded?",
+          "Has the board, not the sustainability team alone,signed off on which Scope 3 categories are material to this business and documented why any are excluded?",
           "Is there a named owner in procurement, HR, or finance for each material category's data, or does the sustainability team still own all of it by default?",
           "Has the company engaged, or started evaluating, an external assurance provider ahead of the FY2029 mandatory assurance requirement for Scope 1 and 2?",
           "Does the sustainability or ESG committee report Scope 3 progress to the full board as a standing item, or only surface it once a year when the annual report is being drafted?",
@@ -3492,7 +3492,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "None of this is a call to panic. It's a call to sequence the work correctly. The STI boards that get ahead of FY2026 will have spent the remaining months of this year making the judgement calls — materiality, methodology, ownership — that actually require board input, so that what's left for the sustainability team is execution rather than guesswork. The ones that wait for the annual report drafting cycle to force the conversation will discover, in public, that 29% Scope 3 disclosure rate exists for a reason, and that reason was never really about data.",
+        text: "None of this is a call to panic. It's a call to sequence the work correctly. The STI boards that get ahead of FY2026 will have spent the remaining months of this year making the judgement calls, materiality, methodology, ownership,that actually require board input, so that what's left for the sustainability team is execution rather than guesswork. The ones that wait for the annual report drafting cycle to force the conversation will discover, in public, that 29% Scope 3 disclosure rate exists for a reason, and that reason was never really about data.",
       },
     ],
     faqs: [
@@ -3502,7 +3502,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What should an STI board do if it can't get reliable Scope 3 data from suppliers?",
-        answer: "Use recognised estimation methodologies for categories where primary supplier data isn't yet available, and disclose the methodology and its limitations transparently rather than omitting the category. The board's job is to sign off on which categories are material and what estimation approach is being used, and to task management with improving data quality — usually starting with the largest suppliers by spend — in subsequent reporting years.",
+        answer: "Use recognised estimation methodologies for categories where primary supplier data isn't yet available, and disclose the methodology and its limitations transparently rather than omitting the category. The board's job is to sign off on which categories are material and what estimation approach is being used, and to task management with improving data quality, usually starting with the largest suppliers by spend,in subsequent reporting years.",
       },
       {
         question: "Does Scope 3 emissions reporting require external assurance in Singapore?",
@@ -3514,7 +3514,7 @@ export const insights: Insight[] = [
     id: "47",
     title: "What MAS's Stablecoin Licensing Framework Means for Every Singapore Board, Not Just Crypto Firms",
     summary:
-      "MAS opened a consultation on 1 September 2026 to convert its Single-Currency Stablecoin framework from supervisory expectation into enforceable law under the Payment Services Act — with a new power to designate any stablecoin as systemic. Boards that have been treating stablecoin exposure as a treasury or payments-ops sandbox item now need to treat it as a standing risk-register entry.",
+      "MAS opened a consultation on 1 September 2026 to convert its Single-Currency Stablecoin framework from supervisory expectation into enforceable law under the Payment Services Act, with a new power to designate any stablecoin as systemic. Boards that have been treating stablecoin exposure as a treasury or payments-ops sandbox item now need to treat it as a standing risk-register entry.",
     category: "Regulation",
     readingTime: "4 min read",
     date: "September 2026",
@@ -3524,7 +3524,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I've sat in board risk discussions where stablecoin exposure got waved off in under a minute — 'that's a treasury team question' — and moved on to the next agenda item. MAS just made that answer obsolete. On 1 September, it opened a consultation on amendments to the Payment Services Act that would give its Single-Currency Stablecoin framework the force of law, not just the weight of supervisory guidance a board could reasonably treat as a soft expectation.",
+        text: "I've sat in board risk discussions where stablecoin exposure got waved off in under a minute, 'that's a treasury team question',and moved on to the next agenda item. MAS just made that answer obsolete. On 1 September, it opened a consultation on amendments to the Payment Services Act that would give its Single-Currency Stablecoin framework the force of law, not just the weight of supervisory guidance a board could reasonably treat as a soft expectation.",
       },
       {
         type: "heading",
@@ -3532,7 +3532,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The framework MAS finalised in 2023 has, until now, operated as policy: firms were expected to comply, but the label 'MAS-regulated stablecoin' wasn't backed by a licensing regime with real teeth. The proposed amendments change that. They introduce a licensing regime for Singapore-incorporated issuers of stablecoins pegged to the Singapore dollar or a G10 currency, a recognition regime for foreign issuers already subject to comparable oversight at home, and — the detail I'd flag first to any board — a new MAS power to designate a specific stablecoin as systemic if it could pose risk to, or disrupt, Singapore's financial system. Only licensed issuers will be permitted to call themselves 'MAS-regulated,' which turns a marketing claim into a legal one.",
+        text: "The framework MAS finalised in 2023 has, until now, operated as policy: firms were expected to comply, but the label 'MAS-regulated stablecoin' wasn't backed by a licensing regime with real teeth. The proposed amendments change that. They introduce a licensing regime for Singapore-incorporated issuers of stablecoins pegged to the Singapore dollar or a G10 currency, a recognition regime for foreign issuers already subject to comparable oversight at home, and, the detail I'd flag first to any board,a new MAS power to designate a specific stablecoin as systemic if it could pose risk to, or disrupt, Singapore's financial system. Only licensed issuers will be permitted to call themselves 'MAS-regulated,' which turns a marketing claim into a legal one.",
       },
       {
         type: "pullquote",
@@ -3544,19 +3544,19 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "This isn't only a compliance question for the handful of firms seeking a licence. Value stability, capital, redemption-at-par, and disclosure requirements now become testable legal obligations rather than best-practice expectations — which changes the due-diligence bar for any company holding stablecoins on its balance sheet, using them for cross-border settlement, or embedding them in a payments product built on top of someone else's rails. A board that has never discussed stablecoins directly may still be carrying counterparty exposure to one through a payments partner, and the systemic-designation power means that exposure's risk profile can change on MAS's timetable, not the board's.",
+        text: "This isn't only a compliance question for the handful of firms seeking a licence. Value stability, capital, redemption-at-par, and disclosure requirements now become testable legal obligations rather than best-practice expectations, which changes the due-diligence bar for any company holding stablecoins on its balance sheet, using them for cross-border settlement, or embedding them in a payments product built on top of someone else's rails. A board that has never discussed stablecoins directly may still be carrying counterparty exposure to one through a payments partner, and the systemic-designation power means that exposure's risk profile can change on MAS's timetable, not the board's.",
       },
       {
         type: "list",
         items: [
-          "Does anyone on management know which, if any, stablecoins the business is exposed to — directly or through a payments or treasury vendor?",
+          "Does anyone on management know which, if any, stablecoins the business is exposed to, directly or through a payments or treasury vendor?",
           "If MAS designated one of those as systemic, is there a process to identify and reassess that exposure within days, or would the board find out from a news alert?",
           "Has risk or treasury been asked to respond to the consultation, or map its implications, ahead of the 16 October 2026 deadline?",
         ],
       },
       {
         type: "paragraph",
-        text: "The consultation closes on 16 October. Boards don't need a position on the legislative detail to act now — they need a straight answer to one question: where does this business actually touch a stablecoin, and who is watching it. That answer should exist before the framework becomes law, not after.",
+        text: "The consultation closes on 16 October. Boards don't need a position on the legislative detail to act now, they need a straight answer to one question: where does this business actually touch a stablecoin, and who is watching it. That answer should exist before the framework becomes law, not after.",
       },
     ],
     faqs: [
@@ -3576,9 +3576,9 @@ export const insights: Insight[] = [
   },
   {
     id: "48",
-    title: "ISSB-Aligned Reporting Reaches Singapore's Large Private Companies From FY2030 — Most Don't Have the Board For It",
+    title: "ISSB-Aligned Reporting Reaches Singapore's Large Private Companies From FY2030. Most Don't Have the Board For It",
     summary:
-      "From FY2030, Singapore's large non-listed companies — revenue above S$1 billion and total assets above S$500 million — must report Scope 1 and 2 emissions and full ISSB-aligned climate disclosures for the first time. Unlike the listed companies that have been building toward this since FY2025, most of these boards have never run a risk committee, an audit committee, or an independent director through a disclosure sign-off, and four years is not as much runway as it looks.",
+      "From FY2030, Singapore's large non-listed companies, revenue above S$1 billion and total assets above S$500 million,must report Scope 1 and 2 emissions and full ISSB-aligned climate disclosures for the first time. Unlike the listed companies that have been building toward this since FY2025, most of these boards have never run a risk committee, an audit committee, or an independent director through a disclosure sign-off, and four years is not as much runway as it looks.",
     category: "ESG",
     readingTime: "8 min read",
     date: "September 2026",
@@ -3588,7 +3588,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I've advised family-owned and private-equity-backed businesses that are, by any commercial measure, bigger than half the companies on SGX's Mainboard — and whose boards have never once had to demonstrate independent oversight of a public disclosure. That gap is about to matter. From financial years starting on or after 1 January 2030, Singapore's large non-listed companies must report ISSB-aligned climate disclosures, including mandatory Scope 1 and 2 emissions, for the first time. Listed companies have had a multi-year runway toward this, phased in from FY2025. Large private companies get one mandate, on one date, with none of the board infrastructure listed companies were required to build along the way.",
+        text: "I've advised family-owned and private-equity-backed businesses that are, by any commercial measure, bigger than half the companies on SGX's Mainboard, and whose boards have never once had to demonstrate independent oversight of a public disclosure. That gap is about to matter. From financial years starting on or after 1 January 2030, Singapore's large non-listed companies must report ISSB-aligned climate disclosures, including mandatory Scope 1 and 2 emissions, for the first time. Listed companies have had a multi-year runway toward this, phased in from FY2025. Large private companies get one mandate, on one date, with none of the board infrastructure listed companies were required to build along the way.",
       },
       {
         type: "heading",
@@ -3596,7 +3596,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "ACRA's threshold is specific: a large non-listed company (Large NLCo) is one with annual revenue of S$1 billion or more and total assets of S$500 million or more — both conditions, not either. That catches a real population of Singapore businesses: family conglomerates, PE-backed platforms nearing exit, and Singapore-incorporated subsidiaries of foreign multinationals that aren't separately listed anywhere. From FY2030, those companies must report Scope 1 and 2 GHG emissions as a mandatory item, with Scope 3 remaining voluntary, structured around the same four ISSB pillars listed companies already report against: governance, strategy, risk management, and metrics and targets. A subsidiary can be exempted if its parent — local or foreign — already publishes an ISSB-based or equivalent climate report that covers the subsidiary's activities, which will let some MNC subsidiaries off the hook. It will not help the standalone family business or the PE platform with no reporting parent above it.",
+        text: "ACRA's threshold is specific: a large non-listed company (Large NLCo) is one with annual revenue of S$1 billion or more and total assets of S$500 million or more, both conditions, not either. That catches a real population of Singapore businesses: family conglomerates, PE-backed platforms nearing exit, and Singapore-incorporated subsidiaries of foreign multinationals that aren't separately listed anywhere. From FY2030, those companies must report Scope 1 and 2 GHG emissions as a mandatory item, with Scope 3 remaining voluntary, structured around the same four ISSB pillars listed companies already report against: governance, strategy, risk management, and metrics and targets. A subsidiary can be exempted if its parent, local or foreign,already publishes an ISSB-based or equivalent climate report that covers the subsidiary's activities, which will let some MNC subsidiaries off the hook. It will not help the standalone family business or the PE platform with no reporting parent above it.",
       },
       {
         type: "pullquote",
@@ -3608,17 +3608,17 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Of the four ISSB pillars, metrics and targets is the one that gets the attention because it's the number-crunching exercise — get the emissions data, pick a methodology, report a figure. Governance is the one that actually exposes whether the board is ready. IFRS S1 and S2 require a company to describe the board's oversight of climate-related risks and opportunities, and management's role in assessing and managing them. A listed company answers that question with an existing risk committee charter, board minutes showing climate on the agenda, and — since Singapore's Code of Corporate Governance applies to it — independent directors whose role is specifically to challenge management's assumptions. A large non-listed company, with no Code of Corporate Governance obligation, frequently has none of that: no mandated independent directors, no standing risk committee, and a board that may consist largely of family members or the PE sponsor's own operating partners, none of whom were put there to independently challenge a climate risk assessment.",
+        text: "Of the four ISSB pillars, metrics and targets is the one that gets the attention because it's the number-crunching exercise, get the emissions data, pick a methodology, report a figure. Governance is the one that actually exposes whether the board is ready. IFRS S1 and S2 require a company to describe the board's oversight of climate-related risks and opportunities, and management's role in assessing and managing them. A listed company answers that question with an existing risk committee charter, board minutes showing climate on the agenda, and, since Singapore's Code of Corporate Governance applies to it,independent directors whose role is specifically to challenge management's assumptions. A large non-listed company, with no Code of Corporate Governance obligation, frequently has none of that: no mandated independent directors, no standing risk committee, and a board that may consist largely of family members or the PE sponsor's own operating partners, none of whom were put there to independently challenge a climate risk assessment.",
       },
       {
         type: "paragraph",
-        text: "That's not a data problem four years can't fix — it's a board-composition and governance-process problem that takes just as long to fix properly, and that most Large NLCo boards haven't started on because FY2030 still sounds far away. Standing up a functioning risk oversight process, bringing in at least one genuinely independent voice, and getting the board comfortable discussing emissions data with the same rigor it applies to a covenant test is a multi-year exercise even when a company starts now. Boards that wait until FY2028 or FY2029 to think about governance, because the emissions data collection felt like the more urgent problem, will arrive at their first ISSB disclosure with a metrics section that reads adequately and a governance section that reads exactly like what it is: written after the fact, to describe oversight that didn't happen.",
+        text: "That's not a data problem four years can't fix, it's a board-composition and governance-process problem that takes just as long to fix properly, and that most Large NLCo boards haven't started on because FY2030 still sounds far away. Standing up a functioning risk oversight process, bringing in at least one genuinely independent voice, and getting the board comfortable discussing emissions data with the same rigor it applies to a covenant test is a multi-year exercise even when a company starts now. Boards that wait until FY2028 or FY2029 to think about governance, because the emissions data collection felt like the more urgent problem, will arrive at their first ISSB disclosure with a metrics section that reads adequately and a governance section that reads exactly like what it is: written after the fact, to describe oversight that didn't happen.",
       },
       {
         type: "list",
         items: [
-          "Does this company clear both the S$1 billion revenue and S$500 million total assets thresholds — and if it's a subsidiary, does a parent's existing ISSB-aligned report actually cover its activities, in writing, or is that assumed?",
-          "Does the board have a standing risk committee, or any board-level process, that has discussed climate risk in the last twelve months — not as a briefing, but as a decision item?",
+          "Does this company clear both the S$1 billion revenue and S$500 million total assets thresholds, and if it's a subsidiary, does a parent's existing ISSB-aligned report actually cover its activities, in writing, or is that assumed?",
+          "Does the board have a standing risk committee, or any board-level process, that has discussed climate risk in the last twelve months, not as a briefing, but as a decision item?",
           "Is there at least one director on the board whose role is to independently challenge management's assumptions, on climate or anything else, or is the board composed entirely of family members, sponsor representatives, or executives?",
           "If asked today to describe the board's oversight of climate-related risk for a disclosure document, would that description be true, or would it be written to sound true?",
         ],
@@ -3631,7 +3631,7 @@ export const insights: Insight[] = [
     faqs: [
       {
         question: "Which companies count as a Large Non-Listed Company (Large NLCo) under Singapore's sustainability reporting regime?",
-        answer: "A company that is not listed on SGX but has annual revenue of S$1 billion or more and total assets of S$500 million or more — both thresholds must be met. This captures large family-owned businesses, private-equity-backed platforms, and Singapore-incorporated subsidiaries of foreign multinationals.",
+        answer: "A company that is not listed on SGX but has annual revenue of S$1 billion or more and total assets of S$500 million or more, both thresholds must be met. This captures large family-owned businesses, private-equity-backed platforms, and Singapore-incorporated subsidiaries of foreign multinationals.",
       },
       {
         question: "What must Large NLCos report from FY2030, and is Scope 3 included?",
@@ -3639,15 +3639,15 @@ export const insights: Insight[] = [
       },
       {
         question: "Is a Large NLCo exempt if it's a subsidiary of a foreign multinational?",
-        answer: "It can be, but only if the parent company — local or foreign — already prepares an ISSB-based or equivalent climate or sustainability report, and that report's coverage explicitly includes the Singapore subsidiary's activities. A subsidiary should confirm this in writing rather than assume group-level reporting automatically covers it.",
+        answer: "It can be, but only if the parent company, local or foreign,already prepares an ISSB-based or equivalent climate or sustainability report, and that report's coverage explicitly includes the Singapore subsidiary's activities. A subsidiary should confirm this in writing rather than assume group-level reporting automatically covers it.",
       },
     ],
   },
   {
     id: "49",
-    title: "SGX RegCo's New Disclosure Rules Take Effect 1 January 2027 — What Boards Need to Do Before Then",
+    title: "SGX RegCo's New Disclosure Rules Take Effect 1 January 2027, What Boards Need to Do Before Then",
     summary:
-      "On 23 September 2026, SGX RegCo finalised enhanced listing rules requiring Singapore-listed companies to disclose the performance indicators driving executive pay, to publish a dividend policy, and to maintain a visible investor relations presence — all for annual reports covering financial years starting 1 January 2027. The rules are cleaner than their April consultation draft. The board work they require is not trivial and it starts now.",
+      "On 23 September 2026, SGX RegCo finalised enhanced listing rules requiring Singapore-listed companies to disclose the performance indicators driving executive pay, to publish a dividend policy, and to maintain a visible investor relations presence, all for annual reports covering financial years starting 1 January 2027. The rules are cleaner than their April consultation draft. The board work they require is not trivial and it starts now.",
     category: "Governance",
     readingTime: "4 min read",
     date: "September 2026",
@@ -3657,7 +3657,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I've sat in enough nomination and remuneration committee meetings to know that the gap between 'we have a remuneration framework' and 'we can explain in plain language what indicators we actually used to set pay this year' is larger than most listed companies will admit. SGX RegCo's 23 September announcement closes that gap with a rule. From financial years beginning on or after 1 January 2027, Singapore-listed issuers must describe in their annual reports the key financial and non-financial performance indicators used to determine executive director and officer remuneration, and explain how those indicators connect to long-term value creation. That's not a disclosure upgrade — it's a governance accountability test dressed as one.",
+        text: "I've sat in enough nomination and remuneration committee meetings to know that the gap between 'we have a remuneration framework' and 'we can explain in plain language what indicators we actually used to set pay this year' is larger than most listed companies will admit. SGX RegCo's 23 September announcement closes that gap with a rule. From financial years beginning on or after 1 January 2027, Singapore-listed issuers must describe in their annual reports the key financial and non-financial performance indicators used to determine executive director and officer remuneration, and explain how those indicators connect to long-term value creation. That's not a disclosure upgrade, it's a governance accountability test dressed as one.",
       },
       {
         type: "heading",
@@ -3665,7 +3665,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "There are three distinct requirements. First, the remuneration KPI narrative: companies must describe the specific metrics tied to executive pay, not just the existence of a framework. A board that built its executive compensation structure around revenue growth, total shareholder return, or ESG scorecard targets needs to say which ones and how they were weighted. Second, dividend policy: boards must publish a dividend policy in the annual report. SGX RegCo was deliberate here — there's no mandatory payout commitment. A company that is retaining capital for growth can say so clearly. What it cannot do is say nothing, which many companies currently manage to do. Third, IR presence: all listed issuers must maintain a website with an investor engagement section and publish their IR policy there. This sounds administrative. It is administrative. It also creates a publicly visible record that makes the next investor complaint about access much harder to deflect.",
+        text: "There are three distinct requirements. First, the remuneration KPI narrative: companies must describe the specific metrics tied to executive pay, not just the existence of a framework. A board that built its executive compensation structure around revenue growth, total shareholder return, or ESG scorecard targets needs to say which ones and how they were weighted. Second, dividend policy: boards must publish a dividend policy in the annual report. SGX RegCo was deliberate here, there's no mandatory payout commitment. A company that is retaining capital for growth can say so clearly. What it cannot do is say nothing, which many companies currently manage to do. Third, IR presence: all listed issuers must maintain a website with an investor engagement section and publish their IR policy there. This sounds administrative. It is administrative. It also creates a publicly visible record that makes the next investor complaint about access much harder to deflect.",
       },
       {
         type: "pullquote",
@@ -3687,14 +3687,14 @@ export const insights: Insight[] = [
         type: "list",
         items: [
           "Audit the remuneration framework now: can the NRC chair articulate in one paragraph exactly which KPIs drove executive pay for FY2026, with weightings? If not, the disclosure will be thin and the preparation will be rushed.",
-          "Agree a dividend policy with the full board — including the growth-retention rationale if that's the position — before the first affected annual report is drafted.",
+          "Agree a dividend policy with the full board, including the growth-retention rationale if that's the position,before the first affected annual report is drafted.",
           "Review the company's IR infrastructure: investor engagement webpage, contact mechanism for shareholders, whether the IR policy has ever been written down rather than assumed.",
           "Confirm first applicability date: the rules apply to annual reports for financial years beginning on or after 1 January 2027, so the first affected reports publish in 2028. That is more time than it sounds only if the board starts the NRC work now.",
         ],
       },
       {
         type: "paragraph",
-        text: "The rules aren't hard to comply with in the technical sense — the disclosure lengths are modest, the format requirements are principles-based, and early adoption is encouraged. What they require is for a board to have actually done the work that the disclosure describes. That's the uncomfortable part for boards that have been going through remuneration motions rather than running a real NRC process.",
+        text: "The rules aren't hard to comply with in the technical sense, the disclosure lengths are modest, the format requirements are principles-based, and early adoption is encouraged. What they require is for a board to have actually done the work that the disclosure describes. That's the uncomfortable part for boards that have been going through remuneration motions rather than running a real NRC process.",
       },
     ],
     faqs: [
@@ -3704,7 +3704,7 @@ export const insights: Insight[] = [
       },
       {
         question: "What specifically must a Singapore-listed company disclose about executive remuneration under the new rules?",
-        answer: "The annual report must describe the key financial and non-financial performance indicators used to determine the remuneration of executive directors and executive officers, and explain how those indicators are aligned with long-term value creation. This goes beyond confirming a framework exists — it requires naming the indicators actually used and their role in pay decisions.",
+        answer: "The annual report must describe the key financial and non-financial performance indicators used to determine the remuneration of executive directors and executive officers, and explain how those indicators are aligned with long-term value creation. This goes beyond confirming a framework exists, it requires naming the indicators actually used and their role in pay decisions.",
       },
       {
         question: "Does the new dividend policy rule require Singapore-listed companies to commit to a specific payout?",
@@ -3726,7 +3726,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I've sat on insurance boards in Singapore when a board appointment has been caught in a prior-approval queue at MAS for months. The candidate is right for the role, the nominating committee has done its work, the CEO is waiting — and everyone is watching a regulatory process that feels procedural rather than substantive. So when MAS issued a consultation paper on 30 September 2026 proposing to remove prior approval requirements for certain board and senior management appointments at lower-systemic-importance financial institutions, my first reaction was: yes, that is sensible. My second reaction was a question the board itself needs to answer.",
+        text: "I've sat on insurance boards in Singapore when a board appointment has been caught in a prior-approval queue at MAS for months. The candidate is right for the role, the nominating committee has done its work, the CEO is waiting, and everyone is watching a regulatory process that feels procedural rather than substantive. So when MAS issued a consultation paper on 30 September 2026 proposing to remove prior approval requirements for certain board and senior management appointments at lower-systemic-importance financial institutions, my first reaction was: yes, that is sensible. My second reaction was a question the board itself needs to answer.",
       },
       {
         type: "heading",
@@ -3734,7 +3734,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The consultation covers four areas: director independence standards, board composition requirements, key appointments, and streamlined requirements for lower-impact FIs. The headline change is the last one — for financial institutions assessed as having less retail reach or lower systemic importance, MAS proposes to remove the requirement that certain board and senior management appointments receive MAS's prior approval before the individual takes up the role. The consultation closes 9 December 2026, and the proposals will reshape the Banking (Corporate Governance) Regulations 2005, the Insurance (Corporate Governance) Regulations 2013, and the FHC regulations for designated financial holding companies.",
+        text: "The consultation covers four areas: director independence standards, board composition requirements, key appointments, and streamlined requirements for lower-impact FIs. The headline change is the last one, for financial institutions assessed as having less retail reach or lower systemic importance, MAS proposes to remove the requirement that certain board and senior management appointments receive MAS's prior approval before the individual takes up the role. The consultation closes 9 December 2026, and the proposals will reshape the Banking (Corporate Governance) Regulations 2005, the Insurance (Corporate Governance) Regulations 2013, and the FHC regulations for designated financial holding companies.",
       },
       {
         type: "pullquote",
@@ -3746,7 +3746,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The risk is not in what MAS is proposing. It is in how boards read it. Prior approval processes create a forcing function: the nominating committee has to produce a complete, documented case — fit and proper assessment, independence analysis, skills gap rationale — because the regulator will look at it. Remove the regulatory checkpoint, and some nominating committees will quietly reduce the rigour of the documentation. 'We don't need to submit for approval anymore' can slide, imperceptibly, into 'we don't need to do the substantive work as thoroughly.' That slide is the risk.",
+        text: "The risk is not in what MAS is proposing. It is in how boards read it. Prior approval processes create a forcing function: the nominating committee has to produce a complete, documented case, fit and proper assessment, independence analysis, skills gap rationale,because the regulator will look at it. Remove the regulatory checkpoint, and some nominating committees will quietly reduce the rigour of the documentation. 'We don't need to submit for approval anymore' can slide, imperceptibly, into 'we don't need to do the substantive work as thoroughly.' That slide is the risk.",
       },
       {
         type: "heading",
@@ -3755,10 +3755,10 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Treat the removal of MAS prior approval as a transfer of responsibility, not a reduction of obligation — the nominating committee's fit-and-proper assessment needs to be at least as rigorous as what was previously submitted to the regulator.",
-          "Document the board's own assessment standards explicitly — what independence criteria the board applies, how it assesses fitness and propriety, and how it tests that assessment against MAS's published guidelines — and review those standards at least annually.",
+          "Treat the removal of MAS prior approval as a transfer of responsibility, not a reduction of obligation, the nominating committee's fit-and-proper assessment needs to be at least as rigorous as what was previously submitted to the regulator.",
+          "Document the board's own assessment standards explicitly, what independence criteria the board applies, how it assesses fitness and propriety, and how it tests that assessment against MAS's published guidelines, and review those standards at least annually.",
           "The director independence provisions in the consultation are worth reading carefully: the proposals appear to tighten the substantive standards even as they streamline the process. An insurance board that has been comfortable with its independence classifications should re-examine them against the revised criteria once the consultation is finalised.",
-          "Do not assume that 'lower-systemic-importance' classification means lower governance standard — it means MAS has assessed your regulatory footprint as lower risk; the board's own governance obligations remain unchanged.",
+          "Do not assume that 'lower-systemic-importance' classification means lower governance standard, it means MAS has assessed your regulatory footprint as lower risk; the board's own governance obligations remain unchanged.",
         ],
       },
       {
@@ -3769,15 +3769,15 @@ export const insights: Insight[] = [
     faqs: [
       {
         question: "Which Singapore financial institutions are affected by MAS's September 2026 corporate governance consultation?",
-        answer: "The consultation covers Singapore-incorporated banks, insurers, and designated financial holding companies. The proposed removal of prior approval for certain board and senior management appointments applies specifically to FIs assessed as having lower systemic importance or retail reach — MAS's risk-proportionate approach means not all insurers in scope for the Insurance (Corporate Governance) Regulations 2013 will be affected equally. The consultation closes 9 December 2026.",
+        answer: "The consultation covers Singapore-incorporated banks, insurers, and designated financial holding companies. The proposed removal of prior approval for certain board and senior management appointments applies specifically to FIs assessed as having lower systemic importance or retail reach, MAS's risk-proportionate approach means not all insurers in scope for the Insurance (Corporate Governance) Regulations 2013 will be affected equally. The consultation closes 9 December 2026.",
       },
       {
         question: "Does removing MAS's prior approval requirement reduce the governance standard for insurance board appointments?",
-        answer: "No. It transfers responsibility. Where MAS previously reviewed documentation before an appointment took effect, the board's nominating committee will be the primary checkpoint. The substantive standard — fit and proper, independent assessment, documented rationale — remains. What changes is who reviews it first and with what consequence for timing. Boards that treat the change as a reduction in obligation rather than a transfer of responsibility are misreading it.",
+        answer: "No. It transfers responsibility. Where MAS previously reviewed documentation before an appointment took effect, the board's nominating committee will be the primary checkpoint. The substantive standard, fit and proper, independent assessment, documented rationale,remains. What changes is who reviews it first and with what consequence for timing. Boards that treat the change as a reduction in obligation rather than a transfer of responsibility are misreading it.",
       },
       {
         question: "What does the MAS consultation propose on director independence for Singapore insurers?",
-        answer: "The consultation includes proposals to update director independence standards as part of its targeted revisions to the Insurance (Corporate Governance) Regulations 2013. The full proposals are set out in MAS's consultation paper published 30 September 2026. Insurance boards should review the independence criteria provisions specifically, as tighter substantive standards may require re-examining existing board independence classifications — even as the process for approvals is streamlined.",
+        answer: "The consultation includes proposals to update director independence standards as part of its targeted revisions to the Insurance (Corporate Governance) Regulations 2013. The full proposals are set out in MAS's consultation paper published 30 September 2026. Insurance boards should review the independence criteria provisions specifically, as tighter substantive standards may require re-examining existing board independence classifications, even as the process for approvals is streamlined.",
       },
     ],
   },
@@ -3795,7 +3795,7 @@ export const insights: Insight[] = [
     body: [
       {
         type: "paragraph",
-        text: "I've been brought in to advise on risk and governance frameworks for family offices in Singapore and across Asia more times than I expected when I started this practice. The pattern is consistently the same. The principals are sharp — sophisticated investors with global portfolios, real operational experience, and strong views on risk-adjusted return. What they are less clear on is governance: who decides what, when a decision is binding, how conflicts of interest between family members are managed, and what happens when the key decision-maker — usually the patriarch or the founding principal — is no longer able to act. They have built a structure around their own judgment. That is fine when their judgment is available and reliable. It is not a governance framework.",
+        text: "I've been brought in to advise on risk and governance frameworks for family offices in Singapore and across Asia more times than I expected when I started this practice. The pattern is consistently the same. The principals are sharp, sophisticated investors with global portfolios, real operational experience, and strong views on risk-adjusted return. What they are less clear on is governance: who decides what, when a decision is binding, how conflicts of interest between family members are managed, and what happens when the key decision-maker, usually the patriarch or the founding principal,is no longer able to act. They have built a structure around their own judgment. That is fine when their judgment is available and reliable. It is not a governance framework.",
       },
       {
         type: "heading",
@@ -3803,11 +3803,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "MAS's revised Single Family Office framework took effect on 15 June 2026. It replaces the previous patchwork of case-by-case exemptions and related-corporation exemptions with a clean, notification-based class exemption from licensing under the Securities and Futures Act. For qualifying SFOs — which manage the assets of a single family group, have a Singapore-resident employee as MAS point of contact, and file annual returns covering assets under management and licensed bank accounts — there is no formal application, no prior approval, and no licensing requirement. Existing SFOs have a transition period until 15 June 2027 to comply.",
+        text: "MAS's revised Single Family Office framework took effect on 15 June 2026. It replaces the previous patchwork of case-by-case exemptions and related-corporation exemptions with a clean, notification-based class exemption from licensing under the Securities and Futures Act. For qualifying SFOs, which manage the assets of a single family group, have a Singapore-resident employee as MAS point of contact, and file annual returns covering assets under management and licensed bank accounts, there is no formal application, no prior approval, and no licensing requirement. Existing SFOs have a transition period until 15 June 2027 to comply.",
       },
       {
         type: "paragraph",
-        text: "This is good regulatory design. Singapore is competing for family office assets with Hong Kong, Dubai, and Switzerland. Removing administrative friction while maintaining notification and AML/CFT obligations makes Singapore genuinely attractive as a base. The number of single family offices in Singapore has grown significantly through the early 2020s, and the new framework positions the jurisdiction well for the next cohort of ultra-high-net-worth families relocating capital here. What the framework does not do — and was never designed to do — is govern those family offices.",
+        text: "This is good regulatory design. Singapore is competing for family office assets with Hong Kong, Dubai, and Switzerland. Removing administrative friction while maintaining notification and AML/CFT obligations makes Singapore genuinely attractive as a base. The number of single family offices in Singapore has grown significantly through the early 2020s, and the new framework positions the jurisdiction well for the next cohort of ultra-high-net-worth families relocating capital here. What the framework does not do, and was never designed to do,is govern those family offices.",
       },
       {
         type: "pullquote",
@@ -3819,11 +3819,11 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The MAS notification framework requires one thing on governance: a Singapore-resident employee who serves as the SFO's point of contact with MAS. It does not require an independent director. It does not require an investment committee. It does not require a documented investment policy statement, a conflict-of-interest framework, or any separation between the family member who is the beneficial owner and the family member who is making the investment decisions. In a single family office — by definition — all of those roles can be held by the same person. Most of the time, they are.",
+        text: "The MAS notification framework requires one thing on governance: a Singapore-resident employee who serves as the SFO's point of contact with MAS. It does not require an independent director. It does not require an investment committee. It does not require a documented investment policy statement, a conflict-of-interest framework, or any separation between the family member who is the beneficial owner and the family member who is making the investment decisions. In a single family office, by definition,all of those roles can be held by the same person. Most of the time, they are.",
       },
       {
         type: "paragraph",
-        text: "This is where family offices in Singapore fall into a governance trap. The legal structure is clean and MAS-compliant. The operational structure is often built around the principal's preferences rather than sound governance principles. Investment decisions are made informally. Authority matrices — who can commit capital up to what size, at what process — either do not exist or exist on paper without being followed. Succession arrangements are avoided because the principal finds them uncomfortable. And the investment committee, if it exists at all, meets to hear the principal's decisions rather than to make them.",
+        text: "This is where family offices in Singapore fall into a governance trap. The legal structure is clean and MAS-compliant. The operational structure is often built around the principal's preferences rather than sound governance principles. Investment decisions are made informally. Authority matrices, who can commit capital up to what size, at what process,either do not exist or exist on paper without being followed. Succession arrangements are avoided because the principal finds them uncomfortable. And the investment committee, if it exists at all, meets to hear the principal's decisions rather than to make them.",
       },
       {
         type: "heading",
@@ -3832,12 +3832,12 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "A documented investment policy statement that sets asset allocation ranges, permitted asset classes, concentration limits, and liquidity requirements — reviewed and updated by the investment committee at least annually, not just when circumstances force a change.",
-          "An investment committee with a formal terms of reference, defined decision-making authority, and at least one non-family member who is genuinely independent — an experienced external adviser who will disagree with the principal when the evidence supports it.",
-          "An authority matrix that maps investment decisions to specific approvers: what can the CIO decide alone, what requires investment committee approval, what requires the family council or family board — and at what size thresholds each level of authority applies.",
+          "A documented investment policy statement that sets asset allocation ranges, permitted asset classes, concentration limits, and liquidity requirements, reviewed and updated by the investment committee at least annually, not just when circumstances force a change.",
+          "An investment committee with a formal terms of reference, defined decision-making authority, and at least one non-family member who is genuinely independent, an experienced external adviser who will disagree with the principal when the evidence supports it.",
+          "An authority matrix that maps investment decisions to specific approvers: what can the CIO decide alone, what requires investment committee approval, what requires the family council or family board, and at what size thresholds each level of authority applies.",
           "A conflict-of-interest framework that addresses the most common SFO conflicts: related-party transactions with family-owned businesses, allocation decisions across different family entities, and connected-party dealings.",
-          "A succession plan for the principal and for the CIO — not a generic estate-planning document, but a specific governance document that answers: who has investment authority the day after the principal is incapacitated, and what is the decision protocol in that first 48 hours.",
-          "Annual external review of the governance framework — not legal compliance review, but operational governance review: are the documented authorities being followed, are investment committee minutes reflecting actual deliberation, are conflict-of-interest disclosures being made and acted on.",
+          "A succession plan for the principal and for the CIO, not a generic estate-planning document, but a specific governance document that answers: who has investment authority the day after the principal is incapacitated, and what is the decision protocol in that first 48 hours.",
+          "Annual external review of the governance framework, not legal compliance review, but operational governance review: are the documented authorities being followed, are investment committee minutes reflecting actual deliberation, are conflict-of-interest disclosures being made and acted on.",
         ],
       },
       {
@@ -3854,33 +3854,33 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "MAS has made Singapore a genuinely excellent place to operate a family office. The ease of the new framework is a real advantage. What the principals who come here need to understand is that the ease of registration does not transfer to ease of governance. The governance work is theirs to do, and the window to do it properly is while the principal is capable and engaged — not after.",
+        text: "MAS has made Singapore a genuinely excellent place to operate a family office. The ease of the new framework is a real advantage. What the principals who come here need to understand is that the ease of registration does not transfer to ease of governance. The governance work is theirs to do, and the window to do it properly is while the principal is capable and engaged, not after.",
       },
     ],
     faqs: [
       {
         question: "What governance does MAS require of a single family office registered under the June 2026 class exemption?",
-        answer: "MAS's notification-based class exemption requires a Singapore-resident employee as point of contact, annual reporting of AUM and licensed bank accounts, and ongoing compliance with AML/CFT obligations. It does not require an investment committee, independent directors, a documented investment policy, or any specific governance structure beyond the regulatory contact requirement. Governance beyond these minimums is at the family's discretion — which means most well-run SFOs choose to implement significantly more than the minimum.",
+        answer: "MAS's notification-based class exemption requires a Singapore-resident employee as point of contact, annual reporting of AUM and licensed bank accounts, and ongoing compliance with AML/CFT obligations. It does not require an investment committee, independent directors, a documented investment policy, or any specific governance structure beyond the regulatory contact requirement. Governance beyond these minimums is at the family's discretion, which means most well-run SFOs choose to implement significantly more than the minimum.",
       },
       {
         question: "Does a Singapore single family office need an investment committee?",
-        answer: "MAS does not require one. But any family office managing a portfolio of meaningful size and complexity — multiple asset classes, external managers, private market exposure, or cross-border positions — should have one, with formal terms of reference and at least one genuinely independent external member. The investment committee is not bureaucracy: it is the mechanism by which investment decisions are documented, stress-tested against the investment policy, and made with clear authority before capital is committed.",
+        answer: "MAS does not require one. But any family office managing a portfolio of meaningful size and complexity, multiple asset classes, external managers, private market exposure, or cross-border positions,should have one, with formal terms of reference and at least one genuinely independent external member. The investment committee is not bureaucracy: it is the mechanism by which investment decisions are documented, stress-tested against the investment policy, and made with clear authority before capital is committed.",
       },
       {
         question: "How should a Singapore family office handle principal succession planning?",
-        answer: "This is the governance gap most Singapore SFOs have and the one with the most serious consequences. A succession plan for governance purposes is not an estate plan — it is a document that answers specifically who has investment authority if the principal is temporarily or permanently incapacitated, what the decision protocol is in that first period, and how investment committee composition changes in a transition. It should be reviewed and updated every two to three years, or when family circumstances change materially. The conversation is uncomfortable. The alternative — no plan when it is needed — is considerably worse.",
+        answer: "This is the governance gap most Singapore SFOs have and the one with the most serious consequences. A succession plan for governance purposes is not an estate plan, it is a document that answers specifically who has investment authority if the principal is temporarily or permanently incapacitated, what the decision protocol is in that first period, and how investment committee composition changes in a transition. It should be reviewed and updated every two to three years, or when family circumstances change materially. The conversation is uncomfortable. The alternative, no plan when it is needed,is considerably worse.",
       },
       {
         question: "What is the transition deadline for existing Singapore family offices under the June 2026 MAS framework?",
-        answer: "Existing SFOs operating in Singapore have until 15 June 2027 to comply with the revised notification-based framework. Their existing exemptions — whether the related-corporation exemption or a bespoke case-by-case arrangement — will be withdrawn either when they file their initial notification to MAS or at the end of the one-year transition period, whichever comes first. SFOs that have not yet assessed whether they qualify under the new framework and what they need to file should do so promptly.",
+        answer: "Existing SFOs operating in Singapore have until 15 June 2027 to comply with the revised notification-based framework. Their existing exemptions, whether the related-corporation exemption or a bespoke case-by-case arrangement,will be withdrawn either when they file their initial notification to MAS or at the end of the one-year transition period, whichever comes first. SFOs that have not yet assessed whether they qualify under the new framework and what they need to file should do so promptly.",
       },
     ],
   },
   {
     id: "50",
-    title: "Cyber Trust Mark Level 5 Is Mandatory for Critical Infrastructure Boards — Most Haven't Absorbed What That Means",
+    title: "Cyber Trust Mark Level 5 Is Mandatory for Critical Infrastructure Boards. Most Haven't Absorbed What That Means",
     summary:
-      "Since 2 March 2026, boards of Critical Information Infrastructure owners in Singapore are legally required to undergo cybersecurity training at least annually and receive cyber threat briefings every six months. CIIOs — covering banking, telcos, hospitals, power, and nine other sectors — also have a two-year window (end 2027) to certify their non-CII systems to Cyber Trust Mark Level 5. Most boards have the circular. Far fewer have translated it into a board-level governance obligation that the chairman actually owns.",
+      "Since 2 March 2026, boards of Critical Information Infrastructure owners in Singapore are legally required to undergo cybersecurity training at least annually and receive cyber threat briefings every six months. CIIOs, covering banking, telcos, hospitals, power, and nine other sectors,also have a two-year window (end 2027) to certify their non-CII systems to Cyber Trust Mark Level 5. Most boards have the circular. Far fewer have translated it into a board-level governance obligation that the chairman actually owns.",
     category: "Technology Risk",
     readingTime: "7 min read",
     date: "September 2026",
@@ -3898,7 +3898,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "Singapore has eleven designated CII sectors: banking and finance, commerce, education, energy, government, healthcare, infocommunications, land transport, maritime, security and emergency services, and water. If you sit on the board of a bank, insurer regulated under the Financial Services and Markets Act's CII provisions, a hospital, a power utility, or any of the other designated operators in those sectors, your board is now a named participant in Singapore's national cybersecurity architecture — not just a governance observer of it. The specific obligations: annual board participation in cybersecurity training, half-yearly cyber threat briefings delivered to the board level, and a two-year window from March 2026 to certify the organisation's non-CII operational systems to Cyber Trust Mark Level 5, the highest certification tier under CSA's scheme.",
+        text: "Singapore has eleven designated CII sectors: banking and finance, commerce, education, energy, government, healthcare, infocommunications, land transport, maritime, security and emergency services, and water. If you sit on the board of a bank, insurer regulated under the Financial Services and Markets Act's CII provisions, a hospital, a power utility, or any of the other designated operators in those sectors, your board is now a named participant in Singapore's national cybersecurity architecture, not just a governance observer of it. The specific obligations: annual board participation in cybersecurity training, half-yearly cyber threat briefings delivered to the board level, and a two-year window from March 2026 to certify the organisation's non-CII operational systems to Cyber Trust Mark Level 5, the highest certification tier under CSA's scheme.",
       },
       {
         type: "pullquote",
@@ -3910,7 +3910,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "The standard board response to a new regulatory requirement is to add it to the agenda, receive a management paper, ask two or three questions, and pass a resolution. That is not what 'participate in cybersecurity training' means. CSA's language is specific: the board participates. That implies directors engaging with content designed to test their own understanding of cyber risk, not just receiving information produced by management for board consumption. The distinction matters because the board training obligation was designed to close a specific gap: the 67% of non-executive directors who — according to Gartner's 2025 survey — believed their current board practices were inadequate to oversee cyber risk. A briefing from the CISO does not close that gap. A training exercise designed to challenge what directors actually understand does.",
+        text: "The standard board response to a new regulatory requirement is to add it to the agenda, receive a management paper, ask two or three questions, and pass a resolution. That is not what 'participate in cybersecurity training' means. CSA's language is specific: the board participates. That implies directors engaging with content designed to test their own understanding of cyber risk, not just receiving information produced by management for board consumption. The distinction matters because the board training obligation was designed to close a specific gap: the 67% of non-executive directors who, according to Gartner's 2025 survey,believed their current board practices were inadequate to oversee cyber risk. A briefing from the CISO does not close that gap. A training exercise designed to challenge what directors actually understand does.",
       },
       {
         type: "heading",
@@ -3918,7 +3918,7 @@ export const insights: Insight[] = [
       },
       {
         type: "paragraph",
-        text: "CTM Level 5 is an external certification programme run by CSA for organisations with elevated risk profiles. For CIIOs, it applies not just to the designated CII system itself — which is already subject to the Cybersecurity Code of Practice — but to the non-CII operational systems that support the organisation's business operations. Achieving certification involves a structured assessment of cyber governance, risk management processes, supply chain security, incident response capability, and security testing rigour. The board is relevant to all of those. Governance of cyber risk begins at board level — the risk appetite, the resourcing commitment, the consequence management framework if an incident occurs. A certification assessor examining CTM Level 5 compliance will look at whether the board owns those parameters, not just whether the IT team has implemented the technical controls.",
+        text: "CTM Level 5 is an external certification programme run by CSA for organisations with elevated risk profiles. For CIIOs, it applies not just to the designated CII system itself, which is already subject to the Cybersecurity Code of Practice,but to the non-CII operational systems that support the organisation's business operations. Achieving certification involves a structured assessment of cyber governance, risk management processes, supply chain security, incident response capability, and security testing rigour. The board is relevant to all of those. Governance of cyber risk begins at board level, the risk appetite, the resourcing commitment, the consequence management framework if an incident occurs. A certification assessor examining CTM Level 5 compliance will look at whether the board owns those parameters, not just whether the IT team has implemented the technical controls.",
       },
       {
         type: "heading",
@@ -3927,30 +3927,30 @@ export const insights: Insight[] = [
       {
         type: "list",
         items: [
-          "Confirm whether your organisation is classified as a CIIO under the Cybersecurity Act — for financial institutions, the MAS Technology Risk Management guidelines already carry adjacent obligations, but the CII classification is separate and CSA administers it.",
-          "Schedule the mandatory annual board cybersecurity training as a standing agenda item — not a one-off management presentation, but a structured exercise with external facilitation that tests board-level understanding.",
+          "Confirm whether your organisation is classified as a CIIO under the Cybersecurity Act, for financial institutions, the MAS Technology Risk Management guidelines already carry adjacent obligations, but the CII classification is separate and CSA administers it.",
+          "Schedule the mandatory annual board cybersecurity training as a standing agenda item, not a one-off management presentation, but a structured exercise with external facilitation that tests board-level understanding.",
           "Ensure the half-yearly threat briefing is a genuine intelligence brief on current threat actors and attack surfaces relevant to your sector, not a recycled industry risk report.",
-          "Map which non-CII systems fall in scope for CTM Level 5 certification by end 2027 — the assessment preparation takes 12–18 months for complex organisations and starts with a governance-layer review, not a technical audit.",
-          "Board minutes should reflect actual deliberation on cyber risk parameters — risk appetite, incident response authority, and what the board will and won't delegate to management — not just a notation that the CISO presented.",
+          "Map which non-CII systems fall in scope for CTM Level 5 certification by end 2027, the assessment preparation takes 12–18 months for complex organisations and starts with a governance-layer review, not a technical audit.",
+          "Board minutes should reflect actual deliberation on cyber risk parameters, risk appetite, incident response authority, and what the board will and won't delegate to management,not just a notation that the CISO presented.",
         ],
       },
       {
         type: "paragraph",
-        text: "The two-year window to achieve CTM Level 5 for non-CII systems sounds like runway. It isn't, for any organisation that treats governance preparation as something that happens after the technical remediation is done. In my experience advising boards on regulatory readiness, the governance layer — board risk appetite for cyber, incident response authority, escalation protocols, and the documentation trail that shows these exist and are used — takes as long to build credibly as any technology fix. Boards that start the governance work now will find the certification assessment manageable. Boards that start it in late 2027 will find it painful.",
+        text: "The two-year window to achieve CTM Level 5 for non-CII systems sounds like runway. It isn't, for any organisation that treats governance preparation as something that happens after the technical remediation is done. In my experience advising boards on regulatory readiness, the governance layer, board risk appetite for cyber, incident response authority, escalation protocols, and the documentation trail that shows these exist and are used, takes as long to build credibly as any technology fix. Boards that start the governance work now will find the certification assessment manageable. Boards that start it in late 2027 will find it painful.",
       },
     ],
     faqs: [
       {
         question: "Is Cyber Trust Mark Level 5 certification mandatory for all Singapore companies?",
-        answer: "No. The mandatory CTM Level 5 obligation applies specifically to Critical Information Infrastructure owners (CIIOs) — organisations designated under the Cybersecurity Act as operators of CII in Singapore's eleven critical sectors. The deadline for their non-CII operational systems is end 2027. CII auditors face an earlier deadline of end 2026 at the organisation level. For non-CIIO organisations, CTM certification is voluntary, though it signals a strong cyber governance baseline.",
+        answer: "No. The mandatory CTM Level 5 obligation applies specifically to Critical Information Infrastructure owners (CIIOs), organisations designated under the Cybersecurity Act as operators of CII in Singapore's eleven critical sectors. The deadline for their non-CII operational systems is end 2027. CII auditors face an earlier deadline of end 2026 at the organisation level. For non-CIIO organisations, CTM certification is voluntary, though it signals a strong cyber governance baseline.",
       },
       {
         question: "What exactly must a CIIO board do under CSA's March 2026 requirements?",
-        answer: "Two specific obligations: participate in cybersecurity training at least once every 12 months, and receive cyber threat briefings at least once every six months. Both are board-level requirements — not delegated to a management committee — under the updated Cybersecurity Code of Practice for Critical Information Infrastructure.",
+        answer: "Two specific obligations: participate in cybersecurity training at least once every 12 months, and receive cyber threat briefings at least once every six months. Both are board-level requirements, not delegated to a management committee,under the updated Cybersecurity Code of Practice for Critical Information Infrastructure.",
       },
       {
         question: "How does the Cyber Trust Mark Level 5 board obligation interact with MAS Technology Risk Management guidelines for Singapore insurers and banks?",
-        answer: "MAS TRM guidelines already require financial institutions to maintain board-level oversight of technology and cyber risk, including documented risk appetite and accountability for technology risk governance. For MAS-regulated CIIOs — banks and designated insurers — the CSA Cyber Trust Mark obligation sits on top of existing TRM requirements, not instead of them. The governance infrastructure MAS expects should, if properly implemented, give a financial institution a meaningful head start on the CTM Level 5 governance assessment, but the two regimes use different frameworks and both need to be addressed on their own terms.",
+        answer: "MAS TRM guidelines already require financial institutions to maintain board-level oversight of technology and cyber risk, including documented risk appetite and accountability for technology risk governance. For MAS-regulated CIIOs, banks and designated insurers,the CSA Cyber Trust Mark obligation sits on top of existing TRM requirements, not instead of them. The governance infrastructure MAS expects should, if properly implemented, give a financial institution a meaningful head start on the CTM Level 5 governance assessment, but the two regimes use different frameworks and both need to be addressed on their own terms.",
       },
     ],
   },

@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         url: "/raymond-cheung-portrait.jpg",
         width: 1200,
         height: 630,
-        alt: "Raymond Cheung — Chartered Actuary, Board Director and ESG Adviser",
+        alt: "Raymond Cheung, Chartered Actuary, Board Director and ESG Adviser",
       },
     ],
   },

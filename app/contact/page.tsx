@@ -156,7 +156,7 @@ export default function ContactPage() {
                   lineHeight: 1.6,
                 }}
               >
-                <strong>PREVIEW FORM</strong> — This form is for demonstration
+                <strong>PREVIEW FORM</strong>. This form is for demonstration
                 only. It does not submit or store any information. Activation
                 requires Raymond&rsquo;s approval.
               </p>
@@ -432,7 +432,7 @@ export default function ContactPage() {
                     <option value="1-3months">Within 1–3 months</option>
                     <option value="3-6months">Within 3–6 months</option>
                     <option value="6months+">6 months or more</option>
-                    <option value="exploratory">Exploratory — no fixed timeline</option>
+                    <option value="exploratory">Exploratory, no fixed timeline</option>
                   </select>
                 </FormField>
 

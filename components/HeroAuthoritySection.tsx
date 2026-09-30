@@ -31,7 +31,7 @@ export default function HeroAuthoritySection() {
         }}
         className="hero-grid"
       >
-        {/* Left — copy */}
+        {/* Left, copy */}
         <div>
           <p style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.63rem",
@@ -77,7 +77,7 @@ export default function HeroAuthoritySection() {
             </Link>
           </div>
 
-          {/* Proof points — borderless, editorial */}
+          {/* Proof points, borderless, editorial */}
           <div aria-label="Career credentials" className="hero-stats" style={{
             display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.25rem",
             paddingTop: "2rem", borderTop: "1px solid var(--rule-soft)",
@@ -100,7 +100,7 @@ export default function HeroAuthoritySection() {
           </div>
         </div>
 
-        {/* Right — portrait */}
+        {/* Right, portrait */}
         <div className="hero-portrait-col" style={{ display: "flex", justifyContent: "flex-end" }}>
           <div style={{
             position: "relative", width: "min(480px, 100%)", aspectRatio: "4/5",
@@ -110,7 +110,7 @@ export default function HeroAuthoritySection() {
           }}>
             <Image
               src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
-              alt="Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
+              alt="Raymond Cheung, Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
               fill priority
               sizes="(max-width: 899px) 90vw, 480px"
               style={{
@@ -128,7 +128,7 @@ export default function HeroAuthoritySection() {
               opacity: 0.28,
             }} />
 
-            {/* Scrim — fades the event backdrop's sponsor signage on the
+            {/* Scrim, fades the event backdrop's sponsor signage on the
                 right and bottom without cropping further into a small source. */}
             <div aria-hidden="true" style={{
               position: "absolute", inset: 0,

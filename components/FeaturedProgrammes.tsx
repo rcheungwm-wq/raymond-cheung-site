@@ -186,7 +186,7 @@ export default function FeaturedProgrammes() {
                   }}
                 >
                   {statusLabel[prog.status]}
-                  {prog.isPreviewOnly && " — Preview"}
+                  {prog.isPreviewOnly && ", Preview"}
                 </span>
                 <div style={{ display: "flex", gap: "0.3rem", flexWrap: "wrap" }}>
                   {prog.categories.map((cat) => (

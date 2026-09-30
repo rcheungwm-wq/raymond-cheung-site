@@ -36,7 +36,7 @@ export default function SpeakingSection() {
               I don&rsquo;t present theory.<br />I bring what I&rsquo;ve lived.<br />And I make it actionable.
             </h2>
             <p style={{ fontSize: "1rem", color: "rgba(245,240,232,0.75)", lineHeight: 1.8, marginBottom: "2.5rem", maxWidth: "440px" }}>
-              I speak to boards, regulators, executives and professional audiences across Asia on the forces reshaping insurance, risk governance, climate strategy and technology. When I stand up to speak, I bring the perspective of someone who has actually held the roles you are navigating — not read about them.
+              I speak to boards, regulators, executives and professional audiences across Asia on the forces reshaping insurance, risk governance, climate strategy and technology. When I stand up to speak, I bring the perspective of someone who has actually held the roles you are navigating, not read about them.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.6rem", marginBottom: "3rem" }}>
               {speakingFormats.map((fmt) => (

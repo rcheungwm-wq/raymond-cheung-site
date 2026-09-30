@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "serp": "node seo/serp-check.mjs",
-    "serp:tier1": "node seo/serp-check.mjs --tier=1"
+    "serp:tier1": "node seo/serp-check.mjs --tier=1",
+    "lint:em": "node scripts/check-em-dashes.mjs --all"
   },
   "dependencies": {
     "framer-motion": "^12.42.2",
