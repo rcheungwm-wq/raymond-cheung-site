@@ -327,6 +327,7 @@ export const insights: Insight[] = [
     date: "July 2025",
     status: "published",
     slug: "climate-transition-governance",
+    ogImage: "/og-climate-transition-governance.jpg",
     body: [
       {
         type: "paragraph",
@@ -422,6 +423,7 @@ export const insights: Insight[] = [
     date: "June 2025",
     status: "published",
     slug: "risk-appetite-decisions",
+    ogImage: "/og-risk-appetite-decisions.jpg",
     body: [
       {
         type: "paragraph",
@@ -514,6 +516,7 @@ export const insights: Insight[] = [
     date: "May 2025",
     status: "published",
     slug: "next-generation-insurance",
+    ogImage: "/og-next-generation-insurance.jpg",
     body: [
       {
         type: "paragraph",
@@ -605,6 +608,7 @@ export const insights: Insight[] = [
     date: "April 2025",
     status: "published",
     slug: "ai-insurance-governance",
+    ogImage: "/og-ai-insurance-governance.jpg",
     body: [
       {
         type: "paragraph",
@@ -694,6 +698,7 @@ export const insights: Insight[] = [
     date: "March 2025",
     status: "published",
     slug: "capital-strategy-boardroom",
+    ogImage: "/og-capital-strategy-boardroom.jpg",
     body: [
       {
         type: "paragraph",
@@ -778,6 +783,7 @@ export const insights: Insight[] = [
     date: "February 2025",
     status: "published",
     slug: "esg-compliance-readiness",
+    ogImage: "/og-esg-compliance-readiness.jpg",
     body: [
       {
         type: "paragraph",
@@ -858,6 +864,7 @@ export const insights: Insight[] = [
     date: "August 2026",
     status: "published",
     slug: "actuarial-board-adviser-singapore",
+    ogImage: "/og-actuarial-board-adviser-singapore.jpg",
     keywords: ["actuarial board advisor Singapore", "board adviser actuarial Singapore", "CRO advisory Singapore"],
     body: [
       {
@@ -984,6 +991,7 @@ export const insights: Insight[] = [
     date: "August 2026",
     status: "published",
     slug: "sgx-audit-committee-cro-questions",
+    ogImage: "/og-sgx-audit-committee-cro-questions.jpg",
     keywords: ["SGX board director advisory", "corporate governance Singapore", "risk governance Singapore boards"],
     body: [
       {
@@ -1068,6 +1076,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "esg-governance-training-singapore-boards",
+    ogImage: "/og-esg-governance-training-singapore-boards.jpg",
     keywords: ["ESG governance training Singapore", "ESG advisor Singapore", "ESG board director Singapore"],
     body: [
       {
@@ -1162,6 +1171,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "climate-risk-board-director-singapore",
+    ogImage: "/og-climate-risk-board-director-singapore.jpg",
     keywords: ["climate risk board director Singapore", "climate risk governance Singapore", "MAS environmental risk Singapore"],
     body: [
       {
@@ -1244,6 +1254,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "cro-advisory-singapore-insurance",
+    ogImage: "/og-cro-advisory-singapore-insurance.jpg",
     keywords: ["CRO advisory Singapore", "CRO advisory Singapore insurance", "risk governance Singapore"],
     body: [
       {
@@ -1322,6 +1333,7 @@ export const insights: Insight[] = [
     date: "August 2026",
     status: "published",
     slug: "insurtech-board-adviser-asia",
+    ogImage: "/og-insurtech-board-adviser-asia.jpg",
     keywords: ["InsurTech board advisor Asia", "digital insurance governance Asia", "insurance innovation Singapore"],
     body: [
       {
@@ -1387,6 +1399,7 @@ export const insights: Insight[] = [
     date: "July 2026",
     status: "published",
     slug: "independent-board-director-singapore",
+    ogImage: "/og-independent-board-director-singapore.jpg",
     keywords: ["independent board director Singapore", "SGX board director advisory", "corporate governance Singapore"],
     body: [
       {
@@ -1448,6 +1461,7 @@ export const insights: Insight[] = [
     date: "July 2026",
     status: "published",
     slug: "mas-regulatory-advisor-singapore",
+    ogImage: "/og-mas-regulatory-advisor-singapore.jpg",
     keywords: ["MAS regulatory advisor Singapore", "MAS supervisory Singapore insurance", "financial institution governance Singapore"],
     body: [
       {
@@ -1518,6 +1532,7 @@ export const insights: Insight[] = [
     date: "June 2026",
     status: "published",
     slug: "nasdaq-listing-ceo-governance-singapore",
+    ogImage: "/og-nasdaq-listing-ceo-governance-singapore.jpg",
     keywords: ["Nasdaq listing governance", "SGX board director advisory", "risk governance Singapore boards"],
     body: [
       {
@@ -1595,6 +1610,7 @@ export const insights: Insight[] = [
     date: "June 2026",
     status: "published",
     slug: "risk-governance-speaker-singapore",
+    ogImage: "/og-risk-governance-speaker-singapore.jpg",
     keywords: ["risk governance speaker Singapore", "ESG speaker Singapore", "corporate governance speaker Singapore boards"],
     body: [
       {
@@ -1658,6 +1674,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "scope-3-emissions-singapore-board-governance",
+    ogImage: "/og-scope-3-emissions-singapore-board-governance.jpg",
     keywords: ["scope 3 emissions Singapore boards", "ESG reporting Singapore 2026", "sustainability reporting Singapore SGX"],
     body: [
       {
@@ -1724,6 +1741,7 @@ export const insights: Insight[] = [
     date: "July 2026",
     status: "published",
     slug: "orsa-strategic-tool-singapore-insurance-boards",
+    ogImage: "/og-orsa-strategic-tool-singapore-insurance-boards.jpg",
     keywords: ["ORSA Singapore insurance", "insurance capital governance Singapore", "CRO advisory Singapore insurance"],
     body: [
       {
@@ -1789,6 +1807,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "sgx-sustainability-reporting-fy2026-boards",
+    ogImage: "/og-sgx-sustainability-reporting-fy2026-boards.jpg",
     keywords: ["SGX sustainability reporting 2026", "Singapore board sustainability", "ESG governance Singapore"],
     body: [
       {
@@ -1853,6 +1872,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "esg-advisor-singapore",
+    ogImage: "/og-esg-advisor-singapore.jpg",
     keywords: ["ESG advisor Singapore", "ESG governance Singapore boards", "sustainability adviser Singapore board"],
     body: [
       {
@@ -1954,6 +1974,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "mas-transition-planning-halfway-2026",
+    ogImage: "/og-mas-transition-planning-halfway-2026.jpg",
     keywords: ["MAS transition planning guidelines", "climate risk governance Singapore board"],
     body: [
       {
@@ -2010,6 +2031,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "climate-physical-risk-singapore-insurance",
+    ogImage: "/og-climate-physical-risk-singapore-insurance.jpg",
     keywords: [
       "physical climate risk Singapore insurance",
       "climate risk governance Singapore board",
@@ -2105,6 +2127,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "singapore-sustainability-disclosure-standards-boards",
+    ogImage: "/og-singapore-sustainability-disclosure-standards-boards.jpg",
     keywords: [
       "Singapore Sustainability Disclosure Standards",
       "sustainability reporting Singapore boards",
@@ -2167,6 +2190,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "mas-notice-126-insurance-boards",
+    ogImage: "/og-mas-notice-126-insurance-boards.jpg",
     keywords: [
       "MAS Notice 126",
       "MAS Notice 126 insurance board requirements",
@@ -2288,6 +2312,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "acra-sid-director-training-singapore",
+    ogImage: "/og-acra-sid-director-training-singapore.jpg",
     keywords: [
       "director training Singapore",
       "corporate governance Singapore boards",
@@ -2354,6 +2379,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "risk-appetite-framework-singapore",
+    ogImage: "/og-risk-appetite-framework-singapore.jpg",
     keywords: [
       "risk appetite framework Singapore",
       "risk appetite statement board",
@@ -2476,6 +2502,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "sgx-independent-director-tenure-clock",
+    ogImage: "/og-sgx-independent-director-tenure-clock.jpg",
     keywords: ["SGX board director independent advisory", "independent director tenure Singapore"],
     body: [
       {
@@ -2545,6 +2572,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "board-risk-committee-singapore",
+    ogImage: "/og-board-risk-committee-singapore.jpg",
     keywords: ["board risk committee Singapore", "risk committee governance Singapore"],
     body: [
       {
@@ -2630,6 +2658,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "emissions-disclosure-accuracy-singapore-boards",
+    ogImage: "/og-emissions-disclosure-accuracy-singapore-boards.jpg",
     keywords: ["Scope 1 Scope 2 emissions disclosure Singapore", "board oversight sustainability reporting Singapore"],
     body: [
       {
@@ -2698,6 +2727,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "ai-governance-insurance-singapore",
+    ogImage: "/og-ai-governance-insurance-singapore.jpg",
     keywords: ["AI governance insurance Singapore", "MAS AI risk management guidelines insurers"],
     body: [
       {
@@ -2783,6 +2813,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "mas-stablecoin-reserve-governance-boards",
+    ogImage: "/og-mas-stablecoin-reserve-governance-boards.jpg",
     keywords: ["MAS stablecoin framework Singapore", "stablecoin reserve governance board"],
     body: [
       {
@@ -2851,6 +2882,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "corporate-governance-consultant-singapore",
+    ogImage: "/og-corporate-governance-consultant-singapore.jpg",
     keywords: ["corporate governance consultant Singapore", "independent board adviser Singapore"],
     body: [
       {
@@ -2944,6 +2976,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "sgti-market-centric-model-singapore-boards",
+    ogImage: "/og-sgti-market-centric-model-singapore-boards.jpg",
     keywords: ["Singapore Governance and Transparency Index", "SGTI 2026", "corporate governance Singapore boards"],
     body: [
       {
@@ -3008,6 +3041,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "sustainability-reporting-singapore-sgx",
+    ogImage: "/og-sustainability-reporting-singapore-sgx.jpg",
     keywords: ["sustainability reporting Singapore SGX", "SGX board sustainability governance", "board statement sustainability Singapore"],
     body: [
       {
@@ -3084,6 +3118,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "sgx-nasdaq-global-listing-board-singapore",
+    ogImage: "/og-sgx-nasdaq-global-listing-board-singapore.jpg",
     keywords: ["Global Listing Board Singapore", "SGX Nasdaq dual listing", "dual listing governance Singapore"],
     body: [
       {
@@ -3144,6 +3179,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "reinsurance-governance-singapore",
+    ogImage: "/og-reinsurance-governance-singapore.jpg",
     keywords: ["reinsurance governance Singapore", "reinsurance strategy Singapore insurance boards", "board oversight reinsurance"],
     body: [
       {
@@ -3225,6 +3261,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "sgx-board-nine-year-tenure-self-application",
+    ogImage: "/og-sgx-board-nine-year-tenure-self-application.jpg",
     keywords: ["SGX independent director nine year rule", "board tenure Singapore", "independent director tenure limit"],
     body: [
       {
@@ -3277,6 +3314,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "insurance-capital-singapore-mas",
+    ogImage: "/og-insurance-capital-singapore-mas.jpg",
     keywords: ["insurance capital Singapore MAS", "capital adequacy governance Singapore insurance boards", "MAS risk-based capital framework board oversight"],
     body: [
       {
@@ -3353,6 +3391,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "cdl-boardroom-feud-governance-lesson-singapore",
+    ogImage: "/og-cdl-boardroom-feud-governance-lesson-singapore.jpg",
     keywords: ["CDL governance score Singapore", "board dysfunction Singapore listed company", "SGTI board governance lesson"],
     body: [
       {
@@ -3413,6 +3452,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "cyber-risk-governance-singapore-boards",
+    ogImage: "/og-cyber-risk-governance-singapore-boards.jpg",
     keywords: ["cyber risk governance Singapore boards", "Cybersecurity Act 2026 board accountability", "CII board cybersecurity oversight Singapore"],
     body: [
       {
@@ -3493,6 +3533,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "mas-pbc-green-finance-taskforce-adaptation-singapore-boards",
+    ogImage: "/og-mas-pbc-green-finance-taskforce-adaptation-singapore-boards.jpg",
     keywords: ["climate adaptation finance Singapore boards", "MAS PBC green finance taskforce", "physical climate risk board governance Singapore"],
     body: [
       {
@@ -3545,6 +3586,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "director-liability-cyber-incident-singapore",
+    ogImage: "/og-director-liability-cyber-incident-singapore.jpg",
     keywords: ["director liability cyber incident Singapore", "stepping stone liability directors Singapore", "personal liability cybersecurity board Singapore"],
     body: [
       {
@@ -3617,6 +3659,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "sgx-regco-remuneration-dividend-ir-disclosure-singapore-boards",
+    ogImage: "/og-sgx-regco-remuneration-dividend-ir-disclosure-singapore-boards.jpg",
     keywords: ["SGX RegCo disclosure rules Singapore boards", "remuneration KPI disclosure SGX", "dividend policy disclosure Singapore listed companies"],
     body: [
       {
@@ -3669,6 +3712,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "mas-corporate-governance-guidelines-insurers-singapore",
+    ogImage: "/og-mas-corporate-governance-guidelines-insurers-singapore.jpg",
     keywords: ["MAS corporate governance guidelines insurers Singapore", "board remuneration oversight material risk takers Singapore", "related party transaction oversight insurer board Singapore"],
     body: [
       {
@@ -3749,6 +3793,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "mas-safr-agentic-ai-governance-singapore-boards",
+    ogImage: "/og-mas-safr-agentic-ai-governance-singapore-boards.jpg",
     keywords: ["agentic AI governance Singapore boards", "MAS SAFR framework Singapore", "AI agent oversight financial institutions Singapore"],
     body: [
       {
@@ -3809,6 +3854,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "issb-scope3-sti-companies-singapore-fy2026",
+    ogImage: "/og-issb-scope3-sti-companies-singapore-fy2026.jpg",
     keywords: ["scope 3 emissions Singapore boards", "STI Scope 3 reporting FY2026", "ISSB climate reporting Singapore boards"],
     body: [
       {
@@ -3882,6 +3928,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "mas-stablecoin-licensing-framework-singapore-boards",
+    ogImage: "/og-mas-stablecoin-licensing-framework-singapore-boards.jpg",
     keywords: ["MAS stablecoin regulatory framework Singapore", "MAS regulatory advisor Singapore", "stablecoin governance board oversight Singapore"],
     body: [
       {
@@ -3946,6 +3993,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "issb-reporting-large-non-listed-companies-singapore",
+    ogImage: "/og-issb-reporting-large-non-listed-companies-singapore.jpg",
     keywords: ["ISSB reporting large non-listed companies Singapore", "large NLCo sustainability reporting Singapore", "private company board ESG governance Singapore"],
     body: [
       {
@@ -4015,6 +4063,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "sgx-regco-disclosure-rules-2027-board-preparation",
+    ogImage: "/og-sgx-regco-disclosure-rules-2027-board-preparation.jpg",
     keywords: ["SGX RegCo disclosure rules 2027 Singapore boards", "executive remuneration KPI disclosure Singapore", "director remuneration disclosure Singapore SGX"],
     body: [
       {
@@ -4084,6 +4133,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "mas-cg-consultation-board-appointments-september-2026",
+    ogImage: "/og-mas-cg-consultation-board-appointments-september-2026.jpg",
     keywords: ["MAS corporate governance consultation Singapore 2026", "insurance board appointments Singapore", "MAS regulatory advisor Singapore"],
     body: [
       {
@@ -4153,6 +4203,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "single-family-office-governance-singapore",
+    ogImage: "/og-single-family-office-governance-singapore.jpg",
     keywords: ["single family office governance Singapore", "SFO governance Singapore MAS 2026", "family office investment committee Singapore"],
     body: [
       {
@@ -4248,6 +4299,7 @@ export const insights: Insight[] = [
     date: "September 2026",
     status: "published",
     slug: "cyber-trust-mark-level-5-board-oversight",
+    ogImage: "/og-cyber-trust-mark-level-5-board-oversight.jpg",
     keywords: ["Cyber Trust Mark Level 5 board Singapore", "critical information infrastructure board governance Singapore", "cyber risk governance Singapore boards"],
     body: [
       {
