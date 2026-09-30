@@ -76,22 +76,22 @@ export default function InsightsClient({ insights }: { insights: Insight[] }) {
                 }}>{featured.category}</span>
                 <span style={{
                   fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
-                  letterSpacing: "0.06em", color: "rgba(26,23,18,0.4)",
+                  letterSpacing: "0.06em", color: "rgba(245,240,232,0.5)",
                   display: "flex", alignItems: "center", gap: "0.3rem",
                 }}><Clock size={10} />{featured.readingTime}</span>
                 <span style={{
                   fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
-                  letterSpacing: "0.06em", color: "rgba(26,23,18,0.35)",
+                  letterSpacing: "0.06em", color: "rgba(245,240,232,0.4)",
                 }}>{featured.date}</span>
               </div>
               <h2 style={{
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontSize: "clamp(1.3rem, 2.5vw, 1.8rem)", fontWeight: 800,
-                letterSpacing: "-0.025em", color: "var(--ink)", lineHeight: 1.2,
+                letterSpacing: "-0.025em", color: "#F5F0E8", lineHeight: 1.2,
                 marginBottom: "1rem",
               }}>{featured.title}</h2>
               <p style={{
-                fontSize: "0.92rem", color: "rgba(26,23,18,0.65)",
+                fontSize: "0.92rem", color: "rgba(245,240,232,0.7)",
                 lineHeight: 1.75, maxWidth: "560px",
               }}>{featured.summary}</p>
               <span style={{
@@ -103,10 +103,10 @@ export default function InsightsClient({ insights }: { insights: Insight[] }) {
             </div>
             <div style={{
               width: "80px", height: "80px", borderRadius: "50%",
-              background: "rgba(201,169,97,0.12)", border: "1px solid rgba(201,169,97,0.2)",
+              background: "rgba(201,169,97,0.15)", border: "1px solid rgba(201,169,97,0.35)",
               display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
             }}>
-              <span style={{ fontSize: "2rem" }}>◆</span>
+              <span style={{ fontSize: "2rem", color: "var(--gold)" }}>◆</span>
             </div>
           </article>
         </Link>
