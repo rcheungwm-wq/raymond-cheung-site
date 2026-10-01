@@ -6,7 +6,7 @@
  * Run by the pre-commit hook; also available as `npm run lint:em`.
  *
  * Usage:
- *   node scripts/check-em-dashes.mjs          # checks staged files (pre-commit)
+ *   node scripts/check-em-dashes.mjs          # checks staged files in data/app/components (pre-commit)
  *   node scripts/check-em-dashes.mjs --all    # checks all content files
  */
 
@@ -44,6 +44,9 @@ function getStagedFiles() {
       .split("\n")
       .filter(Boolean)
       .filter((f) => INCLUDE_EXT.has(extname(f)))
+      // Same scope as --all mode: the rule applies to published copy, not to
+      // internal notes (CLAUDE.md, AGENTS.md) or generated output (seo/ reports).
+      .filter((f) => CONTENT_DIRS.some((d) => f === d || f.startsWith(d + "/")))
       .map((f) => join(ROOT, f));
   } catch {
     return [];

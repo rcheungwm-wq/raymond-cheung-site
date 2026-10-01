@@ -884,5 +884,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/board-matters-0",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "law.nus.edu.sg",
+        "url": "https://law.nus.edu.sg/ewbclb/wp-content/uploads/sites/6/2020/04/001_2017_Puchniak-Kim-KonSik.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ink.library.smu.edu.sg",
+        "url": "https://ink.library.smu.edu.sg/sol_research/3954/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "kennedyslaw.com",
+        "url": "https://www.kennedyslaw.com/en/thought-leadership/article/new-regulatory-rules-to-limit-the-tenure-of-independent-directors-in-a-move-to-strengthen-corporate-governance-in-singapore-are-these-changes-enough/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "v1.lawgazette.com.sg",
+        "url": "https://v1.lawgazette.com.sg/2004-4/April04-feature3.htm",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/cross-border-listings-guide/asia-pacific/singapore-stock-exchange/topics/corporate-governance",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/publication/articles/23017/sgx-regco-amends-listing-rules-to-limit-tenure-of-independent-directors-to-nine-years-and-require-disclosure-of-exact-remuneration-of-directors-and-ceos",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/MAS/News-and-Publications/Practice-Guidance-Mar-2022.pdf",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/practice-guidance-2-board-composition-and-guidance",
+        "title": ""
+      }
+    ]
   }
 ]

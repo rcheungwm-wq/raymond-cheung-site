@@ -120,5 +120,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "svca.org.sg",
+        "url": "https://www.svca.org.sg/committees/family-office-committee",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "cfainstitute.org",
+        "url": "https://www.cfainstitute.org/insights/articles/next-gen-investors-family-offices-southeast-asia",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "my.caproasia.com",
+        "url": "https://my.caproasia.com/the-2024-family-office-summit/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "invest.edb.gov.sg",
+        "url": "https://invest.edb.gov.sg/gov-support/sfo-setup-guide",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "edb.gov.sg",
+        "url": "https://www.edb.gov.sg/en/our-industries/global-business-families.html",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sovereigngroup.com",
+        "url": "https://www.sovereigngroup.com/singapore/private-clients/singapores-success-at-attracting-single-family-offices/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "dakota.com",
+        "url": "https://www.dakota.com/resources/blog/top-10-family-offices-in-singapore-asias-wealth-management-hub",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "vccsingapore.com",
+        "url": "https://vccsingapore.com/family-office-funds/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "familyofficesg.com",
+        "url": "https://www.familyofficesg.com/en/setupfamilyoffice",
+        "title": ""
+      }
+    ]
   }
 ]

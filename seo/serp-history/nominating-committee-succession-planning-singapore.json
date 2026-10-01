@@ -53,5 +53,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sid.org.sg",
+        "url": "https://sid.org.sg/common/Uploaded%20files/eGuide/NCanditsRoleinIdentifyingDirectorsKalaAnandarajah.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "eguide.sid.org.sg",
+        "url": "https://eguide.sid.org.sg/books/NC/NC_11_S7/218/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sid.org.sg",
+        "url": "https://sid.org.sg/common/Uploaded%20files/eGuide/TheCrucialTaskOfSuccessionPlanningRamleeBuang.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "cmc-global.org",
+        "url": "https://www.cmc-global.org/content/nominations-and-succession-planning-committee-nspc-1",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "investorrelations.sgx.com",
+        "url": "https://investorrelations.sgx.com/static-files/9bbcc3fe-8ccb-4ecd-9e19-7d1b10226521",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sid.org.sg",
+        "url": "https://sid.org.sg/Web/Resources/Nominating_Committee_Guide.aspx",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "exd.smu.edu.sg",
+        "url": "https://exd.smu.edu.sg/short-courses/effective-succession-planning-and-compensation-decisions",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "spencerstuart.com",
+        "url": "https://www.spencerstuart.com/research-and-insight/nominating-governance-committee-succession-planning",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singapore.clubs.harvard.edu",
+        "url": "https://singapore.clubs.harvard.edu/article.html?aid=220",
+        "title": ""
+      }
+    ]
   }
 ]

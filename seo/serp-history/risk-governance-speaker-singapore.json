@@ -1120,5 +1120,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/speakers",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ciso-sing.coriniumintelligence.com",
+        "url": "https://ciso-sing.coriniumintelligence.com/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "events.economistenterprise.com",
+        "url": "https://events.economistenterprise.com/general-counsel-asia/speakers-2026/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "acfe.com",
+        "url": "https://www.acfe.com/about-the-acfe/newsroom-for-media/press-releases/press-release-detail?s=asiapac-fraud-conference-keynote-speakers-announced",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "asia.risklive.net",
+        "url": "https://asia.risklive.net/speakers",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "ilearn.isca.org.sg",
+        "url": "https://ilearn.isca.org.sg/home/course/risk-management-corporate-governance/154",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "rims.org",
+        "url": "https://www.rims.org/community/global-professionals/rims-in-asean",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sginnovate.com",
+        "url": "https://www.sginnovate.com/event/sginnovate-x-curiouscore-tech-talk-leaders-risk-management-ai-innovation-projects",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "acga-asia.org",
+        "url": "https://www.acga-asia.org/conference-speakers.php",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "conference.acga-asia.org",
+        "url": "https://conference.acga-asia.org/speakers/",
+        "title": ""
+      }
+    ]
   }
 ]

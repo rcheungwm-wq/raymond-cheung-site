@@ -4772,4 +4772,199 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "59",
+    title: "MAS Wants to Approve Your Nominating Committee Chair. That Tells You Where It Thinks Governance Fails.",
+    summary:
+      "MAS's 30 September 2026 consultation is being read as deregulation, because it removes prior approval for appointments at lower-impact financial institutions. Read the other half. MAS is adding prior approval for one new seat at every locally incorporated bank and insurer: the chair of the nominating committee. Of all the seats it could have picked, it picked the one that decides who gets onto the board.",
+    category: "Governance",
+    readingTime: "4 min read",
+    date: "October 2026",
+    status: "published",
+    slug: "mas-nominating-committee-chair-approval-singapore",
+    keywords: ["MAS nominating committee chair approval Singapore", "insurance board composition Singapore MAS", "independent director majority Singapore insurers"],
+    body: [
+      {
+        type: "paragraph",
+        text: "Most of the coverage of MAS's 30 September consultation has led with the easing: for financial institutions with less retail reach or lower systemic importance, certain board and senior management appointments will no longer need the regulator's prior approval. That is the deregulatory headline. It is also the less interesting half of the paper. Because in the same consultation, MAS proposes to add prior approval for a seat that does not currently require it, at every locally incorporated bank and insurer: the chairperson of the nominating committee.",
+      },
+      {
+        type: "heading",
+        text: "Regulators do not add friction at random",
+      },
+      {
+        type: "paragraph",
+        text: "In my experience, both as a statutory CRO dealing with MAS and as an adviser sitting on the board side of that relationship, a regulator adds an approval gate in exactly one circumstance: it has seen enough outcomes it did not like to decide that the existing process cannot be relied on. MAS is simultaneously taking approval away from a whole class of institutions and adding it for one specific role. That is not a drafting accident. It is a judgment about where governance in Singapore financial institutions is weakest.",
+      },
+      {
+        type: "pullquote",
+        text: "The nominating committee chair is the person who decides who gets onto the board. MAS has just said it wants a say in who that person is. Boards should sit with what that implies about the last decade of nominating committee work.",
+      },
+      {
+        type: "heading",
+        text: "The two proposals that compound",
+      },
+      {
+        type: "paragraph",
+        text: "There is a second limb of the consultation that most boards will underestimate, and it interacts badly with the first. MAS proposes to tighten the independence criteria so that directors employed by, or with dealings involving, related corporations or affiliates would be deemed non-independent. At the same time, it proposes larger minimum boards and a majority of independent directors for domestic systemically important banks and insurers, and for full banks. Those two proposals pull in opposite directions on the same board. You need more independent directors as a proportion of a larger board, at the same moment that the definition of independent gets narrower.",
+      },
+      {
+        type: "paragraph",
+        text: "For a Singapore insurer sitting inside a regional or global group, this is not theoretical. Directors who have been counted as independent for years because their relationship runs to an affiliate rather than to the licensed entity may simply stop counting. I would expect a meaningful number of boards to discover, when they run the arithmetic, that they are not close to a majority under the revised test and that the shortfall has to be filled from a Singapore independent director pool that is already thin and already under tenure pressure from SGX's nine-year rule.",
+      },
+      {
+        type: "heading",
+        text: "What to do before 9 December",
+      },
+      {
+        type: "list",
+        items: [
+          "Re-run your board independence classification against the proposed criteria, not the current ones, and establish how many directors you would lose. Do this as an arithmetic exercise on paper before it becomes a recruitment problem.",
+          "Ask whether your nominating committee chair would comfortably survive a MAS fit-and-proper assessment on the specific competency the role needs, which is board composition judgment, not general seniority.",
+          "Respond to the consultation. It closes 9 December 2026. Boards that have a genuine practical constraint on independent director supply should say so now, with evidence, rather than discover the transition timetable after it is fixed.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "My own view is that MAS has the diagnosis right. Nominating committee work in Singapore has been the quietest and least scrutinised part of board governance for a long time, and a regulator that wants better boards is correct to start with the person who builds them. But diagnosis and transition are different problems. The boards that engage with this in October will be making choices. The ones that wait until the rules are final will be filling vacancies.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does MAS's September 2026 consultation propose for nominating committee chairs at Singapore banks and insurers?",
+        answer: "MAS proposes to add the chairperson of the nominating committee to the list of key appointments requiring MAS's prior approval at locally incorporated banks and insurers. It also proposes prior approval for the Chief Information Officer at domestic systemically important banks. This runs alongside a proposal to remove prior approval for certain appointments at institutions with lower systemic importance, so the net effect differs by institution. The consultation closes 9 December 2026.",
+      },
+      {
+        question: "How would the proposed independence criteria change board composition for Singapore insurers?",
+        answer: "MAS proposes that directors employed by, or with dealings involving, related corporations or affiliates would be deemed non-independent. For an insurer that sits within a wider group, that can reclassify directors who have been treated as independent for years. Because MAS is separately proposing larger boards with a majority of independent directors for domestic systemically important insurers, the two changes compound: a narrower definition applied against a higher threshold on a bigger board.",
+      },
+      {
+        question: "Should a Singapore insurance board respond to the MAS corporate governance consultation?",
+        answer: "Yes, if it has a practical constraint worth putting on the record, particularly on independent director supply or transition timing. Consultation responses are the only point at which a board's operational reality can shape the final rule. Once the amendments to the Insurance (Corporate Governance) Regulations are made, the board's options narrow to compliance planning. Feedback closes 9 December 2026.",
+      },
+    ],
+  },
+  {
+    id: "60",
+    title: "Singapore's Actuarial Talent Shortage Is a Board Risk, Not an HR Problem",
+    summary:
+      "Singapore has somewhat over four hundred Actuarial Society Fellows, and only a Fellow can sign as your appointed actuary. That makes actuarial resourcing a single-point-of-failure risk sitting directly on obligations the board cannot delegate, not a headcount line the board notes and moves past. Most Singapore insurance boards are governing it as the latter.",
+    category: "Actuarial",
+    readingTime: "9 min read",
+    date: "October 2026",
+    status: "published",
+    slug: "actuarial-talent-shortage-singapore-boards",
+    keywords: ["actuarial talent shortage Singapore", "appointed actuary succession Singapore board", "actuarial resourcing insurance board Singapore"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I was in a board meeting at a Singapore insurer some years ago when the appointed actuary resigned. Not dramatically. A better offer, a reasonable notice period, no dispute, nothing that would ever appear in a regulatory filing. The board took it as an HR matter and moved to the next item. It was the CFO who said, quietly, that she was not confident of replacing the role inside six months. The temperature in the room changed, because every director suddenly understood that a line item they had been treating as recruitment was attached to a signature the company is legally required to have.",
+      },
+      {
+        type: "paragraph",
+        text: "That is the gap I keep running into. Singapore boards govern actuarial capacity as a management resourcing question. It is a statutory continuity question, and it sits on obligations that MAS places on the board itself.",
+      },
+      {
+        type: "heading",
+        text: "The arithmetic boards have never been shown",
+      },
+      {
+        type: "paragraph",
+        text: "Under the Insurance (Actuaries) Regulations, an appointed actuary must be a Fellow of the Singapore Actuarial Society. Not an actuary. Not a qualified actuary from a recognised body. A Fellow. The Singapore Actuarial Society has over a thousand members and somewhat over four hundred Fellows, and that Fellow pool is the entire legal supply from which every licensed insurer, reinsurer and captive in Singapore draws its appointed actuary, its certifying actuary, and a good deal of its senior pricing and reserving leadership.",
+      },
+      {
+        type: "paragraph",
+        text: "Now subtract. Subtract the Fellows who are not in Singapore. Subtract the ones in consulting, in regulation, in academia, in insurtech, in roles they will not leave. Subtract the ones whose experience is life when you need general, or general when you need life, or neither when you need reinsurance. Subtract the ones who already hold an appointed actuary role elsewhere and will not take a second. What is left, for any specific mandate, is not a market. It is a short list, and your competitors are working from the same one.",
+      },
+      {
+        type: "pullquote",
+        text: "You cannot post an appointed actuary vacancy and expect the market to answer. There is no market. There is a list of people, most of whom are already doing the job somewhere else.",
+      },
+      {
+        type: "paragraph",
+        text: "The Society is not an examining body, which means its Fellows qualify first through the IFoA, the SOA, the CAS and the other recognised bodies, then convert. That is a sensible arrangement for an open economy and it is also why the local pipeline has never kept pace with demand across the life, general and reinsurance segments simultaneously. Singapore imports actuarial capacity. It always has.",
+      },
+      {
+        type: "heading",
+        text: "The double gate on hiring from overseas",
+      },
+      {
+        type: "paragraph",
+        text: "Boards that have accepted the pipeline argument usually conclude that the answer is to hire internationally, and then assume that is an operational matter for HR. It is not, because an overseas actuarial hire in Singapore has to clear two independent gates that do not coordinate with each other. The Ministry of Manpower has to be satisfied on Employment Pass criteria for the financial services sector. MAS has to be satisfied on professional standing and fit and proper. Each has its own timetable, its own evidentiary requirements, and its own capacity to say no for reasons the other would not have raised.",
+      },
+      {
+        type: "paragraph",
+        text: "I have watched a board approve a candidate in March and still not have them in the seat by September. Nothing went wrong. The process simply took what it takes. If the board's mental model is a twelve-week recruitment cycle, the board is planning against a timetable that does not exist, and it is doing so for a role whose absence is a regulatory problem rather than an inconvenience.",
+      },
+      {
+        type: "heading",
+        text: "Why this lands on the board and not on management",
+      },
+      {
+        type: "paragraph",
+        text: "MAS Notice 126 puts the enterprise risk management framework, the risk appetite statement and the Own Risk and Solvency Assessment on the board of every licensed Singapore insurer. The board is responsible for capital adequacy under the risk-based capital framework. MAS Notice 106 governs the appointment of key executive persons, the appointed actuary and the certifying actuary among them, and was itself amended with effect from 30 May 2026. None of those obligations has a clause suspending them while you recruit.",
+      },
+      {
+        type: "paragraph",
+        text: "So when actuarial capacity thins, the consequence does not stay in the actuarial function. Reserving reviews get shallower. Stress scenarios get reused from last year because nobody has the bandwidth to rebuild them. The ORSA becomes a document that is produced rather than a process that is run. Model validation slips. And the board keeps receiving reports that look exactly as they did when the function was fully staffed, because the format does not change when the depth behind it does. That is the specific failure mode. Not a missing report. A report with less thinking inside it, presented in the same template.",
+      },
+      {
+        type: "heading",
+        text: "What the board should actually own",
+      },
+      {
+        type: "list",
+        items: [
+          "A named, written succession position for the appointed actuary that answers one question: if this person resigns on Monday, who signs, and under what arrangement, for the period until a permanent appointment clears MAS. If the answer is a consulting firm, the board should have confirmed that firm's availability, not assumed it.",
+          "Key person risk for the actuarial function on the risk register with the same seriousness as a material outsourcing dependency, because functionally that is what it is, and with an owner and a review date rather than a standing note.",
+          "A realistic replacement lead time for each regulated actuarial role, built from MOM and MAS timelines rather than from generic recruitment assumptions, and shown to the board rather than held in HR.",
+          "A deliberate view on depth behind the appointed actuary: how many people in the organisation could credibly take the role in three years, what is being done to get them there, and whether the firm is actually sponsoring the Fellowship path or merely permitting it.",
+          "A standing question in the board risk committee on whether actuarial capacity constrained anything material this cycle. Ask it as a direct question requiring a direct answer, because it will not be volunteered.",
+          "Honesty about concentration where the function is small: if one person holds the pricing model, the reserving judgment and the ORSA narrative, the board should know that and should stop describing it as a resourcing matter.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The mistake even well-run boards make",
+      },
+      {
+        type: "paragraph",
+        text: "The common mistake is to treat this as succession planning for a single role, write a one-page contingency for the appointed actuary, and consider the risk governed. That misses what actually degrades. The appointed actuary role is the part with a legal name on it, so it is the part boards can see. The erosion happens one layer below, in the people who build the models, interrogate the assumptions and produce the analysis the appointed actuary signs. You can keep a signature in place for years while the work underneath it quietly loses depth, and the board will not be told, because nobody inside the function experiences it as a single reportable event.",
+      },
+      {
+        type: "paragraph",
+        text: "The second mistake is cultural, and I say this as someone who has spent a good part of my career teaching actuarial and risk curricula in Singapore. Actuarial teams do not escalate capacity problems well. The professional instinct is to absorb, work the extra weekend, and deliver something defensible. That instinct is exactly why the board will hear about the problem late, and usually in the form of a resignation rather than a warning.",
+      },
+      {
+        type: "heading",
+        text: "Where I would start",
+      },
+      {
+        type: "paragraph",
+        text: "If I joined a Singapore insurance board tomorrow, this is in my first ten questions, and I would ask it in a specific form. Not whether we have a succession plan, because the answer is always yes and the document is always thin. I would ask who signed the last three reserving reviews, how long each of them has been in the seat, and what the board would do on the Monday after any one of them left. The quality of the answer tells you more about the real state of the function than any resourcing paper will.",
+      },
+      {
+        type: "paragraph",
+        text: "Singapore's actuarial shortage is structural. It will not be solved by any one insurer, and no board should set out to solve it. What a board can do is stop misclassifying it. This is not an HR problem that occasionally touches risk. It is a continuity risk sitting directly underneath obligations the board cannot delegate, and it should be governed on that basis.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why is the actuarial talent shortage in Singapore a board-level risk rather than a management issue?",
+        answer: "Because the obligations it threatens sit on the board. MAS Notice 126 places the ERM framework, risk appetite statement and ORSA on the board of every licensed Singapore insurer, and the board is responsible for capital adequacy under the risk-based capital framework. When actuarial capacity thins, the quality of the analysis supporting those obligations degrades without the reporting format changing. The board carries the obligation regardless of whether the function is resourced to support it.",
+      },
+      {
+        question: "Who can serve as appointed actuary for a Singapore insurer?",
+        answer: "Under the Insurance (Actuaries) Regulations, the appointed actuary must be a Fellow of the Singapore Actuarial Society. The Society has somewhat over four hundred Fellows in total, and that pool is the complete legal supply for every licensed insurer, reinsurer and captive in the market. It is not an examining body, so its Fellows qualify first through recognised bodies such as the IFoA, SOA or CAS and then convert.",
+      },
+      {
+        question: "How long does it realistically take to replace an appointed actuary in Singapore?",
+        answer: "Longer than most boards assume, particularly for an overseas hire, which has to satisfy the Ministry of Manpower on Employment Pass criteria for financial services and MAS on professional standing and fit and proper. The two processes run on separate timetables. Six months from decision to seated is a reasonable planning assumption rather than a pessimistic one, and the board should hold an interim signing arrangement for that period rather than discovering it is needed.",
+      },
+      {
+        question: "What should a Singapore insurance board ask about actuarial capacity?",
+        answer: "Ask who signed the last three reserving reviews, how long each has held the role, and specifically what happens the Monday after any one of them resigns. Then ask whether actuarial capacity constrained any work in the current cycle. Both questions need to be asked directly, because actuarial teams tend to absorb capacity pressure rather than escalate it, which means the board typically learns about the problem through a resignation rather than a warning.",
+      },
+    ],
+  },
 ];

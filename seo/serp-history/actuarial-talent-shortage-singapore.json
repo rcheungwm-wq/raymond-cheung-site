@@ -120,5 +120,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "actuaries.asn.au",
+        "url": "https://www.actuaries.asn.au/research-analysis/the-asia-actuarial-job-market-in-2026-what-recruiters-are-seeing",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/jobs/actuarial-jobs",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "gravitasgroup.com.sg",
+        "url": "https://www.gravitasgroup.com.sg/specialisms/actuarial",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mycareersfuture.gov.sg",
+        "url": "https://www.mycareersfuture.gov.sg/search/actuarial-analyst-jobs",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "afterschool.my",
+        "url": "https://afterschool.my/articles/malaysian-actuaries-in-demand",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "eliterecruitments.com",
+        "url": "https://eliterecruitments.com/bermuda-actuarial-talent-shortage-2026/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "actuarylist.com",
+        "url": "https://www.actuarylist.com/cities/singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "eliterecruitments.com",
+        "url": "https://eliterecruitments.com/why-actuaries-are-in-high-demand-across-asia-pacific/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singaporeemploymentagency.com",
+        "url": "https://singaporeemploymentagency.com/hiring-foreign-actuary-singapore-licensing-pass-strategy-salary-benchmarks/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "malaymail.com",
+        "url": "https://www.malaymail.com/news/singapore/2022/09/24/can-singapores-bid-to-woo-elite-global-talents-succeed/29867",
+        "title": ""
+      }
+    ]
   }
 ]

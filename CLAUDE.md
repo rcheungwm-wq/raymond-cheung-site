@@ -97,8 +97,8 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [x] `director-liability-cyber-incident-singapore` — when a cyber incident becomes a director's personal legal exposure under Singapore law (2026-09-18 SERP output: 0/18 tracked keywords ranked and no "declined" flags since the site is too young to have ranked yet; top suggested targets were all tier-1 keywords already covered by Round 1 posts, so fell back to backlog order instead of cannibalising)
 - [x] `cyber-trust-mark-level-5-board-oversight` — what Cyber Trust Mark Level 5 (mandatory for critical infrastructure owners) actually requires the board to own (2026-09-27 SERP output: 0/18 ranked, no "declined" flags; no suggested targets cannibalised existing posts; fell back to next backlog item; POST 1 news peg was SGX RegCo 23 Sept enhanced disclosure rules effective 1 Jan 2027)
 - [x] `single-family-office-governance-singapore` — MAS's new SFO class-exemption (effective 15 June 2026) still needs real governance behind it (published 2026-09-30; angle: easy to register ≠ well-governed; governance gaps MAS doesn't require: investment committee, independent directors, succession plan, IPS)
-- [ ] `family-office-investment-committee-governance-singapore` — what a Singapore family office investment committee should actually look like
-- [ ] `actuarial-talent-shortage-singapore-boards` — the actuarial talent shortage is a board risk, not an HR problem
+- [~] `family-office-investment-committee-governance-singapore` — skipped on 2026-10-01: substantively cannibalises the published `single-family-office-governance-singapore` post (id 52, 2026-09-30), which already carries "family office investment committee Singapore" as a secondary keyword and covers IC terms of reference, the independent non-family member, authority matrices and principal succession in both its body list and its FAQs. Do not write a standalone post without a genuinely new angle (e.g. a specific MAS or EDB development aimed at family office ICs).
+- [x] `actuarial-talent-shortage-singapore-boards` — the actuarial talent shortage is a board risk, not an HR problem (published 2026-10-01; 2026-10-01 SERP output: 0/18 ranked, no "declined" flags, and all five suggested targets were tier-1 keywords already covered by Round 1 posts, so fell back to backlog order after skipping the family-office IC item above. Today's tier-2 rotation included "actuarial talent shortage Singapore", an open gap whose page 1 is entirely job boards and recruiters)
 - [ ] `appointed-actuary-succession-planning-singapore` — why every Singapore insurer board needs an appointed-actuary succession plan
 - [ ] `mas-outsourcing-guidelines-insurer-board-oversight` — what MAS's outsourcing guidelines actually require the board to own, not just procurement
 - [ ] `technology-risk-management-guidelines-singapore-insurers` — MAS's Technology Risk Management guidelines: what the board signs off on
@@ -118,7 +118,7 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [ ] `esg-greenwashing-litigation-risk-singapore-boards` — greenwashing risk is now a board liability question, not just a marketing one
 - [ ] `operational-resilience-mas-guidelines-insurer-boards` — operational resilience is the MAS guideline boards keep delegating to IT
 
-### Published (42 posts, September 2026)
+### Published (47 posts, Sept 2026 onward)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance
@@ -161,6 +161,11 @@ should be re-verified (dates/effective terms can move) before publishing.
 - ✅ Cybersecurity Act 2026 board accountability (`cyber-risk-governance-singapore-boards`)
 - ✅ SGX RegCo remuneration/dividend/IR disclosure rules reaction (`sgx-regco-remuneration-dividend-ir-disclosure-singapore-boards`)
 - ✅ MAS Corporate Governance Guidelines for insurers — what they change for boards (`mas-corporate-governance-guidelines-insurers-singapore`)
+- ✅ Cyber Trust Mark Level 5 board oversight (`cyber-trust-mark-level-5-board-oversight`)
+- ✅ MAS 30 Sept CG consultation, board appointments angle (`mas-cg-consultation-board-appointments-september-2026`)
+- ✅ Single family office governance Singapore (`single-family-office-governance-singapore`)
+- ✅ MAS prior approval for nominating committee chairs (`mas-nominating-committee-chair-approval-singapore`)
+- ✅ Actuarial talent shortage as a board risk (`actuarial-talent-shortage-singapore-boards`)
 
 ### Backlink actions (one-time, compound over time)
 - [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile

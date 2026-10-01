@@ -988,5 +988,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/MAS/resource/legislation_guidelines/insurance/guidelines/MAS-Information-Paper--Guidance-on-ORSA-July-2017.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "wongpartnership.com",
+        "url": "https://www.wongpartnership.com/upload/medias/KnowledgeInsight/document/18780/TheLegal500InsuranceandReinsuranceGuide2023.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/breaking-news/singapore-insurers-called-to-refine-risk-assessment-reports-73922.aspx",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "bhspecialty.com",
+        "url": "https://www.bhspecialty.com/asia/singapore-products/berkshire-hathaway-specialty-insurance-singapore-branch/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "iais.org",
+        "url": "https://www.iais.org/uploads/2026/07/Thematic-note-on-how-to-build-a-risk-based-solvency-RBS-regime-using-an-own-risk-and-solvency-assessment-ORSA-as-a-basis.pdf",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Tan_Suee_Chieh",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "ia.org.hk",
+        "url": "https://www.ia.org.hk/en/legislative_framework/files/Key_Observations_from_the_First_ORSA_Reports.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Etiqa",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "content.naic.org",
+        "url": "https://content.naic.org/sites/default/files/publication-orsa-guidance-manual.pdf",
+        "title": ""
+      }
+    ]
   }
 ]

@@ -974,5 +974,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/advisory/regulatory-compliance-advisory/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/global-financial-services-regulatory-guide/asia-pacific/singapore/topics/who-regulates-banking-and-financial-services-in-your-jurisdiction",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "flagright.com",
+        "url": "https://www.flagright.com/post/how-the-monetary-authority-singapore-mas-drives-financial-compliance",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "financialadvisor.com.sg",
+        "url": "https://financialadvisor.com.sg/mas-licensed-financial-advisors-singapore/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "alder.com.sg",
+        "url": "https://alder.com.sg/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "lyndonadvisory.com",
+        "url": "https://lyndonadvisory.com/markets/singapore/top-ma-advisory-firms-singapore",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "capitalmarkets.sg",
+        "url": "https://capitalmarkets.sg/financial-advisers",
+        "title": ""
+      }
+    ]
   }
 ]
