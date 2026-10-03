@@ -99,8 +99,8 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [x] `single-family-office-governance-singapore` — MAS's new SFO class-exemption (effective 15 June 2026) still needs real governance behind it (published 2026-09-30; angle: easy to register ≠ well-governed; governance gaps MAS doesn't require: investment committee, independent directors, succession plan, IPS)
 - [~] `family-office-investment-committee-governance-singapore` — skipped on 2026-10-01: substantively cannibalises the published `single-family-office-governance-singapore` post (id 52, 2026-09-30), which already carries "family office investment committee Singapore" as a secondary keyword and covers IC terms of reference, the independent non-family member, authority matrices and principal succession in both its body list and its FAQs. Do not write a standalone post without a genuinely new angle (e.g. a specific MAS or EDB development aimed at family office ICs).
 - [x] `actuarial-talent-shortage-singapore-boards` — the actuarial talent shortage is a board risk, not an HR problem (published 2026-10-01; 2026-10-01 SERP output: 0/18 ranked, no "declined" flags, and all five suggested targets were tier-1 keywords already covered by Round 1 posts, so fell back to backlog order after skipping the family-office IC item above. Today's tier-2 rotation included "actuarial talent shortage Singapore", an open gap whose page 1 is entirely job boards and recruiters)
-- [ ] `appointed-actuary-succession-planning-singapore` — why every Singapore insurer board needs an appointed-actuary succession plan
-- [ ] `mas-outsourcing-guidelines-insurer-board-oversight` — what MAS's outsourcing guidelines actually require the board to own, not just procurement
+- [~] `appointed-actuary-succession-planning-singapore` — skipped on 2026-10-03: substantively cannibalises the published `actuarial-talent-shortage-singapore-boards` post (id 60, 2026-10-01), which already covers appointed-actuary succession planning in depth including the named contingency plan, key person risk register, realistic replacement lead times, sponsoring the Fellowship path, and the specific board questions to ask. Do not write a standalone post without a genuinely new angle (e.g. a specific MAS Notice 106 amendment affecting the appointment process).
+- [x] `mas-outsourcing-guidelines-insurer-board-oversight` — what MAS's outsourcing guidelines actually require the board to own, not just procurement (published 2026-10-03, id 62; accompanied by short take id 61 on MAS TPRM guidelines scope expansion; 2026-10-03 SERP output: 0/19 ranked, no "declined" flags, all suggested targets already covered by existing posts, fell back to backlog order)
 - [ ] `technology-risk-management-guidelines-singapore-insurers` — MAS's Technology Risk Management guidelines: what the board signs off on
 - [ ] `data-breach-notification-governance-singapore-insurers` — faster breach notification expectations — is the board actually ready to respond that fast
 - [ ] `director-remuneration-disclosure-singapore-sgx` — exact director/CEO remuneration disclosure is now mandatory — what to do before the next AGM
@@ -118,7 +118,7 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [ ] `esg-greenwashing-litigation-risk-singapore-boards` — greenwashing risk is now a board liability question, not just a marketing one
 - [ ] `operational-resilience-mas-guidelines-insurer-boards` — operational resilience is the MAS guideline boards keep delegating to IT
 
-### Published (47 posts, Sept 2026 onward)
+### Published (62 posts, Sept 2026 onward)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance
