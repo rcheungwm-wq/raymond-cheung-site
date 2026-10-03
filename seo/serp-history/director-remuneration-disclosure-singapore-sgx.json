@@ -181,5 +181,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mondaq.com",
+        "url": "https://www.mondaq.com/shareholders/1271742/sgx-regco-mandates-tenure-limit-on-independent-directors-and-disclosure-of-remuneration-details-of-directors--ceos",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "blogs.duanemorris.com",
+        "url": "https://blogs.duanemorris.com/duanemorrisandselvam/2023/01/19/sgx-regco-updates-enhancements-to-disclosures-on-directors-remuneration-and-cap-on-independent-directors-tenure/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "wongpartnership.com",
+        "url": "https://www.wongpartnership.com/insights/detail/changes-to-listing-rules-tenure-of-independent-directors-capped-at-nine-years-remuneration-of-directors-and-ceos-must-be-disclosed",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/publication/articles/23017/sgx-regco-amends-listing-rules-to-limit-tenure-of-independent-directors-to-nine-years-and-require-disclosure-of-exact-remuneration-of-directors-and-ceos",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/publication/articles/22660/sgx-regco-consults-on-proposed-hard-limit-of-nine-years-on-tenure-of-independent-directors-and-disclosure-of-exact-remuneration-of-directors-and-ceos-of-listed-companies",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "timcole.com.sg",
+        "url": "https://timcole.com.sg/all-you-need-to-know-about-directors-remuneration-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/remuneration-matters-2",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rafflescorporateservices.com",
+        "url": "https://rafflescorporateservices.com/director-remuneration-singapore-guide/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/cip/wp-content/uploads/sites/144/2026/03/Remuneration-Practices-2026-Edition_final-2.pdf",
+        "title": ""
+      }
+    ]
   }
 ]

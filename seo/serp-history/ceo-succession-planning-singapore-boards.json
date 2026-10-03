@@ -663,5 +663,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "exd.smu.edu.sg",
+        "url": "https://exd.smu.edu.sg/short-courses/effective-succession-planning-and-compensation-decisions",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "diligent.com",
+        "url": "https://www.diligent.com/resources/blog/ceo-succession-planning-template",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/CEO_succession",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "tradeflock.com",
+        "url": "https://tradeflock.com/singapore-family-businesses-are-rethinking-succession-plan/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "boardclic.com",
+        "url": "https://boardclic.com/blog/succession-planning-for-boards-or-ceos-ensuring-leadership-continuity",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mdxadvisory.com.sg",
+        "url": "https://mdxadvisory.com.sg/resources/business-succession-planning-smes-singapore/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "ccnalaw.com",
+        "url": "https://ccnalaw.com/how-to-choose-successor-family-business-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "singaporesecretaryservices.com",
+        "url": "https://www.singaporesecretaryservices.com/business-succession-planning-for-singapore-companies-director-exit-and-ownership-transfer-guide/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "urbanland.uli.org",
+        "url": "https://urbanland.uli.org/development-business/ceo-succession-planning-collaboration-board?p=13",
+        "title": ""
+      }
+    ]
   }
 ]

@@ -59,5 +59,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "lexology.com",
+        "url": "https://www.lexology.com/library/detail.aspx?g=0702b8e0-69f7-4909-bdba-61077263a9a8",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "lexology.com",
+        "url": "https://www.lexology.com/library/detail.aspx?g=0402b4e6-8051-4165-9866-3375a2d8145e",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-corporate-governance",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "link.springer.com",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-85817-9_6",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/circulars/id-09_21",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/guidelines/id/guidelines-on-corporate-governance/guidelines-on-corporate-governance-9-november-2021.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/perspectives/articles/19721/sgkh-mas-issues-revised-corporate-governance-guidelines-for-designated-financial-holding-companies-banks-direct-insurers-reinsurers-and-captive-insurers",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/perspectives/articles/18267/sgkh-mas-consults-on-revisions-to-corporate-governance-guidelines-for-designated-financial-holding-companies-banks-direct-insurers-reinsurers-and-captive-insurers",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/subsidiary-legislation/insurance-corporate-governance-regulations-2013",
+        "title": ""
+      }
+    ]
   }
 ]

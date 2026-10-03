@@ -108,5 +108,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/~/media/MAS/Regulations%20and%20Financial%20Stability/Regulations%20Guidance%20and%20Licensing/Insurance/Regulations%20Guidance%20and%20Licensing/Guidelines/MCG_G01%20_%20Cancelled.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/guidelines/cmg/guidelines-on-fit-and-proper-criteria/fsgg01-guidelines-on-fit-and-proper-criteria-revised-30-may-2025.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/MAS/resource/legislation_guidelines/insurance/guidelines/FSG-G01-Guidelines-on-Fit-and-Proper-Criteria.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "complianceonline.com",
+        "url": "https://www.complianceonline.com/monetary-authority-of-singapore-guidelines-on-fit-and-proper-persons-an-overview-and-summary-of-requirements-13641-prdad",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "nortonrosefulbright.com",
+        "url": "https://www.nortonrosefulbright.com/en/knowledge/resources-and-tools/banking-reform/senior-management-responsibility/singapore",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/notices/notice-106",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "alder.com.sg",
+        "url": "https://alder.com.sg/mas-fit-and-proper-criteria-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rtcompliance.sg",
+        "url": "https://rtcompliance.sg/blog/mas-fit-and-proper-criteria/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "rafflescorporateservices.com",
+        "url": "https://rafflescorporateservices.com/fit-and-proper-criteria-singapore/",
+        "title": ""
+      }
+    ]
   }
 ]

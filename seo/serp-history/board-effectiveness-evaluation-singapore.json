@@ -675,5 +675,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/images/PDFS/Publications/DirectorsBulletin/DirectorsBulletin_20081.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ecgi.global",
+        "url": "https://www.ecgi.global/sites/default/files/working_papers/documents/finalfenwickvermeulen.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "russellreynolds.com",
+        "url": "https://www.russellreynolds.com/en/insights/articles/making-it-count-board-effectiveness-exercises-re-examined",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "n2growth.com",
+        "url": "https://www.n2growth.com/services/board-effectiveness/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "kornferry.com",
+        "url": "https://www.kornferry.com/capabilities/board-ceo-services/board-effectiveness",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "boardintelligence.com",
+        "url": "https://www.boardintelligence.com/board-evaluation",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "better-boards.com",
+        "url": "https://better-boards.com/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "theboardpractice.com",
+        "url": "https://theboardpractice.com/service/board-effectiveness/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "deloitte.com",
+        "url": "https://www.deloitte.com/southeast-asia/en/services/consulting-financial/services/electronic-board-effectiveness-evaluation.html",
+        "title": ""
+      }
+    ]
   }
 ]

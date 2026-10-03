@@ -4967,4 +4967,198 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "61",
+    title: "MAS's New Third-Party Risk Guidelines Are Not an IT Problem. They Are a Board Problem.",
+    summary:
+      "MAS's proposed Guidelines on Third-Party Risk Management, which replace the familiar outsourcing guidelines with a framework covering every third-party relationship an insurer holds, are still in consultation-to-final transition. Most boards have delegated them to procurement and IT. That is the wrong delegation, and MAS has been explicit about why.",
+    category: "Regulation",
+    readingTime: "4 min read",
+    date: "October 2026",
+    status: "published",
+    slug: "mas-tprm-guidelines-board-responsibility-singapore",
+    keywords: ["MAS third-party risk management guidelines Singapore insurers", "MAS TPRM board governance Singapore", "MAS outsourcing guidelines Singapore 2026"],
+    body: [
+      {
+        type: "paragraph",
+        text: "MAS published its consultation paper on proposed Guidelines on Third-Party Risk Management in March 2026. The consultation closed in April. The final guidelines have not yet been issued, but a six-month transition period from issue date is already built in, which means for any insurer whose compliance planning starts at publication rather than before it, the preparation window is already shorter than it looks.",
+      },
+      {
+        type: "heading",
+        text: "The scope change that boards are underestimating",
+      },
+      {
+        type: "paragraph",
+        text: "The existing outsourcing guidelines, the ones Singapore insurers have been complying with for years, apply to formal outsourcing arrangements. The proposed TPRM guidelines apply to all third-party services the institution relies on. That is not a refinement. It is a different scope entirely. If your data analytics platform is operated by a third party but was never categorised as an outsourced service because the contract was signed by the business rather than IT, it is in scope under the new framework in a way it was not before. Most insurers I speak with have not completed that inventory exercise.",
+      },
+      {
+        type: "pullquote",
+        text: "MAS expects the board to ensure sound governance and risk management of third-party relationships. That is not language directed at procurement or IT. It is language directed at the board.",
+      },
+      {
+        type: "heading",
+        text: "What the guidelines explicitly place on the board",
+      },
+      {
+        type: "paragraph",
+        text: "The proposed guidelines are direct. MAS expects the board and senior management to establish a third-party risk management framework aligned with the institution's operational risk management framework, maintain a strategy consistent with other relevant strategies, and ensure adequate processes for a comprehensive firm-wide view of third-party risk exposures. The register of all material third-party arrangements, including material sub-contractors, is to be submitted to MAS semi-annually. The board owns the framework that makes those submissions credible.",
+      },
+      {
+        type: "heading",
+        text: "Three things I would want the board to own personally",
+      },
+      {
+        type: "list",
+        items: [
+          "A genuine firm-wide inventory of material third-party relationships, not the outsourcing register that already exists, but the broader population that falls under the new scope. This exercise will find arrangements the board has never been shown and some where concentration risk is higher than the existing register suggests.",
+          "A clear position on concentration: which service provider or geographic concentration, if it failed, would impair an obligation the board cannot suspend. That is the test MAS is applying, and it is a more exacting test than the standard materiality threshold used in existing outsourcing frameworks.",
+          "Sub-contracting visibility. The guidelines require service providers to notify the institution before engaging material sub-contractors and to cascade contractual requirements to those sub-contractors. In practice, most institutions do not currently have contractual provisions that give them this visibility, let alone enforce it. The board should know which critical services have this gap and when it will be closed.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The transition period is the part boards keep misreading. Six months from issue sounds generous. But the clock starts from publication of the final guidelines, not from when the consultation was announced, and the practical work, renegotiating service agreements, completing due diligence on providers the institution has not previously assessed under a risk lens, building the register, getting board-level sign-off on the framework, is not six months of effort in series. It is concurrent work streams, some of which require counterparty cooperation, which is not under the institution's control.",
+      },
+      {
+        type: "paragraph",
+        text: "My observation, both from CRO positions and from board advisory work, is that institutions that treat this as an IT project will spend the transition period discovering that the board does not have a complete picture of what it depends on externally, and that some of what it depends on has contractual terms that will not survive the new requirements without renegotiation. That is the institution that faces the transition deadline with open items rather than a closed framework. The boards that engage with this now, before the final guidelines are issued, are the ones that will not be scrambling in the six months after.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What are MAS's proposed Third-Party Risk Management Guidelines and how do they differ from the outsourcing guidelines?",
+        answer: "MAS published a consultation paper on proposed TPRM Guidelines in March 2026, with the consultation closing in April. Unlike the existing Guidelines on Outsourcing, which apply only to formal outsourcing arrangements, the proposed TPRM guidelines apply to all third-party services a financial institution relies on. This materially expands scope. Final guidelines are pending, with a six-month transition period from issuance.",
+      },
+      {
+        question: "What does MAS's proposed TPRM framework require of boards at Singapore insurers?",
+        answer: "MAS is explicit. The board and senior management are expected to establish a third-party risk management framework aligned with the operational risk management framework, maintain a TPRM strategy, and ensure processes for a firm-wide view of third-party risk. Material third-party arrangements, including material sub-contractors, must be reported to MAS semi-annually. The board is accountable for the integrity of that framework.",
+      },
+      {
+        question: "What should a Singapore insurance board do before MAS's final TPRM guidelines are issued?",
+        answer: "Three things. First, conduct a proper inventory of all third-party service reliances, not just formal outsourcing, to understand what will fall under the new scope. Second, identify concentration risk at the service-provider and geography level. Third, review whether current service contracts include the sub-contractor notification and requirement-cascading provisions the new guidelines will require. Renegotiating those contracts takes time and counterparty cooperation, so work that cannot wait for publication should start now.",
+      },
+    ],
+  },
+  {
+    id: "62",
+    title: "What MAS's Outsourcing Guidelines Actually Require the Board to Own, Not Just Procurement",
+    summary:
+      "Singapore insurance boards have been treating MAS's outsourcing framework as a procurement and legal matter since the guidelines first appeared. MAS has been consistent: the board owns the framework, not the contracts. With the current guidelines already in force and new TPRM rules on the way, the boards that have delegated this to management are carrying a gap they have not recognised.",
+    category: "Regulation",
+    readingTime: "9 min read",
+    date: "October 2026",
+    status: "published",
+    slug: "mas-outsourcing-guidelines-insurer-board-oversight",
+    keywords: ["MAS outsourcing guidelines insurer board oversight Singapore", "MAS third-party risk management Singapore insurers", "insurance board outsourcing governance Singapore MAS"],
+    body: [
+      {
+        type: "paragraph",
+        text: "I sat in on a board risk committee meeting at a Singapore insurer where the outsourcing risk item was a single table: vendor name, service category, date of last review, status green. Fifteen rows, three minutes, moved on. The CRO later told me, privately, that three of those arrangements were with the same group, and that the group itself was the entity the parent company used for its regional technology infrastructure. Nobody in the room had been shown that picture, and the committee's documentation would have given the impression that the outsourcing framework was working exactly as designed.",
+      },
+      {
+        type: "paragraph",
+        text: "That is the specific failure mode that MAS's outsourcing framework is designed to prevent, and it is the specific failure mode that a board-as-rubber-stamp approach allows to persist. The guidelines are not a checklist the company secretary holds on behalf of the board. They describe a governance architecture the board is required to own, and the distance between those two descriptions is where risk lives.",
+      },
+      {
+        type: "heading",
+        text: "What the current guidelines actually say about board responsibilities",
+      },
+      {
+        type: "paragraph",
+        text: "The MAS Guidelines on Outsourcing for financial institutions are explicit. The board and senior management are responsible for ensuring that the institution's outsourcing arrangements are subject to appropriate oversight and that the outsourcing does not diminish the institution's ability to fulfil its obligations to MAS and its customers. That is a much higher bar than approving an outsourcing policy and delegating its implementation. It means the board must be capable of forming a genuine judgment about whether the framework is functioning, not merely whether a process was followed.",
+      },
+      {
+        type: "paragraph",
+        text: "Under the current guidelines, that means understanding which outsourcing arrangements are material, what due diligence was done before each was entered into, how monitoring is conducted and what findings have emerged, what exit strategies exist for the arrangements the institution cannot afford to have fail, and whether concentration in a small set of service providers or geographies represents a risk the institution has consciously accepted rather than one it has never examined.",
+      },
+      {
+        type: "pullquote",
+        text: "The board's job is not to approve the outsourcing register. It is to be able to tell you, from its own knowledge, which dependencies it could not survive losing and what the plan is if it lost them tomorrow.",
+      },
+      {
+        type: "heading",
+        text: "The concentration problem most boards have never been shown",
+      },
+      {
+        type: "paragraph",
+        text: "Concentration risk in outsourcing does not show up in a vendor table. It shows up when you look at the table from the right angle. I have seen institutions with twenty separate outsourcing arrangements that were effectively three: one technology group running infrastructure across multiple legal entities with separate contract numbers, one regional treasury services provider holding settlements across multiple products, and one cloud provider underneath three different software-as-a-service vendors that each appeared as separate rows in the register.",
+      },
+      {
+        type: "paragraph",
+        text: "The MAS guidelines require institutions to consider concentration risk, including at the service provider and geographic level. In practice, this requires a view that goes one layer deeper than the register: who ultimately controls the service, where is it physically delivered from, and what would happen to multiple arrangements simultaneously in a stress scenario. Most boards have seen neither the layered picture nor the stress test.",
+      },
+      {
+        type: "heading",
+        text: "Sub-contracting: the fourth-party problem boards have stopped asking about",
+      },
+      {
+        type: "paragraph",
+        text: "The current guidelines require institutions to know who their service providers are sub-contracting to, to have the right to approve material sub-contracting changes, and to ensure that sub-contractors are subject to standards comparable to the service provider itself. That is the requirement on paper. In practice, the enforcement mechanism is a contractual provision, and many older outsourcing contracts do not include sub-contracting notification or approval rights that would meet the current standard.",
+      },
+      {
+        type: "paragraph",
+        text: "I have reviewed outsourcing contracts for Singapore insurers that were signed before the current guidelines were finalized, are still in place, and have never been renegotiated to include sub-contracting controls. The institution complied at the time of signing. Whether it complies today, under the standard the current guidelines set, is a different question. The board is unlikely to know the answer unless it has asked it directly, because the gap does not appear in the standard reporting format.",
+      },
+      {
+        type: "heading",
+        text: "Exit strategies: the part that disappears after the contract is signed",
+      },
+      {
+        type: "paragraph",
+        text: "MAS requires institutions to maintain exit strategies for material outsourcing arrangements. The intent is that if a service provider fails, is sold, or simply becomes unacceptable, the institution can substitute without impairing the services it owes to policyholders and to the regulator. Exit strategies are typically written when a contract is first signed, at a moment when the institution is optimistic about the relationship and the alternative providers are well-known. They are rarely reviewed when the relationship matures and the switching costs have increased, when the alternative providers have contracted, or when the service has become embedded in the institution's processes in ways that make it harder to unwind than the original plan assumed.",
+      },
+      {
+        type: "paragraph",
+        text: "What the board should be asking is not whether an exit strategy exists. It is whether the exit strategy is current, whether it has been tested against the actual operational state of the arrangement rather than the state it was in when originally signed, and whether the board is confident the institution could execute it under adverse conditions rather than under the benign ones assumed in the document.",
+      },
+      {
+        type: "heading",
+        text: "What the new TPRM guidelines add",
+      },
+      {
+        type: "paragraph",
+        text: "MAS published its proposed Guidelines on Third-Party Risk Management in March 2026, which will supersede the current outsourcing guidelines. The single most significant change is scope: the new framework applies to all third-party services the institution relies on, not only formal outsourcing arrangements. The board oversight obligations are the same in structure, but they now apply to a materially larger population of arrangements, including technology services, data services, and advisory relationships that were previously managed under commercial rather than risk frameworks.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that boards which have been treating the outsourcing register as their full picture of third-party risk will discover, under the new framework, that the register covers a subset of the actual exposure. The institutions that will navigate the six-month transition period most cleanly are those whose boards already understand the full third-party dependency picture, rather than only the subset that carries a formal outsourcing label.",
+      },
+      {
+        type: "heading",
+        text: "What the board should actually own",
+      },
+      {
+        type: "list",
+        items: [
+          "A concentration view of the outsourcing register, not the register itself: which arrangements share an ultimate counterparty, which share a geography, and what the correlated stress scenario looks like across the portfolio, not the individual rows.",
+          "An annual confirmation from management that sub-contracting provisions in material contracts meet the current guidelines, not the version in force when the contracts were signed.",
+          "A tested exit strategy for each material arrangement: tested against the current operational state of the arrangement, not the original design, with explicit board sign-off on whether the institution accepts the switching risk where a credible exit does not exist.",
+          "A view on the inventory of non-outsourcing third-party services that will fall under the proposed TPRM framework, and a plan for bringing that population into the governance framework before the new guidelines take effect.",
+          "A standing question in the board risk committee: has any material outsourcing arrangement changed in a way that affects its risk profile, exit strategy or concentration picture since the last review? Ask it as a question requiring a direct answer rather than a standing green on the register.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "I have seen outsourcing governance done well and I have seen it done as theatre, and the difference is not in the quality of the documentation. It is in whether the board believes it owns the outcome rather than the process. A board that has genuinely engaged with concentration, sub-contracting and exit can have a harder conversation with management when something goes wrong. A board that has only seen the register cannot.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does MAS's outsourcing framework require of Singapore insurance boards?",
+        answer: "Under the MAS Guidelines on Outsourcing, the board and senior management are responsible for ensuring that outsourcing arrangements are subject to appropriate oversight and do not diminish the institution's ability to fulfil obligations to MAS and its customers. That means the board must be capable of forming a genuine judgment about the framework's effectiveness, not merely confirming a process was run. Specific expectations include oversight of material outsourcing determinations, due diligence, concentration risk, sub-contractor management, and exit strategy adequacy.",
+      },
+      {
+        question: "What is concentration risk in outsourcing and why does it matter for Singapore insurance boards?",
+        answer: "Concentration risk in outsourcing arises when multiple arrangements share an ultimate service provider, a geography, or an infrastructure provider at a layer the institution does not directly contract with. MAS requires institutions to assess concentration risk explicitly. A board that only reviews the outsourcing register by rows will miss concentration that becomes visible only when the register is aggregated across ultimate counterparties. The failure mode is discovering the concentration in a stress scenario rather than in a regular governance review.",
+      },
+      {
+        question: "How do MAS's proposed TPRM guidelines change the board's outsourcing obligations?",
+        answer: "The proposed Guidelines on Third-Party Risk Management, which will supersede the current outsourcing guidelines once finalised, extend the framework to cover all third-party services the institution relies on, not only formal outsourcing arrangements. The board governance obligations are structurally the same, but they apply to a larger population that includes technology services, data services and advisory relationships previously managed outside the outsourcing framework. A six-month transition period is proposed from the date of issuance.",
+      },
+      {
+        question: "What should a Singapore insurance board ask about its exit strategies for outsourced services?",
+        answer: "Ask whether each exit strategy has been reviewed against the current operational state of the arrangement, not just the design-time document, and whether the board could actually execute it under adverse rather than benign conditions. Specifically: has the service become more embedded since the strategy was written, has the number of credible substitute providers changed, and has the contractual switching mechanism been tested rather than assumed? MAS requires exit strategies for material arrangements, but requires ones that work in practice, not ones that satisfy a documentation standard.",
+      },
+    ],
+  },
 ];

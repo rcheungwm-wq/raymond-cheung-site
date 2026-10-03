@@ -1055,5 +1055,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ccla.smu.edu.sg",
+        "url": "https://ccla.smu.edu.sg/sgri/blog/2023/02/16/unprecedented-order-compulsory-appointment-cro-singapore-restructuring",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/asia-pacific-insurance/asia-pacific/singapore/topics/guide-for-insurance-sales-advisory-and-distribution",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/insurance-agency",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/insurance-broker",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chief_risk_officer",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/insights/insurance/three-strategic-actions-for-insurance-cros-in-2026",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "thebestsg.com",
+        "url": "https://thebestsg.com/best/financial-advisory",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "csimedicalresearch.com",
+        "url": "https://www.csimedicalresearch.com/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singapore.recruit.net",
+        "url": "https://singapore.recruit.net/search-chief-risk-officer-asia-jobs",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "clinactis.com",
+        "url": "https://www.clinactis.com/about",
+        "title": ""
+      }
+    ]
   }
 ]

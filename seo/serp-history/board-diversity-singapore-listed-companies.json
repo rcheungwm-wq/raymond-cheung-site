@@ -114,5 +114,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "humanresourcesonline.net",
+        "url": "https://www.humanresourcesonline.net/top-10-companies-in-the-singapore-board-diversity-index",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/About/News-and-Press/News_2025/2025-01-20_ST_Singapore-listed_companies_have_more_diverse_boards.aspx",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mercer.com",
+        "url": "https://www.mercer.com/en-us/insights/law-and-policy/singapore-listed-companies-face-new-climate-diversity-reporting/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "councilforboarddiversity.sg",
+        "url": "https://www.councilforboarddiversity.sg/diversity-is-gathering-momentum-among-listed-companies-and-statutory-boards-council-for-board-diversity/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/blog/press-release/article/board-diversity-recognised-in-inaugural-awards-at-asean-corporate-governance-scorecard-singapore-results-2018",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/?p=632",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "corpgov.law.harvard.edu",
+        "url": "https://corpgov.law.harvard.edu/2022/05/29/board-gender-diversity",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "bizbeat.nus.edu.sg",
+        "url": "https://bizbeat.nus.edu.sg/press-release/article/joint-study-diverse-leadership-brings-better-firm-performance/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "assets.kpmg.com",
+        "url": "https://assets.kpmg.com/content/dam/kpmg/sg/pdf/2019/04/Gender-Diversity-on-Singapore-Boards.pdf",
+        "title": ""
+      }
+    ]
   }
 ]
