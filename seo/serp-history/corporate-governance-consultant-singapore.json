@@ -444,5 +444,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/cross-border-listings-guide/asia-pacific/singapore-stock-exchange/topics/corporate-governance",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/home.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/sg/en/services/assurance/corporate-governance.html",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/corporate-governance",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sgx.com",
+        "url": "https://sgx.com/regulation/corporate-governance",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "deloitte.com",
+        "url": "https://www.deloitte.com/sg/en/services/risk-advisory/corporate-governance.html",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sustainablefutures.linklaters.com",
+        "url": "https://sustainablefutures.linklaters.com/post/102i8ge/the-singapore-exchange-imposes-a-hard-nine-year-limit-for-independent-directors-a",
+        "title": ""
+      }
+    ]
   }
 ]

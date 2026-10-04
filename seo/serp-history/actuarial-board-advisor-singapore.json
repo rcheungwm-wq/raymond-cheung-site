@@ -1092,5 +1092,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/jobs/view/lead-actuarial-analyst-actuarial-services-at-cpf-board-3436809293",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/news/speeches/2016/the-actuarial-profession-constructive-partners-and-valuable-advisors",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/jobs/actuarial-jobs",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "linkedin.com",
+        "url": "https://www.linkedin.com/in/ser-kee-goh-283949166/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/q-actuarial-board-advisor-jobs.html",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sas.org.sg",
+        "url": "https://www.sas.org.sg/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/insurance",
+        "title": ""
+      }
+    ]
   }
 ]

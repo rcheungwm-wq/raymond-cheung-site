@@ -1122,5 +1122,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/insights/insurance/three-strategic-actions-for-insurance-cros-in-2026",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/newsroom/2026/04/insurance-cros-are-faced-with-an-evolving-risk-landscape-defined-by-speed-volatility-and-interconnection-ey-iif-survey",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "thecroforum.org",
+        "url": "https://thecroforum.org/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/singapore-regulators-and-insurers-move-to-protect-human-financial-advice-584392.aspx",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "practiceguides.chambers.com",
+        "url": "https://practiceguides.chambers.com/practice-guides/insurance-reinsurance-2026/singapore/trends-and-developments",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "bis.org",
+        "url": "https://www.bis.org/review/r251112a.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/insurance",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/jobs/cro-insurance-jobs",
+        "title": ""
+      }
+    ]
   }
 ]

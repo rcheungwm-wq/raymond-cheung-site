@@ -242,5 +242,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "practiceguides.chambers.com",
+        "url": "https://practiceguides.chambers.com/practice-guides/insurance-reinsurance-2026/singapore/trends-and-developments",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/insurance",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ey.com",
+        "url": "https://www.ey.com/en_sg/insights/insurance/three-strategic-actions-for-insurance-cros-in-2026",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "thecroforum.org",
+        "url": "https://thecroforum.org/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/services/advisory/risk-consulting/esg.html",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/jobs/insurance-risk-management-jobs",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sas.org.sg",
+        "url": "https://www.sas.org.sg/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/publication/articles/30486/mas-publishes-consultation-paper-on-proposed-equity-counter-cyclical-adjustment-and-inclusion-of-additional-criteria-for-additional-tier-1-and-tier-2-capital-instruments-for-insurers",
+        "title": ""
+      }
+    ]
   }
 ]

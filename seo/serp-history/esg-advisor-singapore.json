@@ -316,5 +316,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "boardroomlimited.com",
+        "url": "https://www.boardroomlimited.com/services/esg/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/home/insights/2024/07/what-boards-should-know-about-esg-governance.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/services/advisory/risk-consulting/esg.html",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "estes.sg",
+        "url": "https://estes.sg/services/esg-consulting/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "greenco-esg.com",
+        "url": "https://greenco-esg.com/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "globalgreenconnect.com",
+        "url": "https://globalgreenconnect.com/programme/certified-esg-analyst-program-in-singapore-malaysia-thailand-cesga/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "nortonrosefulbright.com",
+        "url": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/bed17bb0/esg-what-boards-of-directors-should-do-now",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sageshield.com",
+        "url": "https://sageshield.com/esg-reporting-requirements-singapore-guide/",
+        "title": ""
+      }
+    ]
   }
 ]

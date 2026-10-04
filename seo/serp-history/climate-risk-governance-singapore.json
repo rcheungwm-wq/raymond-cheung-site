@@ -261,5 +261,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sustainablefutures.linklaters.com",
+        "url": "https://sustainablefutures.linklaters.com/post/102mnv6/the-monetary-authority-of-singapore-publishes-guidelines-on-transition-planning-f",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/environmental-risk",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/services/advisory/risk-consulting/esg.html",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "financierworldwide.com",
+        "url": "https://www.financierworldwide.com/a-new-dawn-for-esg-regulation-in-singapore",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "presgo.com",
+        "url": "https://www.presgo.com/en-sg/articles/mas-esg-requirements/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sageshield.com",
+        "url": "https://sageshield.com/esg-reporting-requirements-singapore-guide/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "nortonrosefulbright.com",
+        "url": "https://www.nortonrosefulbright.com/en-sg/knowledge/publications/bed17bb0/esg-what-boards-of-directors-should-do-now",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/Professional_Development/Courses/Advanced/Advanced_Programme_on_Sustainability_for_Listed_Entity_Directors.aspx",
+        "title": ""
+      }
+    ]
   }
 ]
