@@ -5338,4 +5338,194 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "65",
+    title: "What MAS's November Leadership Reshuffle Tells Singapore Boards About Regulatory Priorities",
+    summary:
+      "MAS announced senior management changes effective 1 November 2026. Boards of Singapore-regulated institutions should not read this as routine HR news. The explicit assignment of governance and leadership development oversight to the Principal Advisor, and the consolidation of technology oversight under corporate development functions, are signals about where supervisory attention will sit next year.",
+    category: "Regulation",
+    readingTime: "4 min read",
+    date: "October 2026",
+    status: "published",
+    slug: "mas-leadership-reshuffle-november-2026-board-signal",
+    keywords: [
+      "MAS regulatory advisor Singapore",
+      "MAS senior leadership 2026",
+      "Singapore financial institution governance",
+      "MAS supervisory priorities 2027",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "MAS announced last week that three members of its senior management will move into new roles effective 1 November 2026. Jacqueline Loh, Deputy Managing Director for Corporate Development, will move into the Managing Director's office as Principal Advisor, with responsibility for risk oversight, governance, and leadership development across MAS, alongside her continued role as Chair of the Singapore Payments Network board. Loo Siew Yee will succeed her as Deputy Managing Director for Corporate Development, overseeing technology, finance, risk and currency functions. Gillian Tan will take over from Loo Siew Yee as Assistant Managing Director for Policy, Payments and Financial Crime, covering prudential policy, AML, enforcement, and payments supervision.",
+      },
+      {
+        type: "paragraph",
+        text: "Most boards of Singapore-licensed financial institutions will note this announcement, file it, and move on. I think that is the wrong response.",
+      },
+      {
+        type: "heading",
+        text: "What the remit language tells you",
+      },
+      {
+        type: "paragraph",
+        text: "When a senior regulator is given an explicit remit that names governance and leadership development, it signals where the institution is placing long-term attention. Jacqueline Loh's new role in the MD's office with governance responsibility is not an administrative post -- it is a continuity and elevation of the oversight function she has been carrying. The fact that MAS named these themes explicitly in the announcement is deliberate. Regulators do not include words in official announcements by accident.",
+      },
+      {
+        type: "paragraph",
+        text: "For boards of Singapore insurers, banks, and designated financial holding companies: governance quality at the supervisory level is being reinforced, not reduced. If you have been hoping that governance expectations would soften as MAS moved into a post-consultation implementation phase, this appointment signals the opposite. The person now most directly advising the Managing Director on governance matters has spent years in that function and is continuing it in a more senior role.",
+      },
+      {
+        type: "pullquote",
+        text: "When the regulator elevates governance to the MD's own advisory layer, boards should not interpret this as steady-state. It is a signal about where scrutiny will focus.",
+      },
+      {
+        type: "heading",
+        text: "The technology oversight signal",
+      },
+      {
+        type: "paragraph",
+        text: "Loo Siew Yee's move into the Deputy MD role for Corporate Development, explicitly covering MAS's own technology group, is a different but related signal. MAS's Technology Group oversees the infrastructure, data, and digital systems underpinning Singapore's financial sector. Putting a policy professional with a background in payments and financial crime oversight into the role responsible for technology, rather than a pure technologist, is a statement about how MAS is thinking about technology risk -- as a governance and policy problem, not just an engineering one.",
+      },
+      {
+        type: "paragraph",
+        text: "Boards of institutions that have been treating their MAS TRM attestations as IT department deliverables should take note. The people now setting the tone at MAS are governance-oriented, not compliance-checklist-oriented. The TRM programme your board approves annually is going to be reviewed by supervisors whose instinct is to ask how the board was involved -- not just whether the controls are documented.",
+      },
+      {
+        type: "heading",
+        text: "What to do before November",
+      },
+      {
+        type: "paragraph",
+        text: "I am not suggesting that boards should overreact to a standard senior management transition. But I have seen enough regulatory cycles to recognise that the window before a new leadership configuration beds in is exactly when boards should audit their own governance posture. Three things to do now: review your last TRM board attestation and ask honestly whether the board understood what it was signing off on; check that your independent directors' independence assessments are ready to stand up against the proposed new criteria from MAS P016-2026; and confirm that your nominating committee has a documented succession framework, not just a list of potential candidates. These are not emergency actions -- they are governance table stakes that should already be in place. If they are not, November is a reasonable deadline.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What do MAS's November 2026 leadership changes mean for Singapore insurance boards?",
+        answer: "The changes signal that governance and oversight remain high priorities at MAS. Jacqueline Loh's move into the MD's office with an explicit governance and leadership development remit suggests governance expectations for regulated institutions will not soften. Boards should treat this as a prompt to audit their governance posture -- particularly on TRM attestations, director independence under P016-2026, and board succession planning.",
+      },
+      {
+        question: "Who is taking over MAS's prudential policy and payments supervision from November 2026?",
+        answer: "Gillian Tan becomes Assistant Managing Director for Policy, Payments and Financial Crime from 1 November 2026, covering prudential policy, anti-money laundering, enforcement, and supervision of payment services providers. She moves into this role from her current position, as Loo Siew Yee moves up to Deputy Managing Director.",
+      },
+      {
+        question: "Should Singapore insurance boards do anything differently following MAS's leadership reshuffle?",
+        answer: "Three immediate priorities: review whether your last board TRM attestation was substantively understood by the board or simply approved; check that independent director independence assessments are ready for the proposed criteria changes in MAS P016-2026; and ensure the nominating committee has a documented succession framework in place. These are governance baseline requirements that the reshuffled MAS leadership structure is likely to scrutinise more closely, not less.",
+      },
+    ],
+  },
+  {
+    id: "66",
+    title: "MAS's Technology Risk Management Guidelines: What the Board Signs Off On",
+    summary:
+      "Every Singapore insurer has a TRM programme. Most boards approve the annual attestation in under fifteen minutes without understanding what they are signing. MAS's Technology Risk Management guidelines place substantive obligations on the board -- not just the CIO and CISO. This is what those obligations actually require, and where Singapore insurance boards are routinely falling short.",
+    category: "Technology Risk",
+    readingTime: "7 min read",
+    date: "October 2026",
+    status: "published",
+    slug: "technology-risk-management-guidelines-singapore-insurers",
+    keywords: [
+      "technology risk management guidelines Singapore insurer",
+      "MAS TRM guidelines board oversight",
+      "MAS Notice 127 insurance board",
+      "board technology risk governance Singapore",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "I was in a Singapore insurer's board risk committee meeting when the CIO presented the annual TRM attestation package. Forty-three pages. The board approved it in nine minutes. The only question from the floor was whether the company was compliant. The CIO said yes. The chair nodded. The board moved to the next agenda item. Nobody asked what the company's technology risk appetite was, whether it had been breached in the past year, whether the CISO had escalated anything that had not reached the board, or what the most significant technology risk the insurer would face in the next twelve months actually was. The attestation was signed. The governance was not done.",
+      },
+      {
+        type: "paragraph",
+        text: "That meeting is not unusual. It is close to the norm. Singapore insurers have invested heavily in their TRM programmes at the management level -- CIO-CISO structures, incident response frameworks, vendor risk assessments, cloud governance policies. What most have not built is meaningful board governance of technology risk. The distinction matters because MAS's Technology Risk Management guidelines do not just regulate the IT department. They place explicit obligations on the board and senior management. When a supervisor reviews your TRM programme, they will eventually ask what the board knew, what it challenged, and what it decided. The attestation signature is not the answer.",
+      },
+      {
+        type: "heading",
+        text: "What MAS's TRM guidelines require from the board -- not the IT team",
+      },
+      {
+        type: "paragraph",
+        text: "The MAS Technology Risk Management guidelines, revised in January 2021 and applicable to all MAS-regulated financial institutions including insurers under MAS Notice 127, set out a governance layer that sits above the operational controls. The key board and senior management requirements are: board members should collectively have the knowledge to understand and manage technology risks, including cyber threats; the board should ensure a CIO, CTO or head of IT and a CISO or head of information security with the requisite expertise and experience are appointed; and the board should ensure that technology risk is managed in line with the institution's risk appetite.",
+      },
+      {
+        type: "paragraph",
+        text: "These requirements have a standard compliance interpretation and a governance interpretation. The compliance interpretation produces the forty-three-page attestation package. The governance interpretation requires the board to be able to answer three questions before it approves anything.",
+      },
+      {
+        type: "list",
+        items: [
+          "What is our technology risk appetite, and what event or breach would require immediate board escalation rather than management handling?",
+          "When was the last material technology incident, what did it cost the institution in recovery and reputational terms, and what specifically changed as a result?",
+          "Is our CISO genuinely operationally independent of the CIO, and can they escalate a technology risk concern directly to the board risk committee without going through management?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If a Singapore insurance board cannot answer those three questions at the time it approves the TRM attestation, it is approving a compliance document, not exercising governance. The distinction will eventually matter when a technology incident occurs and a supervisor asks the board what it knew.",
+      },
+      {
+        type: "heading",
+        text: "The MAS Notice 127 context Singapore insurance boards overlook",
+      },
+      {
+        type: "paragraph",
+        text: "Singapore insurers operate under both the general MAS TRM guidelines and MAS Notice 127, which specifies technology risk management requirements for licensed insurers. Notice 127 requires insurers to establish a technology risk management framework approved by the board; to maintain a technology risk register identifying material technology risks; and to submit technology risk incident reports to MAS for qualifying incidents within defined timeframes.",
+      },
+      {
+        type: "paragraph",
+        text: "The board's role in the Notice 127 framework is not passive approval. The technology risk management framework must be board-approved, which means the board must have reviewed and challenged the framework's scope, its risk classification criteria, its escalation thresholds, and its coverage of cloud, third-party, and legacy system risks. Most boards approve a framework document that management has prepared without the forensic review that approval is supposed to represent. The question a MAS supervisor would ask is not whether the framework was approved -- they can read the minutes. The question is whether the approval reflected genuine board understanding of what was being approved.",
+      },
+      {
+        type: "pullquote",
+        text: "If the board cannot tell you its technology risk appetite in one sentence, it does not have one -- it has an attestation.",
+      },
+      {
+        type: "heading",
+        text: "Where Singapore insurance boards are falling short on TRM governance",
+      },
+      {
+        type: "paragraph",
+        text: "Three patterns come up repeatedly when I look at how Singapore insurers are actually governing technology risk at board level. The first is consolidation without distinction. Technology risk, cyber risk, data risk, and operational technology risk are bundled into a single board agenda item, often within the operational risk section of the risk committee report. Each of these risk categories has a different MAS regulatory reference, a different incident profile, and requires different board competencies to challenge. Bundling them produces a high-level summary that satisfies no one supervisory requirement in depth.",
+      },
+      {
+        type: "paragraph",
+        text: "The second pattern is approving attestations without reading qualifications. TRM attestations often contain material qualifications -- exceptions noted, timelines slipped, controls assessed as 'in progress'. Boards that approve attestation packages without specifically addressing the qualifications are accepting risk that management has formally noted but the board has not formally acknowledged. In a post-incident review, those qualifications become evidence of known risk that the board failed to act on.",
+      },
+      {
+        type: "paragraph",
+        text: "The third pattern is the CISO access problem. The MAS guidelines require the board to ensure a CISO with requisite expertise is appointed. They do not require the CISO to attend the board or have direct board access. Most Singapore insurance boards receive technology risk information through the CIO's reporting line. The CISO's independent assessment of technology risk posture -- which may differ materially from the CIO's -- rarely reaches the board directly. This creates a structural blind spot at exactly the layer where independent oversight is most valuable.",
+      },
+      {
+        type: "heading",
+        text: "What substantive TRM governance looks like in practice",
+      },
+      {
+        type: "paragraph",
+        text: "The boards I have seen handle technology risk governance well do four things differently from the standard approach. They schedule a dedicated TRM agenda item -- not combined with cyber or operational risk -- at least twice a year, with the CISO attending to present directly to the board rather than through the CIO. They maintain a technology risk appetite statement that is short enough to be memorised by each board member, specific enough to define a clear escalation trigger, and reviewed annually before the TRM attestation is approved. They track the age and status of all significant technology risk exceptions through a separate risk committee paper, not buried in an annex. And they treat the annual TRM attestation as a checkpoint, not a conclusion -- what changed since last year, what the current material risks are, and what the board is explicitly accepting versus requiring management to remediate.",
+      },
+      {
+        type: "paragraph",
+        text: "The MAS TRM guidelines are not ambiguous about what the board's role is. They are clear that governance of technology risk sits at board level. What is ambiguous is whether most Singapore insurance boards have accepted that responsibility or delegated it to the IT function with a signature. As MAS's supervisory focus on governance quality intensifies, that ambiguity is going to resolve itself in the form of post-incident questions that the board has not prepared answers for.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What do MAS's Technology Risk Management guidelines require of the board of a Singapore insurer?",
+        answer: "The MAS TRM guidelines require the board and senior management to have collective knowledge to understand and manage technology risks including cyber threats; to ensure a CIO and CISO with requisite expertise are appointed; to approve the technology risk management framework; and to ensure technology risk is managed in line with the institution's stated risk appetite. These are board-level obligations, not IT department compliance tasks. MAS Notice 127 adds insurer-specific requirements including board approval of the technology risk management framework and incident reporting obligations for material technology events.",
+      },
+      {
+        question: "How is MAS Notice 127 different from the general TRM guidelines for Singapore insurers?",
+        answer: "The general MAS TRM guidelines apply to all MAS-regulated financial institutions and set the governance and operational standards for technology risk management. MAS Notice 127 is insurer-specific and imposes additional requirements including maintaining a technology risk register, submitting incident reports to MAS for qualifying technology events within defined timeframes, and having the technology risk management framework explicitly approved by the board of directors. For licensed insurers, both the general guidelines and Notice 127 apply concurrently.",
+      },
+      {
+        question: "What should a Singapore insurance board actually do when the CIO presents the annual TRM attestation?",
+        answer: "Before approving the attestation, the board should be able to confirm: what the institution's current technology risk appetite is and whether any exceptions represent a breach; what material technology incidents occurred in the past year and what specifically changed as a result; whether any qualifications or exceptions in the attestation package require explicit board acknowledgement rather than passive approval; and whether the CISO's independent assessment aligns with the CIO's presentation. If the board cannot answer these questions at the meeting, the attestation should not be approved until the information is supplied.",
+      },
+      {
+        question: "How often should technology risk be reported to the board of a Singapore insurer?",
+        answer: "MAS's TRM guidelines require technology risk reporting to the board at 'reasonable frequency' -- the guidelines do not specify a minimum. Best practice for a Singapore insurance board is a dedicated TRM agenda item at least twice per year, with the CISO attending to present directly to the board rather than through the CIO reporting line. Material technology incidents should be escalated to the board on an ad hoc basis rather than waiting for the scheduled reporting cycle. The annual attestation alone is not sufficient as the primary vehicle for board oversight of technology risk.",
+      },
+    ],
+  },
 ];

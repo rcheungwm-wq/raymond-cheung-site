@@ -1147,5 +1147,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ensun.io",
+        "url": "https://ensun.io/search/actuarial-consulting/singapore",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/company/singapore-actuarial-society",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/resources/announcements/press-releases/2025/soa-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "glassdoor.sg",
+        "url": "https://www.glassdoor.sg/Job/singapore-actuary-jobs-SRCH_IL.0,9_IC3235921_KO10,17.htm",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "skillup.sg",
+        "url": "https://www.skillup.sg/careers/actuary",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sso.agc.gov.sg",
+        "url": "https://sso.agc.gov.sg/SL/IA1966-S239-2013",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sg.jobstreet.com",
+        "url": "https://sg.jobstreet.com/actuary-jobs",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "gravitasgroup.com.sg",
+        "url": "https://www.gravitasgroup.com.sg/specialisms/actuarial",
+        "title": ""
+      }
+    ]
   }
 ]

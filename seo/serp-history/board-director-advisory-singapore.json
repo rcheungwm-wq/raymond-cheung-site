@@ -230,5 +230,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "glassdoor.sg",
+        "url": "https://www.glassdoor.sg/Job/singapore-advisory-board-member-jobs-SRCH_IL.0,9_IC3235921_KO10,31.htm",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/jobs/board-of-directors-jobs/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/advisory/corporate-governance-advisory/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sg.jobstreet.com",
+        "url": "https://sg.jobstreet.com/board-member-jobs/in-Singapore",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "singaporelegaladvice.com",
+        "url": "https://singaporelegaladvice.com/law-articles/board-of-advisors-who-role/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "vivos.com.sg",
+        "url": "https://vivos.com.sg/blog/what-are-the-duties-and-responsibilities-of-the-board-of-directors-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "corporateservices.com",
+        "url": "https://www.corporateservices.com/singapore/singapore-company-directors/",
+        "title": ""
+      }
+    ]
   }
 ]

@@ -1170,5 +1170,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/insurtech-asia-appoints-athistha-chitranukroh-advisory-board/58/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "intelligentinsurer.com",
+        "url": "https://www.intelligentinsurer.com/insurance/1m-insurtech-has-asia-in-its-sights-13743",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "fintechnews.sg",
+        "url": "https://fintechnews.sg/28620/insurtech/top-10-insurtech-leaders-in-asia/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "asia.insuretechconnect.com",
+        "url": "https://asia.insuretechconnect.com/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "insurtechinsights.com",
+        "url": "https://insurtechinsights.com/asia/speakers/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "theactuarymagazine.org",
+        "url": "https://www.theactuarymagazine.org/insurtech-in-the-asia-insurance-market/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "asia.insuretechconnect.com",
+        "url": "https://asia.insuretechconnect.com/2024-full-agenda",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "asia.insuretechconnect.com",
+        "url": "https://asia.insuretechconnect.com/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "apacinsurtech.com",
+        "url": "https://www.apacinsurtech.com/",
+        "title": ""
+      }
+    ]
   }
 ]

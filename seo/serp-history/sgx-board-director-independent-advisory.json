@@ -1097,5 +1097,48 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/board-matters-0",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/practice-guidance-2-board-composition-and-guidance",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/-/media/mas/news-and-publications/sgx-practice-guidance-january-2023.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "links.sgx.com",
+        "url": "https://links.sgx.com/1.0.0/corporate-announcements/TIKJ0OARO3MFQCM5/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "investorrelations.sgx.com",
+        "url": "https://investorrelations.sgx.com/board-directors/mr-loh-boon-chye",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/practice-guidance-1-board-roles-and-director-duties",
+        "title": ""
+      }
+    ]
   }
 ]

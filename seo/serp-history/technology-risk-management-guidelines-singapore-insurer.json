@@ -181,5 +181,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "openresearch-repository.anu.edu.au",
+        "url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/fa20beb3-d2df-4d2b-bc12-dab3462dfacd/content",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "konfirmity.com",
+        "url": "https://www.konfirmity.com/framework/mas-trm",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-risk-management-practices--objectives-and-scope",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "cyberarrow.io",
+        "url": "https://www.cyberarrow.io/blog/singapore-mas-technology-risk-management-guidelines/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/asia-pacific-insurance/asia-pacific/singapore/topics/guide-to-insurtech-innovation-and-utilization",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "cpl.thalesgroup.com",
+        "url": "https://cpl.thalesgroup.com/compliance/apac/mas-trm-guidelines-compliance-singapore",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "atlassystems.com",
+        "url": "https://www.atlassystems.com/blog/mas-trm-compliance",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "globalfinregblog.com",
+        "url": "https://www.globalfinregblog.com/2021/02/singapore-mas-revises-technology-risk-management-guidelines/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/sg/en/financial-services/assets/techriskmanagement201307.pdf",
+        "title": ""
+      }
+    ]
   }
 ]
