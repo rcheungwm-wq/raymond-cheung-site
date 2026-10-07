@@ -736,5 +736,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/common/Uploaded files/Resources/GNDI_board_performance_evaluation_guideline_2024.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "aplus.hkicpa.org.hk",
+        "url": "https://aplus.hkicpa.org.hk/tag/board-evaluation/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sidmigration.imiscloud.com",
+        "url": "https://sidmigration.imiscloud.com/images/PDFs/Codes/SGP08.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "aplus.hkicpa.org.hk",
+        "url": "https://aplus.hkicpa.org.hk/?p=16062",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "aplus.hkicpa.org.hk",
+        "url": "https://aplus.hkicpa.org.hk/board-evaluation-a-tool-for-developing-a-high-performing-board/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "nortonrosefulbright.com",
+        "url": "https://nortonrosefulbright.com/en-sg/knowledge/publications/c657a207/board-effectiveness-what-do-you-need-to-do",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "news.smu.edu.sg",
+        "url": "https://news.smu.edu.sg/news/2011/07/13/93-spore-companies-evaluate-their-ceos-periodic-basis-survey",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "www2.deloitte.com",
+        "url": "https://www2.deloitte.com/content/dam/Deloitte/sg/Documents/strategy-risk-and-transactions/sea-srt-electronic-board-effectiveness-evaluation.pdf",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "aon.com",
+        "url": "https://www.aon.com/apac/in-the-press/opinion-pieces/creating-a-dynamic-and-resilient-board.jsp",
+        "title": ""
+      }
+    ]
   }
 ]

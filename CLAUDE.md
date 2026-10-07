@@ -101,8 +101,8 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [x] `actuarial-talent-shortage-singapore-boards` — the actuarial talent shortage is a board risk, not an HR problem (published 2026-10-01; 2026-10-01 SERP output: 0/18 ranked, no "declined" flags, and all five suggested targets were tier-1 keywords already covered by Round 1 posts, so fell back to backlog order after skipping the family-office IC item above. Today's tier-2 rotation included "actuarial talent shortage Singapore", an open gap whose page 1 is entirely job boards and recruiters)
 - [~] `appointed-actuary-succession-planning-singapore` — skipped on 2026-10-03: substantively cannibalises the published `actuarial-talent-shortage-singapore-boards` post (id 60, 2026-10-01), which already covers appointed-actuary succession planning in depth including the named contingency plan, key person risk register, realistic replacement lead times, sponsoring the Fellowship path, and the specific board questions to ask. Do not write a standalone post without a genuinely new angle (e.g. a specific MAS Notice 106 amendment affecting the appointment process).
 - [x] `mas-outsourcing-guidelines-insurer-board-oversight` — what MAS's outsourcing guidelines actually require the board to own, not just procurement (published 2026-10-03, id 62; accompanied by short take id 61 on MAS TPRM guidelines scope expansion; 2026-10-03 SERP output: 0/19 ranked, no "declined" flags, all suggested targets already covered by existing posts, fell back to backlog order)
-- [ ] `technology-risk-management-guidelines-singapore-insurers` — MAS's Technology Risk Management guidelines: what the board signs off on
-- [ ] `data-breach-notification-governance-singapore-insurers` — faster breach notification expectations — is the board actually ready to respond that fast
+- [x] `technology-risk-management-guidelines-singapore-insurers` — MAS's Technology Risk Management guidelines: what the board signs off on (published 2026-10-05, id 66)
+- [x] `data-breach-notification-governance-singapore-insurers` — published 2026-10-07, id 68, "Your Insurer Has One Hour to Tell MAS About a Breach. Is Your Board Ready to Move That Fast?" (anchored on MAS Notice 127 one-hour notification, PDPA 3-day PDPC notification, MAS Circular ID 03/23 concurrent + quarterly consolidated reporting; 2026-10-07 SERP: 0/18 ranked, no declined flags, all suggested targets already covered, fell back to backlog. Short take id 67 on the FSM (Amendment) Bill / D-SIB TLAC powers passed 6 Oct 2026)
 - [ ] `director-remuneration-disclosure-singapore-sgx` — exact director/CEO remuneration disclosure is now mandatory — what to do before the next AGM
 - [ ] `board-diversity-singapore-listed-companies` — board diversity in Singapore beyond the compliance statement
 - [ ] `board-effectiveness-evaluation-singapore` — most Singapore board evaluations are theatre — what an honest one looks like
@@ -118,7 +118,7 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [ ] `esg-greenwashing-litigation-risk-singapore-boards` — greenwashing risk is now a board liability question, not just a marketing one
 - [ ] `operational-resilience-mas-guidelines-insurer-boards` — operational resilience is the MAS guideline boards keep delegating to IT
 
-### Published (62 posts, Sept 2026 onward)
+### Published (68 posts, Sept 2026 onward)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance
@@ -166,6 +166,9 @@ should be re-verified (dates/effective terms can move) before publishing.
 - ✅ Single family office governance Singapore (`single-family-office-governance-singapore`)
 - ✅ MAS prior approval for nominating committee chairs (`mas-nominating-committee-chair-approval-singapore`)
 - ✅ Actuarial talent shortage as a board risk (`actuarial-talent-shortage-singapore-boards`)
+- ✅ MAS TRM guidelines board sign-off (`technology-risk-management-guidelines-singapore-insurers`)
+- ✅ D-SIB TLAC law, read for all boards (`singapore-tlac-law-d-sib-boards-october-2026`)
+- ✅ Data breach notification governance for insurer boards (`data-breach-notification-governance-singapore-insurers`)
 
 ### Backlink actions (one-time, compound over time)
 - [ ] Ask SMU Academy to link raymondcheungwm.com on Raymond's trainer profile

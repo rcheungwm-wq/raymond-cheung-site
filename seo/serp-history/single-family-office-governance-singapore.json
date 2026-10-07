@@ -803,5 +803,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "endowus.com",
+        "url": "https://endowus.com/insights/family-office-singapore-guide",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "hubbis.com",
+        "url": "https://hubbis.com/article/the-family-office-purpose-or-pr-rethinking-governance-oversight-real-value",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "caproasia.com",
+        "url": "https://www.caproasia.com/2025/04/11/singapore-mas-chairman-gan-kim-yong-on-family-office-governance-standards-tax-incentives-fraud-prevention-1-single-family-office-only-managed-own-private-wealth-2-family-to-establish-governance/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "iqeq.com",
+        "url": "https://iqeq.com/wp-content/uploads/2026/03/Family-Office-whitepaper.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "wealthtalks.podbean.com",
+        "url": "https://wealthtalks.podbean.com/e/singapore-family-office-part-1",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "stashaway.sg",
+        "url": "https://www.stashaway.sg/r/guide-to-establish-family-offices-singapore",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "incorp.asia",
+        "url": "https://www.incorp.asia/?p=73687",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rahmatlim.com",
+        "url": "https://www.rahmatlim.com/sg/publication/articles/33283/revised-framework-for-single-family-offices-from-15-june-2026",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "wealthbriefingasia.com",
+        "url": "https://www.wealthbriefingasia.com/article.php?id=197073",
+        "title": ""
+      }
+    ]
   }
 ]

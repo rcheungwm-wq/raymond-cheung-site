@@ -5528,4 +5528,193 @@ export const insights: Insight[] = [
       },
     ],
   },
+  {
+    id: "67",
+    title: "What Singapore's New Loss-Absorption Law Means for Boards Beyond the Big Banks",
+    summary:
+      "Parliament passed the Financial Services and Markets (Amendment) Bill on 6 October 2026, giving MAS the power to set total loss-absorbing capacity requirements for Singapore's domestic systemically important banks. It applies to the D-SIBs only. But every board of a Singapore financial institution should read it as a statement about how MAS now thinks about failure: planned for in advance, funded in advance, and owned by the board.",
+    category: "Regulation",
+    readingTime: "3 min read",
+    date: "October 2026",
+    status: "published",
+    slug: "singapore-tlac-law-d-sib-boards-october-2026",
+    keywords: [
+      "MAS regulatory advisor Singapore",
+      "Financial Services and Markets Amendment Bill 2026",
+      "TLAC Singapore D-SIB",
+      "recovery and resolution planning Singapore boards",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "When I was a statutory CRO, the hardest board paper I ever wrote was not about a loss. It was about what we would do if the company could no longer survive one. Directors are comfortable discussing risk. They are far less comfortable discussing failure, and the recovery plan is usually the document that gets the least genuine board time of anything in the annual cycle.",
+      },
+      {
+        type: "paragraph",
+        text: "That is why I paid attention when Parliament passed the Financial Services and Markets (Amendment) Bill on 6 October. The headline is narrow: MAS can now set total loss-absorbing capacity (TLAC) requirements for Singapore's domestic systemically important banks, require them to hold additional loss-absorbing instruments for resolution, and require public disclosure of TLAC levels, composition and creditor ranking. Non-compliance carries fines of up to S$250,000, plus S$25,000 per day for continuing offences. MAS was careful to say the D-SIBs remain well capitalised and well managed. This is preparation, not alarm.",
+      },
+      {
+        type: "heading",
+        text: "Why boards outside the D-SIBs should care",
+      },
+      {
+        type: "paragraph",
+        text: "If you sit on the board of an insurer, a smaller bank or a payments firm, it is tempting to file this under 'not us'. I would not. The direction of travel is unmistakable. MAS wants failure to be orderly, which means the resources to absorb losses must exist before the crisis, the hierarchy of who takes the loss must be clear to investors in advance, and the board must have owned those choices while times were good.",
+      },
+      {
+        type: "pullquote",
+        text: "A recovery plan the board has never genuinely debated is not a plan. It is a filing.",
+      },
+      {
+        type: "paragraph",
+        text: "Insurers already sit inside MAS's resolution framework, and global standard setters have been pushing recovery planning for insurers for years. The same logic that produced TLAC for banks, that the capital structure must be designed for the bad day and not just the reporting date, applies directly to how an insurance board thinks about capital buffers, contingent funding and the credibility of its management actions under stress.",
+      },
+      {
+        type: "heading",
+        text: "Three questions for your next board meeting",
+      },
+      {
+        type: "list",
+        items: [
+          "When did the board last walk through the recovery plan as a live scenario rather than approve it as a document?",
+          "If we needed to raise capital or cut risk within 90 days, which actions in our plan are genuinely executable, and which assume markets that would be closed?",
+          "Do our investors and creditors understand where they rank if things go wrong, and would we be comfortable disclosing it?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The TLAC law will matter most to three banks. The thinking behind it should matter to every board MAS supervises.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does Singapore's Financial Services and Markets (Amendment) Bill 2026 do?",
+        answer: "Passed on 6 October 2026, the amendments give MAS the power to set total loss-absorbing capacity (TLAC) requirements for domestic systemically important banks, require them to hold additional loss-absorbing resources for resolution, and mandate public disclosure of TLAC levels and composition. They also strengthen MAS's supervisory powers over proliferation financing risk. The changes take effect when gazetted.",
+      },
+      {
+        question: "Do the new TLAC requirements apply to Singapore insurers?",
+        answer: "No. The TLAC powers apply to domestic systemically important banks only. However, insurers already fall within MAS's broader recovery and resolution framework, and the same principle of pre-funding loss absorption and planning for orderly failure should shape how insurance boards review their recovery plans and capital buffers.",
+      },
+      {
+        question: "What should a Singapore financial institution board do in response to the TLAC law?",
+        answer: "Use it as a prompt to test the recovery plan rather than simply reapprove it. Walk through a severe scenario as a board, challenge whether the planned management actions are executable in stressed markets, and confirm that creditor and investor ranking is clearly understood. Boards that treat recovery planning as a live governance exercise will be better placed as MAS's expectations continue to rise.",
+      },
+    ],
+  },
+  {
+    id: "68",
+    title: "Your Insurer Has One Hour to Tell MAS About a Breach. Is Your Board Ready to Move That Fast?",
+    summary:
+      "Singapore insurers face some of the tightest incident notification timelines in the region: one hour to notify MAS of a relevant incident under Notice 127, concurrent MAS notification of any breach reported to the PDPC, and three days to notify the PDPC once a breach is assessed as notifiable. Most boards have approved a breach response plan. Very few have tested whether the board itself can make decisions at that speed. This is what data breach notification governance actually requires of a Singapore insurance board.",
+    category: "Technology Risk",
+    readingTime: "7 min read",
+    date: "October 2026",
+    status: "published",
+    slug: "data-breach-notification-governance-singapore-insurers",
+    keywords: [
+      "data breach notification insurer Singapore",
+      "MAS Circular ID 03/23 data breach",
+      "MAS Notice 127 incident notification",
+      "PDPA breach notification board Singapore",
+      "cyber risk governance Singapore boards",
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "The call came at ten past eleven on a Friday night. A vendor had found customer records sitting on an unsecured server, and nobody yet knew how many policyholders were affected or for how long the data had been exposed. As the statutory CRO, I knew the regulatory clock had already started. What I did not know, and what I spent the next hour trying to find out, was who on the board needed to be told, who had authority to approve the first notification, and whether the chair was even reachable. We met the deadline. But we met it because two people happened to answer their phones, not because the governance was designed to work.",
+      },
+      {
+        type: "paragraph",
+        text: "I tell that story to boards because it captures the gap I see most often. Singapore insurers have invested heavily in incident response playbooks at the management level. Very few have designed the board's part of the response with the same care. And the board's part matters more than most directors assume, because the first decisions in a data breach are not technical. They are judgement calls about disclosure, customers, reputation and regulators, and they have to be made in hours, not at the next scheduled meeting.",
+      },
+      {
+        type: "heading",
+        text: "What the notification rules actually require",
+      },
+      {
+        type: "paragraph",
+        text: "Three regimes overlap for a licensed insurer in Singapore, and boards should understand how they fit together rather than leaving it to compliance to untangle on the night.",
+      },
+      {
+        type: "list",
+        items: [
+          "MAS Notice 127: a relevant technology incident must be notified to MAS as soon as possible, and no later than one hour after discovery, followed by a root cause and impact analysis report.",
+          "The PDPA: once an insurer has reason to believe a breach has occurred, it must assess whether the breach is notifiable, meaning it is likely to cause significant harm or affects 500 or more individuals. If it is, the PDPC must be notified within three calendar days of that determination, and affected individuals must generally be told as well.",
+          "MAS Circular ID 03/23 (February 2023): MAS must be notified concurrently of any breach reported to the PDPC. Breaches that fall outside both Notice 127 and the PDPC thresholds still have to be reported to MAS on a consolidated basis within three weeks of each quarter end, with root cause, control deficiencies, customer impact and remediation for each one.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Read together, the message from MAS is clear. There is no category of data breach at a licensed insurer that the regulator does not eventually hear about. The only question is how quickly, and whether the story the insurer tells is coherent and honest from the first hour.",
+      },
+      {
+        type: "pullquote",
+        text: "The quarterly breach return tells MAS more about your control environment than your annual attestation ever will. The board should be reading it before MAS does.",
+      },
+      {
+        type: "heading",
+        text: "Where Singapore insurance boards are exposed",
+      },
+      {
+        type: "paragraph",
+        text: "The first exposure is decision rights. Most breach response plans name a management incident team but are vague about which decisions need board involvement and how fast. Should the chair be informed before or after the MAS notification? Who decides whether to notify customers before the forensic picture is complete? Who approves a public statement? If these questions are answered for the first time during a live incident, the answers will be improvised, and improvised answers are what regulators and journalists later pick apart.",
+      },
+      {
+        type: "paragraph",
+        text: "The second exposure is the consolidated quarterly return. Because the smaller breaches do not trigger immediate notification, they rarely reach the board. Yet MAS sees every one of them, with the root causes and control deficiencies spelled out. I have sat in board risk committees where directors had never seen this return. That means the regulator had a more complete view of the insurer's recurring control weaknesses than the board did. A pattern of small breaches from the same vendor or the same process is exactly the early warning a board exists to catch.",
+      },
+      {
+        type: "paragraph",
+        text: "The third exposure is third parties. A large share of the breaches I have seen at insurers originated with an outsourced provider, an agency force, or a distribution partner. The notification obligation stays with the insurer regardless of where the breach occurred. If your outsourcing contracts do not require the vendor to tell you within a timeframe that leaves room for your own one-hour clock, the board has accepted a risk it probably does not know about.",
+      },
+      {
+        type: "heading",
+        text: "What board-ready breach governance looks like",
+      },
+      {
+        type: "paragraph",
+        text: "The boards I have seen handle this well have done a few unglamorous things in advance.",
+      },
+      {
+        type: "list",
+        items: [
+          "A one-page escalation matrix, approved by the board, that states which incidents the chair and the risk committee chair are told about, within what time, and which decisions are reserved for them.",
+          "A named alternate for every board role in the matrix, so that a breach on a public holiday weekend does not depend on one person's phone.",
+          "The quarterly ID 03/23 return tabled at the risk committee, with management asked to explain any recurring root cause or vendor.",
+          "Vendor notification clauses reviewed against the insurer's own one-hour obligation, with a list of material vendors that do not yet meet it.",
+          "At least one tabletop exercise a year in which directors, not just management, have to make the disclosure and customer communication calls under time pressure.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this is expensive. All of it is easier to do on a quiet Tuesday than at eleven on a Friday night.",
+      },
+      {
+        type: "heading",
+        text: "The question to ask management this quarter",
+      },
+      {
+        type: "paragraph",
+        text: "If I could put one question on every Singapore insurance board's agenda this quarter, it would be this: if a notifiable breach were discovered tonight, who would call whom, in what order, and which decisions would be waiting for the board by the morning? If management cannot answer that in two minutes, with names, the plan exists on paper but not in practice. MAS's notification timelines are designed to test whether an insurer is in control in the first hours of a crisis. The board should know the answer before the regulator asks.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How quickly must a Singapore insurer notify MAS of a data breach?",
+        answer: "It depends on the breach. A relevant technology incident under MAS Notice 127 must be notified within one hour of discovery. Any breach notified to the PDPC must be notified to MAS concurrently under Circular ID 03/23. Breaches that meet neither threshold must still be reported to MAS on a consolidated basis within three weeks after each quarter end, with root cause and remediation details.",
+      },
+      {
+        question: "When does a data breach have to be reported to the PDPC in Singapore?",
+        answer: "Under the PDPA, a breach is notifiable if it is likely to result in significant harm to affected individuals or affects 500 or more individuals. Once an organisation determines that a breach is notifiable, it must notify the PDPC within three calendar days and, in most cases, notify the affected individuals as well. For licensed insurers, MAS must be notified at the same time.",
+      },
+      {
+        question: "What is the board's role in data breach notification at a Singapore insurer?",
+        answer: "The board does not file the notifications, but it owns the governance that makes timely, accurate notification possible. That means approving a clear escalation matrix with defined decision rights, ensuring outsourcing contracts let the insurer meet its own deadlines, reviewing the quarterly breach return submitted to MAS for recurring weaknesses, and taking part in tabletop exercises so directors can make disclosure decisions under time pressure.",
+      },
+      {
+        question: "Does a Singapore insurer have to notify MAS if a breach happens at an outsourced vendor?",
+        answer: "Yes. The notification obligation stays with the licensed insurer regardless of whether the breach occurred in-house or at a service provider. MAS Circular ID 03/23 also references breaches meeting the criteria in MAS's Guidelines on Outsourcing. Boards should check that material vendors are contractually required to notify the insurer quickly enough for it to meet the one-hour MAS deadline.",
+      },
+    ],
+  },
 ];

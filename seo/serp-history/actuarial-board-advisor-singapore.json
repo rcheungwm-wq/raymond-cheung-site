@@ -1202,5 +1202,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://insurancebusinessmag.com/asia/news/breaking-news/scor-reinsurance-apac-adds-hitesh-shah-to-board-235608.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "asiainsurancereview.com",
+        "url": "https://www.asiainsurancereview.com/News/View-NewsLetter-Article/id/95545/Type/eDaily",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/news/speeches/2016/the-actuarial-profession-constructive-partners-and-valuable-advisors",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "scor.com",
+        "url": "https://scor.com/en/news/scor-reinsurance-asia-pacific-appoints-hitesh-shah-independent-non-executive-director",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "lk.milliman.com",
+        "url": "https://lk.milliman.com/-/media/milliman/pdfs/bio-pdfs/markwhatley.ashx",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "insurance.hsbc.com.sg",
+        "url": "https://www.insurance.hsbc.com.sg/content/dam/hsbc/insn/documents/general/2025-corporate-governance-report.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "opensanctions.org",
+        "url": "https://www.opensanctions.org/entities/sg-gov-3709789f64d0e35f74ea22f751a7446de6b52f21/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "soa.org",
+        "url": "https://www.soa.org/programs/elections/2026/candidate-tan/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/contacts/n/judy-ng.html",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "my.linkedin.com",
+        "url": "https://my.linkedin.com/in/stanleynwf",
+        "title": ""
+      }
+    ]
   }
 ]

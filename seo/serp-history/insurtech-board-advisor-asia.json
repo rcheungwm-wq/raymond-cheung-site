@@ -1231,5 +1231,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tilleke.com",
+        "url": "https://tilleke.com/?p=37137",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/insurtech-asia-appoints-athistha-chitranukroh-advisory-board/?page=12",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/insurtech-asia-appoints-athistha-chitranukroh-advisory-board/2",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "fintech.global",
+        "url": "https://fintech.global/2024/01/10/insurtech-kalepa-adds-japanese-industry-leader-to-advisory-board/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/athistha-nop-chitranukroh-speak-asia-insurtech-summit-2018/16/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "reinasia.com",
+        "url": "https://reinasia.com/bolttech-forms-eight-member-advisory-board-to-support-next-growth-phase/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "fintech.global",
+        "url": "https://fintech.global/tag/advisory-board/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "fintechnews.sg",
+        "url": "https://fintechnews.sg/50355/insurtech/insurtech-firm-360f-appoints-former-temenos-apac-md/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/asian-legal-business-athistha-chitranukroh-among-asias-top-40-lawyers-under-40/37/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "fintechnews.sg",
+        "url": "https://fintechnews.sg/69965/insurtech/insurtech-firm-covergo-appoints-adrit-raha-as-managing-director-for-apac/",
+        "title": ""
+      }
+    ]
   }
 ]

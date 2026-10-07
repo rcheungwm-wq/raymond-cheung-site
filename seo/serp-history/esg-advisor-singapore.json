@@ -371,5 +371,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "anthesisgroup.com",
+        "url": "https://www.anthesisgroup.com/locations/singapore/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "eco-business.com",
+        "url": "https://eco-business.com/news/hong-kong-sustainability-consultancy-the-purpose-business-opens-singapore-office",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "anthesisgroup.com",
+        "url": "https://anthesisgroup.com/?p=1219",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "michaelpage.com.sg",
+        "url": "https://www.michaelpage.com.sg/job-detail/manager-esg-advisory-contract/ref/jn-052026-7014852",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/id/news/hong-kong-sustainability-consultancy-the-purpose-business-opens-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/zh-hans/news/hong-kong-sustainability-consultancy-the-purpose-business-opens-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "edgeprop.sg",
+        "url": "https://edgeprop.sg/property-news/knight-frank-appoints-jackie-cheung-director-esg-apac-and-singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/ms/news/hong-kong-sustainability-consultancy-the-purpose-business-opens-singapore-office/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "euromoney.com",
+        "url": "https://www.euromoney.com/article/2eefqr09y7xb46yrfkkjk/awards/private-banking-awards/asias-best-for-sustainability-2025-bank-of-singapore",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "intuitconsultancy.com",
+        "url": "https://intuitconsultancy.com/?p=68016",
+        "title": ""
+      }
+    ]
   }
 ]

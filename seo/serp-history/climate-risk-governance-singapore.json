@@ -316,5 +316,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "hub.climate-governance.org",
+        "url": "https://hub.climate-governance.org/Primer/Geography/sg",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "esgtoday.com",
+        "url": "https://www.esgtoday.com/singapore-sets-climate-risk-management-expectations-for-banks-investors-insurers/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "marketsandmarkets.com",
+        "url": "https://www.marketsandmarkets.com/Market-Reports/geography/climate-risk-management-market/singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "senecaesg.com",
+        "url": "https://senecaesg.com/zh/insights/singapore-mandates-climate-risk-disclosure-to-boost-private-climate-finance",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "marketsandmarkets.com",
+        "url": "https://www.marketsandmarkets.com/Market-Reports/geography/climate-risk-management-market/Singapore",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "esgtoday.com",
+        "url": "https://www.esgtoday.com/?p=22903",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "ice.it",
+        "url": "https://www.ice.it/it/news/notizie-dal-mondo/300375",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sid.org.sg",
+        "url": "https://sid.org.sg/Web/CGS/CGSNews/Climate_Governance_Singapore_launches_with_a_vision.aspx",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sid.org.sg",
+        "url": "https://sid.org.sg/Web/CGS/CGSNews/Climate_Governance_Singapore_to_help_bring_climate_change_awareness.aspx",
+        "title": ""
+      }
+    ]
   }
 ]

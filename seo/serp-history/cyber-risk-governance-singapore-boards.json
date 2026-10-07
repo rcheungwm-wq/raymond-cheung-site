@@ -718,5 +718,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "rsm.global",
+        "url": "https://www.rsm.global/singapore/node/1422",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "rajahtannasia.com",
+        "url": "https://www.rajahtannasia.com/viewpoints/contribution-to-the-business-times-why-boards-need-a-playbook-to-respond-to-cyber-incidents/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "itel.com.sg",
+        "url": "https://itel.com.sg/resources/blog/the-business-side-of-cybersecurity-what-every-corporate-leader-should-know-before-their-next-security-hire/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "proofpoint.com",
+        "url": "https://www.proofpoint.com/au/newsroom/press-releases/proofpoints-second-annual-board-perspective-report-reveals-78-Singapore",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sidmigration.imiscloud.com",
+        "url": "https://sidmigration.imiscloud.com/images/PDFs/Codes/SGP16.pdf",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "rajahtannasia.com",
+        "url": "https://www.rajahtannasia.com/?p=190176",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "dpexnetwork.org",
+        "url": "https://www.dpexnetwork.org/news/view/8TK8sj8Qs9UL3irsH6aNog",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "server01.forsythpanthers.org",
+        "url": "https://server01.forsythpanthers.org/singapore-paradox-technical-superiority-fails-boardroom-threshold",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "securitybrief.asia",
+        "url": "https://securitybrief.asia/story/singapore-and-cyber-attacks-boards-and-cisos-are-not-aligned",
+        "title": ""
+      }
+    ]
   }
 ]

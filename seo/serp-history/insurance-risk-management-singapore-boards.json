@@ -297,5 +297,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-risk-management-practices--board-and-senior-management",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "starr.com",
+        "url": "https://starr.com/-/media/Downloadable-Content/SIS-Singapaore.docx",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "bis.org",
+        "url": "https://www.bis.org/review/r101207e.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/news/speeches/2011/address-by-ms-luz-foo-edi-at-gia-agm-luncheon",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/publication/articles/27247/mas-issues-revised-guidelines-on-risk-management-practices-for-insurance-business",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "swissre.com",
+        "url": "https://www.swissre.com/dam/jcr:4934c72e-d8c6-40c5-b488-f6b000616cb5/swiss-re-asia-pte-ltd-public-disclosures-2025.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "starr.com",
+        "url": "https://starr.com/Public-Disclosure-Singapore",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "starrcompanies.com",
+        "url": "https://starrcompanies.com/Public-Disclosure-Singapore",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/vn/publication/articles/27247/mas-issues-revised-guidelines-on-risk-management-practices-for-insurance-business",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "rahmatlim.com",
+        "url": "https://www.rahmatlim.com/sg/publication/articles/27247/mas-issues-revised-guidelines-on-risk-management-practices-for-insurance-business",
+        "title": ""
+      }
+    ]
   }
 ]

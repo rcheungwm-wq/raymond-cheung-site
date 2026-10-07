@@ -499,5 +499,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "3ecpa.com.sg",
+        "url": "https://www.3ecpa.com.sg/?p=88205",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "3ecpa.com.sg",
+        "url": "https://www.3ecpa.com.sg/resources/industry-guide/starting-a-corporate-governance-advisory-business-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "prezlo.onrender.com",
+        "url": "https://prezlo.onrender.com/verified/shannentan94093",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/partners/5096/christine-chan",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "slideshare.net",
+        "url": "https://www.slideshare.net/dhchia",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/vn/partners/5096/christine-chan",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/partners/5096/christine-chan",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rahmatlim.com",
+        "url": "https://www.rahmatlim.com/my/partners/5096/christine-chan",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/partners/5101/yap-lune-teng",
+        "title": ""
+      }
+    ]
   }
 ]

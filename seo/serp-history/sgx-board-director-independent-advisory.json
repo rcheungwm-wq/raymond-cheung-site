@@ -1140,5 +1140,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "cftc.gov",
+        "url": "https://www.cftc.gov/ucm/groups/public/@otherif/documents/ifdocs/eice27c-boardandcommittee.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "allenandgledhill.com",
+        "url": "https://www.allenandgledhill.com/sg/publication/articles/24908/sgx-regco-publishes-guidelines-on-independent-financial-advisers-setting-out-expectations-of-directors-and-ifas",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "rahmatlim.com",
+        "url": "https://www.rahmatlim.com/publication/articles/24908/sgx-regco-publishes-guidelines-on-independent-financial-advisers-setting-out-expectations-of-directors-and-ifas",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/node/9282",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "fow.com",
+        "url": "https://www.fow.com/insights/sgx-appoints-dr-sung-cheng-chih-as-non-executive-and-independent-chairman",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "mondovisione.com",
+        "url": "https://mondovisione.com/news/sgx-proposes-board-changes-2013820/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "mondovisione.com",
+        "url": "https://mondovisione.com/media-and-resources/news/sgx-proposes-board-changes-2013820/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "investorrelations.sgx.com",
+        "url": "https://investorrelations.sgx.com/static-files/e1915dfe-98ea-4d00-8a51-40edcc781e84",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "alfi.dev.theedgesingapore.com",
+        "url": "https://alfi.dev.theedgesingapore.com/capital/new-appointments/boustead-singapore-appoints-sgx-listings-and-advisory-committee-member-mak",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "testing.dev.theedgesingapore.com",
+        "url": "https://testing.dev.theedgesingapore.com/capital/new-appointments/boustead-singapore-appoints-sgx-listings-and-advisory-committee-member-mak",
+        "title": ""
+      }
+    ]
   }
 ]

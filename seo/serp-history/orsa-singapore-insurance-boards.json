@@ -1141,5 +1141,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://insurancebusinessmag.com/asia/news/breaking-news/singapore-insurers-called-to-refine-risk-assessment-reports-73922.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/regional-news/singapore-insurers-called-to-refine-risk-assessment-reports-73922.aspx",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "web.actuaries.ie",
+        "url": "https://web.actuaries.ie/sites/default/files/event/2014/01/140225_orsa_-_an_international_development.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/the-solvency-ii-handbook-practical-approaches-to-implementation/5621721/orsa-a-forward-looking-approach-to-risk-and-capital-management",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "risk.net",
+        "url": "https://risk.net/node/5621721",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/ja/node/5621721",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "edge.sitecorecloud.io",
+        "url": "https://edge.sitecorecloud.io/millimaninc5660-milliman6442-prod27d5-0001/media/Milliman/importedfiles/uploadedFiles/insight/Periodicals/asia-erm/asia-erm-newsletter-02-18-14.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "milliman.com",
+        "url": "https://milliman.com/-/media/milliman/importedfiles/uploadedfiles/insight/2013/orsa_international-requirement.ashx",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "report.ndc.gov.tw",
+        "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10304490/001",
+        "title": ""
+      }
+    ]
   }
 ]

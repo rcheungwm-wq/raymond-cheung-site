@@ -724,5 +724,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mof.gov.sg",
+        "url": "https://www.mof.gov.sg/news-resources/newsroom/ceo-succession-at-temasek-holdings/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "news.smu.edu.sg",
+        "url": "https://news.smu.edu.sg/sites/news.smu.edu.sg/files/newsroom-pdf/Bloomberg_20150420_1.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sid.org.sg",
+        "url": "https://sid.org.sg/common/Uploaded%20files/bulletin/forNewsletter/nov_navigating.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "heidrick.com",
+        "url": "https://www.heidrick.com/en/insights/boards-governance/board-monitor-singapore-2024_explore-the-latest-data-and-trends",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "mof.gov.sg",
+        "url": "https://www.mof.gov.sg/news-resources/newsroom/temasek-holdings-ceo-replacement-/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "news.smu.edu.sg",
+        "url": "https://news.smu.edu.sg/sites/news.smu.edu.sg/files/newsroom-pdf/cna_20130723_1.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "boustead.sg",
+        "url": "https://boustead.sg/sites/boustead.sg/files/2020-05/2003-07-08%20Error%20in%20Report%20by%20Channel%20News%20Asia.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "spencerstuart.com",
+        "url": "https://spencerstuart.com/research-and-insight/the-governance-challenge-compliance-versus-excellence-in-singapore",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ink.library.smu.edu.sg",
+        "url": "https://ink.library.smu.edu.sg/pers/406",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "getonboardaustralia.com.au",
+        "url": "https://getonboardaustralia.com.au/tag/ceo-succession-planning",
+        "title": ""
+      }
+    ]
   }
 ]
