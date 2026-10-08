@@ -116,16 +116,9 @@ export default function HeroAuthoritySection() {
               style={{
                 objectFit: "cover",
                 objectPosition: "50% 8%",
-                filter: "grayscale(100%) sepia(25%) contrast(1.04) brightness(1.05)",
+                filter: "none",
               }}
             />
-            {/* Champagne tint to seat the portrait in the palette */}
-            <div aria-hidden="true" style={{
-              position: "absolute", inset: 0,
-              backgroundColor: "var(--gold)",
-              mixBlendMode: "soft-light",
-              opacity: 0.22,
-            }} />
           </div>
         </div>
       </div>
