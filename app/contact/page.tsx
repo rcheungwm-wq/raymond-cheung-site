@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import type { Metadata } from "next";
@@ -429,8 +429,8 @@ export default function ContactPage() {
                   >
                     <option value="">Select a timeframe</option>
                     <option value="immediate">Immediately</option>
-                    <option value="1-3months">Within 1–3 months</option>
-                    <option value="3-6months">Within 3–6 months</option>
+                    <option value="1-3months">Within 1-3 months</option>
+                    <option value="3-6months">Within 3-6 months</option>
                     <option value="6months+">6 months or more</option>
                     <option value="exploratory">Exploratory, no fixed timeline</option>
                   </select>

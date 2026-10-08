@@ -33,18 +33,18 @@ export const programmes: Programme[] = [
     audience: "Insurance executives, risk officers, board members",
     hostOrganisation: "CER Consultancy",
     description:
-      "I designed this programme because I kept seeing the same gap — organisations with strong climate intentions and weak implementation. We work through regulatory expectations, scenario analysis and a structured roadmap so you leave with concrete actions, not just a framework.",
+      "I designed this programme because I kept seeing the same gap, organisations with strong climate intentions and weak implementation. We work through regulatory expectations, scenario analysis and a structured roadmap so you leave with concrete actions, not just a framework.",
     categories: ["Climate", "Insurance", "ESG"],
   },
   {
     id: "rbc-singapore-insurers",
     title: "Risk-Based Capital for Singapore Insurers",
-    subtitle: "Understanding capital not just as a number — but as a strategic position.",
+    subtitle: "Understanding capital not just as a number, but as a strategic position.",
     status: "enquire",
     deliveryMode: "In-person",
     audience: "Actuarial teams, CFOs, risk officers, senior management",
     description:
-      "Capital decisions shaped everything I did as CRO. This programme gives actuarial and finance teams the depth to understand Singapore's RBC framework — and helps them connect those technical requirements to the commercial and strategic choices the organisation is actually making.",
+      "Capital decisions shaped everything I did as CRO. This programme gives actuarial and finance teams the depth to understand Singapore's RBC framework, and helps them connect those technical requirements to the commercial and strategic choices the organisation is actually making.",
     categories: ["Insurance", "Risk"],
   },
   {
@@ -66,7 +66,7 @@ export const programmes: Programme[] = [
     deliveryMode: "In-person · Virtual",
     audience: "Senior risk professionals, board members, C-suite executives",
     description:
-      "This programme is for leaders who need to own enterprise risk management — not just sit inside it. We cover risk appetite in practice, governance structures, what a good board risk report actually looks like, and how to build a risk culture that changes how decisions get made.",
+      "This programme is for leaders who need to own enterprise risk management, not just sit inside it. We cover risk appetite in practice, governance structures, what a good board risk report actually looks like, and how to build a risk culture that changes how decisions get made.",
     categories: ["Risk", "Governance"],
   },
 ];

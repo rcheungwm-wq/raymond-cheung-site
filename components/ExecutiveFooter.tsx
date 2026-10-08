@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
@@ -13,7 +13,7 @@ export default function ExecutiveFooter() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "3rem", paddingBottom: "3rem", borderBottom: "1px solid rgba(201,169,97,0.1)" }}>
           {/* Brand */}
           <div>
-            <Link href="/" style={{ textDecoration: "none" }} aria-label="Raymond Cheung – Home">
+            <Link href="/" style={{ textDecoration: "none" }} aria-label="Raymond Cheung, Home">
               <p style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 800, fontSize: "1.05rem", letterSpacing: "0.16em", color: "#F5F0E8", textTransform: "uppercase", marginBottom: "0.25rem" }}>
                 Raymond Cheung
               </p>
