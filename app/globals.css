@@ -7,35 +7,36 @@
        Private-bank / heritage-institution register.
        Legacy token names retained so components inherit without rewrites. */
 
-    /* Surfaces — champagne ladder, light → deep */
-    --warm-ivory: #E8DCC0;          /* page canvas — champagne */
-    --soft-mist: #F0E7D2;           /* alternating band — lighter */
-    --midnight-navy: #0A101F;        /* feature band — deep navy */
-    --executive-navy: #0F1E38;      /* gradient partner — navy */
-    --panel: #F4EDDC;               /* raised card — parchment */
-    --panel-hi: #FBF6EA;            /* hover / active card */
+    /* Surfaces */
+    --warm-ivory: #F6F3EC;          /* page canvas — warm ivory */
+    --soft-mist: #EEF2F4;           /* alternating band — pale blue-grey */
+    --midnight-navy: #0B1320;       /* feature band — deep midnight navy */
+    --executive-navy: #152238;      /* gradient partner / cards on dark */
+    --panel: #F6F3EC;               /* raised card — warm ivory */
+    --panel-hi: #FFFFFF;            /* hover / active card */
 
-    /* Ink — near-black warm */
-    --ink: #1A1712;                 /* primary text */
-    --ink-soft: #3E362A;            /* secondary */
-    --graphite: #5A5044;            /* body / muted (text-only token) */
-    --ink-faint: #857A66;           /* labels, meta */
+    /* Ink */
+    --ink: #17212B;                 /* primary text on light */
+    --ink-soft: #3A4550;            /* secondary */
+    --graphite: #65717D;            /* body / muted */
+    --ink-faint: #8A9399;           /* labels, meta */
 
-    /* Accent — antique gold. Deeper than button gold so it reads on champagne. */
-    --gold: #9A7B34;
-    --gold-dim: #7A6028;
-    --gold-bright: #B8933F;
-    --strategic-teal: #9A7B34;      /* legacy alias → gold */
-    --deep-teal: #7A6028;           /* legacy alias → gold hover */
+    /* Accents */
+    --gold: #C7A56A;                /* champagne gold — buttons, rules, ornament */
+    --gold-dim: #A8864F;            /* hover / deeper gold */
+    --gold-bright: #D9BC8A;         /* light highlight gold */
+    --strategic-teal: #496A7A;      /* slate blue-grey — risk / institutional UI */
+    --deep-teal: #354F5C;           /* darker slate for hover */
+    --sage: #718879;                /* muted sage — ESG areas only */
 
     --white: #ffffff;
 
     /* Hairlines & surfaces */
-    --rule: rgba(154, 123, 52, 0.38);
-    --rule-soft: rgba(26, 23, 18, 0.13);
-    --glass: #F4EDDC;               /* flat now — no blur */
-    --glass-strong: #FBF6EA;
-    --glass-border: rgba(154, 123, 52, 0.28);
+    --rule: rgba(199, 165, 106, 0.40);
+    --rule-soft: rgba(23, 33, 43, 0.12);
+    --glass: #F6F3EC;
+    --glass-strong: #FFFFFF;
+    --glass-border: rgba(199, 165, 106, 0.25);
 
     /* Layered, soft — depth without heaviness. */
     --sh-glass: 0 1px 3px rgba(26, 23, 18, 0.04), 0 6px 20px rgba(26, 23, 18, 0.06);
@@ -92,7 +93,7 @@
     border-radius: 0;
   }
 
-  ::selection { background: rgba(201, 169, 97, 0.28); color: var(--ink); }
+  ::selection { background: rgba(199, 165, 106, 0.28); color: var(--ink); }
 
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
