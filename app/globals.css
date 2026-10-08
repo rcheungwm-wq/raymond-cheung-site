@@ -25,9 +25,8 @@
     --gold: #C7A56A;                /* champagne gold — buttons, rules, ornament */
     --gold-dim: #A8864F;            /* hover / deeper gold */
     --gold-bright: #D9BC8A;         /* light highlight gold */
-    --strategic-teal: #496A7A;      /* slate blue-grey — risk / institutional UI */
-    --deep-teal: #354F5C;           /* darker slate for hover */
-    --sage: #718879;                /* muted sage — ESG areas only */
+    --strategic-teal: #C7A56A;      /* → champagne gold */
+    --deep-teal: #A8864F;           /* → gold hover */
 
     --white: #ffffff;
 

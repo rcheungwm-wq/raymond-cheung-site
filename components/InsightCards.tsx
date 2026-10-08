@@ -3,14 +3,14 @@ import { Clock, ArrowRight } from "lucide-react";
 import { insights } from "@/data/insights";
 
 const categoryColors: Record<string, string> = {
-  "Climate Risk": "var(--deep-teal)",
+  "Climate Risk": "var(--midnight-navy)",
   "Enterprise Risk": "var(--midnight-navy)",
   "Insurance Innovation": "var(--executive-navy)",
-  "Technology Risk": "var(--graphite)",
+  "Technology Risk": "var(--executive-navy)",
   "Insurance Capital": "var(--midnight-navy)",
-  ESG: "var(--deep-teal)",
+  ESG: "var(--midnight-navy)",
   Governance: "var(--executive-navy)",
-  Regulation: "var(--graphite)",
+  Regulation: "var(--executive-navy)",
 };
 
 const FEATURED_SLUGS = [
