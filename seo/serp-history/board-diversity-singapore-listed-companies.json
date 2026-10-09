@@ -175,5 +175,42 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ntu.edu.sg",
+        "url": "https://ntu.edu.sg/business/research/nbs-knowledge-lab/nbs-research-blog/singapore-board-diversity-review-2024",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/common/Uploaded-files/Resources/2025BoardDiversityIndex.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "britcham.org.sg",
+        "url": "https://www.britcham.org.sg/news/singapores-push-diversity-boardrooms-expands-beyond-gender",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "hcamag.com",
+        "url": "https://www.hcamag.com/asia/news/general/singapore-firms-slow-to-enforce-board-diversity/151672",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "egonzehnder.com",
+        "url": "https://www.egonzehnder.com/beyond-compliance-toward-conviction",
+        "title": ""
+      }
+    ]
   }
 ]

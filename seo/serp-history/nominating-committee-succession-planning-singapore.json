@@ -114,5 +114,36 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "investorrelations.sgx.com",
+        "url": "https://investorrelations.sgx.com/static-files/9bbcc3fe-8ccb-4ecd-9e19-7d1b10226521",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "singapore.clubs.harvard.edu",
+        "url": "https://singapore.clubs.harvard.edu/article.html?aid=220",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "cf.org.sg",
+        "url": "https://cf.org.sg/wp-content/uploads/2024/03/TOR-for-Nominations-Committee.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ocbc.com",
+        "url": "https://www.ocbc.com/group/about-us/our-leadership/board-committees.page",
+        "title": ""
+      }
+    ]
   }
 ]

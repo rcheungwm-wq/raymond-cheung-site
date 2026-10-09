@@ -864,5 +864,42 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "endowus.com",
+        "url": "https://endowus.com/insights/family-office-singapore-guide",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "hubbis.com",
+        "url": "https://hubbis.com/article/the-family-office-purpose-or-pr-rethinking-governance-oversight-real-value",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "caproasia.com",
+        "url": "https://www.caproasia.com/2025/04/11/singapore-mas-chairman-gan-kim-yong-on-family-office-governance-standards/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "rahmatlim.com",
+        "url": "https://www.rahmatlim.com/sg/publication/articles/33283/revised-framework-for-single-family-offices-from-15-june-2026",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "wealthbriefingasia.com",
+        "url": "https://www.wealthbriefingasia.com/article.php?id=197073",
+        "title": ""
+      }
+    ]
   }
 ]

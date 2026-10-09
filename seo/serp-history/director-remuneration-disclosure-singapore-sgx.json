@@ -242,5 +242,42 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "blogs.duanemorris.com",
+        "url": "https://blogs.duanemorris.com/duanemorrisandselvam/2023/01/19/sgx-regco-updates-enhancements-to-disclosures-on-directors-remuneration-and-cap-on-independent-directors-tenure/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sid.org.sg",
+        "url": "https://sid.org.sg/Web/About/News-and-Press/News-2023/2023-01-11_BT_SGX_mandates.aspx",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sustainablefutures.linklaters.com",
+        "url": "https://sustainablefutures.linklaters.com/post/102i8ge/the-singapore-exchange-imposes-a-hard-nine-year-limit-for-independent-directors-a",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/node/5890/revisions/7646/view",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "senecaesg.com",
+        "url": "https://senecaesg.com/insights/singapore-exchange-mulls-remuneration-disclosure-for-ceo-and-directors",
+        "title": ""
+      }
+    ]
   }
 ]

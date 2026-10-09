@@ -791,5 +791,36 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mof.gov.sg",
+        "url": "https://www.mof.gov.sg/news-resources/newsroom/ceo-succession-at-temasek-holdings/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "heidrick.com",
+        "url": "https://www.heidrick.com/en/insights/boards-governance/board-monitor-singapore-2024_explore-the-latest-data-and-trends",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "sid.org.sg",
+        "url": "https://sid.org.sg/common/Uploaded%20files/bulletin/forNewsletter/nov_navigating.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "spencerstuart.com",
+        "url": "https://www.spencerstuart.com/research-and-insight/the-governance-challenge-compliance-versus-excellence-in-singapore",
+        "title": ""
+      }
+    ]
   }
 ]

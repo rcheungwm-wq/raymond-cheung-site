@@ -1299,5 +1299,54 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "wongpartnership.com",
+        "url": "https://www.wongpartnership.com/practices/insurance",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "cn-en.rajahtannasia.com",
+        "url": "https://cn-en.rajahtannasia.com/our-practices/insurance-amp-reinsurance/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "cn-en.rajahtannasia.com",
+        "url": "https://cn-en.rajahtannasia.com/?p=54504",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/Standard-Chartered-Bank-Singapore-Careers-jobs",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "rajahtannasia.com",
+        "url": "https://www.rajahtannasia.com/?p=16425",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "cn.rajahtannasia.com",
+        "url": "https://cn.rajahtannasia.com/?p=54504",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "chambers.com",
+        "url": "https://www.chambers.com/lawyer/simon-goh-asia-pacific-8:738204",
+        "title": ""
+      }
+    ]
   }
 ]

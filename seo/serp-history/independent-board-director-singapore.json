@@ -1122,5 +1122,48 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ink.library.smu.edu.sg",
+        "url": "https://ink.library.smu.edu.sg/sol_research/3954",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "law.nus.edu.sg",
+        "url": "https://law.nus.edu.sg/publications/independent-directors-in-singapore-puzzling-compliance-requiring-explanation-2",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "3ecpa.com.sg",
+        "url": "https://www.3ecpa.com.sg/services/corporate-secretarial/independent-director-services",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/bn/corporate/newsroom/press-release/2026/april---june-2026/AdrianChanPengee_SIABoard/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/cip/?p=1703",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "webiis08.mondaq.com",
+        "url": "https://webiis08.mondaq.com/corporate-governance/537490/duties-and-responsibilities-of-independent-directors-an-overview",
+        "title": ""
+      }
+    ]
   }
 ]

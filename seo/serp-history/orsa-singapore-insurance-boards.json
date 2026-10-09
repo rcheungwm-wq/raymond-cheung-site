@@ -1202,5 +1202,42 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://insurancebusinessmag.com/asia/news/breaking-news/singapore-insurers-called-to-refine-risk-assessment-reports-73922.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/regional-news/singapore-insurers-called-to-refine-risk-assessment-reports-73922.aspx",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/the-solvency-ii-handbook-practical-approaches-to-implementation/5621721/orsa-a-forward-looking-approach-to-risk-and-capital-management",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "web.actuaries.ie",
+        "url": "https://web.actuaries.ie/sites/default/files/event/2014/01/140225_orsa_-_an_international_development.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "edge.sitecorecloud.io",
+        "url": "https://edge.sitecorecloud.io/millimaninc5660/asia-erm-newsletter-02-18-14.pdf",
+        "title": ""
+      }
+    ]
   }
 ]

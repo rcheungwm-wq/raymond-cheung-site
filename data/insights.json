@@ -5766,5 +5766,189 @@
         "answer": "Yes. The notification obligation stays with the licensed insurer regardless of whether the breach occurred in-house or at a service provider. MAS Circular ID 03/23 also references breaches meeting the criteria in MAS's Guidelines on Outsourcing. Boards should check that material vendors are contractually required to notify the insurer quickly enough for it to meet the one-hour MAS deadline."
       }
     ]
+  },
+  {
+    "id": "69",
+    "title": "What SGX Querying Pay Disclosures Means for Singapore Boards",
+    "summary": "SGX has reportedly started pushing back on issuers that disclosed director pay in bands rather than exact amounts, and a 2026 NUS study shows the transparency gap has moved to key management and family-linked pay. Here is what Singapore boards should take from it before the next annual report.",
+    "category": "Governance",
+    "readingTime": "3 min read",
+    "date": "October 2026",
+    "status": "published",
+    "slug": "sgx-remuneration-disclosure-queries-singapore-boards",
+    "keywords": [
+      "director remuneration disclosure Singapore SGX",
+      "SGX remuneration disclosure queries",
+      "key management remuneration disclosure Singapore"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "My first reaction to the news that SGX has been querying issuers over how they reported director pay was not surprise. It was recognition. Years ago, in a remuneration discussion I sat through, the room spent forty minutes on the CEO's bonus and about forty seconds on the table that would actually be printed in the annual report. That table is where the regulator now looks first."
+      },
+      {
+        "type": "paragraph",
+        "text": "The facts, as reported: the rule requiring exact pay for each director and the CEO applies to annual reports for financial years ending on or after 31 December 2024. At least one issuer is reported to have shown director pay in bands in its FY2025 report, and SGX asked for a granular breakdown covering fixed salary, bonuses, fees and other components. That is the regulator telling the market that the rule is no longer new, and that a late FY2025 report is not a grace period."
+      },
+      {
+        "type": "heading",
+        "text": "The gap has moved"
+      },
+      {
+        "type": "paragraph",
+        "text": "What interests me more is where the weakness now sits. A 2026 NUS study covering 469 companies and 41 trusts found better transparency on director and CEO pay, but continued opacity on key management personnel and on employees who are related to substantial shareholders, directors or the CEO. Those relationships are exactly where minority shareholders worry about unearned or excessive pay. Compliance on the headline number has improved. The harder disclosures have not."
+      },
+      {
+        "type": "pullquote",
+        "text": "A board that discloses the CEO's pay precisely and treats a director's cousin on the payroll as a footnote has complied with the rule and missed its purpose."
+      },
+      {
+        "type": "heading",
+        "text": "What I would do before the next report"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Have the remuneration committee review the actual draft table, not a summary of it, and confirm every director and the CEO is shown at exact amounts with the full component breakdown.",
+          "Ask the company secretary for a list of every employee related to a director, the CEO or a substantial shareholder, with their pay. If the answer takes a week to produce, the process is the problem.",
+          "Minute why key management pay is disclosed the way it is. A documented decision reads very differently from a default."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Boards that treat remuneration disclosure as the company secretary's job will keep getting queries. The ones that treat it as a board decision will not. I know which committee I would rather sit on."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does SGX require exact pay for each director and the CEO?",
+        "answer": "Yes. For financial years ending on or after 31 December 2024, listed issuers must disclose the exact amount and breakdown of remuneration for each director and the CEO. Banded disclosure is no longer acceptable for those individuals."
+      },
+      {
+        "question": "Is key management personnel pay also disclosed exactly?",
+        "answer": "Not at present. Key management personnel other than directors and the CEO are still disclosed in bands, which is why research now points to that area as the remaining transparency gap."
+      },
+      {
+        "question": "What should a Singapore board do if its last annual report used pay bands for directors?",
+        "answer": "Move to exact amounts with the full component breakdown in the next report, and have the remuneration committee confirm this before the draft goes to the auditors. Do not wait for an SGX query to prompt the change."
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Exact Director and CEO Pay Is Now Public in Singapore. Is Your Remuneration Committee Ready to Defend It?",
+    "summary": "Singapore-listed companies must now disclose the exact pay of every director and the CEO, but the rule has exposed a different problem: many remuneration committees were never built to defend their numbers in public. This is what a Singapore board should do before the next AGM on director remuneration disclosure under SGX rules.",
+    "category": "Governance",
+    "readingTime": "7 min read",
+    "date": "October 2026",
+    "status": "published",
+    "slug": "director-remuneration-disclosure-singapore-sgx",
+    "keywords": [
+      "director remuneration disclosure Singapore SGX",
+      "CEO pay disclosure Singapore listed companies",
+      "remuneration committee Singapore",
+      "SGX remuneration rules AGM"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "I once sat in a remuneration committee meeting where the chair asked a simple question: if every number in this paper were printed next to the director's name in the annual report, would we be comfortable defending each one to a shareholder at the AGM? The room went quiet. Nobody had been asked to think about it that way, because for years the answer did not matter. Pay was shown in bands, and a band hides a great deal."
+      },
+      {
+        "type": "paragraph",
+        "text": "That protection is gone. Singapore-listed issuers must now disclose the exact amount paid to each director and the CEO, with a breakdown of fixed salary, variable pay and bonuses, benefits in kind, share options, share-based awards and other long-term incentives, for financial years ending on or after 31 December 2024. I have watched boards treat this as a drafting exercise. It is not. It is a change in who the remuneration committee is accountable to."
+      },
+      {
+        "type": "heading",
+        "text": "What the rule actually changed"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before the change, the exact-amount requirement sat in the Code of Corporate Governance on a comply-or-explain basis, and most companies chose to explain. A KPMG review of 585 companies before the rule found only 35 per cent reported director pay in dollar values and 18 per cent did so for the CEO. By the end of 2024, a Singapore Institute of Directors review found 67.8 per cent of listed companies disclosed exact director remuneration, and the share disclosing no remuneration information at all had fallen to 9.4 per cent."
+      },
+      {
+        "type": "paragraph",
+        "text": "So adoption is rising, but it is not complete, and SGX has begun querying issuers that fell short. The regulator is now enforcing a rule that most of the market has had time to absorb."
+      },
+      {
+        "type": "pullquote",
+        "text": "When pay becomes public to the dollar, the remuneration committee stops being a private negotiation and becomes a public justification."
+      },
+      {
+        "type": "heading",
+        "text": "Where boards get caught"
+      },
+      {
+        "type": "paragraph",
+        "text": "In my experience the technical disclosure is rarely the problem. The problem is the quality of the reasoning behind the numbers. Three weaknesses come up repeatedly."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Director fees that have drifted. Fees were set years ago, topped up for committee roles, and never benchmarked. Exact disclosure makes the drift visible.",
+          "Variable pay without a story. If a CEO bonus moved sharply and the committee minutes do not record why, the explanation has to be invented later, usually at the AGM.",
+          "Unclear boundaries between the executive director's role and pay. Where a founder is both a substantial shareholder and an executive, the pay table invites questions about who truly set the number."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The independence connection"
+      },
+      {
+        "type": "paragraph",
+        "text": "This rule does not sit alone. SGX also introduced a hard nine-year limit on independent director tenure in the same set of changes, and removed the two-tier vote that let long-serving independents stay. A remuneration committee made up of directors approaching nine years is a committee about to be reconstituted. I advise boards to look at the two together. If your remuneration committee chair is in their eighth year, the person who defends this year's numbers may not be the person who built them."
+      },
+      {
+        "type": "heading",
+        "text": "The AGM is where it lands"
+      },
+      {
+        "type": "paragraph",
+        "text": "The practical test is the question from the floor. A shareholder reads the table, sees that one director's fee is double the others, and asks why. If the chair of the remuneration committee has to look at the company secretary before answering, the board has already lost the room. I coach chairs to prepare three answers in advance: why the fee structure looks the way it does, why the CEO's variable pay moved, and who benchmarked it. None of these answers is hard. They are only credible if the work was done before the question was asked."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is also a quieter effect. Once pay is exact, executive directors compare themselves with each other, and independent directors compare their fees with peers on other boards. That comparison is healthy if the committee has a framework, and corrosive if it does not. A written remuneration philosophy, even one page long, settles most of these arguments before they begin. Without one, every year's numbers are negotiated from scratch, and the loudest voice in the room sets the precedent."
+      },
+      {
+        "type": "heading",
+        "text": "What is coming next"
+      },
+      {
+        "type": "paragraph",
+        "text": "The exact-pay rule is the first step, not the last. SGX RegCo has also finalised disclosure of the key financial and non-financial performance indicators used to set executive remuneration, for annual reports covering financial years beginning on or after 1 January 2027, with the first of those reports expected in 2028. The regulator noted that only 47 per cent of companies disclosed the financial indicators behind executive pay. Boards that build a defensible record now will find 2028 a documentation exercise. Boards that do not will be writing reasons after the fact."
+      },
+      {
+        "type": "heading",
+        "text": "What I would put in front of the committee this quarter"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A one-page table of every director and the CEO showing exactly how each figure will appear in the annual report, reviewed by the committee before the draft is finalised.",
+          "A benchmark of director fees against comparable listed companies, with a minuted conclusion either way.",
+          "A written rationale, kept in the minutes, for any year-on-year movement in CEO variable pay.",
+          "A tenure map showing which committee members reach nine years in the next two reporting cycles."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this is difficult. All of it is the kind of work that gets skipped when pay was previously hidden in a band. My recommendation is simple: run the exercise as if a shareholder will read every line, because from now on one will."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does SGX require boards to disclose about director and CEO pay?",
+        "answer": "Listed issuers must disclose the exact amount of remuneration paid to each director and the CEO, covering the issuer and its subsidiaries, with a breakdown of fixed salary, variable pay and bonuses, benefits in kind, share options, share-based awards and other long-term incentives. This applies to annual reports for financial years ending on or after 31 December 2024."
+      },
+      {
+        "question": "Do Singapore companies still show key management pay in bands?",
+        "answer": "Yes. Key management personnel other than directors and the CEO remain on the older basis, with names and amounts shown in bands no wider than S$250,000. Employees who are immediate family members of a director or the CEO must also be disclosed where pay exceeds S$150,000, in bands of S$250,000."
+      },
+      {
+        "question": "What new remuneration disclosure is coming after the exact-pay rule?",
+        "answer": "SGX RegCo has finalised a requirement to disclose the key financial and non-financial performance indicators used to set executive remuneration, for financial years beginning on or after 1 January 2027. The first annual reports under that rule are expected in 2028, so remuneration committees should start documenting their reasoning now."
+      }
+    ]
   }
 ]

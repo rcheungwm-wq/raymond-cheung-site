@@ -1224,5 +1224,42 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "regulationasia.com",
+        "url": "https://www.regulationasia.com/author/grace-chong",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/84519406/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "jobs.accaglobal.com",
+        "url": "https://jobs.accaglobal.com/job/5968999/vp-regulatory-reporting/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/people/2292734/mas-announces-senior-management-changes-and-other-recent-job-moves",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "wongpartnership.com",
+        "url": "https://wongpartnership.com/insights/detail/mas-issues-faqs-on-notice-on-business-conduct-requirements-for-corporate-finance-advisers-4",
+        "title": ""
+      }
+    ]
   }
 ]

@@ -1370,5 +1370,48 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "seacen.org",
+        "url": "https://www.seacen.org/2019/09/04/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scholars.cityu.edu.hk",
+        "url": "https://scholars.cityu.edu.hk/en/activities/invited-speaker-identifying-risk-by-value-index/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "bis.org",
+        "url": "https://www.bis.org/speeches/20020131-risk-management-development-singapore",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "lms.isca.org.sg",
+        "url": "https://lms.isca.org.sg/home/instructor_page/1159",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "law.asia",
+        "url": "https://law.asia/ko/acc-singapore-governance-risks-session/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "iodglobal.com",
+        "url": "https://iodglobal.com/front_assets/images/events/programme-agenda-sgc2018.pdf",
+        "title": ""
+      }
+    ]
   }
 ]

@@ -1328,5 +1328,48 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "grc-solutions.com",
+        "url": "https://grc-solutions.com/courses/esg-sg/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sgs.com",
+        "url": "https://www.sgs.com/en-sg/services/esg-training",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "grc-solutions.com",
+        "url": "https://grc-solutions.com/?p=4846",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "hcms.bsigroup.com",
+        "url": "https://hcms.bsigroup.com/en-SG/training-courses/environmental-social-and-governance-esg-awareness/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "fcms.bsigroup.com",
+        "url": "https://fcms.bsigroup.com/en-SG/training-courses/environmental-social-and-governance-esg-awareness/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "grc-solutions.com",
+        "url": "https://grc-solutions.com/implementing-esg-in-sg-fin-services/",
+        "title": ""
+      }
+    ]
   }
 ]

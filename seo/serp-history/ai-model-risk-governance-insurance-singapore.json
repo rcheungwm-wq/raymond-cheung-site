@@ -59,5 +59,42 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancenews.com.au",
+        "url": "https://www.insurancenews.com.au/international/ai-risk-in-focus-at-singapore-reinsurance-event",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "plenitudeconsulting.com",
+        "url": "https://www.plenitudeconsulting.com/news-insights/mas-releases-insights-on-ai-model-risk-management-practices",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "howdengroup.com",
+        "url": "https://www.howdengroup.com/sg-en/insight/emerging-ai-risks-and-challenges-financial-sector",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "thecorporatetreasurer.com",
+        "url": "https://thecorporatetreasurer.com/article/mas-advances-dual-frameworks-to-overhaul-corporate-risk-transfer-and-ai-governanc/508015",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "milliman.com",
+        "url": "https://www.milliman.com/en/insight/critical-point-59-artificial-intelligence-global-trends",
+        "title": ""
+      }
+    ]
   }
 ]

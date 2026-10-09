@@ -1298,5 +1298,42 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tilleke.com",
+        "url": "https://tilleke.com/?p=37137",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "tilleke.com",
+        "url": "https://www.tilleke.com/insights/insurtech-asia-appoints-athistha-chitranukroh-advisory-board/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "fintech.global",
+        "url": "https://fintech.global/2024/01/10/insurtech-kalepa-adds-japanese-industry-leader-to-advisory-board/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "reinasia.com",
+        "url": "https://reinasia.com/bolttech-forms-eight-member-advisory-board-to-support-next-growth-phase/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "fintechnews.sg",
+        "url": "https://fintechnews.sg/50355/insurtech/insurtech-firm-360f-appoints-former-temenos-apac-md/",
+        "title": ""
+      }
+    ]
   }
 ]
