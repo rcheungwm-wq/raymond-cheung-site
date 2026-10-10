@@ -104,7 +104,7 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [x] `technology-risk-management-guidelines-singapore-insurers` — MAS's Technology Risk Management guidelines: what the board signs off on (published 2026-10-05, id 66)
 - [x] `data-breach-notification-governance-singapore-insurers` — published 2026-10-07, id 68, "Your Insurer Has One Hour to Tell MAS About a Breach. Is Your Board Ready to Move That Fast?" (anchored on MAS Notice 127 one-hour notification, PDPA 3-day PDPC notification, MAS Circular ID 03/23 concurrent + quarterly consolidated reporting; 2026-10-07 SERP: 0/18 ranked, no declined flags, all suggested targets already covered, fell back to backlog. Short take id 67 on the FSM (Amendment) Bill / D-SIB TLAC powers passed 6 Oct 2026)
 - [x] `director-remuneration-disclosure-singapore-sgx` — published 2026-10-09, id 70 (2026-10-09 SERP: 0/18 ranked, no declined flags, all suggested targets already covered, fell back to backlog. Short take id 69 on SGX querying banded pay disclosures and the NUS 2026 KMP/family-pay transparency gap)
-- [ ] `board-diversity-singapore-listed-companies` — board diversity in Singapore beyond the compliance statement
+- [x] `board-diversity-singapore-listed-companies` — published 2026-10-10, id 72 (beyond the gender milestone: the conviction gap, domain expertise gaps, what the next phase of diversity should look like; 2026-10-10 SERP: 0/7 ranked, no declined flags, fell back to backlog order. Short take id 71 on MAS AI Risk Management Guidelines issued 7 Oct 2026)
 - [ ] `board-effectiveness-evaluation-singapore` — most Singapore board evaluations are theatre — what an honest one looks like
 - [ ] `nominating-committee-succession-planning-singapore` — the nominating committee job most Singapore boards are quietly skipping
 - [ ] `whistleblowing-governance-sgx-listed-companies` — whistleblowing policies on paper vs. whistleblowing governance that actually works
@@ -118,7 +118,7 @@ should be re-verified (dates/effective terms can move) before publishing.
 - [ ] `esg-greenwashing-litigation-risk-singapore-boards` — greenwashing risk is now a board liability question, not just a marketing one
 - [ ] `operational-resilience-mas-guidelines-insurer-boards` — operational resilience is the MAS guideline boards keep delegating to IT
 
-### Published (68 posts, Sept 2026 onward)
+### Published (71 posts, Sept 2026 onward)
 - ✅ Climate transition governance
 - ✅ Risk appetite decisions
 - ✅ Next-generation insurance

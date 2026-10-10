@@ -1383,5 +1383,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "thelawyermag.com",
+        "url": "https://www.thelawyermag.com/au/news/general/climate-change-consideration-part-of-singapore-directors-duties-legal-opinion-says/252220",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ecgi.global",
+        "url": "https://ecgi.global/news/directors-duties-controllers-relation-climate-change-singapore",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "hub.chapterzeroalliance.org",
+        "url": "https://hub.chapterzeroalliance.org/article/the-climate-intelligent-board-key-messages-from-the-global-directors-exchange-singapore-2025",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ccli.ubc.ca",
+        "url": "https://ccli.ubc.ca/?p=1929",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "blogs.law.ox.ac.uk",
+        "url": "https://blogs.law.ox.ac.uk/business-law-blog/blog/2021/07/directors-duties-and-controllers-role-relation-climate-change-case",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "iaisweb.org",
+        "url": "https://iaisweb.org/team/daniel-wang",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/ms/news/company-directors-in-singapore-urged-to-take-climate-change-seriously-or-risk-personal-liability/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/id/news/company-directors-in-singapore-urged-to-take-climate-change-seriously-or-risk-personal-liability/",
+        "title": ""
+      }
+    ]
   }
 ]

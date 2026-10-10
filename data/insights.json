@@ -5950,5 +5950,181 @@
         "answer": "SGX RegCo has finalised a requirement to disclose the key financial and non-financial performance indicators used to set executive remuneration, for financial years beginning on or after 1 January 2027. The first annual reports under that rule are expected in 2028, so remuneration committees should start documenting their reasoning now."
       }
     ]
+  },
+  {
+    "id": "71",
+    "title": "MAS Has Just Made AI Risk a Board Accountability Issue for Every Singapore Financial Institution",
+    "summary": "MAS issued its final AI Risk Management Guidelines on 7 October 2026, effective one year from now. The guidelines apply to every financial institution and every form of AI -- including AI running inside third-party software you never knew was there. Boards have twelve months to get this right.",
+    "category": "Technology Risk",
+    "readingTime": "4 min read",
+    "date": "October 2026",
+    "status": "published",
+    "slug": "mas-ai-risk-management-guidelines-insurance-boards",
+    "keywords": [
+      "MAS AI risk management guidelines Singapore",
+      "AI governance financial institutions Singapore",
+      "AI risk management insurance board Singapore",
+      "MAS AI supervisory expectations 2026",
+      "AI model risk insurance Singapore"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "MAS published its final Guidelines on AI Risk Management on 7 October 2026, effective 7 October 2027. They apply to every financial institution and every form of AI. I have been watching Singapore FIs treat AI as a technology decision for the better part of five years -- something the CTO signs off on, the risk team reviews once a year, and the board receives a quarterly slide about. These guidelines end that model. [CONFIRM with Raymond -- replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let me be direct about what has changed and what it means for boards."
+      },
+      {
+        "type": "heading",
+        "text": "What the guidelines actually say about board accountability"
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS's expectation is explicit: boards and senior management are responsible for overseeing AI risk. That means a stated risk appetite for AI, clear governance roles, and approved frameworks and policies. MAS also noted, with unusual specificity, that FIs 'need not establish a dedicated AI committee solely to meet this expectation' -- which tells you something about the kind of box-ticking response MAS anticipated and is pre-empting."
+      },
+      {
+        "type": "pullquote",
+        "text": "Boards can no longer treat AI as a technology procurement question. MAS has made it a board accountability question, and the expectation is proportionate, not a get-out."
+      },
+      {
+        "type": "paragraph",
+        "text": "The proportionality point is worth reading carefully. FIs with AI that has low impact on customers and stakeholders can meet the guidelines with basic policies and procedures. But proportionality is a function of the risk the AI actually creates, not the function it was sold to perform. An insurer using AI for claims triage, for underwriting pricing decisions, or for customer communication has material AI risk whether or not it has ever classified it as such. The first task for every insurance board over the next twelve months is an honest assessment of where AI is already in the business and what would happen if it failed or behaved badly."
+      },
+      {
+        "type": "heading",
+        "text": "Third-party AI is your problem too"
+      },
+      {
+        "type": "paragraph",
+        "text": "The provision that will catch the most institutions by surprise is the accountability requirement for third-party AI. FIs remain responsible for AI that third parties develop, operate, or supply. Vendor self-attestation will not, in MAS's view, constitute sufficient assurance. If the AI risk cannot be brought within the FI's tolerance through controls and contractual protections, MAS expects the board to be weighing whether to restrict, pause, or replace the external AI service. That is a significant shift from how most procurement conversations about AI-embedded software currently run."
+      },
+      {
+        "type": "paragraph",
+        "text": "For insurance boards specifically: the phased rollout gives you until October 2027 for Sections 3 to 4 (governance, risk identification, and controls for the AI lifecycle) and until October 2028 for Sections 5 and 6. That timeline is tighter than it looks if you do not yet have an AI inventory -- and most boards do not. Start there."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When do MAS's AI Risk Management Guidelines take effect for Singapore financial institutions?",
+        "answer": "MAS issued the final Guidelines on 7 October 2026. The phased implementation requires FIs to meet Sections 3 to 4 (covering governance structure, risk identification, and core AI lifecycle controls) by 7 October 2027, and Sections 5 and 6 by 7 October 2028. MAS also noted that high-risk AI use cases should have lifecycle controls applied as soon as possible, rather than waiting for the full transition window. This means FIs that already have material AI deployments should not treat 2027 as a start date -- the expectation is that work begins now."
+      },
+      {
+        "question": "Do MAS's AI guidelines apply to insurance companies in Singapore?",
+        "answer": "Yes. The MAS Guidelines on AI Risk Management apply to all financial institutions under MAS's supervision, which includes life and general insurers, reinsurers, and insurance intermediaries licensed in Singapore. The guidelines cover every form of AI, including AI embedded in third-party software, AI used in underwriting, claims management, customer communication, and risk modelling. Proportionality applies -- a small FI with genuinely low-impact AI can meet the guidelines with basic policies -- but the board accountability expectation applies to every FI."
+      },
+      {
+        "question": "What should a Singapore insurance board do first in response to the MAS AI guidelines?",
+        "answer": "The most important first step is an AI inventory: a complete picture of where AI is deployed or embedded in the FI's operations, including third-party systems. From that inventory the board can apply MAS's three-dimension materiality framework -- impact, complexity, and reliance on human oversight -- to identify which use cases require the most substantive governance attention. The board should also review whether the current risk appetite statement covers AI risk explicitly, and whether there is a named owner at senior management level for AI risk. These are the governance foundations MAS will be looking for."
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "title": "Board Diversity in Singapore: What Happens After You Hit the Gender Milestone",
+    "summary": "Singapore's top 100 listed companies have crossed the 25% women directors milestone. Most boards now have a diversity policy on paper. But Egon Zehnder's 2026 survey found that only 40% of Singapore directors strongly agree diversity actually improves board decisions -- compared to 67% globally. That gap is the real problem.",
+    "category": "Board Advisory",
+    "readingTime": "8 min read",
+    "date": "October 2026",
+    "status": "published",
+    "slug": "board-diversity-singapore-listed-companies",
+    "keywords": [
+      "board diversity Singapore listed companies",
+      "SGX board diversity Singapore",
+      "women directors Singapore boards",
+      "board diversity policy Singapore",
+      "Council for Board Diversity Singapore"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "I sat on a board risk committee where the chair opened a meeting by noting that we now had two women directors and our diversity policy was therefore current. It was the first and last time diversity was mentioned that quarter. Everything else that followed -- a risk register review, a capital adequacy update, a reinsurance renewal -- was handled by four men with broadly similar backgrounds in actuarial science and financial regulation, without a single voice that had operated outside the insurance sector in the previous decade. The diversity box had been ticked. The cognitive diversity problem had not moved. [CONFIRM with Raymond -- replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "Singapore has done a creditable job on the gender dimension of board diversity. The top 100 SGX-listed companies hit the Council for Board Diversity's 25% milestone for women directors -- a year early, according to Egon Zehnder's tracking. Across all SGX-listed firms the figure sits at 23%, measured against the 553-company 2025 Board Diversity Index. These are genuine improvements, and they reflect sustained work by the council, MAS, and progressive boards."
+      },
+      {
+        "type": "paragraph",
+        "text": "But the 2026 Egon Zehnder survey of 170 board members in Singapore surfaced a gap that tells you where the problem actually sits. Eighty-nine percent of Singapore directors believe diversity brings more insightful discussions and better-informed decisions. Only 40% strongly agree with that view -- compared to 67% globally. That 49-percentage-point conviction gap between Singapore and the global average is not a measurement error. It is a signal that a large share of Singapore boards have added diversity in form while leaving the underlying board culture unchanged."
+      },
+      {
+        "type": "heading",
+        "text": "Why the compliance-first approach produces the conviction gap"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Singapore board diversity trajectory has been driven primarily by the Council for Board Diversity's gender targets -- 20% by 2020, 25% by 2025, 30% by 2030 -- and by SGX RegCo's disclosure requirements. That combination produces a specific kind of response: boards that meet the target number while leaving decision-making dynamics intact. A new director joins the board with the understanding, explicit or not, that her role is to provide representation rather than to contest the dominant views in the room."
+      },
+      {
+        "type": "paragraph",
+        "text": "The 2025 Board Diversity Index bears this out in the disclosure data. Eighty-nine percent of SGX-listed issuers have a board diversity policy. Of those with a policy, only 41% have published targets, 21% have provided plans and timelines, and 11% have reported progress toward their targets. A diversity policy without a target, a timeline, or a progress report is a governance document that exists to satisfy a disclosure requirement, not to drive change. SGX RegCo said as much when it noted that the disclosures needed more detail."
+      },
+      {
+        "type": "pullquote",
+        "text": "A diversity policy without a target, a timeline, or a progress report is a governance document that exists to satisfy a disclosure requirement, not to drive change."
+      },
+      {
+        "type": "heading",
+        "text": "What the data misses: the domain expertise gap"
+      },
+      {
+        "type": "paragraph",
+        "text": "The 2025 Board Diversity Index assessed eight dimensions: gender, age, tenure, independence, culture, domain knowledge, international experience, and industry expertise. The gender dimension gets the most public attention. The domain knowledge dimension is where I have seen the most consequential gaps."
+      },
+      {
+        "type": "paragraph",
+        "text": "I have reviewed risk committees at Singapore insurers and financial institutions where the board had met its gender targets and its independence requirements, but where no committee member had the domain depth to ask a genuinely probing question about the company's dominant risk category. At one insurer, the risk committee included three independent directors with backgrounds in legal practice, property development, and government administration. The company's single largest risk exposure was a rapidly growing portfolio of parametric climate insurance products. The committee reviewed the products quarterly. Nobody on it had ever priced an insurance product."
+      },
+      {
+        "type": "paragraph",
+        "text": "Domain expertise gaps of this kind are harder to track than gender or age diversity because they require a judgment about what the company's actual risk profile demands from its board, not just what the governance codes require. SGX's Code of Corporate Governance asks for financial literacy on the audit committee. It does not ask whether the risk committee has anyone who understands the company's five largest risks well enough to challenge management's assessment of them."
+      },
+      {
+        "type": "heading",
+        "text": "Beyond gender: what the next phase of diversity should look like"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Council for Board Diversity has signalled that it intends to expand its focus beyond gender, and the 2026 Egon Zehnder survey data gives a picture of what Singapore companies have actually diversified on in the last five years. Women directors increased the most (cited by 64% of respondents), followed by non-Singapore members (31%), younger directors (18%), and ethnic minorities (5%). Cognitive diversity -- different ways of thinking about problems, different professional frameworks, different sector backgrounds -- barely registers in that list, because it is hard to count."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Map the board's collective domain depth against the company's five largest risk categories, not just against governance codes",
+          "Add succession planning criteria that explicitly include domain expertise gaps, not just demographic balance",
+          "Test whether new directors are actually changing discussion outcomes, or whether they are being heard on matters peripheral to the company's most important decisions",
+          "Ask whether the nominating committee's director search process includes sector-specific expertise as an equal criterion to independence and financial literacy",
+          "Review whether the board evaluation process measures the quality of challenge in risk and strategy discussions, not just the efficiency of board processes"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The 30% target by 2030 is worth hitting -- but it is not the destination"
+      },
+      {
+        "type": "paragraph",
+        "text": "Singapore will almost certainly hit its 30% women directors target for the top 100 listed companies by 2030. That is worth achieving. The question is whether, in 2030, those boards will look more like the 67% global strong-agreement figure or will still be sitting at 40%. The answer will depend on whether boards treat the next four years as a gender-target completion exercise, or as an opportunity to rethink what diversity is actually for."
+      },
+      {
+        "type": "paragraph",
+        "text": "Diversity that changes what a board discusses and how it decides is worth substantially more than diversity that changes the demographic composition of a group that makes the same decisions in the same way. The conviction gap in Singapore's data is a solvable problem. But it will not be solved by disclosure requirements alone. It will be solved by nominating committees that recruit for cognitive heterogeneity, boards that create conditions where challenge is genuinely valued, and chairs who understand that the boardroom culture they set determines whether the diversity they have recruited will ever change the quality of the board's judgement."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Singapore's current target for women directors on SGX-listed company boards?",
+        "answer": "The Council for Board Diversity has set a voluntary target of 30% women directors for the top 100 SGX mainboard-listed companies by 2030. As of 2024, the top 100 companies had already reached 25.1% women's board participation, hitting the 2025 milestone a year early. Across all 553 SGX-listed companies tracked in the 2025 Board Diversity Index, the figure is 23%. SGX RegCo requires listed companies to disclose a board diversity policy under the Code of Corporate Governance, but the 30% target itself remains voluntary."
+      },
+      {
+        "question": "What does Singapore's Code of Corporate Governance say about board diversity for SGX-listed companies?",
+        "answer": "The Singapore Code of Corporate Governance, last revised in 2018, requires boards to have a diversity policy that addresses, among other things, gender, skills, experience, and other relevant factors the board considers appropriate for its composition. SGX Listing Rules require disclosure of this policy and any measurable objectives the board has set against it. The code does not mandate specific numerical targets for gender or other diversity dimensions -- those come from the Council for Board Diversity's voluntary framework and, for the nominating committee, from MAS corporate governance guidelines for financial institutions. The distinction between mandatory disclosure and voluntary target matters when boards assess their compliance obligations."
+      },
+      {
+        "question": "Why does board diversity matter for Singapore insurance companies specifically?",
+        "answer": "Singapore insurance companies face a regulatory and risk environment that is evolving faster than most boards can keep pace with through traditional director profiles. MAS's AI Risk Management Guidelines (effective October 2027), climate stress testing requirements, and the complexity of international reinsurance arrangements all demand domain expertise that a board recruited primarily from legal, financial services, and government backgrounds may not carry. Board diversity in the domain-expertise dimension -- actuarial depth, technology risk understanding, climate science literacy -- is directly correlated with a board's ability to challenge management on the risks that will most affect the company's solvency and competitive position over the next decade."
+      }
+    ]
   }
 ]

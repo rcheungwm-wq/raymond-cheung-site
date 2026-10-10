@@ -414,5 +414,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-sets-out-supervisory-expectations-on-responsible-ai-adoption-by-financial-institutions",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "pwc.com",
+        "url": "https://www.pwc.com/sg/en/services/risk/straightaways/mas-ai-risk-management-guidelines.html",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "fintech.global",
+        "url": "https://fintech.global/2026/10/08/mas-makes-banks-answerable-for-third-party-ai-risk/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "leaprate.com",
+        "url": "https://www.leaprate.com/regulation/mas-finalises-ai-risk-guidelines-for-financial-firms/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "technode.global",
+        "url": "https://technode.global/2026/10/08/mas-sets-out-supervisory-operations-on-responsible-ai-adoption-by-financial-institutions/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "aegisfirma.com",
+        "url": "https://aegisfirma.com/de/compliance/singapore-mas-ai",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "beri.net",
+        "url": "https://www.beri.net/article/mas-ai-risk-management-guidelines-final-financial-institutions-inventory-materiality-third-party-ai-october-2027",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "aigovernance.com",
+        "url": "https://aigovernance.com/policy/mas-ai-risk-management-guidelines-singapore",
+        "title": ""
+      }
+    ]
   }
 ]

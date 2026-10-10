@@ -1336,5 +1336,60 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "google.com.sg",
+        "url": "https://google.com.sg/maps?daddr=KJ+Advisory+Pte+Ltd",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=9HGltRsAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=Ff5izecAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=zh-CN&user=MtBs-kMAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=BDmWmDsAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=0FmWikMAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=8o42XvkAAAAJ",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "scholar.google.com.sg",
+        "url": "https://scholar.google.com.sg/citations?hl=en&user=Jzqci6EAAAAJ",
+        "title": ""
+      }
+    ]
   }
 ]
