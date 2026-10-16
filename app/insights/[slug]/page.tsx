@@ -2,8 +2,33 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
-import { insights } from "@/data/insights";
+import { insights, insightIsoDate, relatedInsights as findRelated, stripInlineLinks } from "@/data/insights";
 import { notFound } from "next/navigation";
+import type { ReactNode } from "react";
+
+/** Renders [label](href) markup in body text as links; internal paths use next/link. */
+function renderInline(text: string): ReactNode {
+  const parts: ReactNode[] = [];
+  const re = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+  let last = 0;
+  let match: RegExpExecArray | null;
+  while ((match = re.exec(text)) !== null) {
+    if (match.index > last) parts.push(text.slice(last, match.index));
+    const [, label, href] = match;
+    const linkStyle = { color: "var(--ink)", textDecoration: "underline", textDecorationColor: "var(--strategic-teal)", textUnderlineOffset: "3px" };
+    parts.push(
+      href.startsWith("/") ? (
+        <Link key={match.index} href={href} style={linkStyle}>{label}</Link>
+      ) : (
+        <a key={match.index} href={href} target="_blank" rel="noopener noreferrer" style={linkStyle}>{label}</a>
+      ),
+    );
+    last = re.lastIndex;
+  }
+  if (last === 0) return text;
+  if (last < text.length) parts.push(text.slice(last));
+  return parts;
+}
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -32,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: insight.summary,
       type: "article",
       url,
-      publishedTime: insight.date,
+      publishedTime: insightIsoDate(insight),
       authors: ["Raymond Cheung"],
       section: insight.category,
       images: [{ url: insight.ogImage ?? "/og-default.jpg", width: 1200, height: 630, alt: insight.title }],
@@ -54,9 +79,7 @@ export default async function InsightArticlePage({ params }: Props) {
   const prev = idx > 0 ? insights[idx - 1] : null;
   const next = idx < insights.length - 1 ? insights[idx + 1] : null;
 
-  const relatedInsights = insights
-    .filter((i) => i.category === insight.category && i.slug !== insight.slug && !i.canonicalSlug)
-    .slice(0, 3);
+  const relatedInsights = findRelated(insight, 3);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -64,7 +87,7 @@ export default async function InsightArticlePage({ params }: Props) {
     headline: insight.title,
     description: insight.summary,
     articleSection: insight.category,
-    datePublished: insight.date,
+    datePublished: insightIsoDate(insight),
     inLanguage: "en-SG",
     image: `${SITE_URL}${insight.ogImage ?? "/og-default.jpg"}`,
     mainEntityOfPage: {
@@ -103,7 +126,7 @@ export default async function InsightArticlePage({ params }: Props) {
       name: faq.question,
       acceptedAnswer: {
         "@type": "Answer",
-        text: faq.answer,
+        text: stripInlineLinks(faq.answer),
       },
     })),
   } : null;
@@ -246,7 +269,7 @@ export default async function InsightArticlePage({ params }: Props) {
                           color: "var(--strategic-teal)", fontSize: "0.6rem",
                           marginTop: "0.45rem", flexShrink: 0,
                         }}>◆</span>
-                        <span style={{ fontSize: "0.95rem", color: "var(--graphite)", lineHeight: 1.75, opacity: 0.88 }}>{item}</span>
+                        <span style={{ fontSize: "0.95rem", color: "var(--graphite)", lineHeight: 1.75, opacity: 0.88 }}>{renderInline(item)}</span>
                       </li>
                     ))}
                   </ul>
@@ -278,7 +301,7 @@ export default async function InsightArticlePage({ params }: Props) {
               return (
                 <p key={i} style={{
                   fontSize: "0.975rem", color: "var(--graphite)", lineHeight: 1.85, opacity: 0.88,
-                }}>{section.text}</p>
+                }}>{section.text ? renderInline(section.text) : null}</p>
               );
             })}
           </div>
@@ -301,7 +324,7 @@ export default async function InsightArticlePage({ params }: Props) {
                     }}>{faq.question}</p>
                     <p style={{
                       fontSize: "0.88rem", color: "var(--graphite)", lineHeight: 1.8, opacity: 0.88,
-                    }}>{faq.answer}</p>
+                    }}>{renderInline(faq.answer)}</p>
                   </div>
                 ))}
               </div>

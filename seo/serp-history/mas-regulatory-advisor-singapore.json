@@ -1328,5 +1328,139 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "regulationasia.com",
+        "url": "https://www.regulationasia.com/author/grace-chong",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/84519406/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/83628991/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "jobs.accaglobal.com",
+        "url": "https://jobs.accaglobal.com/job/5968999/vp-regulatory-reporting/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/84972092/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/people/2292734/mas-announces-senior-management-changes-and-other-recent-job-moves",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "climateinstitute.edhec.edu",
+        "url": "https://climateinstitute.edhec.edu/news/leong-sing-chiong-appointed-new-member-edhec-risk-iab",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/node/2292734",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "wongpartnership.com",
+        "url": "https://wongpartnership.com/insights/detail/mas-issues-faqs-on-notice-on-business-conduct-requirements-for-corporate-finance-advisers-4",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "app.semesteria.com",
+        "url": "https://app.semesteria.com/jobs/regulatory-compliance-singapore-hyphen-partners-9c17ff4f-0de4-4b4b-b1dc-61bd97f40cdc",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "regulationasia.com",
+        "url": "https://www.regulationasia.com/author/grace-chong",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/84519406/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/83628991/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "jobs.accaglobal.com",
+        "url": "https://jobs.accaglobal.com/job/5968999/vp-regulatory-reporting/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/84972092/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/people/2292734/mas-announces-senior-management-changes-and-other-recent-job-moves",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "climateinstitute.edhec.edu",
+        "url": "https://climateinstitute.edhec.edu/news/leong-sing-chiong-appointed-new-member-edhec-risk-iab",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "jobs.careers.gov.sg",
+        "url": "https://jobs.careers.gov.sg/jobs/hrp/15006482/ddf513d1-e0b5-1edf-a8bf-9a8f574cb381",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "wongpartnership.com",
+        "url": "https://wongpartnership.com/insights/detail/mas-issues-faqs-on-notice-on-business-conduct-requirements-for-corporate-finance-advisers-4",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "app.semesteria.com",
+        "url": "https://app.semesteria.com/jobs/regulatory-compliance-singapore-hyphen-partners-9c17ff4f-0de4-4b4b-b1dc-61bd97f40cdc",
+        "title": ""
+      }
+    ]
   }
 ]

@@ -96,5 +96,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/singapores-ai-governance-rules-what-brokers-and-insurers-must-know-before-2027-592870.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "insurancenews.com.au",
+        "url": "https://www.insurancenews.com.au/international/ai-risk-in-focus-at-singapore-reinsurance-event",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "plenitudeconsulting.com",
+        "url": "https://www.plenitudeconsulting.com/news-insights/mas-releases-insights-on-ai-model-risk-management-practices",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sosa.co",
+        "url": "https://sosa.co/opportunity-hub/ai-underwriting-solutions-program",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "howdengroup.com",
+        "url": "https://www.howdengroup.com/sg-en/insight/emerging-ai-risks-and-challenges-financial-sector",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "thecorporatetreasurer.com",
+        "url": "https://thecorporatetreasurer.com/article/mas-advances-dual-frameworks-to-overhaul-corporate-risk-transfer-and-ai-governanc/508015",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "at.milliman.com",
+        "url": "https://at.milliman.com/en/insight/critical-point-59-artificial-intelligence-global-trends",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "ae.milliman.com",
+        "url": "https://ae.milliman.com/en/insight/critical-point-59-artificial-intelligence-global-trends",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "velaru-erra.onrender.com",
+        "url": "https://velaru-erra.onrender.com/compliance/mandate-registry/verticals/insurance/jurisdictions/sg",
+        "title": ""
+      }
+    ]
   }
 ]

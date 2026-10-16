@@ -129,13 +129,14 @@ Push and the site rebuilds automatically. (Do not edit `data/insights.ts` — it
   category: "Governance",  // Climate Risk | Enterprise Risk | Insurance Innovation | Technology Risk | Insurance Capital | ESG | Governance | Regulation | Board Advisory | Actuarial
   readingTime: "6 min read",
   date: "September 2026",
+  datePublished: "2026-09-16",  // ISO date, used for Article schema + OG publishedTime
   status: "published",
-  slug: "your-slug-here",  // matches the keyword target
+  slug: "your-slug-here",  // matches the keyword target; must be unique across the file
   keywords: ["primary keyword Singapore", "secondary keyword"],
   body: [
     { type: "paragraph", text: "Opening paragraph — a situation Raymond has been in." },
-    { type: "heading", text: "Section heading" },
-    { type: "paragraph", text: "Body paragraph." },
+    { type: "heading", text: "Section heading" },  // renders as <h2>; the title is the page's only <h1>
+    { type: "paragraph", text: "Body paragraph with an [internal link](/insights/existing-slug) in it." },
     { type: "pullquote", text: "The sharpest sentence from this section." },
     { type: "list", items: ["Point one", "Point two", "Point three"] },
     { type: "paragraph", text: "Closing — what Raymond recommends." },
@@ -152,6 +153,8 @@ Push and the site rebuilds automatically. (Do not edit `data/insights.ts` — it
   ],
 },
 ```
+
+**Internal links:** paragraph text, list items and FAQ answers support `[label](/insights/slug)` (external URLs open in a new tab). Every post should carry 2–4 contextual links to existing posts using descriptive anchor text, signature posts should end with a link to `/advisory` or `/contact`, and every link target must be a slug that exists. Never put link markup in `title` or `summary` (those are the meta title/description). "Related insights" at the foot of each post is picked automatically by keyword overlap.
 
 ---
 

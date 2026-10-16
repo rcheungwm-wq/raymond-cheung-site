@@ -5294,7 +5294,7 @@
     "readingTime": "7 min read",
     "date": "October 2026",
     "status": "published",
-    "slug": "esg-advisor-singapore",
+    "slug": "esg-adviser-singapore-board-what-to-look-for",
     "keywords": [
       "ESG advisor Singapore",
       "ESG adviser Singapore board",
@@ -5390,7 +5390,8 @@
         "question": "What does MAS expect of Singapore boards on ESG governance?",
         "answer": "MAS's Transition Planning Guidelines and Environmental Risk Management guidelines expect boards to genuinely understand the climate and sustainability risks their institution faces, to have challenged the assumptions in management's transition plan, and to be able to demonstrate to a supervisor that ESG governance is embedded in strategy and risk management. The expectation is substantive board engagement, not approval of a sustainability report produced by management."
       }
-    ]
+    ],
+    "canonicalSlug": "esg-advisor-singapore"
   },
   {
     "id": "65",
@@ -6315,6 +6316,204 @@
       {
         "question": "What should a board effectiveness evaluation in Singapore actually assess?",
         "answer": "Beyond process questions such as paper quality and meeting frequency, a useful board effectiveness evaluation in Singapore should test the quality of decision-making: whether alternatives were considered on major decisions, whether directors challenged management and whether that challenge changed outcomes. It should also assess each individual director against the board skills matrix, gather management's view of the board, and end with specific actions, owners and a follow-up check the next year."
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "title": "What MAS's New Roadshow Rules Mean for Singapore Insurance Boards",
+    "summary": "MAS's 12 October 2026 public prospecting safeguards confine roadshows to designated zones and require named supervisors and upfront consent. For Singapore insurers with large tied agency forces, this is a distribution conduct question the board should own, not a compliance memo for the agency office.",
+    "category": "Regulation",
+    "readingTime": "3 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-16",
+    "status": "published",
+    "slug": "mas-public-prospecting-safeguards-insurance-boards",
+    "keywords": [
+      "MAS public prospecting safeguards",
+      "MAS roadshow rules Singapore insurers",
+      "insurance distribution conduct Singapore board",
+      "Guidelines on Standards of Conduct for Marketing and Distribution Activities"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Early in my time as a statutory CRO, I asked our agency leadership a simple question: how many roadshow booths did we run last quarter, and who was supervising them? Nobody could tell me. Complaints showed up in my risk report as a single line, a small number on a large base, and the board saw an even shorter version of it. That was when I understood that face-to-face distribution was the part of the business the board had the least line of sight into. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "heading",
+        "text": "What MAS actually announced"
+      },
+      {
+        "type": "paragraph",
+        "text": "On 12 October 2026, after a public consultation, MAS set out tighter safeguards for public prospecting such as roadshows. Prospecting will be limited to designated zones within business properties rather than open public areas. Firms must appoint suitably qualified individuals to supervise their representatives at these events. Representatives must say upfront that they intend to market financial products, and get the consumer's consent before continuing. On-street canvassing and door-to-door prospecting stay banned. MAS will build the changes into its updated Guidelines on Standards of Conduct for Marketing and Distribution Activities in 2027, followed by a nine-month transition ([MAS media release](https://www.mas.gov.sg/news/media-releases/2026/mas-enhances-safeguards-for-public-prospecting-activities))."
+      },
+      {
+        "type": "heading",
+        "text": "Why this is a board issue, not an agency memo"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most insurers will route this to compliance and the agency office, update the roadshow procedures, and report completion to the board sometime in 2028. That misses the point. Roadshows exist because of how we pay and recruit. Activity targets, recruitment drives and short-term sales contests are what put a new representative at a mall booth on a Saturday. If the incentive design rewards the volume of contacts, a supervisor standing nearby will not change the behaviour much."
+      },
+      {
+        "type": "pullquote",
+        "text": "The roadshow is not the risk. The incentive scheme that fills the roadshow is the risk."
+      },
+      {
+        "type": "paragraph",
+        "text": "The supervision requirement is also a real cost line. Qualified supervisors at every event is a budget and capacity decision, and in a large tied agency force it may quietly cut the number of events. Boards should understand that trade-off before management makes it for them."
+      },
+      {
+        "type": "heading",
+        "text": "What I would ask at the next risk committee"
+      },
+      {
+        "type": "list",
+        "items": [
+          "How many public prospecting events do we run each month, through which channels, and who supervises each one today?",
+          "Which incentive or recruitment campaigns drive event volume, and do any of them reward contact numbers rather than suitable sales?",
+          "How do complaints, free-look cancellations and early lapses on business written at events compare with our other channels?",
+          "Does our [risk appetite framework](/insights/risk-appetite-framework-singapore) carry a conduct metric for face-to-face distribution, or only for digital?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS has given the industry a long runway, which is exactly why boards should use it. The [2025/2026 Enforcement Report](/insights/mas-enforcement-report-2026-singapore-boards) is a reminder that MAS asks whether management and the board saw a problem coming, not just whether the procedure was updated. My advice: put distribution conduct on the [board risk committee](/insights/board-risk-committee-singapore) agenda this quarter, while the fix is still cheap."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are MAS's new public prospecting safeguards in Singapore?",
+        "answer": "Announced on 12 October 2026, the safeguards limit public prospecting such as roadshows to designated zones within business properties, require firms to appoint suitably qualified supervisors at these events, and require representatives to disclose upfront that they are marketing financial products and obtain consent before continuing. On-street canvassing and door-to-door prospecting remain prohibited."
+      },
+      {
+        "question": "When do the MAS roadshow rules take effect for Singapore insurers?",
+        "answer": "MAS will issue updated Guidelines on Standards of Conduct for Marketing and Distribution Activities in 2027, and firms will then have a nine-month transition period to implement the safeguards. In practice, insurers with large agency forces should start mapping their events, supervisors and incentive campaigns now, because the supervision requirement has budget and capacity consequences."
+      },
+      {
+        "question": "Why should an insurance board care about roadshow conduct?",
+        "answer": "Because roadshow behaviour is driven by incentive design, recruitment targets and supervision capacity, all of which are board-level decisions about how the insurer distributes. Complaints, cancellations and early lapses from face-to-face channels are conduct risk indicators that belong in the board's risk appetite reporting, not only in the agency office's operating metrics."
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "title": "Nominating Committee Succession Planning in Singapore: The Job Most Boards Skip",
+    "summary": "The Code of Corporate Governance asks Singapore nominating committees to plan succession for directors, not just the CEO. Most skip the board itself. Here is what real board succession planning looks like, and why the nine-year rule has turned it into a deadline.",
+    "category": "Board Advisory",
+    "readingTime": "7 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-16",
+    "status": "published",
+    "slug": "nominating-committee-succession-planning-singapore",
+    "keywords": [
+      "nominating committee succession planning Singapore",
+      "board succession planning Singapore",
+      "director succession plan Singapore listed company",
+      "board renewal nine-year rule Singapore",
+      "board skills matrix Singapore"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "The hardest board vacancy I have dealt with was not a CEO. It was an audit committee chair who stepped down at short notice for health reasons, three months before year-end. We had a CEO succession plan with named internal candidates and an emergency cover arrangement. For the audit committee chair we had nothing. The remaining independent directors were capable people, but none of them had chaired an audit committee through a year-end close with a regulator watching. We got through it by borrowing time from everyone, and I promised myself I would not sit on another board that had a plan for the CEO and none for its own key seats. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "heading",
+        "text": "What the Code actually asks the nominating committee to do"
+      },
+      {
+        "type": "paragraph",
+        "text": "Provision 4.1 of the Code of Corporate Governance 2018 sets out the nominating committee's duties, and the first is to make recommendations on the review of succession plans for directors, in particular the appointment or replacement of the board chair, the CEO and key management personnel. Note the order. Directors come first. Yet when I read Singapore annual reports, the succession paragraph almost always describes CEO and management succession. Director succession appears, if at all, as one sentence about board renewal with no detail behind it."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a reason for that. CEO succession is a management process the NC oversees from a comfortable distance. Director succession asks the NC to plan for the replacement of its own colleagues, sometimes including its own chair. That is awkward, so it gets deferred until a vacancy forces the conversation."
+      },
+      {
+        "type": "heading",
+        "text": "Why the nine-year rule turned good practice into a deadline"
+      },
+      {
+        "type": "paragraph",
+        "text": "SGX's hard limit on independent director tenure means every independent director now has a known end date as an independent. You can read it off the annual report. A board that cannot tell you today who will chair its audit and risk committees in three years is choosing not to look. I have written before about how [the tenure clock hits committees before it hits individuals](/insights/sgx-independent-director-tenure-clock): one reclassification can drop a three-person committee below its independence minimum overnight."
+      },
+      {
+        "type": "paragraph",
+        "text": "For insurers the runway is longer still. MAS Notice 106 already requires regulatory approval for director, chair and nominating committee appointments, and MAS's 30 September 2026 consultation proposes [prior approval for the nominating committee chair itself](/insights/mas-nominating-committee-chair-approval-singapore). Add fit-and-proper checks and a strong candidate's notice period elsewhere, and in my experience a realistic lead time for a regulated board seat is nine to twelve months."
+      },
+      {
+        "type": "pullquote",
+        "text": "If your board cannot name who will chair its audit committee in three years, it does not have a succession plan. It has a calendar."
+      },
+      {
+        "type": "heading",
+        "text": "What a working director succession plan contains"
+      },
+      {
+        "type": "paragraph",
+        "text": "The best nominating committees I have worked with keep this to a few pages and refresh it every year. It is not a long document. It is a set of answers to questions most boards never write down."
+      },
+      {
+        "type": "list",
+        "items": [
+          "A tenure map: every director's appointment date, the date they cross nine years, and their re-election cycle, laid against committee memberships for the next five years.",
+          "Named successors for the key seats: board chair, lead independent director, and the chairs of the audit, risk, remuneration and nominating committees. Ideally one internal candidate already sitting on that committee and one external profile.",
+          "Emergency cover: who chairs each committee at a week's notice if the incumbent cannot, agreed in advance with the director concerned.",
+          "A skills matrix tied to strategy, not to the current board. If the strategy says digital distribution, climate risk and regional growth, the matrix should show where those skills will come from in three years. This is also where the [board diversity conversation](/insights/board-diversity-singapore-listed-companies) becomes practical rather than a target.",
+          "A standing external pipeline: a short list of candidates the NC has already met, refreshed every year, so that no search starts from zero."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The clustering trap"
+      },
+      {
+        "type": "paragraph",
+        "text": "The quietest risk in director succession is clustering. Boards tend to recruit in waves. A new chair arrives and brings in two or three directors in the same year, and nine years later they all hit the tenure limit together. I have seen boards facing the loss of half their independent directors within eighteen months, with the audit and risk committee chairs among them."
+      },
+      {
+        "type": "paragraph",
+        "text": "The fix is to stagger on purpose. Sometimes that means asking a strong director to step off a year earlier than they need to. Sometimes it means bringing a new director onto the board a year before a seat opens, so they can sit on the committee and learn how it really works before they chair it. That second move costs a year of director fees. It is the cheapest insurance a board can buy."
+      },
+      {
+        "type": "heading",
+        "text": "How to tell whether your nominating committee is doing this job"
+      },
+      {
+        "type": "paragraph",
+        "text": "Three tests. Ask the NC chair to name the likely successor for each committee chair without looking at the papers. Ask when the NC last met a potential director who was not referred by someone already on the board. And look at your [board effectiveness evaluation](/insights/board-effectiveness-evaluation-singapore): if it never asks whether the board has the skills it will need in three years, the evaluation and the succession plan are not talking to each other."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this replaces CEO succession, which deserves its own disciplined process. But a board that plans carefully for the CEO and not for itself has its priorities upside down, because the board is the body that has to manage a CEO transition when it comes. A board in the middle of its own disorderly renewal is in no position to do that well."
+      },
+      {
+        "type": "heading",
+        "text": "What I recommend"
+      },
+      {
+        "type": "paragraph",
+        "text": "Put director succession on the nominating committee agenda as a standing annual item, separate from CEO succession, and take the tenure map to the full board once a year so every director sees the same picture. It takes one meeting to build and a couple of hours a year to maintain. The alternative is the scramble I described at the start, and every board I know that has been through one wishes it had spent those hours earlier. If you want an independent view of where your board's succession gaps sit, [this is work I do with Singapore boards](/advisory)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the nominating committee's role in succession planning in Singapore?",
+        "answer": "Under Provision 4.1 of the Code of Corporate Governance 2018, the nominating committee makes recommendations to the board on the review of succession plans for directors, in particular the appointment or replacement of the board chair, the CEO and key management personnel. That covers the board's own key seats, such as committee chairs, not only CEO and management succession."
+      },
+      {
+        "question": "How far ahead should a Singapore board plan director succession?",
+        "answer": "A useful nominating committee succession plan looks five years ahead on tenure and committee composition, because SGX's nine-year limit on independent director tenure makes end dates predictable. Searches for listed-company directors typically need six to twelve months, and MAS-regulated insurers and banks should allow longer because of regulatory approval and fit-and-proper requirements."
+      },
+      {
+        "question": "Does the SGX nine-year rule mean boards need a formal succession plan?",
+        "answer": "The rule does not mandate a written plan, but it makes one unavoidable in practice. An independent director who passes nine years can no longer be counted as independent, which can push audit, risk or remuneration committees below their independence requirements. Boards that map tenure against committee seats several years ahead avoid forced, rushed appointments."
+      },
+      {
+        "question": "What should a board skills matrix in Singapore include?",
+        "answer": "It should list the skills the board will need to oversee the company's strategy over the next three to five years, such as risk, audit and finance, technology, sustainability, industry and regional experience, and show which current directors cover each one and when they are due to leave. The gaps it reveals should drive the nominating committee's search priorities."
       }
     ]
   }
