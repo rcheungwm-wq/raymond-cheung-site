@@ -59,5 +59,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ca-lab.isca.org.sg",
+        "url": "https://ca-lab.isca.org.sg/?p=5571",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ca-lab.isca.org.sg",
+        "url": "https://ca-lab.isca.org.sg/seen-heard/gaps-in-whistleblowing-policies-in-sgx-companies-study/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/blog/press-release/article/study-by-national-university-of-singapore-business-school-reveals-inadequacies-in-whistleblowing-policies-among-sgx-listed-issuers",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "bschool.nus.edu.sg",
+        "url": "https://bschool.nus.edu.sg/cip/wp-content/uploads/sites/144/2025/02/Will-You-Listen.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "focusmalaysia.my",
+        "url": "https://focusmalaysia.my/?p=45051",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "theworldlawgroup.com",
+        "url": "https://www.theworldlawgroup.com/membership/news/news-2024-wlg-whistleblower-guide-singapore",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "governanceforstakeholders.com",
+        "url": "https://governanceforstakeholders.com/2025/02/27/new-report-on-whistleblowing-policies-of-sgx-listed-issuers-by-centre-for-investor-protection",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "webiis08.mondaq.com",
+        "url": "https://webiis08.mondaq.com/whistleblowing/1600562/2024-wlg-whistleblower-guide-singapore",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "ir-impact.com",
+        "url": "https://www.ir-impact.com/2020/02/singapore-exchange-announces-whistleblowing-policy/",
+        "title": ""
+      }
+    ]
   }
 ]

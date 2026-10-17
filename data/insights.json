@@ -6516,5 +6516,215 @@
         "answer": "It should list the skills the board will need to oversee the company's strategy over the next three to five years, such as risk, audit and finance, technology, sustainability, industry and regional experience, and show which current directors cover each one and when they are due to leave. The gaps it reveals should drive the nominating committee's search priorities."
       }
     ]
+  },
+  {
+    "id": "77",
+    "title": "What MAS's FIDReC Proposal Means for Singapore Payment Firm Boards",
+    "summary": "MAS's 16 October 2026 consultation would require Singapore payment institutions, and later stablecoin issuers, to join FIDReC. For boards of payment firms, an independent disputes body turns customer complaints from an operations metric into a governance signal the board will be judged on.",
+    "category": "Regulation",
+    "readingTime": "3 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-17",
+    "status": "published",
+    "slug": "fidrec-payment-service-providers-singapore-boards",
+    "keywords": [
+      "FIDReC payment service providers Singapore",
+      "MAS consultation P017-2026",
+      "payment institution board governance Singapore",
+      "customer complaints governance Singapore board"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "When I was running a regulated business that had grown fast on digital distribution, the complaints report reached the board as a single number with a green arrow next to it. The number was small because the process for logging a complaint was hard to find, not because customers were happy. It took an external escalation, a customer who went straight to the regulator, before anyone asked what the green arrow was actually measuring. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "heading",
+        "text": "What MAS has proposed"
+      },
+      {
+        "type": "paragraph",
+        "text": "On 16 October 2026, MAS opened consultation P017-2026 on expanding membership of the Financial Industry Disputes Resolution Centre (FIDReC) to payment service providers. Major Payment Institution and Standard Payment Institution licensees would have to subscribe to FIDReC, and so would MAS-regulated stablecoin issuers once the stablecoin framework takes effect. Comments close on 30 November 2026 ([MAS consultation](https://www.mas.gov.sg/publications/consultations/2026/consultation-on-expanding-fidrec-membership-to-psps))."
+      },
+      {
+        "type": "paragraph",
+        "text": "Banks and insurers have lived under FIDReC for years. For many payment firms, this is the first time an independent body outside the company will sit between them and an unhappy customer."
+      },
+      {
+        "type": "heading",
+        "text": "Why this is a board question"
+      },
+      {
+        "type": "paragraph",
+        "text": "My view is simple. A disputes body does not change what customers experience. It changes what the board can no longer avoid seeing. Today a payment firm can resolve, delay or quietly absorb complaints, and the board sees whatever management chooses to summarise. Once FIDReC is in the picture, unresolved complaints go somewhere external, outcomes create a record, and patterns in that record become visible to MAS."
+      },
+      {
+        "type": "pullquote",
+        "text": "A disputes body does not change what customers experience. It changes what the board can no longer avoid seeing."
+      },
+      {
+        "type": "paragraph",
+        "text": "That makes complaints a conduct risk indicator, not a customer service statistic. It belongs in the same reporting line as fraud losses and operational incidents, which is where I would put it in any [risk appetite framework that is meant to drive decisions](/insights/risk-appetite-framework-singapore). The firms building stablecoin businesses should read this alongside the [MAS stablecoin licensing framework](/insights/mas-stablecoin-licensing-framework-singapore-boards): redemption disputes are exactly the kind of case that will land at FIDReC first."
+      },
+      {
+        "type": "heading",
+        "text": "What I would ask management before 30 November"
+      },
+      {
+        "type": "list",
+        "items": [
+          "How many complaints did we receive last quarter, and how many customers gave up before a complaint was logged?",
+          "What share of complaints would plausibly have gone to an external disputes body, and what would those cases say about us?",
+          "Who owns root-cause analysis on complaints, and when did a complaint last change a product or process?",
+          "Do we want to respond to the consultation, and who on the board has read it?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Payment firm boards in Singapore have spent the last few years focused on licensing, AML and technology risk. This proposal adds the customer's voice to that list. The boards that treat it as a reporting upgrade, rather than a membership fee, will be the ones MAS has the fewest questions for. The same lesson runs through MAS's [latest enforcement report](/insights/mas-enforcement-report-2026-singapore-boards): problems that reach the regulator first are usually problems the board was never shown."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is MAS consultation P017-2026 on FIDReC membership?",
+        "answer": "Published on 16 October 2026, P017-2026 proposes requiring Major Payment Institution and Standard Payment Institution licensees in Singapore to subscribe to FIDReC, the Financial Industry Disputes Resolution Centre. MAS-regulated stablecoin issuer licensees would also have to join once the stablecoin framework takes effect. The consultation closes on 30 November 2026."
+      },
+      {
+        "question": "Which Singapore payment firms would have to join FIDReC?",
+        "answer": "Under the proposal, Major Payment Institution and Standard Payment Institution licensees under the Payment Services Act, plus MAS-regulated stablecoin issuers once that regime is in force. Banks and insurers are already FIDReC members, so the change mainly affects non-bank payment and digital payment token businesses."
+      },
+      {
+        "question": "What should a payment institution's board do about the FIDReC proposal?",
+        "answer": "Treat complaints as a conduct risk indicator in board reporting, not a customer service metric. Ask management for complaint volumes, resolution times, root causes and which cases would likely escalate to an external disputes body, and decide whether the firm should respond to the consultation before it closes on 30 November 2026."
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "title": "Whistleblowing Governance in SGX Companies: Why Policies Fail",
+    "summary": "Whistleblowing governance in Singapore listed companies is weaker than the policies suggest. SGX has required a whistleblowing policy since 2022, but an NUS study of 536 issuers found most fall short on independence and protection. Here is what a board should actually own.",
+    "category": "Governance",
+    "readingTime": "6 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-17",
+    "status": "published",
+    "slug": "whistleblowing-governance-sgx-listed-companies",
+    "keywords": [
+      "whistleblowing governance Singapore listed companies",
+      "SGX whistleblowing policy requirements",
+      "audit committee whistleblowing oversight Singapore",
+      "Listing Rule 1207(18A) whistleblowing"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Some years ago, as a statutory CRO, I was handed a whistleblowing report that had taken eleven months to reach anyone senior. It had been sent to the right inbox. The inbox belonged to a function that reported to the executive whose team the complaint was about. Nobody had done anything improper with it. It simply sat, because the person responsible for routing it had every reason not to. When it finally reached the audit committee, the issue it described had grown from a control gap into a loss. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "That experience shaped how I look at whistleblowing. Most Singapore boards I advise have a policy. Far fewer have whistleblowing governance, meaning a channel the board can trust to bring bad news to it quickly, without being filtered by the people the news is about."
+      },
+      {
+        "type": "heading",
+        "text": "What SGX actually requires"
+      },
+      {
+        "type": "paragraph",
+        "text": "Since 1 January 2022, SGX-listed issuers have had to maintain a whistleblowing policy and disclose it in the annual report. The Listing Rules require an independent function to investigate reports, a commitment to protect the whistleblower's identity and to guard against retaliation, and oversight by the audit committee. Under the Code of Corporate Governance, the audit committee reviews the policy and the arrangements through which staff can raise concerns about possible improprieties."
+      },
+      {
+        "type": "paragraph",
+        "text": "On paper, that is a sound framework. In practice, the evidence says most issuers have done the minimum. The NUS Business School Centre for Investor Protection reviewed the whistleblowing disclosures of 536 SGX primary-listed issuers in its 2025 report, \"Will You Listen?\". The average score was 20.6 out of 40. Only 54.7% scored 20 or more, and fewer than 10% reached 30. Nearly a quarter, 23.7%, did not disclose having a designated independent function to investigate reports at all ([NUS Business School](https://bschool.nus.edu.sg/blog/press-release/article/study-by-national-university-of-singapore-business-school-reveals-inadequacies-in-whistleblowing-policies-among-sgx-listed-issuers))."
+      },
+      {
+        "type": "paragraph",
+        "text": "Singapore also has no overarching whistleblower protection statute. For a listed company employee, the company's own arrangements are often the main protection they have. That puts more weight on the board, not less."
+      },
+      {
+        "type": "pullquote",
+        "text": "A whistleblowing policy tells staff where to report. Whistleblowing governance decides whether the report survives the trip to the board."
+      },
+      {
+        "type": "heading",
+        "text": "Where whistleblowing governance breaks down"
+      },
+      {
+        "type": "paragraph",
+        "text": "In my experience the failures are rarely about the wording of the policy. They are about plumbing and incentives. Four patterns come up again and again."
+      },
+      {
+        "type": "list",
+        "items": [
+          "The channel routes through management. If reports land with HR, legal or internal audit staff who report day to day to the CEO or CFO, the channel is only as independent as the least conflicted person in that chain.",
+          "The audit committee sees counts, not cases. A line saying \"three reports received, all closed\" tells the committee nothing about what was alleged, who investigated, or whether the outcome was credible.",
+          "Nobody tracks what happens to the whistleblower. Retaliation in a Singapore workplace is rarely dramatic. It looks like a missed promotion, a changed reporting line or a quiet exit twelve months later.",
+          "Silence is read as good news. A business with thousands of staff and almost no reports does not have a clean culture. It usually has a channel nobody trusts."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The last point is the one I push hardest. When I see a low report count, my first question is not \"good\" but \"how do we know people would use it?\" Low volume in a large organisation is a risk signal, the same way an unusually clean audit can be."
+      },
+      {
+        "type": "paragraph",
+        "text": "Family-controlled and founder-led companies, which make up a large part of the SGX board, face a sharper version of this problem. When the people most likely to be named in a report are also the controlling shareholders, staff know it. The channel has to be visibly owned by the independent directors, or it will not be used for the cases that matter most."
+      },
+      {
+        "type": "heading",
+        "text": "What the board should actually own"
+      },
+      {
+        "type": "paragraph",
+        "text": "The audit committee is the natural owner under the Code, but ownership has to mean more than approving the policy every two years. If your [board risk committee and audit committee](/insights/board-risk-committee-singapore) split oversight, decide explicitly which one sees misconduct reports in full. These are the arrangements I recommend."
+      },
+      {
+        "type": "list",
+        "items": [
+          "A direct line to the audit committee chair. At least one reporting route should bypass management entirely, whether an external hotline provider or the chair's own contact details.",
+          "Case-level reporting. The audit committee should see every report above a defined severity, with the allegation, the investigator, the timeline and the outcome, not just totals.",
+          "Independence of the investigator, decided case by case. When a report touches senior management, the committee, not management, should appoint who investigates.",
+          "Retaliation monitoring. For an agreed period after a report, someone independent should check what happens to the reporter's role, rating and pay.",
+          "A trust test. Ask in staff surveys whether people would feel safe raising a concern, and compare the answer to report volumes by business unit."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this needs a large budget. It needs the audit committee chair to treat whistleblowing as an early-warning system for the board, not as a compliance artefact. When I review a board's arrangements, the question I ask the chair is direct: if someone in finance saw something wrong tomorrow, how many days before you would know?"
+      },
+      {
+        "type": "heading",
+        "text": "Why this matters more now"
+      },
+      {
+        "type": "paragraph",
+        "text": "Singapore's governance agenda is moving towards outcomes rather than disclosures. SGX RegCo has been more willing to query issuers on the substance behind their statements, as it did with [remuneration disclosures](/insights/director-remuneration-disclosure-singapore-sgx). Shareholders read governance failures through the lens of what the board knew and when, which is the lesson of every recent [Singapore boardroom dispute](/insights/cdl-boardroom-feud-governance-lesson-singapore) that became public. A whistleblowing report that sat unread for months is evidence of exactly the wrong answer."
+      },
+      {
+        "type": "paragraph",
+        "text": "It is also a useful test in your next [board effectiveness evaluation](/insights/board-effectiveness-evaluation-singapore). Ask directors when they last heard about a problem from a whistleblower before management raised it. If nobody can remember, that tells you something about the channel."
+      },
+      {
+        "type": "paragraph",
+        "text": "My recommendation is to run one exercise before the next annual report cycle: trace three real reports from the past two years end to end, from the moment they were made to the moment the audit committee heard about them. The gaps will show you where your whistleblowing governance actually sits. If you would like an independent view of how your arrangements would hold up, [get in touch](/contact)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do SGX-listed companies have to have a whistleblowing policy?",
+        "answer": "Yes. Since 1 January 2022, the SGX Listing Rules have required issuers to establish a whistleblowing policy and disclose it in the annual report. The rules require an independent function to investigate reports, commitments to protect whistleblowers' identity and against retaliation, and oversight by the audit committee."
+      },
+      {
+        "question": "Who should oversee whistleblowing in a Singapore listed company?",
+        "answer": "The audit committee, under both the Listing Rules and the Code of Corporate Governance. In practice, good whistleblowing governance means the audit committee sees case-level reports, decides who investigates matters involving senior management, and has at least one reporting channel that bypasses management entirely."
+      },
+      {
+        "question": "How well do SGX companies comply with whistleblowing requirements?",
+        "answer": "Not well, based on disclosures. The NUS Centre for Investor Protection's 2025 study of 536 SGX primary-listed issuers found an average score of 20.6 out of 40, with fewer than 10% scoring 30 or above and 23.7% not disclosing a designated independent investigation function."
+      },
+      {
+        "question": "Is a low number of whistleblowing reports a good sign for a Singapore board?",
+        "answer": "Not necessarily. In a large organisation, very few reports usually means staff do not trust the channel rather than that nothing is wrong. Boards should compare report volumes with staff survey results on whether people feel safe speaking up, and investigate business units that are unusually quiet."
+      }
+    ]
   }
 ]
