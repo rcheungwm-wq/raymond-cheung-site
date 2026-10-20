@@ -352,5 +352,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-19",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tliap.nus.edu.sg",
+        "url": "https://www.tliap.nus.edu.sg/about/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/cas/our-people/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "niei.nie.edu.sg",
+        "url": "https://niei.nie.edu.sg/about-us/board-directors",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "nhb.gov.sg",
+        "url": "https://www.nhb.gov.sg/-/media/nhb/files/about-us/management/nhb-boards-list-010824.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "indianheritage.gov.sg",
+        "url": "https://www.indianheritage.gov.sg/en/about-us/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "insurancenews.com.au",
+        "url": "https://insurancenews.com.au/corporate/chartis-asia-pacific-appoints-advisory-board",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "nhb.gov.sg",
+        "url": "https://www.nhb.gov.sg/-/media/nhb/files/about-us/management/nhb-boards-subboards-and-advisory-panels-as-of-30-april-2024.pdf",
+        "title": ""
+      }
+    ]
   }
 ]

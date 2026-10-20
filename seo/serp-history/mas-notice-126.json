@@ -328,5 +328,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/publications/consultations/2021/cp-on-proposed-revisions-to-enterprise-risk-mgt-investment-n-public-disclosure-req-for-insurers",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/circulars/id01_26",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "compliance.waystone.com",
+        "url": "https://compliance.waystone.com/wp-content/uploads/2024/05/WCS-APAC-Regulatory-Update-April-2024.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "regalert.today",
+        "url": "https://regalert.today/SEA/SG",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "asiainsurancereview.com",
+        "url": "https://asiainsurancereview.com/News/View-NewsLetter-Article/id/82754/type/eDaily/Conferences/Gallery",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "axiomlaw.com",
+        "url": "https://www.axiomlaw.com/en-sg/mas-notice-658-1121",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "compliance.waystone.com",
+        "url": "https://compliance.waystone.com/?p=31119",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "legalbusinessonline.com",
+        "url": "https://legalbusinessonline.com/taxonomy/term/5568",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singaporelawwatch.sg",
+        "url": "https://www.singaporelawwatch.sg/Notices-Directions/law-soc-covid-19-related-money-laundering-and-terrorist-financing-risks-and-policy-responses",
+        "title": ""
+      }
+    ]
   }
 ]
