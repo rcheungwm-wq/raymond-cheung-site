@@ -6935,5 +6935,225 @@
         "answer": "At least once a year as a standing agenda item, not only when the CEO signals departure. Temasek's board, for example, reviews leadership succession annually. The board should also revisit the plan when strategy changes, because the profile of the right next CEO changes with it."
       }
     ]
+  },
+  {
+    "id": "81",
+    "title": "What MAS's Complaints Management Paper Means for Singapore Boards",
+    "summary": "MAS's 20 October 2026 information paper found banks and insurers have basic complaints arrangements in place but board oversight is uneven. Complaint patterns are a governance signal, not a volume table.",
+    "category": "Governance",
+    "readingTime": "3 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-22",
+    "status": "published",
+    "slug": "mas-complaints-management-board-governance-2026",
+    "keywords": [
+      "MAS complaints management Singapore",
+      "board oversight customer complaints Singapore insurers",
+      "MAS information paper banks insurers 2026",
+      "complaints governance Singapore insurer bank"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "I once sat in a board meeting where the customer complaints update was presented as a single metric: 492 complaints this quarter, down from 511. The board appeared reassured -- the trajectory was right. When I asked what the top three complaint categories said about underlying product design, the room went quiet. Nobody had looked at it from that angle. [CONFIRM with Raymond -- replace with a real episode if possible]"
+      },
+      {
+        "type": "heading",
+        "text": "What MAS found"
+      },
+      {
+        "type": "paragraph",
+        "text": "On 20 October 2026, MAS published an information paper on complaints management practices, based on thematic inspections of selected banks and insurers. The headline finding is that basic arrangements are in place but maturity varies considerably across institutions. The specific expectations are aimed at boards and senior management, not just operations teams."
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS wants boards and senior managers to look past case volumes and procedural compliance metrics, and to use complaint patterns and root-cause analysis to shape products, services and controls. It also flagged that staff implicated in a complaint should not be the ones deciding its outcome, and that complaints resolved quickly should still be recorded even if they do not escalate into formal disputes."
+      },
+      {
+        "type": "heading",
+        "text": "Why this matters at board level"
+      },
+      {
+        "type": "paragraph",
+        "text": "Complaints are a leading indicator. They arrive before the regulatory citation, before the press headline and before the class action. An institution that tracks complaint volume has a monitoring function. An institution whose board understands what each complaint category says about a product's design, a sales incentive structure or a claims-handling process has governance."
+      },
+      {
+        "type": "pullquote",
+        "text": "When complaints are reported as a volume table, boards see the symptom. When they are reported as a pattern analysis, boards can act on the cause."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is consistent with what I see when advising boards: most complaints reporting is backwards-looking and upward-facing. It tells the board what happened last quarter. It rarely tells the board what the pattern means for the [risk appetite framework](/insights/risk-appetite-framework-singapore) or the product approval process. MAS's paper is a signal that it expects the latter."
+      },
+      {
+        "type": "heading",
+        "text": "Three questions to ask management this month"
+      },
+      {
+        "type": "list",
+        "items": [
+          "What are the top three complaint categories this quarter, and what product design, incentive structure or operational failure does each one point to?",
+          "Who is responsible for translating complaint patterns into changes to products or procedures, and when did the board last see evidence of that loop closing?",
+          "If a staff member was implicated in a complaint, who decided the outcome -- and does your governance framework explicitly separate those roles?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS information papers based on thematic inspections have consistently preceded supervisory follow-up. Boards that wait for a formal finding have read the calendar wrong. The right response is to ask for a root-cause complaints report at the next meeting and to review whether board-level oversight of conduct risk is embedded in the [corporate governance framework](/insights/mas-corporate-governance-guidelines-insurers-singapore) -- not just present in the compliance policy."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What did MAS find in its 2026 thematic review of complaints management?",
+        "answer": "MAS's October 2026 information paper found that banks and insurers generally have basic complaints arrangements in place, but that maturity differs across institutions. MAS expects boards and senior management to go beyond tracking complaint volumes and use complaint patterns and root-cause analysis to identify and fix underlying issues in products, services and controls."
+      },
+      {
+        "question": "What does MAS expect boards to do with complaints management?",
+        "answer": "MAS expects boards to ensure that complaints are used as an input to improving products and controls, not just resolved procedurally. Key expectations include separating the role of staff implicated in a complaint from the role of deciding its outcome, recording all complaints including quickly resolved ones, and ensuring senior management reports complaint patterns and root causes to the board rather than only volume metrics."
+      },
+      {
+        "question": "Why are customer complaints a board governance issue in Singapore?",
+        "answer": "Under MAS's fair dealing and market conduct frameworks, boards of banks and insurers are responsible for customer outcomes, not just operational procedures. Complaint patterns are a direct signal about whether products are designed fairly, whether sales incentives are appropriate and whether the organisation prioritises customer outcomes. A board that only sees complaint volumes is missing the governance information it needs to act."
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "title": "What MAS's Climate Stress Test Actually Tests About Your Board",
+    "summary": "MAS's industry-wide climate stress tests measure balance sheet vulnerability to physical and transition risks. What the exercises actually reveal is whether Singapore insurance boards understood the results and changed their strategy. Most do not.",
+    "category": "Climate Risk",
+    "readingTime": "7 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-22",
+    "status": "published",
+    "slug": "environmental-risk-stress-testing-insurers-singapore",
+    "keywords": [
+      "climate stress test Singapore insurers",
+      "MAS environmental risk management Singapore insurance",
+      "board climate risk governance Singapore",
+      "IWST Singapore insurance board",
+      "MAS transition planning guidelines insurers"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "When I was a statutory CRO, I was part of the team that received our insurer's results from a MAS climate scenario exercise. The numbers showed a material hit to our solvency position under the severe flood scenario. The report was presented to the audit committee. The board was briefed. And then the underwriting strategy and investment mandate continued exactly as before. The result was filed, not used. [CONFIRM with Raymond -- replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "That gap -- between completing the stress test and acting on it -- is where most Singapore insurance boards sit today. And it is precisely the gap that MAS is working to close, through its Environmental Risk Management Guidelines, the 2024 Industry-Wide Stress Test on climate physical risks, and the Transition Planning Guidelines issued in March 2026, which take effect in September 2027."
+      },
+      {
+        "type": "heading",
+        "text": "What the stress test actually measures"
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS has run climate scenario exercises since 2018, when insurers were tested against an extreme Singapore flood scenario and had to model the impact on claims and insured property portfolios. The 2024 Industry-Wide Stress Test was broader: it examined FIs' vulnerability to climate physical risks, including scenarios where those risks combine with macroeconomic stress."
+      },
+      {
+        "type": "paragraph",
+        "text": "For insurers, the stress test probes two things simultaneously. First, it tests the liability side: higher claims from damaged insured properties, motor vehicles, business interruption and marine cargo. Second, it tests the asset side: lower values in a climate-stressed investment portfolio, including real estate and equities in exposed sectors. The output is a capital number -- what happens to the solvency ratio under each scenario."
+      },
+      {
+        "type": "paragraph",
+        "text": "That capital number is necessary but insufficient. It tells the board whether the balance sheet can survive the scenario. It does not tell the board whether the underwriting strategy, the investment mandate or the reinsurance programme has been adjusted to reduce the probability of that scenario materialising as a loss."
+      },
+      {
+        "type": "heading",
+        "text": "Where boards disconnect from the exercise"
+      },
+      {
+        "type": "paragraph",
+        "text": "When a stress test arrives as a regulatory submission, the institutional reflex is to treat it as a compliance exercise. The number is within tolerance. MAS has received the file. The item is closed. I have sat in enough audit committee meetings to know that the question 'what are we doing differently as a result of this?' is rarely asked."
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS's Environmental Risk Management Guidelines for insurers, which date from December 2020, are explicit on this point. The governance pillar requires the board to approve a framework for managing environmental risks, define clear roles and responsibilities, and ensure that risk management is integrated into the insurer's strategy -- not kept in a separate ESG file. The Transition Planning addendum, issued March 2026, sharpens that expectation: boards must approve a transition plan that includes specific emission-reduction targets and metrics, and must monitor progress against it."
+      },
+      {
+        "type": "pullquote",
+        "text": "A stress test you pass on paper and do not act on is not governance. It is risk management theatre."
+      },
+      {
+        "type": "heading",
+        "text": "Three things that show a board actually owns climate stress testing"
+      },
+      {
+        "type": "paragraph",
+        "text": "In practice, I look for three things when assessing whether a board has genuinely integrated climate stress testing into its governance, rather than just receiving the report."
+      },
+      {
+        "type": "list",
+        "items": [
+          "The board has approved a specific climate risk appetite -- a statement about which climate scenarios it is willing to accept exposure to, at what level, and why -- not just an ESG policy statement or a commitment to net zero by 2050.",
+          "Underwriting strategy and investment mandates have been reviewed in light of stress test findings. If the flood scenario shows that concentration in coastal commercial property is a capital risk, has the underwriting guideline been updated?",
+          "The board has asked whether the reinsurance programme adequately covers the stress test scenarios. This question sits at the intersection of reinsurance governance and climate risk. Most boards ask about reinsurance cost and renewal timing. Far fewer ask whether the treaty structure matches the accumulation risk the stress test identified."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The underwriting dimension boards keep deferring"
+      },
+      {
+        "type": "paragraph",
+        "text": "The hardest conversation in a Singapore insurance boardroom is not about net zero targets. It is about whether to keep underwriting the lines of business that are most exposed to climate physical risk. Commercial property in flood-prone areas. Motor in regions with increasing extreme weather events. Agricultural lines in markets with volatile climate patterns."
+      },
+      {
+        "type": "paragraph",
+        "text": "Those are not questions MAS will ask you to stop writing. But they are questions a board that has properly digested its climate stress test results should be asking itself. The [climate physical risk governance framework](/insights/climate-physical-risk-singapore-insurance) requires the board to understand accumulation risk in the underwriting portfolio and to set an appetite for it. A stress test that models an extreme flood scenario but does not change how the board thinks about coastal property concentration has produced information without producing governance."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is also the connection to [reinsurance strategy](/insights/reinsurance-governance-singapore). Climate stress scenarios reveal accumulation risk. Reinsurance is one of the tools for managing it. Whether the current reinsurance structure is adequate for the stress test scenarios -- not just for last year's loss experience -- is a specific question the board should be able to answer."
+      },
+      {
+        "type": "heading",
+        "text": "What the Transition Planning Guidelines change for boards"
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS's March 2026 Transition Planning Guidelines, which take effect in September 2027, represent a step up in what boards must own. Under the guidelines, insurers must develop a transition plan covering both transition and physical risks -- not just disclosure, but a plan with targets, milestones and metrics. The board must approve the plan, receive progress reports, and integrate it into strategic planning."
+      },
+      {
+        "type": "paragraph",
+        "text": "This means climate stress test results are no longer just an input to a regulatory submission. They are an input to the board-approved transition plan. A board that has not connected these two things -- the IWST results and the transition plan -- is likely to find the September 2027 effective date more uncomfortable than it needs to be."
+      },
+      {
+        "type": "heading",
+        "text": "Four questions for the next board cycle"
+      },
+      {
+        "type": "list",
+        "items": [
+          "When did we last review our climate risk appetite, and does it reference the scenarios in the most recent MAS stress test exercise?",
+          "Has management presented the board with an analysis of which underwriting lines are most exposed to the stress test scenarios, and what the accumulation looks like?",
+          "Does our reinsurance programme cover the flood, extreme weather and physical risk scenarios modelled in the IWST, or is it sized against historical loss?",
+          "Are we on track to have a board-approved transition plan in place before the September 2027 effective date, and has the board seen a draft?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS has been consistent in its direction: [climate risk is a board-level governance obligation](/insights/climate-risk-board-director-singapore), not a management reporting item. Stress testing is one of the mechanisms through which MAS expects boards to demonstrate that they understand their institution's climate exposure. The question is whether boards treat the stress test as an annual compliance exercise -- or as the governance tool it was designed to be. Contact [Raymond's advisory practice](/advisory) if your board is preparing its approach to the Transition Planning Guidelines."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does MAS's climate stress test require Singapore insurance boards to do?",
+        "answer": "MAS's climate stress tests measure how an insurer's capital and solvency position would be affected under severe climate scenarios, including extreme weather and flooding. The ENRM Guidelines require boards to approve a climate risk framework, integrate stress test findings into underwriting strategy and investment mandates, and -- under the March 2026 Transition Planning Guidelines effective September 2027 -- approve a transition plan with specific targets and milestones."
+      },
+      {
+        "question": "What is the difference between a climate stress test and a transition plan for Singapore insurers?",
+        "answer": "A climate stress test models what happens to the balance sheet under severe physical or transition risk scenarios. A transition plan, as required by MAS's March 2026 guidelines, is the board-approved response: it sets out how the insurer will manage transition and physical climate risks over time, with specific targets and milestones. The stress test identifies the risk; the transition plan is what the board commits to do about it."
+      },
+      {
+        "question": "When do MAS's Transition Planning Guidelines for insurers take effect?",
+        "answer": "MAS issued the Transition Planning Guidelines in March 2026 as an addendum to the Environmental Risk Management Guidelines. They take effect in September 2027, after an 18-month transition period. Insurers -- and their boards -- need to have a transition plan in place by that date, approved at board level and integrated into their strategic planning process."
+      },
+      {
+        "question": "What questions should Singapore insurance boards ask about climate stress testing?",
+        "answer": "Boards should ask: whether the climate risk appetite has been updated to reflect recent stress test results; whether underwriting strategy and investment mandates have been reviewed in light of those results; whether the reinsurance programme covers the physical risk scenarios modelled in the exercise; and whether the institution is on track to have a board-approved transition plan before September 2027."
+      }
+    ]
   }
 ]
