@@ -303,5 +303,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-fit-and-proper-criteria",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "complianceonline.com",
+        "url": "https://www.complianceonline.com/monetary-authority-of-singapore-guidelines-on-fit-and-proper-persons-an-overview-and-summary-of-requirements-13641-prdad",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "search.complianceonline.com",
+        "url": "https://search.complianceonline.com/articlefiles/Monetary-Authority-Singapore-Fit-and-Proper-Guidelines.pdf",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "cftc.gov",
+        "url": "https://www.cftc.gov/ucm/groups/public/@otherif/documents/ifdocs/eice24b-3masguidelinesonfitan.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/notices/notice-fhc-n106",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "tricorglobal.com",
+        "url": "https://www.tricorglobal.com/blog/guidelines-on-the-fit-and-proper-criteria-and-individual-accountability-and-conduct-for-financial-institutions-in-singapore",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/news/parliamentary-replies/2016/reply-to-parliamentary-question-on-the-fit-and-proper-guidelines-in-the-recruitment-process",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/notices/notice-106",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/enforcement-report/key-observations-from-enforcement-cases/upholding-standards-of-conduct-competence-and-accountability",
+        "title": ""
+      }
+    ]
   }
 ]

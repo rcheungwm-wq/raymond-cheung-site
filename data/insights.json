@@ -7155,5 +7155,206 @@
         "answer": "Boards should ask: whether the climate risk appetite has been updated to reflect recent stress test results; whether underwriting strategy and investment mandates have been reviewed in light of those results; whether the reinsurance programme covers the physical risk scenarios modelled in the exercise; and whether the institution is on track to have a board-approved transition plan before September 2027."
       }
     ]
+  },
+  {
+    "id": "83",
+    "title": "What SGX's CEO Succession Call Means for Singapore Boards",
+    "summary": "SGX CEO Loh Boon Chye told the exchange's AGM on 23 October 2026 that succession planning should begin, with his contract running to mid-2027. When the CEO is the one who opens the succession conversation, every Singapore board should ask who really owns its own.",
+    "category": "Governance",
+    "readingTime": "3 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-25",
+    "status": "published",
+    "slug": "sgx-ceo-succession-call-singapore-boards",
+    "keywords": [
+      "SGX CEO succession",
+      "CEO succession planning Singapore listed company",
+      "CEO contract end succession board",
+      "nominating committee CEO succession Singapore"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "When I was CEO of a Nasdaq-listed company, the succession conversation I found hardest was the one I had to start myself. Boards rarely raise it with a CEO who is delivering, and a CEO who raises it risks sounding like he is halfway out of the door. So I read Loh Boon Chye's statement at SGX's annual general meeting on 23 October with some sympathy, and with a question for every board in Singapore. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "The facts are simple. Loh has led SGX since July 2015 and his contract runs to mid-July 2027. At the AGM he said he had told the chairman that planning for an eventual transition should begin. No date has been set, and the shares moved only slightly on the news."
+      },
+      {
+        "type": "heading",
+        "text": "The signal is who started it"
+      },
+      {
+        "type": "paragraph",
+        "text": "I have no inside view of SGX's board process, and its board may well have a mature plan already. The lesson for other boards is in the sequence as it was told in public: the CEO prompting the board. In most boardrooms I have worked with, that is how CEO succession actually begins. The incumbent raises it, falls ill, or loses the board's confidence. Provision 4.1 of the Code of Corporate Governance gives the nominating committee responsibility for CEO succession plans, but a plan that only comes alive on the CEO's cue is not one the board owns."
+      },
+      {
+        "type": "pullquote",
+        "text": "If your CEO has to be the one to raise succession, the board has already handed over the timetable."
+      },
+      {
+        "type": "heading",
+        "text": "A contract end date is a governance deadline"
+      },
+      {
+        "type": "paragraph",
+        "text": "Twenty-one months sounds generous. For an organisation of SGX's profile it is not. The board has to agree a profile for the next CEO from the strategy, assess the internal bench honestly, benchmark externally, and allow for a handover overlap. For MAS-regulated institutions, the CEO appointment also needs MAS approval, which adds time. Every board should know when its CEO's contract ends and work backwards from that date at least two years out."
+      },
+      {
+        "type": "paragraph",
+        "text": "Three questions I would put to any nominating committee this quarter:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "When does our CEO's current contract end, and when did the board last discuss what happens on that date?",
+          "Would we have started this conversation if the CEO had not?",
+          "Is our emergency cover arrangement written down, approved, and known to the person who would step in?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "I set out the fuller framework in [CEO succession planning for Singapore boards](/insights/ceo-succession-planning-singapore-boards), and the director-level equivalent in [nominating committee succession planning](/insights/nominating-committee-succession-planning-singapore). Investors will tolerate a long, well-run transition. What they punish is a board that looks surprised."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When should a Singapore board start CEO succession planning before a contract ends?",
+        "answer": "In my view, at least two years before the CEO's contract end date, and earlier for regulated institutions where MAS must approve the appointment. That leaves time to agree a profile, assess internal candidates, benchmark externally and plan a handover. CEO succession planning in a Singapore listed company should be a standing agenda item, not something triggered by the contract calendar."
+      },
+      {
+        "question": "Who is responsible for CEO succession planning at an SGX-listed company?",
+        "answer": "Provision 4.1 of the Code of Corporate Governance gives the nominating committee responsibility for recommending succession plans for the CEO, the chairman and key management personnel. The full board should own the outcome. The CEO builds the internal bench but should not control the timetable."
+      },
+      {
+        "question": "Is it a bad sign when a CEO publicly calls for succession planning?",
+        "answer": "Not necessarily. A CEO who raises succession openly is often acting responsibly, and markets usually react calmly when the board follows with a clear process. The governance question is whether the board already had a plan, or only started one because the CEO asked."
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "title": "AI Model Risk Governance in Singapore Insurance Is a Separate Job",
+    "summary": "AI model risk governance in Singapore insurance is not the same job as AI governance. Many boards have approved an AI policy and an accountable executive, yet still cannot say how wrong their pricing, claims or underwriting models could be, or who would notice.",
+    "category": "Technology Risk",
+    "readingTime": "6 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-25",
+    "status": "published",
+    "slug": "ai-model-risk-governance-insurance-singapore",
+    "keywords": [
+      "AI model risk governance insurance Singapore",
+      "AI model risk management insurers Singapore",
+      "AI model validation insurance board",
+      "MAS AI model risk management"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Early in my time as statutory CRO at AIG Asia Pacific, I sat in a review of a new claims triage model. It had been through every governance step we had: a business case, a data privacy check, a fairness review, sign-off from the steering group. I asked what it would cost us if the model's fraud flags were wrong by ten percentage points for a quarter. Nobody in the room could answer. The model was well governed. Its risk had never been measured. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "I see the same gap in Singapore insurance boards today, and MAS's Guidelines on AI Risk Management, issued on 7 October 2026 and taking effect from October 2027, will expose it. Most boards have responded to AI with governance: a policy, an inventory, an accountable executive, sometimes a committee. That work is necessary. It is not model risk management, and treating the two as one job is the most common error I see."
+      },
+      {
+        "type": "heading",
+        "text": "Two different questions"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI governance asks whether we should use this AI, for what purpose, under whose authority and with what protections for customers. It is about permission and accountability. Model risk asks how wrong this model can be, how we would find out, and what it costs us when it is. It is about measurement. An insurer can answer the first set of questions perfectly and know almost nothing about the second."
+      },
+      {
+        "type": "paragraph",
+        "text": "Actuaries know the second set well. Every reserving and pricing basis I have signed off went through independent review, back-testing against actual experience, sensitivity testing and a written statement of its limitations. No board would accept a reserving model because the actuarial committee had a good charter. Yet that is roughly the standard many AI models are held to: the process looked right, so the output is assumed to be right."
+      },
+      {
+        "type": "pullquote",
+        "text": "A well-governed model can still be a badly wrong one. Governance tells you who approved it, not how far it can miss."
+      },
+      {
+        "type": "heading",
+        "text": "What MAS has already told the industry"
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS has not been silent on this. Its December 2024 information paper on AI model risk management, drawn from a thematic review of banks, described what good practice looked like: independent validation, pre-deployment testing in proportion to materiality, and monitoring after go-live. The new guidelines carry those lifecycle expectations to every financial institution, insurers included, and keep the insurer accountable for models that third parties build or supply. I covered the board accountability side in [what the MAS AI risk guidelines mean for boards](/insights/mas-ai-risk-management-guidelines-insurance-boards), and the inventory problem in [AI governance in Singapore insurance](/insights/ai-governance-insurance-singapore). This piece is about what sits underneath both."
+      },
+      {
+        "type": "heading",
+        "text": "Where conflating the two goes wrong"
+      },
+      {
+        "type": "paragraph",
+        "text": "When a board assumes its AI governance covers model risk, the same five weaknesses tend to appear:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Validation by the builders. The review is done by the data science team that built the model, or by the vendor that sold it. In actuarial work that would be marking your own homework. Model risk needs challenge from someone with no stake in the model going live.",
+          "Materiality by label, not by loss. A use case is classed as low risk because a human makes the final decision. If that human approves the model's output nine times out of ten under time pressure, the model is making the decision. Materiality should be expressed as an estimated financial and customer impact if the model is wrong.",
+          "No tolerance for model error. Most insurers' risk appetite statements say nothing about how much model error they will accept in pricing, claims or underwriting. Without a number, monitoring has nothing to trigger against, a gap I discussed in [why risk appetite frameworks fail to influence decisions](/insights/risk-appetite-framework-singapore).",
+          "Drift reported, not acted on. Dashboards show performance moving. Nobody has clear authority to pull the model when a threshold is breached, so it keeps running.",
+          "Vendor models outside the model register. Third-party AI often sits in procurement records rather than the model inventory, so it is never validated at all."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Insurers already own the missing discipline"
+      },
+      {
+        "type": "paragraph",
+        "text": "The good news is that insurers already have what is missing. The appointed actuary function, the reserving committee and the actuarial control cycle exist because the industry learnt long ago that models drive the balance sheet. My recommendation is not a new AI framework. It is to bring material AI models into the model risk framework that already governs pricing and reserving, with the same expectations of independent validation, documented limitations and periodic review."
+      },
+      {
+        "type": "paragraph",
+        "text": "That has practical consequences. The second line needs people who can genuinely challenge a gradient-boosted claims model or a language-model underwriting assistant, not just review its documentation. Where an AI model feeds pricing or reserving assumptions, the appointed actuary should see it. And the board risk committee should see model risk as its own line in the risk report, not as a paragraph inside the technology risk update. My piece on [what a board risk committee should look like](/insights/board-risk-committee-singapore) applies directly here."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this means slowing AI adoption. In my experience the insurers that validate properly deploy faster over time, because the board trusts the evidence and stops asking for another review each time a model changes."
+      },
+      {
+        "type": "heading",
+        "text": "What I would ask management for"
+      },
+      {
+        "type": "paragraph",
+        "text": "If I chaired the risk committee of a Singapore insurer today, I would ask for four things before the end of the year:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A tiered list of AI models ranked by financial and customer impact if wrong, with the top tier named and each model owned by one person.",
+          "Evidence that each top-tier model, including vendor models, was validated by someone independent of the people who built or bought it.",
+          "A stated tolerance for model error in each material area, and the thresholds that trigger review or withdrawal.",
+          "The last occasion a model was paused or changed because monitoring flagged it. If the answer is never, that is the finding."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS has given the industry until October 2027 to have its AI risk management in place. The insurers that come out of that year well will be the ones that tested their models as hard as they tested their policies. If you want an independent view of whether your board can see model risk as clearly as it sees AI governance, [this is the work I do with Singapore insurance boards](/advisory)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between AI governance and AI model risk management for Singapore insurers?",
+        "answer": "AI governance decides whether and how an insurer uses AI: policy, accountability, permitted use cases and customer protections. AI model risk management measures how wrong a specific model can be, how quickly the insurer would detect it, and what the error would cost. A Singapore insurer needs both, and boards often assume the first covers the second."
+      },
+      {
+        "question": "Do MAS's AI Risk Management Guidelines require independent validation of AI models?",
+        "answer": "The guidelines expect controls across the AI lifecycle, including evaluation before deployment and monitoring afterwards, in proportion to materiality. MAS's December 2024 information paper on AI model risk management highlighted independent validation as good practice. For material models at a Singapore insurer, I treat independent validation as the practical way to evidence those expectations."
+      },
+      {
+        "question": "Does an insurer need to validate an AI model supplied by a vendor?",
+        "answer": "Yes. Under MAS's AI Risk Management Guidelines, the insurer remains accountable for AI that third parties develop, operate or supply. Vendor assurances are an input, not a substitute. Material vendor models belong in the insurer's own model inventory and validation programme."
+      },
+      {
+        "question": "Who should oversee AI model risk on a Singapore insurance board?",
+        "answer": "The board risk committee, supported by a second-line model risk function with the technical skill to challenge AI models. Where AI models feed pricing or reserving, the appointed actuary should be involved. Model risk should appear as its own line in board risk reporting."
+      }
+    ]
   }
 ]

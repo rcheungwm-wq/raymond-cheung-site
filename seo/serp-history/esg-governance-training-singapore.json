@@ -1853,5 +1853,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "grc-solutions.com",
+        "url": "https://grc-solutions.com/courses/esg-sg/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sgs.com",
+        "url": "https://www.sgs.com/en-sg/services/esg-training",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "grc-solutions.com",
+        "url": "https://grc-solutions.com/?p=4846",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "academy.smu.edu.sg",
+        "url": "https://academy.smu.edu.sg/courses/family-office-advisor-environmental-and-social-governance-synchronous-e-learning",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "hcms.bsigroup.com",
+        "url": "https://hcms.bsigroup.com/en-SG/training-courses/environmental-social-and-governance-esg-awareness/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "fcms.bsigroup.com",
+        "url": "https://fcms.bsigroup.com/en-SG/training-courses/environmental-social-and-governance-esg-awareness/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "grc-solutions.com",
+        "url": "https://grc-solutions.com/implementing-esg-in-sg-fin-services/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "grc-solutions.com",
+        "url": "https://grc-solutions.com/?p=5288",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "academy.smu.edu.sg",
+        "url": "https://academy.smu.edu.sg/courses/environment-social-and-governance-esg-and-materiality-reporting",
+        "title": ""
+      }
+    ]
   }
 ]

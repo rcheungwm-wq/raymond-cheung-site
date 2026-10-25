@@ -530,5 +530,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "insurancebusinessmag.com",
+        "url": "https://www.insurancebusinessmag.com/asia/news/technology/singapores-ai-governance-rules-what-brokers-and-insurers-must-know-before-2027-592870.aspx",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "clydeco.com",
+        "url": "https://www.clydeco.com/fr/insights/2026/10/making-ai-work-responsibly",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "clydeco.com",
+        "url": "https://www.clydeco.com/zh/insights/2026/10/making-ai-work-responsibly",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "thecorporatetreasurer.com",
+        "url": "https://thecorporatetreasurer.com/article/mas-advances-dual-frameworks-to-overhaul-corporate-risk-transfer-and-ai-governanc/508015",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "reinasia.com",
+        "url": "https://reinasia.com/irdai-sets-up-ai-governance-working-group-for-insurance-sector/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "asiainsurancereview.com",
+        "url": "https://www.asiainsurancereview.com/Magazine/ReadMagazineArticle?aid=60059",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sosa.co",
+        "url": "https://sosa.co/opportunity-hub/ai-underwriting-solutions-program",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "velaru-erra.onrender.com",
+        "url": "https://velaru-erra.onrender.com/compliance/mandate-registry/verticals/insurance/jurisdictions/sg",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "intelligentinsurer.com",
+        "url": "https://www.intelligentinsurer.com/sirc-today/ai-transforming-global-insurance-but-needs-good-governance",
+        "title": ""
+      }
+    ]
   }
 ]
