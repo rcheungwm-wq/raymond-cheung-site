@@ -7356,5 +7356,207 @@
         "answer": "The board risk committee, supported by a second-line model risk function with the technical skill to challenge AI models. Where AI models feed pricing or reserving, the appointed actuary should be involved. Model risk should appear as its own line in board risk reporting."
       }
     ]
+  },
+  {
+    "id": "85",
+    "title": "ACRA's Annual Return Changes: What They Mean for Singapore Boards",
+    "summary": "ACRA's annual return changes from 20 October 2026 ask Singapore companies to confirm their officer records and say who performs the CEO role. It looks like a filing tweak. It is really a test of whether the board knows who runs the company.",
+    "category": "Regulation",
+    "readingTime": "3 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-26",
+    "status": "published",
+    "slug": "acra-annual-return-changes-october-2026-singapore-boards",
+    "keywords": [
+      "ACRA annual return changes 2026",
+      "Corporate and Accounting Laws Amendment Act 2025",
+      "ACRA CEO role annual return Singapore",
+      "director accountability ACRA Singapore"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "When I was CEO of a Nasdaq-listed company, one of the first things our US counsel asked me to sign was a certification that I had personally reviewed the filings going out under my name. I treated it as a formality at first. Within a few quarters I realised it was the only point in the cycle where anyone forced me to check whether the public record matched how the company actually ran. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "The second phase of the Corporate and Accounting Laws (Amendment) Act 2025 commenced on 20 October 2026. Most commentary has treated it as housekeeping: no more statutory meetings for public companies, shorter striking-off timelines, multi-year renewal for public accountants. One change deserves more attention from boards. When a company files its annual return, it must now confirm that ACRA's records of its directors, CEO, company secretary and auditors are accurate, and state whether any individual performs the CEO role."
+      },
+      {
+        "type": "heading",
+        "text": "Why a filing question is a governance question"
+      },
+      {
+        "type": "paragraph",
+        "text": "That last question sounds trivial. In my experience it is not. In many Singapore companies, especially owner-led groups and subsidiaries of foreign parents, the person with the CEO title and the person who makes the decisions are not the same. The founder has stepped back on paper but still approves every senior hire. The regional head in Hong Kong runs the Singapore entity by email while the local managing director signs the documents."
+      },
+      {
+        "type": "pullquote",
+        "text": "If your board cannot say in one sentence who performs the CEO role, the problem is not the annual return."
+      },
+      {
+        "type": "paragraph",
+        "text": "Directors carry the accountability for that answer. A filing that names someone who does not actually run the company is now an inaccurate confirmation, not just a stale record. More importantly, it tells you the board's own map of accountability is wrong. That matters for [CEO succession planning](/insights/ceo-succession-planning-singapore-boards), for delegated authority, and for any regulator asking who was responsible when something went wrong."
+      },
+      {
+        "type": "heading",
+        "text": "What I would ask at the next board meeting"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Who, in practice, performs the CEO role, and does our filing say the same?",
+          "When did the company secretary last reconcile our Bizfile particulars against our own registers?",
+          "Who gives the annual return confirmation, and what do they check before they do?",
+          "Do our delegations of authority point to the person we have named?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For most boards this is a fifteen-minute agenda item. I would still rather a board find the gap in its own meeting than in a regulator's letter. ACRA has been steadily raising what it expects of directors, from the [ACRA and SID director training partnership](/insights/acra-sid-director-training-singapore) to this. The direction is clear: directors are expected to know their own company, not just approve its paperwork."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What changed in ACRA's annual return from 20 October 2026?",
+        "answer": "Under the second phase of the Corporate and Accounting Laws (Amendment) Act 2025, companies filing an annual return must confirm that ACRA's records of their directors, CEO, company secretary, auditors and relevant members are accurate, and state whether any individual performs the CEO role. Companies limited by guarantee must also confirm their reported member count."
+      },
+      {
+        "question": "Who is responsible for the accuracy of a Singapore company's annual return?",
+        "answer": "The directors. A company secretary or corporate service provider usually prepares and files the return, but directors remain accountable for the information in it. Directors should ask what was actually checked before the confirmation is given."
+      },
+      {
+        "question": "What should a board do if the person running the company is not the named CEO?",
+        "answer": "Resolve it deliberately. Either formalise the real arrangement in the company's records and delegations, or change how the company is run so the named CEO genuinely holds that authority. Filings, delegations of authority and succession plans should all point to the same person."
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "title": "Embedded Insurance Governance in Singapore: Who Owns the Risk?",
+    "summary": "Embedded insurance governance in Singapore is a board question, not a distribution detail. The platform owns the customer; the insurer still owns the conduct risk. Here is where embedded partnerships fall between committees and what boards should see.",
+    "category": "Insurance Innovation",
+    "readingTime": "6 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-26",
+    "status": "published",
+    "slug": "embedded-insurance-governance-singapore",
+    "keywords": [
+      "embedded insurance governance Singapore",
+      "embedded insurance insurer board oversight",
+      "insurance distribution e-commerce platforms MAS",
+      "insurer platform partnership risk Singapore"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "When I was at Grab, I watched insurance go from a line in a partnership deck to something attached to millions of rides, deliveries and driver earnings, often without the customer ever thinking of it as buying insurance. The commercial logic was obvious. What took longer to settle was a simpler question. When a claim was mishandled, a premium was wrongly charged or a customer did not understand what they had bought, whose problem was it? The platform's, because the customer was theirs? Or the insurer's, because the policy was? [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "That question has not gone away. Embedded insurance, meaning cover sold inside another company's product or checkout, is one of the fastest-growing distribution channels in Singapore and across the region. Travel cover at airline checkout, device protection on an electronics purchase, income protection for gig workers, shipping cover on marketplace orders. For insurers it means volume they could never reach through agents. For boards it means a growing share of the book is sold, explained and serviced by someone the insurer does not employ."
+      },
+      {
+        "type": "heading",
+        "text": "What MAS has said, and what it has not"
+      },
+      {
+        "type": "paragraph",
+        "text": "In February 2026, MAS was asked in Parliament whether the Insurance Act should be amended to protect consumers as insurers partner e-commerce platforms. The answer was that current safeguards are adequate. Financial institutions and their intermediaries must uphold proper conduct and consumer safeguards, general insurance agents must be registered with the General Insurance Association's Agents' Registration Board, and MAS will keep the landscape under review and add safeguards if needed."
+      },
+      {
+        "type": "paragraph",
+        "text": "I read that answer carefully. MAS did not create a new rule for platforms. It left the obligation where it already sits: on the regulated institution. If the platform's checkout misleads a customer, the conduct failure belongs to the insurer that chose the platform. That is the governance point most boards miss."
+      },
+      {
+        "type": "pullquote",
+        "text": "The platform owns the customer relationship. The insurer still owns the conduct risk, and MAS will look to the insurer's board first."
+      },
+      {
+        "type": "heading",
+        "text": "Where embedded insurance falls between committees"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the boards I advise, embedded insurance usually arrives as a growth story. The strategy paper shows gross written premium, partner pipeline and acquisition cost. The risk paper, if there is one, treats each partnership as a vendor arrangement. Neither describes the full risk. I see the same four gaps repeatedly."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Conduct risk sits in someone else's interface. The insurer did not design the checkout flow, the pre-ticked box or the one-line product description, but it answers for whether customers understood what they bought.",
+          "Data flows both ways and nobody owns both ends. Customer data passes between platform and insurer, which brings in technology risk and breach-notification obligations that run on the insurer's clock, not the partner's.",
+          "Concentration builds quietly. One large platform can become a material share of new business within a year. If that partner renegotiates commission or switches insurer, the business plan falls over.",
+          "Complaints arrive at the wrong door. Customers complain to the platform first. If the insurer never sees those complaints, its own complaints data understates the problem."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The last point links directly to MAS's recent work on [complaints management at banks and insurers](/insights/mas-complaints-management-board-governance-2026). A board that only sees complaints received by the insurer is looking at a partial picture of an embedded book, sometimes a very small part of it."
+      },
+      {
+        "type": "heading",
+        "text": "Outsourcing, distribution or partnership? The label matters"
+      },
+      {
+        "type": "paragraph",
+        "text": "Part of the confusion is classification. Depending on what the platform actually does, the arrangement may be a distribution relationship, an outsourcing arrangement, or both. If the platform handles onboarding, policy servicing or claims notification, parts of it may fall within [MAS's outsourcing expectations](/insights/mas-outsourcing-guidelines-insurer-board-oversight), with the due diligence, audit access and exit planning that implies. If customer data and system integration are involved, the [technology risk requirements](/insights/technology-risk-management-guidelines-singapore-insurers) apply too."
+      },
+      {
+        "type": "paragraph",
+        "text": "I have seen an insurer file a partnership under business development when half of it was really outsourced customer servicing. Nobody had made a bad decision. Nobody had made a decision at all. The label decides which controls apply, so the board should ask who decided the label, and on what basis."
+      },
+      {
+        "type": "heading",
+        "text": "What I would expect a board to see"
+      },
+      {
+        "type": "paragraph",
+        "text": "Embedded insurance does not need a new committee. It needs existing governance applied to it deliberately. For a material embedded book, I would expect the board or its risk committee to see five things."
+      },
+      {
+        "type": "list",
+        "items": [
+          "A single register of embedded partnerships, showing premium, customer numbers, product types and how each arrangement has been classified.",
+          "A conduct view of each major partner: how the product is presented, what customers see before they pay, claims ratios, cancellation rates and complaints, including those received by the partner.",
+          "Concentration limits written into the [risk appetite](/insights/risk-appetite-decisions) before the exposure builds: the maximum share of new business any single partner may represent.",
+          "A tested exit plan for each material partner, covering what happens to in-force policies, customer data and servicing if the partnership ends.",
+          "One named senior manager accountable for each material partnership end to end, not a commercial owner and a separate risk owner who never meet."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Of all the indicators, the claims ratio is the one I watch most closely. An embedded product with an unusually low claims ratio is often not a great product. It can mean customers do not know they are covered, or do not know how to claim. That is good for this year's margin and bad for the regulatory conversation three years from now. As an actuary, I would rather see a claims ratio I can explain than one that looks too good."
+      },
+      {
+        "type": "heading",
+        "text": "The question to ask at your next meeting"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you sit on an insurer's board, ask management one question: if our largest embedded partner made a conduct mistake tomorrow, how would we find out, and how long would it take? If the honest answer is that we would hear about it when a customer complains to MAS, the governance is not yet in place."
+      },
+      {
+        "type": "paragraph",
+        "text": "I want Singapore insurers to do more embedded insurance, not less. It is one of the few channels that can close protection gaps for gig workers and younger customers who will never sit down with an agent. But the board has to govern each partnership as an extension of the insurer's own conduct, not as someone else's channel. If you are working out how to bring embedded partnerships into your board's oversight, [my advisory work](/advisory) covers exactly this, or you can [get in touch](/contact) directly."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who is responsible for conduct when insurance is sold through an e-commerce platform in Singapore?",
+        "answer": "The insurer and its registered intermediaries. In a February 2026 parliamentary reply, MAS said financial institutions and their intermediaries must uphold proper conduct and consumer safeguards when distributing through platforms, and that general insurance agents must be registered with the GIA's Agents' Registration Board. In practice, the platform's design choices become the insurer's conduct risk."
+      },
+      {
+        "question": "Does MAS have specific rules for embedded insurance in Singapore?",
+        "answer": "There is no standalone embedded insurance regime. MAS said in February 2026 that current safeguards are adequate and that it will continue to monitor developments and introduce new safeguards if needed. Embedded arrangements are governed through existing conduct, intermediary registration, outsourcing and technology risk requirements, depending on what the partner actually does."
+      },
+      {
+        "question": "What should an insurer's board monitor for embedded insurance partnerships?",
+        "answer": "A register of partnerships and how each is classified; conduct indicators for each major partner, including claims ratios, cancellation rates and complaints received by the partner; concentration against risk appetite limits; tested exit plans; and one accountable senior manager for each material partnership."
+      },
+      {
+        "question": "Is an embedded insurance partnership an outsourcing arrangement under MAS guidelines?",
+        "answer": "It can be. If the partner performs services the insurer would otherwise perform itself, such as onboarding, policy servicing or claims notification, those parts may fall within MAS's outsourcing expectations. Boards should check how each arrangement has been classified and who made that decision."
+      }
+    ]
   }
 ]

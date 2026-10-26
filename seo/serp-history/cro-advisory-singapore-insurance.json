@@ -1939,5 +1939,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "wongpartnership.com",
+        "url": "https://www.wongpartnership.com/practices/insurance",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "remowork.life",
+        "url": "https://remowork.life/jobs/6ab17cc05d989acfea3f663f/commercial-insurance-advisor",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "cn-en.rajahtannasia.com",
+        "url": "https://cn-en.rajahtannasia.com/our-practices/insurance-amp-reinsurance/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "cn-en.rajahtannasia.com",
+        "url": "https://cn-en.rajahtannasia.com/?p=54504",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "remowork.life",
+        "url": "https://remowork.life/jobs/6ab17cc05d989acfea3f6645/specialty-insurance-advisor",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "rajahtannasia.com",
+        "url": "https://www.rajahtannasia.com/?p=16425",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "cn.rajahtannasia.com",
+        "url": "https://cn.rajahtannasia.com/?p=54504",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "chambers.com",
+        "url": "https://www.chambers.com/lawyer/simon-goh-asia-pacific-8:738204",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "remowork.life",
+        "url": "https://remowork.life/jobs/6ab17cc05d989acfea3f6642/parametric-insurance-advisor",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "dacbeachcroft.com",
+        "url": "https://www.dacbeachcroft.com/it/Location/Asia-Pacific/Singapore",
+        "title": ""
+      }
+    ]
   }
 ]

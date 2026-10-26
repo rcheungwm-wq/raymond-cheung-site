@@ -303,5 +303,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "isca.org.sg",
+        "url": "https://isca.org.sg/docs/default-source/sustainability/articles/sustainability-reporting.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "theaccountant-online.com",
+        "url": "https://www.theaccountant-online.com/?p=5438",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "lkyspp.nus.edu.sg",
+        "url": "https://lkyspp.nus.edu.sg/iwp/events/details/sustainability-reporting-by-companies-listed-in-sgx",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "lkyspp.nus.edu.sg",
+        "url": "https://lkyspp.nus.edu.sg/ies/events/details/sustainability-reporting-by-companies-listed-in-sgx",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/ms/news/sgx-seeks-public-feedback-on-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/id/news/sgx-seeks-public-feedback-on-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/zh-hans/news/sgx-seeks-public-feedback-on-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "eco-business.com",
+        "url": "https://eco-business.com/news/sgxs-new-sustainability-reporting-rules-will-help-open-up-markets",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/ms/news/sgxs-new-sustainability-reporting-rules-will-help-open-up-markets/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "eco-business.com",
+        "url": "https://eco-business.com/news/sgx-seeks-public-feedback-on-sustainability-reporting",
+        "title": ""
+      }
+    ]
   }
 ]

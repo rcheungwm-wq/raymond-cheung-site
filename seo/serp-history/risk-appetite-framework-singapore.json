@@ -407,5 +407,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "fsb.org",
+        "url": "https://www.fsb.org/uploads/c_131011m.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scotiabank.com",
+        "url": "https://www.scotiabank.com/content/dam/global/hong-kong/documents/BaselIII-AnnualDisclosure2020-English.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "risk.net",
+        "url": "https://risk.net/training/risk-management-workshop",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "foundit.in",
+        "url": "https://www.foundit.in/job/head-group-enterprise-risk-addx-pte-ltd-singapore-69327840",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "jobs.lever.co",
+        "url": "https://jobs.lever.co/capital/98f2308c-8ebb-4059-a8f2-1f41cf5b23df",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "singapore.careers.cfainstitute.org",
+        "url": "https://singapore.careers.cfainstitute.org/job/9053603/head-of-risk/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/The-Big-Appetite-jobs",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-ca/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-cn/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "genieai.co",
+        "url": "https://www.genieai.co/en-sg/template-type/enterprise-risk-management-framework",
+        "title": ""
+      }
+    ]
   }
 ]
