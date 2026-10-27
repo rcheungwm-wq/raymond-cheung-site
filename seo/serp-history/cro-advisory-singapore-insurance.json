@@ -2006,5 +2006,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "village.ai",
+        "url": "https://village.ai/person/philip-woo-ODE0MzQ2Mjc",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "wongpartnership.com",
+        "url": "https://www.wongpartnership.com/practices/insurance",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "legal500.com",
+        "url": "https://legal500.com/rankings/ranking/c-singapore/insurance-local-firms/31302-wongpartnership-llp",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "remowork.life",
+        "url": "https://remowork.life/jobs/6ab17cc05d989acfea3f663f/commercial-insurance-advisor",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "cn-en.rajahtannasia.com",
+        "url": "https://cn-en.rajahtannasia.com/our-practices/insurance-amp-reinsurance/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "cn-en.rajahtannasia.com",
+        "url": "https://cn-en.rajahtannasia.com/?p=54504",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "remowork.life",
+        "url": "https://remowork.life/jobs/6ab17cc05d989acfea3f6645/specialty-insurance-advisor",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/Standard-Chartered-Bank-Singapore-Careers-jobs",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "cn.rajahtannasia.com",
+        "url": "https://cn.rajahtannasia.com/?p=54504",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "chambers.com",
+        "url": "https://www.chambers.com/lawyer/simon-goh-asia-pacific-8:738204",
+        "title": ""
+      }
+    ]
   }
 ]

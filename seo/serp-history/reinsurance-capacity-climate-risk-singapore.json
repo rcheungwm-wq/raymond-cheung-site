@@ -1,0 +1,69 @@
+[
+  {
+    "date": "2026-10-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "atlantis-press.com",
+        "url": "https://www.atlantis-press.com/article/126025200.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "asiainsurancereview.com",
+        "url": "https://asiainsurancereview.com/News/View-NewsLetter-Article/id/89940/Type/eDaily/Conferences/Gallery",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "insuranceasianews.com",
+        "url": "https://insuranceasianews.com/?p=137958",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "atlantis-press.com",
+        "url": "https://www.atlantis-press.com/proceedings/ichch-25/126025200",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "insuranceasianews.com",
+        "url": "https://insuranceasianews.com/?p=203527",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "insuranceasianews.com",
+        "url": "https://insuranceasianews.com/?p=169348",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "insuranceasianews.com",
+        "url": "https://insuranceasianews.com/?p=137443",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "insuranceasianews.com",
+        "url": "https://insuranceasianews.com/opportunity-knocks-for-singapore-to-serve-southeast-asias-growing-protection-needs/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "insuranceasianews.com",
+        "url": "https://insuranceasianews.com/reinsurance-to-support-asias-climate-energy-digital-and-demographic-transition-mas-chairman/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "intelligentinsurer.com",
+        "url": "https://www.intelligentinsurer.com/sirc-today/singapore-deputy-pm-hails-sircs-evolution",
+        "title": ""
+      }
+    ]
+  }
+]

@@ -1769,5 +1769,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ink.library.smu.edu.sg",
+        "url": "https://ink.library.smu.edu.sg/sol_research/3954",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "3ecpa.com.sg",
+        "url": "https://www.3ecpa.com.sg/services/corporate-secretarial/independent-director-services",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "3ecpa.com.sg",
+        "url": "https://www.3ecpa.com.sg/?p=54909",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "eglobaltravelmedia.com.au",
+        "url": "https://eglobaltravelmedia.com.au/2021/07/07/yeoh-oon-jin-joins-singapore-airlines-board-as-independent-director/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "webiis08.mondaq.com",
+        "url": "https://webiis08.mondaq.com/corporate-governance/537490/duties-and-responsibilities-of-independent-directors-an-overview",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "links.sgx.com",
+        "url": "https://links.sgx.com/1.0.0/corporate-announcements/IYK9U9J8EQLUMMX0/773653_HLC%20-%20Board%20and%20Board%20Comm%20Composition-2023.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/es/corporate/newsroom/press-release/2021/July-September/ne1421-210705",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "edgeprop.sg",
+        "url": "https://edgeprop.sg/amp/property-news/tuan-sing-appoints-richard-eu-new-independent-director",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/en_UK/au/corporate/newsroom/press-release/2021/July-September/ne1421-210705/",
+        "title": ""
+      }
+    ]
   }
 ]

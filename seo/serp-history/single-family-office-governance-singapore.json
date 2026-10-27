@@ -1450,5 +1450,66 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "hubbis.com",
+        "url": "https://hubbis.com/article/the-family-office-purpose-or-pr-rethinking-governance-oversight-real-value",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "financemagnates.com",
+        "url": "https://www.financemagnates.com/institutional-forex/control-privacy-bespoke-governance-why-singapore-is-becoming-asias-wealth-capital/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "caproasia.com",
+        "url": "https://www.caproasia.com/2025/04/11/singapore-mas-chairman-gan-kim-yong-on-family-office-governance-standards-tax-incentives-fraud-prevention-1-single-family-office-only-managed-own-private-wealth-2-family-to-establish-governance/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "incorp.asia",
+        "url": "https://www.incorp.asia/?p=73687",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "iqeq.com",
+        "url": "https://iqeq.com/wp-content/uploads/2026/03/Family-Office-whitepaper.pdf",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "blog.inproved.com",
+        "url": "https://blog.inproved.com/?p=15568",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "wealthtalks.podbean.com",
+        "url": "https://wealthtalks.podbean.com/e/singapore-family-office-part-1",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "wealthbriefingasia.com",
+        "url": "https://www.wealthbriefingasia.com/article.php?id=197073",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "financemagnates.com",
+        "url": "https://www.financemagnates.com/institutional-forex/control-privacy-bespoke-governance-why-singapore-is-becoming-asias-wealth-capital/amp",
+        "title": ""
+      }
+    ]
   }
 ]

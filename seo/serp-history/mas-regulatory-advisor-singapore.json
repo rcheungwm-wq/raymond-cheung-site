@@ -1864,5 +1864,72 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "jobleads.com",
+        "url": "https://www.jobleads.com/sg/job/ec6a9e8cc3f421eecbe847bfffd02220f",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "regulationasia.com",
+        "url": "https://www.regulationasia.com/author/grace-chong",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/84519406/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/83628991/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "careers.ipa.com",
+        "url": "https://careers.ipa.com/job/compliance-officer/84972092/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "climateinstitute.edhec.edu",
+        "url": "https://climateinstitute.edhec.edu/news/leong-sing-chiong-appointed-new-member-edhec-risk-iab",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "careers.ohsonline.com",
+        "url": "https://careers.ohsonline.com/job/director-associate-director-compliance-mas-liaison-and-brokerage-exp-preferred/81241075",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "legal500.com",
+        "url": "https://legal500.com/firms/34677-prolegis-llc/c-singapore/lawyers/5520000-kwah-chee-hian",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "wongpartnership.com",
+        "url": "https://wongpartnership.com/insights/detail/mas-issues-faqs-on-notice-on-business-conduct-requirements-for-corporate-finance-advisers-4",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "sloaneshorey.catsone.com",
+        "url": "https://sloaneshorey.catsone.com/careers/69724-Live-Vacancies/jobs/16582103-Head-of-Regulatory-and-Advisory-Compliance-Banking-Singapore",
+        "title": ""
+      }
+    ]
   }
 ]

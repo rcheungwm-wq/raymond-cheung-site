@@ -7558,5 +7558,194 @@
         "answer": "It can be. If the partner performs services the insurer would otherwise perform itself, such as onboarding, policy servicing or claims notification, those parts may fall within MAS's outsourcing expectations. Boards should check how each arrangement has been classified and who made that decision."
       }
     ]
+  },
+  {
+    "id": "87",
+    "title": "What Indonesia's Gas Export Cut Means for Singapore Boards",
+    "summary": "Indonesia's gas export cut to Singapore, which began on 24 October 2026, is small and short. For Singapore boards it is a reminder that concentration in a critical supplier is a governance question.",
+    "category": "Enterprise Risk",
+    "readingTime": "3 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-27",
+    "status": "published",
+    "slug": "indonesia-gas-export-cut-singapore-boards",
+    "keywords": [
+      "Indonesia gas export cut Singapore",
+      "supplier concentration risk Singapore boards",
+      "geopolitical risk board oversight Singapore",
+      "energy supply risk Singapore companies"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "When I was a statutory CRO, the risk register always had a line for key supplier failure. It was rated medium, owned by procurement, and reviewed once a year. The first time a single vendor actually stopped delivering, nobody on the board could tell me how long we could operate without it, or what the second source would cost. The register had described the risk. It had not prepared us for it. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "On 24 October 2026, Indonesia began cutting pipeline gas exports to Singapore by 31 BBTUD, split between Natuna and Sumatra. Indonesian officials framed it as putting domestic electricity supply first, and it came days after the energy minister said Jakarta would review export contracts with countries that do not respect Indonesia. Singapore's Energy Market Authority said the cut is less than 2% of daily gas demand, is expected to last around 18 days, and that contingency plans are in place."
+      },
+      {
+        "type": "heading",
+        "text": "The volume is small. The signal is not"
+      },
+      {
+        "type": "paragraph",
+        "text": "I take the EMA at its word. Singapore has diversified its gas supply deliberately for years, and this cut will not turn the lights off. But boards should not read the story as an energy-sector item. A neighbouring government has shown it is willing to use a commercial supply contract as a policy lever, at the same time as a regional dispute over haze is running. That combination of supplier concentration and political exposure exists in far more supply chains than gas."
+      },
+      {
+        "type": "pullquote",
+        "text": "A supply contract is only as reliable as the government that can override it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Most Singapore companies have at least one input where a single country, or a single counterparty in that country, carries a disproportionate share of supply. Food, data centres, contract manufacturing, cloud regions, specialist reinsurance capacity. The risk sits in the register under operations or procurement, and the board sees it as a heat-map colour. The question nobody asks is whether the [risk appetite framework](/insights/risk-appetite-framework-singapore) actually sets a limit on that concentration, or simply records it."
+      },
+      {
+        "type": "heading",
+        "text": "What I would ask at the next risk committee"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Which of our critical inputs depend on a single country, and which of those countries have a live political dispute with Singapore?",
+          "How many days can we operate if that supply stops, and has anyone tested the number rather than estimated it?",
+          "What would the second source cost, and has that cost been priced into our plan or just assumed to be manageable?",
+          "Is cost pass-through from higher energy prices in our forecasts, or are we hoping the 18 days stay 18 days?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Earlier this month SGX RegCo was [querying issuers about haze exposure](/insights/sgx-regco-haze-queries-singapore-boards). This week the same regional tension showed up in an energy pipeline. Boards that treat these as separate news items will keep being surprised. The ones that treat them as one geopolitical risk, with an owner on the [board risk committee](/insights/board-risk-committee-singapore), will have done the thinking before the next cut arrives."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much has Indonesia cut gas exports to Singapore in October 2026?",
+        "answer": "Indonesia began cutting pipeline gas exports to Singapore by 31 BBTUD on 24 October 2026, with 15 BBTUD from Natuna and 16 BBTUD from Sumatra. Singapore's Energy Market Authority said this is less than 2% of daily gas demand and expected to last around 18 days."
+      },
+      {
+        "question": "Why should a Singapore board care about a small gas supply cut?",
+        "answer": "Because it shows a supplier government is willing to use a commercial contract as a policy lever. The same pattern of supplier concentration plus political exposure exists in many Singapore supply chains, and the board is responsible for deciding how much of that risk the company will accept."
+      },
+      {
+        "question": "How should boards oversee supplier concentration risk in Singapore?",
+        "answer": "Set an explicit limit on dependence on any single country or counterparty for critical inputs in the risk appetite framework, ask management for tested rather than estimated survival periods, and require the cost of a second source to be priced into the plan. Assign geopolitical supply risk a clear owner at board committee level."
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "title": "Reinsurance Capacity and Climate Risk: What Singapore Boards Miss",
+    "summary": "Reinsurance capacity is plentiful and catastrophe prices are falling again at 1 January 2027. For Singapore insurance boards with climate exposure, cheap capacity can hide the climate risk the company is quietly keeping.",
+    "category": "Climate Risk",
+    "readingTime": "7 min read",
+    "date": "October 2026",
+    "datePublished": "2026-10-27",
+    "status": "published",
+    "slug": "reinsurance-capacity-climate-risk-singapore-boards",
+    "keywords": [
+      "reinsurance capacity climate risk Singapore",
+      "reinsurance renewal 2027 Singapore insurance boards",
+      "climate risk reinsurance governance Singapore",
+      "soft reinsurance market board oversight"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "The most expensive reinsurance decision I have seen a board make was taken in a soft market. Capacity was abundant, prices had fallen two years running, and management came to the board with a renewal that bought more cover for less money. The board approved it in fifteen minutes. Nobody asked what had happened to the wording. Two years later a flood event landed in exactly the gap the new exclusions had opened, and the company retained a loss it believed it had ceded. [CONFIRM with Raymond: replace with a real episode if possible]"
+      },
+      {
+        "type": "paragraph",
+        "text": "I raise it because the 1 January 2027 renewal is shaping up to be another soft one. Moody's reports property catastrophe reinsurance prices have already fallen by more than 20% over the 18 months since 2024, and 86% of buyers in its latest survey expect further declines into 2027. KBW expects property catastrophe excess-of-loss rates to fall by at least 10% at 1 January. Reinsurance capital is at record levels. For Singapore insurance boards, this looks like good news. On price, it is. On governance, it is the moment to be most careful."
+      },
+      {
+        "type": "heading",
+        "text": "Capacity is not the same as protection"
+      },
+      {
+        "type": "paragraph",
+        "text": "The standard story about climate change and reinsurance is that capacity will tighten as losses rise. It may, over the long run. But the near-term reality in this market is the opposite: there is plenty of capacity for peak perils at falling prices, while reinsurers quietly protect themselves through terms. Higher attachment points, narrower definitions of an event, tighter hours clauses, sub-limits or exclusions for flood and other secondary perils. The headline rate falls. The cover underneath it changes shape."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the trap. A board that judges the renewal on price and limit will see an improvement. A board that judges it on what the company would actually recover from a realistic climate event in its own footprint may see something different. In Southeast Asia, that footprint is dominated by the perils models handle least well: flash flood, monsoon flood, typhoon-driven rainfall. These are precisely the secondary perils where wording tends to tighten first."
+      },
+      {
+        "type": "pullquote",
+        "text": "In a soft market the price tells you what the reinsurer is charging. Only the wording tells you what the reinsurer is actually taking."
+      },
+      {
+        "type": "heading",
+        "text": "Why this is a climate governance question, not a procurement one"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most boards still treat the reinsurance renewal as an annual purchase that management and the broker negotiate. I have argued before that [reinsurance strategy is a capital decision](/insights/reinsurance-governance-singapore), and the climate dimension makes that sharper. MAS's environmental risk management guidelines expect the board to oversee how climate risk is identified and mitigated. Reinsurance is one of the main mitigants an insurer has. If the board cannot say how much physical climate risk is being ceded, and on what terms, it cannot say it is overseeing the mitigation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The same issue shows up in the stress testing. MAS's industry-wide stress tests have included climate physical risk scenarios, and I wrote recently about [what the climate stress test actually tests about your board](/insights/environmental-risk-stress-testing-insurers-singapore). Every one of those results is calculated net of reinsurance. If the stress test assumes this year's programme responds as designed, and the wording has narrowed, the board is looking at a number that is better than reality."
+      },
+      {
+        "type": "heading",
+        "text": "Asia's protection gap is the other half of the problem"
+      },
+      {
+        "type": "paragraph",
+        "text": "Singapore wants to be the region's hub for catastrophe risk transfer, and it has made progress. Figures cited at the Singapore International Reinsurance Conference put Singapore at 28 catastrophe bond issuances over five years, 13 of them covering Asian perils, about US$1.6 billion of cover. MAS has refreshed its insurance-linked securities grant scheme to support more. Yet Asia is still under 5% of the global catastrophe bond market, and much of the region's climate risk remains uninsured or thinly reinsured."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a board, that matters in two ways. First, a soft market for peak perils does not mean deep capacity for the specific regional exposures a Singapore-based insurer writes. Second, the soft market will end. Howden Re has warned that another price decline of the same size could push large parts of the reinsurance industry below its cost of capital. When that turns, the capacity for Asian secondary perils is the first to be withdrawn and the slowest to come back."
+      },
+      {
+        "type": "heading",
+        "text": "What I would want the board to see before the 1 January renewal"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A wording comparison, not just a price comparison: every change in event definition, hours clause, exclusion and sub-limit versus last year, with the broker's view of which ones matter for flood and typhoon.",
+          "Net retained loss from two or three realistic climate scenarios in the company's own footprint, run on this year's terms and last year's terms side by side.",
+          "The retention as a share of capital, and whether it still sits inside the board-approved risk appetite after the new terms are applied.",
+          "A view on what this programme would cost and look like if the market hardened by 30% next year, and whether the board would want to lock in multi-year cover now while prices are low.",
+          "Counterparty concentration: how much of the climate-exposed layers sit with a small number of reinsurers, and their ratings."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "None of these requires the board to negotiate the treaty. They require the board to treat the renewal as the point where its climate risk appetite meets the real world. That analysis also belongs in the [ORSA](/insights/orsa-strategic-tool-singapore-insurance-boards), not in a separate broker pack that the board sees once."
+      },
+      {
+        "type": "heading",
+        "text": "Use the soft market, do not be used by it"
+      },
+      {
+        "type": "paragraph",
+        "text": "A soft market is an opportunity. It is the cheapest time to buy protection for the [physical climate risks](/insights/climate-physical-risk-singapore-insurance) a Singapore insurer cannot diversify away, to extend the term of key covers, or to fill gaps in secondary perils that were unaffordable two years ago. The boards that use it well will ask what the saving is being spent on. The boards that do not will bank the saving and keep a risk they did not notice they had taken back."
+      },
+      {
+        "type": "paragraph",
+        "text": "If your board wants an independent view of its reinsurance programme against its climate exposure before the 1 January renewal is signed, that is the kind of work I do through my [board advisory practice](/advisory)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is reinsurance capacity for climate risk tightening in Singapore in 2027?",
+        "answer": "Not on headline price. Global property catastrophe reinsurance prices are expected to fall again at the 1 January 2027 renewal, with Moody's reporting most buyers expect further declines. The tightening is showing up in terms instead: higher attachments, narrower event definitions and exclusions or sub-limits for secondary perils such as flood, which are the main climate perils for Southeast Asian portfolios."
+      },
+      {
+        "question": "What should a Singapore insurance board review before the reinsurance renewal?",
+        "answer": "The board should review a side-by-side comparison of wording changes against last year, the net retained loss from realistic climate scenarios on both old and new terms, the retention as a share of capital against risk appetite, and counterparty concentration in the climate-exposed layers. Price and limit alone do not show what the company is really ceding."
+      },
+      {
+        "question": "How does reinsurance affect an insurer's climate stress test results?",
+        "answer": "Climate stress test results are calculated net of reinsurance, so they assume the programme responds as designed. If reinsurance wording has narrowed, for example through flood exclusions or tighter hours clauses, the stress test can overstate how well protected the insurer is. Boards should check that the stress test reflects the current year's terms."
+      },
+      {
+        "question": "Should Singapore insurers buy multi-year reinsurance in a soft market?",
+        "answer": "It is worth considering for the climate-exposed layers. A soft market is the cheapest time to lock in protection, and capacity for Asian secondary perils is usually the first to be withdrawn when the market hardens. The decision belongs to the board because it trades current cost against future availability of capital protection."
+      }
+    ]
   }
 ]
