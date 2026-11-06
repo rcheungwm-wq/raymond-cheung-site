@@ -31,7 +31,7 @@ export default function HeroAuthoritySection() {
         }}
         className="hero-grid"
       >
-        {/* Left — copy */}
+        {/* Left, copy */}
         <div>
           <p style={{
             fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.63rem",
@@ -77,7 +77,7 @@ export default function HeroAuthoritySection() {
             </Link>
           </div>
 
-          {/* Proof points — borderless, editorial */}
+          {/* Proof points, borderless, editorial */}
           <div aria-label="Career credentials" className="hero-stats" style={{
             display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.25rem",
             paddingTop: "2rem", borderTop: "1px solid var(--rule-soft)",
@@ -100,7 +100,7 @@ export default function HeroAuthoritySection() {
           </div>
         </div>
 
-        {/* Right — portrait */}
+        {/* Right, portrait */}
         <div className="hero-portrait-col" style={{ display: "flex", justifyContent: "flex-end" }}>
           <div style={{
             position: "relative", width: "min(480px, 100%)", aspectRatio: "4/5",
@@ -109,45 +109,16 @@ export default function HeroAuthoritySection() {
             backgroundColor: "var(--midnight-navy)",
           }}>
             <Image
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.jpg`}
-              alt="Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/raymond-cheung-portrait.png`}
+              alt="Raymond Cheung, Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist"
               fill priority
               sizes="(max-width: 899px) 90vw, 480px"
               style={{
                 objectFit: "cover",
-                /* Crop in on the subject to push the event backdrop's
-                   sponsor signage out of frame. */
-                /* Source is only 400×400 and already renders ~1.8× upscaled,
-                   so keep the crop gentle — the scrim below hides the
-                   event signage instead of zooming into it. */
-                objectPosition: "34% 16%",
-                transform: "scale(1.06)",
-                /* Warm monochrome — harmonises the event-photo backdrop
-                   with the champagne palette and mutes its low resolution. */
-                filter: "grayscale(100%) sepia(30%) contrast(1.05) brightness(1.03)",
+                objectPosition: "50% 8%",
+                filter: "none",
               }}
             />
-            {/* Champagne tint to seat the portrait in the palette */}
-            <div aria-hidden="true" style={{
-              position: "absolute", inset: 0,
-              backgroundColor: "var(--gold)",
-              mixBlendMode: "soft-light",
-              opacity: 0.28,
-            }} />
-
-            {/* Scrim — fades the event backdrop's sponsor signage on the
-                right and bottom without cropping further into a small source. */}
-            <div aria-hidden="true" style={{
-              position: "absolute", inset: 0,
-              background: `
-                linear-gradient(100deg,
-                  transparent 30%,
-                  rgba(232,220,192,0.45) 52%,
-                  rgba(232,220,192,0.88) 74%,
-                  rgba(232,220,192,0.99) 92%),
-                linear-gradient(to top, rgba(232,220,192,0.55) 0%, transparent 32%)
-              `,
-            }} />
           </div>
         </div>
       </div>

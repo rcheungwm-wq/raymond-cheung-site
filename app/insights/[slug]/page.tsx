@@ -1,8 +1,34 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
-import { insights } from "@/data/insights";
+import { insights, insightIsoDate, relatedInsights as findRelated, stripInlineLinks } from "@/data/insights";
 import { notFound } from "next/navigation";
+import type { ReactNode } from "react";
+
+/** Renders [label](href) markup in body text as links; internal paths use next/link. */
+function renderInline(text: string): ReactNode {
+  const parts: ReactNode[] = [];
+  const re = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+  let last = 0;
+  let match: RegExpExecArray | null;
+  while ((match = re.exec(text)) !== null) {
+    if (match.index > last) parts.push(text.slice(last, match.index));
+    const [, label, href] = match;
+    const linkStyle = { color: "var(--ink)", textDecoration: "underline", textDecorationColor: "var(--strategic-teal)", textUnderlineOffset: "3px" };
+    parts.push(
+      href.startsWith("/") ? (
+        <Link key={match.index} href={href} style={linkStyle}>{label}</Link>
+      ) : (
+        <a key={match.index} href={href} target="_blank" rel="noopener noreferrer" style={linkStyle}>{label}</a>
+      ),
+    );
+    last = re.lastIndex;
+  }
+  if (last === 0) return text;
+  if (last < text.length) parts.push(text.slice(last));
+  return parts;
+}
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -17,19 +43,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const insight = insights.find((i) => i.slug === slug);
   if (!insight) return { title: "Insight Not Found" };
   const url = `${SITE_URL}/insights/${insight.slug}`;
+  // If this post is superseded by a newer one, point the canonical there so
+  // Google consolidates ranking signals into the authoritative version.
+  const canonicalUrl = insight.canonicalSlug
+    ? `${SITE_URL}/insights/${insight.canonicalSlug}`
+    : url;
   return {
     title: insight.title,
     description: insight.summary,
-    alternates: { canonical: url },
+    alternates: { canonical: canonicalUrl },
     openGraph: {
       title: insight.title,
       description: insight.summary,
       type: "article",
       url,
-      publishedTime: insight.date,
+      publishedTime: insightIsoDate(insight),
       authors: ["Raymond Cheung"],
       section: insight.category,
-      images: [{ url: "/raymond-cheung-portrait.jpg", width: 1200, height: 630, alt: insight.title }],
+      images: [{ url: insight.ogImage ?? "/og-default.jpg", width: 1200, height: 630, alt: insight.title }],
     },
     twitter: {
       card: "summary_large_image",
@@ -48,15 +79,17 @@ export default async function InsightArticlePage({ params }: Props) {
   const prev = idx > 0 ? insights[idx - 1] : null;
   const next = idx < insights.length - 1 ? insights[idx + 1] : null;
 
+  const relatedInsights = findRelated(insight, 3);
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: insight.title,
     description: insight.summary,
     articleSection: insight.category,
-    datePublished: insight.date,
+    datePublished: insightIsoDate(insight),
     inLanguage: "en-SG",
-    image: `${SITE_URL}/raymond-cheung-portrait.jpg`,
+    image: `${SITE_URL}${insight.ogImage ?? "/og-default.jpg"}`,
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `${SITE_URL}/insights/${insight.slug}`,
@@ -93,7 +126,7 @@ export default async function InsightArticlePage({ params }: Props) {
       name: faq.question,
       acceptedAnswer: {
         "@type": "Answer",
-        text: faq.answer,
+        text: stripInlineLinks(faq.answer),
       },
     })),
   } : null;
@@ -236,16 +269,39 @@ export default async function InsightArticlePage({ params }: Props) {
                           color: "var(--strategic-teal)", fontSize: "0.6rem",
                           marginTop: "0.45rem", flexShrink: 0,
                         }}>◆</span>
-                        <span style={{ fontSize: "0.95rem", color: "var(--graphite)", lineHeight: 1.75, opacity: 0.88 }}>{item}</span>
+                        <span style={{ fontSize: "0.95rem", color: "var(--graphite)", lineHeight: 1.75, opacity: 0.88 }}>{renderInline(item)}</span>
                       </li>
                     ))}
                   </ul>
                 );
               }
+              if (section.type === "image" && section.src) {
+                return (
+                  <figure key={i} style={{ margin: "0.5rem 0" }}>
+                    <div style={{ position: "relative", width: "100%", borderRadius: "var(--r-card)", overflow: "hidden", aspectRatio: "16/10" }}>
+                      <Image src={section.src} alt={section.alt || ""} fill style={{ objectFit: "cover" }} sizes="(max-width: 899px) 100vw, 720px" />
+                    </div>
+                    {section.caption && (
+                      <figcaption style={{ fontSize: "0.75rem", color: "var(--graphite)", opacity: 0.55, marginTop: "0.5rem", fontStyle: "italic" }}>{section.caption}</figcaption>
+                    )}
+                  </figure>
+                );
+              }
+              if (section.type === "image-grid" && section.images) {
+                return (
+                  <div key={i} style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "0.75rem", margin: "0.5rem 0" }}>
+                    {section.images.map((img, j) => (
+                      <div key={j} style={{ position: "relative", borderRadius: "var(--r-card)", overflow: "hidden", aspectRatio: "4/3" }}>
+                        <Image src={img.src} alt={img.alt} fill style={{ objectFit: "cover" }} sizes="(max-width: 899px) 50vw, 360px" />
+                      </div>
+                    ))}
+                  </div>
+                );
+              }
               return (
                 <p key={i} style={{
                   fontSize: "0.975rem", color: "var(--graphite)", lineHeight: 1.85, opacity: 0.88,
-                }}>{section.text}</p>
+                }}>{section.text ? renderInline(section.text) : null}</p>
               );
             })}
           </div>
@@ -268,55 +324,39 @@ export default async function InsightArticlePage({ params }: Props) {
                     }}>{faq.question}</p>
                     <p style={{
                       fontSize: "0.88rem", color: "var(--graphite)", lineHeight: 1.8, opacity: 0.88,
-                    }}>{faq.answer}</p>
+                    }}>{renderInline(faq.answer)}</p>
                   </div>
                 ))}
               </div>
             </div>
           )}
 
-          {/* Further Reading */}
-          {insight.relatedSlugs && insight.relatedSlugs.length > 0 && (() => {
-            const related = insight.relatedSlugs!
-              .map((s) => insights.find((i) => i.slug === s))
-              .filter(Boolean) as typeof insights;
-            if (related.length === 0) return null;
-            return (
-              <div style={{ marginTop: "3rem", paddingTop: "2.5rem", borderTop: "1px solid rgba(26,23,18,0.08)" }}>
-                <p style={{
-                  fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
-                  letterSpacing: "0.16em", color: "var(--gold)", textTransform: "uppercase",
-                  marginBottom: "1.25rem",
-                }}>Further Reading</p>
-                <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-                  {related.map((r) => (
-                    <Link key={r.slug} href={`/insights/${r.slug}`} style={{
-                      display: "flex", alignItems: "flex-start", gap: "0.75rem",
-                      padding: "1rem 1.25rem",
-                      border: "1px solid rgba(26,23,18,0.08)", borderRadius: "2px",
-                      textDecoration: "none", backgroundColor: "rgba(26,23,18,0.02)",
-                    }}>
-                      <span aria-hidden="true" style={{
-                        color: "var(--strategic-teal)", fontSize: "0.6rem",
-                        marginTop: "0.3rem", flexShrink: 0,
-                      }}>→</span>
-                      <div>
-                        <p style={{
-                          fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-                          fontWeight: 600, fontSize: "0.88rem", color: "var(--ink)",
-                          lineHeight: 1.4, marginBottom: "0.2rem",
-                        }}>{r.title}</p>
-                        <p style={{
-                          fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
-                          letterSpacing: "0.08em", color: "var(--graphite)", opacity: 0.5,
-                        }}>{r.category} · {r.readingTime}</p>
-                      </div>
-                    </Link>
-                  ))}
-                </div>
+          {/* Related insights */}
+          {relatedInsights.length > 0 && (
+            <div style={{ marginTop: "3rem", paddingTop: "2.5rem", borderTop: "1px solid rgba(26,23,18,0.08)" }}>
+              <p style={{
+                fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
+                letterSpacing: "0.16em", color: "var(--strategic-teal)", textTransform: "uppercase",
+                marginBottom: "1.25rem",
+              }}>Related insights</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+                {relatedInsights.map((r) => (
+                  <Link key={r.slug} href={`/insights/${r.slug}`} style={{
+                    display: "flex", justifyContent: "space-between", alignItems: "center",
+                    padding: "1rem 1.25rem",
+                    border: "1px solid rgba(26,23,18,0.1)", borderRadius: "2px",
+                    textDecoration: "none", gap: "1rem",
+                  }}>
+                    <span style={{
+                      fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                      fontWeight: 600, fontSize: "0.85rem", color: "var(--ink)", lineHeight: 1.4,
+                    }}>{r.title}</span>
+                    <ArrowRight size={14} color="var(--strategic-teal)" style={{ flexShrink: 0 }} />
+                  </Link>
+                ))}
               </div>
-            );
-          })()}
+            </div>
+          )}
 
           {/* Author card */}
           <div style={{

@@ -57,7 +57,7 @@ export default function IntroductionSection() {
           </div>
         </div>
 
-        {/* Three principles — glass cards */}
+        {/* Three principles, glass cards */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.25rem" }}>
           {philosophy.principles.map((p, i) => (
             <div key={p.title} style={{
@@ -77,11 +77,11 @@ export default function IntroductionSection() {
                 fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                 fontSize: "0.9rem", fontWeight: 700, letterSpacing: "0.05em",
                 textTransform: "uppercase",
-                color: i === 1 ? "var(--ink)" : "var(--ink)", marginBottom: "0.85rem",
+                color: i === 1 ? "#F5F0E8" : "var(--ink)", marginBottom: "0.85rem",
               }}>{p.title}</h3>
               <p style={{
                 fontSize: "0.9rem",
-                color: i === 1 ? "rgba(26,23,18,0.68)" : "var(--graphite)",
+                color: i === 1 ? "rgba(245,240,232,0.8)" : "var(--graphite)",
                 lineHeight: 1.75, opacity: i === 1 ? 1 : 0.85, margin: 0,
               }}>{p.body}</p>
             </div>

@@ -4,7 +4,7 @@ export const profile = {
   nameLast: "Cheung",
   tagline: "Risk clarity for a world in transition.",
   supportingStatement:
-    "I help boards, insurers and financial institutions cut through complexity — so the decisions that shape your organisation's future are made with clarity, not guesswork.",
+    "I help boards, insurers and financial institutions cut through complexity, so the decisions that shape your organisation's future are made with clarity, not guesswork.",
   alternativeTagline:
     "Actuarial discipline. Executive experience. Forward-looking risk leadership.",
   eyebrow: "Chartered Actuary · C-Suite Executive · Board Adviser",
@@ -21,25 +21,25 @@ export const profile = {
   professionalEmail: "enquiries@cer-consultancy.com",
   linkedIn: "https://www.linkedin.com/in/raymond-cheung-actuary/",
   cerConsultancyUrl: "https://www.cer-consultancy.com",
-  portrait: "/raymond-cheung-portrait.jpg",
+  portrait: "/raymond-cheung-portrait.png",
   portraitAlt:
-    "Raymond Cheung — Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist",
+    "Raymond Cheung, Chartered Actuary, Risk Executive, Board Adviser and ESG Specialist",
   yearsExperience: "20+",
   aseanMarkets: 8,
   signature: {
     quote: "Start doing. Don't stop. Keep learning.",
     attribution: "Raymond Cheung",
     context:
-      "A career in risk is a career in continuous adaptation. The frameworks I relied on ten years ago have evolved. The markets have shifted. The technology has accelerated. My responsibility — to my clients, to the professionals I train, and to myself — is to keep pace with that change and help others prepare for what comes next.",
+      "A career in risk is a career in continuous adaptation. The frameworks I relied on ten years ago have evolved. The markets have shifted. The technology has accelerated. My responsibility, to my clients, to the professionals I train, and to myself,is to keep pace with that change and help others prepare for what comes next.",
   },
   philosophy: {
     headline:
       "Risk management shouldn't slow your organisation down. It should sharpen where you move next.",
-    body: "In my experience, the risks that truly threaten an organisation rarely live in one department. They move across strategy, capital, operations, regulation, technology and reputation — all at once. I bring together actuarial rigour, executive leadership and deep market experience to help you make sense of that. Not just to identify what could go wrong, but to decide what must change for your organisation to stay resilient, competitive and ready.",
+    body: "In my experience, the risks that truly threaten an organisation rarely live in one department. They move across strategy, capital, operations, regulation, technology and reputation, all at once. I bring together actuarial rigour, executive leadership and deep market experience to help you make sense of that. Not just to identify what could go wrong, but to decide what must change for your organisation to stay resilient, competitive and ready.",
     principles: [
       {
         title: "See the Whole System",
-        body: "I connect risk, capital, regulation, technology and commercial strategy into one coherent picture — because your decisions don't happen in silos.",
+        body: "I connect risk, capital, regulation, technology and commercial strategy into one coherent picture, because your decisions don't happen in silos.",
       },
       {
         title: "Make Complexity Decidable",
@@ -47,15 +47,15 @@ export const profile = {
       },
       {
         title: "Build Capability, Not Dependency",
-        body: "My goal is to leave your team better equipped to handle the next challenge — not to make myself indispensable.",
+        body: "My goal is to leave your team better equipped to handle the next challenge, not to make myself indispensable.",
       },
     ],
   },
   currentRole: "CEO, CER Consultancy",
   biography: {
     opening:
-      "My career has been shaped at the intersection where technical expertise meets executive accountability — in markets where the decisions are hard and the stakes are real.",
-    full: "I began as an actuarial analyst at Watson Wyatt, moved through pricing leadership at MSIG Asia and Great Eastern, rated Asia's insurers as an analyst at Standard & Poor's, and held statutory CRO roles at AIG Asia Pacific and Asia Capital Reinsurance. I then led digital insurance across eight ASEAN markets at Grab, co-founded and advised multiple insurtech and fintech ventures, served as Group CEO of Basel Medical Group through its Nasdaq listing, and sit today on the boards of SGX- and Nasdaq-listed companies. Through CER Consultancy, I advise boards, insurers and financial institutions on ESG strategy, risk governance and IPO readiness. I also build and deliver training programmes for SMU Academy, the Singapore College of Insurance, and APARI in Indonesia. That breadth — operator, CRO, director, trainer, founder — is what I bring to every engagement.",
+      "My career has been shaped at the intersection where technical expertise meets executive accountability, in markets where the decisions are hard and the stakes are real.",
+    full: "I began as an actuarial analyst at Watson Wyatt, moved through pricing leadership at MSIG Asia and Great Eastern, rated Asia's insurers as an analyst at Standard & Poor's, and held statutory CRO roles at AIG Asia Pacific and Asia Capital Reinsurance. I then led digital insurance across eight ASEAN markets at Grab, co-founded and advised multiple insurtech and fintech ventures, served as Group CEO of Basel Medical Group through its Nasdaq listing, and sit today on the boards of SGX- and Nasdaq-listed companies. Through CER Consultancy, I advise boards, insurers and financial institutions on ESG strategy, risk governance and IPO readiness. I also build and deliver training programmes for SMU Academy, the Singapore College of Insurance, and APARI in Indonesia. That breadth, operator, CRO, director, trainer, founder,is what I bring to every engagement.",
   },
 };
 
@@ -157,7 +157,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Raymond is an experienced actuary with a deep commercial grasp of insurance and ERM, and with a knack of explaining complex matters in a digestible manner. I witnessed his expertise firsthand when we were co-presenting at a regulatory workshop — truly a delightful experience.",
+      "Raymond is an experienced actuary with a deep commercial grasp of insurance and ERM, and with a knack of explaining complex matters in a digestible manner. I witnessed his expertise firsthand when we were co-presenting at a regulatory workshop, truly a delightful experience.",
     name: "Quanyie Tan",
     title: "Group Head of Regional Strategy, APAC",
     context: "Co-presenter at regulatory workshop",
@@ -183,7 +183,7 @@ export const testimonials = [
 
 export const speakingEngagements = [
   {
-    event: "FAMPOSO Conference — Family Offices, Institutional Investors & Sovereign Funds",
+    event: "FAMPOSO Conference, Family Offices, Institutional Investors & Sovereign Funds",
     host: "FAMPOSO",
     venue: "Singapore",
     year: "Aug 2026",
@@ -225,13 +225,13 @@ export const speakingEngagements = [
     year: "Ongoing",
   },
   {
-    event: "Digital Economy Summit Asia — Panel: 'Green is the New Gold'",
+    event: "Digital Economy Summit Asia, Panel: 'Green is the New Gold'",
     host: "DESA",
     venue: "Marina Bay Sands, Singapore",
     year: "Sep 2025",
   },
   {
-    event: "Climate & Environmental Risk — ASEAN",
+    event: "Climate & Environmental Risk, ASEAN",
     host: "Singapore College of Insurance",
     venue: "Singapore (Cambodia participants)",
     year: "Oct 2025",

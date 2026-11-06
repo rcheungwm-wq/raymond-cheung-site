@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Download, Mic, Users, Briefcase, GraduationCap, MessageSquare, Radio } from "lucide-react";
 import { programmes, speakingThemes, speakingFormats } from "@/data/programmes";
 
 export const metadata: Metadata = {
-  title: "Executive Training & Keynote Speaking — Risk, ESG & Governance",
+  title: "Executive Training & Keynote Speaking, Risk, ESG & Governance",
   description:
     "Accredited trainer at SMU Academy and the Singapore College of Insurance, lecturer at ESSEC Business School, and author of ten proprietary curricula covering ERM, RBC2, cyber risk, IoT, blockchain and PDPA. Available for board briefings, certification programmes and conference keynotes across Asia.",
   alternates: { canonical: "https://raymondcheungwm.com/training-speaking" },
   openGraph: {
-    title: "Executive Training & Keynote Speaking — Raymond Cheung",
+    title: "Executive Training & Keynote Speaking, Raymond Cheung",
     description:
       "Accredited trainer at SMU Academy and SCI. Ten authored curricula. Board briefings and conference keynotes across Asia.",
     url: "https://raymondcheungwm.com/training-speaking",
@@ -37,12 +38,41 @@ export default function TrainingSpeakingPage() {
           <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase", display: "block", marginBottom: "1.5rem" }}>
             Training & Speaking
           </span>
-          <h1 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800, letterSpacing: "-0.03em", color: "var(--ink)", lineHeight: 1.12, maxWidth: "680px", marginBottom: "1.5rem" }}>
+          <h1 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800, letterSpacing: "-0.03em", color: "#F5F0E8", lineHeight: 1.12, maxWidth: "680px", marginBottom: "1.5rem" }}>
             Complex subjects. Clear conversations. Practical conclusions.
           </h1>
-          <p style={{ fontSize: "1.05rem", color: "rgba(26,23,18,0.65)", lineHeight: 1.75, maxWidth: "560px" }}>
+          <p style={{ fontSize: "1.05rem", color: "rgba(245,240,232,0.75)", lineHeight: 1.75, maxWidth: "560px" }}>
             Raymond delivers corporate training programmes, executive briefings, keynotes and conference contributions on the subjects shaping risk, insurance, regulation, climate and technology across Asia.
           </p>
+        </div>
+      </section>
+
+      {/* Photo evidence strip */}
+      <section style={{ padding: "3rem 2rem 0", backgroundColor: "var(--warm-ivory)" }}>
+        <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
+          <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem", letterSpacing: "0.18em", color: "var(--ink-faint)", textTransform: "uppercase", marginBottom: "1.25rem" }}>
+            In the room
+          </p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }} className="photo-grid">
+            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+              <Image src="/raymond-speaking-jakarta.jpg" alt="Raymond Cheung delivering Enterprise Risk Management programme at JW Marriott Jakarta, Singapore College of Insurance and APARI" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+              <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>SCI & APARI, Jakarta 2026</p>
+              </div>
+            </div>
+            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+              <Image src="/raymond-training-classroom.jpg" alt="Participants at Raymond Cheung's executive training session, September 2026" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center" }} />
+              <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>Executive Training, Singapore 2026</p>
+              </div>
+            </div>
+            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+              <Image src="/raymond-international-conference.jpg" alt="Raymond Cheung representing Singapore at international reinsurance conference, Minsk 2026" fill sizes="(max-width: 900px) 100vw, 420px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+              <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.75rem 1rem", background: "linear-gradient(transparent, rgba(10,16,31,0.75))" }}>
+                <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>International Conference, Belarus 2026</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -72,15 +102,15 @@ export default function TrainingSpeakingPage() {
 
           <div style={{ backgroundColor: "var(--midnight-navy)", border: "1px solid rgba(201,169,97,0.15)", padding: "3rem" }}>
             <div style={{ width: "40px", height: "2px", backgroundColor: "var(--gold)", marginBottom: "1.75rem" }} />
-            <h2 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "1.3rem", fontWeight: 700, letterSpacing: "-0.02em", color: "var(--ink)", marginBottom: "0.75rem" }}>
+            <h2 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "1.3rem", fontWeight: 700, letterSpacing: "-0.02em", color: "#F5F0E8", marginBottom: "0.75rem" }}>
               Speaking & Industry Engagement
             </h2>
-            <p style={{ fontSize: "0.9rem", color: "rgba(26,23,18,0.6)", lineHeight: 1.75, marginBottom: "2rem" }}>
+            <p style={{ fontSize: "0.9rem", color: "rgba(245,240,232,0.72)", lineHeight: 1.75, marginBottom: "2rem" }}>
               Raymond speaks to boards, executives and professional audiences on the forces reshaping risk, insurance, regulation, climate strategy and technology across Asia.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "2rem" }}>
               {speakingFormats.map((fmt) => (
-                <div key={fmt.label} style={{ display: "flex", alignItems: "center", gap: "0.4rem", backgroundColor: "rgba(201,169,97,0.1)", border: "1px solid rgba(201,169,97,0.2)", padding: "0.4rem 0.75rem", borderRadius: "1px", color: "rgba(26,23,18,0.7)" }}>
+                <div key={fmt.label} style={{ display: "flex", alignItems: "center", gap: "0.4rem", backgroundColor: "rgba(201,169,97,0.1)", border: "1px solid rgba(201,169,97,0.2)", padding: "0.4rem 0.75rem", borderRadius: "1px", color: "rgba(245,240,232,0.8)" }}>
                   <span style={{ color: "var(--strategic-teal)" }}>{iconMap[fmt.icon]}</span>
                   <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.1em", textTransform: "uppercase" }}>{fmt.label}</span>
                 </div>
@@ -88,7 +118,7 @@ export default function TrainingSpeakingPage() {
             </div>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, marginBottom: "2rem" }}>
               {speakingOfferings.map((item) => (
-                <li key={item} style={{ fontSize: "0.875rem", color: "rgba(26,23,18,0.65)", padding: "0.5rem 0", borderBottom: "1px solid rgba(201,169,97,0.08)", display: "flex", alignItems: "center", gap: "0.6rem" }}>
+                <li key={item} style={{ fontSize: "0.875rem", color: "rgba(245,240,232,0.75)", padding: "0.5rem 0", borderBottom: "1px solid rgba(201,169,97,0.08)", display: "flex", alignItems: "center", gap: "0.6rem" }}>
                   <span aria-hidden="true" style={{ color: "var(--gold)", fontSize: "0.5rem", flexShrink: 0 }}>◆</span>
                   {item}
                 </li>
@@ -98,7 +128,7 @@ export default function TrainingSpeakingPage() {
               <Link href="/contact?type=speaking" className="btn-teal">
                 Invite to Speak <ArrowRight size={13} />
               </Link>
-              <button disabled style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.75rem 1.25rem", backgroundColor: "transparent", color: "rgba(26,23,18,0.4)", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 500, fontSize: "0.78rem", border: "1px solid rgba(26,23,18,0.15)", borderRadius: "1px", cursor: "not-allowed" }}>
+              <button disabled style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", padding: "0.75rem 1.25rem", backgroundColor: "transparent", color: "rgba(245,240,232,0.4)", fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontWeight: 500, fontSize: "0.78rem", border: "1px solid rgba(245,240,232,0.15)", borderRadius: "1px", cursor: "not-allowed" }}>
                 <Download size={13} /> Speaker Profile (Pending)
               </button>
             </div>
@@ -153,6 +183,7 @@ export default function TrainingSpeakingPage() {
 
       <style>{`
         @media (max-width: 899px) { .pathway-grid { grid-template-columns: 1fr !important; } }
+        @media (max-width: 699px) { .photo-grid { grid-template-columns: 1fr !important; } }
       `}</style>
     </div>
   );

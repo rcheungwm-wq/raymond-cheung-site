@@ -3,12 +3,12 @@ import { insights } from "@/data/insights";
 import InsightsClient from "./InsightsClient";
 
 export const metadata: Metadata = {
-  title: "Insights — Risk, Governance, ESG & Insurance Commentary",
+  title: "Insights, Risk, Governance, ESG & Insurance Commentary",
   description:
-    "Written commentary from Raymond Cheung on enterprise risk, climate transition governance, risk appetite, insurance capital strategy, AI governance and ESG compliance — drawn from two decades in Asia's boardrooms and risk functions.",
+    "Written commentary from Raymond Cheung on enterprise risk, climate transition governance, risk appetite, insurance capital strategy, AI governance and ESG compliance, drawn from two decades in Asia's boardrooms and risk functions.",
   alternates: { canonical: "https://raymondcheungwm.com/insights" },
   openGraph: {
-    title: "Insights — Raymond Cheung on Risk, Governance & ESG",
+    title: "Insights, Raymond Cheung on Risk, Governance & ESG",
     description:
       "Commentary on enterprise risk, climate governance, capital strategy and ESG from a Chartered Actuary and former Nasdaq CEO.",
     url: "https://raymondcheungwm.com/insights",
@@ -39,14 +39,14 @@ export default function InsightsPage() {
           <h1 style={{
             fontFamily: "var(--font-cormorant), Georgia, serif",
             fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 400,
-            color: "var(--ink)", lineHeight: 1.1,
+            color: "#F5F0E8", lineHeight: 1.1,
             maxWidth: "600px", marginBottom: "1.5rem",
           }}>
             Ideas for leaders navigating uncertainty.
           </h1>
           <p style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
-            fontSize: "1.05rem", color: "rgba(26,23,18,0.65)",
+            fontSize: "1.05rem", color: "rgba(245,240,232,0.75)",
             lineHeight: 1.75, maxWidth: "520px",
           }}>
             Perspectives on risk, insurance, climate transition, governance, ESG and the forces shaping organisations across Asia. Written by Raymond Cheung from 24 years at the sharp end.

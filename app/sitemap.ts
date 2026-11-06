@@ -19,7 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 
-  const insightRoutes: MetadataRoute.Sitemap = insights.map((post: { slug: string }) => ({
+  // Superseded posts canonicalise elsewhere, so only list canonical URLs.
+  const insightRoutes: MetadataRoute.Sitemap = insights.filter((post) => !post.canonicalSlug).map((post) => ({
     url: `${SITE_URL}/insights/${post.slug}`,
     lastModified: now,
     changeFrequency: "monthly" as const,

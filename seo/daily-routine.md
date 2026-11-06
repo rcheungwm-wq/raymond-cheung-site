@@ -8,12 +8,13 @@
 ## THE TWO-TIER SYSTEM
 
 ### Tier A — Signature Post (every 2–3 days)
-- **Length:** 900–1,200 words
+- **Length:** 900–1,200 words (target 1,000–1,100; 900 is the floor, not the goal)
 - **Time:** 60–90 minutes to write
 - **Purpose:** Keyword ranking asset — each post targets one specific keyword
 - **Voice:** Raymond's opinion and lived experience — not generic explainer
+- **Opening rule:** Opens with a real situation Raymond has been in. If no specific episode is available, write the strongest version possible and flag it with `[CONFIRM with Raymond — replace with a real episode if possible]` at the end of the opening paragraph
 - **Structure:**
-  1. Opening — a situation Raymond has actually been in
+  1. Opening — a situation Raymond has actually been in (flagged if generic)
   2. The problem — what boards/organisations get wrong
   3. 2–3 headed sections with specific, actionable insight
   4. Pull quote — the sharpest sentence from the post
@@ -24,13 +25,14 @@
 - **Length:** 300–500 words
 - **Time:** 20–30 minutes to write
 - **Purpose:** News-pegged content that Google indexes fast + builds internal link network
-- **Triggers:**
-  - MAS circular or consultation paper released
-  - SGX regulatory update or enforcement action
-  - ISSB / TCFD standard update
-  - Singapore Budget announcement touching ESG or governance
-  - A board failure or governance scandal in the news
-  - A new report from SID, Diligent, Russell Reynolds on Singapore governance
+- **Triggers (priority order — use the highest available):**
+  1. Active MAS or SGX consultation paper open for comment and not yet covered by an existing post
+  2. New regulatory circular, notice, or enforcement action published in the last 7 days
+  3. SGX announcement with a board governance angle (rule change, enforcement, disclosure query)
+  4. New research or report from SID, MAS, SGX RegCo, or a major governance body
+  5. A new entrant on a keyword Raymond ranks for (Step 0 output)
+  6. ISSB / TCFD standard update or Singapore Budget announcement touching ESG or governance
+  7. A board failure or governance scandal in the news
 - **Structure:** 2 paragraphs of Raymond's reaction + 2–3 paragraphs of structured context + 1 CTA
 
 ---
@@ -75,7 +77,7 @@ instead; `node seo/serp-check.mjs --mock` smoke-tests the pipeline.
 1. Scan: MAS website, SGX announcements, SID updates, Straits Times business section — plus any **new entrant** flagged by Step 0
 2. Pick one news item Raymond has something to say about
 3. Write 300–500 words — Raymond's angle first, context second
-4. Add to `data/insights.ts` with today's date, new slug
+4. Add to `data/insights.json` with today's date, new slug (the .ts file is a thin loader — always edit the JSON)
 5. `git add . && git commit -m "insight: [short description]" && git push`
 6. Deploy runs automatically — post live in ~3 minutes
 
@@ -83,7 +85,7 @@ instead; `node seo/serp-check.mjs --mock` smoke-tests the pipeline.
 1. Pick the keyword from the Step 0 output (declined keyword to defend, else first suggested target). Fall back to the next unchecked keyword in `seo/keywords.md` only if Step 0 produced nothing.
 2. Write 900–1,200 words in Raymond's voice
 3. Add 3 FAQs (exact question format AI tools use)
-4. Add to `data/insights.ts` — full body array with headings, paragraphs, pullquote, list, faqs
+4. Add to `data/insights.json` — full body array with headings, paragraphs, pullquote, list, faqs
 5. `git add . && git commit -m "insight: [keyword]" && git push`
 
 ---
@@ -116,8 +118,8 @@ instead; `node seo/serp-check.mjs --mock` smoke-tests the pipeline.
 
 ## HOW TO ADD A POST
 
-Open `data/insights.ts`. Copy the template below, fill in the fields, and add to the array.
-Push and the site rebuilds automatically.
+Open `data/insights.json`. Add a new object at the end of the array, fill in the fields below.
+Push and the site rebuilds automatically. (Do not edit `data/insights.ts` — it just imports the JSON.)
 
 ```typescript
 {
@@ -127,13 +129,14 @@ Push and the site rebuilds automatically.
   category: "Governance",  // Climate Risk | Enterprise Risk | Insurance Innovation | Technology Risk | Insurance Capital | ESG | Governance | Regulation | Board Advisory | Actuarial
   readingTime: "6 min read",
   date: "September 2026",
+  datePublished: "2026-09-16",  // ISO date, used for Article schema + OG publishedTime
   status: "published",
-  slug: "your-slug-here",  // matches the keyword target
+  slug: "your-slug-here",  // matches the keyword target; must be unique across the file
   keywords: ["primary keyword Singapore", "secondary keyword"],
   body: [
     { type: "paragraph", text: "Opening paragraph — a situation Raymond has been in." },
-    { type: "heading", text: "Section heading" },
-    { type: "paragraph", text: "Body paragraph." },
+    { type: "heading", text: "Section heading" },  // renders as <h2>; the title is the page's only <h1>
+    { type: "paragraph", text: "Body paragraph with an [internal link](/insights/existing-slug) in it." },
     { type: "pullquote", text: "The sharpest sentence from this section." },
     { type: "list", items: ["Point one", "Point two", "Point three"] },
     { type: "paragraph", text: "Closing — what Raymond recommends." },
@@ -150,6 +153,8 @@ Push and the site rebuilds automatically.
   ],
 },
 ```
+
+**Internal links:** paragraph text, list items and FAQ answers support `[label](/insights/slug)` (external URLs open in a new tab). Every post should carry 2–4 contextual links to existing posts using descriptive anchor text, signature posts should end with a link to `/advisory` or `/contact`, and every link target must be a slug that exists. Never put link markup in `title` or `summary` (those are the meta title/description). "Related insights" at the foot of each post is picked automatically by keyword overlap.
 
 ---
 

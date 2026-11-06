@@ -163,5 +163,316 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "fsb.org",
+        "url": "https://www.fsb.org/uploads/c_131011m.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "singaporeair.com",
+        "url": "https://www.singaporeair.com/saar5/pdf/corporate-info/riskmanagementframework.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "mas.gov.sg",
+        "url": "https://www.mas.gov.sg/regulation/guidelines/guidelines-on-risk-management-practices--board-and-senior-management",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "cdn.aws.singtel.com",
+        "url": "https://cdn.aws.singtel.com/annualreport/2020/downloads/risk-management.pdf",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "bakermckenzie.com",
+        "url": "https://www.bakermckenzie.com/en/insight/publications/2026/03/singapore-mas-proposes-updated-guidelines-on-operational-risk-management",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "qbe.com",
+        "url": "https://www.qbe.com/sg/about-qbe/enterprise-risk-management",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "fsb.org",
+        "url": "https://www.fsb.org/uploads/r_131118.pdf",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rmaindia.org",
+        "url": "https://rmaindia.org/risk-management-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "web3.career",
+        "url": "https://web3.career/head-of-risk-apac-anz-okx/65486",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "fsb.org",
+        "url": "https://www.fsb.org/uploads/c_131011m.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scotiabank.com",
+        "url": "https://www.scotiabank.com/content/dam/global/hong-kong/documents/BaselIII-AnnualDisclosure2020-English.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "risk.net",
+        "url": "https://risk.net/training/risk-management-workshop",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "foundit.in",
+        "url": "https://www.foundit.in/job/head-group-enterprise-risk-addx-pte-ltd-singapore-69327840",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "jobs.lever.co",
+        "url": "https://jobs.lever.co/capital/98f2308c-8ebb-4059-a8f2-1f41cf5b23df",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "singapore.careers.cfainstitute.org",
+        "url": "https://singapore.careers.cfainstitute.org/job/9053603/head-of-risk/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/The-Big-Appetite-jobs",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-ca/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-cn/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "fsb.org",
+        "url": "https://www.fsb.org/uploads/c_131011m.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scotiabank.com",
+        "url": "https://www.scotiabank.com/content/dam/global/hong-kong/documents/BaselIII-AnnualDisclosure2020-English.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "risk.net",
+        "url": "https://risk.net/training/risk-management-workshop",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "foundit.in",
+        "url": "https://www.foundit.in/job/head-group-enterprise-risk-addx-pte-ltd-singapore-69327840",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "jobs.lever.co",
+        "url": "https://jobs.lever.co/capital/98f2308c-8ebb-4059-a8f2-1f41cf5b23df",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "singapore.careers.cfainstitute.org",
+        "url": "https://singapore.careers.cfainstitute.org/job/9053603/head-of-risk/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/The-Big-Appetite-jobs",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-ca/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-cn/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "fsb.org",
+        "url": "https://www.fsb.org/uploads/c_131011m.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scotiabank.com",
+        "url": "https://www.scotiabank.com/content/dam/global/hong-kong/documents/BaselIII-AnnualDisclosure2020-English.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "risk.net",
+        "url": "https://risk.net/training/risk-management-workshop",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "foundit.in",
+        "url": "https://www.foundit.in/job/head-group-enterprise-risk-addx-pte-ltd-singapore-69327840",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "jobs.lever.co",
+        "url": "https://jobs.lever.co/capital/98f2308c-8ebb-4059-a8f2-1f41cf5b23df",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "singapore.careers.cfainstitute.org",
+        "url": "https://singapore.careers.cfainstitute.org/job/9053603/head-of-risk/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/The-Big-Appetite-jobs",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-ca/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-cn/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "fsb.org",
+        "url": "https://www.fsb.org/uploads/c_131011m.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "scotiabank.com",
+        "url": "https://www.scotiabank.com/content/dam/global/hong-kong/documents/BaselIII-AnnualDisclosure2020-English.pdf",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "risk.net",
+        "url": "https://risk.net/training/risk-management-workshop",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "foundit.in",
+        "url": "https://www.foundit.in/job/head-group-enterprise-risk-addx-pte-ltd-singapore-69327840",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "jobs.lever.co",
+        "url": "https://jobs.lever.co/capital/98f2308c-8ebb-4059-a8f2-1f41cf5b23df",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "singapore.careers.cfainstitute.org",
+        "url": "https://singapore.careers.cfainstitute.org/job/9053603/head-of-risk/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/The-Big-Appetite-jobs",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-ca/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "selbyjennings.com",
+        "url": "https://www.selbyjennings.com/en-cn/job/director-enterprise-risk-pr553750_1760350225",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "genieai.co",
+        "url": "https://www.genieai.co/en-sg/template-type/enterprise-risk-management-framework",
+        "title": ""
+      }
+    ]
   }
 ]

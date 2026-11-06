@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown, ArrowUpRight } from "lucide-react";
 import { profile } from "@/data/profile";
 import { careerJourney } from "@/data/experience";
 import PublicationsSection from "@/components/PublicationsSection";
@@ -15,7 +15,7 @@ const roles = [
     org: "CER Consultancy",
     status: "current",
     period: "Current",
-    what: "CER Consultancy is my independent advisory practice. I work with boards, insurers, financial institutions and regulators across Asia on the questions that matter most — risk governance, capital strategy, ESG implementation and organisational resilience. Every engagement is different, but the underlying challenge is usually the same: turning complex, high-stakes problems into clear decisions.",
+    what: "CER Consultancy is my independent advisory practice. I work with boards, insurers, financial institutions and regulators across Asia on the questions that matter most, risk governance, capital strategy, ESG implementation and organisational resilience. Every engagement is different, but the underlying challenge is usually the same: turning complex, high-stakes problems into clear decisions.",
     did: [
       "Board and strategic advisory across insurance, finance and listed companies",
       "Climate risk and ESG governance frameworks for institutions and regulators",
@@ -28,7 +28,7 @@ const roles = [
     org: "AIG Asia Pacific",
     status: "former",
     period: "Former",
-    what: "This was one of the most formative roles of my career. As statutory CRO for one of Asia Pacific's largest insurance groups, I was personally accountable — not just functionally responsible — for enterprise risk across the region. I had to understand how risk, capital, strategy and governance connected at the highest levels of the organisation and explain it clearly to boards and regulators.",
+    what: "This was one of the most formative roles of my career. As statutory CRO for one of Asia Pacific's largest insurance groups, I was personally accountable, not just functionally responsible,for enterprise risk across the region. I had to understand how risk, capital, strategy and governance connected at the highest levels of the organisation and explain it clearly to boards and regulators.",
     did: [
       "Enterprise-wide risk framework design and implementation across Asia Pacific",
       "Statutory risk accountability across multiple regulatory jurisdictions",
@@ -42,7 +42,7 @@ const roles = [
     org: "Asia Capital Reinsurance Group",
     status: "former",
     period: "Former",
-    what: "Leading risk and compliance for a pan-Asian reinsurance group gave me a distinctive perspective on how risk accumulates at the group level — across subsidiaries, markets and regulatory regimes with very different expectations. Reinsurance sits at the intersection of risk transfer, capital and relationships; understanding it deeply shaped how I advise on capital and governance today.",
+    what: "Leading risk and compliance for a pan-Asian reinsurance group gave me a distinctive perspective on how risk accumulates at the group level, across subsidiaries, markets and regulatory regimes with very different expectations. Reinsurance sits at the intersection of risk transfer, capital and relationships; understanding it deeply shaped how I advise on capital and governance today.",
     did: [
       "Group-level risk governance across multiple Asian jurisdictions",
       "Enterprise risk management and compliance programme leadership",
@@ -56,7 +56,7 @@ const roles = [
     org: "Grab",
     status: "former",
     period: "Former",
-    what: "This role sat at the intersection of insurance and technology at a scale few practitioners ever get to see. I helped build digital insurance programmes across eight ASEAN markets at one of Southeast Asia's most significant technology platforms — designing products, securing regulatory licences, structuring partnerships and connecting insurance expertise to a customer base of millions. It gave me a practitioner's understanding of where insurance is going.",
+    what: "This role sat at the intersection of insurance and technology at a scale few practitioners ever get to see. I helped build digital insurance programmes across eight ASEAN markets at one of Southeast Asia's most significant technology platforms, designing products, securing regulatory licences, structuring partnerships and connecting insurance expertise to a customer base of millions. It gave me a practitioner's understanding of where insurance is going.",
     did: [
       "Digital insurance product design and launch across 8 ASEAN markets",
       "Insurance regulatory licensing and compliance across multiple jurisdictions",
@@ -70,7 +70,7 @@ const roles = [
     org: "Basel Medical Group",
     status: "former",
     period: "Former",
-    what: "Stepping into the Group CEO role of a listed healthcare company expanded my perspective far beyond financial services. I was responsible for commercial strategy, operational performance and board governance of a publicly listed organisation — with all the accountability that entails. It reinforced for me how universal the fundamentals of good governance and strategic risk management really are.",
+    what: "Stepping into the Group CEO role of a listed healthcare company expanded my perspective far beyond financial services. I was responsible for commercial strategy, operational performance and board governance of a publicly listed organisation, with all the accountability that entails. It reinforced for me how universal the fundamentals of good governance and strategic risk management really are.",
     did: [
       "Group strategic leadership and commercial performance",
       "Board governance and listed-company accountability",
@@ -83,7 +83,7 @@ const roles = [
     org: "SGX & Nasdaq Listed Companies",
     status: "associated",
     period: "Board",
-    what: "Serving as an independent director on publicly listed companies — across both SGX and Nasdaq — is where my experience on both sides of the boardroom becomes most visible. I bring risk, actuarial and financial services depth to audit and risk committee work, and I know from my own CRO experience what good risk reporting to a board should look like.",
+    what: "Serving as an independent director on publicly listed companies, across both SGX and Nasdaq,is where my experience on both sides of the boardroom becomes most visible. I bring risk, actuarial and financial services depth to audit and risk committee work, and I know from my own CRO experience what good risk reporting to a board should look like.",
     did: [
       "Independent board oversight and governance stewardship",
       "Audit and risk committee membership",
@@ -96,7 +96,7 @@ const roles = [
     org: "SMU Academy",
     status: "associated",
     period: "Training",
-    what: "I design and deliver executive education at Singapore Management University's professional learning arm. My programmes are built around the questions that boards, executives and senior practitioners are actually wrestling with — not theoretical frameworks disconnected from practice. I teach risk, insurance, ESG and governance through the lens of someone who has had to make the decisions I'm asking participants to think about.",
+    what: "I design and deliver executive education at Singapore Management University's professional learning arm. My programmes are built around the questions that boards, executives and senior practitioners are actually wrestling with, not theoretical frameworks disconnected from practice. I teach risk, insurance, ESG and governance through the lens of someone who has had to make the decisions I'm asking participants to think about.",
     did: [
       "Executive education in risk management, ESG and insurance governance",
       "Programme design for board directors, C-suite and senior professionals",
@@ -109,7 +109,7 @@ const roles = [
     org: "Singapore College of Insurance",
     status: "associated",
     period: "Training",
-    what: "The Singapore College of Insurance is the region's principal professional development institution for insurance practitioners. Training here connects me with the next generation of insurance professionals — and keeps me close to what the industry is thinking about, asking about and struggling with. I cover insurance regulation, enterprise risk, climate risk and ESG practice.",
+    what: "The Singapore College of Insurance is the region's principal professional development institution for insurance practitioners. Training here connects me with the next generation of insurance professionals, and keeps me close to what the industry is thinking about, asking about and struggling with. I cover insurance regulation, enterprise risk, climate risk and ESG practice.",
     did: [
       "Accredited professional training in insurance regulation and risk management",
       "Climate risk and ESG content for insurance practitioners",
@@ -122,8 +122,34 @@ const roles = [
 export default function AboutPage() {
   const [openRole, setOpenRole] = useState<number | null>(0);
 
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Raymond Cheung",
+    url: "https://raymondcheungwm.com",
+    jobTitle: "Chartered Actuary, Board Director and Risk Adviser",
+    description:
+      "Chartered Actuary and former Nasdaq CEO who led Basel Medical Group to listing. Independent director on Nasdaq and SGX boards, former statutory CRO at AIG Asia Pacific. Advising Asia's boards on enterprise risk, ESG and IPO readiness.",
+    sameAs: ["https://www.linkedin.com/in/raymond-cheung-erm/"],
+    worksFor: { "@type": "Organization", name: "CER Consultancy" },
+    knowsAbout: [
+      "Enterprise Risk Management",
+      "Corporate Governance",
+      "ESG",
+      "Insurance Regulation",
+      "Actuarial Science",
+      "Board Advisory",
+      "IPO Readiness",
+      "Singapore Financial Regulation",
+    ],
+  };
+
   return (
     <div style={{ backgroundColor: "var(--warm-ivory)", paddingTop: "96px" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
       {/* Page hero */}
       <section
         aria-labelledby="about-heading"
@@ -148,15 +174,15 @@ export default function AboutPage() {
           <h1 id="about-heading" style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800,
-            letterSpacing: "-0.03em", color: "var(--ink)", lineHeight: 1.12,
+            letterSpacing: "-0.03em", color: "#F5F0E8", lineHeight: 1.12,
             maxWidth: "760px",
           }}>
-            Raymond Cheung — Chartered Actuary, Chief Risk Officer and Board Adviser in Singapore
+            Raymond Cheung, Chartered Actuary, Chief Risk Officer and Board Adviser in Singapore
           </h1>
           <p style={{
             fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
             fontSize: "clamp(1.05rem, 2vw, 1.35rem)", fontWeight: 500,
-            color: "var(--graphite)", lineHeight: 1.4, maxWidth: "620px",
+            color: "rgba(245,240,232,0.8)", lineHeight: 1.4, maxWidth: "620px",
             marginTop: "1.25rem",
           }}>
             Two decades of risk, leadership and the discipline to connect them.
@@ -198,7 +224,7 @@ export default function AboutPage() {
               <p style={{
                 fontFamily: "var(--font-cormorant, Georgia), serif",
                 fontSize: "1.25rem", fontWeight: 600, fontStyle: "italic",
-                color: "var(--ink)", lineHeight: 1.6,
+                color: "#F5F0E8", lineHeight: 1.6,
               }}>
                 &ldquo;{profile.philosophy.headline}&rdquo;
               </p>
@@ -336,6 +362,82 @@ export default function AboutPage() {
               })}
             </div>
 
+            {/* Selected insights */}
+            <div style={{ marginBottom: "3rem" }}>
+              <h2 style={{
+                fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                fontSize: "1.5rem", fontWeight: 700, letterSpacing: "-0.02em",
+                color: "var(--ink)", marginBottom: "0.6rem",
+              }}>Selected insights</h2>
+              <p style={{
+                fontSize: "0.88rem", color: "var(--graphite)", opacity: 0.7,
+                marginBottom: "1.75rem", lineHeight: 1.6,
+              }}>
+                Writing on governance, risk and regulation for Singapore boards and insurers.
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0", borderRadius: "2px", overflow: "hidden", boxShadow: "var(--sh-glass)" }}>
+                {[
+                  {
+                    category: "Enterprise Risk",
+                    title: "MAS Notice 126 Board Obligations: What Singapore Insurance Directors Are Personally Accountable For",
+                    slug: "mas-notice-126-insurance-boards",
+                  },
+                  {
+                    category: "Enterprise Risk",
+                    title: "ORSA as a Strategic Tool for Singapore Insurance Boards",
+                    slug: "orsa-strategic-tool-singapore-insurance-boards",
+                  },
+                  {
+                    category: "Governance",
+                    title: "What a Board Risk Committee Should Look Like for a Singapore-Listed Company",
+                    slug: "board-risk-committee-singapore",
+                  },
+                  {
+                    category: "Actuarial",
+                    title: "The Actuarial Board Adviser in Singapore: What the Role Actually Involves",
+                    slug: "actuarial-board-adviser-singapore",
+                  },
+                ].map((item, i, arr) => (
+                  <Link
+                    key={item.slug}
+                    href={`/insights/${item.slug}`}
+                    style={{
+                      display: "flex", alignItems: "center", justifyContent: "space-between",
+                      gap: "1rem", padding: "1.25rem 1.75rem",
+                      backgroundColor: "var(--panel)",
+                      borderBottom: i < arr.length - 1 ? "1px solid rgba(26,23,18,0.07)" : "none",
+                      textDecoration: "none",
+                      transition: "background-color 0.2s",
+                    }}
+                  >
+                    <div style={{ flex: 1 }}>
+                      <span style={{
+                        fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.56rem",
+                        letterSpacing: "0.12em", textTransform: "uppercase",
+                        color: "var(--strategic-teal)",
+                        display: "block", marginBottom: "0.3rem",
+                      }}>{item.category}</span>
+                      <span style={{
+                        fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                        fontSize: "0.88rem", fontWeight: 600, color: "var(--ink)",
+                        lineHeight: 1.4,
+                      }}>{item.title}</span>
+                    </div>
+                    <ArrowUpRight size={15} style={{ color: "var(--gold)", flexShrink: 0 }} />
+                  </Link>
+                ))}
+              </div>
+              <div style={{ marginTop: "0.85rem", textAlign: "right" }}>
+                <Link href="/insights" style={{
+                  fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                  fontSize: "0.8rem", fontWeight: 600, color: "var(--strategic-teal)",
+                  textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "0.35rem",
+                }}>
+                  All insights <ArrowRight size={12} />
+                </Link>
+              </div>
+            </div>
+
             {/* CTA strip */}
             <div style={{
               display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center",
@@ -378,6 +480,22 @@ export default function AboutPage() {
                 />
               </div>
 
+              {/* Proof images */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+                <div style={{ position: "relative", width: "100%", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+                  <Image src="/raymond-certificate-recognition.jpg" alt="Certificate of Recognition awarded to Raymond Cheung" fill sizes="320px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+                  <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.5rem 0.75rem", background: "linear-gradient(transparent, rgba(10,16,31,0.8))" }}>
+                    <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.52rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>Certificate of Recognition</p>
+                  </div>
+                </div>
+                <div style={{ position: "relative", width: "100%", aspectRatio: "4/3", overflow: "hidden", borderRadius: "2px", boxShadow: "var(--sh-glass)" }}>
+                  <Image src="/raymond-sas-book-interview.jpg" alt="Raymond Cheung featured in The Mark of an Actuary, 50 Years of the Singapore Actuarial Society" fill sizes="320px" style={{ objectFit: "cover", objectPosition: "center top" }} />
+                  <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "0.5rem 0.75rem", background: "linear-gradient(transparent, rgba(10,16,31,0.8))" }}>
+                    <p style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.52rem", letterSpacing: "0.1em", color: "rgba(255,255,255,0.85)", textTransform: "uppercase" }}>SAS 50th Anniversary Publication</p>
+                  </div>
+                </div>
+              </div>
+
               <div style={{
                 background: "var(--glass)", backdropFilter: "none",
                 WebkitBackdropFilter: "none",
@@ -410,7 +528,7 @@ export default function AboutPage() {
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem",
                   padding: "0.85rem 1.5rem",
-                  background: "var(--midnight-navy)", color: "var(--ink)",
+                  background: "var(--midnight-navy)", color: "#F5F0E8",
                   borderRadius: "999px", textDecoration: "none",
                   fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
                   fontSize: "0.82rem", fontWeight: 600,
@@ -449,7 +567,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Full set of recommendations — homepage shows a curated three */}
+      {/* Full set of recommendations, homepage shows a curated three */}
       <TestimonialsSection />
 
       <style>{`

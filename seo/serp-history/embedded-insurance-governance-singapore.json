@@ -1,0 +1,69 @@
+[
+  {
+    "date": "2026-10-26",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "scholars.lib.ntu.edu.tw",
+        "url": "https://scholars.lib.ntu.edu.tw/handle/123456789/628115",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "theindependent.sg",
+        "url": "https://theindependent.sg/insurtech-firm-gangkhar-bets-on-singapores-regulatory-trust-regional-reach-and-ai-talent-for-embedded-protection-growth-in-apac/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "scholars.lib.ntu.edu.tw",
+        "url": "https://scholars.lib.ntu.edu.tw/signposting/describedby/8ada9bf8-166a-465e-aeaa-2f12eeba3b0c",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/people/1508530/singapore-stresses-corporate-governance-role-in-risk-based-rules-for-insurers",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "oeaw.ac.at",
+        "url": "https://oeaw.ac.at/resources/Record/5006925890/TOC",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "risk.net",
+        "url": "https://www.risk.net/node/1508530",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "aijobs.net",
+        "url": "https://aijobs.net/job/9cm0wiR3StmfX8m/apply/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "insurancenews.com.au",
+        "url": "https://insurancenews.com.au/international/singapore-insurers-to-come-under-scrutiny",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "kr.milliman.com",
+        "url": "https://kr.milliman.com/en/insight/Ongoing-regulatory-changes-in-Singapore",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "aijobs.net",
+        "url": "https://aijobs.net/job/vice-president-ecosystem-partnerships-embedded-solutions-singapore-268249/",
+        "title": ""
+      }
+    ]
+  }
+]

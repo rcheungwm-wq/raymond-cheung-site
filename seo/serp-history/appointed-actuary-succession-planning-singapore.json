@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-10-03",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "lexology.com",
+        "url": "https://www.lexology.com/library/detail.aspx?g=f6490d79-d016-433f-aefe-e862f63fbb9c",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sg.milliman.com",
+        "url": "https://sg.milliman.com/en-gb/insurance/appointed-actuary",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "eisneramper.com",
+        "url": "https://www.eisneramper.com/insights/financial-services/succession-singapore-family-office-ea-0522/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "pdlegal.com.sg",
+        "url": "https://www.pdlegal.com.sg/strategic-investments-and-tax-planning-approach-to-succession/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "withersworldwide.com",
+        "url": "https://www.withersworldwide.com/en-gb/insight/read/singapore-keeping-succession-planning-simple-and-sustainable",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sg.indeed.com",
+        "url": "https://sg.indeed.com/career-advice/career-development/succession-planning",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "preceptsgroup.com",
+        "url": "https://www.preceptsgroup.com/estate-planning-strategies-for-business-owners-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "silvesterlegal.com",
+        "url": "https://silvesterlegal.com/from-founder-to-legacy-a-roadmap-for-succession-planning-for-small-businesses/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "singaporefinance.org",
+        "url": "https://singaporefinance.org/maximising-wealth-transfer-and-succession-planning-in-singapore/",
+        "title": ""
+      }
+    ]
+  }
+]

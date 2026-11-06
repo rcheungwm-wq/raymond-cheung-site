@@ -1,13 +1,13 @@
 export const publications = [
   {
     year: "2016",
-    title: "Balanced Scorecard Framework — Family Takaful Sector",
+    title: "Balanced Scorecard Framework, Family Takaful Sector",
     publisher: "Actuarial Partners (Malaysia)",
     type: "publication",
   },
   {
     year: "2016",
-    title: "Balanced Scorecard Framework — Life Insurance Sector",
+    title: "Balanced Scorecard Framework, Life Insurance Sector",
     publisher: "Actuarial Partners (Malaysia)",
     type: "publication",
   },
@@ -37,7 +37,7 @@ export const publications = [
   },
   {
     year: "2014",
-    title: "The ORSA Building Blocks Part II — a Concrete Foundation",
+    title: "The ORSA Building Blocks Part II, a Concrete Foundation",
     publisher: "18th East Asian Actuarial Conference",
     type: "conference",
   },
@@ -89,5 +89,5 @@ export const proprietaryCourses = [
   "Fundamentals of Risk-Based Capital Regulatory Regime (Life & Non-Life)",
   "IoT Fundamentals and Uses in Insurance",
   "PDPA and Its Impact in Insurance",
-  "RBC Advance — Valuation, Changes and Applications of RBC2 Framework in Singapore (Life & Non-Life)",
+  "RBC Advance, Valuation, Changes and Applications of RBC2 Framework in Singapore (Life & Non-Life)",
 ];

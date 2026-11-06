@@ -4,12 +4,12 @@ import { ArrowRight } from "lucide-react";
 import { expertiseAreas } from "@/data/expertise";
 
 export const metadata: Metadata = {
-  title: "Expertise — Enterprise Risk, Capital, Climate & ESG",
+  title: "Expertise, Enterprise Risk, Capital, Climate & ESG",
   description:
-    "Enterprise risk management and ORSA design, risk-based capital (RBC2) and MAS regulatory submissions, climate and environmental risk, ESG governance and insurtech strategy — from a Chartered Actuary and former statutory Chief Risk Officer at AIG Asia Pacific.",
+    "Enterprise risk management and ORSA design, risk-based capital (RBC2) and MAS regulatory submissions, climate and environmental risk, ESG governance and insurtech strategy, from a Chartered Actuary and former statutory Chief Risk Officer at AIG Asia Pacific.",
   alternates: { canonical: "https://raymondcheungwm.com/expertise" },
   openGraph: {
-    title: "Expertise — Enterprise Risk, Capital, Climate & ESG",
+    title: "Expertise, Enterprise Risk, Capital, Climate & ESG",
     description:
       "ERM and ORSA, RBC2 capital work, climate risk and ESG governance from a former statutory CRO.",
     url: "https://raymondcheungwm.com/expertise",
@@ -25,10 +25,10 @@ export default function ExpertisePage() {
           <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--strategic-teal)", textTransform: "uppercase", display: "block", marginBottom: "1.5rem" }}>
             Expertise
           </span>
-          <h1 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800, letterSpacing: "-0.03em", color: "var(--ink)", lineHeight: 1.12, maxWidth: "680px", marginBottom: "1.5rem" }}>
+          <h1 style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(2rem, 4vw, 3.2rem)", fontWeight: 800, letterSpacing: "-0.03em", color: "#F5F0E8", lineHeight: 1.12, maxWidth: "680px", marginBottom: "1.5rem" }}>
             Expertise shaped by the boardroom, the balance sheet and the market.
           </h1>
-          <p style={{ fontSize: "1.05rem", color: "rgba(26,23,18,0.65)", lineHeight: 1.75, maxWidth: "560px" }}>
+          <p style={{ fontSize: "1.05rem", color: "rgba(245,240,232,0.75)", lineHeight: 1.75, maxWidth: "560px" }}>
             Raymond&rsquo;s work spans technical actuarial practice, executive risk leadership, insurance markets, digital innovation, board governance and sustainability. Each area connects to the others.
           </p>
         </div>

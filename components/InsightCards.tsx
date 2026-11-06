@@ -3,18 +3,27 @@ import { Clock, ArrowRight } from "lucide-react";
 import { insights } from "@/data/insights";
 
 const categoryColors: Record<string, string> = {
-  "Climate Risk": "var(--deep-teal)",
+  "Climate Risk": "var(--midnight-navy)",
   "Enterprise Risk": "var(--midnight-navy)",
   "Insurance Innovation": "var(--executive-navy)",
-  "Technology Risk": "var(--graphite)",
+  "Technology Risk": "var(--executive-navy)",
   "Insurance Capital": "var(--midnight-navy)",
-  ESG: "var(--deep-teal)",
+  ESG: "var(--midnight-navy)",
   Governance: "var(--executive-navy)",
-  Regulation: "var(--graphite)",
+  Regulation: "var(--executive-navy)",
 };
 
+const FEATURED_SLUGS = [
+  "mas-notice-126-insurance-boards",
+  "orsa-strategic-tool-singapore-insurance-boards",
+  "actuarial-board-adviser-singapore",
+  "board-risk-committee-singapore",
+  "ai-governance-insurance-singapore",
+  "capital-strategy-boardroom",
+];
+
 export default function InsightCards() {
-  const featured = insights.slice(0, 6);
+  const featured = FEATURED_SLUGS.map((s) => insights.find((i) => i.slug === s)).filter(Boolean) as typeof insights;
 
   return (
     <section
@@ -31,7 +40,7 @@ export default function InsightCards() {
         </div>
 
         <h2 id="insights-heading" style={{ fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif", fontSize: "clamp(1.5rem, 2.8vw, 2.2rem)", fontWeight: 700, letterSpacing: "-0.025em", color: "var(--ink)", maxWidth: "520px", marginBottom: "3.5rem", lineHeight: 1.2 }}>
-          What I&rsquo;m thinking about — and why it matters to you.
+          What I&rsquo;m thinking about, and why it matters to you.
         </h2>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1.25rem" }}>
@@ -46,7 +55,7 @@ export default function InsightCards() {
               boxShadow: "var(--sh-glass)",
             }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.25rem", flexWrap: "wrap", gap: "0.5rem" }}>
-                <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.12em", color: "var(--ink)", backgroundColor: categoryColors[insight.category] || "var(--graphite)", padding: "0.25rem 0.6rem", textTransform: "uppercase" }}>
+                <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem", letterSpacing: "0.12em", color: (categoryColors[insight.category] === "var(--midnight-navy)" || categoryColors[insight.category] === "var(--executive-navy)") ? "#F5F0E8" : "var(--ink)", backgroundColor: categoryColors[insight.category] || "var(--graphite)", padding: "0.25rem 0.6rem", textTransform: "uppercase" }}>
                   {insight.category}
                 </span>
                 <span style={{ fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.55rem", letterSpacing: "0.08em", color: "rgba(26,23,18,0.35)", textTransform: "uppercase" }}>

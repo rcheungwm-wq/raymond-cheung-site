@@ -108,5 +108,377 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "glassdoor.sg",
+        "url": "https://www.glassdoor.sg/Job/singapore-advisory-board-member-jobs-SRCH_IL.0,9_IC3235921_KO10,31.htm",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/advisory/corporate-governance-advisory/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/Services/Services-for-Boards.aspx",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "advisoryboardcentre.com",
+        "url": "https://www.advisoryboardcentre.com/country/singapore/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "wisdomcircle.com",
+        "url": "https://wisdomcircle.com/board-director-guide-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "singaporelegaladvice.com",
+        "url": "https://singaporelegaladvice.com/law-articles/board-of-advisors-who-role/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/Resources/Board_Guide.aspx",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "glassdoor.sg",
+        "url": "https://www.glassdoor.sg/Job/singapore-advisory-board-member-jobs-SRCH_IL.0,9_IC3235921_KO10,31.htm",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/Services/Services-for-Boards.aspx",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "kpmg.com",
+        "url": "https://kpmg.com/sg/en/home/services/advisory/risk-consulting/board-advisory-services.html",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/advisory/corporate-governance-advisory/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "advisoryboardcentre.com",
+        "url": "https://www.advisoryboardcentre.com/country/singapore/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "wisdomcircle.com",
+        "url": "https://wisdomcircle.com/board-director-guide-singapore/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "singaporelegaladvice.com",
+        "url": "https://singaporelegaladvice.com/law-articles/board-of-advisors-who-role/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sid.org.sg",
+        "url": "https://www.sid.org.sg/Web/Web/Resources/Board_Guide.aspx",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "glassdoor.sg",
+        "url": "https://www.glassdoor.sg/Job/singapore-advisory-board-member-jobs-SRCH_IL.0,9_IC3235921_KO10,31.htm",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Global_Finance_%26_Technology_Network",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sg.linkedin.com",
+        "url": "https://sg.linkedin.com/jobs/board-of-directors-jobs/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "singapore.acclime.com",
+        "url": "https://singapore.acclime.com/advisory/corporate-governance-advisory/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "sg.jobstreet.com",
+        "url": "https://sg.jobstreet.com/board-member-jobs/in-Singapore",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "singaporelegaladvice.com",
+        "url": "https://singaporelegaladvice.com/law-articles/board-of-advisors-who-role/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "vivos.com.sg",
+        "url": "https://vivos.com.sg/blog/what-are-the-duties-and-responsibilities-of-the-board-of-directors-in-singapore/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "corporateservices.com",
+        "url": "https://www.corporateservices.com/singapore/singapore-company-directors/",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tliap.nus.edu.sg",
+        "url": "https://www.tliap.nus.edu.sg/about/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/cas/our-people/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "niei.nie.edu.sg",
+        "url": "https://niei.nie.edu.sg/about-us/board-directors",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "nhb.gov.sg",
+        "url": "https://www.nhb.gov.sg/-/media/nhb/files/about-us/management/nhb-boards-list-010824.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "indianheritage.gov.sg",
+        "url": "https://www.indianheritage.gov.sg/en/about-us/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "insurancenews.com.au",
+        "url": "https://insurancenews.com.au/corporate/chartis-asia-pacific-appoints-advisory-board",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "nhb.gov.sg",
+        "url": "https://www.nhb.gov.sg/-/media/nhb/files/about-us/management/nhb-boards-subboards-and-advisory-panels-as-of-30-april-2024.pdf",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "tliap.nus.edu.sg",
+        "url": "https://www.tliap.nus.edu.sg/about/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/cas/our-people/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "niei.nie.edu.sg",
+        "url": "https://niei.nie.edu.sg/about-us/board-directors",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "nhb.gov.sg",
+        "url": "https://www.nhb.gov.sg/-/media/nhb/files/about-us/management/nhb-boards-list-010824.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "indianheritage.gov.sg",
+        "url": "https://www.indianheritage.gov.sg/en/about-us/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "insurancenews.com.au",
+        "url": "https://insurancenews.com.au/corporate/chartis-asia-pacific-appoints-advisory-board",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "nhb.gov.sg",
+        "url": "https://www.nhb.gov.sg/-/media/nhb/files/about-us/management/nhb-boards-subboards-and-advisory-panels-as-of-30-april-2024.pdf",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "nhb.gov.sg",
+        "url": "https://www.nhb.gov.sg/-/media/nhb/files/about-us/management/nhb-boards-list-010824.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/cas/our-people/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "ntu.edu.sg",
+        "url": "https://www.ntu.edu.sg/business/about-us/nbs-leadership/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "niei.nie.edu.sg",
+        "url": "https://niei.nie.edu.sg/about-us/board-directors",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "nhb.gov.sg",
+        "url": "https://www.nhb.gov.sg/-/media/nhb/files/about-us/management/nhb-boards-subboards-and-advisory-panels-as-of-30-april-2024.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "indianheritage.gov.sg",
+        "url": "https://www.indianheritage.gov.sg/en/about-us/advisory-board",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "insurancenews.com.au",
+        "url": "https://insurancenews.com.au/corporate/chartis-asia-pacific-appoints-advisory-board",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "computing.smu.edu.sg",
+        "url": "https://computing.smu.edu.sg/people/board-advisors",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "sbf.org.sg",
+        "url": "https://www.sbf.org.sg/about-us/our-leadership/honorary-advisory-panel",
+        "title": ""
+      }
+    ]
   }
 ]

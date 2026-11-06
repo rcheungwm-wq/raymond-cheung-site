@@ -181,5 +181,194 @@
         "title": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "sgx.com",
+        "url": "https://www.sgx.com/sustainable-finance/sustainability-reporting",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/sustainability-report",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "academy.smu.edu.sg",
+        "url": "https://academy.smu.edu.sg/insights/esg-reporting",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "acra.gov.sg",
+        "url": "https://www.acra.gov.sg/regulations/sustainability-reporting/requirements-timeline/",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "sustainablefutures.linklaters.com",
+        "url": "https://sustainablefutures.linklaters.com/post/102l789/esg-quick-guide-singapore-mandatory-climate-reporting-regime",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "cheddarmedia.com",
+        "url": "https://www.cheddarmedia.com/a-complete-guide-to-sgx-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "pace-esg.com",
+        "url": "https://www.pace-esg.com/academy/singapore-sustainability-reporting-a-guide-for-the-aviation-sector/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "rafflescorporateservices.com",
+        "url": "https://rafflescorporateservices.com/singapore-sustainability-reporting-2026-sgx-issb-sra-roadmap/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sageshield.com",
+        "url": "https://sageshield.com/esg-reporting-requirements-singapore-guide/",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "acra.gov.sg",
+        "url": "https://www.acra.gov.sg/regulations/sustainability-reporting/requirements-timeline/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "sgx.com",
+        "url": "https://www.sgx.com/sustainable-finance/sustainability-reporting",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/sustainability-report",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "sgx.com",
+        "url": "https://www.sgx.com/sustainable-finance/sustainability-reporting?os=v",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "rulebook.sgx.com",
+        "url": "https://rulebook.sgx.com/rulebook/practice-note-76-sustainability-reporting-guide",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "cheddarmedia.com",
+        "url": "https://www.cheddarmedia.com/a-complete-guide-to-sgx-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "presgo.com",
+        "url": "https://www.presgo.com/frameworks/sgx-sustainability-reporting-guide/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "pace-esg.com",
+        "url": "https://www.pace-esg.com/academy/singapore-sustainability-reporting-a-guide-for-the-aviation-sector/",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "sageshield.com",
+        "url": "https://sageshield.com/esg-reporting-requirements-singapore-guide/",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "isca.org.sg",
+        "url": "https://isca.org.sg/docs/default-source/sustainability/articles/sustainability-reporting.pdf",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "theaccountant-online.com",
+        "url": "https://www.theaccountant-online.com/?p=5438",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "lkyspp.nus.edu.sg",
+        "url": "https://lkyspp.nus.edu.sg/iwp/events/details/sustainability-reporting-by-companies-listed-in-sgx",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "lkyspp.nus.edu.sg",
+        "url": "https://lkyspp.nus.edu.sg/ies/events/details/sustainability-reporting-by-companies-listed-in-sgx",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/ms/news/sgx-seeks-public-feedback-on-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/id/news/sgx-seeks-public-feedback-on-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/zh-hans/news/sgx-seeks-public-feedback-on-sustainability-reporting/",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "eco-business.com",
+        "url": "https://eco-business.com/news/sgxs-new-sustainability-reporting-rules-will-help-open-up-markets",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "eco-business.com",
+        "url": "https://www.eco-business.com/ms/news/sgxs-new-sustainability-reporting-rules-will-help-open-up-markets/",
+        "title": ""
+      },
+      {
+        "position": 10,
+        "domain": "eco-business.com",
+        "url": "https://eco-business.com/news/sgx-seeks-public-feedback-on-sustainability-reporting",
+        "title": ""
+      }
+    ]
   }
 ]

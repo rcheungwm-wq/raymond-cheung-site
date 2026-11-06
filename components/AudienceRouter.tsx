@@ -19,7 +19,7 @@ const audiences = [
     tag: "For Insurers & Financial Institutions",
     title: "Enterprise risk, capital & ESG advisory",
     body:
-      "Through CER Consultancy I advise insurers, financial institutions and regulators on the frameworks that hold up under scrutiny — ERM and ORSA design, RBC2 capital work, climate and ESG governance, and the regulatory submissions that follow.",
+      "Through CER Consultancy I advise insurers, financial institutions and regulators on the frameworks that hold up under scrutiny, ERM and ORSA design, RBC2 capital work, climate and ESG governance, and the regulatory submissions that follow.",
     points: [
       "ERM framework and ORSA design",
       "Risk-based capital (RBC2) and regulatory submissions",
@@ -32,7 +32,7 @@ const audiences = [
     tag: "For Institutions & Conference Organisers",
     title: "Executive training & keynote speaking",
     body:
-      "I have authored ten proprietary curricula — ERM, RBC2, cyber, IoT, blockchain, PDPA — delivered through SMU Academy, the Singapore College of Insurance and APARI Indonesia. I lecture at ESSEC and have presented at conferences across Asia since 2012.",
+      "I have authored ten proprietary curricula, ERM, RBC2, cyber, IoT, blockchain, PDPA,delivered through SMU Academy, the Singapore College of Insurance and APARI Indonesia. I lecture at ESSEC and have presented at conferences across Asia since 2012.",
     points: [
       "Accredited executive programmes and certifications",
       "Board and C-suite briefings",

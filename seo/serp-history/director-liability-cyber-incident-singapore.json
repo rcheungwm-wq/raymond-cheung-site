@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-09-18",
+    "provider": "google-manual",
+    "targetPosition": null,
+    "results": [
+      {
+        "position": 1,
+        "domain": "pdlegal.com.sg",
+        "url": "https://www.pdlegal.com.sg/cyber-accountability-southeast-asia-singapore-businesses/",
+        "title": ""
+      },
+      {
+        "position": 2,
+        "domain": "postquantum.com",
+        "url": "https://postquantum.com/post-quantum/ciso-negligence-personal-liability/",
+        "title": ""
+      },
+      {
+        "position": 3,
+        "domain": "lawgazette.com.sg",
+        "url": "https://lawgazette.com.sg/practice/tech-talk/managing-a-cyber-incident-practical-guidance-for-singapore-law-firms/",
+        "title": ""
+      },
+      {
+        "position": 4,
+        "domain": "lexology.com",
+        "url": "https://www.lexology.com/library/detail.aspx?g=14b899f0-e590-4acf-8bfc-d6229590acac",
+        "title": ""
+      },
+      {
+        "position": 5,
+        "domain": "jsm.com",
+        "url": "https://www.jsm.com/publications/2025/stepping-stone-liability-of-directors-for-cyber-incidents/",
+        "title": ""
+      },
+      {
+        "position": 6,
+        "domain": "etiqa.com.sg",
+        "url": "https://www.etiqa.com.sg/wp-content/uploads/2019/06/SME-Cyber-Policy_version-2.pdf",
+        "title": ""
+      },
+      {
+        "position": 7,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/2013_Singapore_cyberattacks",
+        "title": ""
+      },
+      {
+        "position": 8,
+        "domain": "resourcehub.bakermckenzie.com",
+        "url": "https://resourcehub.bakermckenzie.com/en/resources/global-data-and-cyber-handbook/asia-pacific/singapore/topics/security-requirements-and-breach-notification",
+        "title": ""
+      },
+      {
+        "position": 9,
+        "domain": "clydeco.com",
+        "url": "https://www.clydeco.com/en/people/s/sumyutha-sivamani",
+        "title": ""
+      }
+    ]
+  }
+]
