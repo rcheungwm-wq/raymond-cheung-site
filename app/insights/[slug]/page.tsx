@@ -275,6 +275,49 @@ export default async function InsightArticlePage({ params }: Props) {
             </div>
           )}
 
+          {/* Further Reading */}
+          {insight.relatedSlugs && insight.relatedSlugs.length > 0 && (() => {
+            const related = insight.relatedSlugs!
+              .map((s) => insights.find((i) => i.slug === s))
+              .filter(Boolean) as typeof insights;
+            if (related.length === 0) return null;
+            return (
+              <div style={{ marginTop: "3rem", paddingTop: "2.5rem", borderTop: "1px solid rgba(26,23,18,0.08)" }}>
+                <p style={{
+                  fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.6rem",
+                  letterSpacing: "0.16em", color: "var(--gold)", textTransform: "uppercase",
+                  marginBottom: "1.25rem",
+                }}>Further Reading</p>
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+                  {related.map((r) => (
+                    <Link key={r.slug} href={`/insights/${r.slug}`} style={{
+                      display: "flex", alignItems: "flex-start", gap: "0.75rem",
+                      padding: "1rem 1.25rem",
+                      border: "1px solid rgba(26,23,18,0.08)", borderRadius: "2px",
+                      textDecoration: "none", backgroundColor: "rgba(26,23,18,0.02)",
+                    }}>
+                      <span aria-hidden="true" style={{
+                        color: "var(--strategic-teal)", fontSize: "0.6rem",
+                        marginTop: "0.3rem", flexShrink: 0,
+                      }}>→</span>
+                      <div>
+                        <p style={{
+                          fontFamily: "var(--font-plus-jakarta), system-ui, sans-serif",
+                          fontWeight: 600, fontSize: "0.88rem", color: "var(--ink)",
+                          lineHeight: 1.4, marginBottom: "0.2rem",
+                        }}>{r.title}</p>
+                        <p style={{
+                          fontFamily: "var(--font-ibm-mono), monospace", fontSize: "0.58rem",
+                          letterSpacing: "0.08em", color: "var(--graphite)", opacity: 0.5,
+                        }}>{r.category} · {r.readingTime}</p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
+
           {/* Author card */}
           <div style={{
             marginTop: "4rem", padding: "2rem 2.5rem",

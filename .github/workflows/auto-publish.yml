@@ -1,0 +1,40 @@
+name: Auto-publish scheduled posts
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 7:00 AM SGT (UTC+8)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run publish script
+        id: publish
+        run: |
+          OUTPUT=$(node scripts/publish-next.mjs)
+          echo "$OUTPUT"
+          echo "output=$OUTPUT" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/insights.ts data/queue.json
+          if git diff --staged --quiet; then
+            echo "No posts due today"
+          else
+            git commit -m "auto: publish ${{ steps.publish.outputs.output }}"
+            git push
+          fi

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "49",
+    "scheduledDate": "2026-11-15",
+    "queueStatus": "pending",
+    "title": "What the Cyber Trust Mark Requires of Boards — Not Just IT",
+    "summary": "Singapore's Cyber Trust Mark Level 5 is mandatory for critical information infrastructure owners from 2026. For boards, it is not an IT certification exercise. It is a governance accountability framework — and the board's role in it is specific, non-delegable, and examinable by the CSA.",
+    "category": "Governance",
+    "readingTime": "6 min read",
+    "date": "November 2026",
+    "status": "published",
+    "slug": "cyber-trust-mark-level-5-board-oversight",
+    "keywords": ["Cyber Trust Mark board Singapore", "CSA Cyber Trust Mark Level 5 governance", "Singapore board cyber certification"],
+    "relatedSlugs": ["cyber-risk-governance-singapore-boards", "director-liability-cyber-incident-singapore", "mas-regulatory-advisor-singapore"],
+    "body": [
+      { "type": "paragraph", "text": "The Cyber Security Agency of Singapore's Cyber Trust Mark, introduced under the Cybersecurity Act 2024, establishes five certification levels for organisations managing critical information infrastructure or handling sensitive data at scale. Level 5 — the highest tier — is mandatory for CII owners operating in sectors including financial services, healthcare, and energy. For boards of those organisations, the mark is not simply a stamp that IT receives after a successful audit. The board's governance role in the certification is specific, documented, and subject to review." },
+      { "type": "paragraph", "text": "What the certification requires at the board level, in substance, is this: a board-approved cyber resilience framework with stated risk tolerance; a tested escalation protocol; evidence of annual board engagement with the organisation's cyber posture; and a named board-level owner for cyber governance accountability. These requirements are set out in the certification criteria and are assessed during the certification review — not simply attested to by management." },
+      { "type": "heading", "text": "Why certification fails at board level" },
+      { "type": "paragraph", "text": "In organisations that have attempted Cyber Trust Mark Level 5 certification without adequate board preparation, the most common failure point is not technical. It is governance documentation. The certification assessor will ask for evidence of the board's cyber governance role — meeting minutes where cyber risk tolerance was discussed, a copy of the escalation framework approved by the board, evidence that the annual board-level cyber review occurred. If those documents do not exist, the certification cannot be awarded at Level 5 regardless of how strong the technical controls are." },
+      { "type": "pullquote", "text": "A technically excellent cyber programme under a board that has never discussed cyber risk tolerance is not a Level 5 organisation. It is an organisation waiting for its certification to fail." },
+      { "type": "heading", "text": "What boards of CII organisations need to do now" },
+      { "type": "list", "items": [
+        "Review whether the board's Terms of Reference include cyber risk oversight as a named board responsibility — the CSA's updated Code of Practice requires this explicitly",
+        "Ensure the board has formally approved a cyber resilience framework that includes a plain-language risk tolerance statement, not just a technical risk register",
+        "Commission a board-level briefing from management or an external adviser that is specifically designed to inform board-level governance — not a CISO technical update, but a governance-layer conversation about resilience adequacy and decision thresholds",
+        "Confirm that the board's annual calendar includes a dedicated cyber governance review, that the review has occurred, and that it is minuted in a way that would satisfy a certification assessor"
+      ]},
+      { "type": "paragraph", "text": "For boards of financial institutions regulated by MAS, the Technology Risk Management guideline requirements overlap significantly with the Cyber Trust Mark Level 5 governance criteria. Aligning these two sets of requirements in a single board governance framework — rather than treating them as separate compliance exercises — is both more efficient and more likely to produce genuine governance rather than parallel documentation." }
+    ],
+    "faqs": [
+      { "question": "What is the Cyber Trust Mark Level 5 in Singapore?", "answer": "The Cyber Trust Mark is a certification scheme administered by the Cyber Security Agency of Singapore under the Cybersecurity Act 2024. Level 5, the highest tier, is mandatory for critical information infrastructure owners. It certifies an organisation's overall cyber resilience posture, including governance, technical controls, and incident response capability." },
+      { "question": "What does the Cyber Trust Mark require of a Singapore board?", "answer": "Level 5 certification requires evidence of board-level cyber governance — specifically a board-approved cyber resilience framework with stated risk tolerance, a tested escalation protocol, annual board engagement with the organisation's cyber posture, and a named board-level accountability owner. These are governance requirements, not technical ones, and are assessed during the certification review." }
+    ]
+  },
+  {
+    "id": "50",
+    "scheduledDate": "2026-11-22",
+    "queueStatus": "pending",
+    "title": "What a Singapore Family Office Investment Committee Should Actually Look Like",
+    "summary": "Most Singapore family office investment committees are either a one-person decision-making unit or an advisory group with no real authority. The governance gap between those two states is where most family office investment mistakes happen — and it is fixable without significant cost or complexity.",
+    "category": "Governance",
+    "readingTime": "6 min read",
+    "date": "November 2026",
+    "status": "published",
+    "slug": "family-office-investment-committee-governance-singapore",
+    "keywords": ["family office investment committee Singapore", "SFO investment governance Singapore", "family office IC Singapore"],
+    "relatedSlugs": ["single-family-office-governance-singapore", "independent-board-director-singapore", "risk-appetite-decisions"],
+    "body": [
+      { "type": "paragraph", "text": "When I work with Singapore family offices on governance design, the investment committee is almost always the most underbuilt component. The founding principal often makes investment decisions informally, with an investment manager providing recommendations but no formal challenge mechanism. The investment committee, if it exists on paper, may meet infrequently, have no defined authority, and produce no binding record of its decisions. This is not a niche problem. It is the standard state for a significant proportion of Singapore SFOs." },
+      { "type": "paragraph", "text": "The consequence is predictable: investment decisions are made quickly when the principal is engaged and deferred indefinitely when they are not. Risk concentration builds without a formal review mechanism to surface it. And when the family needs to make decisions across generations — or when the founding principal becomes incapacitated — the investment committee that was never properly built is suddenly the governance gap that cannot be closed in time." },
+      { "type": "heading", "text": "What authority the IC actually needs" },
+      { "type": "paragraph", "text": "An investment committee that cannot say no is not a governance body. It is an advisory panel. The first question to settle in building a Singapore SFO investment committee is not who sits on it — it is what decisions require IC approval, as opposed to being within the investment manager's discretionary authority or the principal's individual authority." },
+      { "type": "paragraph", "text": "A well-designed authority matrix for a Singapore SFO investment committee typically distinguishes between: investment decisions within the approved asset allocation and within defined concentration limits (investment manager discretion, with IC review at the next meeting); investment decisions that breach concentration limits or enter new asset classes (IC approval required, with a quorum that includes at least one independent member); and decisions to change the investment policy statement itself, the risk tolerance, or the target asset allocation (IC approval, with family principal confirmation)." },
+      { "type": "pullquote", "text": "An IC that only reviews what has already been done is not governing investment decisions. It is auditing them." },
+      { "type": "heading", "text": "Membership and quorum" },
+      { "type": "list", "items": [
+        "Three to five members is the right size for most Singapore SFOs — large enough to provide genuine diversity of view, small enough for decisions to be made efficiently",
+        "At least one independent member who is not a family member and has no ongoing advisory or product relationship with the family — their role is to challenge, not ratify",
+        "The investment manager attends as a non-voting participant — their job is to present and defend recommendations, not to vote on them",
+        "Quorum should require the independent member's presence for decisions above a defined threshold — otherwise the independence has no structural meaning"
+      ]},
+      { "type": "paragraph", "text": "The meeting cadence I recommend for most Singapore SFOs is quarterly formal meetings, with the ability to convene on 48 hours notice for decisions that fall outside the investment manager's discretionary authority. Between formal meetings, the independent member should receive monthly portfolio updates and have a standing right to request an extraordinary meeting if they observe something that requires committee attention. That standing right is the mechanism by which the independent member can actually be independent — not just independent on paper." }
+    ],
+    "faqs": [
+      { "question": "Does a Singapore single family office need a formal investment committee?", "answer": "MAS's SFO class exemption does not require a formal investment committee. However, for any family office managing significant assets across generations or multiple family branches, an investment committee with defined authority and an independent member is a governance best practice that protects both the assets and the family relationships. It is particularly important for decisions outside routine rebalancing." },
+      { "question": "Who should be on a Singapore family office investment committee?", "answer": "Best practice for a Singapore SFO investment committee is three to five members including at least one independent member with no product or advisory relationship with the family. The investment manager attends as a non-voting participant. Family members may serve as voting members, but quorum rules should ensure that significant decisions cannot be made without the independent member present." }
+    ]
+  },
+  {
+    "id": "51",
+    "scheduledDate": "2026-11-29",
+    "queueStatus": "pending",
+    "title": "The Actuarial Talent Shortage Is a Board Risk — Singapore Insurers Are Not Treating It That Way",
+    "summary": "Singapore's actuarial talent pool is under structural pressure from MAS regulatory demand, regional expansion, and a constrained fellowship pipeline. For insurance boards, this is not an HR problem. It is a risk to the organisation's regulatory capacity, capital modelling reliability, and product governance — and it needs to be in the board's risk register.",
+    "category": "Actuarial",
+    "readingTime": "6 min read",
+    "date": "November 2026",
+    "status": "published",
+    "slug": "actuarial-talent-shortage-singapore-boards",
+    "keywords": ["actuarial talent shortage Singapore", "Singapore actuary insurance board risk", "qualified actuary shortage Singapore insurer"],
+    "relatedSlugs": ["mas-regulatory-advisor-singapore", "board-risk-committee-singapore", "mas-notice-126-insurance-boards"],
+    "body": [
+      { "type": "paragraph", "text": "Singapore's insurance industry is in a structural actuarial talent squeeze. The demand side has expanded significantly — MAS's Own Risk and Solvency Assessment requirements, the extended use of internal models for capital under RBC2, climate stress testing, IFRS 17 implementation, and a growing number of digital and embedded insurance products each require qualified actuarial input. The supply side has not kept pace. The fellowship pipeline — the number of candidates progressing through the Institute and Faculty of Actuaries or the Society of Actuaries to fellowship qualification in Singapore — has not expanded at the rate regulatory demand requires." },
+      { "type": "paragraph", "text": "What this means in practice, for the boards of Singapore-licensed insurers, is that the actuarial function is increasingly a constrained resource. Boards are approving ORSA reports, capital plans, and product pricing submissions that depend on actuarial sign-off — but they are not asking whether the actuarial capacity behind those sign-offs is adequate, or what the organisation does if key actuarial roles become vacant." },
+      { "type": "heading", "text": "Why this is a board risk, not an HR matter" },
+      { "type": "paragraph", "text": "An HR team can track actuarial headcount and manage retention packages. What HR cannot do is assess the governance implications of actuarial capacity constraints for the board's regulatory obligations. A Singapore insurer whose Appointed Actuary or Chief Actuary departs unexpectedly faces a gap that affects MAS notification obligations, ORSA timelines, and potentially the sign-off capacity for new products or capital transactions. The board's risk register should include actuarial capacity risk — not because it is likely to crystallise, but because when it does, it is a regulatory event, not simply a recruitment challenge." },
+      { "type": "pullquote", "text": "Every Singapore insurance board approves an ORSA. Almost none of them have discussed what happens if the person who built it leaves before the next one is due." },
+      { "type": "heading", "text": "What a board-level response looks like" },
+      { "type": "list", "items": [
+        "Add actuarial capacity risk to the enterprise risk register with a named owner — typically the Chief Actuary or CFO — and a succession plan for the Appointed Actuary role that the board has reviewed",
+        "Ask management annually whether the actuarial function has adequate capacity for the regulatory workload it will face in the next 12 months — not just whether it is currently adequate, but whether it will be adequate given the pipeline of regulatory submissions",
+        "Understand the organisation's actuarial dependency on external consultants — many Singapore insurers rely significantly on external actuarial input for peak regulatory periods, and the board should know this exposure",
+        "Support investment in actuarial pipeline development — mentoring programmes, study support, and exam time for pre-fellowship staff are retention tools, and the board can signal their importance through the resources it approves"
+      ]},
+      { "type": "paragraph", "text": "The boards that handle actuarial capacity risk well are not those that have solved it — nobody has solved a structural market constraint. They are the ones that have named it, built a succession framework for the most critical roles, and ensured that management has a plan for the scenario they would otherwise be managing in crisis mode." }
+    ],
+    "faqs": [
+      { "question": "Why is there an actuarial shortage in Singapore?", "answer": "Singapore's actuarial talent shortage reflects structural demand-supply pressure: regulatory requirements under MAS's RBC2, ORSA, IFRS 17, and climate stress testing have expanded the demand for qualified actuarial input, while the fellowship qualification pipeline — candidates progressing to full membership of the IFoA or SOA — has not expanded at the same rate. Regional competition for qualified actuaries also draws talent away from Singapore-licensed entities." },
+      { "question": "What should a Singapore insurance board do about actuarial talent risk?", "answer": "Insurance boards should include actuarial capacity risk in the enterprise risk register, ensure a succession plan exists for the Appointed Actuary role, and ask management annually whether the actuarial function has adequate capacity for the regulatory workload ahead — not just current headcount. The board should also understand the organisation's dependency on external actuarial consultants during peak regulatory periods." }
+    ]
+  },
+  {
+    "id": "52",
+    "scheduledDate": "2026-12-01",
+    "queueStatus": "pending",
+    "title": "Every Singapore Insurance Board Needs an Appointed Actuary Succession Plan — Almost None Have One",
+    "summary": "The Appointed Actuary is a statutory role under the Insurance Act. MAS must be notified when it becomes vacant. Most Singapore insurance boards have no plan for what happens if their Appointed Actuary leaves unexpectedly. That gap is a governance failure with regulatory consequences.",
+    "category": "Actuarial",
+    "readingTime": "5 min read",
+    "date": "December 2026",
+    "status": "published",
+    "slug": "appointed-actuary-succession-planning-singapore",
+    "keywords": ["appointed actuary succession planning Singapore", "Singapore insurance appointed actuary board", "MAS appointed actuary notification"],
+    "relatedSlugs": ["actuarial-talent-shortage-singapore-boards", "mas-regulatory-advisor-singapore", "nominating-committee-succession-planning-singapore"],
+    "body": [
+      { "type": "paragraph", "text": "Under Singapore's Insurance Act, every licensed insurer must appoint an Appointed Actuary who meets MAS's fit-and-proper and qualification criteria. When the Appointed Actuary role becomes vacant — through resignation, incapacity, or removal — MAS must be notified, and the vacancy must be filled within a defined period. The board has direct accountability for ensuring the role is filled and for certifying that the appointee meets the statutory requirements." },
+      { "type": "paragraph", "text": "What I observe, in practice, across a significant number of Singapore insurance boards I engage with, is that this statutory accountability has not been translated into a succession plan. The board knows who the Appointed Actuary is. It approves their annual sign-off. It may even understand, in general terms, that the role is statutory. But it has not asked the question that a succession plan answers: if our Appointed Actuary is not available tomorrow, what do we do, in what sequence, within what regulatory timeframe?" },
+      { "type": "heading", "text": "The regulatory timeline is not long" },
+      { "type": "paragraph", "text": "MAS's requirements for notification of an Appointed Actuary vacancy and the appointment of a replacement are specific, and the timelines are not generous. For a board that has not thought about this scenario in advance, the first weeks after an unexpected departure are spent in regulatory communication mode rather than orderly succession mode. That is a governance failure that could have been avoided with a standing succession plan that the board reviews annually and the company secretary can execute from day one of a vacancy." },
+      { "type": "pullquote", "text": "A statutory vacancy notification to MAS is not a crisis in an organisation that planned for it. It is an administrative step in a process that has already been designed." },
+      { "type": "heading", "text": "What a succession plan for the Appointed Actuary role needs" },
+      { "type": "list", "items": [
+        "An identified interim Appointed Actuary — either an internal candidate with the qualifications and MAS fit-and-proper standing to serve in an acting capacity, or a pre-agreed arrangement with an external actuarial firm for interim cover",
+        "A documented notification protocol — who notifies MAS, using which form, within what timeframe, and who has signing authority for that notification in the board's absence",
+        "A standing search mandate — a pre-existing relationship with an executive search firm or actuarial recruitment specialist who can begin a formal search within 48 hours of a vacancy, without a new RFP process",
+        "Board review — the succession plan reviewed by the board (or the risk or audit committee) annually, not just filed and forgotten"
+      ]},
+      { "type": "paragraph", "text": "The investment in building this plan is modest — a half-day exercise for a well-prepared management team, with the board's review taking perhaps thirty minutes of a committee meeting. The cost of not having it, in a scenario where the Appointed Actuary departs unexpectedly during a peak regulatory period — an ORSA submission window, a capital transaction, a product launch — is significantly higher." }
+    ],
+    "faqs": [
+      { "question": "What is the Appointed Actuary role in Singapore insurance?", "answer": "Under Singapore's Insurance Act, every licensed insurer must appoint an Appointed Actuary who meets MAS's qualification and fit-and-proper criteria. The Appointed Actuary provides statutory certification on the insurer's financial condition, including the ORSA sign-off, and must meet specific professional qualification requirements set by MAS." },
+      { "question": "What happens if a Singapore insurer's Appointed Actuary resigns?", "answer": "MAS must be notified of the vacancy within the prescribed period under the Insurance Act. The board has direct accountability for ensuring the role is filled by a qualified candidate who meets MAS's fit-and-proper requirements. Without a pre-existing succession plan, the notification and replacement process is managed reactively — with significant governance and regulatory risk if the vacancy falls during a peak compliance period." }
+    ]
+  },
+  {
+    "id": "53",
+    "scheduledDate": "2026-12-08",
+    "queueStatus": "pending",
+    "title": "What MAS's Outsourcing Guidelines Actually Require the Board to Own — Not Just Procurement",
+    "summary": "MAS's outsourcing guidelines for financial institutions are framed as operational requirements. Boards treat them as procurement and IT matters. That framing is wrong, and the gap between what the guidelines require of boards and what most Singapore boards actually do on outsourcing governance is significant.",
+    "category": "Regulation",
+    "readingTime": "6 min read",
+    "date": "December 2026",
+    "status": "published",
+    "slug": "mas-outsourcing-guidelines-insurer-board-oversight",
+    "keywords": ["MAS outsourcing guidelines insurer board oversight", "Singapore financial institution outsourcing governance", "MAS outsourcing policy board Singapore"],
+    "relatedSlugs": ["mas-regulatory-advisor-singapore", "board-risk-committee-singapore", "mas-notice-126-insurance-boards"],
+    "body": [
+      { "type": "paragraph", "text": "MAS's outsourcing guidelines — Monetary Authority of Singapore Guidelines on Outsourcing (MAS-G01), applicable to MAS-regulated financial institutions including banks, insurers, and capital markets intermediaries — place specific governance obligations on the board and senior management, not just on the procurement or technology teams that manage vendor relationships day-to-day." },
+      { "type": "paragraph", "text": "The guidelines require: board approval of the outsourcing policy; board oversight of the outsourcing risk framework; and board-level accountability for ensuring that material outsourcing arrangements do not impair MAS's ability to supervise the institution or the institution's ability to meet its regulatory obligations. These are not aspirational governance standards — they are requirements that MAS can and does test during thematic reviews and supervisory engagements." },
+      { "type": "heading", "text": "What most boards actually do" },
+      { "type": "paragraph", "text": "In practice, most Singapore financial institution boards approve an outsourcing policy at inception and then receive periodic summary reports on the outsourcing register — vendor names, service categories, and a RAG status. What they do not typically do is engage with the governance questions behind the register: whether the institution's dependency on specific vendors has grown beyond what the original policy envisioned; whether business continuity plans for critical outsourced services have been tested within the last 12 months; and whether the institution's right to audit its material service providers is actually exercised, or simply documented." },
+      { "type": "pullquote", "text": "An outsourcing register that the board notes annually is not outsourcing governance. It is a list that someone maintains." },
+      { "type": "heading", "text": "What board-level outsourcing governance actually requires" },
+      { "type": "list", "items": [
+        "Annual board review of the outsourcing policy, with specific attention to whether material outsourcing concentrations have developed — single-vendor dependencies, geographic concentrations, or cloud provider concentrations that the original policy did not anticipate",
+        "A board-approved definition of 'material outsourcing' that the institution applies consistently — MAS's guidelines require this, and the definition should be reviewed as the institution's operating model evolves",
+        "Board awareness of audit rights: for each material outsourced service, has the institution exercised its contractual right to audit or receive independent assurance reports in the last 12 months? If not, why not?",
+        "A tested business continuity plan for each material outsourced service — not a plan on paper, but one that has been exercised with management and whose results have been reported to the board"
+      ]},
+      { "type": "paragraph", "text": "The boards that handle outsourcing governance well are those that have translated the MAS guidelines into a set of specific, answerable questions that management addresses in its annual outsourcing governance report. That report does not need to be long. It needs to demonstrate that the board's oversight is substantive — that it is asking about vendor concentration, audit exercise, and BCP testing, not just reviewing a list." }
+    ],
+    "faqs": [
+      { "question": "What do MAS's outsourcing guidelines require of Singapore insurance boards?", "answer": "MAS's outsourcing guidelines require the board to approve the institution's outsourcing policy, maintain oversight of the outsourcing risk framework, and ensure material outsourcing arrangements do not impair MAS's supervisory access or the institution's regulatory obligations. These requirements apply to all MAS-regulated financial institutions including insurers." },
+      { "question": "What is a material outsourcing arrangement under MAS guidelines?", "answer": "MAS defines material outsourcing as arrangements where disruption or failure of the service provider would significantly impact the institution's business operations, reputation, or ability to meet regulatory obligations. Each institution must maintain its own definition of material outsourcing in its approved policy, applied consistently across its vendor register." }
+    ]
+  },
+  {
+    "id": "54",
+    "scheduledDate": "2026-12-15",
+    "queueStatus": "pending",
+    "title": "AI Model Risk Is Different from AI Governance — Singapore Insurance Boards Are Conflating the Two",
+    "summary": "MAS's guidance on AI governance in financial services sets expectations at the board and senior management level. AI model risk governance — the specific discipline of validating, monitoring, and controlling the risk in individual AI models — sits below that level and is a technical management responsibility. Conflating the two leaves boards asking the wrong questions and missing the ones that matter.",
+    "category": "Technology Risk",
+    "readingTime": "6 min read",
+    "date": "December 2026",
+    "status": "published",
+    "slug": "ai-model-risk-governance-insurance-singapore",
+    "keywords": ["AI model risk governance insurance Singapore", "MAS AI governance Singapore boards", "AI model validation Singapore insurer"],
+    "relatedSlugs": ["ai-governance-insurance-singapore", "board-risk-committee-singapore", "mas-regulatory-advisor-singapore"],
+    "body": [
+      { "type": "paragraph", "text": "Since MAS published its updated Principles for the Use of Artificial Intelligence in Finance (the Fairness, Ethics, Accountability, and Transparency or FEAT framework), Singapore insurance boards have been asked to demonstrate that AI governance is on the board's agenda. Many have responded by adding AI to the board risk committee's scope, receiving a periodic briefing on the institution's AI strategy, and approving a high-level AI governance policy. That is AI governance — broad accountability at the board level for the principles and oversight framework within which AI is deployed." },
+      { "type": "paragraph", "text": "AI model risk is different. It is the specific discipline of identifying, measuring, and controlling the risk embedded in individual AI models — the risk that a model produces incorrect outputs, behaves unexpectedly under different conditions, or degrades over time as the data environment it was trained on diverges from the real world in which it operates. For insurance, the most consequential model risks are in pricing, underwriting, claims fraud detection, and reserving — areas where model failure has direct financial and regulatory consequences." },
+      { "type": "heading", "text": "Why the conflation matters" },
+      { "type": "paragraph", "text": "When boards treat AI model risk as the same as AI governance, they ask governance questions about model risk — 'Do we have an AI policy? Is AI on the risk committee agenda? Have we briefed the board?' — and miss the model risk questions that actually protect the institution — 'What is the model validation regime for each model in production? Who is responsible for monitoring model performance against its validation benchmarks? What is the escalation threshold for model drift, and when was it last triggered?'" },
+      { "type": "pullquote", "text": "A board that has approved an AI governance policy but has never asked about model validation has ticked the governance box and left the risk unexamined." },
+      { "type": "heading", "text": "What boards should ask about AI model risk" },
+      { "type": "list", "items": [
+        "What is the institution's model inventory — how many models are currently in production, what decisions do they inform, and are they all within the scope of the model risk framework?",
+        "For each model classified as high-risk (pricing, underwriting, reserving, fraud), what is the validation status and when was the last independent validation?",
+        "What is the model performance monitoring regime — are models being tested against their expected output range continuously, and what triggers a mandatory re-validation?",
+        "Has the institution had any model risk events — instances where a model produced materially incorrect outputs that were acted upon — in the last 12 months? If yes, what was the board told, and what changed as a result?"
+      ]},
+      { "type": "paragraph", "text": "These are not questions that require the board to understand the technical details of machine learning. They are governance questions about whether the institution has a functioning model risk management system — one that identifies models, validates them, monitors them, and escalates when they misbehave. A board that asks these questions and receives specific, documented answers is governing AI model risk. A board that approves an AI policy and receives a quarterly strategy update is governing AI governance. Both matter. Only the first protects against model failure." }
+    ],
+    "faqs": [
+      { "question": "What is AI model risk in Singapore insurance?", "answer": "AI model risk refers to the risk that an AI model used in insurance — for pricing, underwriting, claims fraud detection, or reserving — produces incorrect, biased, or degraded outputs. It is distinct from AI governance, which covers the broader principles and accountability framework for AI deployment. Model risk management includes model inventory, independent validation, performance monitoring, and escalation frameworks for model drift or failure." },
+      { "question": "What does MAS require of Singapore insurance boards on AI governance?", "answer": "MAS's FEAT principles require boards and senior management of MAS-regulated financial institutions to maintain oversight of AI use, ensure AI is deployed fairly, ethically, with accountability and transparency, and that the institution has adequate governance structures in place. MAS has indicated that AI governance will be a focus area in supervisory reviews of financial institutions from 2026 onwards." }
+    ]
+  }
+]
