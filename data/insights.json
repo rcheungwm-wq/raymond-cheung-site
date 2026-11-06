@@ -2132,8 +2132,8 @@
   },
   {
     "id": "18",
-    "title": "The ORSA as a Strategic Tool: What Singapore Insurance Boards Are Missing",
-    "summary": "The Own Risk and Solvency Assessment is one of the most governance-valuable documents an insurance organisation produces, and one of the most underused at board level. Here is how to change that.",
+    "title": "ORSA for Singapore Insurance Boards: What MAS Expects and What Most Boards Miss",
+    "summary": "The Own Risk and Solvency Assessment is a MAS requirement for Singapore insurers, but most boards treat it as an actuarial exercise rather than a strategic tool. Here is what MAS looks for in the ORSA process and where most boards fall short.",
     "category": "Insurance Capital",
     "readingTime": "6 min read",
     "date": "July 2026",
@@ -2143,7 +2143,10 @@
     "keywords": [
       "ORSA Singapore insurance",
       "insurance capital governance Singapore",
-      "CRO advisory Singapore insurance"
+      "CRO advisory Singapore insurance",
+      "own risk and solvency assessment Singapore",
+      "ORSA MAS Singapore",
+      "ORSA insurance board Singapore"
     ],
     "body": [
       {
@@ -2186,6 +2189,34 @@
       {
         "type": "paragraph",
         "text": "If your board is receiving an ORSA summary that does not enable any of those conversations, it is worth asking for a different format. The technical team can produce it. They often need to be asked."
+      },
+      {
+        "type": "heading",
+        "text": "What MAS Looks for in the Singapore Insurer ORSA Process"
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS expects the ORSA to be a genuine board-level exercise, not a report produced by the actuarial team and noted by the board. The key markers MAS looks for include: board engagement in setting the risk appetite that the ORSA tests against, forward-looking stress scenarios that go beyond regulatory minimums, and a clear linkage between ORSA findings and strategic decisions. Where the ORSA is treated as a compliance output rather than a decision input, MAS has flagged it in supervisory engagements."
+      },
+      {
+        "type": "heading",
+        "text": "Three Areas Where Singapore Insurance Boards Consistently Fall Short on ORSA"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Stress scenarios are too mild and too narrowly defined. MAS expects scenarios that test the insurer under conditions that would genuinely threaten solvency, not just scenarios that stress-test against a mild downturn.",
+          "The board approves the ORSA report without having shaped the risk appetite it tests against. If the board is approving a completed document rather than engaging in the design of the exercise, the ORSA is not achieving its purpose.",
+          "ORSA findings are not feeding back into strategy and capital planning. If the board cannot point to a decision it changed or a capital action it took in response to the ORSA, MAS will question whether the exercise is genuine."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "How the ORSA Connects to MAS's Broader Insurance Governance Expectations"
+      },
+      {
+        "type": "paragraph",
+        "text": "The ORSA sits within MAS's broader framework for insurance board governance. It connects to the board's responsibilities under MAS Notice 126 for the ERM framework and risk appetite, to the requirements of the RBC2 capital framework, and to what MAS expects from the board risk committee. Boards that treat the ORSA as a standalone regulatory deliverable miss the point. It is the mechanism through which the board demonstrates that it understands the insurer's risk profile and can make informed decisions about capital and strategy under uncertainty."
       }
     ],
     "faqs": [
@@ -2196,6 +2227,22 @@
       {
         "question": "How should a Singapore insurance board use the ORSA?",
         "answer": "The board should engage with the stress test scenarios, not just the base case compliance conclusion,and connect ORSA outputs to strategic decisions including dividend proposals, growth plans, reinsurance structure, and asset allocation. The ORSA's value is as a strategic governance tool, not only a regulatory deliverable."
+      },
+      {
+        "question": "What is an Own Risk and Solvency Assessment (ORSA)?",
+        "answer": "An Own Risk and Solvency Assessment (ORSA) is a process required by MAS for Singapore-licensed insurers under RBC2. It requires the insurer to assess its risk profile, test whether its capital is adequate under stress scenarios, and link those findings to strategic planning. The ORSA is a board responsibility, not an actuarial deliverable."
+      },
+      {
+        "question": "What does MAS require from the ORSA process for Singapore insurers?",
+        "answer": "MAS requires the ORSA to be a genuine board-level exercise with meaningful stress scenarios, clear linkage to the risk appetite the board has set, and demonstrable impact on strategic and capital decisions. MAS expects the board to have shaped the exercise, not simply approved a finished report produced by management."
+      },
+      {
+        "question": "How often must Singapore insurers conduct an ORSA?",
+        "answer": "MAS requires Singapore insurers to conduct the ORSA at least annually, and also following any material change in the insurer's risk profile. The board should determine whether circumstances warrant an ad hoc ORSA rather than waiting for the annual cycle."
+      },
+      {
+        "question": "What is the difference between the ORSA and the MAS regulatory solvency assessment?",
+        "answer": "The regulatory solvency assessment is a backward-looking calculation of whether the insurer meets MAS's minimum capital requirements at a point in time. The ORSA is forward-looking: it asks whether the insurer's own view of its risk profile suggests it has adequate capital to meet its strategic objectives under a range of scenarios. The ORSA should be more demanding than the regulatory minimum, not a restatement of it."
       }
     ]
   },
@@ -2269,8 +2316,8 @@
   },
   {
     "id": "20",
-    "title": "What Makes an ESG Adviser Useful to a Singapore Board",
-    "summary": "Most ESG advisers in Singapore help boards produce better sustainability reports. A genuinely useful ESG adviser does something harder, they help the board ask better questions, challenge management's framing, and connect sustainability to the decisions the board is actually making.",
+    "title": "ESG Advisor Singapore: What ESG Advisory Actually Means for Your Board",
+    "summary": "An ESG advisor in Singapore can mean many things, from sustainability report preparation to board-level governance advisory. Here is what ESG advisory means in practice, what different ESG advisors do, and what Singapore boards should expect from an engagement.",
     "category": "ESG",
     "readingTime": "7 min read",
     "date": "September 2026",
@@ -2280,9 +2327,20 @@
     "keywords": [
       "ESG advisor Singapore",
       "ESG governance Singapore boards",
-      "sustainability adviser Singapore board"
+      "sustainability adviser Singapore board",
+      "esg advisory meaning",
+      "esg advisors Singapore",
+      "esg advisory Singapore"
     ],
     "body": [
+      {
+        "type": "heading",
+        "text": "What Is ESG Advisory?"
+      },
+      {
+        "type": "paragraph",
+        "text": "ESG advisory is specialist guidance provided to organisations on environmental, social and governance matters. In Singapore, the term covers a broad range: some ESG advisors help companies prepare sustainability reports under SGX disclosure requirements, others support boards with governance gap assessments, materiality analysis, and stakeholder engagement strategy. The scope of an ESG advisory engagement varies considerably by provider and mandate, which is why understanding what is and is not included matters before appointing one."
+      },
       {
         "type": "paragraph",
         "text": "A genuinely useful ESG adviser to a Singapore board does something different from producing a well-structured sustainability report: they help the board challenge management's ESG framing, identify governance gaps the sustainability team cannot see from inside the function, and connect ESG risk to the capital allocation and strategic decisions the board is actually making. Singapore boards are now required under SGX's FY2026 sustainability reporting framework to provide a board statement on governance structures for sustainability, a requirement that is substantive, not boilerplate: directors need to be able to explain how material ESG factors were identified and how the board exercised oversight rather than simply ratified a management document. As a board adviser with actuarial training and experience advising MAS-regulated entities on risk governance, I approach ESG advisory from the governance layer, working for the board's benefit rather than for management's compliance function. Most ESG advisers in Singapore are valuable for what they are: sustainability reporting consultants. The question for a board is whether it also has someone whose job is to tell the board what the report is not saying."
@@ -2369,6 +2427,18 @@
       {
         "question": "Is there a difference between an ESG consultant and an ESG adviser for Singapore boards?",
         "answer": "In practice, yes. An ESG consultant typically helps management teams with sustainability reporting, framework compliance, and disclosure quality. An ESG adviser working at board level helps directors challenge management's ESG framing, identify governance gaps, and demonstrate credible oversight of sustainability risk. Singapore boards increasingly need the latter as SGX and MAS requirements shift from disclosure to governance accountability."
+      },
+      {
+        "question": "What is ESG advisory?",
+        "answer": "ESG advisory is guidance provided by specialists to organisations on environmental, social and governance matters. In Singapore, this ranges from sustainability report preparation to board-level governance advisory and materiality assessments. The scope varies by provider, so it is important to clarify what a specific ESG advisory engagement will cover before appointing an adviser."
+      },
+      {
+        "question": "What do ESG advisors do?",
+        "answer": "ESG advisors in Singapore typically provide some combination of the following: sustainability disclosure support under SGX requirements, board ESG governance advisory, ESG risk and materiality assessments, stakeholder engagement support, and climate-related financial disclosure preparation. Some advisors focus on a single area; others provide end-to-end support across the full ESG spectrum."
+      },
+      {
+        "question": "What ESG advice do Singapore boards need?",
+        "answer": "Singapore boards need ESG advice that is governance-focused, not just disclosure-focused. That means help understanding which ESG risks are material to the business, how to integrate ESG into strategy and risk oversight, what disclosure obligations apply and when, and how board committees should be structured to provide effective ESG oversight. Generic sustainability reporting support is a starting point, not a substitute for board-level ESG governance advisory."
       }
     ]
   },
@@ -2587,8 +2657,8 @@
   },
   {
     "id": "24",
-    "title": "MAS Notice 126: What Your Singapore Insurance Board Is Personally Responsible For (Not Just Management)",
-    "summary": "Singapore's MAS Notice 126 does not sit with the CRO or the risk team. It places the ERM framework, risk appetite statement and ORSA report directly with the board. Most directors do not realise how personally exposed they are if submissions are weak or the board's minutes show passive acceptance. This is the read from inside the CRO chair — what the Notice requires, where most boards fall short, and the specific questions MAS will ask.",
+    "title": "MAS Notice 126: What Singapore Insurance Directors Are Personally Responsible For",
+    "summary": "MAS Notice 126 places the ERM framework, risk appetite, and ORSA directly on the Singapore insurance board, not management. Here is what personal director exposure looks like under Singapore insurance governance rules, and where most directors fall short.",
     "category": "Enterprise Risk",
     "readingTime": "9 min read",
     "date": "September 2026",
@@ -4125,8 +4195,8 @@
   },
   {
     "id": "44",
-    "title": "MAS's Corporate Governance Guidelines for Insurers: What They Actually Change for a Board",
-    "summary": "MAS's Guidelines on Corporate Governance for designated financial holding companies, banks, and insurers incorporated in Singapore, most recently touched by the Notice 106 amendment effective 30 May 2026,are not a checklist a company secretary files quietly. They reach into remuneration oversight of material risk takers, mandatory documentation of independent directors' dissent, and related-party transaction oversight in ways most insurer boards still treat as compliance rather than governance.",
+    "title": "MAS Corporate Governance Guidelines for Singapore Insurers: What They Require from Directors",
+    "summary": "MAS's Corporate Governance Guidelines for Singapore insurers reach into remuneration of material risk takers, mandatory documentation of dissent, and related-party oversight. Most boards still treat these as compliance tasks rather than director obligations.",
     "category": "Regulation",
     "readingTime": "8 min read",
     "date": "September 2026",
@@ -4209,8 +4279,8 @@
   },
   {
     "id": "45",
-    "title": "What MAS's Agentic AI Guardrails Mean for Every Singapore Board, Not Just Banks",
-    "summary": "MAS's Managing Director used his 11 September 2026 Global FinTech Fest address to put SAFR, the industry framework for governing autonomous AI agents in finance,back in front of the market, alongside a sixfold rise in high-severity vulnerabilities this year. For boards outside the banks and fintechs that co-authored it, that repetition is the signal worth reading, not the framework itself.",
+    "title": "MAS's Agentic AI Guardrails: What Singapore Boards Outside Banking Need to Know",
+    "summary": "MAS's MD cited SAFR and a sixfold rise in AI vulnerabilities at FinTech Fest 2026. For Singapore boards outside banking and fintech, agentic AI is arriving faster than governance frameworks. Here is what every board needs to understand before it does.",
     "category": "Technology Risk",
     "readingTime": "4 min read",
     "date": "September 2026",
@@ -4637,8 +4707,8 @@
   },
   {
     "id": "52",
-    "title": "MAS Has Made It Easier to Register a Singapore Family Office. That Is Not the Same as Governing One.",
-    "summary": "MAS's notification-based class exemption for single family offices, in force since 15 June 2026, has removed the last real regulatory friction from operating an SFO in Singapore. What it has not changed is the governance challenge: a structure that answers primarily to one family, with no independent directors and no separation between beneficial ownership and investment decision-making, is a governance problem by design. Having a Singapore-resident employee is not governance. It is a regulatory contact point.",
+    "title": "Single Family Office Governance in Singapore: The Documents Every SFO Needs",
+    "summary": "MAS's Section 13O and 13U exemptions require a minimum governance framework for Singapore single family offices. Most SFOs have the basic structure but are missing key governance documents. Here is what an SFO board actually needs in place and why each document matters.",
     "category": "Governance",
     "readingTime": "7 min read",
     "date": "September 2026",
@@ -4648,7 +4718,9 @@
     "keywords": [
       "single family office governance Singapore",
       "SFO governance Singapore MAS 2026",
-      "family office investment committee Singapore"
+      "family office investment committee Singapore",
+      "SFO governance documents Singapore",
+      "MAS family office governance requirements"
     ],
     "body": [
       {
@@ -4713,6 +4785,35 @@
       {
         "type": "paragraph",
         "text": "MAS has made Singapore a genuinely excellent place to operate a family office. The ease of the new framework is a real advantage. What the principals who come here need to understand is that the ease of registration does not transfer to ease of governance. The governance work is theirs to do, and the window to do it properly is while the principal is capable and engaged, not after."
+      },
+      {
+        "type": "heading",
+        "text": "The Four Governance Documents Every Singapore SFO Needs"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Investment Policy Statement (IPS): The IPS defines the investment objectives, risk tolerance, asset allocation ranges, and prohibited investments for the family's assets. Without a formal IPS, the investment committee has no documented mandate and the board has no basis on which to evaluate whether investment decisions are within scope.",
+          "Investment Committee Charter: The IC Charter sets out the composition, quorum, decision-making authority, and reporting lines of the investment committee. MAS expects to see that the investment function is governed, not just managed, and a clear IC Charter is the foundation of that governance.",
+          "Related Party Transaction Policy: SFOs regularly transact with family-connected entities. Without a documented RPT policy, there is no process for identifying conflicts of interest, no approval threshold for RPTs, and no audit trail demonstrating that transactions were on arms-length terms.",
+          "Succession Plan: MAS expects Singapore SFOs to have considered succession across both the family principal and key management. A succession plan should address who makes investment decisions if the principal is incapacitated, how management continuity is maintained, and what the governance transition looks like."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "What MAS Reviews When It Visits a Singapore SFO"
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS's reviews of Singapore SFOs under the Section 13O and 13U frameworks typically look at whether the SFO is genuinely managing assets for the family and not acting as a fund manager for external clients, whether the AUM and local investment thresholds are being met, and whether the governance framework is substantive rather than cosmetic. That means reviewing the IPS, IC Charter, and board minutes for evidence of actual governance oversight, not just approvals. SFOs that cannot produce these documents or whose documents are templates with no evidence of active use are at risk of losing their exemption."
+      },
+      {
+        "type": "heading",
+        "text": "Investment Committee Structure for Singapore SFOs"
+      },
+      {
+        "type": "paragraph",
+        "text": "The investment committee is the governance mechanism through which investment decisions are made and overseen. For a Singapore SFO, the IC typically comprises the family principal, one or more family members, and in many cases an independent external adviser. The IC Charter should specify the minimum number of members required for a quorum, what decisions require full IC approval versus delegated authority, how conflicts of interest are managed, and how decisions are recorded. MAS does not prescribe IC structure but expects to see that it functions as a genuine oversight body."
       }
     ],
     "faqs": [
@@ -4731,13 +4832,21 @@
       {
         "question": "What is the transition deadline for existing Singapore family offices under the June 2026 MAS framework?",
         "answer": "Existing SFOs operating in Singapore have until 15 June 2027 to comply with the revised notification-based framework. Their existing exemptions, whether the related-corporation exemption or a bespoke case-by-case arrangement,will be withdrawn either when they file their initial notification to MAS or at the end of the one-year transition period, whichever comes first. SFOs that have not yet assessed whether they qualify under the new framework and what they need to file should do so promptly."
+      },
+      {
+        "question": "What governance documents does a Singapore single family office need?",
+        "answer": "A Singapore single family office operating under MAS's Section 13O or 13U exemption should have at minimum: an Investment Policy Statement setting out investment objectives and risk tolerance, an Investment Committee Charter defining how investment decisions are made and by whom, a Related Party Transaction Policy for managing transactions with family-connected entities, and a Succession Plan for both the family principal and key management. These documents provide the governance framework MAS expects to see when it reviews an SFO's operations."
+      },
+      {
+        "question": "What should a Singapore SFO investment committee structure look like?",
+        "answer": "A Singapore SFO investment committee typically comprises the family principal, relevant family members, and may include an independent external adviser. The IC Charter should specify quorum requirements, the scope of investment decisions requiring IC approval versus those that can be delegated, the process for managing conflicts of interest, and how decisions are documented. The key requirement is that the IC functions as a genuine governance body, with minutes that reflect real deliberation rather than simply recording approvals after the fact."
       }
     ]
   },
   {
     "id": "50",
-    "title": "Cyber Trust Mark Level 5 (CTM): What Singapore Boards of Critical Infrastructure Owners Must Own",
-    "summary": "Since 2 March 2026, boards of Critical Information Infrastructure (CII) owners in Singapore must complete annual cybersecurity training and receive regular threat briefings under the updated Cybersecurity Act. Cyber Trust Mark Level 5 (CTM Level 5 / CTM Tier 5) is the highest certification tier — mandatory for CII owners, and a direct board governance obligation, not a CISO milestone. Here is what the requirement actually means for a director's duties and what most boards are still missing.",
+    "title": "Cyber Trust Mark Level 5: What It Means for Singapore Boards",
+    "summary": "Cyber Trust Mark Level 5 is mandatory for Singapore critical infrastructure boards since March 2026, as a director obligation and not a CISO project. Here is what it actually requires and where most boards fall short of what MAS expects.",
     "category": "Technology Risk",
     "readingTime": "7 min read",
     "date": "September 2026",
@@ -5214,6 +5323,14 @@
       {
         "question": "What should a Singapore insurance board ask about its exit strategies for outsourced services?",
         "answer": "Ask whether each exit strategy has been reviewed against the current operational state of the arrangement, not just the design-time document, and whether the board could actually execute it under adverse rather than benign conditions. Specifically: has the service become more embedded since the strategy was written, has the number of credible substitute providers changed, and has the contractual switching mechanism been tested rather than assumed? MAS requires exit strategies for material arrangements, but requires ones that work in practice, not ones that satisfy a documentation standard."
+      },
+      {
+        "question": "What counts as material outsourcing under MAS guidelines?",
+        "answer": "Under MAS's outsourcing guidelines, an outsourcing arrangement is material if disruption or failure of the service provider would significantly impact the financial institution's business operations, reputation, or ability to meet regulatory obligations. This includes core banking systems, customer data processing, and critical IT infrastructure. MAS expects boards to have approved a list of material outsourcing arrangements and to receive regular reporting on their status and performance."
+      },
+      {
+        "question": "How does third-party risk management differ from the MAS outsourcing guidelines?",
+        "answer": "The MAS outsourcing guidelines apply specifically to arrangements where a third party performs a function that the financial institution would otherwise carry out itself, with the institution retaining accountability for the outcome. Third-party risk management (TPRM) is broader: it covers all third-party relationships, including vendor arrangements that do not meet the definition of outsourcing. Under MAS TRM guidelines, insurers must have a TPRM framework that addresses the full universe of third-party relationships, while the outsourcing guidelines set specific requirements for the material subset."
       }
     ]
   },
@@ -5482,9 +5599,20 @@
       "technology risk management guidelines Singapore insurer",
       "MAS TRM guidelines board oversight",
       "MAS Notice 127 insurance board",
-      "board technology risk governance Singapore"
+      "board technology risk governance Singapore",
+      "MAS technology risk management guidelines 2021",
+      "what are MAS TRM guidelines",
+      "MAS TRM guidelines Singapore insurers"
     ],
     "body": [
+      {
+        "type": "heading",
+        "text": "What Are MAS's Technology Risk Management Guidelines?"
+      },
+      {
+        "type": "paragraph",
+        "text": "MAS's Technology Risk Management (TRM) Guidelines set out MAS's expectations for how Singapore financial institutions should manage technology risk. First issued in 2003 and most recently updated in January 2021, the guidelines cover board and senior management oversight of technology risk, the management of cyber risk and IT resilience, software and patch management, access controls, and the oversight of technology service providers. The 2021 update significantly expanded the scope of cyber risk management requirements and introduced new expectations on adversarial attack simulations and software supply chain security. For Singapore insurers, the TRM guidelines apply alongside MAS's Notice on Business Continuity Management and the MAS outsourcing guidelines."
+      },
       {
         "type": "paragraph",
         "text": "I was in a Singapore insurer's board risk committee meeting when the CIO presented the annual TRM attestation package. Forty-three pages. The board approved it in nine minutes. The only question from the floor was whether the company was compliant. The CIO said yes. The chair nodded. The board moved to the next agenda item. Nobody asked what the company's technology risk appetite was, whether it had been breached in the past year, whether the CISO had escalated anything that had not reached the board, or what the most significant technology risk the insurer would face in the next twelve months actually was. The attestation was signed. The governance was not done."
@@ -5578,6 +5706,14 @@
       {
         "question": "How often should technology risk be reported to the board of a Singapore insurer?",
         "answer": "MAS's TRM guidelines require technology risk reporting to the board at 'reasonable frequency' -- the guidelines do not specify a minimum. Best practice for a Singapore insurance board is a dedicated TRM agenda item at least twice per year, with the CISO attending to present directly to the board rather than through the CIO reporting line. Material technology incidents should be escalated to the board on an ad hoc basis rather than waiting for the scheduled reporting cycle. The annual attestation alone is not sufficient as the primary vehicle for board oversight of technology risk."
+      },
+      {
+        "question": "What are MAS's TRM guidelines?",
+        "answer": "MAS's Technology Risk Management (TRM) Guidelines are supervisory expectations that apply to all MAS-regulated financial institutions in Singapore, including insurers. They cover board and senior management responsibility for technology risk, cyber risk management, IT resilience and business continuity, access controls, software management, and third-party technology risks. The guidelines are not legally binding in the same way as MAS Notices but represent MAS's clear expectations and are assessed during supervisory reviews."
+      },
+      {
+        "question": "When were the MAS TRM guidelines last updated?",
+        "answer": "MAS's TRM guidelines were most recently updated in January 2021, following a consultation that began in 2019. The 2021 update expanded requirements on cyber risk management, introduced expectations on adversarial attack simulations (such as TLPT and red-team exercises), strengthened software supply chain security requirements, and updated guidance on cloud adoption. MAS has indicated that further updates may follow as the technology risk landscape evolves."
       }
     ]
   },
@@ -5655,8 +5791,8 @@
   },
   {
     "id": "68",
-    "title": "Your Insurer Has One Hour to Tell MAS About a Breach. Is Your Board Ready to Move That Fast?",
-    "summary": "Singapore insurers face some of the tightest incident notification timelines in the region: one hour to notify MAS of a relevant incident under Notice 127, concurrent MAS notification of any breach reported to the PDPC, and three days to notify the PDPC once a breach is assessed as notifiable. Most boards have approved a breach response plan. Very few have tested whether the board itself can make decisions at that speed. This is what data breach notification governance actually requires of a Singapore insurance board.",
+    "title": "One Hour to Tell MAS About a Breach: Is Your Singapore Insurance Board Ready?",
+    "summary": "Singapore insurers must notify MAS within one hour and the PDPC within three days of a notifiable data breach. Most boards have approved a plan. Very few have tested whether the board can move that fast. Here is what data breach governance actually requires.",
     "category": "Technology Risk",
     "readingTime": "7 min read",
     "date": "October 2026",
@@ -6520,7 +6656,7 @@
   {
     "id": "77",
     "title": "What MAS's FIDReC Proposal Means for Singapore Payment Firm Boards",
-    "summary": "MAS's 16 October 2026 consultation would require Singapore payment institutions, and later stablecoin issuers, to join FIDReC. For boards of payment firms, an independent disputes body turns customer complaints from an operations metric into a governance signal the board will be judged on.",
+    "summary": "MAS's October 2026 consultation would add Singapore payment institutions to FIDReC. For boards, that turns customer complaints from an operations metric into a governance signal, one the board will be held accountable for by an independent body.",
     "category": "Regulation",
     "readingTime": "3 min read",
     "date": "October 2026",
@@ -6729,8 +6865,8 @@
   },
   {
     "id": "79",
-    "title": "What SGX RegCo's Haze Queries Mean for Singapore Boards",
-    "summary": "SGX RegCo's 16 October 2026 queries to Indonesia-based agri issuers on the haze asked whether their own activities contributed. For Singapore boards, environmental incidents are now a continuous disclosure question, not just a sustainability report item.",
+    "title": "What SGX RegCo's Haze Queries Mean for Singapore Boards on Environmental Disclosure",
+    "summary": "SGX RegCo asked Indonesia-based agri issuers whether their own activities contributed to the haze. For Singapore boards, that changes what environmental incidents require: continuous disclosure obligations, not just sustainability report footnotes.",
     "category": "ESG",
     "readingTime": "3 min read",
     "date": "October 2026",
@@ -6938,8 +7074,8 @@
   },
   {
     "id": "81",
-    "title": "What MAS's Complaints Management Paper Means for Singapore Boards",
-    "summary": "MAS's 20 October 2026 information paper found banks and insurers have basic complaints arrangements in place but board oversight is uneven. Complaint patterns are a governance signal, not a volume table.",
+    "title": "What MAS Found Missing in Singapore Board Oversight of Customer Complaints",
+    "summary": "MAS's October 2026 review found Singapore banks and insurers have complaints processes but board oversight is uneven. Complaint patterns signal where conduct risk is building. Here is what the board should be seeing and acting on.",
     "category": "Governance",
     "readingTime": "3 min read",
     "date": "October 2026",
@@ -7800,6 +7936,121 @@
       {
         "question": "What is Scope 3 emissions reporting and why is it harder than Scope 1 and 2?",
         "answer": "Scope 3 covers all indirect emissions across a company's value chain — from supply chain emissions upstream to product-use emissions downstream. It is harder than Scope 1 and 2 because it relies on third-party supplier data, estimated emission factors, and methodology choices that significantly affect the total. For most companies, Scope 3 represents the majority of total emissions, making it both the most material and the most uncertain component."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "slug": "esg-advisory-meaning-singapore-boards",
+    "title": "What Is ESG Advisory? A Practical Guide for Singapore Boards",
+    "summary": "ESG advisory in Singapore covers everything from sustainability report preparation to board-level governance challenge. Here is what the term actually means, what different types of ESG advisers do, and what a Singapore board should be looking for.",
+    "datePublished": "2026-11-06",
+    "status": "published",
+    "category": "ESG",
+    "tags": [
+      "ESG",
+      "Board Governance",
+      "Singapore",
+      "Sustainability"
+    ],
+    "keywords": [
+      "esg advisory meaning",
+      "esg advisors Singapore",
+      "esg advice Singapore boards",
+      "ESG advisory Singapore",
+      "what is ESG advisory"
+    ],
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "ESG advisory is one of the fastest-growing professional services categories in Singapore, but it is also one of the most loosely defined. The term is used by sustainability consultants, governance advisers, risk specialists, and financial advisers to describe very different scopes of work. For a Singapore board trying to decide whether it needs an ESG adviser and what kind, the lack of a standard definition creates real difficulty. This guide explains what ESG advisory actually means, what different categories of ESG adviser do, and what a Singapore board should be looking for."
+      },
+      {
+        "type": "heading",
+        "text": "What Does ESG Advisory Mean?"
+      },
+      {
+        "type": "paragraph",
+        "text": "ESG advisory refers to guidance provided by external specialists to organisations on environmental, social and governance matters. At its broadest, it covers any advice that helps an organisation understand, manage, or report on ESG-related risks and opportunities. In practice, the scope varies widely. Some ESG advisers focus almost entirely on sustainability disclosure, helping companies meet SGX or ISSB reporting requirements. Others provide strategic ESG counsel, working with boards on how to integrate ESG into strategy, risk oversight, and stakeholder engagement. Understanding which type of adviser is relevant to your situation is the first step."
+      },
+      {
+        "type": "heading",
+        "text": "Three Categories of ESG Adviser in Singapore"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sustainability reporting advisers help companies prepare sustainability reports under SGX disclosure requirements, TCFD frameworks, and increasingly ISSB standards. They are strong on data collection, disclosure format, and materiality assessment. Their focus is the report.",
+          "ESG risk and governance advisers focus on the board and senior management level. They help organisations understand which ESG risks are material, how to integrate ESG into the risk framework, and how to structure board oversight of ESG. Their focus is governance and decision-making.",
+          "ESG rating and investor relations advisers help companies improve their scores with ESG rating agencies and communicate their ESG story to investors. Their focus is the external perception of ESG performance."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "What ESG Advisory Is Not"
+      },
+      {
+        "type": "paragraph",
+        "text": "ESG advisory is not the same as corporate social responsibility (CSR) programme management, though the two are often confused. CSR is about philanthropic and community activities. ESG advisory is about how environmental, social and governance factors affect financial performance, risk, and long-term value creation. It is also not a one-time project. Genuine ESG advisory is an ongoing engagement that evolves as the regulatory landscape changes, as investor expectations develop, and as the company's own ESG maturity increases."
+      },
+      {
+        "type": "pullquote",
+        "text": "The question is not whether your company has an ESG report. The question is whether your board understands the ESG risks that could materially affect the business and has the information it needs to act on them."
+      },
+      {
+        "type": "heading",
+        "text": "What Singapore Boards Should Look for in an ESG Adviser"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Governance depth, not just reporting depth. Many ESG advisers are strong on sustainability disclosure but have limited experience advising boards on governance structure, risk committee design, and ESG risk integration.",
+          "Singapore regulatory knowledge. ESG in Singapore sits at the intersection of MAS guidelines, SGX listing rules, and emerging ISSB requirements. An adviser who knows the Singapore regulatory context will be more useful than a generalist sustainability consultant.",
+          "Independence from product sales. Some ESG advisers are attached to financial services firms with products to sell. This creates a conflict of interest when the adviser is also recommending ESG-linked investments or financing. Look for advisers who charge for advice, not for transactions.",
+          "Board-level communication skills. The board needs an adviser who can translate complex ESG concepts into clear governance implications, not someone who produces dense reports that sit unread."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "ESG Advisory and the Singapore Regulatory Context"
+      },
+      {
+        "type": "paragraph",
+        "text": "In Singapore, ESG advisory sits at the intersection of several regulatory frameworks. For SGX-listed companies, the SGX sustainability reporting requirements and the transition to ISSB-aligned disclosure create an immediate need for disclosure support. For MAS-regulated financial institutions, the MAS Guidelines on Environmental Risk Management (ENRM) set specific expectations for how climate and environmental risks are integrated into governance, risk management, and business strategy. For family offices and investment vehicles, MAS has signalled that ESG considerations are increasingly part of its supervisory expectations. An ESG adviser who understands this regulatory context will be significantly more useful than one who approaches ESG as a generic global practice."
+      },
+      {
+        "type": "heading",
+        "text": "How to Get Started with ESG Advisory for Your Singapore Board"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before appointing an ESG adviser, it is worth identifying which of the three categories above best describes what your board actually needs. If the primary driver is an upcoming SGX sustainability reporting deadline, a reporting adviser may be sufficient for the immediate need. If the board is concerned about ESG risks affecting the business, or if MAS has raised ESG governance expectations in a supervisory engagement, a governance-focused ESG adviser will add more value. The two do not have to be the same firm, and in many cases separating disclosure support from governance advisory produces better outcomes."
+      },
+      {
+        "type": "paragraph",
+        "text": "For Singapore boards looking for more on the specific advisory and governance considerations covered here, the post on ESG advisor selection for Singapore boards covers how to assess and appoint an ESG adviser in more detail. The post on sustainability reporting requirements for Singapore companies under SGX rules provides detail on the specific disclosure obligations that often trigger an ESG advisory engagement."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does ESG advisory mean?",
+        "answer": "ESG advisory is guidance provided by specialists to organisations on environmental, social and governance matters. In Singapore, the term covers a range from sustainability disclosure support to board-level ESG governance advisory. The scope varies considerably by provider: some advisers focus on reporting, others on governance and risk integration, and others on investor ESG communications."
+      },
+      {
+        "question": "What do ESG advisors do?",
+        "answer": "ESG advisors in Singapore provide guidance on some combination of the following: sustainability report preparation under SGX or ISSB requirements, board ESG governance design, ESG risk and materiality assessment, climate risk integration under MAS ENRM guidelines, stakeholder engagement strategy, and ESG investor communications. The most common engagement is sustainability disclosure support, but board-level ESG governance advisory is an increasingly important and distinct category."
+      },
+      {
+        "question": "What ESG advice do Singapore boards need?",
+        "answer": "Singapore boards need ESG advice that is governance-focused, not just reporting-focused. That means help understanding which ESG risks are material to the business, how to integrate ESG into the board's risk oversight framework, what disclosure obligations apply under SGX and MAS requirements, and how board committees should be structured to provide effective ESG oversight. Generic sustainability reporting support is a starting point, not a substitute for board-level ESG governance advisory."
+      },
+      {
+        "question": "Is ESG advisory the same as sustainability consulting?",
+        "answer": "Not exactly. Sustainability consulting typically refers to support with sustainability report preparation, ESG data collection, and disclosure under frameworks like GRI, TCFD, or ISSB. ESG advisory is a broader term that includes sustainability consulting but also covers board governance design, ESG risk management integration, climate risk strategy, and investor ESG communications. Many firms use the terms interchangeably, but it is worth asking any prospective adviser which of these areas their practice actually covers."
+      },
+      {
+        "question": "How do I find a good ESG advisor for a Singapore board?",
+        "answer": "Look for an adviser with demonstrated experience at board level, not just at the sustainability reporting or project management level. Check whether they have specific knowledge of Singapore's regulatory context, including SGX sustainability reporting rules, MAS ENRM guidelines, and the transition to ISSB disclosure standards. Ask for references from Singapore boards they have advised, not just companies they have helped prepare sustainability reports. Independence from financial product sales is also important: some ESG advisers are attached to firms with products to sell, which creates a conflict of interest in advisory work."
       }
     ]
   }
